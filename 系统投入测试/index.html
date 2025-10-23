@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统投入计算器</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { color: #333; margin-bottom: 20px; font-size: 24px; }
+        h2 { color: #555; margin-bottom: 15px; font-size: 18px; border-bottom: 2px solid #4CAF50; padding-bottom: 8px; }
+        .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .form-group { display: flex; flex-direction: column; }
+        label { font-size: 13px; color: #666; margin-bottom: 5px; font-weight: 500; }
+        input { padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; }
+        input:focus { outline: none; border-color: #4CAF50; }
+        button { background: #4CAF50; color: white; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 16px; margin-top: 15px; }
+        button:hover { background: #45a049; }
+        .result-section { margin-top: 10px; }
+        .calc-step { background: #f9f9f9; padding: 12px; margin-bottom: 10px; border-radius: 4px; border-left: 3px solid #4CAF50; }
+        .calc-step-title { font-weight: 600; color: #333; margin-bottom: 5px; }
+        .calc-detail { font-size: 13px; color: #666; margin-left: 10px; line-height: 1.6; }
+        .final-result { background: #e8f5e9; padding: 15px; border-radius: 4px; font-size: 18px; font-weight: 600; color: #2e7d32; text-align: center; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 15px; }
+        .tab { padding: 8px 16px; background: #eee; border: none; border-radius: 4px; cursor: pointer; }
+        .tab.active { background: #4CAF50; color: white; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>🔋 系统投入计算器</h1>
+            
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab('basic')">基础参数</button>
+                <button class="tab" onclick="switchTab('cost')">成本参数</button>
+                <button class="tab" onclick="switchTab('subsidy')">补贴参数</button>
+            </div>
+
+            <form id="calcForm">
+                <!-- 基础参数 -->
+                <div id="basic" class="tab-content active">
+                    <h2>基础参数</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>系统容量 (kW)</label>
+                            <input type="number" step="0.1" name="system_capacity" value="6.6" required>
+                        </div>
+                        <div class="form-group">
+                            <label>面板数量 (块)</label>
+                            <input type="number" name="panel_count" value="15" required>
+                        </div>
+                        <div class="form-group">
+                            <label>逆变器容量 (kW)</label>
+                            <input type="number" step="0.1" name="inverter_capacity" value="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池容量 (kWh)</label>
+                            <input type="number" step="0.1" name="battery_capacity" value="10" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池可用容量 (kWh)</label>
+                            <input type="number" step="0.1" name="battery_usable_capacity" value="9" required>
+                        </div>
+                        <div class="form-group">
+                            <label>项目类型</label>
+                            <select name="project_type" style="padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                                <option value="new">新建系统</option>
+                                <option value="battery_expansion">储能扩容</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>地区</label>
+                            <select name="region" style="padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                                <option value="NSW">NSW</option>
+                                <option value="VIC">VIC</option>
+                                <option value="QLD">QLD</option>
+                                <option value="SA">SA</option>
+                                <option value="WA">WA</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 成本参数 -->
+                <div id="cost" class="tab-content">
+                    <h2>成本与利润参数</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>面板单价 (AUD/块)</label>
+                            <input type="number" step="0.01" name="panel_unit_cost" value="80" required>
+                        </div>
+                        <div class="form-group">
+                            <label>面板利润率</label>
+                            <input type="number" step="0.01" name="panel_profit_margin" value="0.3" required>
+                        </div>
+                        <div class="form-group">
+                            <label>逆变器单价 (AUD/kW)</label>
+                            <input type="number" step="0.01" name="inverter_unit_cost" value="200" required>
+                        </div>
+                        <div class="form-group">
+                            <label>逆变器利润率</label>
+                            <input type="number" step="0.01" name="inverter_profit_margin" value="0.3" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池单价 (AUD/kWh)</label>
+                            <input type="number" step="0.01" name="battery_unit_cost" value="320" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池利润率</label>
+                            <input type="number" step="0.01" name="battery_profit_margin" value="0.3" required>
+                        </div>
+                        <div class="form-group">
+                            <label>光伏基础安装费 (AUD)</label>
+                            <input type="number" step="0.01" name="install_base_cost" value="1000" required>
+                        </div>
+                        <div class="form-group">
+                            <label>光伏安装利润率</label>
+                            <input type="number" step="0.01" name="install_profit_margin" value="0.3" required>
+                        </div>
+                        <div class="form-group">
+                            <label>光伏每kW安装费 (AUD/kW)</label>
+                            <input type="number" step="0.01" name="install_cost_per_kw" value="150" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池基础安装费 (AUD)</label>
+                            <input type="number" step="0.01" name="battery_install_base_cost" value="1000" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池安装利润率</label>
+                            <input type="number" step="0.01" name="battery_install_profit_margin" value="0.3" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池每kWh安装费 (AUD/kWh)</label>
+                            <input type="number" step="0.01" name="battery_install_cost_per_kwh" value="250" required>
+                        </div>
+                        <div class="form-group">
+                            <label>附加费用 (AUD)</label>
+                            <input type="number" step="0.01" name="additional_charges" value="0" required>
+                        </div>
+                        <div class="form-group">
+                            <label>GST税率</label>
+                            <input type="number" step="0.01" name="gst_rate" value="0.1" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 补贴参数 -->
+                <div id="subsidy" class="tab-content">
+                    <h2>补贴参数</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>Zone Rating (邮编区域乘数)</label>
+                            <input type="number" step="0.001" name="zone_rating" value="1.382" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Deeming Period (年)</label>
+                            <input type="number" name="deeming_period" value="6" required>
+                        </div>
+                        <div class="form-group">
+                            <label>PV STC单价 (AUD)</label>
+                            <input type="number" step="0.01" name="pv_stc_price" value="39" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池每kWh STC因子</label>
+                            <input type="number" step="0.1" name="battery_stc_factor" value="9.3" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Battery STC单价 (AUD)</label>
+                            <input type="number" step="0.01" name="battery_stc_price" value="39" required>
+                        </div>
+                        <div class="form-group">
+                            <label>VIC州补贴 (AUD)</label>
+                            <input type="number" step="0.01" name="vic_rebate" value="1400" required>
+                        </div>
+                        <div class="form-group">
+                            <label>VIC州无息贷款 (AUD)</label>
+                            <input type="number" step="0.01" name="vic_loan" value="1400" required>
+                        </div>
+                        <div class="form-group">
+                            <label>NSW PRC单价 (AUD)</label>
+                            <input type="number" step="0.01" name="nsw_prc_price" value="40" required>
+                        </div>
+                        <div class="form-group">
+                            <label>网络损耗系数</label>
+                            <input type="number" step="0.001" name="network_loss_factor" value="1.05" required>
+                        </div>
+                        <div class="form-group">
+                            <label>安装商额外补贴 (AUD)</label>
+                            <input type="number" step="0.01" name="installer_subsidy" value="0" required>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit">💰 计算报价</button>
+            </form>
+        </div>
+
+        <div id="results" class="card" style="display: none;">
+            <h1>📊 计算结果</h1>
+            <div id="resultContent"></div>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
