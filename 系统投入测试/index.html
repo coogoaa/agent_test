@@ -36,35 +36,21 @@
             <h1>🔋 系统投入计算器</h1>
             
             <div class="tabs">
-                <button class="tab active" onclick="switchTab('basic')">基础参数</button>
+                <button class="tab active" onclick="switchTab('roof')">屋顶参数</button>
+                <button class="tab" onclick="switchTab('plan')">方案参数</button>
+                <button class="tab" onclick="switchTab('device')">设备参数</button>
                 <button class="tab" onclick="switchTab('cost')">成本参数</button>
                 <button class="tab" onclick="switchTab('subsidy')">补贴参数</button>
             </div>
 
             <form id="calcForm">
-                <!-- 基础参数 -->
-                <div id="basic" class="tab-content active">
-                    <h2>基础参数</h2>
+                <!-- 屋顶参数 -->
+                <div id="roof" class="tab-content active">
+                    <h2>屋顶参数</h2>
                     <div class="form-grid">
                         <div class="form-group">
-                            <label>系统容量 (kW)</label>
-                            <input type="number" step="0.1" name="system_capacity" value="6.6" required>
-                        </div>
-                        <div class="form-group">
-                            <label>面板数量 (块)</label>
-                            <input type="number" name="panel_count" value="15" required>
-                        </div>
-                        <div class="form-group">
-                            <label>逆变器容量 (kW)</label>
-                            <input type="number" step="0.1" name="inverter_capacity" value="5" required>
-                        </div>
-                        <div class="form-group">
-                            <label>电池容量 (kWh)</label>
-                            <input type="number" step="0.1" name="battery_capacity" value="10" required>
-                        </div>
-                        <div class="form-group">
-                            <label>电池可用容量 (kWh)</label>
-                            <input type="number" step="0.1" name="battery_usable_capacity" value="9" required>
+                            <label>屋顶理论最大面板数量 (块)</label>
+                            <input type="number" name="roof_max_panels" value="37" required>
                         </div>
                         <div class="form-group">
                             <label>项目类型</label>
@@ -82,6 +68,67 @@
                                 <option value="SA">SA</option>
                                 <option value="WA">WA</option>
                             </select>
+                        </div>
+                        <div class="form-group">
+                            <label>电池品牌类型</label>
+                            <select name="battery_brand" style="padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                                <option value="GS">GS (GoodWe/Sungrow)</option>
+                                <option value="GD">GD (GrowWatt/Deye)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 方案参数 -->
+                <div id="plan" class="tab-content">
+                    <h2>方案参数</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>方案A容量系数</label>
+                            <input type="number" step="0.01" name="plan_a_capacity_factor" value="0.6" required>
+                        </div>
+                        <div class="form-group">
+                            <label>方案B容量系数</label>
+                            <input type="number" step="0.01" name="plan_b_capacity_factor" value="0.75" required>
+                        </div>
+                        <div class="form-group">
+                            <label>方案C容量系数</label>
+                            <input type="number" step="0.01" name="plan_c_capacity_factor" value="0.9" required>
+                        </div>
+                        <div class="form-group">
+                            <label>方案C目标自用率</label>
+                            <input type="number" step="0.01" name="plan_c_target_sc_rate" value="0.5" required>
+                        </div>
+                        <div class="form-group">
+                            <label>基线自用率 (无电池)</label>
+                            <input type="number" step="0.01" name="baseline_self_consumption_rate" value="0.3" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 设备参数 -->
+                <div id="device" class="tab-content">
+                    <h2>设备参数</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>面板单元功率 (kW)</label>
+                            <input type="number" step="0.01" name="panel_power_kw" value="0.44" required>
+                        </div>
+                        <div class="form-group">
+                            <label>容配比 (DC/AC)</label>
+                            <input type="number" step="0.1" name="dc_ac_ratio" value="1.5" required>
+                        </div>
+                        <div class="form-group">
+                            <label>每kW年发电量 (kWh/kW/yr)</label>
+                            <input type="number" step="1" name="yield_per_kw_per_year" value="1526" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池放电深度 DoD</label>
+                            <input type="number" step="0.01" name="battery_dod" value="0.9" required>
+                        </div>
+                        <div class="form-group">
+                            <label>电池往返效率 RTE</label>
+                            <input type="number" step="0.01" name="battery_rte" value="0.95" required>
                         </div>
                     </div>
                 </div>
@@ -196,7 +243,7 @@
                     </div>
                 </div>
 
-                <button type="submit">💰 计算报价</button>
+                <button type="submit">💰 计算ABC三套方案</button>
             </form>
         </div>
 
