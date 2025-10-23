@@ -369,6 +369,10 @@ function calculateSystemCostForPlan(result, p, isNewSystem, isVIC, isNSW) {
 function displayABCResults(results) {
     const container = document.getElementById('resultContent');
     
+    // 获取表单数据以显示附加费用
+    const formData = new FormData(document.getElementById('calculatorForm'));
+    const additionalCharges = parseFloat(formData.get('additional_charges')) || 0;
+    
     let html = '';
     
     // 方案对比表
@@ -415,17 +419,60 @@ function displayABCResults(results) {
     // 系统总价细项拆分
     html += `<tr style="background: #f0f0f0;"><td colspan="4" style="border: 1px solid #ddd; padding: 8px; font-weight: bold; text-align: center;">💰 系统总价细项拆分 (AUD)</td></tr>`;
     
-    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">Key Products</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.keyProductsTotal.toFixed(2)}</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.keyProductsTotal.toFixed(2)}</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.keyProductsTotal.toFixed(2)}</td></tr>`;
+    // Key Products 细项拆分
+    html += `<tr style="background: #f8f8f8;"><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 10px;">🔧 Key Products</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.A.costs.keyProductsTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.B.costs.keyProductsTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.C.costs.keyProductsTotal.toFixed(2)}</td></tr>`;
     
-    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">Balance of System</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.bosTotal.toFixed(2)}</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.bosTotal.toFixed(2)}</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.bosTotal.toFixed(2)}</td></tr>`;
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; padding-left: 30px;">面板成本</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.panel.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.panel.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.panel.toFixed(2)}</td></tr>`;
     
-    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">GST税费</td>`;
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; padding-left: 30px;">逆变器成本</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.inverter.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.inverter.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.inverter.toFixed(2)}</td></tr>`;
+    
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; padding-left: 30px;">电池成本</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.battery.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.battery.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.battery.toFixed(2)}</td></tr>`;
+    
+    // Balance of System 细项拆分
+    html += `<tr style="background: #f8f8f8;"><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 10px;">⚙️ Balance of System</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.A.costs.bosTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.B.costs.bosTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.C.costs.bosTotal.toFixed(2)}</td></tr>`;
+    
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; padding-left: 30px;">光伏基础安装费</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.pvBase.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.pvBase.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.pvBase.toFixed(2)}</td></tr>`;
+    
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; padding-left: 30px;">光伏每kW安装费</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.pvPerKw.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.pvPerKw.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.pvPerKw.toFixed(2)}</td></tr>`;
+    
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; padding-left: 30px;">电池基础安装费</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.batteryBase.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.batteryBase.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.batteryBase.toFixed(2)}</td></tr>`;
+    
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; padding-left: 30px;">电池每kWh安装费</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.batteryPerKwh.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.batteryPerKwh.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.batteryPerKwh.toFixed(2)}</td></tr>`;
+    
+    // Additional Charges
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">💼 Additional Charges</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${additionalCharges.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${additionalCharges.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${additionalCharges.toFixed(2)}</td></tr>`;
+    
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">📊 GST税费</td>`;
     html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.totals.gst.toFixed(2)}</td>`;
     html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.totals.gst.toFixed(2)}</td>`;
     html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.totals.gst.toFixed(2)}</td></tr>`;
