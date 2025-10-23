@@ -54,7 +54,15 @@ document.getElementById('calcForm').addEventListener('submit', function(e) {
         params[key] = isNaN(value) ? value : parseFloat(value);
     }
     
-    const results = calculateABCPlans(params);
+    const resultA = calculatePlan(params, 'A');
+    const resultB = calculatePlan(params, 'B');
+    const resultC = calculatePlan(params, 'C');
+        
+    const results = { A: resultA, B: resultB, C: resultC };
+        
+    // 保存计算结果到全局变量供导出功能使用
+    window.lastCalculationResults = results;
+        
     displayABCResults(results);
     
     document.getElementById('results').style.display = 'block';
@@ -540,6 +548,12 @@ function displayABCResults(results) {
     
     html += `</tbody></table></div></div>`;
     
+    // 导出按钮
+    html += `<div class="result-section">`;
+    html += `<h2>📄 导出报告</h2>`;
+    html += `<button onclick="exportReport()" style="background: #2196F3; color: white; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 16px; margin-bottom: 20px;">📥 导出完整报告 (TXT)</button>`;
+    html += `</div>`;
+    
     // 详细计算步骤（可折叠）
     ['A', 'B', 'C'].forEach(plan => {
         html += `<div class="result-section">`;
@@ -573,4 +587,230 @@ function toggleDetails(elementId) {
     } else {
         element.style.display = 'none';
     }
+}
+
+// 导出完整报告
+function exportReport() {
+    // 获取所有表单参数
+    const roofParams = {
+        project_type: document.querySelector('input[name="project_type"]:checked')?.value || '',
+        region: document.querySelector('select[name="region"]')?.value || '',
+        roof_max_panels: document.querySelector('input[name="roof_max_panels"]')?.value || '',
+        existing_solar_kw: document.querySelector('input[name="existing_solar_kw"]')?.value || '',
+        existing_inverter_kw: document.querySelector('input[name="existing_inverter_kw"]')?.value || ''
+    };
+    
+    const planParams = {
+        plan_a_capacity_factor: document.querySelector('input[name="plan_a_capacity_factor"]')?.value || '',
+        plan_b_capacity_factor: document.querySelector('input[name="plan_b_capacity_factor"]')?.value || '',
+        plan_c_capacity_factor: document.querySelector('input[name="plan_c_capacity_factor"]')?.value || '',
+        plan_c_target_sc_rate: document.querySelector('input[name="plan_c_target_sc_rate"]')?.value || '',
+        baseline_self_consumption_rate: document.querySelector('input[name="baseline_self_consumption_rate"]')?.value || '',
+        battery_expansion_capacity_factor: document.querySelector('input[name="battery_expansion_capacity_factor"]')?.value || ''
+    };
+    
+    const deviceParams = {
+        panel_power_kw: document.querySelector('input[name="panel_power_kw"]')?.value || '',
+        battery_usable_capacity_ratio: document.querySelector('input[name="battery_usable_capacity_ratio"]')?.value || ''
+    };
+    
+    const costParams = {
+        panel_unit_cost: document.querySelector('input[name="panel_unit_cost"]')?.value || '',
+        panel_profit_margin: document.querySelector('input[name="panel_profit_margin"]')?.value || '',
+        inverter_unit_cost: document.querySelector('input[name="inverter_unit_cost"]')?.value || '',
+        inverter_profit_margin: document.querySelector('input[name="inverter_profit_margin"]')?.value || '',
+        battery_unit_cost: document.querySelector('input[name="battery_unit_cost"]')?.value || '',
+        battery_profit_margin: document.querySelector('input[name="battery_profit_margin"]')?.value || '',
+        install_base_cost: document.querySelector('input[name="install_base_cost"]')?.value || '',
+        install_cost_per_kw: document.querySelector('input[name="install_cost_per_kw"]')?.value || '',
+        install_profit_margin: document.querySelector('input[name="install_profit_margin"]')?.value || '',
+        battery_install_base_cost: document.querySelector('input[name="battery_install_base_cost"]')?.value || '',
+        battery_install_cost_per_kwh: document.querySelector('input[name="battery_install_cost_per_kwh"]')?.value || '',
+        battery_install_profit_margin: document.querySelector('input[name="battery_install_profit_margin"]')?.value || '',
+        additional_charges: document.querySelector('input[name="additional_charges"]')?.value || '',
+        gst_rate: document.querySelector('input[name="gst_rate"]')?.value || ''
+    };
+    
+    const subsidyParams = {
+        zone_rating: document.querySelector('input[name="zone_rating"]')?.value || '',
+        deeming_period: document.querySelector('input[name="deeming_period"]')?.value || '',
+        stc_price: document.querySelector('input[name="stc_price"]')?.value || '',
+        battery_stc_multiplier: document.querySelector('input[name="battery_stc_multiplier"]')?.value || '',
+        vic_rebate: document.querySelector('input[name="vic_rebate"]')?.value || '',
+        vic_loan: document.querySelector('input[name="vic_loan"]')?.value || '',
+        nsw_prc_price: document.querySelector('input[name="nsw_prc_price"]')?.value || '',
+        network_loss_factor: document.querySelector('input[name="network_loss_factor"]')?.value || '',
+        installer_subsidy: document.querySelector('input[name="installer_subsidy"]')?.value || ''
+    };
+    
+    // 获取最新的计算结果
+    const results = window.lastCalculationResults;
+    if (!results) {
+        alert('请先进行计算再导出报告');
+        return;
+    }
+    
+    // 生成报告内容
+    const timestamp = new Date().toLocaleString('zh-CN');
+    let reportContent = `光伏储能系统投入计算报告
+生成时间: ${timestamp}
+
+================================================================================
+项目基本信息
+================================================================================
+项目类型: ${roofParams.project_type === 'new' ? '新建系统' : '储能扩容'}
+所在地区: ${roofParams.region}
+屋顶最大面板数: ${roofParams.roof_max_panels} 块`;
+
+    if (roofParams.project_type === 'expansion') {
+        reportContent += `
+现有光伏容量: ${roofParams.existing_solar_kw} kW
+现有逆变器功率: ${roofParams.existing_inverter_kw} kW`;
+    }
+
+    reportContent += `
+
+================================================================================
+方案参数
+================================================================================
+方案A容量系数: ${planParams.plan_a_capacity_factor}
+方案B容量系数: ${planParams.plan_b_capacity_factor}
+方案C容量系数: ${planParams.plan_c_capacity_factor}
+方案C目标自用率: ${planParams.plan_c_target_sc_rate}
+基线自用率(无电池): ${planParams.baseline_self_consumption_rate}
+储能扩容容量系数: ${planParams.battery_expansion_capacity_factor}
+
+================================================================================
+设备参数
+================================================================================
+面板单元功率: ${deviceParams.panel_power_kw} kW
+电池可用容量比: ${deviceParams.battery_usable_capacity_ratio}
+
+================================================================================
+成本与利润参数
+================================================================================
+面板单价: ${costParams.panel_unit_cost} AUD/块
+面板利润率: ${costParams.panel_profit_margin}
+逆变器单价: ${costParams.inverter_unit_cost} AUD/kW
+逆变器利润率: ${costParams.inverter_profit_margin}
+电池单价: ${costParams.battery_unit_cost} AUD/kWh
+电池利润率: ${costParams.battery_profit_margin}
+光伏基础安装费: ${costParams.install_base_cost} AUD
+光伏每kW安装费: ${costParams.install_cost_per_kw} AUD/kW
+安装利润率: ${costParams.install_profit_margin}
+电池基础安装费: ${costParams.battery_install_base_cost} AUD
+电池每kWh安装费: ${costParams.battery_install_cost_per_kwh} AUD/kWh
+电池安装利润率: ${costParams.battery_install_profit_margin}
+附加费用: ${costParams.additional_charges} AUD
+GST税率: ${costParams.gst_rate}
+
+================================================================================
+补贴参数
+================================================================================
+区域评级: ${subsidyParams.zone_rating}
+计算期限: ${subsidyParams.deeming_period} 年
+STC单价: ${subsidyParams.stc_price} AUD
+电池STC倍数: ${subsidyParams.battery_stc_multiplier}
+VIC州补贴: ${subsidyParams.vic_rebate} AUD
+VIC州无息贷款: ${subsidyParams.vic_loan} AUD
+NSW PRC单价: ${subsidyParams.nsw_prc_price} AUD
+网络损耗系数: ${subsidyParams.network_loss_factor}
+安装商额外补贴: ${subsidyParams.installer_subsidy} AUD
+
+================================================================================
+ABC三套方案对比结果
+================================================================================`;
+
+    // 添加系统配置对比
+    reportContent += `
+系统配置对比:
+                        方案A          方案B          方案C
+面板数量(块)            ${results.A.system.panelCount.toString().padStart(10)}    ${results.B.system.panelCount.toString().padStart(10)}    ${results.C.system.panelCount.toString().padStart(10)}
+光伏容量(kW)            ${results.A.system.solarKw.toFixed(2).padStart(10)}    ${results.B.system.solarKw.toFixed(2).padStart(10)}    ${results.C.system.solarKw.toFixed(2).padStart(10)}
+逆变器功率(kW)          ${results.A.system.inverterKw.toString().padStart(10)}    ${results.B.system.inverterKw.toString().padStart(10)}    ${results.C.system.inverterKw.toString().padStart(10)}
+电池可用容量(kWh)       ${results.A.system.usableBatteryCapacity.toFixed(2).padStart(10)}    ${results.B.system.usableBatteryCapacity.toFixed(2).padStart(10)}    ${results.C.system.usableBatteryCapacity.toFixed(2).padStart(10)}
+电池标称容量(kWh)       ${results.A.system.nominalBatteryCapacity.toFixed(2).padStart(10)}    ${results.B.system.nominalBatteryCapacity.toFixed(2).padStart(10)}    ${results.C.system.nominalBatteryCapacity.toFixed(2).padStart(10)}
+
+成本细项拆分(AUD):
+Key Products总计        ${results.A.costs.keyProductsTotal.toFixed(2).padStart(10)}    ${results.B.costs.keyProductsTotal.toFixed(2).padStart(10)}    ${results.C.costs.keyProductsTotal.toFixed(2).padStart(10)}
+  - 面板成本            ${results.A.costs.panel.toFixed(2).padStart(10)}    ${results.B.costs.panel.toFixed(2).padStart(10)}    ${results.C.costs.panel.toFixed(2).padStart(10)}
+  - 逆变器成本          ${results.A.costs.inverter.toFixed(2).padStart(10)}    ${results.B.costs.inverter.toFixed(2).padStart(10)}    ${results.C.costs.inverter.toFixed(2).padStart(10)}
+  - 电池成本            ${results.A.costs.battery.toFixed(2).padStart(10)}    ${results.B.costs.battery.toFixed(2).padStart(10)}    ${results.C.costs.battery.toFixed(2).padStart(10)}
+
+Balance of System总计   ${results.A.costs.bosTotal.toFixed(2).padStart(10)}    ${results.B.costs.bosTotal.toFixed(2).padStart(10)}    ${results.C.costs.bosTotal.toFixed(2).padStart(10)}
+  - 光伏基础安装费      ${results.A.costs.pvBase.toFixed(2).padStart(10)}    ${results.B.costs.pvBase.toFixed(2).padStart(10)}    ${results.C.costs.pvBase.toFixed(2).padStart(10)}
+  - 光伏每kW安装费      ${results.A.costs.pvPerKw.toFixed(2).padStart(10)}    ${results.B.costs.pvPerKw.toFixed(2).padStart(10)}    ${results.C.costs.pvPerKw.toFixed(2).padStart(10)}
+  - 电池基础安装费      ${results.A.costs.batteryBase.toFixed(2).padStart(10)}    ${results.B.costs.batteryBase.toFixed(2).padStart(10)}    ${results.C.costs.batteryBase.toFixed(2).padStart(10)}
+  - 电池每kWh安装费     ${results.A.costs.batteryPerKwh.toFixed(2).padStart(10)}    ${results.B.costs.batteryPerKwh.toFixed(2).padStart(10)}    ${results.C.costs.batteryPerKwh.toFixed(2).padStart(10)}
+
+Additional Charges      ${costParams.additional_charges.padStart(10)}    ${costParams.additional_charges.padStart(10)}    ${costParams.additional_charges.padStart(10)}
+GST税费                 ${results.A.totals.gst.toFixed(2).padStart(10)}    ${results.B.totals.gst.toFixed(2).padStart(10)}    ${results.C.totals.gst.toFixed(2).padStart(10)}
+系统总价                ${results.A.totals.systemTotal.toFixed(2).padStart(10)}    ${results.B.totals.systemTotal.toFixed(2).padStart(10)}    ${results.C.totals.systemTotal.toFixed(2).padStart(10)}
+
+补贴细项拆分(AUD):`;
+
+    // 添加补贴细项
+    if (results.A.subsidies.pvStc !== undefined) {
+        reportContent += `
+STC PV补贴              ${(results.A.subsidies.pvStc || 0).toFixed(2).padStart(10)}    ${(results.B.subsidies.pvStc || 0).toFixed(2).padStart(10)}    ${(results.C.subsidies.pvStc || 0).toFixed(2).padStart(10)}`;
+    }
+    
+    reportContent += `
+STC电池补贴             ${(results.A.subsidies.batteryStc || 0).toFixed(2).padStart(10)}    ${(results.B.subsidies.batteryStc || 0).toFixed(2).padStart(10)}    ${(results.C.subsidies.batteryStc || 0).toFixed(2).padStart(10)}`;
+
+    if (results.A.subsidies.vicRebate !== undefined) {
+        reportContent += `
+VIC州补贴               ${(results.A.subsidies.vicRebate || 0).toFixed(2).padStart(10)}    ${(results.B.subsidies.vicRebate || 0).toFixed(2).padStart(10)}    ${(results.C.subsidies.vicRebate || 0).toFixed(2).padStart(10)}
+VIC州无息贷款           ${(results.A.subsidies.vicLoan || 0).toFixed(2).padStart(10)}    ${(results.B.subsidies.vicLoan || 0).toFixed(2).padStart(10)}    ${(results.C.subsidies.vicLoan || 0).toFixed(2).padStart(10)}`;
+    }
+
+    if (results.A.subsidies.nswVpp !== undefined) {
+        reportContent += `
+NSW VPP补贴             ${(results.A.subsidies.nswVpp || 0).toFixed(2).padStart(10)}    ${(results.B.subsidies.nswVpp || 0).toFixed(2).padStart(10)}    ${(results.C.subsidies.nswVpp || 0).toFixed(2).padStart(10)}`;
+    }
+
+    if (results.A.subsidies.installerSubsidy !== undefined) {
+        reportContent += `
+安装商额外补贴          ${(results.A.subsidies.installerSubsidy || 0).toFixed(2).padStart(10)}    ${(results.B.subsidies.installerSubsidy || 0).toFixed(2).padStart(10)}    ${(results.C.subsidies.installerSubsidy || 0).toFixed(2).padStart(10)}`;
+    }
+
+    reportContent += `
+总补贴                 -${results.A.subsidies.total.toFixed(2).padStart(9)}   -${results.B.subsidies.total.toFixed(2).padStart(9)}   -${results.C.subsidies.total.toFixed(2).padStart(9)}
+
+最终报价                ${results.A.totals.finalPrice.toFixed(2).padStart(10)}    ${results.B.totals.finalPrice.toFixed(2).padStart(10)}    ${results.C.totals.finalPrice.toFixed(2).padStart(10)}
+
+================================================================================
+详细计算步骤
+================================================================================`;
+
+    // 添加详细计算步骤
+    ['A', 'B', 'C'].forEach(plan => {
+        reportContent += `\n方案${plan}详细计算:\n`;
+        reportContent += '----------------------------------------\n';
+        results[plan].steps.forEach((step, index) => {
+            reportContent += `${step.title}\n`;
+            step.details.forEach(detail => {
+                // 移除HTML标签
+                const cleanDetail = detail.replace(/<[^>]*>/g, '');
+                reportContent += `  ${cleanDetail}\n`;
+            });
+            reportContent += '\n';
+        });
+    });
+
+    reportContent += `
+================================================================================
+报告结束
+================================================================================`;
+
+    // 创建并下载文件
+    const blob = new Blob([reportContent], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `光伏储能系统投入计算报告_${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
 }
