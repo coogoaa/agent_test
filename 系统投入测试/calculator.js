@@ -89,9 +89,16 @@ function calculateSinglePlan(p, planType) {
     const isNSW = p.region === 'NSW';
     
     // 获取方案容量系数
-    const capacityFactor = planType === 'A' ? p.plan_a_capacity_factor : 
-                          planType === 'B' ? p.plan_b_capacity_factor : 
-                          p.plan_c_capacity_factor;
+    let capacityFactor;
+    if (!isNewSystem) {
+        // 储能扩容：三个方案都使用相同的储能扩容容量系数
+        capacityFactor = p.battery_expansion_capacity_factor;
+    } else {
+        // 新建系统：使用各自的容量系数
+        capacityFactor = planType === 'A' ? p.plan_a_capacity_factor : 
+                        planType === 'B' ? p.plan_b_capacity_factor : 
+                        p.plan_c_capacity_factor;
+    }
     
     // ========== 1. 推算光伏系统容量和面板数量 ==========
     result.steps.push({
@@ -105,7 +112,9 @@ function calculateSinglePlan(p, planType) {
     result.system.panelCount = panelCount;
     result.system.solarKw = solarKw;
     
+    const capacityFactorType = !isNewSystem ? '储能扩容容量系数' : `方案${planType}容量系数`;
     result.steps[0].details.push(
+        `使用${capacityFactorType} = ${capacityFactor}`,
         `面板数量 = floor(${p.roof_max_panels} × ${capacityFactor}) = ${panelCount} 块`,
         `光伏系统容量 = ${panelCount} × ${p.panel_power_kw} kW = ${solarKw.toFixed(2)} kW`
     );

@@ -77,18 +77,19 @@
                     <h2>方案参数</h2>
                     <div style="background: #f0f8ff; padding: 10px; border-radius: 4px; margin-bottom: 15px; font-size: 13px;">
                         <strong>方案说明：</strong><br>
-                        • 方案A：查询GS功率映射表（GoodWe/Sungrow）<br>
-                        • 方案B：查询GD功率映射表（GrowWatt/Deye）<br>
-                        • 方案C：使用公式计算，基于目标自用率
+                        • 方案A：查询GS功率映射表<br>
+                        • 方案B：查询GD功率映射表<br>
+                        • 方案C：使用公式计算，基于目标自用率<br>
+                        • 储能扩容：三个方案都使用相同的储能扩容容量系数
                     </div>
                     <div class="form-grid">
                         <div class="form-group">
                             <label>方案A容量系数</label>
-                            <input type="number" step="0.01" name="plan_a_capacity_factor" value="0.6" required>
+                            <input type="number" step="0.01" name="plan_a_capacity_factor" value="0.9" required>
                         </div>
                         <div class="form-group">
                             <label>方案B容量系数</label>
-                            <input type="number" step="0.01" name="plan_b_capacity_factor" value="0.75" required>
+                            <input type="number" step="0.01" name="plan_b_capacity_factor" value="0.9" required>
                         </div>
                         <div class="form-group">
                             <label>方案C容量系数</label>
@@ -101,6 +102,10 @@
                         <div class="form-group">
                             <label>基线自用率 (无电池)</label>
                             <input type="number" step="0.01" name="baseline_self_consumption_rate" value="0.3" required>
+                        </div>
+                        <div class="form-group">
+                            <label>储能扩容容量系数</label>
+                            <input type="number" step="0.01" name="battery_expansion_capacity_factor" value="0.7" required>
                         </div>
                     </div>
                 </div>
@@ -229,7 +234,7 @@
                         </div>
                         <div class="form-group">
                             <label>NSW PRC单价 (AUD)</label>
-                            <input type="number" step="0.01" name="nsw_prc_price" value="40" required>
+                            <input type="number" step="0.01" name="nsw_prc_price" value="1.65" required>
                         </div>
                         <div class="form-group">
                             <label>网络损耗系数</label>
