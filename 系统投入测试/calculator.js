@@ -2,7 +2,7 @@
 const GS_POWER_MAPPING = [
     { min: 0, max: 5, nominal_battery_capacity_kwh: 22.44, usable_battery_capacity_kwh: 20.2, inverter_kw: 8 },
     { min: 5, max: 7.5, nominal_battery_capacity_kwh: 22.22, usable_battery_capacity_kwh: 20, inverter_kw: 9.6 },
-    { min: 7.5, max: 12, nominal_battery_capacity_kwh: 29.33, usable_battery_capacity_kwh: 26.4, inverter_kw: 9.994 },
+    { min: 7.5, max: 12, nominal_battery_capacity_kwh: 29.33, usable_battery_capacity_kwh: 26.4, inverter_kw: 9.99 },
     { min: 12, max: 20, nominal_battery_capacity_kwh: 28.04, usable_battery_capacity_kwh: 25.24, inverter_kw: 9.3 },
     { min: 20, max: 100, nominal_battery_capacity_kwh: 50.32, usable_battery_capacity_kwh: 45.29, inverter_kw: 19.50 }
 ];
@@ -128,7 +128,8 @@ function calculateSinglePlan(p, planType) {
         const mapping = lookupPowerMapping(solarKw, p.battery_brand);
         inverterKw = mapping.inverter_kw;
         result.steps[1].details.push(
-            `查询${p.battery_brand}功率映射表，光伏容量${solarKw.toFixed(2)}kW对应逆变器功率 = ${inverterKw} kW`
+            `查询${p.battery_brand}功率映射表，光伏容量${solarKw.toFixed(2)}kW位于区间(${mapping.min}, ${mapping.max}]kW`,
+            `对应逆变器功率 = ${inverterKw} kW`
         );
     }
     
@@ -162,9 +163,9 @@ function calculateSinglePlan(p, planType) {
         nominalBatteryCapacity = mapping.nominal_battery_capacity_kwh;
         
         result.steps[2].details.push(
-            `查询${p.battery_brand}功率映射表，光伏容量${solarKw.toFixed(2)}kW对应：`,
-            `电池可用容量 = ${usableBatteryCapacity} kWh`,
-            `电池标称容量 = ${nominalBatteryCapacity} kWh`
+            `查询${p.battery_brand}功率映射表，光伏容量${solarKw.toFixed(2)}kW位于区间(${mapping.min}, ${mapping.max}]kW`,
+            `对应电池可用容量 = ${usableBatteryCapacity} kWh`,
+            `对应电池标称容量 = ${nominalBatteryCapacity} kWh`
         );
     }
     
