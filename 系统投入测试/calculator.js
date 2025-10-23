@@ -369,9 +369,9 @@ function calculateSystemCostForPlan(result, p, isNewSystem, isVIC, isNSW) {
 function displayABCResults(results) {
     const container = document.getElementById('resultContent');
     
-    // 获取表单数据以显示附加费用
-    const formData = new FormData(document.getElementById('calculatorForm'));
-    const additionalCharges = parseFloat(formData.get('additional_charges')) || 0;
+    // 获取附加费用参数
+    const additionalChargesInput = document.querySelector('input[name="additional_charges"]');
+    const additionalCharges = additionalChargesInput ? parseFloat(additionalChargesInput.value) || 0 : 0;
     
     let html = '';
     
