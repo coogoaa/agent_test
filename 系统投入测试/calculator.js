@@ -412,16 +412,79 @@ function displayABCResults(results) {
     html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.system.nominalBatteryCapacity.toFixed(2)}</td>`;
     html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.system.nominalBatteryCapacity.toFixed(2)}</td></tr>`;
     
-    // 价格对比
-    html += `<tr style="background: #f9f9f9;"><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">系统总价 (AUD)</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.totals.systemTotal.toFixed(2)}</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.totals.systemTotal.toFixed(2)}</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.totals.systemTotal.toFixed(2)}</td></tr>`;
+    // 系统总价细项拆分
+    html += `<tr style="background: #f0f0f0;"><td colspan="4" style="border: 1px solid #ddd; padding: 8px; font-weight: bold; text-align: center;">💰 系统总价细项拆分 (AUD)</td></tr>`;
     
-    html += `<tr style="background: #f9f9f9;"><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">总补贴 (AUD)</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">-${results.A.subsidies.total.toFixed(2)}</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">-${results.B.subsidies.total.toFixed(2)}</td>`;
-    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">-${results.C.subsidies.total.toFixed(2)}</td></tr>`;
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">Key Products</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.keyProductsTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.keyProductsTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.keyProductsTotal.toFixed(2)}</td></tr>`;
+    
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">Balance of System</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.costs.bosTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.costs.bosTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.costs.bosTotal.toFixed(2)}</td></tr>`;
+    
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">GST税费</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.totals.gst.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.totals.gst.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.totals.gst.toFixed(2)}</td></tr>`;
+    
+    html += `<tr style="background: #f9f9f9;"><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">系统总价</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.A.totals.systemTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.B.totals.systemTotal.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">${results.C.totals.systemTotal.toFixed(2)}</td></tr>`;
+    
+    // 总补贴细项拆分
+    html += `<tr style="background: #f0f0f0;"><td colspan="4" style="border: 1px solid #ddd; padding: 8px; font-weight: bold; text-align: center;">🎁 总补贴细项拆分 (AUD)</td></tr>`;
+    
+    // STC PV Rebate (仅新建系统)
+    if (results.A.subsidies.pvStc !== undefined) {
+        html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">STC PV补贴</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.subsidies.pvStc ? results.A.subsidies.pvStc.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.subsidies.pvStc ? results.B.subsidies.pvStc.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.subsidies.pvStc ? results.C.subsidies.pvStc.toFixed(2) : '0.00'}</td></tr>`;
+    }
+    
+    // STC Battery Rebate
+    html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">STC电池补贴</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.subsidies.batteryStc ? results.A.subsidies.batteryStc.toFixed(2) : '0.00'}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.subsidies.batteryStc ? results.B.subsidies.batteryStc.toFixed(2) : '0.00'}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.subsidies.batteryStc ? results.C.subsidies.batteryStc.toFixed(2) : '0.00'}</td></tr>`;
+    
+    // VIC州补贴
+    if (results.A.subsidies.vicRebate !== undefined) {
+        html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">VIC州补贴</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.subsidies.vicRebate ? results.A.subsidies.vicRebate.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.subsidies.vicRebate ? results.B.subsidies.vicRebate.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.subsidies.vicRebate ? results.C.subsidies.vicRebate.toFixed(2) : '0.00'}</td></tr>`;
+        
+        html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">VIC州无息贷款</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.subsidies.vicLoan ? results.A.subsidies.vicLoan.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.subsidies.vicLoan ? results.B.subsidies.vicLoan.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.subsidies.vicLoan ? results.C.subsidies.vicLoan.toFixed(2) : '0.00'}</td></tr>`;
+    }
+    
+    // NSW VPP补贴
+    if (results.A.subsidies.nswVpp !== undefined) {
+        html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">NSW VPP补贴</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.subsidies.nswVpp ? results.A.subsidies.nswVpp.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.subsidies.nswVpp ? results.B.subsidies.nswVpp.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.subsidies.nswVpp ? results.C.subsidies.nswVpp.toFixed(2) : '0.00'}</td></tr>`;
+    }
+    
+    // 安装商额外补贴
+    if (results.A.subsidies.installerSubsidy !== undefined) {
+        html += `<tr><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; padding-left: 20px;">安装商额外补贴</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.A.subsidies.installerSubsidy ? results.A.subsidies.installerSubsidy.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.B.subsidies.installerSubsidy ? results.B.subsidies.installerSubsidy.toFixed(2) : '0.00'}</td>`;
+        html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${results.C.subsidies.installerSubsidy ? results.C.subsidies.installerSubsidy.toFixed(2) : '0.00'}</td></tr>`;
+    }
+    
+    html += `<tr style="background: #f9f9f9;"><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold;">总补贴</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">-${results.A.subsidies.total.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">-${results.B.subsidies.total.toFixed(2)}</td>`;
+    html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">-${results.C.subsidies.total.toFixed(2)}</td></tr>`;
     
     html += `<tr style="background: #e8f5e9;"><td style="border: 1px solid #ddd; padding: 8px; font-weight: bold; color: #2e7d32;">最终报价 (AUD)</td>`;
     html += `<td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2e7d32;">${results.A.totals.finalPrice.toFixed(2)}</td>`;
