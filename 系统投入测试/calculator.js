@@ -124,11 +124,12 @@ function calculateSinglePlan(p, planType) {
             `逆变器功率 = CEILING_TO_0.1(${solarKw.toFixed(2)} / ${p.dc_ac_ratio}) = ${inverterKw} kW`
         );
     } else {
-        // 方案A/B查表
-        const mapping = lookupPowerMapping(solarKw, p.battery_brand);
+        // 方案A/B查表：方案A查GS表，方案B查GD表
+        const batteryBrand = planType === 'A' ? 'GS' : 'GD';
+        const mapping = lookupPowerMapping(solarKw, batteryBrand);
         inverterKw = mapping.inverter_kw;
         result.steps[1].details.push(
-            `查询${p.battery_brand}功率映射表，光伏容量${solarKw.toFixed(2)}kW位于区间(${mapping.min}, ${mapping.max}]kW`,
+            `方案${planType}查询${batteryBrand}功率映射表，光伏容量${solarKw.toFixed(2)}kW位于区间(${mapping.min}, ${mapping.max}]kW`,
             `对应逆变器功率 = ${inverterKw} kW`
         );
     }
@@ -157,13 +158,14 @@ function calculateSinglePlan(p, planType) {
             `电池标称容量 = ${usableBatteryCapacity.toFixed(2)} / ${p.battery_dod} = ${nominalBatteryCapacity.toFixed(2)} kWh`
         );
     } else {
-        // 方案A/B查表
-        const mapping = lookupPowerMapping(solarKw, p.battery_brand);
+        // 方案A/B查表：方案A查GS表，方案B查GD表
+        const batteryBrand = planType === 'A' ? 'GS' : 'GD';
+        const mapping = lookupPowerMapping(solarKw, batteryBrand);
         usableBatteryCapacity = mapping.usable_battery_capacity_kwh;
         nominalBatteryCapacity = mapping.nominal_battery_capacity_kwh;
         
         result.steps[2].details.push(
-            `查询${p.battery_brand}功率映射表，光伏容量${solarKw.toFixed(2)}kW位于区间(${mapping.min}, ${mapping.max}]kW`,
+            `方案${planType}查询${batteryBrand}功率映射表，光伏容量${solarKw.toFixed(2)}kW位于区间(${mapping.min}, ${mapping.max}]kW`,
             `对应电池可用容量 = ${usableBatteryCapacity} kWh`,
             `对应电池标称容量 = ${nominalBatteryCapacity} kWh`
         );

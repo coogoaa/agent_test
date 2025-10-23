@@ -69,19 +69,18 @@
                                 <option value="WA">WA</option>
                             </select>
                         </div>
-                        <div class="form-group">
-                            <label>电池品牌类型</label>
-                            <select name="battery_brand" style="padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
-                                <option value="GS">GS (GoodWe/Sungrow)</option>
-                                <option value="GD">GD (GrowWatt/Deye)</option>
-                            </select>
-                        </div>
                     </div>
                 </div>
 
                 <!-- 方案参数 -->
                 <div id="plan" class="tab-content">
                     <h2>方案参数</h2>
+                    <div style="background: #f0f8ff; padding: 10px; border-radius: 4px; margin-bottom: 15px; font-size: 13px;">
+                        <strong>方案说明：</strong><br>
+                        • 方案A：查询GS功率映射表（GoodWe/Sungrow）<br>
+                        • 方案B：查询GD功率映射表（GrowWatt/Deye）<br>
+                        • 方案C：使用公式计算，基于目标自用率
+                    </div>
                     <div class="form-grid">
                         <div class="form-group">
                             <label>方案A容量系数</label>
