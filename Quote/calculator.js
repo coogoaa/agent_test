@@ -54,9 +54,9 @@ document.getElementById('calcForm').addEventListener('submit', function(e) {
         params[key] = isNaN(value) ? value : parseFloat(value);
     }
     
-    const resultA = calculatePlan(params, 'A');
-    const resultB = calculatePlan(params, 'B');
-    const resultC = calculatePlan(params, 'C');
+    const resultA = calculateSinglePlan(params, 'A');
+    const resultB = calculateSinglePlan(params, 'B');
+    const resultC = calculateSinglePlan(params, 'C');
         
     const results = { A: resultA, B: resultB, C: resultC };
         
