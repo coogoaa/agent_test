@@ -1,0 +1,40 @@
+{
+  "location": {
+    "latitude": -38.16084340772881,
+    "longitude": 144.29571867088058,
+    "description": "36 Carina Way, Highton VIC 3216, Australia"
+  },
+  "system_loss": 15,
+  "panel_spec": {
+    "brand": "JA Solar",
+    "model": "JAM54D40-440/LB/1500V",
+    "power_watts": 440,
+    "efficiency": 22,
+    "first_year_degradation": 0,
+    "annual_degradation": 0.4,
+    "temperature_coefficient_pmax": -0.3
+  },
+  "roof_surfaces": [
+    {
+      "name": "坡面A (主坡面)",
+      "panel_count": 8,
+      "tilt_angle": 23,
+      "azimuth": 17,
+      "description": "主坡面，3.52kW，方位角17°"
+    },
+    {
+      "name": "坡面B (侧坡面)",
+      "panel_count": 3,
+      "tilt_angle": 23,
+      "azimuth": 332,
+      "description": "侧坡面，1.32kW，方位角332°"
+    }
+  ],
+  "output": {
+    "save_hourly_radiation": true,
+    "save_monthly_details": true,
+    "output_format": "json",
+    "output_directory": "output",
+    "add_timestamp": true
+  }
+}
