@@ -1,0 +1,5 @@
+{
+  "name": "Solar ROI Calculator",
+  "description": "An interactive web application to simulate solar energy flow and calculate the 20-year return on investment (ROI) for a solar panel and battery system.",
+  "requestFramePermissions": []
+}

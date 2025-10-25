@@ -1,0 +1,40 @@
+{
+  "location": {
+    "latitude": -42.7520648,
+    "longitude": 147.2752573,
+    "description": "TSA | azimuth converted to PVGIS aspect (0°=South)"
+  },
+  "system_loss": 15,
+  "panel_spec": {
+    "brand": "JA Solar",
+    "model": "JAM54D40-440/LB/1500V",
+    "power_watts": 440,
+    "efficiency": 22,
+    "first_year_degradation": 0,
+    "annual_degradation": 0.4,
+    "temperature_coefficient_pmax": -0.3
+  },
+  "roof_surfaces": [
+    {
+      "name": "坡面A (主坡面)",
+      "panel_count": 7,
+      "tilt_angle": 23,
+      "azimuth": -179.85,
+      "description": "主坡面，3.52kW，方位角17° [bearing=-0.15° -> aspect(PVGIS)=-179.85°]"
+    },
+    {
+      "name": "坡面B (侧坡面)",
+      "panel_count": 9,
+      "tilt_angle": 23,
+      "azimuth": 0.15000000000000568,
+      "description": "侧坡面，1.32kW，方位角332° [bearing=179.85° -> aspect(PVGIS)=0.15000000000000568°]"
+    }
+  ],
+  "output": {
+    "save_hourly_radiation": true,
+    "save_monthly_details": true,
+    "output_format": "json",
+    "output_directory": "output",
+    "add_timestamp": true
+  }
+}

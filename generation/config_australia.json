@@ -1,8 +1,8 @@
 {
   "location": {
-    "latitude": -38.16084340772881,
-    "longitude": 144.29571867088058,
-    "description": "36 Carina Way, Highton VIC 3216, Australia"
+    "latitude": -42.7520648,
+    "longitude": 147.2752573,
+    "description": "TSA"
   },
   "system_loss": 15,
   "panel_spec": {
@@ -17,16 +17,16 @@
   "roof_surfaces": [
     {
       "name": "坡面A (主坡面)",
-      "panel_count": 8,
+      "panel_count": 7,
       "tilt_angle": 23,
-      "azimuth": 17,
+      "azimuth": -0.15,
       "description": "主坡面，3.52kW，方位角17°"
     },
     {
       "name": "坡面B (侧坡面)",
-      "panel_count": 3,
+      "panel_count": 9,
       "tilt_angle": 23,
-      "azimuth": 332,
+      "azimuth": 179.85,
       "description": "侧坡面，1.32kW，方位角332°"
     }
   ],

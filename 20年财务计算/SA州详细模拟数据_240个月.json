@@ -1,0 +1,6985 @@
+{
+  "metadata": {
+    "state": "SA",
+    "location": "Seaford Rise SA 5169",
+    "generated_at": "2025-10-24T21:44:34.069515",
+    "total_months": 240
+  },
+  "config": {
+    "system_size_kw": 6.6,
+    "battery_capacity_kwh": 13.5,
+    "panel_count": 15,
+    "panel_power_w": 440,
+    "upfront_investment": 18000.0,
+    "subsidy": 2500.0,
+    "final_price": 15500.0,
+    "electricity_price_kwh": 0.35,
+    "feed_in_tariff": 0.06,
+    "fixed_charge_day": 0.8,
+    "price_indexation": 0.025,
+    "panel_degradation": 0.004,
+    "interest_rate": 0.05
+  },
+  "results": [
+    {
+      "year": 1,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 677.16,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 253.94,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.24,
+          "net_cost": 9.56,
+          "cost_without_solar": 176.63,
+          "monthly_saving": 167.07
+        }
+      },
+      "cumulative_saving": 167.07,
+      "payback_progress_percent": 1.08
+    },
+    {
+      "year": 1,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 616.176,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 231.066,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 13.86,
+          "net_cost": 8.54,
+          "cost_without_solar": 160.56,
+          "monthly_saving": 152.02
+        }
+      },
+      "cumulative_saving": 319.09,
+      "payback_progress_percent": 2.06
+    },
+    {
+      "year": 1,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 594.792,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 223.052,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.38,
+          "net_cost": 11.42,
+          "cost_without_solar": 158.16,
+          "monthly_saving": 146.74
+        }
+      },
+      "cumulative_saving": 465.83,
+      "payback_progress_percent": 3.01
+    },
+    {
+      "year": 1,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 565.488,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 212.058,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.72,
+          "net_cost": 11.28,
+          "cost_without_solar": 150.79,
+          "monthly_saving": 139.52
+        }
+      },
+      "cumulative_saving": 605.35,
+      "payback_progress_percent": 3.91
+    },
+    {
+      "year": 1,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 670.824,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 251.564,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.09,
+          "net_cost": 9.71,
+          "cost_without_solar": 175.21,
+          "monthly_saving": 165.5
+        }
+      },
+      "cumulative_saving": 770.85,
+      "payback_progress_percent": 4.97
+    },
+    {
+      "year": 1,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 835.56,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 313.34,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 18.8,
+          "net_cost": 5.2,
+          "cost_without_solar": 211.35,
+          "monthly_saving": 206.15
+        }
+      },
+      "cumulative_saving": 977.0,
+      "payback_progress_percent": 6.3
+    },
+    {
+      "year": 1,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 845.064,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 316.904,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 19.01,
+          "net_cost": 5.79,
+          "cost_without_solar": 214.28,
+          "monthly_saving": 208.49
+        }
+      },
+      "cumulative_saving": 1185.49,
+      "payback_progress_percent": 7.65
+    },
+    {
+      "year": 1,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 748.44,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 280.66,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.84,
+          "net_cost": 7.96,
+          "cost_without_solar": 192.62,
+          "monthly_saving": 184.66
+        }
+      },
+      "cumulative_saving": 1370.15,
+      "payback_progress_percent": 8.84
+    },
+    {
+      "year": 1,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 582.912,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 218.592,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 13.12,
+          "net_cost": 10.88,
+          "cost_without_solar": 154.7,
+          "monthly_saving": 143.82
+        }
+      },
+      "cumulative_saving": 1513.97,
+      "payback_progress_percent": 9.77
+    },
+    {
+      "year": 1,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 571.032,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 214.132,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.85,
+          "net_cost": 11.95,
+          "cost_without_solar": 152.84,
+          "monthly_saving": 140.89
+        }
+      },
+      "cumulative_saving": 1654.86,
+      "payback_progress_percent": 10.68
+    },
+    {
+      "year": 1,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 578.16,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 216.81,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 13.01,
+          "net_cost": 10.99,
+          "cost_without_solar": 153.63,
+          "monthly_saving": 142.64
+        }
+      },
+      "cumulative_saving": 1797.5,
+      "payback_progress_percent": 11.6
+    },
+    {
+      "year": 1,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 635.976,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 238.496,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.31,
+          "net_cost": 10.49,
+          "cost_without_solar": 167.4,
+          "monthly_saving": 156.91
+        }
+      },
+      "cumulative_saving": 1954.41,
+      "payback_progress_percent": 12.61
+    },
+    {
+      "year": 2,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 674.45136,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 251.23136,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.07,
+          "net_cost": 9.73,
+          "cost_without_solar": 180.43,
+          "monthly_saving": 170.7
+        }
+      },
+      "cumulative_saving": 2125.11,
+      "payback_progress_percent": 13.71
+    },
+    {
+      "year": 2,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 613.711296,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 228.601296,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 13.72,
+          "net_cost": 8.68,
+          "cost_without_solar": 164.01,
+          "monthly_saving": 155.33
+        }
+      },
+      "cumulative_saving": 2280.44,
+      "payback_progress_percent": 14.71
+    },
+    {
+      "year": 2,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 592.412832,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 220.672832,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.24,
+          "net_cost": 11.56,
+          "cost_without_solar": 161.5,
+          "monthly_saving": 149.94
+        }
+      },
+      "cumulative_saving": 2430.38,
+      "payback_progress_percent": 15.68
+    },
+    {
+      "year": 2,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 563.226048,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 209.796048,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.59,
+          "net_cost": 11.41,
+          "cost_without_solar": 153.96,
+          "monthly_saving": 142.55
+        }
+      },
+      "cumulative_saving": 2572.93,
+      "payback_progress_percent": 16.6
+    },
+    {
+      "year": 2,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 668.140704,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 248.880704,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.93,
+          "net_cost": 9.87,
+          "cost_without_solar": 178.97,
+          "monthly_saving": 169.1
+        }
+      },
+      "cumulative_saving": 2742.03,
+      "payback_progress_percent": 17.69
+    },
+    {
+      "year": 2,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 832.21776,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 309.99776,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 18.6,
+          "net_cost": 5.4,
+          "cost_without_solar": 216.03,
+          "monthly_saving": 210.63
+        }
+      },
+      "cumulative_saving": 2952.66,
+      "payback_progress_percent": 19.05
+    },
+    {
+      "year": 2,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 841.683744,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 313.523744,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 18.81,
+          "net_cost": 5.99,
+          "cost_without_solar": 219.01,
+          "monthly_saving": 213.03
+        }
+      },
+      "cumulative_saving": 3165.69,
+      "payback_progress_percent": 20.42
+    },
+    {
+      "year": 2,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 745.44624,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 277.66624,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.66,
+          "net_cost": 8.14,
+          "cost_without_solar": 196.81,
+          "monthly_saving": 188.67
+        }
+      },
+      "cumulative_saving": 3354.36,
+      "payback_progress_percent": 21.64
+    },
+    {
+      "year": 2,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 580.580352,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 216.260352,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.98,
+          "net_cost": 11.02,
+          "cost_without_solar": 157.97,
+          "monthly_saving": 146.94
+        }
+      },
+      "cumulative_saving": 3501.3,
+      "payback_progress_percent": 22.59
+    },
+    {
+      "year": 2,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 568.747872,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 211.847872,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.71,
+          "net_cost": 12.09,
+          "cost_without_solar": 156.04,
+          "monthly_saving": 143.95
+        }
+      },
+      "cumulative_saving": 3645.25,
+      "payback_progress_percent": 23.52
+    },
+    {
+      "year": 2,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 575.84736,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 214.49736,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.87,
+          "net_cost": 11.13,
+          "cost_without_solar": 156.88,
+          "monthly_saving": 145.75
+        }
+      },
+      "cumulative_saving": 3791.0,
+      "payback_progress_percent": 24.46
+    },
+    {
+      "year": 2,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 633.432096,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 235.952096,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.16,
+          "net_cost": 10.64,
+          "cost_without_solar": 170.96,
+          "monthly_saving": 160.32
+        }
+      },
+      "cumulative_saving": 3951.32,
+      "payback_progress_percent": 25.49
+    },
+    {
+      "year": 3,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 671.75355456,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 248.53355456,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.91,
+          "net_cost": 9.89,
+          "cost_without_solar": 184.32,
+          "monthly_saving": 174.43
+        }
+      },
+      "cumulative_saving": 4125.75,
+      "payback_progress_percent": 26.62
+    },
+    {
+      "year": 3,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 611.256450816,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 226.146450816,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 13.57,
+          "net_cost": 8.83,
+          "cost_without_solar": 167.55,
+          "monthly_saving": 158.72
+        }
+      },
+      "cumulative_saving": 4284.47,
+      "payback_progress_percent": 27.64
+    },
+    {
+      "year": 3,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 590.043180672,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 218.303180672,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.1,
+          "net_cost": 11.7,
+          "cost_without_solar": 164.91,
+          "monthly_saving": 153.21
+        }
+      },
+      "cumulative_saving": 4437.68,
+      "payback_progress_percent": 28.63
+    },
+    {
+      "year": 3,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 560.973143808,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 207.543143808,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.45,
+          "net_cost": 11.55,
+          "cost_without_solar": 157.21,
+          "monthly_saving": 145.66
+        }
+      },
+      "cumulative_saving": 4583.34,
+      "payback_progress_percent": 29.57
+    },
+    {
+      "year": 3,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 665.468141184,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 246.208141184,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.77,
+          "net_cost": 10.03,
+          "cost_without_solar": 182.82,
+          "monthly_saving": 172.8
+        }
+      },
+      "cumulative_saving": 4756.14,
+      "payback_progress_percent": 30.68
+    },
+    {
+      "year": 3,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 828.88888896,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 306.66888896,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 18.4,
+          "net_cost": 5.6,
+          "cost_without_solar": 220.83,
+          "monthly_saving": 215.23
+        }
+      },
+      "cumulative_saving": 4971.37,
+      "payback_progress_percent": 32.07
+    },
+    {
+      "year": 3,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 838.317009024,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 310.157009024,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 18.61,
+          "net_cost": 6.19,
+          "cost_without_solar": 223.87,
+          "monthly_saving": 217.68
+        }
+      },
+      "cumulative_saving": 5189.05,
+      "payback_progress_percent": 33.48
+    },
+    {
+      "year": 3,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 742.46445504,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 274.68445504,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.48,
+          "net_cost": 8.32,
+          "cost_without_solar": 201.11,
+          "monthly_saving": 192.79
+        }
+      },
+      "cumulative_saving": 5381.84,
+      "payback_progress_percent": 34.72
+    },
+    {
+      "year": 3,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 578.258030592,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 213.938030592,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.84,
+          "net_cost": 11.16,
+          "cost_without_solar": 161.32,
+          "monthly_saving": 150.15
+        }
+      },
+      "cumulative_saving": 5531.99,
+      "payback_progress_percent": 35.69
+    },
+    {
+      "year": 3,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 566.472880512,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 209.572880512,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.57,
+          "net_cost": 12.23,
+          "cost_without_solar": 159.32,
+          "monthly_saving": 147.09
+        }
+      },
+      "cumulative_saving": 5679.08,
+      "payback_progress_percent": 36.64
+    },
+    {
+      "year": 3,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 573.54397056,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 212.19397056,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.73,
+          "net_cost": 11.27,
+          "cost_without_solar": 160.2,
+          "monthly_saving": 148.93
+        }
+      },
+      "cumulative_saving": 5828.01,
+      "payback_progress_percent": 37.6
+    },
+    {
+      "year": 3,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 630.898367616,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 233.418367616,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.01,
+          "net_cost": 10.79,
+          "cost_without_solar": 174.61,
+          "monthly_saving": 163.82
+        }
+      },
+      "cumulative_saving": 5991.83,
+      "payback_progress_percent": 38.66
+    },
+    {
+      "year": 4,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 669.06654034176,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 245.84654034176,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.75,
+          "net_cost": 10.05,
+          "cost_without_solar": 188.3,
+          "monthly_saving": 178.26
+        }
+      },
+      "cumulative_saving": 6170.09,
+      "payback_progress_percent": 39.81
+    },
+    {
+      "year": 4,
+      "month": 2,
+      "days": 29,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.644063275862069,
+          0.6885501206896552,
+          0.5064860482758621
+        ],
+        "step3_generation": 608.811425012736,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 223.701425012736,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 23.2,
+          "feed_in_income": 13.42,
+          "net_cost": 9.78,
+          "cost_without_solar": 171.98,
+          "monthly_saving": 162.2
+        }
+      },
+      "cumulative_saving": 6332.29,
+      "payback_progress_percent": 40.85
+    },
+    {
+      "year": 4,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 587.683007949312,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 215.943007949312,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.96,
+          "net_cost": 11.84,
+          "cost_without_solar": 168.42,
+          "monthly_saving": 156.57
+        }
+      },
+      "cumulative_saving": 6488.86,
+      "payback_progress_percent": 41.86
+    },
+    {
+      "year": 4,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 558.729251232768,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 205.299251232768,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.32,
+          "net_cost": 11.68,
+          "cost_without_solar": 160.54,
+          "monthly_saving": 148.86
+        }
+      },
+      "cumulative_saving": 6637.72,
+      "payback_progress_percent": 42.82
+    },
+    {
+      "year": 4,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 662.806268619264,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 243.546268619264,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.61,
+          "net_cost": 10.19,
+          "cost_without_solar": 186.77,
+          "monthly_saving": 176.59
+        }
+      },
+      "cumulative_saving": 6814.31,
+      "payback_progress_percent": 43.96
+    },
+    {
+      "year": 4,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 825.57333340416,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 303.35333340416,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 18.2,
+          "net_cost": 5.8,
+          "cost_without_solar": 225.75,
+          "monthly_saving": 219.95
+        }
+      },
+      "cumulative_saving": 7034.26,
+      "payback_progress_percent": 45.38
+    },
+    {
+      "year": 4,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 834.963740987904,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 306.803740987904,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 18.41,
+          "net_cost": 6.39,
+          "cost_without_solar": 228.85,
+          "monthly_saving": 222.45
+        }
+      },
+      "cumulative_saving": 7256.71,
+      "payback_progress_percent": 46.82
+    },
+    {
+      "year": 4,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 739.49459721984,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 271.71459721984,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.3,
+          "net_cost": 8.5,
+          "cost_without_solar": 205.52,
+          "monthly_saving": 197.02
+        }
+      },
+      "cumulative_saving": 7453.73,
+      "payback_progress_percent": 48.09
+    },
+    {
+      "year": 4,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 575.944998469632,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 211.624998469632,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.7,
+          "net_cost": 11.3,
+          "cost_without_solar": 164.75,
+          "monthly_saving": 153.45
+        }
+      },
+      "cumulative_saving": 7607.18,
+      "payback_progress_percent": 49.08
+    },
+    {
+      "year": 4,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 564.206988989952,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 207.306988989952,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.44,
+          "net_cost": 12.36,
+          "cost_without_solar": 162.68,
+          "monthly_saving": 150.32
+        }
+      },
+      "cumulative_saving": 7757.5,
+      "payback_progress_percent": 50.05
+    },
+    {
+      "year": 4,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 571.24979467776,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 209.89979467776,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.59,
+          "net_cost": 11.41,
+          "cost_without_solar": 163.6,
+          "monthly_saving": 152.2
+        }
+      },
+      "cumulative_saving": 7909.7,
+      "payback_progress_percent": 51.03
+    },
+    {
+      "year": 4,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 628.374774145536,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 230.894774145536,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.85,
+          "net_cost": 10.95,
+          "cost_without_solar": 178.36,
+          "monthly_saving": 167.41
+        }
+      },
+      "cumulative_saving": 8077.11,
+      "payback_progress_percent": 52.11
+    },
+    {
+      "year": 5,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 666.3902741803929,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 243.17027418039297,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.59,
+          "net_cost": 10.21,
+          "cost_without_solar": 192.39,
+          "monthly_saving": 182.18
+        }
+      },
+      "cumulative_saving": 8259.29,
+      "payback_progress_percent": 53.29
+    },
+    {
+      "year": 5,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 606.376179312685,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 221.26617931268507,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 13.28,
+          "net_cost": 9.12,
+          "cost_without_solar": 174.9,
+          "monthly_saving": 165.78
+        }
+      },
+      "cumulative_saving": 8425.07,
+      "payback_progress_percent": 54.36
+    },
+    {
+      "year": 5,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 585.3322759175147,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 213.59227591751474,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.82,
+          "net_cost": 11.98,
+          "cost_without_solar": 172.01,
+          "monthly_saving": 160.02
+        }
+      },
+      "cumulative_saving": 8585.09,
+      "payback_progress_percent": 55.39
+    },
+    {
+      "year": 5,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 556.4943342278369,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 203.06433422783692,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.18,
+          "net_cost": 11.82,
+          "cost_without_solar": 163.96,
+          "monthly_saving": 152.14
+        }
+      },
+      "cumulative_saving": 8737.23,
+      "payback_progress_percent": 56.37
+    },
+    {
+      "year": 5,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 660.155043544787,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 240.89504354478694,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.45,
+          "net_cost": 10.35,
+          "cost_without_solar": 190.82,
+          "monthly_saving": 180.48
+        }
+      },
+      "cumulative_saving": 8917.71,
+      "payback_progress_percent": 57.53
+    },
+    {
+      "year": 5,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 822.2710400705433,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 300.05104007054337,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 18.0,
+          "net_cost": 6.0,
+          "cost_without_solar": 230.8,
+          "monthly_saving": 224.8
+        }
+      },
+      "cumulative_saving": 9142.51,
+      "payback_progress_percent": 58.98
+    },
+    {
+      "year": 5,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 831.6238860239524,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 303.4638860239524,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 18.21,
+          "net_cost": 6.59,
+          "cost_without_solar": 233.95,
+          "monthly_saving": 227.36
+        }
+      },
+      "cumulative_saving": 9369.87,
+      "payback_progress_percent": 60.45
+    },
+    {
+      "year": 5,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 736.5366188309606,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 268.75661883096063,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.13,
+          "net_cost": 8.67,
+          "cost_without_solar": 210.04,
+          "monthly_saving": 201.36
+        }
+      },
+      "cumulative_saving": 9571.23,
+      "payback_progress_percent": 61.75
+    },
+    {
+      "year": 5,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 573.6412184757535,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 209.32121847575348,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.56,
+          "net_cost": 11.44,
+          "cost_without_solar": 168.27,
+          "monthly_saving": 156.83
+        }
+      },
+      "cumulative_saving": 9728.06,
+      "payback_progress_percent": 62.76
+    },
+    {
+      "year": 5,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 561.9501610339922,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 205.0501610339922,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.3,
+          "net_cost": 12.5,
+          "cost_without_solar": 166.13,
+          "monthly_saving": 153.63
+        }
+      },
+      "cumulative_saving": 9881.69,
+      "payback_progress_percent": 63.75
+    },
+    {
+      "year": 5,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 568.9647954990489,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 207.61479549904897,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.46,
+          "net_cost": 11.54,
+          "cost_without_solar": 167.09,
+          "monthly_saving": 155.55
+        }
+      },
+      "cumulative_saving": 10037.24,
+      "payback_progress_percent": 64.76
+    },
+    {
+      "year": 5,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 625.8612750489539,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 228.38127504895385,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.7,
+          "net_cost": 11.1,
+          "cost_without_solar": 182.2,
+          "monthly_saving": 171.1
+        }
+      },
+      "cumulative_saving": 10208.34,
+      "payback_progress_percent": 65.86
+    },
+    {
+      "year": 6,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 663.7247130836714,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 240.5047130836714,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.43,
+          "net_cost": 10.37,
+          "cost_without_solar": 196.58,
+          "monthly_saving": 186.21
+        }
+      },
+      "cumulative_saving": 10394.55,
+      "payback_progress_percent": 67.06
+    },
+    {
+      "year": 6,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 603.9506745954343,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 218.8406745954343,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 13.13,
+          "net_cost": 9.27,
+          "cost_without_solar": 178.71,
+          "monthly_saving": 169.44
+        }
+      },
+      "cumulative_saving": 10563.99,
+      "payback_progress_percent": 68.15
+    },
+    {
+      "year": 6,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 582.9909468138447,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 211.2509468138447,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.68,
+          "net_cost": 12.12,
+          "cost_without_solar": 175.69,
+          "monthly_saving": 163.56
+        }
+      },
+      "cumulative_saving": 10727.55,
+      "payback_progress_percent": 69.21
+    },
+    {
+      "year": 6,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 554.2683568909256,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 200.83835689092558,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.05,
+          "net_cost": 11.95,
+          "cost_without_solar": 167.45,
+          "monthly_saving": 155.5
+        }
+      },
+      "cumulative_saving": 10883.05,
+      "payback_progress_percent": 70.21
+    },
+    {
+      "year": 6,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 657.5144233706078,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 238.2544233706078,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.3,
+          "net_cost": 10.5,
+          "cost_without_solar": 194.97,
+          "monthly_saving": 184.47
+        }
+      },
+      "cumulative_saving": 11067.52,
+      "payback_progress_percent": 71.4
+    },
+    {
+      "year": 6,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 818.9819559102611,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 296.7619559102612,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 17.81,
+          "net_cost": 6.19,
+          "cost_without_solar": 235.97,
+          "monthly_saving": 229.77
+        }
+      },
+      "cumulative_saving": 11297.29,
+      "payback_progress_percent": 72.89
+    },
+    {
+      "year": 6,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 828.2973904798566,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 300.13739047985655,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 18.01,
+          "net_cost": 6.79,
+          "cost_without_solar": 239.18,
+          "monthly_saving": 232.38
+        }
+      },
+      "cumulative_saving": 11529.67,
+      "payback_progress_percent": 74.38
+    },
+    {
+      "year": 6,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 733.5904723556368,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 265.8104723556368,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.95,
+          "net_cost": 8.85,
+          "cost_without_solar": 214.67,
+          "monthly_saving": 205.82
+        }
+      },
+      "cumulative_saving": 11735.49,
+      "payback_progress_percent": 75.71
+    },
+    {
+      "year": 6,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 571.3466536018504,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 207.02665360185046,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.42,
+          "net_cost": 11.58,
+          "cost_without_solar": 171.87,
+          "monthly_saving": 160.3
+        }
+      },
+      "cumulative_saving": 11895.79,
+      "payback_progress_percent": 76.75
+    },
+    {
+      "year": 6,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 559.7023603898563,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 202.80236038985623,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.17,
+          "net_cost": 12.63,
+          "cost_without_solar": 169.66,
+          "monthly_saving": 157.03
+        }
+      },
+      "cumulative_saving": 12052.82,
+      "payback_progress_percent": 77.76
+    },
+    {
+      "year": 6,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 566.6889363170527,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 205.33893631705277,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.32,
+          "net_cost": 11.68,
+          "cost_without_solar": 170.67,
+          "monthly_saving": 158.99
+        }
+      },
+      "cumulative_saving": 12211.81,
+      "payback_progress_percent": 78.79
+    },
+    {
+      "year": 6,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 623.3578299487581,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 225.87782994875803,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.55,
+          "net_cost": 11.25,
+          "cost_without_solar": 186.13,
+          "monthly_saving": 174.89
+        }
+      },
+      "cumulative_saving": 12386.7,
+      "payback_progress_percent": 79.91
+    },
+    {
+      "year": 7,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 661.0698142313367,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 237.8498142313367,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.27,
+          "net_cost": 10.53,
+          "cost_without_solar": 200.88,
+          "monthly_saving": 190.35
+        }
+      },
+      "cumulative_saving": 12577.05,
+      "payback_progress_percent": 81.14
+    },
+    {
+      "year": 7,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 601.5348718970525,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 216.42487189705258,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 12.99,
+          "net_cost": 9.41,
+          "cost_without_solar": 182.62,
+          "monthly_saving": 173.21
+        }
+      },
+      "cumulative_saving": 12750.26,
+      "payback_progress_percent": 82.26
+    },
+    {
+      "year": 7,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 580.6589830265893,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 208.9189830265893,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.54,
+          "net_cost": 12.26,
+          "cost_without_solar": 179.46,
+          "monthly_saving": 167.19
+        }
+      },
+      "cumulative_saving": 12917.45,
+      "payback_progress_percent": 83.34
+    },
+    {
+      "year": 7,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 552.0512834633619,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 198.6212834633619,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.92,
+          "net_cost": 12.08,
+          "cost_without_solar": 171.04,
+          "monthly_saving": 158.96
+        }
+      },
+      "cumulative_saving": 13076.41,
+      "payback_progress_percent": 84.36
+    },
+    {
+      "year": 7,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 654.8843656771254,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 235.62436567712535,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.14,
+          "net_cost": 10.66,
+          "cost_without_solar": 199.23,
+          "monthly_saving": 188.57
+        }
+      },
+      "cumulative_saving": 13264.98,
+      "payback_progress_percent": 85.58
+    },
+    {
+      "year": 7,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 815.7060280866201,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 293.48602808662014,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 17.61,
+          "net_cost": 6.39,
+          "cost_without_solar": 241.26,
+          "monthly_saving": 234.87
+        }
+      },
+      "cumulative_saving": 13499.85,
+      "payback_progress_percent": 87.1
+    },
+    {
+      "year": 7,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 824.9842009179372,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 296.82420091793716,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 17.81,
+          "net_cost": 6.99,
+          "cost_without_solar": 244.54,
+          "monthly_saving": 237.55
+        }
+      },
+      "cumulative_saving": 13737.4,
+      "payback_progress_percent": 88.63
+    },
+    {
+      "year": 7,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 730.6561104662143,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 262.87611046621424,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.77,
+          "net_cost": 9.03,
+          "cost_without_solar": 219.42,
+          "monthly_saving": 210.39
+        }
+      },
+      "cumulative_saving": 13947.79,
+      "payback_progress_percent": 89.99
+    },
+    {
+      "year": 7,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 569.0612669874431,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 204.74126698744305,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.28,
+          "net_cost": 11.72,
+          "cost_without_solar": 175.57,
+          "monthly_saving": 163.86
+        }
+      },
+      "cumulative_saving": 14111.65,
+      "payback_progress_percent": 91.04
+    },
+    {
+      "year": 7,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 557.4635509482968,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 200.5635509482968,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.03,
+          "net_cost": 12.77,
+          "cost_without_solar": 173.28,
+          "monthly_saving": 160.52
+        }
+      },
+      "cumulative_saving": 14272.17,
+      "payback_progress_percent": 92.08
+    },
+    {
+      "year": 7,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 564.4221805717846,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 203.07218057178454,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.18,
+          "net_cost": 11.82,
+          "cost_without_solar": 174.34,
+          "monthly_saving": 162.52
+        }
+      },
+      "cumulative_saving": 14434.69,
+      "payback_progress_percent": 93.13
+    },
+    {
+      "year": 7,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 620.864398628963,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 223.384398628963,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.4,
+          "net_cost": 11.4,
+          "cost_without_solar": 190.17,
+          "monthly_saving": 178.77
+        }
+      },
+      "cumulative_saving": 14613.46,
+      "payback_progress_percent": 94.28
+    },
+    {
+      "year": 8,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 658.4255349744113,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 235.20553497441136,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.11,
+          "net_cost": 10.69,
+          "cost_without_solar": 205.28,
+          "monthly_saving": 194.59
+        }
+      },
+      "cumulative_saving": 14808.05,
+      "payback_progress_percent": 95.54
+    },
+    {
+      "year": 8,
+      "month": 2,
+      "days": 29,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.644063275862069,
+          0.6885501206896552,
+          0.5064860482758621
+        ],
+        "step3_generation": 599.1287324094644,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 214.01873240946438,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 23.2,
+          "feed_in_income": 12.84,
+          "net_cost": 10.36,
+          "cost_without_solar": 187.43,
+          "monthly_saving": 177.07
+        }
+      },
+      "cumulative_saving": 14985.12,
+      "payback_progress_percent": 96.68
+    },
+    {
+      "year": 8,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 578.3363470944829,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 206.59634709448295,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.4,
+          "net_cost": 12.4,
+          "cost_without_solar": 183.33,
+          "monthly_saving": 170.92
+        }
+      },
+      "cumulative_saving": 15156.04,
+      "payback_progress_percent": 97.78
+    },
+    {
+      "year": 8,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 549.8430783295084,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 196.41307832950844,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.78,
+          "net_cost": 12.22,
+          "cost_without_solar": 174.72,
+          "monthly_saving": 162.5
+        }
+      },
+      "cumulative_saving": 15318.54,
+      "payback_progress_percent": 98.83
+    },
+    {
+      "year": 8,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 652.2648282144169,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 233.00482821441688,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.98,
+          "net_cost": 10.82,
+          "cost_without_solar": 203.59,
+          "monthly_saving": 192.77
+        }
+      },
+      "cumulative_saving": 15511.31,
+      "payback_progress_percent": 100.07
+    },
+    {
+      "year": 8,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 812.4432039742736,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 290.22320397427364,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 17.41,
+          "net_cost": 6.59,
+          "cost_without_solar": 246.7,
+          "monthly_saving": 240.11
+        }
+      },
+      "cumulative_saving": 15751.42,
+      "payback_progress_percent": 101.62
+    },
+    {
+      "year": 8,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 821.6842641142654,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 293.5242641142654,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 17.61,
+          "net_cost": 7.19,
+          "cost_without_solar": 250.03,
+          "monthly_saving": 242.84
+        }
+      },
+      "cumulative_saving": 15994.26,
+      "payback_progress_percent": 103.19
+    },
+    {
+      "year": 8,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 727.7334860243494,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 259.9534860243494,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.6,
+          "net_cost": 9.2,
+          "cost_without_solar": 224.28,
+          "monthly_saving": 215.08
+        }
+      },
+      "cumulative_saving": 16209.34,
+      "payback_progress_percent": 104.58
+    },
+    {
+      "year": 8,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 566.7850219194933,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 202.4650219194933,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.15,
+          "net_cost": 11.85,
+          "cost_without_solar": 179.36,
+          "monthly_saving": 167.51
+        }
+      },
+      "cumulative_saving": 16376.85,
+      "payback_progress_percent": 105.66
+    },
+    {
+      "year": 8,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 555.2336967445036,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 198.3336967445036,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.9,
+          "net_cost": 12.9,
+          "cost_without_solar": 177.0,
+          "monthly_saving": 164.1
+        }
+      },
+      "cumulative_saving": 16540.95,
+      "payback_progress_percent": 106.72
+    },
+    {
+      "year": 8,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 562.1644918494974,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 200.81449184949741,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.05,
+          "net_cost": 11.95,
+          "cost_without_solar": 178.09,
+          "monthly_saving": 166.14
+        }
+      },
+      "cumulative_saving": 16707.09,
+      "payback_progress_percent": 107.79
+    },
+    {
+      "year": 8,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 618.3809410344471,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 220.90094103444716,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.25,
+          "net_cost": 11.55,
+          "cost_without_solar": 194.3,
+          "monthly_saving": 182.76
+        }
+      },
+      "cumulative_saving": 16889.85,
+      "payback_progress_percent": 108.97
+    },
+    {
+      "year": 9,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 655.7918328345137,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 232.5718328345137,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.95,
+          "net_cost": 10.85,
+          "cost_without_solar": 209.79,
+          "monthly_saving": 198.94
+        }
+      },
+      "cumulative_saving": 17088.79,
+      "payback_progress_percent": 110.25
+    },
+    {
+      "year": 9,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 596.7322174798265,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 211.6222174798265,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 12.7,
+          "net_cost": 9.7,
+          "cost_without_solar": 190.73,
+          "monthly_saving": 181.03
+        }
+      },
+      "cumulative_saving": 17269.82,
+      "payback_progress_percent": 111.42
+    },
+    {
+      "year": 9,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 576.023001706105,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 204.283001706105,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.26,
+          "net_cost": 12.54,
+          "cost_without_solar": 187.29,
+          "monthly_saving": 174.75
+        }
+      },
+      "cumulative_saving": 17444.57,
+      "payback_progress_percent": 112.55
+    },
+    {
+      "year": 9,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 547.6437060161904,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 194.2137060161904,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.65,
+          "net_cost": 12.35,
+          "cost_without_solar": 178.48,
+          "monthly_saving": 166.14
+        }
+      },
+      "cumulative_saving": 17610.71,
+      "payback_progress_percent": 113.62
+    },
+    {
+      "year": 9,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 649.6557689015592,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 230.3957689015592,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.82,
+          "net_cost": 10.98,
+          "cost_without_solar": 208.06,
+          "monthly_saving": 197.08
+        }
+      },
+      "cumulative_saving": 17807.79,
+      "payback_progress_percent": 114.89
+    },
+    {
+      "year": 9,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 809.1934311583766,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 286.97343115837657,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 17.22,
+          "net_cost": 6.78,
+          "cost_without_solar": 252.26,
+          "monthly_saving": 245.48
+        }
+      },
+      "cumulative_saving": 18053.27,
+      "payback_progress_percent": 116.47
+    },
+    {
+      "year": 9,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 818.3975270578084,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 290.23752705780834,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 17.41,
+          "net_cost": 7.39,
+          "cost_without_solar": 255.66,
+          "monthly_saving": 248.27
+        }
+      },
+      "cumulative_saving": 18301.54,
+      "payback_progress_percent": 118.07
+    },
+    {
+      "year": 9,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 724.822552080252,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 257.042552080252,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.42,
+          "net_cost": 9.38,
+          "cost_without_solar": 229.27,
+          "monthly_saving": 219.89
+        }
+      },
+      "cumulative_saving": 18521.43,
+      "payback_progress_percent": 119.49
+    },
+    {
+      "year": 9,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 564.5178818318153,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 200.19788183181532,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 12.01,
+          "net_cost": 11.99,
+          "cost_without_solar": 183.25,
+          "monthly_saving": 171.26
+        }
+      },
+      "cumulative_saving": 18692.69,
+      "payback_progress_percent": 120.6
+    },
+    {
+      "year": 9,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 553.0127619575256,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 196.1127619575256,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.77,
+          "net_cost": 13.03,
+          "cost_without_solar": 180.8,
+          "monthly_saving": 167.77
+        }
+      },
+      "cumulative_saving": 18860.46,
+      "payback_progress_percent": 121.68
+    },
+    {
+      "year": 9,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 559.9158338820994,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 198.5658338820994,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.91,
+          "net_cost": 12.09,
+          "cost_without_solar": 181.95,
+          "monthly_saving": 169.86
+        }
+      },
+      "cumulative_saving": 19030.32,
+      "payback_progress_percent": 122.78
+    },
+    {
+      "year": 9,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 615.9074172703093,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 218.42741727030938,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.11,
+          "net_cost": 11.69,
+          "cost_without_solar": 198.54,
+          "monthly_saving": 186.84
+        }
+      },
+      "cumulative_saving": 19217.16,
+      "payback_progress_percent": 123.98
+    },
+    {
+      "year": 10,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 653.1686655031757,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 229.94866550317565,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.8,
+          "net_cost": 11.0,
+          "cost_without_solar": 214.42,
+          "monthly_saving": 203.41
+        }
+      },
+      "cumulative_saving": 19420.57,
+      "payback_progress_percent": 125.29
+    },
+    {
+      "year": 10,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 594.3452886099072,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 209.2352886099072,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 12.55,
+          "net_cost": 9.85,
+          "cost_without_solar": 194.94,
+          "monthly_saving": 185.09
+        }
+      },
+      "cumulative_saving": 19605.66,
+      "payback_progress_percent": 126.49
+    },
+    {
+      "year": 10,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 573.7189096992806,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 201.9789096992806,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.12,
+          "net_cost": 12.68,
+          "cost_without_solar": 191.35,
+          "monthly_saving": 178.67
+        }
+      },
+      "cumulative_saving": 19784.33,
+      "payback_progress_percent": 127.64
+    },
+    {
+      "year": 10,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 545.4531311921256,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 192.02313119212565,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.52,
+          "net_cost": 12.48,
+          "cost_without_solar": 182.35,
+          "monthly_saving": 169.87
+        }
+      },
+      "cumulative_saving": 19954.2,
+      "payback_progress_percent": 128.74
+    },
+    {
+      "year": 10,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 647.057145825953,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 227.79714582595295,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.67,
+          "net_cost": 11.13,
+          "cost_without_solar": 212.64,
+          "monthly_saving": 201.51
+        }
+      },
+      "cumulative_saving": 20155.71,
+      "payback_progress_percent": 130.04
+    },
+    {
+      "year": 10,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 805.9566574337431,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 283.73665743374306,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 17.02,
+          "net_cost": 6.98,
+          "cost_without_solar": 257.97,
+          "monthly_saving": 250.99
+        }
+      },
+      "cumulative_saving": 20406.7,
+      "payback_progress_percent": 131.66
+    },
+    {
+      "year": 10,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 815.1239369495771,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 286.9639369495771,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 17.22,
+          "net_cost": 7.58,
+          "cost_without_solar": 261.43,
+          "monthly_saving": 253.85
+        }
+      },
+      "cumulative_saving": 20660.55,
+      "payback_progress_percent": 133.29
+    },
+    {
+      "year": 10,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 721.923261871931,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 254.14326187193097,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.25,
+          "net_cost": 9.55,
+          "cost_without_solar": 234.38,
+          "monthly_saving": 224.83
+        }
+      },
+      "cumulative_saving": 20885.38,
+      "payback_progress_percent": 134.74
+    },
+    {
+      "year": 10,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 562.259810304488,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 197.93981030448805,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.88,
+          "net_cost": 12.12,
+          "cost_without_solar": 187.23,
+          "monthly_saving": 175.1
+        }
+      },
+      "cumulative_saving": 21060.48,
+      "payback_progress_percent": 135.87
+    },
+    {
+      "year": 10,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 550.8007109096955,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 193.9007109096955,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.63,
+          "net_cost": 13.17,
+          "cost_without_solar": 184.7,
+          "monthly_saving": 171.54
+        }
+      },
+      "cumulative_saving": 21232.02,
+      "payback_progress_percent": 136.98
+    },
+    {
+      "year": 10,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 557.676170546571,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 196.32617054657103,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.78,
+          "net_cost": 12.22,
+          "cost_without_solar": 185.9,
+          "monthly_saving": 173.68
+        }
+      },
+      "cumulative_saving": 21405.7,
+      "payback_progress_percent": 138.1
+    },
+    {
+      "year": 10,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 613.4437876012281,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 215.96378760122812,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.96,
+          "net_cost": 11.84,
+          "cost_without_solar": 202.88,
+          "monthly_saving": 191.04
+        }
+      },
+      "cumulative_saving": 21596.74,
+      "payback_progress_percent": 139.33
+    },
+    {
+      "year": 11,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 650.555990841163,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 227.33599084116295,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.64,
+          "net_cost": 11.16,
+          "cost_without_solar": 219.16,
+          "monthly_saving": 208.0
+        }
+      },
+      "cumulative_saving": 21804.74,
+      "payback_progress_percent": 140.68
+    },
+    {
+      "year": 11,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 591.9679074554675,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 206.85790745546757,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 12.41,
+          "net_cost": 9.99,
+          "cost_without_solar": 199.25,
+          "monthly_saving": 189.27
+        }
+      },
+      "cumulative_saving": 21994.01,
+      "payback_progress_percent": 141.9
+    },
+    {
+      "year": 11,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 571.4240340604835,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 199.68403406048347,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.98,
+          "net_cost": 12.82,
+          "cost_without_solar": 195.51,
+          "monthly_saving": 182.7
+        }
+      },
+      "cumulative_saving": 22176.71,
+      "payback_progress_percent": 143.08
+    },
+    {
+      "year": 11,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 543.2713186673571,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 189.84131866735714,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.39,
+          "net_cost": 12.61,
+          "cost_without_solar": 186.31,
+          "monthly_saving": 173.7
+        }
+      },
+      "cumulative_saving": 22350.41,
+      "payback_progress_percent": 144.2
+    },
+    {
+      "year": 11,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 644.4689172426491,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 225.20891724264914,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.51,
+          "net_cost": 11.29,
+          "cost_without_solar": 217.34,
+          "monthly_saving": 206.05
+        }
+      },
+      "cumulative_saving": 22556.46,
+      "payback_progress_percent": 145.53
+    },
+    {
+      "year": 11,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 802.7328308040081,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 280.5128308040081,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 16.83,
+          "net_cost": 7.17,
+          "cost_without_solar": 263.82,
+          "monthly_saving": 256.65
+        }
+      },
+      "cumulative_saving": 22813.11,
+      "payback_progress_percent": 147.18
+    },
+    {
+      "year": 11,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 811.8634412017788,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 283.7034412017788,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 17.02,
+          "net_cost": 7.78,
+          "cost_without_solar": 267.35,
+          "monthly_saving": 259.57
+        }
+      },
+      "cumulative_saving": 23072.68,
+      "payback_progress_percent": 148.86
+    },
+    {
+      "year": 11,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 719.0355688244433,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 251.25556882444326,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.08,
+          "net_cost": 9.72,
+          "cost_without_solar": 239.62,
+          "monthly_saving": 229.89
+        }
+      },
+      "cumulative_saving": 23302.57,
+      "payback_progress_percent": 150.34
+    },
+    {
+      "year": 11,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 560.0107710632701,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 195.6907710632701,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.74,
+          "net_cost": 12.26,
+          "cost_without_solar": 191.31,
+          "monthly_saving": 179.05
+        }
+      },
+      "cumulative_saving": 23481.62,
+      "payback_progress_percent": 151.49
+    },
+    {
+      "year": 11,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 548.5975080660567,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 191.6975080660567,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.5,
+          "net_cost": 13.3,
+          "cost_without_solar": 188.7,
+          "monthly_saving": 175.4
+        }
+      },
+      "cumulative_saving": 23657.02,
+      "payback_progress_percent": 152.63
+    },
+    {
+      "year": 11,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 555.4454658643847,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 194.09546586438475,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.65,
+          "net_cost": 12.35,
+          "cost_without_solar": 189.94,
+          "monthly_saving": 177.59
+        }
+      },
+      "cumulative_saving": 23834.61,
+      "payback_progress_percent": 153.77
+    },
+    {
+      "year": 11,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 610.9900124508232,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 213.5100124508232,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.81,
+          "net_cost": 11.99,
+          "cost_without_solar": 207.33,
+          "monthly_saving": 195.35
+        }
+      },
+      "cumulative_saving": 24029.96,
+      "payback_progress_percent": 155.03
+    },
+    {
+      "year": 12,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 647.9537668777983,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 224.7337668777983,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.48,
+          "net_cost": 11.32,
+          "cost_without_solar": 224.01,
+          "monthly_saving": 212.7
+        }
+      },
+      "cumulative_saving": 24242.66,
+      "payback_progress_percent": 156.4
+    },
+    {
+      "year": 12,
+      "month": 2,
+      "days": 29,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.644063275862069,
+          0.6885501206896552,
+          0.5064860482758621
+        ],
+        "step3_generation": 589.6000358256457,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 204.49003582564572,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 23.2,
+          "feed_in_income": 12.27,
+          "net_cost": 10.93,
+          "cost_without_solar": 204.48,
+          "monthly_saving": 193.54
+        }
+      },
+      "cumulative_saving": 24436.2,
+      "payback_progress_percent": 157.65
+    },
+    {
+      "year": 12,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 569.1383379242416,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 197.39833792424156,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.84,
+          "net_cost": 12.96,
+          "cost_without_solar": 199.78,
+          "monthly_saving": 186.83
+        }
+      },
+      "cumulative_saving": 24623.03,
+      "payback_progress_percent": 158.86
+    },
+    {
+      "year": 12,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 541.0982333926877,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 187.6682333926877,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.26,
+          "net_cost": 12.74,
+          "cost_without_solar": 190.36,
+          "monthly_saving": 177.62
+        }
+      },
+      "cumulative_saving": 24800.65,
+      "payback_progress_percent": 160.0
+    },
+    {
+      "year": 12,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 641.8910415736785,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 222.63104157367854,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.36,
+          "net_cost": 11.44,
+          "cost_without_solar": 222.15,
+          "monthly_saving": 210.71
+        }
+      },
+      "cumulative_saving": 25011.36,
+      "payback_progress_percent": 161.36
+    },
+    {
+      "year": 12,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 799.5218994807921,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 277.30189948079203,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 16.64,
+          "net_cost": 7.36,
+          "cost_without_solar": 269.81,
+          "monthly_saving": 262.45
+        }
+      },
+      "cumulative_saving": 25273.81,
+      "payback_progress_percent": 163.06
+    },
+    {
+      "year": 12,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 808.6159874369716,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 280.45598743697167,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.83,
+          "net_cost": 7.97,
+          "cost_without_solar": 273.41,
+          "monthly_saving": 265.44
+        }
+      },
+      "cumulative_saving": 25539.25,
+      "payback_progress_percent": 164.77
+    },
+    {
+      "year": 12,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 716.1594265491455,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 248.37942654914548,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.9,
+          "net_cost": 9.9,
+          "cost_without_solar": 244.99,
+          "monthly_saving": 235.09
+        }
+      },
+      "cumulative_saving": 25774.34,
+      "payback_progress_percent": 166.29
+    },
+    {
+      "year": 12,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 557.770727979017,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 193.45072797901702,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.61,
+          "net_cost": 12.39,
+          "cost_without_solar": 195.49,
+          "monthly_saving": 183.1
+        }
+      },
+      "cumulative_saving": 25957.44,
+      "payback_progress_percent": 167.47
+    },
+    {
+      "year": 12,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 546.4031180337925,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 189.50311803379248,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.37,
+          "net_cost": 13.43,
+          "cost_without_solar": 192.8,
+          "monthly_saving": 179.37
+        }
+      },
+      "cumulative_saving": 26136.81,
+      "payback_progress_percent": 168.62
+    },
+    {
+      "year": 12,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 553.2236840009272,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 191.8736840009272,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.51,
+          "net_cost": 12.49,
+          "cost_without_solar": 194.09,
+          "monthly_saving": 181.6
+        }
+      },
+      "cumulative_saving": 26318.41,
+      "payback_progress_percent": 169.8
+    },
+    {
+      "year": 12,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 608.5460524010199,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 211.06605240101993,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.66,
+          "net_cost": 12.14,
+          "cost_without_solar": 211.9,
+          "monthly_saving": 199.76
+        }
+      },
+      "cumulative_saving": 26518.17,
+      "payback_progress_percent": 171.08
+    },
+    {
+      "year": 13,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 645.3619518102871,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 222.1419518102871,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.33,
+          "net_cost": 11.47,
+          "cost_without_solar": 228.99,
+          "monthly_saving": 217.52
+        }
+      },
+      "cumulative_saving": 26735.69,
+      "payback_progress_percent": 172.49
+    },
+    {
+      "year": 13,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 587.2416356823431,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 202.13163568234313,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 12.13,
+          "net_cost": 10.27,
+          "cost_without_solar": 208.21,
+          "monthly_saving": 197.94
+        }
+      },
+      "cumulative_saving": 26933.63,
+      "payback_progress_percent": 173.77
+    },
+    {
+      "year": 13,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 566.8617845725446,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 195.12178457254458,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.71,
+          "net_cost": 13.09,
+          "cost_without_solar": 204.16,
+          "monthly_saving": 191.06
+        }
+      },
+      "cumulative_saving": 27124.69,
+      "payback_progress_percent": 175.0
+    },
+    {
+      "year": 13,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 538.9338404591169,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 185.50384045911696,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.13,
+          "net_cost": 12.87,
+          "cost_without_solar": 194.52,
+          "monthly_saving": 181.65
+        }
+      },
+      "cumulative_saving": 27306.34,
+      "payback_progress_percent": 176.17
+    },
+    {
+      "year": 13,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 639.3234774073838,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 220.06347740738383,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.2,
+          "net_cost": 11.6,
+          "cost_without_solar": 227.08,
+          "monthly_saving": 215.49
+        }
+      },
+      "cumulative_saving": 27521.83,
+      "payback_progress_percent": 177.56
+    },
+    {
+      "year": 13,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 796.3238118828689,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 274.1038118828689,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 16.45,
+          "net_cost": 7.55,
+          "cost_without_solar": 275.96,
+          "monthly_saving": 268.41
+        }
+      },
+      "cumulative_saving": 27790.24,
+      "payback_progress_percent": 179.29
+    },
+    {
+      "year": 13,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 805.3815234872238,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 277.2215234872238,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.63,
+          "net_cost": 8.17,
+          "cost_without_solar": 279.63,
+          "monthly_saving": 271.46
+        }
+      },
+      "cumulative_saving": 28061.7,
+      "payback_progress_percent": 181.04
+    },
+    {
+      "year": 13,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 713.294788842949,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 245.51478884294892,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.73,
+          "net_cost": 10.07,
+          "cost_without_solar": 250.49,
+          "monthly_saving": 240.42
+        }
+      },
+      "cumulative_saving": 28302.12,
+      "payback_progress_percent": 182.59
+    },
+    {
+      "year": 13,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 555.539645067101,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 191.21964506710094,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.47,
+          "net_cost": 12.53,
+          "cost_without_solar": 199.78,
+          "monthly_saving": 187.25
+        }
+      },
+      "cumulative_saving": 28489.37,
+      "payback_progress_percent": 183.8
+    },
+    {
+      "year": 13,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 544.2175055616573,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 187.31750556165733,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.24,
+          "net_cost": 13.56,
+          "cost_without_solar": 197.0,
+          "monthly_saving": 183.44
+        }
+      },
+      "cumulative_saving": 28672.81,
+      "payback_progress_percent": 184.99
+    },
+    {
+      "year": 13,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 551.0107892649235,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 189.6607892649235,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.38,
+          "net_cost": 12.62,
+          "cost_without_solar": 198.34,
+          "monthly_saving": 185.72
+        }
+      },
+      "cumulative_saving": 28858.53,
+      "payback_progress_percent": 186.18
+    },
+    {
+      "year": 13,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 606.1118681914159,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 208.63186819141583,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.52,
+          "net_cost": 12.28,
+          "cost_without_solar": 216.58,
+          "monthly_saving": 204.29
+        }
+      },
+      "cumulative_saving": 29062.82,
+      "payback_progress_percent": 187.5
+    },
+    {
+      "year": 14,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 642.780504003046,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 219.56050400304596,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.17,
+          "net_cost": 11.63,
+          "cost_without_solar": 234.1,
+          "monthly_saving": 222.47
+        }
+      },
+      "cumulative_saving": 29285.29,
+      "payback_progress_percent": 188.94
+    },
+    {
+      "year": 14,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 584.8926691396138,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 199.78266913961374,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 11.99,
+          "net_cost": 10.41,
+          "cost_without_solar": 212.85,
+          "monthly_saving": 202.44
+        }
+      },
+      "cumulative_saving": 29487.73,
+      "payback_progress_percent": 190.24
+    },
+    {
+      "year": 14,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 564.5943374342544,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 192.8543374342544,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.57,
+          "net_cost": 13.23,
+          "cost_without_solar": 208.64,
+          "monthly_saving": 195.41
+        }
+      },
+      "cumulative_saving": 29683.14,
+      "payback_progress_percent": 191.5
+    },
+    {
+      "year": 14,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 536.7781050972804,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 183.3481050972805,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.0,
+          "net_cost": 13.0,
+          "cost_without_solar": 198.79,
+          "monthly_saving": 185.79
+        }
+      },
+      "cumulative_saving": 29868.93,
+      "payback_progress_percent": 192.7
+    },
+    {
+      "year": 14,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 636.7661834977544,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 217.5061834977543,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.05,
+          "net_cost": 11.75,
+          "cost_without_solar": 232.14,
+          "monthly_saving": 220.39
+        }
+      },
+      "cumulative_saving": 30089.32,
+      "payback_progress_percent": 194.12
+    },
+    {
+      "year": 14,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 793.1385166353374,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 270.9185166353374,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 16.26,
+          "net_cost": 7.74,
+          "cost_without_solar": 282.26,
+          "monthly_saving": 274.51
+        }
+      },
+      "cumulative_saving": 30363.83,
+      "payback_progress_percent": 195.9
+    },
+    {
+      "year": 14,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 802.1599973932749,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 273.9999973932749,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.44,
+          "net_cost": 8.36,
+          "cost_without_solar": 286.0,
+          "monthly_saving": 277.64
+        }
+      },
+      "cumulative_saving": 30641.47,
+      "payback_progress_percent": 197.69
+    },
+    {
+      "year": 14,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 710.441609687577,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 242.6616096875771,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.56,
+          "net_cost": 10.24,
+          "cost_without_solar": 256.14,
+          "monthly_saving": 245.9
+        }
+      },
+      "cumulative_saving": 30887.37,
+      "payback_progress_percent": 199.27
+    },
+    {
+      "year": 14,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 553.3174864868325,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 188.99748648683254,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.34,
+          "net_cost": 12.66,
+          "cost_without_solar": 204.17,
+          "monthly_saving": 191.51
+        }
+      },
+      "cumulative_saving": 31078.88,
+      "payback_progress_percent": 200.51
+    },
+    {
+      "year": 14,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 542.0406355394107,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 185.14063553941068,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.11,
+          "net_cost": 13.69,
+          "cost_without_solar": 201.3,
+          "monthly_saving": 187.61
+        }
+      },
+      "cumulative_saving": 31266.49,
+      "payback_progress_percent": 201.72
+    },
+    {
+      "year": 14,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 548.8067461078638,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 187.4567461078638,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.25,
+          "net_cost": 12.75,
+          "cost_without_solar": 202.7,
+          "monthly_saving": 189.95
+        }
+      },
+      "cumulative_saving": 31456.44,
+      "payback_progress_percent": 202.94
+    },
+    {
+      "year": 14,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 603.6874207186502,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 206.20742071865018,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.37,
+          "net_cost": 12.43,
+          "cost_without_solar": 221.37,
+          "monthly_saving": 208.94
+        }
+      },
+      "cumulative_saving": 31665.38,
+      "payback_progress_percent": 204.29
+    },
+    {
+      "year": 15,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 640.2093819870338,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 216.98938198703377,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.02,
+          "net_cost": 11.78,
+          "cost_without_solar": 239.33,
+          "monthly_saving": 227.55
+        }
+      },
+      "cumulative_saving": 31892.93,
+      "payback_progress_percent": 205.76
+    },
+    {
+      "year": 15,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 582.5530984630553,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 197.4430984630553,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 11.85,
+          "net_cost": 10.55,
+          "cost_without_solar": 217.61,
+          "monthly_saving": 207.06
+        }
+      },
+      "cumulative_saving": 32099.99,
+      "payback_progress_percent": 207.1
+    },
+    {
+      "year": 15,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 562.3359600845174,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 190.59596008451737,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.44,
+          "net_cost": 13.36,
+          "cost_without_solar": 213.24,
+          "monthly_saving": 199.87
+        }
+      },
+      "cumulative_saving": 32299.86,
+      "payback_progress_percent": 208.39
+    },
+    {
+      "year": 15,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 534.6309926768913,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 181.20099267689136,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.87,
+          "net_cost": 13.13,
+          "cost_without_solar": 203.16,
+          "monthly_saving": 190.03
+        }
+      },
+      "cumulative_saving": 32489.89,
+      "payback_progress_percent": 209.61
+    },
+    {
+      "year": 15,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 634.2191187637633,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 214.95911876376329,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.9,
+          "net_cost": 11.9,
+          "cost_without_solar": 237.32,
+          "monthly_saving": 225.42
+        }
+      },
+      "cumulative_saving": 32715.31,
+      "payback_progress_percent": 211.07
+    },
+    {
+      "year": 15,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 789.965962568796,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 267.7459625687961,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 16.06,
+          "net_cost": 7.94,
+          "cost_without_solar": 288.72,
+          "monthly_saving": 280.78
+        }
+      },
+      "cumulative_saving": 32996.09,
+      "payback_progress_percent": 212.88
+    },
+    {
+      "year": 15,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 798.9513574037018,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 270.7913574037018,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.25,
+          "net_cost": 8.55,
+          "cost_without_solar": 292.53,
+          "monthly_saving": 283.97
+        }
+      },
+      "cumulative_saving": 33280.06,
+      "payback_progress_percent": 214.71
+    },
+    {
+      "year": 15,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 707.5998432488268,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 239.8198432488268,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.39,
+          "net_cost": 10.41,
+          "cost_without_solar": 261.92,
+          "monthly_saving": 251.51
+        }
+      },
+      "cumulative_saving": 33531.57,
+      "payback_progress_percent": 216.33
+    },
+    {
+      "year": 15,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 551.1042165408852,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 186.7842165408852,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.21,
+          "net_cost": 12.79,
+          "cost_without_solar": 208.68,
+          "monthly_saving": 195.88
+        }
+      },
+      "cumulative_saving": 33727.45,
+      "payback_progress_percent": 217.6
+    },
+    {
+      "year": 15,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 539.872472997253,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 182.97247299725305,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 10.98,
+          "net_cost": 13.82,
+          "cost_without_solar": 205.71,
+          "monthly_saving": 191.89
+        }
+      },
+      "cumulative_saving": 33919.34,
+      "payback_progress_percent": 218.83
+    },
+    {
+      "year": 15,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 546.6115191234323,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 185.26151912343235,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.12,
+          "net_cost": 12.88,
+          "cost_without_solar": 207.17,
+          "monthly_saving": 194.29
+        }
+      },
+      "cumulative_saving": 34113.63,
+      "payback_progress_percent": 220.09
+    },
+    {
+      "year": 15,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 601.2726710357756,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 203.79267103577558,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.23,
+          "net_cost": 12.57,
+          "cost_without_solar": 226.28,
+          "monthly_saving": 213.71
+        }
+      },
+      "cumulative_saving": 34327.34,
+      "payback_progress_percent": 221.47
+    },
+    {
+      "year": 16,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 637.6485444590857,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 214.42854445908563,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.87,
+          "net_cost": 11.93,
+          "cost_without_solar": 244.7,
+          "monthly_saving": 232.76
+        }
+      },
+      "cumulative_saving": 34560.1,
+      "payback_progress_percent": 222.97
+    },
+    {
+      "year": 16,
+      "month": 2,
+      "days": 29,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.644063275862069,
+          0.6885501206896552,
+          0.5064860482758621
+        ],
+        "step3_generation": 580.2228860692031,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 195.11288606920309,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 23.2,
+          "feed_in_income": 11.71,
+          "net_cost": 11.49,
+          "cost_without_solar": 223.29,
+          "monthly_saving": 211.8
+        }
+      },
+      "cumulative_saving": 34771.9,
+      "payback_progress_percent": 224.33
+    },
+    {
+      "year": 16,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 560.0866162441794,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 188.34661624417933,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.3,
+          "net_cost": 13.5,
+          "cost_without_solar": 217.95,
+          "monthly_saving": 204.45
+        }
+      },
+      "cumulative_saving": 34976.35,
+      "payback_progress_percent": 225.65
+    },
+    {
+      "year": 16,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 532.4924687061838,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 179.0624687061838,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.74,
+          "net_cost": 13.26,
+          "cost_without_solar": 207.63,
+          "monthly_saving": 194.38
+        }
+      },
+      "cumulative_saving": 35170.73,
+      "payback_progress_percent": 226.91
+    },
+    {
+      "year": 16,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 631.6822422887083,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 212.42224228870822,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.75,
+          "net_cost": 12.05,
+          "cost_without_solar": 242.64,
+          "monthly_saving": 230.58
+        }
+      },
+      "cumulative_saving": 35401.31,
+      "payback_progress_percent": 228.4
+    },
+    {
+      "year": 16,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 786.8060987185208,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 264.5860987185209,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 15.88,
+          "net_cost": 8.12,
+          "cost_without_solar": 295.33,
+          "monthly_saving": 287.21
+        }
+      },
+      "cumulative_saving": 35688.52,
+      "payback_progress_percent": 230.25
+    },
+    {
+      "year": 16,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 795.755551974087,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 267.595551974087,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 16.06,
+          "net_cost": 8.74,
+          "cost_without_solar": 299.22,
+          "monthly_saving": 290.48
+        }
+      },
+      "cumulative_saving": 35979.0,
+      "payback_progress_percent": 232.12
+    },
+    {
+      "year": 16,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 704.7694438758315,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 236.98944387583148,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.22,
+          "net_cost": 10.58,
+          "cost_without_solar": 267.85,
+          "monthly_saving": 257.27
+        }
+      },
+      "cumulative_saving": 36236.27,
+      "payback_progress_percent": 233.78
+    },
+    {
+      "year": 16,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 548.8997996747216,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 184.57979967472167,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 11.07,
+          "net_cost": 12.93,
+          "cost_without_solar": 213.29,
+          "monthly_saving": 200.37
+        }
+      },
+      "cumulative_saving": 36436.64,
+      "payback_progress_percent": 235.08
+    },
+    {
+      "year": 16,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 537.712983105264,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 180.81298310526404,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 10.85,
+          "net_cost": 13.95,
+          "cost_without_solar": 210.24,
+          "monthly_saving": 196.29
+        }
+      },
+      "cumulative_saving": 36632.93,
+      "payback_progress_percent": 236.34
+    },
+    {
+      "year": 16,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 544.4250730469386,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 183.07507304693863,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.98,
+          "net_cost": 13.02,
+          "cost_without_solar": 211.75,
+          "monthly_saving": 198.73
+        }
+      },
+      "cumulative_saving": 36831.66,
+      "payback_progress_percent": 237.62
+    },
+    {
+      "year": 16,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 598.8675803516325,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 201.38758035163247,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.08,
+          "net_cost": 12.72,
+          "cost_without_solar": 231.32,
+          "monthly_saving": 218.6
+        }
+      },
+      "cumulative_saving": 37050.26,
+      "payback_progress_percent": 239.03
+    },
+    {
+      "year": 17,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 635.0979502812493,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 211.8779502812493,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.71,
+          "net_cost": 12.09,
+          "cost_without_solar": 250.19,
+          "monthly_saving": 238.11
+        }
+      },
+      "cumulative_saving": 37288.37,
+      "payback_progress_percent": 240.57
+    },
+    {
+      "year": 17,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 577.9019945249263,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 192.79199452492625,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 11.57,
+          "net_cost": 10.83,
+          "cost_without_solar": 227.5,
+          "monthly_saving": 216.66
+        }
+      },
+      "cumulative_saving": 37505.03,
+      "payback_progress_percent": 241.97
+    },
+    {
+      "year": 17,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 557.8462697792025,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 186.1062697792026,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.17,
+          "net_cost": 13.63,
+          "cost_without_solar": 222.78,
+          "monthly_saving": 209.14
+        }
+      },
+      "cumulative_saving": 37714.17,
+      "payback_progress_percent": 243.32
+    },
+    {
+      "year": 17,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 530.3624988313591,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 176.93249883135906,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.62,
+          "net_cost": 13.38,
+          "cost_without_solar": 212.22,
+          "monthly_saving": 198.84
+        }
+      },
+      "cumulative_saving": 37913.01,
+      "payback_progress_percent": 244.6
+    },
+    {
+      "year": 17,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 629.1555133195534,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 209.8955133195534,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.59,
+          "net_cost": 12.21,
+          "cost_without_solar": 248.08,
+          "monthly_saving": 235.88
+        }
+      },
+      "cumulative_saving": 38148.89,
+      "payback_progress_percent": 246.12
+    },
+    {
+      "year": 17,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 783.6588743236468,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 261.4388743236468,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 15.69,
+          "net_cost": 8.31,
+          "cost_without_solar": 302.12,
+          "monthly_saving": 293.8
+        }
+      },
+      "cumulative_saving": 38442.69,
+      "payback_progress_percent": 248.02
+    },
+    {
+      "year": 17,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 792.5725297661907,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 264.41252976619063,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.86,
+          "net_cost": 8.94,
+          "cost_without_solar": 306.08,
+          "monthly_saving": 297.15
+        }
+      },
+      "cumulative_saving": 38739.84,
+      "payback_progress_percent": 249.93
+    },
+    {
+      "year": 17,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 701.9503661003282,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 234.17036610032818,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 14.05,
+          "net_cost": 10.75,
+          "cost_without_solar": 273.92,
+          "monthly_saving": 263.17
+        }
+      },
+      "cumulative_saving": 39003.01,
+      "payback_progress_percent": 251.63
+    },
+    {
+      "year": 17,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 546.7042004760228,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 182.38420047602278,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.94,
+          "net_cost": 13.06,
+          "cost_without_solar": 218.02,
+          "monthly_saving": 204.97
+        }
+      },
+      "cumulative_saving": 39207.98,
+      "payback_progress_percent": 252.95
+    },
+    {
+      "year": 17,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 535.562131172843,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 178.66213117284298,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 10.72,
+          "net_cost": 14.08,
+          "cost_without_solar": 214.87,
+          "monthly_saving": 200.79
+        }
+      },
+      "cumulative_saving": 39408.77,
+      "payback_progress_percent": 254.25
+    },
+    {
+      "year": 17,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 542.2473727547508,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 180.89737275475088,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.85,
+          "net_cost": 13.15,
+          "cost_without_solar": 216.44,
+          "monthly_saving": 203.3
+        }
+      },
+      "cumulative_saving": 39612.07,
+      "payback_progress_percent": 255.56
+    },
+    {
+      "year": 17,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 596.472110030226,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 198.99211003022594,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.94,
+          "net_cost": 12.86,
+          "cost_without_solar": 236.48,
+          "monthly_saving": 223.62
+        }
+      },
+      "cumulative_saving": 39835.69,
+      "payback_progress_percent": 257.0
+    },
+    {
+      "year": 18,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 632.5575584801243,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 209.3375584801243,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.56,
+          "net_cost": 12.24,
+          "cost_without_solar": 255.83,
+          "monthly_saving": 243.59
+        }
+      },
+      "cumulative_saving": 40079.28,
+      "payback_progress_percent": 258.58
+    },
+    {
+      "year": 18,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 575.5903865468266,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 190.48038654682657,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 11.43,
+          "net_cost": 10.97,
+          "cost_without_solar": 232.62,
+          "monthly_saving": 221.65
+        }
+      },
+      "cumulative_saving": 40300.93,
+      "payback_progress_percent": 260.01
+    },
+    {
+      "year": 18,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 555.6148847000858,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 183.8748847000858,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.03,
+          "net_cost": 13.77,
+          "cost_without_solar": 227.73,
+          "monthly_saving": 213.96
+        }
+      },
+      "cumulative_saving": 40514.89,
+      "payback_progress_percent": 261.39
+    },
+    {
+      "year": 18,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 528.2410488360337,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 174.81104883603362,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.49,
+          "net_cost": 13.51,
+          "cost_without_solar": 216.93,
+          "monthly_saving": 203.42
+        }
+      },
+      "cumulative_saving": 40718.31,
+      "payback_progress_percent": 262.7
+    },
+    {
+      "year": 18,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 626.6388912662752,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 207.3788912662752,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.44,
+          "net_cost": 12.36,
+          "cost_without_solar": 253.67,
+          "monthly_saving": 241.31
+        }
+      },
+      "cumulative_saving": 40959.62,
+      "payback_progress_percent": 264.26
+    },
+    {
+      "year": 18,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 780.5242388263522,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 258.3042388263522,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 15.5,
+          "net_cost": 8.5,
+          "cost_without_solar": 309.07,
+          "monthly_saving": 300.57
+        }
+      },
+      "cumulative_saving": 41260.19,
+      "payback_progress_percent": 266.19
+    },
+    {
+      "year": 18,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 789.4022396471258,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 261.24223964712587,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.67,
+          "net_cost": 9.13,
+          "cost_without_solar": 313.11,
+          "monthly_saving": 303.99
+        }
+      },
+      "cumulative_saving": 41564.18,
+      "payback_progress_percent": 268.16
+    },
+    {
+      "year": 18,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 699.1425646359269,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 231.36256463592687,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.88,
+          "net_cost": 10.92,
+          "cost_without_solar": 280.15,
+          "monthly_saving": 269.23
+        }
+      },
+      "cumulative_saving": 41833.41,
+      "payback_progress_percent": 269.89
+    },
+    {
+      "year": 18,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 544.5173836741187,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 180.1973836741187,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.81,
+          "net_cost": 13.19,
+          "cost_without_solar": 222.88,
+          "monthly_saving": 209.69
+        }
+      },
+      "cumulative_saving": 42043.1,
+      "payback_progress_percent": 271.25
+    },
+    {
+      "year": 18,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 533.4198826481517,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 176.5198826481516,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 10.59,
+          "net_cost": 14.21,
+          "cost_without_solar": 219.62,
+          "monthly_saving": 205.42
+        }
+      },
+      "cumulative_saving": 42248.52,
+      "payback_progress_percent": 272.57
+    },
+    {
+      "year": 18,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 540.0783832637319,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 178.72838326373187,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.72,
+          "net_cost": 13.28,
+          "cost_without_solar": 221.25,
+          "monthly_saving": 207.98
+        }
+      },
+      "cumulative_saving": 42456.5,
+      "payback_progress_percent": 273.91
+    },
+    {
+      "year": 18,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 594.0862215901051,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 196.60622159010504,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.8,
+          "net_cost": 13.0,
+          "cost_without_solar": 241.78,
+          "monthly_saving": 228.77
+        }
+      },
+      "cumulative_saving": 42685.27,
+      "payback_progress_percent": 275.39
+    },
+    {
+      "year": 19,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 630.0273282462038,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 206.8073282462038,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.41,
+          "net_cost": 12.39,
+          "cost_without_solar": 261.6,
+          "monthly_saving": 249.21
+        }
+      },
+      "cumulative_saving": 42934.48,
+      "payback_progress_percent": 277.0
+    },
+    {
+      "year": 19,
+      "month": 2,
+      "days": 28,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.6670655357142857,
+          0.7131411964285714,
+          0.5245748357142858
+        ],
+        "step3_generation": 573.2880250006392,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 188.17802500063925,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 22.4,
+          "feed_in_income": 11.29,
+          "net_cost": 11.11,
+          "cost_without_solar": 237.88,
+          "monthly_saving": 226.77
+        }
+      },
+      "cumulative_saving": 43161.25,
+      "payback_progress_percent": 278.46
+    },
+    {
+      "year": 19,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 553.3924251612855,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 181.65242516128544,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 10.9,
+          "net_cost": 13.9,
+          "cost_without_solar": 232.8,
+          "monthly_saving": 218.9
+        }
+      },
+      "cumulative_saving": 43380.15,
+      "payback_progress_percent": 279.87
+    },
+    {
+      "year": 19,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 526.1280846406895,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 172.6980846406895,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.36,
+          "net_cost": 13.64,
+          "cost_without_solar": 221.75,
+          "monthly_saving": 208.12
+        }
+      },
+      "cumulative_saving": 43588.27,
+      "payback_progress_percent": 281.21
+    },
+    {
+      "year": 19,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 624.1323357012101,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 204.8723357012101,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.29,
+          "net_cost": 12.51,
+          "cost_without_solar": 259.39,
+          "monthly_saving": 246.88
+        }
+      },
+      "cumulative_saving": 43835.15,
+      "payback_progress_percent": 282.81
+    },
+    {
+      "year": 19,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 777.4021418710468,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 255.1821418710468,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 15.31,
+          "net_cost": 8.69,
+          "cost_without_solar": 316.2,
+          "monthly_saving": 307.51
+        }
+      },
+      "cumulative_saving": 44142.66,
+      "payback_progress_percent": 284.79
+    },
+    {
+      "year": 19,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 786.2446306885374,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 258.0846306885374,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.49,
+          "net_cost": 9.31,
+          "cost_without_solar": 320.32,
+          "monthly_saving": 311.01
+        }
+      },
+      "cumulative_saving": 44453.67,
+      "payback_progress_percent": 286.8
+    },
+    {
+      "year": 19,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 696.3459943773831,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 228.56599437738316,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.71,
+          "net_cost": 11.09,
+          "cost_without_solar": 286.54,
+          "monthly_saving": 275.45
+        }
+      },
+      "cumulative_saving": 44729.12,
+      "payback_progress_percent": 288.57
+    },
+    {
+      "year": 19,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 542.3393141394222,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 178.01931413942222,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.68,
+          "net_cost": 13.32,
+          "cost_without_solar": 227.85,
+          "monthly_saving": 214.53
+        }
+      },
+      "cumulative_saving": 44943.65,
+      "payback_progress_percent": 289.96
+    },
+    {
+      "year": 19,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 531.286203117559,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 174.386203117559,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 10.46,
+          "net_cost": 14.34,
+          "cost_without_solar": 224.5,
+          "monthly_saving": 210.16
+        }
+      },
+      "cumulative_saving": 45153.81,
+      "payback_progress_percent": 291.31
+    },
+    {
+      "year": 19,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 537.918069730677,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 176.56806973067694,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.59,
+          "net_cost": 13.41,
+          "cost_without_solar": 226.19,
+          "monthly_saving": 212.78
+        }
+      },
+      "cumulative_saving": 45366.59,
+      "payback_progress_percent": 292.69
+    },
+    {
+      "year": 19,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 591.7098767037446,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 194.22987670374462,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.65,
+          "net_cost": 13.15,
+          "cost_without_solar": 247.2,
+          "monthly_saving": 234.05
+        }
+      },
+      "cumulative_saving": 45600.64,
+      "payback_progress_percent": 294.2
+    },
+    {
+      "year": 20,
+      "month": 1,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 423.22,
+        "step2_hourly_dist": [
+          0.6621345161290323,
+          0.7078695806451613,
+          0.5206971225806452
+        ],
+        "step3_generation": 627.507218933219,
+        "step4_energy_flow": {
+          "direct_use": 423.22,
+          "export": 204.28721893321898,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.26,
+          "net_cost": 12.54,
+          "cost_without_solar": 267.52,
+          "monthly_saving": 254.98
+        }
+      },
+      "cumulative_saving": 45855.62,
+      "payback_progress_percent": 295.84
+    },
+    {
+      "year": 20,
+      "month": 2,
+      "days": 29,
+      "calculation_steps": {
+        "step1_usage": 385.11,
+        "step2_hourly_dist": [
+          0.644063275862069,
+          0.6885501206896552,
+          0.5064860482758621
+        ],
+        "step3_generation": 570.9948729006367,
+        "step4_energy_flow": {
+          "direct_use": 385.11,
+          "export": 185.88487290063668,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 23.2,
+          "feed_in_income": 11.15,
+          "net_cost": 12.05,
+          "cost_without_solar": 244.07,
+          "monthly_saving": 232.02
+        }
+      },
+      "cumulative_saving": 46087.64,
+      "payback_progress_percent": 297.34
+    },
+    {
+      "year": 20,
+      "month": 3,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 371.74,
+        "step2_hourly_dist": [
+          0.5815932258064516,
+          0.6217651290322581,
+          0.45736011612903227
+        ],
+        "step3_generation": 551.1788554606403,
+        "step4_energy_flow": {
+          "direct_use": 371.74,
+          "export": 179.4388554606403,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 10.77,
+          "net_cost": 14.03,
+          "cost_without_solar": 238.0,
+          "monthly_saving": 223.97
+        }
+      },
+      "cumulative_saving": 46311.61,
+      "payback_progress_percent": 298.78
+    },
+    {
+      "year": 20,
+      "month": 4,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 353.43,
+        "step2_hourly_dist": [
+          0.5713785,
+          0.61084485,
+          0.44932734
+        ],
+        "step3_generation": 524.0235723021267,
+        "step4_energy_flow": {
+          "direct_use": 353.43,
+          "export": 170.59357230212674,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.24,
+          "net_cost": 13.76,
+          "cost_without_solar": 226.7,
+          "monthly_saving": 212.93
+        }
+      },
+      "cumulative_saving": 46524.54,
+      "payback_progress_percent": 300.16
+    },
+    {
+      "year": 20,
+      "month": 5,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 419.26,
+        "step2_hourly_dist": [
+          0.6559390322580645,
+          0.7012461612903226,
+          0.5158250451612904
+        ],
+        "step3_generation": 621.6358063584053,
+        "step4_energy_flow": {
+          "direct_use": 419.26,
+          "export": 202.37580635840524,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 12.14,
+          "net_cost": 12.66,
+          "cost_without_solar": 265.25,
+          "monthly_saving": 252.59
+        }
+      },
+      "cumulative_saving": 46777.13,
+      "payback_progress_percent": 301.79
+    },
+    {
+      "year": 20,
+      "month": 6,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 522.22,
+        "step2_hourly_dist": [
+          0.8442556666666666,
+          0.9025702333333333,
+          0.6639156933333333
+        ],
+        "step3_generation": 774.2925333035627,
+        "step4_energy_flow": {
+          "direct_use": 522.22,
+          "export": 252.0725333035626,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 15.12,
+          "net_cost": 8.88,
+          "cost_without_solar": 323.5,
+          "monthly_saving": 314.63
+        }
+      },
+      "cumulative_saving": 47091.76,
+      "payback_progress_percent": 303.82
+    },
+    {
+      "year": 20,
+      "month": 7,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 528.16,
+        "step2_hourly_dist": [
+          0.8263148387096774,
+          0.8833901935483871,
+          0.6498071741935484
+        ],
+        "step3_generation": 783.0996521657833,
+        "step4_energy_flow": {
+          "direct_use": 528.16,
+          "export": 254.93965216578323,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 15.3,
+          "net_cost": 9.5,
+          "cost_without_solar": 327.71,
+          "monthly_saving": 318.2
+        }
+      },
+      "cumulative_saving": 47409.96,
+      "payback_progress_percent": 305.87
+    },
+    {
+      "year": 20,
+      "month": 8,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 467.78,
+        "step2_hourly_dist": [
+          0.7318493548387097,
+          0.7823997741935483,
+          0.5755202967741936
+        ],
+        "step3_generation": 693.5606103998737,
+        "step4_energy_flow": {
+          "direct_use": 467.78,
+          "export": 225.7806103998736,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 13.55,
+          "net_cost": 11.25,
+          "cost_without_solar": 293.08,
+          "monthly_saving": 281.83
+        }
+      },
+      "cumulative_saving": 47691.79,
+      "payback_progress_percent": 307.69
+    },
+    {
+      "year": 20,
+      "month": 9,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 364.32,
+        "step2_hourly_dist": [
+          0.588984,
+          0.6296664,
+          0.46317216
+        ],
+        "step3_generation": 540.1699568828645,
+        "step4_energy_flow": {
+          "direct_use": 364.32,
+          "export": 175.84995688286455,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.55,
+          "net_cost": 13.45,
+          "cost_without_solar": 232.94,
+          "monthly_saving": 219.49
+        }
+      },
+      "cumulative_saving": 47911.28,
+      "payback_progress_percent": 309.11
+    },
+    {
+      "year": 20,
+      "month": 10,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 356.9,
+        "step2_hourly_dist": [
+          0.5583758064516129,
+          0.5969440322580645,
+          0.43910212903225804
+        ],
+        "step3_generation": 529.1610583050888,
+        "step4_energy_flow": {
+          "direct_use": 356.9,
+          "export": 172.26105830508877,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 10.34,
+          "net_cost": 14.46,
+          "cost_without_solar": 229.49,
+          "monthly_saving": 215.02
+        }
+      },
+      "cumulative_saving": 48126.3,
+      "payback_progress_percent": 310.49
+    },
+    {
+      "year": 20,
+      "month": 11,
+      "days": 30,
+      "calculation_steps": {
+        "step1_usage": 361.35,
+        "step2_hourly_dist": [
+          0.5841825,
+          0.62453325,
+          0.4593963
+        ],
+        "step3_generation": 535.7663974517542,
+        "step4_energy_flow": {
+          "direct_use": 361.35,
+          "export": 174.41639745175422,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.0,
+          "feed_in_income": 10.46,
+          "net_cost": 13.54,
+          "cost_without_solar": 231.24,
+          "monthly_saving": 217.7
+        }
+      },
+      "cumulative_saving": 48344.0,
+      "payback_progress_percent": 311.9
+    },
+    {
+      "year": 20,
+      "month": 12,
+      "days": 31,
+      "calculation_steps": {
+        "step1_usage": 397.48,
+        "step2_hourly_dist": [
+          0.621863870967742,
+          0.6648173548387096,
+          0.4890286193548387
+        ],
+        "step3_generation": 589.3430371969297,
+        "step4_energy_flow": {
+          "direct_use": 397.48,
+          "export": 191.86303719692964,
+          "grid_import": 0.0,
+          "self_consumption_rate": 0.75
+        },
+        "step5_financials": {
+          "purchase_cost": 24.8,
+          "feed_in_income": 11.51,
+          "net_cost": 13.29,
+          "cost_without_solar": 252.76,
+          "monthly_saving": 239.47
+        }
+      },
+      "cumulative_saving": 48583.47,
+      "payback_progress_percent": 313.44
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>太阳能投资回报模拟器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#1e3a8a',
+              'brand-secondary': '#3b82f6',
+              'brand-accent': '#f59e0b',
+            },
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <div class="min-h-screen bg-gray-900 text-gray-100 p-4 sm:p-6 lg:p-8">
+        <div class="max-w-7xl mx-auto space-y-8">
+            <!-- Header -->
+            <header class="text-center">
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-blue-400">
+                    太阳能投资回报(ROI)与能量流模拟器
+                </h1>
+                <p class="mt-2 text-lg text-gray-400">
+                    可视化您的太阳能投资表现并理解其背后的计算原理。
+                </p>
+            </header>
+
+            <main class="space-y-8">
+                <!-- Parameter Controls -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold text-white mb-6">模拟参数</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-6">
+                        <!-- State Selector -->
+                        <div class="space-y-2 lg:col-span-1">
+                            <label for="state" class="block text-sm font-medium text-gray-300">
+                                州/领地 (自动更新年用电量)
+                            </label>
+                            <select id="state" class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-brand-secondary focus:border-brand-secondary">
+                                <option value="NSW">新南威尔士州 (NSW)</option>
+                                <option value="VIC">维多利亚州 (VIC)</option>
+                                <option value="QLD">昆士兰州 (QLD)</option>
+                                <option value="SA">南澳大利亚州 (SA)</option>
+                                <option value="WA">西澳大利亚州 (WA)</option>
+                                <option value="TAS">塔斯马尼亚州 (TAS)</option>
+                                <option value="NT">北领地 (NT)</option>
+                                <option value="ACT">首都领地 (ACT)</option>
+                            </select>
+                        </div>
+                        <!-- Annual Consumption -->
+                        <div class="space-y-2">
+                            <label for="annualConsumption" class="block text-sm font-medium text-gray-300">年用电量</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="annualConsumption" value="5662" min="1000" max="20000" step="100" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">kWh</span>
+                            </div>
+                        </div>
+                        <!-- System Power -->
+                        <div class="space-y-2">
+                            <label for="systemPower" class="block text-sm font-medium text-gray-300">光伏系统功率</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="systemPower" value="8" min="1" max="100" step="0.5" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">kWp</span>
+                            </div>
+                        </div>
+                        <!-- Annual Generation Factor -->
+                        <div class="space-y-2">
+                            <label for="annualGenerationFactor" class="block text-sm font-medium text-gray-300">年发电系数</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="annualGenerationFactor" value="1526" min="1000" max="2000" step="1" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">kWh/kWp</span>
+                            </div>
+                        </div>
+                        <!-- Annual Generation -->
+                        <div class="space-y-2">
+                            <label for="annualGeneration" class="block text-sm font-medium text-gray-300">年发电量 (0=自动计算)</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="annualGeneration" value="0" min="0" max="50000" step="100" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">kWh</span>
+                            </div>
+                        </div>
+                        <!-- Battery Capacity -->
+                        <div class="space-y-2">
+                            <label for="batteryCapacity" class="block text-sm font-medium text-gray-300">电池容量</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="batteryCapacity" value="10" min="0" max="55" step="0.5" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">kWh</span>
+                            </div>
+                        </div>
+                        <!-- Investment Cost -->
+                        <div class="space-y-2">
+                            <label for="investmentCost" class="block text-sm font-medium text-gray-300">总投资成本</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="investmentCost" value="15000" min="1000" max="50000" step="500" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">$</span>
+                            </div>
+                        </div>
+                        <!-- Electricity Price -->
+                        <div class="space-y-2">
+                            <label for="electricityPrice" class="block text-sm font-medium text-gray-300">电价</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="electricityPrice" value="0.3" min="0.1" max="1" step="0.01" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">$/kWh</span>
+                            </div>
+                        </div>
+                        <!-- Feed In Tariff -->
+                        <div class="space-y-2">
+                            <label for="feedInTariff" class="block text-sm font-medium text-gray-300">上网电价</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="feedInTariff" value="0.07" min="0" max="0.5" step="0.01" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">$/kWh</span>
+                            </div>
+                        </div>
+                        <!-- Price Inflation -->
+                        <div class="space-y-2">
+                            <label for="priceInflation" class="block text-sm font-medium text-gray-300">价格通胀率</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="priceInflation" value="3.97" min="0" max="10" step="0.01" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">%</span>
+                            </div>
+                        </div>
+                        <!-- Panel Degradation -->
+                        <div class="space-y-2">
+                            <label for="panelDegradation" class="block text-sm font-medium text-gray-300">光伏板年衰减率</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="panelDegradation" value="0.4" min="0" max="5" step="0.01" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">%/年</span>
+                            </div>
+                        </div>
+                        <!-- Daily Fixed Cost -->
+                        <div class="space-y-2">
+                            <label for="dailyFixedCost" class="block text-sm font-medium text-gray-300">日均固定费用</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="dailyFixedCost" value="0.35" min="0" max="10" step="0.01" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">$</span>
+                            </div>
+                        </div>
+                        <!-- Battery Replacement Cost -->
+                        <div class="space-y-2">
+                            <label for="batteryReplacementCost" class="block text-sm font-medium text-gray-300">电池更换成本 (第10年)</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="batteryReplacementCost" value="5000" min="0" max="20000" step="500" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">$</span>
+                            </div>
+                        </div>
+                        <!-- Discount Rate -->
+                        <div class="space-y-2">
+                            <label for="discountRate" class="block text-sm font-medium text-gray-300">贴现率 (用于贴现回收期)</label>
+                            <div class="flex items-center space-x-2 bg-gray-700 rounded-lg border border-transparent focus-within:border-brand-secondary focus-within:ring-1 focus-within:ring-brand-secondary">
+                                <input type="number" id="discountRate" value="1.36" min="0" max="15" step="0.01" class="w-full bg-transparent p-2.5 text-white focus:outline-none">
+                                <span class="text-sm text-gray-400 font-semibold pr-3 shrink-0">%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KPI Cards -->
+                <div id="kpi-cards" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <!-- KPI cards will be dynamically inserted here -->
+                </div>
+
+                <!-- Energy Flow Visualization -->
+                <div id="energy-flow-viz" class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <!-- Energy flow content will be dynamically inserted here -->
+                </div>
+
+                <!-- ROI Visualization -->
+                <div id="roi-viz" class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <!-- ROI content will be dynamically inserted here -->
+                </div>
+            </main>
+
+            <footer class="text-center text-gray-500 text-sm pt-4">
+                <p>此为基于典型数据和所提供参数的模拟。实际结果可能有所不同。</p>
+                <p>静态HTML版本 - 无需后端服务器</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="calculator.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>
