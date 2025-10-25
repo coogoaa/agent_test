@@ -66,6 +66,7 @@ function updateUI() {
     updateKPICards();
     updateEnergyFlowViz();
     updateROIViz();
+    updateCalculationBreakdown();
 }
 
 function updateKPICards() {
@@ -480,5 +481,248 @@ function drawROIChart(projection) {
                 }
             }
         }
+    });
+}
+
+function updateCalculationBreakdown() {
+    const { dayBaseData, annualData, twentyYearProjection, paybackPeriod, discountedPaybackPeriod, irr, 
+            monthlyGenerationPercentages, monthlyConsumptionFactors, hourlyGenerationFactors, hourlyConsumptionPercentages } = simulationResult;
+    const year1 = twentyYearProjection[0];
+    
+    const formatNumber = (num, digits = 2) => num ? num.toLocaleString('zh-CN', { minimumFractionDigits: digits, maximumFractionDigits: digits }) : '0.00';
+    const formatCurrency = (num) => num ? '$' + num.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 }) : '$0';
+    
+    const container = document.getElementById('calculation-breakdown');
+    container.innerHTML = `
+        <h2 class="text-2xl font-bold text-white mb-6">详细计算分解</h2>
+        
+        <section class="mb-8">
+            <h3 class="text-xl font-semibold text-white mb-4 border-b-2 border-brand-secondary pb-2">核心模型假设</h3>
+            <p class="text-sm text-gray-400 mb-4">模拟结果基于以下典型的季节性和每日能量分布模型。这些系数决定了年度发电量和用电量如何分配到每个月和每一天。</p>
+            <div class="grid grid-cols-1 xl:grid-cols-3 gap-6">
+                <div>
+                    <h4 class="text-lg font-semibold text-center text-white mb-2">季节性发电模型</h4>
+                    <div class="h-60 bg-gray-900/50 p-4 rounded-md"><canvas id="monthly-generation-chart"></canvas></div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-center text-white mb-2">季节性用电模型</h4>
+                    <div class="h-60 bg-gray-900/50 p-4 rounded-md"><canvas id="monthly-consumption-chart"></canvas></div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-center text-white mb-2">小时能量分布模型</h4>
+                    <div class="h-60 bg-gray-900/50 p-4 rounded-md"><canvas id="hourly-distribution-chart"></canvas></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <section>
+                <h3 class="text-xl font-semibold text-white mb-4 border-b-2 border-brand-secondary pb-2">第1步：年度到每日能量流模拟</h3>
+                <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                    <p class="font-semibold text-brand-accent">年总发电量</p>
+                    <p class="text-sm text-gray-400 italic my-1 font-mono">光伏系统功率 × 年发电系数</p>
+                    <div class="mt-2 text-sm space-y-1">
+                        <p class="text-xs text-gray-400">这是模拟的第一步，计算出系统在一年内预计能产生的总电量。</p>
+                        <div class="flex justify-between items-baseline py-2 border-b border-gray-700 border-t">
+                            <span class="text-gray-400">1. 光伏系统功率</span>
+                            <span class="font-mono text-white font-bold">${formatNumber(currentConfig.systemPower, 1)} kWp</span>
+                        </div>
+                        <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                            <span class="text-gray-400">2. 年发电系数</span>
+                            <span class="font-mono text-white font-bold">${formatNumber(currentConfig.annualGenerationFactor, 0)} kWh/kWp</span>
+                        </div>
+                        <div class="flex justify-between items-baseline py-2 text-green-400 font-bold">
+                            <span>= 年总发电量</span>
+                            <span class="font-mono">${formatNumber(annualData.totalGeneration)} kWh</span>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="text-lg font-semibold mt-6 mb-2">日均数据分解</h4>
+                <div class="space-y-3">
+                    <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                        <span class="text-gray-400">日均发电量</span>
+                        <span class="font-mono text-white font-bold">${formatNumber(dayBaseData.totalGeneration)} kWh</span>
+                    </div>
+                    <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                        <span class="text-gray-400">日均用电量</span>
+                        <span class="font-mono text-white font-bold">${formatNumber(dayBaseData.totalConsumption)} kWh</span>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">日直接自用电量</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">Σ min(每小时发电量, 每小时用电量)</p>
+                        <div class="mt-2 text-sm"><p>光伏发电产生时立即被消耗的部分。</p>
+                            <div class="flex justify-between items-baseline py-2 text-green-400">
+                                <span>结果</span>
+                                <span class="font-mono font-bold">${formatNumber(dayBaseData.totalDirectSelfConsumption)} kWh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">日可充电量</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">Σ max(每小时发电量 - 每小时用电量, 0)</p>
+                        <div class="mt-2 text-sm"><p>可用于给电池充电的剩余光伏电量。</p>
+                            <div class="flex justify-between items-baseline py-2 text-yellow-400">
+                                <span>结果</span>
+                                <span class="font-mono font-bold">${formatNumber(dayBaseData.totalToBatteryPotential)} kWh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">日有效充电量</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">min(日可充电量, 电池容量, 非发电时段用电量)</p>
+                        <div class="mt-2 text-sm space-y-1">
+                            <p>实际储存的有效电量。它受限于可充电量、电池容量以及非发电时段的用电需求。</p>
+                            <div class="flex justify-between items-baseline py-2 border-b border-gray-700 border-t">
+                                <span class="text-gray-400">1. 可充电量</span>
+                                <span class="font-mono text-white font-bold">${formatNumber(dayBaseData.totalToBatteryPotential)} kWh</span>
+                            </div>
+                            <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                                <span class="text-gray-400">2. 电池容量</span>
+                                <span class="font-mono text-white font-bold">${formatNumber(currentConfig.batteryCapacity)} kWh</span>
+                            </div>
+                            <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                                <span class="text-gray-400">3. 非发电时段用电量</span>
+                                <span class="font-mono text-white font-bold">${formatNumber(dayBaseData.nonGenerationConsumption)} kWh</span>
+                            </div>
+                            <div class="flex justify-between items-baseline py-2 text-green-400 font-bold">
+                                <span>最终结果</span>
+                                <span class="font-mono">${formatNumber(dayBaseData.finalEffectiveCharge)} kWh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="text-lg font-semibold pt-4">年度总结</h4>
+                    <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                        <span class="text-gray-400">年总自用电量</span>
+                        <span class="font-mono text-white font-bold">${formatNumber(annualData.totalSelfConsumption)} kWh</span>
+                    </div>
+                    <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                        <span class="text-gray-400">年总发电量</span>
+                        <span class="font-mono text-white font-bold">${formatNumber(annualData.totalGeneration)} kWh</span>
+                    </div>
+                    <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                        <span class="text-gray-400">售电量 (上网)</span>
+                        <span class="font-mono text-white font-bold">${formatNumber(annualData.toGrid)} kWh</span>
+                    </div>
+                    <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                        <span class="text-gray-400">购电量 (下网)</span>
+                        <span class="font-mono text-white font-bold">${formatNumber(annualData.fromGrid)} kWh</span>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">自用率</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">年总自用电量 / 年总发电量</p>
+                        <div class="flex justify-between items-baseline py-2 text-xl text-brand-accent">
+                            <span>结果</span>
+                            <span class="font-mono font-bold">${formatNumber(annualData.selfConsumptionRate * 100)}%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3 class="text-xl font-semibold text-white mb-4 border-b-2 border-brand-secondary pb-2">第2步：20年财务分析</h3>
+                <div class="space-y-3">
+                    <div class="flex justify-between items-baseline py-2 border-b border-gray-700 text-red-400">
+                        <span>初始投资</span>
+                        <span class="font-mono font-bold">${formatCurrency(currentConfig.investmentCost)}</span>
+                    </div>
+                    <div class="flex justify-between items-baseline py-2 border-b border-gray-700 text-yellow-400">
+                        <span>电池更换成本 (第10年)</span>
+                        <span class="font-mono font-bold">${formatCurrency(currentConfig.batteryReplacementCost)}</span>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">年度净节省</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">安装前成本 - (安装后成本 - 售电收入)</p>
+                        <div class="mt-2 text-sm space-y-1">
+                            <p>此处以第一年的计算为例。</p>
+                            <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                                <span class="text-gray-400">安装前成本</span>
+                                <span class="font-mono text-white font-bold">${formatCurrency(year1.costWithoutSolar)}</span>
+                            </div>
+                            <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                                <span class="text-gray-400">安装后成本</span>
+                                <span class="font-mono text-white font-bold">${formatCurrency(year1.costWithSolar)}</span>
+                            </div>
+                            <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                                <span class="text-gray-400">售电收入</span>
+                                <span class="font-mono text-white font-bold">${formatCurrency(year1.revenueFromGrid)}</span>
+                            </div>
+                            <div class="flex justify-between items-baseline py-2 text-green-400 font-bold">
+                                <span>净节省 (第一年)</span>
+                                <span class="font-mono">${formatCurrency(year1.netSavings)}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">投资回收期 (简单)</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">累计节省 > 投资成本的年份</p>
+                        <div class="mt-2 text-sm">
+                            <p>累计节省的名义金额等于初始投资额的时间点。未考虑资金的时间价值。</p>
+                            <div class="flex justify-between items-baseline py-2 text-xl text-brand-accent">
+                                <span>结果</span>
+                                <span class="font-mono font-bold">${paybackPeriod ? formatNumber(paybackPeriod) + ' 年' : 'N/A'}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">投资回收期 (贴现)</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">累计贴现节省 > 投资成本的年份</p>
+                        <div class="mt-2 text-sm space-y-1">
+                            <p>将未来的节省额折算成今天的价值后，累计节省额等于初始投资额的时间点。这是一个更保守的财务指标。</p>
+                            <p class="text-gray-400 text-xs">使用的贴现率: ${currentConfig.discountRate}%</p>
+                            <div class="flex justify-between items-baseline py-2 text-xl text-brand-accent">
+                                <span>结果</span>
+                                <span class="font-mono font-bold">${discountedPaybackPeriod ? formatNumber(discountedPaybackPeriod) + ' 年' : 'N/A'}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">内部收益率 (IRR)</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">使现金流净现值(NPV)为零的贴现率</p>
+                        <div class="mt-2 text-sm space-y-1">
+                            <p>衡量投资盈利能力的指标。越高越好。</p>
+                            <p class="text-gray-400 text-xs">现金流示例: [${formatCurrency(-currentConfig.investmentCost)}, ${formatCurrency(year1.netSavings)}, ${formatCurrency(twentyYearProjection[1].netSavings)}, ...]</p>
+                            <div class="flex justify-between items-baseline py-2 text-xl text-brand-accent">
+                                <span>结果</span>
+                                <span class="font-mono font-bold">${irr ? formatNumber(irr * 100) + '%' : 'N/A'}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    `;
+    
+    drawMonthlyGenerationChart(monthlyGenerationPercentages);
+    drawMonthlyConsumptionChart(monthlyConsumptionFactors);
+    drawHourlyDistributionChart(hourlyGenerationFactors, hourlyConsumptionPercentages);
+}
+
+function drawMonthlyGenerationChart(percentages) {
+    const ctx = document.getElementById('monthly-generation-chart');
+    if (!ctx) return;
+    new Chart(ctx, {
+        type: 'bar',
+        data: { labels: MONTH_NAMES, datasets: [{ label: '发电量占比 (%)', data: percentages, backgroundColor: 'rgba(245, 158, 11, 0.8)', borderColor: 'rgb(245, 158, 11)', borderWidth: 1 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { backgroundColor: 'rgba(31, 41, 55, 0.8)', borderColor: '#4a5568', borderWidth: 1, callbacks: { label: function(context) { return context.parsed.y.toFixed(1) + '%'; } } } }, scales: { y: { beginAtZero: true, ticks: { color: '#a0aec0', callback: function(value) { return value + '%'; } }, grid: { color: '#4a5568' } }, x: { ticks: { color: '#a0aec0', font: { size: 10 } }, grid: { color: '#4a5568' } } } }
+    });
+}
+
+function drawMonthlyConsumptionChart(factors) {
+    const ctx = document.getElementById('monthly-consumption-chart');
+    if (!ctx) return;
+    new Chart(ctx, {
+        type: 'bar',
+        data: { labels: MONTH_NAMES, datasets: [{ label: '用电比例 (%)', data: factors, backgroundColor: 'rgba(59, 130, 246, 0.8)', borderColor: 'rgb(59, 130, 246)', borderWidth: 1 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { backgroundColor: 'rgba(31, 41, 55, 0.8)', borderColor: '#4a5568', borderWidth: 1, callbacks: { label: function(context) { return context.parsed.y.toFixed(2) + '%'; } } } }, scales: { y: { beginAtZero: true, ticks: { color: '#a0aec0', callback: function(value) { return value + '%'; } }, grid: { color: '#4a5568' } }, x: { ticks: { color: '#a0aec0', font: { size: 10 } }, grid: { color: '#4a5568' } } } }
+    });
+}
+
+function drawHourlyDistributionChart(generationFactors, consumptionPercentages) {
+    const ctx = document.getElementById('hourly-distribution-chart');
+    if (!ctx) return;
+    const labels = Array.from({length: 24}, (_, i) => `${i}:00`);
+    new Chart(ctx, {
+        type: 'bar',
+        data: { labels: labels, datasets: [{ label: '发电系数', data: generationFactors, backgroundColor: 'rgba(245, 158, 11, 0.8)', borderColor: 'rgb(245, 158, 11)', borderWidth: 1 }, { label: '用电比例 (%)', data: consumptionPercentages, backgroundColor: 'rgba(59, 130, 246, 0.8)', borderColor: 'rgb(59, 130, 246)', borderWidth: 1 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { labels: { color: '#a0aec0', font: { size: 10 } } }, tooltip: { backgroundColor: 'rgba(31, 41, 55, 0.8)', borderColor: '#4a5568', borderWidth: 1 } }, scales: { y: { beginAtZero: true, ticks: { color: '#a0aec0', font: { size: 10 } }, grid: { color: '#4a5568' } }, x: { ticks: { color: '#a0aec0', font: { size: 9 }, maxRotation: 45, minRotation: 45 }, grid: { color: '#4a5568' } } } }
     });
 }
