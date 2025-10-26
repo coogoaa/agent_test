@@ -70,7 +70,7 @@ function updateUI() {
 }
 
 function updateKPICards() {
-    const { annualData, paybackPeriod, discountedPaybackPeriod, irr } = simulationResult;
+    const { annualData, paybackPeriod, paybackPeriodAmortized, discountedPaybackPeriod, discountedPaybackPeriodAmortized, irr } = simulationResult;
     
     const kpiData = [
         {
@@ -81,25 +81,44 @@ function updateKPICards() {
             colorClass: 'bg-green-600'
         },
         {
-            title: '投资回收期 (简单)',
+            title: '回本周期 (简单)',
             value: paybackPeriod ? paybackPeriod.toFixed(1) : 'N/A',
             unit: '年',
             icon: '📅',
-            colorClass: 'bg-blue-600'
+            colorClass: 'bg-blue-600',
+            subtitle: '第10年一次性扣除电池成本'
         },
         {
-            title: '投资回收期 (贴现)',
+            title: '回本周期 (计提法)',
+            value: paybackPeriodAmortized ? paybackPeriodAmortized.toFixed(1) : 'N/A',
+            unit: '年',
+            icon: '📊',
+            colorClass: 'bg-indigo-600',
+            subtitle: '前10年分摊电池成本'
+        },
+        {
+            title: '回本周期 (贴现)',
             value: discountedPaybackPeriod ? discountedPaybackPeriod.toFixed(1) : 'N/A',
             unit: '年',
             icon: '💰',
-            colorClass: 'bg-teal-600'
+            colorClass: 'bg-teal-600',
+            subtitle: '第10年一次性扣除'
+        },
+        {
+            title: '回本周期 (贴现+计提)',
+            value: discountedPaybackPeriodAmortized ? discountedPaybackPeriodAmortized.toFixed(1) : 'N/A',
+            unit: '年',
+            icon: '💎',
+            colorClass: 'bg-cyan-600',
+            subtitle: '前10年分摊'
         },
         {
             title: '20年内部收益率 (IRR)',
             value: irr ? (irr * 100).toFixed(1) : 'N/A',
             unit: '%',
-            icon: '📊',
-            colorClass: 'bg-purple-600'
+            icon: '📈',
+            colorClass: 'bg-purple-600',
+            subtitle: '基于实际现金流'
         },
         {
             title: '年发电量',
@@ -116,11 +135,12 @@ function updateKPICards() {
             <div class="p-3 rounded-full ${kpi.colorClass} text-3xl">
                 ${kpi.icon}
             </div>
-            <div>
+            <div class="flex-1">
                 <p class="text-sm text-gray-400">${kpi.title}</p>
                 <p class="text-2xl font-bold text-white">
                     ${kpi.value} <span class="text-lg font-normal text-gray-300">${kpi.unit}</span>
                 </p>
+                ${kpi.subtitle ? `<p class="text-xs text-gray-500 mt-1">${kpi.subtitle}</p>` : ''}
             </div>
         </div>
     `).join('');
@@ -398,11 +418,20 @@ function drawROIChart(projection) {
         labels: projection.map(p => `第${p.year}年`),
         datasets: [
             {
-                label: '年度净节省',
+                label: '年度净节省 (第10年一次性)',
                 type: 'bar',
                 data: projection.map(p => p.netSavings.toFixed(0)),
-                backgroundColor: 'rgba(59, 130, 246, 0.8)',
+                backgroundColor: 'rgba(59, 130, 246, 0.6)',
                 borderColor: 'rgb(59, 130, 246)',
+                borderWidth: 1,
+                yAxisID: 'y'
+            },
+            {
+                label: '年度净节省 (计提法)',
+                type: 'bar',
+                data: projection.map(p => p.netSavingsAmortized.toFixed(0)),
+                backgroundColor: 'rgba(99, 102, 241, 0.6)',
+                borderColor: 'rgb(99, 102, 241)',
                 borderWidth: 1,
                 yAxisID: 'y'
             },
@@ -417,6 +446,17 @@ function drawROIChart(projection) {
                 yAxisID: 'y'
             },
             {
+                label: '累计节省 (计提法)',
+                type: 'line',
+                data: projection.map(p => p.cumulativeSavingsAmortized.toFixed(0)),
+                borderColor: 'rgb(139, 92, 246)',
+                backgroundColor: 'rgba(139, 92, 246, 0.1)',
+                borderWidth: 2,
+                borderDash: [3, 3],
+                fill: false,
+                yAxisID: 'y'
+            },
+            {
                 label: '累计节省 (贴现)',
                 type: 'line',
                 data: projection.map(p => p.cumulativeDiscountedSavings.toFixed(0)),
@@ -424,6 +464,17 @@ function drawROIChart(projection) {
                 backgroundColor: 'rgba(13, 148, 136, 0.1)',
                 borderWidth: 2,
                 borderDash: [5, 5],
+                fill: false,
+                yAxisID: 'y'
+            },
+            {
+                label: '累计节省 (贴现+计提)',
+                type: 'line',
+                data: projection.map(p => p.cumulativeDiscountedSavingsAmortized.toFixed(0)),
+                borderColor: 'rgb(6, 182, 212)',
+                backgroundColor: 'rgba(6, 182, 212, 0.1)',
+                borderWidth: 2,
+                borderDash: [8, 3],
                 fill: false,
                 yAxisID: 'y'
             }
@@ -485,7 +536,8 @@ function drawROIChart(projection) {
 }
 
 function updateCalculationBreakdown() {
-    const { dayBaseData, annualData, twentyYearProjection, paybackPeriod, discountedPaybackPeriod, irr, 
+    const { dayBaseData, annualData, twentyYearProjection, paybackPeriod, paybackPeriodAmortized, 
+            discountedPaybackPeriod, discountedPaybackPeriodAmortized, irr, 
             monthlyGenerationPercentages, monthlyConsumptionFactors, hourlyGenerationFactors, hourlyConsumptionPercentages } = simulationResult;
     const year1 = twentyYearProjection[0];
     
@@ -651,26 +703,52 @@ function updateCalculationBreakdown() {
                             </div>
                         </div>
                     </div>
+                    <h4 class="text-lg font-semibold pt-4 text-yellow-400">电池成本处理方式</h4>
                     <div class="bg-gray-900/50 p-4 rounded-md mt-2">
-                        <p class="font-semibold text-brand-accent">投资回收期 (简单)</p>
-                        <p class="text-sm text-gray-400 italic my-1 font-mono">累计节省 > 投资成本的年份</p>
-                        <div class="mt-2 text-sm">
-                            <p>累计节省的名义金额等于初始投资额的时间点。未考虑资金的时间价值。</p>
-                            <div class="flex justify-between items-baseline py-2 text-xl text-brand-accent">
-                                <span>结果</span>
-                                <span class="font-mono font-bold">${paybackPeriod ? formatNumber(paybackPeriod) + ' 年' : 'N/A'}</span>
+                        <p class="font-semibold text-brand-accent">两种计算方式对比</p>
+                        <div class="mt-2 text-sm space-y-2">
+                            <div class="border-l-4 border-blue-500 pl-3">
+                                <p class="font-semibold text-blue-400">方式1: 第10年一次性扣除</p>
+                                <p class="text-gray-400 text-xs mt-1">第10年: 净节省 = 基础节省 - ${formatCurrency(currentConfig.batteryReplacementCost)}</p>
+                                <p class="text-gray-400 text-xs">其他年份: 净节省 = 基础节省</p>
+                                <p class="text-gray-400 text-xs mt-1">✓ 符合实际现金流，用于 IRR 计算</p>
+                            </div>
+                            <div class="border-l-4 border-indigo-500 pl-3">
+                                <p class="font-semibold text-indigo-400">方式2: 计提法（前10年分摊）</p>
+                                <p class="text-gray-400 text-xs mt-1">前10年: 净节省 = 基础节省 - ${formatCurrency(currentConfig.batteryReplacementCost / 10)}/年</p>
+                                <p class="text-gray-400 text-xs">第11-20年: 净节省 = 基础节省</p>
+                                <p class="text-gray-400 text-xs mt-1">✓ 平滑曲线，用于回本周期计算</p>
                             </div>
                         </div>
                     </div>
                     <div class="bg-gray-900/50 p-4 rounded-md mt-2">
-                        <p class="font-semibold text-brand-accent">投资回收期 (贴现)</p>
+                        <p class="font-semibold text-brand-accent">回本周期 (简单)</p>
+                        <p class="text-sm text-gray-400 italic my-1 font-mono">累计节省 > 投资成本的年份</p>
+                        <div class="mt-2 text-sm">
+                            <p>累计节省的名义金额等于初始投资额的时间点。未考虑资金的时间价值。</p>
+                            <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                                <span class="text-blue-400">第10年一次性扣除</span>
+                                <span class="font-mono font-bold text-blue-400">${paybackPeriod ? formatNumber(paybackPeriod) + ' 年' : 'N/A'}</span>
+                            </div>
+                            <div class="flex justify-between items-baseline py-2 text-indigo-400">
+                                <span>计提法（前10年分摊）</span>
+                                <span class="font-mono font-bold">${paybackPeriodAmortized ? formatNumber(paybackPeriodAmortized) + ' 年' : 'N/A'}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900/50 p-4 rounded-md mt-2">
+                        <p class="font-semibold text-brand-accent">回本周期 (贴现)</p>
                         <p class="text-sm text-gray-400 italic my-1 font-mono">累计贴现节省 > 投资成本的年份</p>
                         <div class="mt-2 text-sm space-y-1">
                             <p>将未来的节省额折算成今天的价值后，累计节省额等于初始投资额的时间点。这是一个更保守的财务指标。</p>
                             <p class="text-gray-400 text-xs">使用的贴现率: ${currentConfig.discountRate}%</p>
-                            <div class="flex justify-between items-baseline py-2 text-xl text-brand-accent">
-                                <span>结果</span>
-                                <span class="font-mono font-bold">${discountedPaybackPeriod ? formatNumber(discountedPaybackPeriod) + ' 年' : 'N/A'}</span>
+                            <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
+                                <span class="text-teal-400">第10年一次性扣除</span>
+                                <span class="font-mono font-bold text-teal-400">${discountedPaybackPeriod ? formatNumber(discountedPaybackPeriod) + ' 年' : 'N/A'}</span>
+                            </div>
+                            <div class="flex justify-between items-baseline py-2 text-cyan-400">
+                                <span>计提法（前10年分摊）</span>
+                                <span class="font-mono font-bold">${discountedPaybackPeriodAmortized ? formatNumber(discountedPaybackPeriodAmortized) + ' 年' : 'N/A'}</span>
                             </div>
                         </div>
                     </div>
@@ -679,8 +757,9 @@ function updateCalculationBreakdown() {
                         <p class="text-sm text-gray-400 italic my-1 font-mono">使现金流净现值(NPV)为零的贴现率</p>
                         <div class="mt-2 text-sm space-y-1">
                             <p>衡量投资盈利能力的指标。越高越好。</p>
+                            <p class="text-yellow-400 text-xs font-semibold">⚠️ IRR 始终使用实际现金流（第10年一次性扣除），不使用计提法</p>
                             <p class="text-gray-400 text-xs">现金流示例: [${formatCurrency(-currentConfig.investmentCost)}, ${formatCurrency(year1.netSavings)}, ${formatCurrency(twentyYearProjection[1].netSavings)}, ...]</p>
-                            <div class="flex justify-between items-baseline py-2 text-xl text-brand-accent">
+                            <div class="flex justify-between items-baseline py-2 text-xl text-purple-400">
                                 <span>结果</span>
                                 <span class="font-mono font-bold">${irr ? formatNumber(irr * 100) + '%' : 'N/A'}</span>
                             </div>

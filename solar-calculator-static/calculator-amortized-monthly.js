@@ -40,8 +40,8 @@ function runSolarSimulation(config) {
     // Calculate base data
     const baseData = calculateBaseData(config, monthlyConsumptionPercentages, hourlyConsumptionFactors);
     
-    // Calculate 20-year projection
-    const financialData = calculate20YearData(config, baseData.annualData);
+    // Calculate 20-year projection (传入完整 baseData 以访问月度数据)
+    const financialData = calculate20YearData(config, {...baseData.annualData, monthlyDayBaseData: baseData.monthlyDayBaseData});
 
     return {
         ...baseData,
@@ -177,85 +177,147 @@ function calculateBaseData(config, monthlyConsumptionPercentages, hourlyConsumpt
 }
 
 function calculate20YearData(config, baseAnnualData) {
-    const projection = [];
+    const monthlyProjection = [];
+    const yearlyProjection = [];
     const cashFlows = [-config.investmentCost];
     
-    let cumulativeSavings = 0;
-    let paybackPeriod = null;
+    // 月度回本周期计算（计提法：前120个月分摊）
+    let cumulativeSavingsMonthly = 0;
+    let paybackPeriodMonthly = null;
     
-    let cumulativeDiscountedSavings = 0;
-    let discountedPaybackPeriod = null;
+    let cumulativeDiscountedSavingsMonthly = 0;
+    let discountedPaybackPeriodMonthly = null;
 
-    const priceInflationFactor = 1 + config.priceInflation / 100;
-    const degradationFactor = 1 - config.panelDegradation / 100;
-    const discountFactor = 1 + config.discountRate / 100;
+    const monthlyPriceInflationFactor = Math.pow(1 + config.priceInflation / 100, 1/12);
+    const monthlyDegradationFactor = Math.pow(1 - config.panelDegradation / 100, 1/12);
+    const monthlyDiscountFactor = Math.pow(1 + config.discountRate / 100, 1/12);
+    
+    // 电池成本月度分摊额（120个月分摊）
+    const monthlyBatteryAmortization = config.batteryReplacementCost / 120;
 
-    for (let year = 1; year <= 20; year++) {
-        const currentPriceInflation = Math.pow(priceInflationFactor, year - 1);
-        const currentDegradation = Math.pow(degradationFactor, year - 1);
+    // 按月循环 240 个月（20年）
+    for (let month = 1; month <= 240; month++) {
+        const year = Math.ceil(month / 12);
+        const monthInYear = ((month - 1) % 12);  // 0-11
+        
+        const currentPriceInflation = Math.pow(monthlyPriceInflationFactor, month - 1);
+        const currentDegradation = Math.pow(monthlyDegradationFactor, month - 1);
 
         const currentElectricityPrice = config.electricityPrice * currentPriceInflation;
         const currentFeedInTariff = config.feedInTariff * currentPriceInflation;
         const currentDailyFixedCost = (config.dailyFixedCost || 0) * currentPriceInflation;
-
-        const annualGeneration = baseAnnualData.totalGeneration * currentDegradation;
-        const annualSelfConsumption = (baseAnnualData.totalSelfConsumption / baseAnnualData.totalGeneration) * annualGeneration;
-        const annualToGrid = annualGeneration - annualSelfConsumption;
-        const annualFromGrid = config.annualConsumption - annualSelfConsumption;
         
-        const costWithoutSolar = (config.annualConsumption * currentElectricityPrice) + (365 * currentDailyFixedCost);
-        const costWithSolar = (annualFromGrid * currentElectricityPrice) + (365 * currentDailyFixedCost);
-        const revenueFromGrid = annualToGrid * currentFeedInTariff;
+        // 获取当月的每日数据（基于月度模型）
+        const monthData = baseAnnualData.monthlyDayBaseData[monthInYear];
+        const daysInMonth = DAYS_IN_MONTH[monthInYear];
         
-        let netSavings = costWithoutSolar - (costWithSolar - revenueFromGrid);
+        // 应用衰减到当月发电量
+        const dailyGeneration = monthData.totalGeneration * currentDegradation;
+        const dailySelfConsumption = (monthData.totalDirectSelfConsumption + monthData.finalEffectiveCharge) * currentDegradation;
+        const dailyToGrid = Math.max(0, dailyGeneration - dailySelfConsumption);
+        const dailyFromGrid = Math.max(0, monthData.totalConsumption - dailySelfConsumption);
         
-        if (year === 10) {
-            netSavings -= config.batteryReplacementCost;
+        // 月度数据
+        const monthlyGeneration = dailyGeneration * daysInMonth;
+        const monthlySelfConsumption = dailySelfConsumption * daysInMonth;
+        const monthlyToGrid = dailyToGrid * daysInMonth;
+        const monthlyFromGrid = dailyFromGrid * daysInMonth;
+        const monthlyConsumption = monthData.totalConsumption * daysInMonth;
+        
+        const costWithoutSolar = (monthlyConsumption * currentElectricityPrice) + (daysInMonth * currentDailyFixedCost);
+        const costWithSolar = (monthlyFromGrid * currentElectricityPrice) + (daysInMonth * currentDailyFixedCost);
+        const revenueFromGrid = monthlyToGrid * currentFeedInTariff;
+        
+        // 基础月度节省（不含电池成本）
+        let monthlySavings = costWithoutSolar - (costWithSolar - revenueFromGrid);
+        
+        // 计提法：前120个月分摊电池成本
+        if (month <= 120) {
+            monthlySavings -= monthlyBatteryAmortization;
         }
 
-        // Simple Payback Period
-        const prevCumulativeSavings = cumulativeSavings;
-        cumulativeSavings += netSavings;
+        // 月度回本周期计算
+        const prevCumulativeSavingsMonthly = cumulativeSavingsMonthly;
+        cumulativeSavingsMonthly += monthlySavings;
 
-        if (paybackPeriod === null && cumulativeSavings >= config.investmentCost) {
-            const remainingCost = config.investmentCost - prevCumulativeSavings;
-            if (netSavings > 0) {
-                paybackPeriod = (year - 1) + (remainingCost / netSavings);
+        if (paybackPeriodMonthly === null && cumulativeSavingsMonthly >= config.investmentCost) {
+            const remainingCost = config.investmentCost - prevCumulativeSavingsMonthly;
+            if (monthlySavings > 0) {
+                paybackPeriodMonthly = (month - 1) + (remainingCost / monthlySavings);
             }
         }
         
-        // Discounted Payback Period
-        const discountedNetSavings = netSavings / Math.pow(discountFactor, year);
-        const prevCumulativeDiscountedSavings = cumulativeDiscountedSavings;
-        cumulativeDiscountedSavings += discountedNetSavings;
+        const discountedMonthlySavings = monthlySavings / Math.pow(monthlyDiscountFactor, month);
+        const prevCumulativeDiscountedSavingsMonthly = cumulativeDiscountedSavingsMonthly;
+        cumulativeDiscountedSavingsMonthly += discountedMonthlySavings;
 
-        if (discountedPaybackPeriod === null && cumulativeDiscountedSavings >= config.investmentCost) {
-            const remainingDiscountedCost = config.investmentCost - prevCumulativeDiscountedSavings;
-            if (discountedNetSavings > 0) {
-                const fractionOfYear = remainingDiscountedCost / discountedNetSavings;
-                discountedPaybackPeriod = (year - 1) + fractionOfYear;
+        if (discountedPaybackPeriodMonthly === null && cumulativeDiscountedSavingsMonthly >= config.investmentCost) {
+            const remainingDiscountedCost = config.investmentCost - prevCumulativeDiscountedSavingsMonthly;
+            if (discountedMonthlySavings > 0) {
+                const fractionOfMonth = remainingDiscountedCost / discountedMonthlySavings;
+                discountedPaybackPeriodMonthly = (month - 1) + fractionOfMonth;
             }
         }
 
-        projection.push({
+        monthlyProjection.push({
+            month,
             year,
-            netSavings,
-            discountedNetSavings,
-            cumulativeSavings,
-            cumulativeDiscountedSavings,
+            monthInYear: monthInYear + 1,
+            monthlySavings,
+            discountedMonthlySavings,
+            cumulativeSavings: cumulativeSavingsMonthly,
+            cumulativeDiscountedSavings: cumulativeDiscountedSavingsMonthly,
             costWithoutSolar,
             costWithSolar,
-            revenueFromGrid
+            revenueFromGrid,
+            monthlyGeneration,
+            monthlySelfConsumption,
+            monthlyToGrid,
+            monthlyFromGrid,
+            batteryAmortization: month <= 120 ? monthlyBatteryAmortization : 0
         });
+    }
+    
+    // 汇总年度数据（用于显示和 IRR）
+    for (let year = 1; year <= 20; year++) {
+        const yearMonths = monthlyProjection.filter(m => m.year === year);
+        
+        const netSavings = yearMonths.reduce((sum, m) => sum + m.monthlySavings, 0);
+        const costWithoutSolar = yearMonths.reduce((sum, m) => sum + m.costWithoutSolar, 0);
+        const costWithSolar = yearMonths.reduce((sum, m) => sum + m.costWithSolar, 0);
+        const revenueFromGrid = yearMonths.reduce((sum, m) => sum + m.revenueFromGrid, 0);
+        
+        // IRR 使用年度现金流（但基于月度计提）
         cashFlows.push(netSavings);
+        
+        yearlyProjection.push({
+            year,
+            netSavings,
+            netSavingsAmortized: netSavings,  // 月度版本都是计提法
+            discountedNetSavings: yearMonths.reduce((sum, m) => sum + m.discountedMonthlySavings, 0),
+            discountedNetSavingsAmortized: yearMonths.reduce((sum, m) => sum + m.discountedMonthlySavings, 0),
+            cumulativeSavings: yearMonths[yearMonths.length - 1].cumulativeSavings,
+            cumulativeSavingsAmortized: yearMonths[yearMonths.length - 1].cumulativeSavings,
+            cumulativeDiscountedSavings: yearMonths[yearMonths.length - 1].cumulativeDiscountedSavings,
+            cumulativeDiscountedSavingsAmortized: yearMonths[yearMonths.length - 1].cumulativeDiscountedSavings,
+            costWithoutSolar,
+            costWithSolar,
+            revenueFromGrid,
+            batteryAmortization: yearMonths.reduce((sum, m) => sum + m.batteryAmortization, 0)
+        });
     }
     
     const irr = calculateIRR(cashFlows);
 
     return { 
-        twentyYearProjection: projection, 
-        paybackPeriod, 
-        discountedPaybackPeriod, 
-        irr 
+        twentyYearProjection: yearlyProjection,  // 年度汇总（用于图表显示）
+        monthlyProjection,  // 月度详细数据
+        paybackPeriod: paybackPeriodMonthly / 12,  // 转换为年
+        paybackPeriodAmortized: paybackPeriodMonthly / 12,  // 月度版本都是计提法
+        discountedPaybackPeriod: discountedPaybackPeriodMonthly / 12,
+        discountedPaybackPeriodAmortized: discountedPaybackPeriodMonthly / 12,
+        paybackPeriodMonths: paybackPeriodMonthly,  // 保留月数
+        discountedPaybackPeriodMonths: discountedPaybackPeriodMonthly,
+        irr
     };
 }

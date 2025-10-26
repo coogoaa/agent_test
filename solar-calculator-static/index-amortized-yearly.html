@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>太阳能投资回报模拟器</title>
+    <title>太阳能投资回报模拟器 - 计提法（年度分摊）</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
     <script>
@@ -30,6 +30,9 @@
                 </h1>
                 <p class="mt-2 text-lg text-gray-400">
                     可视化您的太阳能投资表现并理解其背后的计算原理。
+                </p>
+                <p class="mt-1 text-sm text-yellow-400 font-semibold">
+                    📊 计提法版本：电池成本前10年分摊（按年计算）
                 </p>
             </header>
 
@@ -162,7 +165,7 @@
                 </div>
 
                 <!-- KPI Cards -->
-                <div id="kpi-cards" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                <div id="kpi-cards" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
                     <!-- KPI cards will be dynamically inserted here -->
                 </div>
 
@@ -190,7 +193,7 @@
     </div>
 
     <script src="data.js"></script>
-    <script src="calculator.js"></script>
-    <script src="ui.js"></script>
+    <script src="calculator-amortized-yearly.js"></script>
+    <script src="ui-amortized-yearly.js"></script>
 </body>
 </html>
