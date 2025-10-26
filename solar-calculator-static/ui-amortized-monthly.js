@@ -727,7 +727,7 @@ function updateCalculationBreakdown() {
                         <p class="text-sm text-gray-400 italic my-1 font-mono">累计贴现节省 > 投资成本的月份</p>
                         <div class="mt-2 text-sm space-y-1">
                             <p>将未来的月度节省额折算成今天的价值后计算。</p>
-                            <p class="text-gray-400 text-xs">使用的贴现率: ${currentConfig.discountRate}% (年度) → ${(Math.pow(1 + currentConfig.discountRate/100, 1/12) - 1) * 100).toFixed(3)}% (月度)</p>
+                            <p class="text-gray-400 text-xs">使用的贴现率: ${currentConfig.discountRate}% (年度) → ${((Math.pow(1 + currentConfig.discountRate/100, 1/12) - 1) * 100).toFixed(3)}% (月度)</p>
                             <div class="flex justify-between items-baseline py-2 border-b border-gray-700">
                                 <span class="text-teal-400">月数</span>
                                 <span class="font-mono font-bold text-teal-400">${discountedPaybackPeriodMonths ? formatNumber(discountedPaybackPeriodMonths, 1) + ' 月' : 'N/A'}</span>
