@@ -41,7 +41,7 @@ function runSolarSimulation(config) {
     const baseData = calculateBaseData(config, monthlyConsumptionPercentages, hourlyConsumptionFactors);
     
     // Calculate 20-year projection (传入完整 baseData 以访问月度数据)
-    const financialData = calculate20YearData(config, {...baseData.annualData, monthlyDayBaseData: baseData.monthlyDayBaseData});
+    const financialData = calculate20YearData(config, baseData);
 
     return {
         ...baseData,
@@ -176,7 +176,7 @@ function calculateBaseData(config, monthlyConsumptionPercentages, hourlyConsumpt
     };
 }
 
-function calculate20YearData(config, baseAnnualData) {
+function calculate20YearData(config, baseData) {
     const monthlyProjection = [];
     const yearlyProjection = [];
     const cashFlows = [-config.investmentCost];
@@ -208,7 +208,7 @@ function calculate20YearData(config, baseAnnualData) {
         const currentDailyFixedCost = (config.dailyFixedCost || 0) * currentPriceInflation;
         
         // 获取当月的每日数据（基于月度模型）
-        const monthData = baseAnnualData.monthlyDayBaseData[monthInYear];
+        const monthData = baseData.monthlyDayBaseData[monthInYear];
         const daysInMonth = DAYS_IN_MONTH[monthInYear];
         
         // 应用衰减到当月发电量
