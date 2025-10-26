@@ -1,8 +1,8 @@
 {
   "location": {
-    "latitude": -42.7520648,
-    "longitude": 147.2752573,
-    "description": "TSA"
+    "latitude": -41.1676875,
+    "longitude": 146.3472656,
+    "description": "Devonport TAS 7310"
   },
   "system_loss": 15,
   "panel_spec": {
@@ -16,18 +16,32 @@
   },
   "roof_surfaces": [
     {
-      "name": "坡面A (主坡面)",
-      "panel_count": 7,
+      "name": "坡面1",
+      "panel_count": 5,
       "tilt_angle": 23,
-      "azimuth": -0.15,
-      "description": "主坡面，3.52kW，方位角17°"
+      "azimuth": -55.62,
+      "description": "5块面板,方位角-55.62°,倾斜角22°"
     },
     {
-      "name": "坡面B (侧坡面)",
-      "panel_count": 9,
+      "name": "坡面2",
+      "panel_count": 6,
       "tilt_angle": 23,
-      "azimuth": 179.85,
-      "description": "侧坡面，1.32kW，方位角332°"
+      "azimuth": -145.62,
+      "description": "6块面板,方位角-145.62°,倾斜角22°"
+    },
+    {
+      "name": "坡面3",
+      "panel_count": 3,
+      "tilt_angle": 23,
+      "azimuth": 124.38,
+      "description": "3块面板,方位角124.38°,倾斜角22°"
+    },
+    {
+      "name": "坡面4",
+      "panel_count": 3,
+      "tilt_angle": 23,
+      "azimuth": 34.38,
+      "description": "3块面板,方位角34.38°,倾斜角22°"
     }
   ],
   "output": {
@@ -35,6 +49,7 @@
     "save_monthly_details": true,
     "output_format": "json",
     "output_directory": "output",
-    "add_timestamp": true
+    "add_timestamp": true,
+    "convert_to_local_time": true
   }
 }
