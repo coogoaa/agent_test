@@ -180,15 +180,26 @@ function calculate20YearData(config, baseAnnualData) {
     const projection = [];
     const cashFlows = [-config.investmentCost];
     
+    // 原有回本周期计算（第10年一次性扣除）
     let cumulativeSavings = 0;
     let paybackPeriod = null;
     
     let cumulativeDiscountedSavings = 0;
     let discountedPaybackPeriod = null;
 
+    // 新增：计提法回本周期计算（前10年分摊）
+    let cumulativeSavingsAmortized = 0;
+    let paybackPeriodAmortized = null;
+    
+    let cumulativeDiscountedSavingsAmortized = 0;
+    let discountedPaybackPeriodAmortized = null;
+
     const priceInflationFactor = 1 + config.priceInflation / 100;
     const degradationFactor = 1 - config.panelDegradation / 100;
     const discountFactor = 1 + config.discountRate / 100;
+    
+    // 电池成本年度分摊额（10年分摊）
+    const annualBatteryAmortization = config.batteryReplacementCost / 10;
 
     for (let year = 1; year <= 20; year++) {
         const currentPriceInflation = Math.pow(priceInflationFactor, year - 1);
@@ -207,13 +218,21 @@ function calculate20YearData(config, baseAnnualData) {
         const costWithSolar = (annualFromGrid * currentElectricityPrice) + (365 * currentDailyFixedCost);
         const revenueFromGrid = annualToGrid * currentFeedInTariff;
         
+        // 基础节省（不含电池成本）
         let netSavings = costWithoutSolar - (costWithSolar - revenueFromGrid);
         
+        // IRR 使用实际现金流：第10年一次性扣除
         if (year === 10) {
             netSavings -= config.batteryReplacementCost;
         }
 
-        // Simple Payback Period
+        // 计提法：前10年每年分摊电池成本
+        let netSavingsAmortized = costWithoutSolar - (costWithSolar - revenueFromGrid);
+        if (year <= 10) {
+            netSavingsAmortized -= annualBatteryAmortization;
+        }
+
+        // ===== 原有回本周期计算（第10年一次性扣除）=====
         const prevCumulativeSavings = cumulativeSavings;
         cumulativeSavings += netSavings;
 
@@ -224,7 +243,6 @@ function calculate20YearData(config, baseAnnualData) {
             }
         }
         
-        // Discounted Payback Period
         const discountedNetSavings = netSavings / Math.pow(discountFactor, year);
         const prevCumulativeDiscountedSavings = cumulativeDiscountedSavings;
         cumulativeDiscountedSavings += discountedNetSavings;
@@ -237,16 +255,46 @@ function calculate20YearData(config, baseAnnualData) {
             }
         }
 
+        // ===== 新增：计提法回本周期计算 =====
+        const prevCumulativeSavingsAmortized = cumulativeSavingsAmortized;
+        cumulativeSavingsAmortized += netSavingsAmortized;
+
+        if (paybackPeriodAmortized === null && cumulativeSavingsAmortized >= config.investmentCost) {
+            const remainingCost = config.investmentCost - prevCumulativeSavingsAmortized;
+            if (netSavingsAmortized > 0) {
+                paybackPeriodAmortized = (year - 1) + (remainingCost / netSavingsAmortized);
+            }
+        }
+        
+        const discountedNetSavingsAmortized = netSavingsAmortized / Math.pow(discountFactor, year);
+        const prevCumulativeDiscountedSavingsAmortized = cumulativeDiscountedSavingsAmortized;
+        cumulativeDiscountedSavingsAmortized += discountedNetSavingsAmortized;
+
+        if (discountedPaybackPeriodAmortized === null && cumulativeDiscountedSavingsAmortized >= config.investmentCost) {
+            const remainingDiscountedCost = config.investmentCost - prevCumulativeDiscountedSavingsAmortized;
+            if (discountedNetSavingsAmortized > 0) {
+                const fractionOfYear = remainingDiscountedCost / discountedNetSavingsAmortized;
+                discountedPaybackPeriodAmortized = (year - 1) + fractionOfYear;
+            }
+        }
+
         projection.push({
             year,
-            netSavings,
+            netSavings,  // 第10年一次性扣除（用于 IRR）
+            netSavingsAmortized,  // 前10年分摊（用于回本周期）
             discountedNetSavings,
-            cumulativeSavings,
+            discountedNetSavingsAmortized,
+            cumulativeSavings,  // 原有累计
+            cumulativeSavingsAmortized,  // 计提法累计
             cumulativeDiscountedSavings,
+            cumulativeDiscountedSavingsAmortized,
             costWithoutSolar,
             costWithSolar,
-            revenueFromGrid
+            revenueFromGrid,
+            batteryAmortization: year <= 10 ? annualBatteryAmortization : 0
         });
+        
+        // IRR 使用实际现金流（第10年一次性扣除）
         cashFlows.push(netSavings);
     }
     
@@ -254,8 +302,10 @@ function calculate20YearData(config, baseAnnualData) {
 
     return { 
         twentyYearProjection: projection, 
-        paybackPeriod, 
-        discountedPaybackPeriod, 
-        irr 
+        paybackPeriod,  // 原有回本周期
+        paybackPeriodAmortized,  // 计提法回本周期
+        discountedPaybackPeriod,  // 原有贴现回本周期
+        discountedPaybackPeriodAmortized,  // 计提法贴现回本周期
+        irr  // 继续使用实际现金流
     };
 }
