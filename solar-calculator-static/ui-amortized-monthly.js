@@ -66,6 +66,7 @@ function updateUI() {
     updateKPICards();
     updateEnergyFlowViz();
     updateROIViz();
+    updateCashFlowTable();
     updateCalculationBreakdown();
 }
 
@@ -513,6 +514,318 @@ function drawROIChart(projection) {
                     },
                     grid: {
                         color: '#4a5568'
+                    }
+                }
+            }
+        }
+    });
+}
+
+function updateCashFlowTable() {
+    const { twentyYearProjection, monthlyProjection } = simulationResult;
+    
+    const container = document.getElementById('cash-flow-table');
+    container.innerHTML = `
+        <div class="flex flex-col sm:flex-row justify-between sm:items-center mb-6 gap-4">
+            <h2 class="text-2xl font-bold text-white">20年现金流明细</h2>
+            <div class="flex gap-2">
+                <button id="export-yearly-csv" class="bg-brand-secondary hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200 flex items-center gap-2">
+                    <span>📊</span>
+                    <span>导出年度数据 (CSV)</span>
+                </button>
+                <button id="export-monthly-csv" class="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200 flex items-center gap-2">
+                    <span>📅</span>
+                    <span>导出月度数据 (CSV)</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="mb-6 p-4 bg-blue-900/30 border border-blue-500/50 rounded-lg">
+            <p class="text-sm text-blue-200">
+                <span class="font-semibold">💡 提示：</span>
+                此表格展示了 20 年的详细现金流数据，可用于 IRR 计算。负值表示现金流出（投资成本），正值表示现金流入（净节省）。
+            </p>
+        </div>
+        
+        <h3 class="text-xl font-semibold text-white mb-4">现金流趋势图</h3>
+        <div class="h-80 mb-8">
+            <canvas id="cash-flow-chart"></canvas>
+        </div>
+        
+        <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left">
+                <thead class="text-xs uppercase bg-gray-700 text-gray-300">
+                    <tr>
+                        <th class="px-4 py-3 sticky left-0 bg-gray-700 z-10">年份</th>
+                        <th class="px-4 py-3 text-right">年度净节省<br/><span class="text-xs normal-case text-gray-400">(计提法)</span></th>
+                        <th class="px-4 py-3 text-right">累计节省<br/><span class="text-xs normal-case text-gray-400">(简单)</span></th>
+                        <th class="px-4 py-3 text-right">累计节省<br/><span class="text-xs normal-case text-gray-400">(贴现)</span></th>
+                        <th class="px-4 py-3 text-right">安装前成本</th>
+                        <th class="px-4 py-3 text-right">安装后成本</th>
+                        <th class="px-4 py-3 text-right">售电收入</th>
+                        <th class="px-4 py-3 text-right">电池分摊</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-700">
+                    <tr class="bg-red-900/20 font-semibold">
+                        <td class="px-4 py-3 sticky left-0 bg-red-900/20 z-10">第 0 年</td>
+                        <td class="px-4 py-3 text-right text-red-400">-$${currentConfig.investmentCost.toLocaleString()}</td>
+                        <td class="px-4 py-3 text-right text-red-400">-$${currentConfig.investmentCost.toLocaleString()}</td>
+                        <td class="px-4 py-3 text-right text-red-400">-$${currentConfig.investmentCost.toLocaleString()}</td>
+                        <td class="px-4 py-3 text-right text-gray-500">-</td>
+                        <td class="px-4 py-3 text-right text-gray-500">-</td>
+                        <td class="px-4 py-3 text-right text-gray-500">-</td>
+                        <td class="px-4 py-3 text-right text-gray-500">-</td>
+                    </tr>
+                    ${twentyYearProjection.map(year => {
+                        const isBreakeven = year.cumulativeSavingsAmortized >= currentConfig.investmentCost && 
+                                          twentyYearProjection[year.year - 2]?.cumulativeSavingsAmortized < currentConfig.investmentCost;
+                        return `
+                        <tr class="hover:bg-gray-700/50 ${isBreakeven ? 'bg-green-900/20' : ''}">
+                            <td class="px-4 py-3 font-semibold sticky left-0 ${isBreakeven ? 'bg-green-900/20' : 'bg-gray-800'} z-10">
+                                第 ${year.year} 年
+                                ${isBreakeven ? '<span class="ml-2 text-green-400">✓ 回本</span>' : ''}
+                            </td>
+                            <td class="px-4 py-3 text-right font-mono text-green-400">
+                                $${year.netSavingsAmortized.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                            </td>
+                            <td class="px-4 py-3 text-right font-mono ${year.cumulativeSavingsAmortized >= currentConfig.investmentCost ? 'text-green-400 font-bold' : 'text-yellow-400'}">
+                                $${year.cumulativeSavingsAmortized.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                            </td>
+                            <td class="px-4 py-3 text-right font-mono ${year.cumulativeDiscountedSavingsAmortized >= currentConfig.investmentCost ? 'text-green-400 font-bold' : 'text-teal-400'}">
+                                $${year.cumulativeDiscountedSavingsAmortized.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                            </td>
+                            <td class="px-4 py-3 text-right font-mono text-gray-400">
+                                $${year.costWithoutSolar.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                            </td>
+                            <td class="px-4 py-3 text-right font-mono text-gray-400">
+                                $${year.costWithSolar.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                            </td>
+                            <td class="px-4 py-3 text-right font-mono text-blue-400">
+                                $${year.revenueFromGrid.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                            </td>
+                            <td class="px-4 py-3 text-right font-mono text-yellow-400">
+                                $${year.batteryAmortization.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                            </td>
+                        </tr>
+                        `;
+                    }).join('')}
+                </tbody>
+                <tfoot class="bg-gray-700 font-bold">
+                    <tr>
+                        <td class="px-4 py-3 sticky left-0 bg-gray-700 z-10">20年总计</td>
+                        <td class="px-4 py-3 text-right text-green-400">
+                            $${twentyYearProjection.reduce((sum, y) => sum + y.netSavingsAmortized, 0).toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                        </td>
+                        <td class="px-4 py-3 text-right text-green-400">
+                            $${twentyYearProjection[19].cumulativeSavingsAmortized.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                        </td>
+                        <td class="px-4 py-3 text-right text-teal-400">
+                            $${twentyYearProjection[19].cumulativeDiscountedSavingsAmortized.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                        </td>
+                        <td class="px-4 py-3 text-right text-gray-400">
+                            $${twentyYearProjection.reduce((sum, y) => sum + y.costWithoutSolar, 0).toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                        </td>
+                        <td class="px-4 py-3 text-right text-gray-400">
+                            $${twentyYearProjection.reduce((sum, y) => sum + y.costWithSolar, 0).toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                        </td>
+                        <td class="px-4 py-3 text-right text-blue-400">
+                            $${twentyYearProjection.reduce((sum, y) => sum + y.revenueFromGrid, 0).toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                        </td>
+                        <td class="px-4 py-3 text-right text-yellow-400">
+                            $${currentConfig.batteryReplacementCost.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-gray-700/50 p-4 rounded-lg">
+                <p class="text-sm text-gray-400 mb-1">IRR 现金流</p>
+                <p class="text-xs text-gray-500 font-mono">
+                    [-$${currentConfig.investmentCost.toLocaleString()}, 
+                    ${twentyYearProjection.slice(0, 3).map(y => '$' + y.netSavingsAmortized.toFixed(0)).join(', ')}, ...]
+                </p>
+            </div>
+            <div class="bg-gray-700/50 p-4 rounded-lg">
+                <p class="text-sm text-gray-400 mb-1">20年净收益</p>
+                <p class="text-2xl font-bold text-green-400">
+                    $${(twentyYearProjection[19].cumulativeSavingsAmortized - currentConfig.investmentCost).toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
+                </p>
+            </div>
+            <div class="bg-gray-700/50 p-4 rounded-lg">
+                <p class="text-sm text-gray-400 mb-1">投资回报倍数</p>
+                <p class="text-2xl font-bold text-purple-400">
+                    ${(twentyYearProjection[19].cumulativeSavingsAmortized / currentConfig.investmentCost).toFixed(2)}x
+                </p>
+            </div>
+        </div>
+    `;
+    
+    // Add event listeners for export buttons
+    document.getElementById('export-yearly-csv').addEventListener('click', () => exportYearlyCashFlowToCSV());
+    document.getElementById('export-monthly-csv').addEventListener('click', () => exportMonthlyCashFlowToCSV());
+    
+    // Draw cash flow chart
+    drawCashFlowChart(twentyYearProjection);
+}
+
+function exportYearlyCashFlowToCSV() {
+    const { twentyYearProjection } = simulationResult;
+    
+    // CSV header
+    let csv = 'Year,Net Savings (Amortized),Cumulative Savings,Cumulative Discounted Savings,Cost Without Solar,Cost With Solar,Revenue From Grid,Battery Amortization\n';
+    
+    // Initial investment
+    csv += `0,-${currentConfig.investmentCost},-${currentConfig.investmentCost},-${currentConfig.investmentCost},0,0,0,0\n`;
+    
+    // Add data rows
+    twentyYearProjection.forEach(year => {
+        csv += `${year.year},${year.netSavingsAmortized.toFixed(2)},${year.cumulativeSavingsAmortized.toFixed(2)},${year.cumulativeDiscountedSavingsAmortized.toFixed(2)},${year.costWithoutSolar.toFixed(2)},${year.costWithSolar.toFixed(2)},${year.revenueFromGrid.toFixed(2)},${year.batteryAmortization.toFixed(2)}\n`;
+    });
+    
+    // Download
+    downloadCSV(csv, 'solar_cashflow_yearly_20years.csv');
+}
+
+function exportMonthlyCashFlowToCSV() {
+    const { monthlyProjection } = simulationResult;
+    
+    // CSV header
+    let csv = 'Month,Year,Month in Year,Monthly Savings,Discounted Monthly Savings,Cumulative Savings,Cumulative Discounted Savings,Cost Without Solar,Cost With Solar,Revenue From Grid,Monthly Generation,Monthly Self Consumption,Monthly To Grid,Monthly From Grid,Battery Amortization\n';
+    
+    // Add data rows
+    monthlyProjection.forEach(month => {
+        csv += `${month.month},${month.year},${month.monthInYear},${month.monthlySavings.toFixed(2)},${month.discountedMonthlySavings.toFixed(2)},${month.cumulativeSavings.toFixed(2)},${month.cumulativeDiscountedSavings.toFixed(2)},${month.costWithoutSolar.toFixed(2)},${month.costWithSolar.toFixed(2)},${month.revenueFromGrid.toFixed(2)},${month.monthlyGeneration.toFixed(2)},${month.monthlySelfConsumption.toFixed(2)},${month.monthlyToGrid.toFixed(2)},${month.monthlyFromGrid.toFixed(2)},${month.batteryAmortization.toFixed(2)}\n`;
+    });
+    
+    // Download
+    downloadCSV(csv, 'solar_cashflow_monthly_240months.csv');
+}
+
+function downloadCSV(csvContent, filename) {
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const link = document.createElement('a');
+    const url = URL.createObjectURL(blob);
+    
+    link.setAttribute('href', url);
+    link.setAttribute('download', filename);
+    link.style.visibility = 'hidden';
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+let cashFlowChart = null;
+
+function drawCashFlowChart(projection) {
+    const ctx = document.getElementById('cash-flow-chart');
+    if (!ctx) return;
+    
+    if (cashFlowChart) {
+        cashFlowChart.destroy();
+    }
+    
+    // Prepare data including year 0 (initial investment)
+    const years = [0, ...projection.map(p => p.year)];
+    const netSavings = [-currentConfig.investmentCost, ...projection.map(p => p.netSavingsAmortized)];
+    const cumulativeSavings = [-currentConfig.investmentCost, ...projection.map(p => p.cumulativeSavingsAmortized - currentConfig.investmentCost)];
+    
+    const chartData = {
+        labels: years.map(y => y === 0 ? '初始' : `第${y}年`),
+        datasets: [
+            {
+                label: '年度现金流',
+                type: 'bar',
+                data: netSavings.map(v => v.toFixed(0)),
+                backgroundColor: netSavings.map(v => v < 0 ? 'rgba(239, 68, 68, 0.6)' : 'rgba(34, 197, 94, 0.6)'),
+                borderColor: netSavings.map(v => v < 0 ? 'rgb(239, 68, 68)' : 'rgb(34, 197, 94)'),
+                borderWidth: 1,
+                yAxisID: 'y'
+            },
+            {
+                label: '累计净收益',
+                type: 'line',
+                data: cumulativeSavings.map(v => v.toFixed(0)),
+                borderColor: 'rgb(245, 158, 11)',
+                backgroundColor: 'rgba(245, 158, 11, 0.1)',
+                borderWidth: 3,
+                fill: true,
+                tension: 0.4,
+                yAxisID: 'y',
+                pointRadius: 3,
+                pointHoverRadius: 5
+            }
+        ]
+    };
+    
+    cashFlowChart = new Chart(ctx, {
+        type: 'bar',
+        data: chartData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                mode: 'index',
+                intersect: false
+            },
+            plugins: {
+                legend: {
+                    labels: {
+                        color: '#a0aec0',
+                        font: {
+                            size: 12
+                        }
+                    }
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(31, 41, 55, 0.95)',
+                    borderColor: '#4a5568',
+                    borderWidth: 1,
+                    titleColor: '#fff',
+                    bodyColor: '#e5e7eb',
+                    padding: 12,
+                    callbacks: {
+                        label: function(context) {
+                            let label = context.dataset.label || '';
+                            if (label) {
+                                label += ': ';
+                            }
+                            const value = parseFloat(context.parsed.y);
+                            label += '$' + value.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0});
+                            return label;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: false,
+                    ticks: {
+                        color: '#a0aec0',
+                        callback: function(value) {
+                            return '$' + (value / 1000).toFixed(0) + 'k';
+                        }
+                    },
+                    grid: {
+                        color: '#4a5568',
+                        drawBorder: false
+                    }
+                },
+                x: {
+                    ticks: {
+                        color: '#a0aec0',
+                        font: {
+                            size: 10
+                        },
+                        maxRotation: 45,
+                        minRotation: 45
+                    },
+                    grid: {
+                        color: '#4a5568',
+                        drawBorder: false
                     }
                 }
             }
