@@ -1,8 +1,13 @@
 // 批量IRR计算脚本 - 基于 solar-calculator-static 的计算逻辑
 // 读取 Quote/output/jisuan 中的CSV，计算所有州/领地的IRR等关键指标
+// 支持两种模式：考虑补贴（默认）和不考虑补贴
 
 const fs = require('fs');
 const path = require('path');
+
+// 从命令行参数获取模式
+const args = process.argv.slice(2);
+const noSubsidy = args.includes('--no-subsidy');
 
 // ========== 从 data.js 复制的常量 ==========
 const AUSTRALIAN_STATES_CONSUMPTION = {
@@ -323,6 +328,12 @@ function parseCSV(csvContent) {
 
 function batchCalculateIRR() {
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+    const mode = noSubsidy ? '不考虑补贴' : '考虑补贴';
+    
+    console.log(`\n========== IRR批量计算 ==========`);
+    console.log(`计算模式: ${mode}`);
+    console.log(`说明: ${noSubsidy ? '使用含税报价AUD作为投资成本' : '使用最终报价AUD作为投资成本（扣除补贴后）'}`);
+    console.log(`================================\n`);
     
     // 读取CSV文件
     const jisuanDir = path.join(__dirname, 'output', 'jisuan');
@@ -369,7 +380,10 @@ function batchCalculateIRR() {
     for (const row of newSystemData) {
         const systemPower = parseFloat(row['光伏容量kW']);
         const batteryCapacity = parseFloat(row['电池标称容量kWh']);
-        const investmentCost = parseFloat(row['最终报价AUD']);
+        // 根据模式选择投资成本：不考虑补贴时使用含税报价，否则使用最终报价
+        const investmentCost = noSubsidy ? 
+            parseFloat(row['含税报价AUD']) : 
+            parseFloat(row['最终报价AUD']);
         const batteryReplacementCost = parseFloat(row['电池报价AUD']);
         
         if (systemPower === 0 || isNaN(systemPower)) continue;
@@ -419,7 +433,10 @@ function batchCalculateIRR() {
     for (const row of expansionData) {
         const systemPower = parseFloat(row['光伏容量kW']);
         const batteryCapacity = parseFloat(row['电池标称容量kWh']);
-        const investmentCost = parseFloat(row['最终报价AUD']);
+        // 根据模式选择投资成本：不考虑补贴时使用含税报价，否则使用最终报价
+        const investmentCost = noSubsidy ? 
+            parseFloat(row['含税报价AUD']) : 
+            parseFloat(row['最终报价AUD']);
         const batteryReplacementCost = parseFloat(row['电池报价AUD']);
         
         if (systemPower === 0 || isNaN(systemPower)) continue;
@@ -473,12 +490,15 @@ function batchCalculateIRR() {
         fs.mkdirSync(outputDir, { recursive: true });
     }
     
-    const outputFile = path.join(outputDir, `IRR分析_${timestamp}.csv`);
+    // 根据模式生成不同的文件名
+    const filePrefix = noSubsidy ? 'IRR分析_不考虑补贴' : 'IRR分析';
+    const outputFile = path.join(outputDir, `${filePrefix}_${timestamp}.csv`);
     const csv = convertToCSV(results);
     fs.writeFileSync(outputFile, '\ufeff' + csv, 'utf8');
     
     console.log(`\nIRR分析数据已保存: ${outputFile}`);
     console.log(`文件大小: ${(fs.statSync(outputFile).size / 1024).toFixed(2)} KB`);
+    console.log(`\n计算模式: ${mode}`);
 }
 
 function convertToCSV(data) {
