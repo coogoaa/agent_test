@@ -1,13 +1,13 @@
 // Australian States Consumption Data
 const AUSTRALIAN_STATES_CONSUMPTION = {
-    TAS: 8619,
-    NT: 8500,
-    ACT: 6407,
-    SA: 4950,
-    NSW: 5662,
-    QLD: 5650,
-    WA: 5198,
-    VIC: 4615
+    TAS: 10148,
+    NT: 10008,
+    ACT: 8632,
+    SA: 7129,
+    NSW: 7778,
+    QLD: 7270,
+    WA: 7634,
+    VIC: 6778
 };
 
 // Monthly Consumption Percentages by State
