@@ -1,0 +1,189 @@
+{
+  "generated_at": "2025-11-26T16:56:53.417204",
+  "overview": {
+    "total_companies": 170,
+    "total_reviews": 32420,
+    "battery_adoption_rate": 0.12375077112893276
+  },
+  "system_sizes": {
+    "average": 7.616547124702237,
+    "median": 6.6,
+    "distribution": {
+      "6.6": 7975,
+      "6.0": 5252,
+      "10.0": 4221,
+      "5.0": 3960,
+      "13.0": 2728,
+      "8.0": 1995,
+      "7.0": 1009,
+      "3.0": 977,
+      "9.0": 968,
+      "4.0": 851,
+      "15.0": 546,
+      "20.0": 418,
+      "1.5": 273,
+      "2.0": 262,
+      "30.0": 147,
+      "3.3": 141,
+      "1.0": 65
+    }
+  },
+  "pricing": {
+    "average": 9695.716956618184,
+    "median": 8000.0,
+    "by_size": {
+      "4.0": {
+        "average": 6415.167865707434,
+        "count": 834,
+        "battery_rate": 0.043478260869565216,
+        "top_panel": "Jinko Solar",
+        "top_inverter": "Fronius"
+      },
+      "5.0": {
+        "average": 6968.701700154559,
+        "count": 3882,
+        "battery_rate": 0.03535353535353535,
+        "top_panel": "Jinko Solar",
+        "top_inverter": "Fronius"
+      },
+      "6.6": {
+        "average": 7301.462170201759,
+        "count": 7732,
+        "battery_rate": 0.06344827586206897,
+        "top_panel": "Jinko Solar",
+        "top_inverter": "Fronius"
+      },
+      "8.0": {
+        "average": 10495.467306694343,
+        "count": 1927,
+        "battery_rate": 0.14486215538847116,
+        "top_panel": "Jinko Solar",
+        "top_inverter": "Fronius"
+      },
+      "10.0": {
+        "average": 12909.05397865114,
+        "count": 4122,
+        "battery_rate": 0.18194740582800284,
+        "top_panel": "Jinko Solar",
+        "top_inverter": "Fronius"
+      },
+      "15.0": {
+        "average": 19396.66826923077,
+        "count": 520,
+        "battery_rate": 0.4908424908424908,
+        "top_panel": "Jinko Solar",
+        "top_inverter": "Fronius"
+      },
+      "20.0": {
+        "average": 20206.467661691542,
+        "count": 402,
+        "battery_rate": 0.44258373205741625,
+        "top_panel": "Jinko Solar",
+        "top_inverter": "Fronius"
+      }
+    }
+  },
+  "brands": {
+    "panels": {
+      "Jinko Solar": 4303,
+      "LONGi Solar": 2562,
+      "Canadian Solar Inc": 2320,
+      "Trina": 2235,
+      "SunPower": 1134,
+      "REC": 914,
+      "JA Solar": 761,
+      "Seraphim": 745,
+      "Qcells": 730,
+      "LG": 538,
+      "Aiko Solar": 456,
+      "Hyundai Solar": 449,
+      "Risen": 429,
+      "I don't know": 352,
+      "Suntech": 342
+    },
+    "inverters": {
+      "Fronius": 7567,
+      "Sungrow": 4235,
+      "Goodwe": 2562,
+      "SolarEdge": 1539,
+      "Enphase": 1230,
+      "Huawei": 1078,
+      "SMA": 717,
+      "GE": 642,
+      "Sigenergy": 519,
+      "Solaredge": 472,
+      "Growatt": 199,
+      "I don't know": 173,
+      "Solis": 121,
+      "SolaX Power": 117,
+      "Fimer": 98
+    },
+    "batteries": {
+      "Sungrow": 858,
+      "Tesla Powerwall 2": 724,
+      "Sigenergy": 716,
+      "BYD": 249,
+      "Alpha-ESS": 237,
+      "Tesla Powerwall 3": 222,
+      "SolarEdge": 101,
+      "I don't know": 82,
+      "Anker Solix": 56,
+      "Sonnen": 52,
+      "Enphase Energy": 51,
+      "Goodwe": 47,
+      "LG Chem": 46,
+      "Huawei": 44,
+      "ESY Sunhome": 40
+    }
+  },
+  "by_state": {
+    "NSW": {
+      "count": 8990,
+      "avg_size": 8.00726442033116,
+      "avg_cost": 11212.448248316787,
+      "battery_rate": 0.13314794215795328
+    },
+    "WA": {
+      "count": 3359,
+      "avg_size": 6.469047619047465,
+      "avg_cost": 6757.825637910085,
+      "battery_rate": 0.13158678178029176
+    },
+    "SA": {
+      "count": 4950,
+      "avg_size": 7.701396590675545,
+      "avg_cost": 9300.51339653751,
+      "battery_rate": 0.13474747474747475
+    },
+    "VIC": {
+      "count": 6076,
+      "avg_size": 7.250967085171134,
+      "avg_cost": 8998.487135209809,
+      "battery_rate": 0.1499341672152732
+    },
+    "QLD": {
+      "count": 7600,
+      "avg_size": 7.858421750662924,
+      "avg_cost": 9710.143595596133,
+      "battery_rate": 0.07921052631578947
+    },
+    "ACT": {
+      "count": 844,
+      "avg_size": 8.107125307125317,
+      "avg_cost": 11658.181818181818,
+      "battery_rate": 0.16350710900473933
+    },
+    "TAS": {
+      "count": 539,
+      "avg_size": 7.497014925373119,
+      "avg_cost": 10479.288825757576,
+      "battery_rate": 0.0686456400742115
+    },
+    "NT": {
+      "count": 61,
+      "avg_size": 7.129508196721312,
+      "avg_cost": 13214.912280701754,
+      "battery_rate": 0.29508196721311475
+    }
+  }
+}

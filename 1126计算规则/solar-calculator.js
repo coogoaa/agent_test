@@ -262,7 +262,11 @@ function step3_selectInverter(batteryKwh, peakLoadKw) {
 
 // 第四步：光伏反推
 function step4_calculateTargetPV(inverterKw, batteryKwh, panelWatts) {
-    const dcAcRatio = batteryKwh < 7.0 ? 1.5 : 1.8;
+    // 从配置读取容配比
+    const smallRatio = parseFloat(document.getElementById('config_battery_small_ratio').value) || 1.5;
+    const largeRatio = parseFloat(document.getElementById('config_battery_large_ratio').value) || 1.8;
+    
+    const dcAcRatio = batteryKwh < 7.0 ? smallRatio : largeRatio;
     const targetDcKw = inverterKw * dcAcRatio;
     const targetPanelCount = Math.ceil((targetDcKw * 1000) / panelWatts);
     
@@ -462,15 +466,15 @@ document.getElementById('calcForm').addEventListener('submit', function(e) {
         }
     }
     
-    // 硬件参数
+    // 从配置中读取硬件参数
     const panelSpecs = {
-        watts: parseFloat(formData.get('panel_watts')),
-        v_mp: parseFloat(formData.get('panel_v_mp'))
+        watts: parseFloat(document.getElementById('config_panel_watts').value),
+        v_mp: parseFloat(document.getElementById('config_panel_v_mp').value)
     };
     
     const inverterSpecs = {
-        v_start: parseFloat(formData.get('inverter_v_start')),
-        max_single_phase_kw: parseFloat(formData.get('max_single_phase_kw'))
+        v_start: parseFloat(document.getElementById('config_inverter_v_start').value),
+        max_single_phase_kw: parseFloat(document.getElementById('config_inverter_max_single_phase_kw').value)
     };
     
     // 计算三个方案
