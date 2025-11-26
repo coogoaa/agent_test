@@ -13,9 +13,9 @@ const STATE_DATA = {
 };
 
 const STRATEGY_CONFIG = {
-    A: { name: "经济型", battery_ratio: 0.4 },
+    A: { name: "高端型", battery_ratio: 1.5 },
     B: { name: "平衡型", battery_ratio: 1.0 },
-    C: { name: "高端型", battery_ratio: 1.5 }
+    C: { name: "经济型", battery_ratio: 0.4 }
 };
 
 let roofPlaneCount = 1;
@@ -363,9 +363,57 @@ document.getElementById('calcForm').addEventListener('submit', function(e) {
     document.getElementById('strategyB').innerHTML = generateResultHTML(resultB, 'B');
     document.getElementById('strategyC').innerHTML = generateResultHTML(resultC, 'C');
     
+    // 成本配置（从配置TAB或使用默认值）
+    const costConfig = {
+        state: userInput.state,
+        postcode: userInput.postcode,
+        panel_price_per_kw: parseFloat(document.getElementById('config_panel_price_per_kw')?.value || 540),
+        inverter_price_per_kw: parseFloat(document.getElementById('config_inverter_price_per_kw')?.value || 280),
+        battery_price_per_kwh: parseFloat(document.getElementById('config_battery_price_per_kwh')?.value || 865),
+        gst_rate: parseFloat(document.getElementById('config_gst_rate')?.value || 0.1),
+        deeming_period: parseFloat(document.getElementById('config_deeming_period')?.value || 6),
+        pv_stc_price: parseFloat(document.getElementById('config_pv_stc_price')?.value || 39),
+        battery_stc_factor: parseFloat(document.getElementById('config_battery_stc_factor')?.value || 9.3),
+        battery_stc_price: parseFloat(document.getElementById('config_battery_stc_price')?.value || 39),
+        vic_rebate: parseFloat(document.getElementById('config_vic_rebate')?.value || 1400),
+        vic_loan: parseFloat(document.getElementById('config_vic_loan')?.value || 1400),
+        nsw_prc_price: parseFloat(document.getElementById('config_nsw_prc_price')?.value || 1.65),
+        network_loss_factor: parseFloat(document.getElementById('config_network_loss_factor')?.value || 1.05),
+        enable_vic_rebate: false,
+        enable_nsw_vpp: false
+    };
+    
+    // 计算成本和补贴
+    const costA = calculateCostAndSubsidy(resultA, costConfig);
+    const costB = calculateCostAndSubsidy(resultB, costConfig);
+    const costC = calculateCostAndSubsidy(resultC, costConfig);
+    
+    // 显示成本计算结果
+    let costHTML = '<div class="strategy-tabs">';
+    costHTML += '<button class="strategy-tab active" onclick="switchCostStrategy(\'A\')">方案A - 高端型</button>';
+    costHTML += '<button class="strategy-tab" onclick="switchCostStrategy(\'B\')">方案B - 平衡型</button>';
+    costHTML += '<button class="strategy-tab" onclick="switchCostStrategy(\'C\')">方案C - 经济型</button>';
+    costHTML += '</div>';
+    costHTML += '<div id="costStrategyA" class="strategy-content active">' + generateCostResultHTML(costA, '方案A - 高端型') + '</div>';
+    costHTML += '<div id="costStrategyB" class="strategy-content">' + generateCostResultHTML(costB, '方案B - 平衡型') + '</div>';
+    costHTML += '<div id="costStrategyC" class="strategy-content">' + generateCostResultHTML(costC, '方案C - 经济型') + '</div>';
+    
+    document.getElementById('costResults').innerHTML = costHTML;
+    document.getElementById('costResults').style.display = 'block';
+    document.getElementById('costResultsPlaceholder').style.display = 'none';
+    
     document.getElementById('results').style.display = 'block';
     document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
 });
+
+// 成本计算TAB中的策略切换
+function switchCostStrategy(strategy) {
+    document.querySelectorAll('#costResults .strategy-tab').forEach(tab => tab.classList.remove('active'));
+    document.querySelectorAll('#costResults .strategy-content').forEach(content => content.classList.remove('active'));
+    
+    event.target.classList.add('active');
+    document.getElementById('costStrategy' + strategy).classList.add('active');
+}
 
 // ==================== 配置TAB功能 ====================
 
@@ -717,3 +765,211 @@ function resetConfigDefaults() {
         location.reload();
     }
 }
+
+// ==================== 成本和补贴计算 ====================
+
+// Postcode到Zone Rating的映射（澳洲STC区域）
+const POSTCODE_ZONE_RATING = {
+    // Zone 1 (1.622)
+    'Zone1': 1.622,
+    // Zone 2 (1.536)
+    'Zone2': 1.536,
+    // Zone 3 (1.382) - 大部分NSW, VIC, SA, TAS
+    'Zone3': 1.382,
+    // Zone 4 (1.185) - 大部分QLD, WA, NT
+    'Zone4': 1.185
+};
+
+// 根据州和邮编获取Zone Rating
+function getZoneRatingByPostcode(state, postcode) {
+    // 简化映射规则
+    if (state === 'QLD' || state === 'WA' || state === 'NT') {
+        return POSTCODE_ZONE_RATING.Zone4; // 1.185
+    } else if (state === 'NSW' || state === 'VIC' || state === 'SA' || state === 'TAS' || state === 'ACT') {
+        return POSTCODE_ZONE_RATING.Zone3; // 1.382
+    }
+    return POSTCODE_ZONE_RATING.Zone3; // 默认
+}
+
+// 成本和补贴计算
+function calculateCostAndSubsidy(systemResult, config) {
+    const result = {
+        costs: {},
+        subsidies: {},
+        steps: []
+    };
+    
+    const state = config.state || 'NSW';
+    const postcode = config.postcode || '2000';
+    const zoneRating = getZoneRatingByPostcode(state, postcode);
+    
+    // 成本计算
+    result.steps.push({
+        title: '💰 成本计算',
+        details: []
+    });
+    
+    const panelPrice = systemResult.step5.finalSystemKw * (config.panel_price_per_kw || 540);
+    result.costs.panel = panelPrice;
+    result.steps[0].details.push(
+        `<strong>面板成本：</strong>`,
+        `  面板容量 = ${systemResult.step5.finalSystemKw.toFixed(2)} kW`,
+        `  单价 = ${config.panel_price_per_kw || 540} AUD/kW`,
+        `  面板报价 = ${systemResult.step5.finalSystemKw.toFixed(2)} × ${config.panel_price_per_kw || 540} = ${panelPrice.toFixed(2)} AUD`
+    );
+    
+    const inverterPrice = systemResult.step3.selectedInverterKw * (config.inverter_price_per_kw || 280);
+    result.costs.inverter = inverterPrice;
+    result.steps[0].details.push(
+        `<strong>逆变器成本：</strong>`,
+        `  逆变器功率 = ${systemResult.step3.selectedInverterKw} kW`,
+        `  单价 = ${config.inverter_price_per_kw || 280} AUD/kW`,
+        `  逆变器报价 = ${systemResult.step3.selectedInverterKw} × ${config.inverter_price_per_kw || 280} = ${inverterPrice.toFixed(2)} AUD`
+    );
+    
+    const batteryPrice = systemResult.step2.selectedBatteryKwh * (config.battery_price_per_kwh || 865);
+    result.costs.battery = batteryPrice;
+    result.steps[0].details.push(
+        `<strong>电池成本：</strong>`,
+        `  电池容量 = ${systemResult.step2.selectedBatteryKwh} kWh`,
+        `  单价 = ${config.battery_price_per_kwh || 865} AUD/kWh`,
+        `  电池报价 = ${systemResult.step2.selectedBatteryKwh} × ${config.battery_price_per_kwh || 865} = ${batteryPrice.toFixed(2)} AUD`
+    );
+    
+    const preTaxTotal = panelPrice + inverterPrice + batteryPrice;
+    result.costs.preTaxTotal = preTaxTotal;
+    result.steps[0].details.push(
+        `<strong>税前整体报价 = ${panelPrice.toFixed(2)} + ${inverterPrice.toFixed(2)} + ${batteryPrice.toFixed(2)} = ${preTaxTotal.toFixed(2)} AUD</strong>`
+    );
+    
+    const gstRate = config.gst_rate || 0.1;
+    const gst = preTaxTotal * gstRate;
+    const systemTotal = preTaxTotal + gst;
+    result.costs.gst = gst;
+    result.costs.systemTotal = systemTotal;
+    result.steps[0].details.push(
+        `<strong>GST计算：</strong>`,
+        `  GST = ${preTaxTotal.toFixed(2)} × ${gstRate} = ${gst.toFixed(2)} AUD`,
+        `  <strong>含税报价 = ${preTaxTotal.toFixed(2)} + ${gst.toFixed(2)} = ${systemTotal.toFixed(2)} AUD</strong>`
+    );
+    
+    // 补贴计算
+    result.steps.push({
+        title: '�� 补贴计算',
+        details: []
+    });
+    
+    result.steps[1].details.push(
+        `<strong>Zone Rating查询：</strong>`,
+        `  州: ${state}`,
+        `  邮编: ${postcode}`,
+        `  Zone Rating = ${zoneRating}`
+    );
+    
+    let totalSubsidy = 0;
+    
+    // STC PV Rebate
+    const deemingPeriod = config.deeming_period || 6;
+    const pvStcPrice = config.pv_stc_price || 39;
+    const pvStcQty = systemResult.step5.finalSystemKw * zoneRating * deemingPeriod;
+    const pvStcRebate = pvStcQty * pvStcPrice;
+    result.subsidies.pvStc = pvStcRebate;
+    totalSubsidy += pvStcRebate;
+    result.steps[1].details.push(
+        `<strong>STC PV Rebate：</strong>`,
+        `  PV_STC数量 = ${systemResult.step5.finalSystemKw.toFixed(2)} kW × ${zoneRating} × ${deemingPeriod} 年 = ${pvStcQty.toFixed(2)}`,
+        `  STC PV Rebate = ${pvStcQty.toFixed(2)} × ${pvStcPrice} AUD = ${pvStcRebate.toFixed(2)} AUD`
+    );
+    
+    // STC Battery Rebate (假设可用容量=标称容量×0.9)
+    const usableBatteryCapacity = systemResult.step2.selectedBatteryKwh * 0.9;
+    const batteryStcFactor = config.battery_stc_factor || 9.3;
+    const batteryStcPrice = config.battery_stc_price || 39;
+    const batteryStcQty = Math.floor(usableBatteryCapacity * batteryStcFactor);
+    const batteryStcRebate = batteryStcQty * batteryStcPrice;
+    result.subsidies.batteryStc = batteryStcRebate;
+    totalSubsidy += batteryStcRebate;
+    result.steps[1].details.push(
+        `<strong>STC Battery Rebate：</strong>`,
+        `  可用电池容量 = ${systemResult.step2.selectedBatteryKwh} × 0.9 = ${usableBatteryCapacity.toFixed(2)} kWh`,
+        `  Battery STC数量 = floor(${usableBatteryCapacity.toFixed(2)} × ${batteryStcFactor}) = ${batteryStcQty}`,
+        `  STC Battery Rebate = ${batteryStcQty} × ${batteryStcPrice} AUD = ${batteryStcRebate.toFixed(2)} AUD`
+    );
+    
+    // VIC州补贴（可选）
+    if (state === 'VIC' && config.enable_vic_rebate) {
+        const vicRebate = config.vic_rebate || 1400;
+        const vicLoan = config.vic_loan || 1400;
+        result.subsidies.vicRebate = vicRebate;
+        result.subsidies.vicLoan = vicLoan;
+        totalSubsidy += vicRebate + vicLoan;
+        result.steps[1].details.push(
+            `<strong>VIC州补贴：</strong>`,
+            `  Solar VIC Rebate = ${vicRebate.toFixed(2)} AUD`,
+            `  Solar VIC Interest Free Loan = ${vicLoan.toFixed(2)} AUD`
+        );
+    }
+    
+    // NSW VPP补贴（可选）
+    if (state === 'NSW' && config.enable_nsw_vpp && usableBatteryCapacity >= 2 && usableBatteryCapacity <= 28) {
+        const demandResponse = usableBatteryCapacity * 0.0734;
+        const peakResponse = demandResponse * 0.8;
+        const peakReduction = peakResponse * 6 * 6;
+        const networkLossFactor = config.network_loss_factor || 1.05;
+        const prcQty = Math.floor(peakReduction * networkLossFactor * 10);
+        const nswPrcPrice = config.nsw_prc_price || 1.65;
+        const nswRebate = prcQty * nswPrcPrice;
+        result.subsidies.nswVpp = nswRebate;
+        totalSubsidy += nswRebate;
+        result.steps[1].details.push(
+            `<strong>NSW VPP Rebate：</strong>`,
+            `  需求响应分量 = ${usableBatteryCapacity.toFixed(2)} × 0.0734 = ${demandResponse.toFixed(4)} kW`,
+            `  峰值需求响应能力 = ${demandResponse.toFixed(4)} × 0.8 = ${peakResponse.toFixed(4)} kW`,
+            `  峰值减排容量 = ${peakResponse.toFixed(4)} × 6小时 × 6年 = ${peakReduction.toFixed(4)} kWh`,
+            `  PRC数量 = floor(${peakReduction.toFixed(4)} × ${networkLossFactor} × 10) = ${prcQty}`,
+            `  NSW VPP Rebate = ${prcQty} × ${nswPrcPrice} AUD = ${nswRebate.toFixed(2)} AUD`
+        );
+    }
+    
+    result.subsidies.total = totalSubsidy;
+    result.steps[1].details.push(
+        `<strong>补贴总计 = ${totalSubsidy.toFixed(2)} AUD</strong>`
+    );
+    
+    // 最终报价
+    result.steps.push({
+        title: '💵 最终报价',
+        details: []
+    });
+    
+    const finalPrice = systemTotal - totalSubsidy;
+    result.finalPrice = finalPrice;
+    result.steps[2].details.push(
+        `<strong>最终报价 = 含税报价 - 补贴总计</strong>`,
+        `<strong>最终报价 = ${systemTotal.toFixed(2)} - ${totalSubsidy.toFixed(2)} = ${finalPrice.toFixed(2)} AUD</strong>`
+    );
+    
+    return result;
+}
+
+// 生成成本计算结果HTML
+function generateCostResultHTML(costResult, strategy) {
+    let html = `<h2>${strategy} 成本与补贴详细计算</h2>`;
+    
+    costResult.steps.forEach(step => {
+        html += `<div class="calc-step">`;
+        html += `<div class="calc-step-title">${step.title}</div>`;
+        html += `<div class="calc-detail">`;
+        step.details.forEach(detail => {
+            html += `${detail}<br>`;
+        });
+        html += `</div></div>`;
+    });
+    
+    html += `<div class="final-result">`;
+    html += `最终报价：${costResult.finalPrice.toFixed(2)} AUD`;
+    html += `</div>`;
+    
+    return html;
+}
+

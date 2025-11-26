@@ -67,6 +67,7 @@
 
             <div class="main-tabs">
                 <button class="main-tab active" onclick="switchMainTab('calculator')">🔍 计算器</button>
+                <button class="main-tab" onclick="switchMainTab('cost')">💰 成本计算</button>
                 <button class="main-tab" onclick="switchMainTab('config')">⚙️ 参数配置</button>
             </div>
 
@@ -149,6 +150,15 @@
 
                 <button type="submit">🔍 开始计算</button>
             </form>
+            </div>
+
+            <!-- 成本计算TAB -->
+            <div id="cost" class="main-tab-content">
+                <div id="costResultsPlaceholder" style="text-align: center; padding: 40px; color: #999;">
+                    <p style="font-size: 18px;">💡 请先在"计算器"TAB中完成计算</p>
+                    <p style="font-size: 14px; margin-top: 10px;">计算完成后，这里将展示详细的成本和补贴计算过程</p>
+                </div>
+                <div id="costResults" style="display: none;"></div>
             </div>
 
             <!-- 参数配置TAB -->
@@ -294,14 +304,14 @@
                     <div class="strategy-grid">
                         <div class="form-group">
                             <label>策略A名称</label>
-                            <input type="text" id="strategy_a_name" value="经济型">
+                            <input type="text" id="strategy_a_name" value="高端型">
                         </div>
                         <div class="form-group">
                             <label>电池容量系数 (Battery Ratio)</label>
-                            <input type="number" step="0.1" id="strategy_a_ratio" value="0.4">
+                            <input type="number" step="0.1" id="strategy_a_ratio" value="1.5">
                         </div>
                         <div style="color: #666; font-size: 13px; padding-top: 20px;">
-                            电池容量 = 夜间用电 × 0.4
+                            电池容量 = 夜间用电 × 1.5
                         </div>
                     </div>
                 </div>
@@ -326,15 +336,88 @@
                     <div class="strategy-grid">
                         <div class="form-group">
                             <label>策略C名称</label>
-                            <input type="text" id="strategy_c_name" value="高端型">
+                            <input type="text" id="strategy_c_name" value="经济型">
                         </div>
                         <div class="form-group">
                             <label>电池容量系数 (Battery Ratio)</label>
-                            <input type="number" step="0.1" id="strategy_c_ratio" value="1.5">
+                            <input type="number" step="0.1" id="strategy_c_ratio" value="0.4">
                         </div>
                         <div style="color: #666; font-size: 13px; padding-top: 20px;">
-                            电池容量 = 夜间用电 × 1.5
+                            电池容量 = 夜间用电 × 0.4
                         </div>
+                    </div>
+                </div>
+
+                <h2 style="margin-top: 20px;">6️⃣ 成本参数配置</h2>
+                <div class="info-box">
+                    <strong>成本计算规则：</strong><br>
+                    • 税前整体报价 = 面板系统容量 × 每kW面板报价 + 逆变器功率 × 每kW逆变器报价 + 电池标称容量 × 每kWh电池报价<br>
+                    • 含税报价 = 税前报价 × (1 + GST税率)
+                </div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>每kW面板报价 (AUD/kW)</label>
+                        <input type="number" step="1" id="config_panel_price_per_kw" value="540" min="300" max="1200">
+                    </div>
+                    <div class="form-group">
+                        <label>每kW逆变器报价 (AUD/kW)</label>
+                        <input type="number" step="1" id="config_inverter_price_per_kw" value="280" min="200" max="800">
+                    </div>
+                    <div class="form-group">
+                        <label>每kWh电池报价-标称容量 (AUD/kWh)</label>
+                        <input type="number" step="1" id="config_battery_price_per_kwh" value="865" min="500" max="1500">
+                    </div>
+                    <div class="form-group">
+                        <label>GST税率</label>
+                        <input type="number" step="0.01" id="config_gst_rate" value="0.1">
+                    </div>
+                </div>
+
+                <h2 style="margin-top: 20px;">7️⃣ 补贴参数配置</h2>
+                <div class="info-box">
+                    <strong>补贴规则：</strong><br>
+                    • STC PV Rebate = 光伏容量 × Zone Rating × Deeming Period × STC单价<br>
+                    • STC Battery Rebate = floor(可用电池容量 × STC因子) × STC单价<br>
+                    • Zone Rating将根据邮编自动确定
+                </div>
+                
+                <h3>STC补贴参数</h3>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Deeming Period (年)</label>
+                        <input type="number" id="config_deeming_period" value="6">
+                    </div>
+                    <div class="form-group">
+                        <label>PV STC单价 (AUD)</label>
+                        <input type="number" step="0.01" id="config_pv_stc_price" value="39">
+                    </div>
+                    <div class="form-group">
+                        <label>电池每kWh STC因子</label>
+                        <input type="number" step="0.1" id="config_battery_stc_factor" value="9.3">
+                    </div>
+                    <div class="form-group">
+                        <label>Battery STC单价 (AUD)</label>
+                        <input type="number" step="0.01" id="config_battery_stc_price" value="39">
+                    </div>
+                </div>
+
+                <h3>州补贴参数</h3>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>VIC州补贴 (AUD)</label>
+                        <input type="number" step="0.01" id="config_vic_rebate" value="1400">
+                    </div>
+                    <div class="form-group">
+                        <label>VIC州无息贷款 (AUD)</label>
+                        <input type="number" step="0.01" id="config_vic_loan" value="1400">
+                    </div>
+                    <div class="form-group">
+                        <label>NSW PRC单价 (AUD)</label>
+                        <input type="number" step="0.01" id="config_nsw_prc_price" value="1.65">
+                    </div>
+                    <div class="form-group">
+                        <label>网络损耗系数</label>
+                        <input type="number" step="0.001" id="config_network_loss_factor" value="1.05">
                     </div>
                 </div>
 
@@ -351,9 +434,9 @@
             <h1>📊 计算结果</h1>
             
             <div class="strategy-tabs">
-                <button class="strategy-tab active" onclick="switchStrategy('A')">方案A - 经济型</button>
+                <button class="strategy-tab active" onclick="switchStrategy('A')">方案A - 高端型</button>
                 <button class="strategy-tab" onclick="switchStrategy('B')">方案B - 平衡型</button>
-                <button class="strategy-tab" onclick="switchStrategy('C')">方案C - 高端型</button>
+                <button class="strategy-tab" onclick="switchStrategy('C')">方案C - 经济型</button>
             </div>
 
             <div id="strategyA" class="strategy-content active"></div>
