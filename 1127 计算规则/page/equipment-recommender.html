@@ -444,6 +444,12 @@ id_0	slope	aspect	nums
             gstRate: 0.1            // 10%
         };
 
+        // 电池硬件参数
+        const BATTERY_PARAMS = {
+            dod: 0.9,      // Depth of Discharge (放电深度)
+            rte: 0.95      // Round Trip Efficiency (往返效率)
+        };
+
         // 补贴参数配置
         const SUBSIDY_CONFIG = {
             stcPrice: 39,                    // AUD per STC
@@ -613,16 +619,17 @@ id_0	slope	aspect	nums
         }
 
         // 补贴计算函数
-        function calculateSubsidy(pvKw, batteryKwh, state) {
+        function calculateSubsidy(pvKw, batteryNominalKwh, state) {
             const deemingPeriod = SUBSIDY_CONFIG.deemingEndYear - SUBSIDY_CONFIG.installYear + 1;
             const zoneRating = SUBSIDY_CONFIG.zoneRating[state];
             
             // PV STC
             const pvStc = Math.floor(pvKw * zoneRating * deemingPeriod);
             
-            // Battery STC (上限50kWh)
-            const usableBatteryKwh = Math.min(batteryKwh, SUBSIDY_CONFIG.batteryCapacityCap);
-            const batteryStc = Math.floor(usableBatteryKwh * SUBSIDY_CONFIG.batteryStcFactor);
+            // Battery STC - 使用可用容量 (标称容量 × DoD)
+            const usableCapacity = batteryNominalKwh * BATTERY_PARAMS.dod;
+            const cappedUsableCapacity = Math.min(usableCapacity, SUBSIDY_CONFIG.batteryCapacityCap);
+            const batteryStc = Math.floor(cappedUsableCapacity * SUBSIDY_CONFIG.batteryStcFactor);
             
             // 总补贴
             const totalStc = pvStc + batteryStc;
@@ -634,7 +641,9 @@ id_0	slope	aspect	nums
                 pvStc,
                 batteryStc,
                 totalStc,
-                subsidyAmount
+                subsidyAmount,
+                nominalCapacity: batteryNominalKwh,
+                usableCapacity: usableCapacity.toFixed(2)
             };
         }
 
@@ -979,6 +988,110 @@ id_0	slope	aspect	nums
             };
         }
 
+        // 成本推导生成函数
+        function generateCostDerivation(planA, planB, planC, state) {
+            const steps = [];
+            
+            // Step 1: 成本计算
+            steps.push({
+                step: 1,
+                title: '系统成本计算',
+                desc: '根据配置计算各组件成本 (PV: $540/kW, 逆变器: $280/kW, 电池: $865/kWh)',
+                details: []
+            });
+            
+            const plans = [
+                { name: 'A (高端型)', data: planA, color: 'purple' },
+                { name: 'B (平衡型)', data: planB, color: 'blue' },
+                { name: 'C (经济型)', data: planC, color: 'green' }
+            ];
+            
+            plans.forEach(({ name, data }) => {
+                const inverterKw = parseFloat(data.inv.replace('kW Hybrid', ''));
+                const cost = calculateCost(data.totalKw, inverterKw, data.battery.standard);
+                
+                steps[0].details.push({
+                    text: `方案${name}:`,
+                    highlight: true
+                });
+                steps[0].details.push({
+                    text: `  PV: ${data.totalKw.toFixed(2)}kW × $540 = $${cost.pvCost.toFixed(2)}`
+                });
+                steps[0].details.push({
+                    text: `  逆变器: ${inverterKw}kW × $280 = $${cost.inverterCost.toFixed(2)}`
+                });
+                steps[0].details.push({
+                    text: `  电池: ${data.battery.standard}kWh × $865 = $${cost.batteryCost.toFixed(2)}`
+                });
+                steps[0].details.push({
+                    text: `  税前总价: $${cost.preTaxTotal.toFixed(2)}`
+                });
+                steps[0].details.push({
+                    text: `  含税总价 (GST 10%): $${cost.taxTotal.toFixed(2)}`,
+                    success: true
+                });
+            });
+            
+            // Step 2: 补贴计算
+            const deemingPeriod = SUBSIDY_CONFIG.deemingEndYear - SUBSIDY_CONFIG.installYear + 1;
+            const zoneRating = SUBSIDY_CONFIG.zoneRating[state];
+            
+            steps.push({
+                step: 2,
+                title: 'STC补贴计算',
+                desc: `Deeming Period: ${deemingPeriod}年 (${SUBSIDY_CONFIG.installYear}-${SUBSIDY_CONFIG.deemingEndYear}), Zone Rating (${state}): ${zoneRating}, DoD: ${BATTERY_PARAMS.dod}`,
+                details: []
+            });
+            
+            plans.forEach(({ name, data }) => {
+                const subsidy = calculateSubsidy(data.totalKw, data.battery.standard, state);
+                
+                steps[1].details.push({
+                    text: `方案${name}:`,
+                    highlight: true
+                });
+                steps[1].details.push({
+                    text: `  PV STC = FLOOR(${data.totalKw.toFixed(2)} × ${zoneRating} × ${deemingPeriod}) = ${subsidy.pvStc} STC`
+                });
+                steps[1].details.push({
+                    text: `  电池可用容量 = ${data.battery.standard}kWh × ${BATTERY_PARAMS.dod} = ${subsidy.usableCapacity}kWh`
+                });
+                steps[1].details.push({
+                    text: `  Battery STC = FLOOR(${subsidy.usableCapacity} × ${SUBSIDY_CONFIG.batteryStcFactor}) = ${subsidy.batteryStc} STC`
+                });
+                steps[1].details.push({
+                    text: `  总STC = ${subsidy.pvStc} + ${subsidy.batteryStc} = ${subsidy.totalStc} STC`
+                });
+                steps[1].details.push({
+                    text: `  补贴金额 = ${subsidy.totalStc} × $${SUBSIDY_CONFIG.stcPrice} = $${subsidy.subsidyAmount.toFixed(2)}`,
+                    success: true
+                });
+            });
+            
+            // Step 3: 最终报价
+            steps.push({
+                step: 3,
+                title: '最终客户报价',
+                desc: '含税价 - STC补贴 = 客户实付',
+                details: []
+            });
+            
+            plans.forEach(({ name, data }) => {
+                const inverterKw = parseFloat(data.inv.replace('kW Hybrid', ''));
+                const cost = calculateCost(data.totalKw, inverterKw, data.battery.standard);
+                const subsidy = calculateSubsidy(data.totalKw, data.battery.standard, state);
+                const finalPrice = cost.taxTotal - subsidy.subsidyAmount;
+                
+                steps[2].details.push({
+                    text: `方案${name}: $${cost.taxTotal.toFixed(2)} - $${subsidy.subsidyAmount.toFixed(2)} = $${finalPrice.toFixed(2)}`,
+                    highlight: true,
+                    success: true
+                });
+            });
+            
+            return steps;
+        }
+
         function fillRoofWithLog(sortedPlanes, targetKw, panelWatt, logArray) {
             let neededPanels = Math.ceil((targetKw * 1000) / panelWatt);
             let currentPanels = 0;
@@ -1044,6 +1157,37 @@ id_0	slope	aspect	nums
                 icon.textContent = panel.classList.contains('hidden') ? '▶' : '▼';
             });
             
+            // 计算按钮点击事件
+            document.getElementById('calculateBtn').addEventListener('click', () => {
+                const houseId = document.getElementById('houseSelector').value;
+                if (!houseId) {
+                    alert('请先选择房屋ID');
+                    return;
+                }
+                updateUI();
+                // 滚动到结果区域
+                setTimeout(() => {
+                    document.getElementById('proposalsContainer').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100);
+            });
+            
+            // Tab切换事件
+            document.querySelectorAll('.derivation-tab').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // 移除所有active
+                    document.querySelectorAll('.derivation-tab').forEach(b => {
+                        b.classList.remove('active', 'border-green-500', 'text-green-600');
+                        b.classList.add('border-transparent', 'text-gray-500');
+                    });
+                    document.querySelectorAll('.derivation-content').forEach(c => c.classList.add('hidden'));
+                    
+                    // 激活当前tab
+                    btn.classList.add('active', 'border-green-500', 'text-green-600');
+                    btn.classList.remove('border-transparent', 'text-gray-500');
+                    document.getElementById(btn.dataset.tab).classList.remove('hidden');
+                });
+            });
+            
             updateStateInfo();
             
             if (selector.options.length > 1) {
@@ -1091,13 +1235,63 @@ id_0	slope	aspect	nums
             document.getElementById('houseSummary').textContent = 
                 `该房屋共 ${data.roofSummary.length} 个坡面，${validPlanes} 个可安装，物理上限 ${data.totalMaxPanels} 片 (${(data.totalMaxPanels * AppData.pv.pmax / 1000).toFixed(2)}kW)`;
 
-            // 2. 推导过程展示 (核心新增)
+            // 2. 光伏系统推导过程展示
             renderDerivationSteps(data.derivationLog);
 
-            // 3. 方案卡片
+            // 3. 成本计算推导过程展示
+            const costSteps = generateCostDerivation(
+                data.plans.A,
+                data.plans.B,
+                data.plans.C,
+                AppData.currentState
+            );
+            renderCostDerivationSteps(costSteps);
+
+            // 4. 方案卡片
             updateCard('propA', data.plans.A);
             updateCard('propB', data.plans.B);
             updateCard('propC', data.plans.C);
+        }
+
+        function renderCostDerivationSteps(steps) {
+            const container = document.getElementById('costDerivationSteps');
+            container.innerHTML = '';
+            
+            steps.forEach(step => {
+                const stepDiv = document.createElement('div');
+                stepDiv.className = 'border-l-4 border-green-400 pl-4 py-2';
+                
+                let html = `
+                    <div class="flex items-start mb-2">
+                        <span class="step-badge">${step.step}</span>
+                        <div>
+                            <h3 class="text-base font-bold text-gray-800">${step.title}</h3>
+                            <p class="text-sm text-gray-600 mt-1">${step.desc}</p>
+                        </div>
+                    </div>
+                    <div class="ml-8 space-y-1">
+                `;
+                
+                step.details.forEach(detail => {
+                    if (detail.highlight && detail.success) {
+                        html += `<div class="calculation-box bg-green-50 border-green-400">
+                            <span class="highlight-value text-green-800">${detail.text}</span>
+                        </div>`;
+                    } else if (detail.highlight) {
+                        html += `<div class="calculation-box bg-blue-50 border-blue-400">
+                            <span class="highlight-value">${detail.text}</span>
+                        </div>`;
+                    } else if (detail.success) {
+                        html += `<div class="text-sm text-green-700 py-1 font-semibold">${detail.text}</div>`;
+                    } else {
+                        html += `<div class="text-sm text-gray-700 py-1">${detail.text}</div>`;
+                    }
+                });
+                
+                html += `</div>`;
+                stepDiv.innerHTML = html;
+                container.appendChild(stepDiv);
+            });
         }
 
         function renderDerivationSteps(log) {
@@ -1164,6 +1358,20 @@ id_0	slope	aspect	nums
             if (r > 150) ratioSpan.className = "font-semibold text-orange-600";
             else if (r < 110) ratioSpan.className = "font-semibold text-gray-500";
             else ratioSpan.className = "font-semibold text-green-600";
+            
+            // 计算并更新价格信息
+            const state = AppData.currentState;
+            const inverterKw = parseFloat(planData.inv.replace('kW Hybrid', ''));
+            const cost = calculateCost(planData.totalKw, inverterKw, planData.battery.standard);
+            const subsidy = calculateSubsidy(planData.totalKw, planData.battery.standard, state);
+            const finalPrice = cost.taxTotal - subsidy.subsidyAmount;
+            
+            // 格式化价格（添加千位分隔符）
+            const formatPrice = (price) => '$' + Math.round(price).toLocaleString('en-US');
+            
+            document.getElementById(`${prefix}-finalPrice`).textContent = formatPrice(finalPrice);
+            document.getElementById(`${prefix}-taxPrice`).textContent = formatPrice(cost.taxTotal);
+            document.getElementById(`${prefix}-subsidy`).textContent = formatPrice(subsidy.subsidyAmount);
         }
 
         init();
