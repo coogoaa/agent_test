@@ -95,13 +95,13 @@ function addRoofPlane() {
     const planeId = String.fromCharCode(65 + roofPlaneCount); // A, B, C...
     
     const defaultValues = [
-        { azimuth: 0, tilt: 20, maxPanels: 10 },
-        { azimuth: 90, tilt: 20, maxPanels: 8 },
-        { azimuth: 180, tilt: 20, maxPanels: 6 },
-        { azimuth: 270, tilt: 20, maxPanels: 8 }
+        { azimuth: 0, tilt: 23, maxPanels: 10 },
+        { azimuth: 90, tilt: 23, maxPanels: 8 },
+        { azimuth: 180, tilt: 23, maxPanels: 6 },
+        { azimuth: 270, tilt: 23, maxPanels: 8 }
     ];
     
-    const defaults = defaultValues[roofPlaneCount] || { azimuth: 0, tilt: 20, maxPanels: 8 };
+    const defaults = defaultValues[roofPlaneCount] || { azimuth: 0, tilt: 23, maxPanels: 8 };
     const efficiency = estimateEfficiencyByAzimuth(defaults.azimuth);
     
     const planeCard = document.createElement('div');
@@ -125,7 +125,8 @@ function addRoofPlane() {
         </div>
         <div class="form-group">
             <label>最大面板数</label>
-            <input type="number" name="max_panels_${roofPlaneCount}" value="${defaults.maxPanels}" required>
+            <input type="number" name="max_panels_${roofPlaneCount}" value="${defaults.maxPanels}" 
+                   onchange="updateTotalMaxPanels()" required>
         </div>
         <div class="form-group">
             <label>效率评分 (0-1)</label>
@@ -136,12 +137,28 @@ function addRoofPlane() {
     
     container.appendChild(planeCard);
     roofPlaneCount++;
+    updateTotalMaxPanels();
 }
 
 function removeRoofPlane(index) {
     const plane = document.getElementById(`roof_plane_${index}`);
     if (plane) {
         plane.remove();
+        updateTotalMaxPanels();
+    }
+}
+
+function updateTotalMaxPanels() {
+    let total = 0;
+    const maxPanelInputs = document.querySelectorAll('input[name^="max_panels_"]');
+    maxPanelInputs.forEach(input => {
+        const value = parseInt(input.value) || 0;
+        total += value;
+    });
+    
+    const totalDisplay = document.getElementById('totalMaxPanels');
+    if (totalDisplay) {
+        totalDisplay.textContent = total;
     }
 }
 
@@ -678,6 +695,8 @@ function collectAllConfig() {
                 i_mp: parseFloat(document.getElementById('config_panel_i_mp').value)
             },
             inverter: {
+                standard_powers: document.getElementById('config_inverter_standard_powers').value.split(',').map(s => parseFloat(s.trim())),
+                match_standard: document.getElementById('config_inverter_match_standard').checked,
                 v_start: parseFloat(document.getElementById('config_inverter_v_start').value),
                 v_max: parseFloat(document.getElementById('config_inverter_v_max').value),
                 max_single_phase_kw: parseFloat(document.getElementById('config_inverter_max_single_phase_kw').value),
@@ -685,9 +704,12 @@ function collectAllConfig() {
             },
             battery: {
                 standard_capacities: document.getElementById('config_battery_standard_capacities').value.split(',').map(s => parseFloat(s.trim())),
+                match_standard: document.getElementById('config_battery_match_standard').checked,
                 dod: parseFloat(document.getElementById('config_battery_dod').value),
                 rte: parseFloat(document.getElementById('config_battery_rte').value),
-                c_rate: parseFloat(document.getElementById('config_battery_c_rate').value)
+                c_rate: parseFloat(document.getElementById('config_battery_c_rate').value),
+                small_ratio: parseFloat(document.getElementById('config_battery_small_ratio').value),
+                large_ratio: parseFloat(document.getElementById('config_battery_large_ratio').value)
             }
         },
         strategies: {
@@ -755,10 +777,27 @@ function applyConfig(config) {
             document.getElementById('config_panel_i_mp').value = config.hardware.panel.i_mp;
         }
         if (config.hardware.inverter) {
+            if (config.hardware.inverter.standard_powers) {
+                document.getElementById('config_inverter_standard_powers').value = config.hardware.inverter.standard_powers.join(', ');
+            }
+            if (config.hardware.inverter.match_standard !== undefined) {
+                document.getElementById('config_inverter_match_standard').checked = config.hardware.inverter.match_standard;
+            }
             document.getElementById('config_inverter_v_start').value = config.hardware.inverter.v_start;
             document.getElementById('config_inverter_v_max').value = config.hardware.inverter.v_max;
             document.getElementById('config_inverter_max_single_phase_kw').value = config.hardware.inverter.max_single_phase_kw;
             document.getElementById('config_inverter_max_three_phase_kw').value = config.hardware.inverter.max_three_phase_kw;
+        }
+        if (config.hardware.battery) {
+            if (config.hardware.battery.match_standard !== undefined) {
+                document.getElementById('config_battery_match_standard').checked = config.hardware.battery.match_standard;
+            }
+            if (config.hardware.battery.small_ratio !== undefined) {
+                document.getElementById('config_battery_small_ratio').value = config.hardware.battery.small_ratio;
+            }
+            if (config.hardware.battery.large_ratio !== undefined) {
+                document.getElementById('config_battery_large_ratio').value = config.hardware.battery.large_ratio;
+            }
         }
     }
     
