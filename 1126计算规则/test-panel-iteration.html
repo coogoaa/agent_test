@@ -51,6 +51,32 @@
         <div id="results"></div>
     </div>
 
+    <!-- 隐藏的配置元素和必需的DOM元素，供计算逻辑使用 -->
+    <div style="display: none;">
+        <!-- 配置参数 -->
+        <input type="text" id="config_panel_watts" value="440">
+        <input type="text" id="config_panel_v_mp" value="32.0">
+        <input type="text" id="config_inverter_v_start" value="100.0">
+        <input type="text" id="config_inverter_max_single_phase_kw" value="10.0">
+        <input type="text" id="config_inverter_standard_powers" value="3.0, 5.0, 6.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0">
+        <input type="checkbox" id="config_inverter_match_standard">
+        <input type="text" id="config_battery_standard_capacities" value="5.0, 9.6, 13.5, 19.2">
+        <input type="checkbox" id="config_battery_match_standard">
+        <input type="text" id="config_battery_small_ratio" value="1.5">
+        <input type="text" id="config_battery_large_ratio" value="1.8">
+        
+        <!-- 必需的DOM元素 -->
+        <input type="text" id="userState" value="NSW">
+        <input type="text" id="userAnnualUsage" value="8000">
+        <input type="text" id="userPostcode" value="2000">
+        <div id="roofPlanesContainer"></div>
+        <form id="calcForm"></form>
+    </div>
+
+    <script>
+        // 只加载计算函数，不执行初始化代码
+        const SKIP_INIT = true;
+    </script>
     <script src="solar-calculator.js"></script>
     <script>
         let testResults = [];

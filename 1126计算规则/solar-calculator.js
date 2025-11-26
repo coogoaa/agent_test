@@ -76,17 +76,19 @@ function updateStateDefaults() {
 }
 
 // 监听年用电量的手动修改
-document.addEventListener('DOMContentLoaded', function() {
-    const annualInput = document.getElementById('userAnnualUsage');
-    if (annualInput) {
-        annualInput.addEventListener('input', function() {
-            this.dataset.userModified = 'true';
-        });
-    }
-    
-    // 初始化第一个屋顶坡面
-    addRoofPlane();
-});
+if (typeof SKIP_INIT === 'undefined' || !SKIP_INIT) {
+    document.addEventListener('DOMContentLoaded', function() {
+        const annualInput = document.getElementById('userAnnualUsage');
+        if (annualInput) {
+            annualInput.addEventListener('input', function() {
+                this.dataset.userModified = 'true';
+            });
+        }
+        
+        // 初始化第一个屋顶坡面
+        addRoofPlane();
+    });
+}
 
 let roofPlaneCount = 0;
 
@@ -466,7 +468,10 @@ function generateResultHTML(result, strategy) {
 
 
 // 表单提交处理
-document.getElementById('calcForm').addEventListener('submit', function(e) {
+if (typeof SKIP_INIT === 'undefined' || !SKIP_INIT) {
+    const calcForm = document.getElementById('calcForm');
+    if (calcForm) {
+        calcForm.addEventListener('submit', function(e) {
     e.preventDefault();
     
     const formData = new FormData(e.target);
@@ -554,7 +559,9 @@ document.getElementById('calcForm').addEventListener('submit', function(e) {
     
     document.getElementById('results').style.display = 'block';
     document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
-});
+        });
+    }
+}
 
 // 成本计算TAB中的策略切换
 function switchCostStrategy(strategy) {
