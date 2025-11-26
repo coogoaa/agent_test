@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>批量方案生成器</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="config-loader.js"></script>
 </head>
 <body class="bg-gray-50">
     <!-- 顶部导航 -->
@@ -94,13 +95,14 @@
     </div>
 
     <script>
-        // 从equipment-recommender.html复制核心计算逻辑
-        const PV_WATT = 440;
+        // ================= 加载配置 =================
+        const CONFIG = loadConfig();
+        console.log('📋 批量处理器配置:', CONFIG);
         
-        const STATE_CONSUMPTION = {
-            'TAS': 10148, 'NT': 10008, 'ACT': 8632, 'SA': 7129,
-            'NSW': 6729, 'QLD': 6633, 'VIC': 5883, 'WA': 5617
-        };
+        // 从配置读取参数
+        const PV_WATT = CONFIG.pv.pmax;
+        const STATE_CONSUMPTION = CONFIG.consumption;
+        const INVERTER_CONFIG = CONFIG.inverter;
         
         const HOURLY_PROFILE = {
             'TAS': [0.0238, 0.0221, 0.0205, 0.0193, 0.0189, 0.0205, 0.0267, 0.0357, 0.0402, 0.0398, 0.0390, 0.0398, 0.0414, 0.0422, 0.0426, 0.0430, 0.0471, 0.0586, 0.0614, 0.0586, 0.0520, 0.0455, 0.0373, 0.0295],
@@ -304,9 +306,9 @@
             
             // 方案A: 高端型 (满铺)
             const resultA = fillRoof(roofPlanes, 999);
-            let invA_size = Math.ceil(resultA.totalKw / 1.8);
-            let stdSizesA = phaseType === 'single' ? [5, 6, 8, 10] : [5, 8, 10, 15, 20, 30];
-            let invA = stdSizesA.find(s => s >= invA_size) || stdSizesA[0];
+            let invA_size = Math.ceil(resultA.totalKw / INVERTER_CONFIG.targetRatio);
+            let stdSizesA = phaseType === 'single' ? INVERTER_CONFIG.single.a : INVERTER_CONFIG.three.a;
+            let invA = stdSizesA.find(s => s >= invA_size) || stdSizesA[stdSizesA.length - 1];
             let ratioA = resultA.totalKw > 0 ? (resultA.totalKw / invA * 100).toFixed(0) : '0';
             
             // 检查容配比，必要时减板子
@@ -325,19 +327,17 @@
             const totalMaxKw = roofPlanes.reduce((sum, p) => sum + (p.max * PV_WATT / 1000), 0);
             const targetKwB = totalMaxKw > 15 ? 13.2 : 10.0;
             const resultB = fillRoof(roofPlanes, targetKwB);
-            const targetInvB = Math.ceil(resultB.totalKw / 1.8);
-            let invB = phaseType === 'single' 
-                ? ([5, 8].find(s => s >= targetInvB) || 5)
-                : ([5, 8, 10, 15].find(s => s >= targetInvB) || 5);
+            const targetInvB = Math.ceil(resultB.totalKw / INVERTER_CONFIG.targetRatio);
+            const optionsB = phaseType === 'single' ? INVERTER_CONFIG.single.b : INVERTER_CONFIG.three.b;
+            let invB = optionsB.find(s => s >= targetInvB) || optionsB[optionsB.length - 1];
             const ratioB = (resultB.totalKw / invB * 100).toFixed(0);
             const batteryB = calculateBatteryCapacity(resultB.totalKw, state, 'balanced');
             
             // 方案C: 经济型 (6.6kW)
             const resultC = fillRoof(roofPlanes, 6.6);
-            const targetInvC = Math.ceil(resultC.totalKw / 1.8);
-            let invC = phaseType === 'single'
-                ? ([5, 8].find(s => s >= targetInvC) || 5)
-                : ([5, 8, 10].find(s => s >= targetInvC) || 5);
+            const targetInvC = Math.ceil(resultC.totalKw / INVERTER_CONFIG.targetRatio);
+            const optionsC = phaseType === 'single' ? INVERTER_CONFIG.single.c : INVERTER_CONFIG.three.c;
+            let invC = optionsC.find(s => s >= targetInvC) || optionsC[0];
             const ratioC = (resultC.totalKw / invC * 100).toFixed(0);
             const batteryC = calculateBatteryCapacity(resultC.totalKw, state, 'economy');
             
