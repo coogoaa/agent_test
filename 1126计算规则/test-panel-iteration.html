@@ -260,21 +260,21 @@
                             <th>光伏kW</th>
                             <th>逆变器kW</th>
                             <th>电池kWh</th>
-                            <th>总成本</th>
-                            <th>不含电池</th>
-                            <th>kW单价</th>
+                            <th>最终报价(含税-联邦)</th>
+                            <th>去电池最终价(含税)</th>
+                            <th>kW单价(去电池,含税扣PV)</th>
                             <th>光伏kW</th>
                             <th>逆变器kW</th>
                             <th>电池kWh</th>
-                            <th>总成本</th>
-                            <th>不含电池</th>
-                            <th>kW单价</th>
+                            <th>最终报价(含税-联邦)</th>
+                            <th>去电池最终价(含税)</th>
+                            <th>kW单价(去电池,含税扣PV)</th>
                             <th>光伏kW</th>
                             <th>逆变器kW</th>
                             <th>电池kWh</th>
-                            <th>总成本</th>
-                            <th>不含电池</th>
-                            <th>kW单价</th>
+                            <th>最终报价(含税-联邦)</th>
+                            <th>去电池最终价(含税)</th>
+                            <th>kW单价(去电池,含税扣PV)</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -291,21 +291,21 @@
                         <td class="strategy-a">${a.step5.finalSystemKw.toFixed(2)}</td>
                         <td class="strategy-a">${a.step3.selectedInverterKw.toFixed(2)}</td>
                         <td class="strategy-a">${a.step2.selectedBatteryKwh.toFixed(2)}</td>
-                        <td class="strategy-a">$${a.cost.totalCost.toFixed(0)}</td>
-                        <td class="strategy-a">$${a.cost.costWithoutBattery.toFixed(0)}</td>
-                        <td class="strategy-a"><strong>$${a.cost.pricePerKwWithoutBattery.toFixed(0)}</strong></td>
+                        <td class="strategy-a">$${a.derived.finalFullInc.toFixed(0)}</td>
+                        <td class="strategy-a">$${a.derived.finalExBattInc.toFixed(0)}</td>
+                        <td class="strategy-a"><strong>$${a.derived.kwNoBattIncAfterPv.toFixed(0)}</strong></td>
                         <td class="strategy-b">${b.step5.finalSystemKw.toFixed(2)}</td>
                         <td class="strategy-b">${b.step3.selectedInverterKw.toFixed(2)}</td>
                         <td class="strategy-b">${b.step2.selectedBatteryKwh.toFixed(2)}</td>
-                        <td class="strategy-b">$${b.cost.totalCost.toFixed(0)}</td>
-                        <td class="strategy-b">$${b.cost.costWithoutBattery.toFixed(0)}</td>
-                        <td class="strategy-b"><strong>$${b.cost.pricePerKwWithoutBattery.toFixed(0)}</strong></td>
+                        <td class="strategy-b">$${b.derived.finalFullInc.toFixed(0)}</td>
+                        <td class="strategy-b">$${b.derived.finalExBattInc.toFixed(0)}</td>
+                        <td class="strategy-b"><strong>$${b.derived.kwNoBattIncAfterPv.toFixed(0)}</strong></td>
                         <td class="strategy-c">${c.step5.finalSystemKw.toFixed(2)}</td>
                         <td class="strategy-c">${c.step3.selectedInverterKw.toFixed(2)}</td>
                         <td class="strategy-c">${c.step2.selectedBatteryKwh.toFixed(2)}</td>
-                        <td class="strategy-c">$${c.cost.totalCost.toFixed(0)}</td>
-                        <td class="strategy-c">$${c.cost.costWithoutBattery.toFixed(0)}</td>
-                        <td class="strategy-c"><strong>$${c.cost.pricePerKwWithoutBattery.toFixed(0)}</strong></td>
+                        <td class="strategy-c">$${c.derived.finalFullInc.toFixed(0)}</td>
+                        <td class="strategy-c">$${c.derived.finalExBattInc.toFixed(0)}</td>
+                        <td class="strategy-c"><strong>$${c.derived.kwNoBattIncAfterPv.toFixed(0)}</strong></td>
                     </tr>
                 `;
             });

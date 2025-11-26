@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>光伏设备智能推荐系统 - 完整推导版</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+        .card { transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .step-badge { 
+            display: inline-flex; 
+            align-items: center; 
+            justify-content: center;
+            width: 24px; 
+            height: 24px; 
+            border-radius: 50%; 
+            background: #3b82f6; 
+            color: white; 
+            font-size: 12px; 
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .calculation-box {
+            background: #f8fafc;
+            border-left: 4px solid #3b82f6;
+            padding: 12px;
+            margin: 8px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+        .highlight-value {
+            background: #fef3c7;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen text-gray-800">
+
+    <!-- 顶部导航 -->
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-blue-600">☀️ SolarFit Pro</span>
+                    <span class="ml-2 text-sm text-gray-500">智能设备推荐系统 (完整推导版)</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md">
+                        📊 单个分析
+                    </a>
+                    <a href="batch-processor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        📦 批量处理
+                    </a>
+                    <a href="config-editor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        ⚙️ 配置编辑
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+        <!-- 1. 输入控制区 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-blue-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">📊</span>
+                数据输入与环境配置
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- 房屋选择 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">选择房屋样本 (GIS ID)</label>
+                    <select id="houseSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50">
+                        <option value="">正在加载数据...</option>
+                    </select>
+                    <p class="mt-1 text-xs text-gray-500" id="houseSummary">...</p>
+                </div>
+
+                <!-- 州选择 (新增) -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">用户所在州</label>
+                    <select id="stateSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="NSW">NSW (新南威尔士)</option>
+                        <option value="VIC">VIC (维多利亚)</option>
+                        <option value="QLD">QLD (昆士兰)</option>
+                        <option value="SA">SA (南澳)</option>
+                        <option value="WA">WA (西澳)</option>
+                        <option value="TAS">TAS (塔斯马尼亚)</option>
+                        <option value="ACT">ACT (首都领地)</option>
+                        <option value="NT">NT (北领地)</option>
+                    </select>
+                    <p class="mt-1 text-xs text-gray-500 bg-green-50 p-1 rounded" id="stateInfo">年用电量: ...</p>
+                </div>
+
+                <!-- PV参数概览 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">当前 PV 组件参数</label>
+                    <div class="bg-blue-50 rounded-md p-3 border border-blue-100">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-gray-600">型号:</span>
+                            <span class="font-semibold text-blue-800" id="pvModel">Loading...</span>
+                        </div>
+                        <div class="flex justify-between text-sm mt-1">
+                            <span class="text-gray-600">功率 (Pmax):</span>
+                            <span class="font-semibold text-blue-800" id="pvPower">0 W</span>
+                        </div>
+                        <div class="flex justify-between text-sm mt-1">
+                            <span class="text-gray-600">尺寸:</span>
+                            <span class="font-semibold text-blue-800" id="pvSize">0 x 0 mm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 电网类型 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">电网相位 (影响逆变器选型)</label>
+                    <select id="phaseSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="single">单相 (Single Phase)</option>
+                        <option value="three">三相 (Three Phase)</option>
+                    </select>
+                    <p class="mt-1 text-xs text-gray-500 bg-yellow-50 p-1 rounded border border-yellow-200">
+                        ⚡ 单相: 逆变器 ≤10kW | 三相: 可选 ≤30kW
+                    </p>
+                </div>
+            </div>
+
+            <!-- 屋顶详情展开 -->
+            <div class="mt-6 pt-6 border-t border-gray-200">
+                <button id="toggleRoofDetails" class="text-sm text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                    <span id="toggleIcon">▶</span>
+                    <span class="ml-2">查看该房屋屋顶坡面详细数据</span>
+                </button>
+                <div id="roofDetailsPanel" class="hidden mt-4 overflow-x-auto bg-gray-50 rounded-lg p-4">
+                    <table class="min-w-full divide-y divide-gray-300 text-sm">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">Slope ID</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">方位角 (°)</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">朝向</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">物理容量 (片)</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">发电潜力评分</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">评分可视化</th>
+                            </tr>
+                        </thead>
+                        <tbody id="roofTableBody" class="bg-white divide-y divide-gray-200">
+                            <!-- JS 填充 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. 推导过程展示区 (核心新增) -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-green-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">🧮</span>
+                智能推导过程详解
+            </h2>
+            
+            <div class="space-y-6" id="derivationSteps">
+                <!-- JS 动态填充推导步骤 -->
+            </div>
+        </div>
+
+        <!-- 3. 方案结果展示区 -->
+        <div class="mb-8">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">📋</span>
+                三套差异化方案配置结果
+            </h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6" id="proposalsContainer">
+                <!-- 方案 A -->
+                <div class="card bg-white rounded-xl shadow-lg border-2 border-purple-400 overflow-hidden flex flex-col">
+                    <div class="bg-gradient-to-r from-purple-50 to-pink-50 p-4 border-b border-purple-200">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-purple-800">方案 A: 高端型</h3>
+                            <span class="bg-purple-200 text-purple-800 text-xs px-2 py-1 rounded-full font-semibold">极致性能</span>
+                        </div>
+                        <p class="text-xs text-purple-600 mt-1">满铺屋顶，全屋备电</p>
+                    </div>
+                    <div class="p-5 flex-grow">
+                        <div class="flex items-baseline mb-4">
+                            <span class="text-4xl font-bold text-gray-800" id="propA-kw">0</span>
+                            <span class="text-lg text-gray-500 ml-1">kW</span>
+                        </div>
+                        
+                        <div class="space-y-3 text-sm">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">☀️</div>
+                                <div class="ml-2 flex-grow">
+                                    <p class="font-medium text-gray-900">光伏组件</p>
+                                    <p class="text-gray-600"><span id="propA-count" class="font-bold text-green-700">0</span> 片 × 440W</p>
+                                    <p class="text-xs text-gray-500 mt-1 bg-gray-50 p-1 rounded" id="propA-layout">...</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">⚡</div>
+                                <div class="ml-2 flex-grow">
+                                    <p class="font-medium text-gray-900">逆变器</p>
+                                    <p class="text-gray-600" id="propA-inv">...</p>
+                                    <p class="text-xs text-gray-500">容配比: <span id="propA-ratio" class="font-semibold">0%</span></p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">🔋</div>
+                                <div class="ml-2">
+                                    <p class="font-medium text-gray-900">大容量储能</p>
+                                    <p class="text-gray-600"><span id="propA-battery" class="font-bold text-purple-700">0</span> kWh (Powerwall 级)</p>
+                                    <p class="text-xs text-gray-500" id="propA-batteryDetail">离网级备电能力</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 p-3 border-t border-gray-200">
+                        <p class="text-xs text-gray-600 text-center">策略：物理极限满铺，追求能源独立</p>
+                    </div>
+                </div>
+
+                <!-- 方案 B -->
+                <div class="card bg-white rounded-xl shadow-lg border-2 border-blue-500 overflow-hidden flex flex-col relative">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-white text-xs px-3 py-1 rounded-bl-lg font-bold">⭐ 推荐</div>
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 border-b border-blue-200">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-blue-800">方案 B: 平衡型</h3>
+                            <span class="bg-blue-200 text-blue-800 text-xs px-2 py-1 rounded-full font-semibold">主流</span>
+                        </div>
+                        <p class="text-xs text-blue-600 mt-1">光储一体，自给率高</p>
+                    </div>
+                    <div class="p-5 flex-grow">
+                        <div class="flex items-baseline mb-4">
+                            <span class="text-4xl font-bold text-gray-800" id="propB-kw">0</span>
+                            <span class="text-lg text-gray-500 ml-1">kW</span>
+                        </div>
+                        
+                        <div class="space-y-3 text-sm">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">☀️</div>
+                                <div class="ml-2 flex-grow">
+                                    <p class="font-medium text-gray-900">光伏组件</p>
+                                    <p class="text-gray-600"><span id="propB-count" class="font-bold text-blue-700">0</span> 片 × 440W</p>
+                                    <p class="text-xs text-gray-500 mt-1 bg-gray-50 p-1 rounded" id="propB-layout">...</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">⚡</div>
+                                <div class="ml-2 flex-grow">
+                                    <p class="font-medium text-gray-900">混合逆变器</p>
+                                    <p class="text-gray-600" id="propB-inv">...</p>
+                                    <p class="text-xs text-gray-500">容配比: <span id="propB-ratio" class="font-semibold">0%</span> (允许超配)</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">🔋</div>
+                                <div class="ml-2">
+                                    <p class="font-medium text-gray-900">储能电池</p>
+                                    <p class="text-gray-600"><span id="propB-battery" class="font-bold text-blue-700">0</span> kWh 模块化电池</p>
+                                    <p class="text-xs text-gray-500" id="propB-batteryDetail">削峰填谷，覆盖晚间高峰</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 p-3 border-t border-gray-200">
+                        <p class="text-xs text-gray-600 text-center">策略：Hybrid 超配 (150%-200%)，电池吸收削峰</p>
+                    </div>
+                </div>
+
+                <!-- 方案 C -->
+                <div class="card bg-white rounded-xl shadow-lg border-2 border-green-400 overflow-hidden flex flex-col">
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 border-b border-green-200">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-bold text-green-800">方案 C: 经济型</h3>
+                            <span class="bg-green-200 text-green-800 text-xs px-2 py-1 rounded-full font-semibold">高性价比</span>
+                        </div>
+                        <p class="text-xs text-green-600 mt-1">入门配置，快速回本</p>
+                    </div>
+                    <div class="p-5 flex-grow">
+                        <div class="flex items-baseline mb-4">
+                            <span class="text-4xl font-bold text-gray-800" id="propC-kw">0</span>
+                            <span class="text-lg text-gray-500 ml-1">kW</span>
+                        </div>
+                        
+                        <div class="space-y-3 text-sm">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">☀️</div>
+                                <div class="ml-2 flex-grow">
+                                    <p class="font-medium text-gray-900">光伏组件 (满铺)</p>
+                                    <p class="text-gray-600"><span id="propC-count" class="font-bold text-purple-700">0</span> 片 × 440W</p>
+                                    <p class="text-xs text-gray-500 mt-1 bg-gray-50 p-1 rounded" id="propC-layout">...</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">⚡</div>
+                                <div class="ml-2 flex-grow">
+                                    <p class="font-medium text-gray-900">高性能逆变器</p>
+                                    <p class="text-gray-600" id="propC-inv">...</p>
+                                    <p class="text-xs text-gray-500">容配比: <span id="propC-ratio" class="font-semibold">0%</span></p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 text-lg">🔋</div>
+                                <div class="ml-2">
+                                    <p class="font-medium text-gray-900">基础储能</p>
+                                    <p class="text-gray-600"><span id="propC-battery" class="font-bold text-green-700">0</span> kWh 入门配置</p>
+                                    <p class="text-xs text-gray-500" id="propC-batteryDetail">覆盖晚间基本用电</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 p-3 border-t border-gray-200">
+                        <p class="text-xs text-gray-600 text-center">策略：6.6kW入门配置，基础储能，快速回本</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm">
+            <p>© 2024 SolarFit Pro | 基于澳洲 CEC 标准与 GIS 数据的智能光伏设计系统</p>
+        </div>
+    </footer>
+
+    <script>
+        // ================= 数据源 =================
+        
+        const PV_DATA_RAW = `
+类别	参数	数值
+panel	Brand	JA Solar
+panel	Model No.	JAM54D40-440/LB/1500V
+panel	STC Maximum Power (Pmax)	440W
+panel	STC Voltage at Maximum Power (Vmpp)	32.47V
+panel	STC Open Circuit Voltage (Voc)	38.9V
+panel	STC Short Circuit Current (Isc)	14.31A
+panel	STC Current at Maximum Power (Impp/A)	13.55A
+panel	Height	1,762mm
+panel	Width	1,134mm
+`;
+
+        const HOUSE_DATA_RAW = `
+id_0	slope	aspect	nums
+1	slope 1	359.8	1
+1	slope 2	269.8	0
+1	slope 3	179.8	1
+1	slope 4	89.8	0
+3	slope 1	299.3	1
+3	slope 4	209.3	12
+3	slope 6	29.3	2
+3	slope 10	29.3	3
+4	slope 1	285.9	3
+4	slope 2	195.9	2
+4	slope 9	105.9	1
+4	slope 10	15.9	3
+5	slope 1	276.6	15
+5	slope 4	186.6	2
+5	slope 7	96.6	6
+5	slope 8	6.6	3
+27	slope 4	269.9	17
+27	slope 5	180.0	3
+27	slope 6	90.0	4
+27	slope 7	180.0	15
+27	slope 12	90.0	4
+27	slope 13	0	20
+44	slope 2	274.6	22
+44	slope 3	184.6	3
+44	slope 4	94.6	18
+44	slope 5	184.6	1
+44	slope 7	4.6	2
+`;
+
+        // 各州年用电量数据 (kWh)
+        const STATE_CONSUMPTION = {
+            'TAS': 10148, 'NT': 10008, 'ACT': 8632, 'SA': 7129,
+            'NSW': 7778, 'QLD': 7270, 'WA': 7634, 'VIC': 6778
+        };
+
+        // 各州各时段用电比例 (%)
+        const STATE_HOURLY_PROFILE = {
+            'NSW': [4.427, 3.912, 3.176, 2.706, 2.583, 2.805, 3.427, 3.939, 4.089, 4.050, 3.986, 3.936, 3.948, 3.908, 3.920, 4.105, 4.569, 5.328, 5.846, 5.634, 5.329, 4.947, 4.804, 4.63],
+            'VIC': [3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 4.714, 4.714, 4.714, 4.714, 4.714, 4.714, 4.714, 3.941, 3.941],
+            'QLD': [2.990, 2.638, 2.405, 2.319, 2.396, 2.745, 3.486, 4.163, 4.270, 4.255, 4.252, 4.348, 4.421, 4.440, 4.486, 4.667, 5.074, 5.727, 6.229, 5.996, 5.621, 4.970, 4.421, 3.679],
+            'SA': [4.850, 5.185, 3.814, 2.956, 2.568, 2.654, 3.142, 3.655, 3.563, 3.624, 4.103, 4.366, 4.188, 3.980, 3.997, 4.111, 4.525, 5.442, 5.990, 5.715, 5.315, 4.739, 3.905, 3.607],
+            'WA': [2.990, 2.638, 2.405, 2.319, 2.396, 2.745, 3.486, 4.163, 4.270, 4.255, 4.252, 4.348, 4.421, 4.440, 4.486, 4.667, 5.074, 5.727, 6.229, 5.996, 5.621, 4.970, 4.421, 3.679],
+            'TAS': [3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 4.714, 4.714, 4.714, 4.714, 4.714, 4.714, 4.714, 3.941, 3.941],
+            'ACT': [3.400, 3.031, 2.876, 2.867, 3.055, 3.643, 4.493, 4.904, 4.317, 3.792, 3.615, 3.118, 3.053, 2.937, 3.003, 3.369, 4.434, 5.901, 6.693, 6.550, 6.142, 5.416, 5.178, 4.208],
+            'NT': [2.990, 2.638, 2.405, 2.319, 2.396, 2.745, 3.486, 4.163, 4.270, 4.255, 4.252, 4.348, 4.421, 4.440, 4.486, 4.667, 5.074, 5.727, 6.229, 5.996, 5.621, 4.970, 4.421, 3.679]
+        };
+
+        // ================= 全局数据 =================
+        const AppData = {
+            pv: {},
+            houses: {},
+            currentState: 'NSW'
+        };
+
+        // ================= 解析函数 =================
+        
+        function parsePVData() {
+            const lines = PV_DATA_RAW.trim().split('\n');
+            const pv = {};
+            lines.forEach(line => {
+                const [cat, param, val] = line.split('\t');
+                if (param.includes('Maximum Power (Pmax)')) pv.pmax = parseFloat(val);
+                if (param.includes('Model No.')) pv.model = val;
+                if (param.includes('Brand')) pv.brand = val;
+                if (param.includes('Height')) pv.height = val;
+                if (param.includes('Width')) pv.width = val;
+                if (param.includes('Voc')) pv.voc = parseFloat(val);
+                if (param.includes('Isc')) pv.isc = parseFloat(val);
+            });
+            AppData.pv = pv;
+            
+            document.getElementById('pvModel').textContent = `${pv.brand} ${pv.model}`;
+            document.getElementById('pvPower').textContent = `${pv.pmax} W`;
+            document.getElementById('pvSize').textContent = `${pv.height} × ${pv.width}`;
+        }
+
+        function parseHouseData() {
+            const lines = HOUSE_DATA_RAW.trim().split('\n');
+            for (let i = 1; i < lines.length; i++) {
+                const [id, slope, aspect, nums] = lines[i].split('\t');
+                const houseId = id.trim();
+                const panelCount = parseInt(nums);
+                
+                if (!AppData.houses[houseId]) {
+                    AppData.houses[houseId] = [];
+                }
+                
+                AppData.houses[houseId].push({
+                    id: slope,
+                    aspect: parseFloat(aspect),
+                    max: panelCount
+                });
+            }
+        }
+
+        // ================= 核心算法 =================
+
+        function calculateSlopeScore(aspect) {
+            // 南半球：北(0/360)最优
+            let deviationFromNorth = Math.abs(aspect - 0);
+            if (deviationFromNorth > 180) deviationFromNorth = 360 - deviationFromNorth;
+            
+            // 分段评分 (参考 cankao.md ORIENTATION_FACTORS)
+            if (deviationFromNorth <= 45) return 90 + (45 - deviationFromNorth) / 4.5;
+            if (deviationFromNorth <= 135) return 70 + (135 - deviationFromNorth) / 4.5;
+            return Math.max(40, 60 - (deviationFromNorth - 135) / 2);
+        }
+
+        function getDirectionLabel(aspect) {
+            if (aspect >= 337.5 || aspect < 22.5) return '北 (N)';
+            if (aspect >= 22.5 && aspect < 67.5) return '东北 (NE)';
+            if (aspect >= 67.5 && aspect < 112.5) return '东 (E)';
+            if (aspect >= 112.5 && aspect < 157.5) return '东南 (SE)';
+            if (aspect >= 157.5 && aspect < 202.5) return '南 (S)';
+            if (aspect >= 202.5 && aspect < 247.5) return '西南 (SW)';
+            if (aspect >= 247.5 && aspect < 292.5) return '西 (W)';
+            if (aspect >= 292.5 && aspect < 337.5) return '西北 (NW)';
+            return '?';
+        }
+
+        // 电池容量计算 (基于 cankao.md 5.2 节)
+        function calculateBatteryCapacity(pvSystemKw, state, method = 'balanced') {
+            const annualConsumption = STATE_CONSUMPTION[state];
+            const dailyConsumption = annualConsumption / 365;
+            
+            // 计算傍晚高峰用电 (17:00-21:00, 索引 16-20)
+            const hourlyProfile = STATE_HOURLY_PROFILE[state];
+            const eveningPeakRatio = (hourlyProfile[16] + hourlyProfile[17] + hourlyProfile[18] + hourlyProfile[19] + hourlyProfile[20]) / 100;
+            const eveningPeakConsumption = dailyConsumption * eveningPeakRatio;
+            
+            let capacity = 0;
+            let methodDesc = '';
+            
+            if (method === 'budget') {
+                capacity = 0;
+                methodDesc = '不配置储能';
+            } else if (method === 'economy') {
+                // 经济型：最小配置，仅覆盖基本需求
+                const method1 = dailyConsumption * 0.2;  // 20%日用电
+                const method2 = eveningPeakConsumption * 1.0;  // 1倍傍晚峰值
+                const method3 = pvSystemKw * 0.8;  // 0.8倍PV容量
+                capacity = Math.max(method1, method2, method3);
+                methodDesc = `max(日用电×20%=${method1.toFixed(1)}, 傍晚峰×1.0=${method2.toFixed(1)}, PV×0.8=${method3.toFixed(1)})`;
+            } else if (method === 'balanced') {
+                // 平衡型：标准配置
+                const method1 = dailyConsumption * 0.3;  // 30%日用电
+                const method2 = eveningPeakConsumption * 1.5;  // 1.5倍傍晚峰值
+                const method3 = pvSystemKw * 1.0;  // 1.0倍PV容量
+                capacity = Math.max(method1, method2, method3);
+                methodDesc = `max(日用电×30%=${method1.toFixed(1)}, 傍晚峰×1.5=${method2.toFixed(1)}, PV×1.0=${method3.toFixed(1)})`;
+            } else if (method === 'premium') {
+                // 高端型：大容量配置
+                const method1 = dailyConsumption * 0.5;  // 50%日用电
+                const method2 = eveningPeakConsumption * 2.0;  // 2.0倍傍晚峰值
+                const method3 = pvSystemKw * 1.5;  // 1.5倍PV容量
+                capacity = Math.max(method1, method2, method3);
+                methodDesc = `max(日用电×50%=${method1.toFixed(1)}, 傍晚峰×2.0=${method2.toFixed(1)}, PV×1.5=${method3.toFixed(1)})`;
+            }
+            
+            // 标准化到常见电池规格
+            const standardSizes = [0, 5, 6.5, 9.6, 10, 13.5, 16, 20];
+            const standardCapacity = standardSizes.find(s => s >= capacity) || capacity;
+            
+            return {
+                calculated: capacity,
+                standard: standardCapacity,
+                methodDesc: methodDesc,
+                dailyConsumption: dailyConsumption,
+                eveningPeak: eveningPeakConsumption
+            };
+        }
+
+        // ================= 推导引擎 (带详细步骤记录) =================
+
+        function generateProposalsWithDerivation(houseId, phaseType) {
+            const state = AppData.currentState;
+            const derivationLog = []; // 记录推导步骤
+            
+            const roofPlanes = JSON.parse(JSON.stringify(AppData.houses[houseId]));
+            const PV_WATT = AppData.pv.pmax;
+            
+            // Step 1: 评分与排序
+            derivationLog.push({
+                step: 1,
+                title: '屋顶坡面评分与排序',
+                desc: '根据方位角计算每个坡面的发电潜力评分（南半球规则：正北最优）',
+                details: []
+            });
+            
+            roofPlanes.forEach(p => {
+                p.score = calculateSlopeScore(p.aspect);
+                derivationLog[0].details.push({
+                    text: `${p.id}: 方位角 ${p.aspect.toFixed(1)}° (${getDirectionLabel(p.aspect)}) → 评分 ${p.score.toFixed(1)}/100`,
+                    value: p.score
+                });
+            });
+            
+            roofPlanes.sort((a, b) => b.score - a.score);
+            
+            derivationLog[0].details.push({
+                text: `排序后优先级: ${roofPlanes.filter(p => p.max > 0).slice(0, 3).map(p => p.id).join(' > ')}...`,
+                highlight: true
+            });
+
+            const totalMaxPanels = roofPlanes.reduce((sum, p) => sum + p.max, 0);
+            const totalMaxKw = (totalMaxPanels * PV_WATT) / 1000;
+
+            // Step 2: 物理限制分析
+            derivationLog.push({
+                step: 2,
+                title: '物理限制分析',
+                desc: '统计该房屋屋顶的总体安装潜力',
+                details: [
+                    { text: `有效坡面数量: ${roofPlanes.filter(p => p.max > 0).length} 个` },
+                    { text: `物理最大容量: ${totalMaxPanels} 片组件` },
+                    { text: `对应总功率: ${totalMaxKw.toFixed(2)} kW`, highlight: true }
+                ]
+            });
+
+            // Step 2.5: 用电数据分析 (新增)
+            const annualKwh = STATE_CONSUMPTION[state];
+            const dailyKwh = (annualKwh / 365).toFixed(1);
+            const hourlyProfile = STATE_HOURLY_PROFILE[state];
+            const eveningRatio = (hourlyProfile[16] + hourlyProfile[17] + hourlyProfile[18] + hourlyProfile[19] + hourlyProfile[20]).toFixed(1);
+            const eveningKwh = (dailyKwh * eveningRatio / 100).toFixed(1);
+            
+            derivationLog.push({
+                step: 2.5,
+                title: `用户用电数据分析 (${state} 州)`,
+                desc: '基于州典型用电模式计算储能需求',
+                details: [
+                    { text: `年用电量: ${annualKwh} kWh` },
+                    { text: `日均用电: ${dailyKwh} kWh` },
+                    { text: `傍晚高峰 (17-21h) 占比: ${eveningRatio}%` },
+                    { text: `傍晚高峰用电: ${eveningKwh} kWh`, highlight: true }
+                ]
+            });
+
+            // Step 3: 方案 A 推导（高端型）
+            derivationLog.push({
+                step: 3,
+                title: '方案 A (高端型) 推导',
+                desc: '目标: 物理极限满铺，追求最大发电量',
+                details: []
+            });
+
+            const stepAIndex = derivationLog.length - 1;
+            derivationLog[stepAIndex].details.push({ text: `策略: 使用所有 nums > 0 的坡面` });
+            
+            const resultA = fillRoofWithLog(roofPlanes, 999, PV_WATT, derivationLog[stepAIndex].details);
+            
+            // 方案A逆变器选型（高端型配储能，允许更高容配比）
+            derivationLog[stepAIndex].details.push({ text: `方案类型: 高端型 (含储能) → 允许容配比 150%-200%` });
+            
+            // 使用180%的目标容配比（Hybrid系统的合理范围）
+            let invA_size = Math.ceil(resultA.totalKw / 1.8);
+            let stdSizesA;
+            if (phaseType === 'single') {
+                stdSizesA = [5, 6, 8, 10];  // 单相限制
+                derivationLog[stepAIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器限制 ≤10kW` });
+            } else {
+                stdSizesA = [5, 8, 10, 15, 20, 30];  // 三相可选大功率
+                derivationLog[stepAIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器可选 ≤30kW` });
+            }
+            let invA = stdSizesA.find(s => s >= invA_size) || stdSizesA[stdSizesA.length - 1];
+            
+            const ratioAActual = (resultA.totalKw / invA * 100).toFixed(0);
+            
+            derivationLog[stepAIndex].details.push({ 
+                text: `逆变器选型: 目标容配比180% → 需要 ${invA_size.toFixed(1)}kW → 选择 ${invA}kW Hybrid`,
+                highlight: true
+            });
+            
+            derivationLog[stepAIndex].details.push({ 
+                text: `实际容配比: ${resultA.totalKw.toFixed(2)}kW / ${invA}kW = ${ratioAActual}%`
+            });
+            
+            // 检查容配比是否超标
+            if (parseInt(ratioAActual) > 200) {
+                derivationLog[stepAIndex].details.push({ 
+                    text: `⚠️ 容配比 ${ratioAActual}% 超过 200%，违反澳洲Hybrid系统规则！`,
+                    warning: true
+                });
+                
+                // 尝试增大逆变器
+                const minInvForCompliance = Math.ceil(resultA.totalKw / 2.0);
+                const compliantInv = stdSizesA.find(s => s >= minInvForCompliance);
+                
+                if (compliantInv && compliantInv > invA) {
+                    // 可以通过增大逆变器解决
+                    invA = compliantInv;
+                    const newRatio = (resultA.totalKw / invA * 100).toFixed(0);
+                    derivationLog[stepAIndex].details.push({ 
+                        text: `✓ 调整为 ${invA}kW 逆变器 → 容配比 ${newRatio}% (符合规则)`,
+                        highlight: true
+                    });
+                } else {
+                    // 逆变器已达上限，需要减少面板
+                    const maxInv = stdSizesA[stdSizesA.length - 1];
+                    const maxAllowedKw = maxInv * 2.0;  // 200%容配比
+                    const excessKw = resultA.totalKw - maxAllowedKw;
+                    const panelsToRemove = Math.ceil((excessKw * 1000) / PV_WATT);
+                    
+                    derivationLog[stepAIndex].details.push({ 
+                        text: `逆变器已达${phaseType === 'single' ? '单相' : '三相'}最大 ${maxInv}kW，需减少面板`,
+                        warning: true
+                    });
+                    derivationLog[stepAIndex].details.push({ 
+                        text: `最大允许: ${maxInv}kW × 200% = ${maxAllowedKw.toFixed(2)}kW`
+                    });
+                    derivationLog[stepAIndex].details.push({ 
+                        text: `超出: ${excessKw.toFixed(2)}kW → 需减少 ${panelsToRemove} 片面板`
+                    });
+                    
+                    // 从低分坡面开始减板子
+                    let removedCount = 0;
+                    const sortedByScore = [...roofPlanes].sort((a, b) => a.score - b.score);
+                    
+                    for (let plane of sortedByScore) {
+                        if (removedCount >= panelsToRemove) break;
+                        if (plane.max === 0) continue;
+                        
+                        const canRemove = Math.min(plane.max, panelsToRemove - removedCount);
+                        plane.max -= canRemove;
+                        removedCount += canRemove;
+                        
+                        derivationLog[stepAIndex].details.push({ 
+                            text: `  从 ${plane.id} (评分${plane.score.toFixed(0)}) 减少 ${canRemove} 片`
+                        });
+                    }
+                    
+                    // 重新计算
+                    resultA.count -= removedCount;
+                    resultA.totalKw = resultA.count * PV_WATT / 1000;
+                    invA = maxInv;
+                    
+                    const finalRatio = (resultA.totalKw / invA * 100).toFixed(0);
+                    derivationLog[stepAIndex].details.push({ 
+                        text: `✓ 调整后: ${resultA.count}片 × ${PV_WATT}W = ${resultA.totalKw.toFixed(2)}kW`,
+                        highlight: true
+                    });
+                    derivationLog[stepAIndex].details.push({ 
+                        text: `✓ 最终容配比: ${resultA.totalKw.toFixed(2)}kW / ${invA}kW = ${finalRatio}% (符合规则)`,
+                        highlight: true
+                    });
+                }
+            } else if (parseInt(ratioAActual) < 150) {
+                derivationLog[stepAIndex].details.push({ 
+                    text: `💡 容配比 ${ratioAActual}% 偏低，可考虑减小逆变器以提高经济性`
+                });
+            } else {
+                derivationLog[stepAIndex].details.push({ 
+                    text: `✓ 容配比 ${ratioAActual}% 在合理范围 (150%-200%)`,
+                    success: true
+                });
+            }
+            
+            // 电池容量动态计算
+            const batteryA = calculateBatteryCapacity(resultA.totalKw, state, 'premium');
+            derivationLog[stepAIndex].details.push({ text: `储能容量计算 (高端型):` });
+            derivationLog[stepAIndex].details.push({ text: `  公式: ${batteryA.methodDesc}` });
+            derivationLog[stepAIndex].details.push({ 
+                text: `  推荐容量: ${batteryA.standard} kWh (离网级备电)`,
+                highlight: true
+            });
+
+            // Step 4: 方案 B 推导
+            derivationLog.push({
+                step: 4,
+                title: '方案 B (平衡型) 推导',
+                desc: '目标: 10-13kW，匹配混合逆变器，允许150%-200%超配',
+                details: []
+            });
+
+            const stepBIndex = derivationLog.length - 1;
+            let targetKwB = totalMaxKw > 15 ? 13.2 : 10.0;
+            derivationLog[stepBIndex].details.push({ text: `目标功率: ${targetKwB} kW (根据屋顶规模动态调整)` });
+            
+            const resultB = fillRoofWithLog(roofPlanes, targetKwB, PV_WATT, derivationLog[stepBIndex].details);
+            
+            // 方案B逆变器选型（Hybrid，目标容配比180%）
+            derivationLog[stepBIndex].details.push({ text: `方案类型: 平衡型 (含储能) → 允许容配比 150%-200%` });
+            
+            // 使用180%的目标容配比
+            const targetInvB = Math.ceil(resultB.totalKw / 1.8);
+            
+            let invB;
+            if (phaseType === 'single') {
+                const singleOptions = [5, 8];
+                invB = singleOptions.find(s => s >= targetInvB) || 8;
+                derivationLog[stepBIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器 ≤8kW` });
+            } else {
+                const threeOptions = [5, 8, 10, 15];
+                invB = threeOptions.find(s => s >= targetInvB) || 15;
+                derivationLog[stepBIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器 ≤15kW` });
+            }
+            
+            const ratioB = (resultB.totalKw / invB * 100).toFixed(0);
+            
+            derivationLog[stepBIndex].details.push({ 
+                text: `逆变器选型: 目标容配比180% → 需要 ${targetInvB}kW → 选择 ${invB}kW Hybrid`,
+                highlight: true
+            });
+            
+            derivationLog[stepBIndex].details.push({ 
+                text: `实际容配比: ${resultB.totalKw.toFixed(2)}kW / ${invB}kW = ${ratioB}%`
+            });
+            
+            if (parseInt(ratioB) > 200) {
+                derivationLog[stepBIndex].details.push({ 
+                    text: `⚠️ 容配比 ${ratioB}% 超过 200%，违反澳洲Hybrid系统规则！`,
+                    warning: true
+                });
+            } else if (parseInt(ratioB) < 150) {
+                derivationLog[stepBIndex].details.push({ 
+                    text: `💡 容配比 ${ratioB}% 偏低，可考虑减小逆变器`
+                });
+            } else {
+                derivationLog[stepBIndex].details.push({ 
+                    text: `✓ 容配比 ${ratioB}% 在合理范围 (150%-200%)`,
+                    success: true
+                });
+            }
+            
+            // 电池容量动态计算
+            const batteryB = calculateBatteryCapacity(resultB.totalKw, state, 'balanced');
+            derivationLog[stepBIndex].details.push({ text: `储能容量计算 (平衡型):` });
+            derivationLog[stepBIndex].details.push({ text: `  公式: ${batteryB.methodDesc}` });
+            derivationLog[stepBIndex].details.push({ 
+                text: `  推荐容量: ${batteryB.standard} kWh (标准化规格)`,
+                highlight: true
+            });
+
+            // Step 5: 方案 C 推导（经济型）
+            derivationLog.push({
+                step: 5,
+                title: '方案 C (经济型) 推导',
+                desc: '目标: 6.6kW，高性价比入门配置',
+                details: []
+            });
+
+            const stepCIndex = derivationLog.length - 1;
+            const targetKwC = 6.6;
+            const targetPanelsC = Math.ceil((targetKwC * 1000) / PV_WATT);
+            derivationLog[stepCIndex].details.push({ text: `目标功率: ${targetKwC} kW → 需要 ${targetPanelsC} 片组件` });
+            
+            const resultC = fillRoofWithLog(roofPlanes, targetKwC, PV_WATT, derivationLog[stepCIndex].details);
+            
+            // 方案C逆变器选型（经济型也配储能，目标容配比180%）
+            derivationLog[stepCIndex].details.push({ text: `方案类型: 经济型 (含储能) → 允许容配比 150%-200%` });
+            
+            // 使用180%的目标容配比
+            const targetInvC = Math.ceil(resultC.totalKw / 1.8);
+            
+            let invC;
+            if (phaseType === 'single') {
+                const singleOptions = [5, 8];
+                invC = singleOptions.find(s => s >= targetInvC) || 5;
+                derivationLog[stepCIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器 ≤8kW` });
+            } else {
+                const threeOptions = [5, 8, 10];
+                invC = threeOptions.find(s => s >= targetInvC) || 5;
+                derivationLog[stepCIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器 ≤10kW` });
+            }
+            
+            const ratioC = (resultC.totalKw / invC * 100).toFixed(0);
+            
+            derivationLog[stepCIndex].details.push({ 
+                text: `逆变器选型: 目标容配比180% → 需要 ${targetInvC}kW → 选择 ${invC}kW Hybrid`,
+                highlight: true
+            });
+            
+            derivationLog[stepCIndex].details.push({ 
+                text: `实际容配比: ${resultC.totalKw.toFixed(2)}kW / ${invC}kW = ${ratioC}%`
+            });
+            
+            if (parseInt(ratioC) > 200) {
+                derivationLog[stepCIndex].details.push({ 
+                    text: `⚠️ 容配比 ${ratioC}% 超过 200%，违反澳洲Hybrid系统规则！`,
+                    warning: true
+                });
+            } else if (parseInt(ratioC) < 150) {
+                derivationLog[stepCIndex].details.push({ 
+                    text: `💡 容配比 ${ratioC}% 偏低，可考虑减小逆变器`
+                });
+            } else {
+                derivationLog[stepCIndex].details.push({ 
+                    text: `✓ 容配比 ${ratioC}% 在合理范围 (150%-200%)`,
+                    success: true
+                });
+            }
+            
+            // 电池容量动态计算（经济型用economy方法，系数更低）
+            const batteryC = calculateBatteryCapacity(resultC.totalKw, state, 'economy');
+            derivationLog[stepCIndex].details.push({ text: `储能容量计算 (经济型):` });
+            derivationLog[stepCIndex].details.push({ text: `  公式: ${batteryC.methodDesc}` });
+            derivationLog[stepCIndex].details.push({ 
+                text: `  推荐容量: ${batteryC.standard} kWh (基础储能，覆盖晚间基本用电)`,
+                highlight: true
+            });
+
+            return {
+                roofSummary: roofPlanes,
+                totalMaxPanels,
+                derivationLog,
+                plans: {
+                    A: { ...resultA, inv: `${invA}kW Hybrid`, ratio: (resultA.totalKw / invA * 100).toFixed(0), battery: batteryA },
+                    B: { ...resultB, inv: `${invB}kW Hybrid`, ratio: ratioB, battery: batteryB },
+                    C: { ...resultC, inv: `${invC}kW Hybrid`, ratio: ratioC, battery: batteryC }
+                }
+            };
+        }
+
+        function fillRoofWithLog(sortedPlanes, targetKw, panelWatt, logArray) {
+            let neededPanels = Math.ceil((targetKw * 1000) / panelWatt);
+            let currentPanels = 0;
+            let distribution = [];
+            let usedPlanes = [];
+            
+            logArray.push({ text: `开始贪心填充算法 (优先高分坡面):` });
+            
+            for (let p of sortedPlanes) {
+                if (p.max === 0) continue;
+                
+                let remainingNeed = neededPanels - currentPanels;
+                if (remainingNeed <= 0) break;
+                
+                let take = Math.min(p.max, remainingNeed);
+                currentPanels += take;
+                
+                distribution.push(`${getDirectionLabel(p.aspect)}: ${take}片`);
+                usedPlanes.push(`  - ${p.id} (${getDirectionLabel(p.aspect)}, 评分${p.score.toFixed(0)}): 使用 ${take}/${p.max} 片`);
+            }
+            
+            usedPlanes.forEach(line => logArray.push({ text: line }));
+            
+            logArray.push({ 
+                text: `最终配置: ${currentPanels} 片 × ${panelWatt}W = ${(currentPanels * panelWatt / 1000).toFixed(2)} kW`,
+                highlight: true
+            });
+            
+            return {
+                count: currentPanels,
+                totalKw: currentPanels * panelWatt / 1000,  // 返回数字，不要toFixed
+                layoutStr: distribution.join(', ')
+            };
+        }
+
+        // ================= UI 渲染 =================
+
+        function init() {
+            parsePVData();
+            parseHouseData();
+            
+            const selector = document.getElementById('houseSelector');
+            Object.keys(AppData.houses).forEach(id => {
+                const opt = document.createElement('option');
+                opt.value = id;
+                const planeCount = AppData.houses[id].length;
+                const validCount = AppData.houses[id].filter(p => p.max > 0).length;
+                opt.textContent = `房屋 ID: ${id} (${planeCount} 个坡面, ${validCount} 个可用)`;
+                selector.appendChild(opt);
+            });
+
+            selector.addEventListener('change', updateUI);
+            document.getElementById('phaseSelector').addEventListener('change', updateUI);
+            document.getElementById('stateSelector').addEventListener('change', (e) => {
+                AppData.currentState = e.target.value;
+                updateStateInfo();
+                updateUI();
+            });
+            document.getElementById('toggleRoofDetails').addEventListener('click', () => {
+                const panel = document.getElementById('roofDetailsPanel');
+                const icon = document.getElementById('toggleIcon');
+                panel.classList.toggle('hidden');
+                icon.textContent = panel.classList.contains('hidden') ? '▶' : '▼';
+            });
+            
+            updateStateInfo();
+            
+            if (selector.options.length > 1) {
+                selector.selectedIndex = 1;
+                updateUI();
+            }
+        }
+
+        function updateStateInfo() {
+            const state = AppData.currentState;
+            const consumption = STATE_CONSUMPTION[state];
+            document.getElementById('stateInfo').textContent = `年用电量: ${consumption} kWh, 日均: ${(consumption/365).toFixed(1)} kWh`;
+        }
+
+        function updateUI() {
+            const houseId = document.getElementById('houseSelector').value;
+            if (!houseId) return;
+            
+            const phase = document.getElementById('phaseSelector').value;
+            const data = generateProposalsWithDerivation(houseId, phase);
+
+            // 1. 屋顶详情表
+            const tbody = document.getElementById('roofTableBody');
+            tbody.innerHTML = '';
+            let validPlanes = 0;
+            data.roofSummary.forEach(p => {
+                if (p.max > 0) validPlanes++;
+                const row = `
+                    <tr class="${p.max === 0 ? 'opacity-40' : ''}">
+                        <td class="px-4 py-2 font-medium text-gray-900">${p.id}</td>
+                        <td class="px-4 py-2 text-gray-600">${p.aspect.toFixed(1)}°</td>
+                        <td class="px-4 py-2 text-gray-600">${getDirectionLabel(p.aspect)}</td>
+                        <td class="px-4 py-2 font-bold ${p.max > 0 ? 'text-blue-700' : 'text-gray-400'}">${p.max}</td>
+                        <td class="px-4 py-2 text-sm font-semibold ${p.score >= 85 ? 'text-green-600' : p.score >= 70 ? 'text-yellow-600' : 'text-red-600'}">${p.score.toFixed(1)}</td>
+                        <td class="px-4 py-2">
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="h-2 rounded-full ${p.score >= 85 ? 'bg-green-500' : p.score >= 70 ? 'bg-yellow-500' : 'bg-red-500'}" style="width: ${p.score}%"></div>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+                tbody.insertAdjacentHTML('beforeend', row);
+            });
+            
+            document.getElementById('houseSummary').textContent = 
+                `该房屋共 ${data.roofSummary.length} 个坡面，${validPlanes} 个可安装，物理上限 ${data.totalMaxPanels} 片 (${(data.totalMaxPanels * AppData.pv.pmax / 1000).toFixed(2)}kW)`;
+
+            // 2. 推导过程展示 (核心新增)
+            renderDerivationSteps(data.derivationLog);
+
+            // 3. 方案卡片
+            updateCard('propA', data.plans.A);
+            updateCard('propB', data.plans.B);
+            updateCard('propC', data.plans.C);
+        }
+
+        function renderDerivationSteps(log) {
+            const container = document.getElementById('derivationSteps');
+            container.innerHTML = '';
+            
+            log.forEach(step => {
+                const stepDiv = document.createElement('div');
+                stepDiv.className = 'border-l-4 border-blue-400 pl-4 py-2';
+                
+                let html = `
+                    <div class="flex items-start mb-2">
+                        <span class="step-badge">${step.step}</span>
+                        <div>
+                            <h3 class="text-base font-bold text-gray-800">${step.title}</h3>
+                            <p class="text-sm text-gray-600 mt-1">${step.desc}</p>
+                        </div>
+                    </div>
+                    <div class="ml-8 space-y-1">
+                `;
+                
+                step.details.forEach(detail => {
+                    if (detail.highlight) {
+                        html += `<div class="calculation-box bg-yellow-50 border-yellow-400">
+                            <span class="highlight-value">${detail.text}</span>
+                        </div>`;
+                    } else if (detail.warning) {
+                        html += `<div class="calculation-box bg-red-50 border-red-400 text-red-700">
+                            ${detail.text}
+                        </div>`;
+                    } else {
+                        html += `<div class="text-sm text-gray-700 py-1">${detail.text}</div>`;
+                    }
+                });
+                
+                html += `</div>`;
+                stepDiv.innerHTML = html;
+                container.appendChild(stepDiv);
+            });
+        }
+
+        function updateCard(prefix, planData) {
+            document.getElementById(`${prefix}-kw`).textContent = planData.totalKw.toFixed(2);
+            document.getElementById(`${prefix}-count`).textContent = planData.count;
+            document.getElementById(`${prefix}-inv`).textContent = planData.inv;
+            document.getElementById(`${prefix}-ratio`).textContent = planData.ratio + '%';
+            document.getElementById(`${prefix}-layout`).textContent = planData.layoutStr || "无可用空间";
+            
+            // 更新电池信息 (所有方案都有电池)
+            if (planData.battery) {
+                // 修复浮点数精度问题
+                const batteryCapacity = typeof planData.battery.standard === 'number' 
+                    ? planData.battery.standard.toFixed(1) 
+                    : planData.battery.standard;
+                document.getElementById(`${prefix}-battery`).textContent = batteryCapacity;
+                const detailText = planData.battery.methodDesc.length > 60 
+                    ? planData.battery.methodDesc.substring(0, 60) + '...' 
+                    : planData.battery.methodDesc;
+                document.getElementById(`${prefix}-batteryDetail`).textContent = detailText;
+            }
+            
+            const ratioSpan = document.getElementById(`${prefix}-ratio`);
+            const r = parseInt(planData.ratio);
+            if (r > 150) ratioSpan.className = "font-semibold text-orange-600";
+            else if (r < 110) ratioSpan.className = "font-semibold text-gray-500";
+            else ratioSpan.className = "font-semibold text-green-600";
+        }
+
+        init();
+    </script>
+</body>
+</html>
