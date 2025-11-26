@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上游输入数据配置</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { color: #333; margin-bottom: 20px; font-size: 24px; }
+        h2 { color: #555; margin-bottom: 15px; font-size: 18px; border-bottom: 2px solid #4CAF50; padding-bottom: 8px; }
+        h3 { color: #666; margin: 15px 0 10px 0; font-size: 16px; }
+        .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+        .form-grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+        .form-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+        .form-group { display: flex; flex-direction: column; }
+        label { font-size: 13px; color: #666; margin-bottom: 5px; font-weight: 500; }
+        input, select { padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; }
+        input:focus, select:focus { outline: none; border-color: #4CAF50; }
+        button { background: #4CAF50; color: white; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 16px; margin-top: 15px; }
+        button:hover { background: #45a049; }
+        button.secondary { background: #2196F3; }
+        button.secondary:hover { background: #1976D2; }
+        .info-box { background: #f0f8ff; padding: 10px; border-radius: 4px; margin-bottom: 15px; font-size: 13px; }
+        .version-badge { display: inline-block; background: #2196F3; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; margin-left: 10px; }
+        .data-table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 13px; }
+        .data-table th, .data-table td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        .data-table th { background: #4CAF50; color: white; font-weight: 600; }
+        .data-table tr:nth-child(even) { background: #f9f9f9; }
+        .data-table input { width: 100%; padding: 4px; font-size: 12px; }
+        .chart-container { margin: 15px 0; padding: 15px; background: #f9f9f9; border-radius: 4px; }
+        .chart-placeholder { height: 200px; display: flex; align-items: center; justify-content: center; color: #999; border: 2px dashed #ddd; border-radius: 4px; }
+        .roof-plane-item { background: #f5f5f5; padding: 12px; margin-bottom: 10px; border-radius: 4px; border-left: 3px solid #4CAF50; }
+        .roof-plane-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+        .btn-group { display: flex; gap: 10px; margin-top: 10px; }
+        .strategy-item { background: #e8f5e9; padding: 12px; margin-bottom: 10px; border-radius: 4px; }
+        .strategy-grid { display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 10px; align-items: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>⚙️ 上游输入数据配置<span class="version-badge">v1.0</span></h1>
+            <div class="info-box">
+                <strong>说明：</strong>本页面用于配置计算器的所有预设参数，包括用户信息、用电曲线、屋顶数据、硬件规格和策略配置。修改后可导出配置或直接应用到计算器。<br>
+                <a href="index.html" style="color: #2196F3; text-decoration: none; font-weight: 600;">🏠 返回首页</a> | 
+                <a href="solar-calculator.html" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: 600;">🔍 打开计算器</a>
+            </div>
+        </div>
+
+        <!-- 1. 用户基础信息 -->
+        <div class="card">
+            <h2>1️⃣ 用户基础信息</h2>
+            <div class="form-grid-3">
+                <div class="form-group">
+                    <label>所在州</label>
+                    <select id="userState" onchange="updateStateDefaults()">
+                        <option value="NSW">NSW - 新南威尔士州</option>
+                        <option value="VIC">VIC - 维多利亚州</option>
+                        <option value="QLD">QLD - 昆士兰州</option>
+                        <option value="SA">SA - 南澳大利亚州</option>
+                        <option value="WA">WA - 西澳大利亚州</option>
+                        <option value="TAS">TAS - 塔斯马尼亚州</option>
+                        <option value="NT">NT - 北领地</option>
+                        <option value="ACT">ACT - 首都领地</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>年用电量 (kWh)</label>
+                    <input type="number" id="userAnnualUsage" value="7778" readonly style="background: #f0f0f0;">
+                </div>
+                <div class="form-group">
+                    <label>邮编</label>
+                    <input type="text" id="userPostcode" value="2000">
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. 各州用电曲线模型 -->
+        <div class="card">
+            <h2>2️⃣ 各州用电曲线模型</h2>
+            
+            <h3>📊 各州全年用电量</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>州</th>
+                        <th>TAS</th>
+                        <th>NT</th>
+                        <th>ACT</th>
+                        <th>SA</th>
+                        <th>NSW</th>
+                        <th>QLD</th>
+                        <th>WA</th>
+                        <th>VIC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>年用电量 (kWh)</strong></td>
+                        <td><input type="number" id="annual_TAS" value="10148"></td>
+                        <td><input type="number" id="annual_NT" value="10008"></td>
+                        <td><input type="number" id="annual_ACT" value="8632"></td>
+                        <td><input type="number" id="annual_SA" value="7129"></td>
+                        <td><input type="number" id="annual_NSW" value="7778"></td>
+                        <td><input type="number" id="annual_QLD" value="7270"></td>
+                        <td><input type="number" id="annual_WA" value="7634"></td>
+                        <td><input type="number" id="annual_VIC" value="6778"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>📅 各州月用电比例</h3>
+            <div style="overflow-x: auto;">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>州</th>
+                            <th>1月</th><th>2月</th><th>3月</th><th>4月</th><th>5月</th><th>6月</th>
+                            <th>7月</th><th>8月</th><th>9月</th><th>10月</th><th>11月</th><th>12月</th>
+                        </tr>
+                    </thead>
+                    <tbody id="monthlyRatiosTable"></tbody>
+                </table>
+            </div>
+            <div class="chart-container">
+                <div class="chart-placeholder">📈 月度用电比例曲线图（可视化展示）</div>
+            </div>
+
+            <h3>⏰ 各州小时用电比例</h3>
+            <div style="overflow-x: auto;">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>州</th>
+                            <th>0h</th><th>1h</th><th>2h</th><th>3h</th><th>4h</th><th>5h</th>
+                            <th>6h</th><th>7h</th><th>8h</th><th>9h</th><th>10h</th><th>11h</th>
+                            <th>12h</th><th>13h</th><th>14h</th><th>15h</th><th>16h</th><th>17h</th>
+                            <th>18h</th><th>19h</th><th>20h</th><th>21h</th><th>22h</th><th>23h</th>
+                        </tr>
+                    </thead>
+                    <tbody id="hourlyRatiosTable"></tbody>
+                </table>
+            </div>
+            <div class="chart-container">
+                <div class="chart-placeholder">📊 24小时用电比例曲线图（可视化展示）</div>
+            </div>
+        </div>
+
+        <!-- 3. GIS 屋顶识别结果 -->
+        <div class="card">
+            <h2>3️⃣ GIS 屋顶识别结果</h2>
+            <div class="info-box">
+                配置屋顶各坡面的物理参数和发电效率。方位角：0=北, 90=东, 180=南, 270=西
+            </div>
+            <div id="roofPlanesContainer"></div>
+            <button type="button" onclick="addRoofPlane()">+ 添加屋顶坡面</button>
+        </div>
+
+        <!-- 4. 硬件参数配置 -->
+        <div class="card">
+            <h2>4️⃣ 硬件参数配置</h2>
+            
+            <h3>☀️ 面板参数</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>单块面板功率 (W)</label>
+                    <input type="number" id="panel_watts" value="440">
+                </div>
+                <div class="form-group">
+                    <label>面板工作电压 V_mp (V)</label>
+                    <input type="number" step="0.1" id="panel_v_mp" value="32.0">
+                </div>
+                <div class="form-group">
+                    <label>面板开路电压 V_oc (V)</label>
+                    <input type="number" step="0.1" id="panel_v_oc" value="38.5">
+                </div>
+                <div class="form-group">
+                    <label>面板工作电流 I_mp (A)</label>
+                    <input type="number" step="0.1" id="panel_i_mp" value="13.75">
+                </div>
+            </div>
+
+            <h3>⚡ 逆变器参数</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>启动电压 V_start (V)</label>
+                    <input type="number" step="0.1" id="inverter_v_start" value="100.0">
+                </div>
+                <div class="form-group">
+                    <label>最大输入电压 V_max (V)</label>
+                    <input type="number" step="0.1" id="inverter_v_max" value="600.0">
+                </div>
+                <div class="form-group">
+                    <label>单相最大功率 (kW)</label>
+                    <input type="number" step="0.1" id="inverter_max_single_phase_kw" value="10.0">
+                </div>
+                <div class="form-group">
+                    <label>三相最大功率 (kW)</label>
+                    <input type="number" step="0.1" id="inverter_max_three_phase_kw" value="30.0">
+                </div>
+            </div>
+
+            <h3>🔋 电池参数（预留）</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>标准容量规格 (kWh，逗号分隔)</label>
+                    <input type="text" id="battery_standard_capacities" value="5.0, 9.6, 13.5, 19.2">
+                </div>
+                <div class="form-group">
+                    <label>放电深度 DoD</label>
+                    <input type="number" step="0.01" id="battery_dod" value="0.9">
+                </div>
+                <div class="form-group">
+                    <label>往返效率 RTE</label>
+                    <input type="number" step="0.01" id="battery_rte" value="0.95">
+                </div>
+                <div class="form-group">
+                    <label>充放电倍率 C-Rate</label>
+                    <input type="number" step="0.1" id="battery_c_rate" value="0.5">
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. 策略配置 -->
+        <div class="card">
+            <h2>5️⃣ 策略配置</h2>
+            <div class="info-box">
+                配置不同策略的名称和电池容量系数。系数越大，配置的电池容量越大。
+            </div>
+            
+            <div id="strategiesContainer">
+                <div class="strategy-item">
+                    <div class="strategy-grid">
+                        <div class="form-group">
+                            <label>策略A名称</label>
+                            <input type="text" id="strategy_a_name" value="经济型">
+                        </div>
+                        <div class="form-group">
+                            <label>电池容量系数 (Battery Ratio)</label>
+                            <input type="number" step="0.1" id="strategy_a_ratio" value="0.4">
+                        </div>
+                        <div style="color: #666; font-size: 13px; padding-top: 20px;">
+                            电池容量 = 夜间用电 × 0.4
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-item">
+                    <div class="strategy-grid">
+                        <div class="form-group">
+                            <label>策略B名称</label>
+                            <input type="text" id="strategy_b_name" value="平衡型">
+                        </div>
+                        <div class="form-group">
+                            <label>电池容量系数 (Battery Ratio)</label>
+                            <input type="number" step="0.1" id="strategy_b_ratio" value="1.0">
+                        </div>
+                        <div style="color: #666; font-size: 13px; padding-top: 20px;">
+                            电池容量 = 夜间用电 × 1.0 <strong>(推荐)</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="strategy-item">
+                    <div class="strategy-grid">
+                        <div class="form-group">
+                            <label>策略C名称</label>
+                            <input type="text" id="strategy_c_name" value="高端型">
+                        </div>
+                        <div class="form-group">
+                            <label>电池容量系数 (Battery Ratio)</label>
+                            <input type="number" step="0.1" id="strategy_c_ratio" value="1.5">
+                        </div>
+                        <div style="color: #666; font-size: 13px; padding-top: 20px;">
+                            电池容量 = 夜间用电 × 1.5
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 操作按钮 -->
+        <div class="card">
+            <div class="btn-group">
+                <button onclick="exportConfig()">💾 导出配置 (JSON)</button>
+                <button class="secondary" onclick="importConfig()">📥 导入配置</button>
+                <button class="secondary" onclick="applyToCalculator()">✅ 应用到计算器</button>
+                <button class="secondary" onclick="resetDefaults()">🔄 恢复默认值</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="config-params.js"></script>
+</body>
+</html>

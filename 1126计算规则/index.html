@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>澳洲光伏系统计算工具集</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container { max-width: 900px; width: 100%; }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        .card-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        .card-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .card-desc {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .card-badge {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        .info-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            color: white;
+        }
+        .info-card h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .info-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .info-card li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .info-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>☀️ 澳洲光伏系统计算工具集</h1>
+            <p>Australian Solar System Calculation Toolkit</p>
+        </div>
+
+        <div class="info-card">
+            <h3>🎯 核心功能</h3>
+            <ul>
+                <li>5步推断流程：负荷分析 → 电池定容 → 逆变器选型 → 光伏反推 → 物理校验</li>
+                <li>基于澳洲各州真实用电数据</li>
+                <li>支持A/B/C三种配置策略</li>
+                <li>详细的计算步骤展示</li>
+            </ul>
+        </div>
+
+        <div class="cards">
+            <a href="solar-calculator.html" class="card">
+                <div class="card-icon">🔍</div>
+                <div class="card-title">光伏组件推断计算器</div>
+                <div class="card-desc">
+                    输入用户用电量和屋顶信息，自动计算最优的光伏、电池和逆变器配置方案。
+                    展示完整的5步计算过程和详细公式。
+                </div>
+                <span class="card-badge">主计算器</span>
+            </a>
+
+            <a href="config-params.html" class="card">
+                <div class="card-icon">⚙️</div>
+                <div class="card-title">上游参数配置</div>
+                <div class="card-desc">
+                    配置和管理所有预设参数，包括各州用电曲线、硬件规格、策略系数等。
+                    支持导入导出配置文件。
+                </div>
+                <span class="card-badge">参数管理</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>📚 详细算法说明请参考 <strong>1126xq.md</strong></p>
+            <p style="margin-top: 10px;">Version 1.0 | 2024</p>
+        </div>
+    </div>
+</body>
+</html>
