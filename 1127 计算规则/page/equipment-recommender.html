@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>光伏设备智能推荐系统 - 完整推导版</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="config-loader.js"></script>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
         .card { transition: all 0.3s ease; }
@@ -482,6 +483,13 @@ id_0	slope	aspect	nums
             currentState: 'NSW'
         };
 
+        // ================= 加载配置 =================
+        const CONFIG = loadConfig();
+        console.log('📋 当前配置:', CONFIG);
+
+        // 逆变器规格配置（从CONFIG读取）
+        const INVERTER_CONFIG = CONFIG.inverter;
+
         // ================= 解析函数 =================
         
         function parsePVData() {
@@ -729,15 +737,15 @@ id_0	slope	aspect	nums
             // 方案A逆变器选型（高端型配储能，允许更高容配比）
             derivationLog[stepAIndex].details.push({ text: `方案类型: 高端型 (含储能) → 允许容配比 150%-200%` });
             
-            // 使用180%的目标容配比（Hybrid系统的合理范围）
-            let invA_size = Math.ceil(resultA.totalKw / 1.8);
+            // 使用配置的目标容配比（Hybrid系统的合理范围）
+            let invA_size = Math.ceil(resultA.totalKw / INVERTER_CONFIG.targetRatio);
             let stdSizesA;
             if (phaseType === 'single') {
-                stdSizesA = [5, 6, 8, 10];  // 单相限制
-                derivationLog[stepAIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器限制 ≤10kW` });
+                stdSizesA = INVERTER_CONFIG.single.a;  // 从配置读取
+                derivationLog[stepAIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器限制 ≤${Math.max(...stdSizesA)}kW (配置: ${stdSizesA.join(', ')})` });
             } else {
-                stdSizesA = [5, 8, 10, 15, 20, 30];  // 三相可选大功率
-                derivationLog[stepAIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器可选 ≤30kW` });
+                stdSizesA = INVERTER_CONFIG.three.a;  // 从配置读取
+                derivationLog[stepAIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器可选 ≤${Math.max(...stdSizesA)}kW (配置: ${stdSizesA.join(', ')})` });
             }
             let invA = stdSizesA.find(s => s >= invA_size) || stdSizesA[stdSizesA.length - 1];
             
@@ -858,18 +866,18 @@ id_0	slope	aspect	nums
             // 方案B逆变器选型（Hybrid，目标容配比180%）
             derivationLog[stepBIndex].details.push({ text: `方案类型: 平衡型 (含储能) → 允许容配比 150%-200%` });
             
-            // 使用180%的目标容配比
-            const targetInvB = Math.ceil(resultB.totalKw / 1.8);
+            // 使用配置的目标容配比
+            const targetInvB = Math.ceil(resultB.totalKw / INVERTER_CONFIG.targetRatio);
             
             let invB;
             if (phaseType === 'single') {
-                const singleOptions = [5, 8];
-                invB = singleOptions.find(s => s >= targetInvB) || 8;
-                derivationLog[stepBIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器 ≤8kW` });
+                const singleOptions = INVERTER_CONFIG.single.b;  // 从配置读取
+                invB = singleOptions.find(s => s >= targetInvB) || singleOptions[singleOptions.length - 1];
+                derivationLog[stepBIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器 ≤${Math.max(...singleOptions)}kW (配置: ${singleOptions.join(', ')})` });
             } else {
-                const threeOptions = [5, 8, 10, 15];
-                invB = threeOptions.find(s => s >= targetInvB) || 15;
-                derivationLog[stepBIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器 ≤15kW` });
+                const threeOptions = INVERTER_CONFIG.three.b;  // 从配置读取
+                invB = threeOptions.find(s => s >= targetInvB) || threeOptions[threeOptions.length - 1];
+                derivationLog[stepBIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器 ≤${Math.max(...threeOptions)}kW (配置: ${threeOptions.join(', ')})` });
             }
             
             const ratioB = (resultB.totalKw / invB * 100).toFixed(0);
@@ -926,18 +934,18 @@ id_0	slope	aspect	nums
             // 方案C逆变器选型（经济型也配储能，目标容配比180%）
             derivationLog[stepCIndex].details.push({ text: `方案类型: 经济型 (含储能) → 允许容配比 150%-200%` });
             
-            // 使用180%的目标容配比
-            const targetInvC = Math.ceil(resultC.totalKw / 1.8);
+            // 使用配置的目标容配比
+            const targetInvC = Math.ceil(resultC.totalKw / INVERTER_CONFIG.targetRatio);
             
             let invC;
             if (phaseType === 'single') {
-                const singleOptions = [5, 8];
-                invC = singleOptions.find(s => s >= targetInvC) || 5;
-                derivationLog[stepCIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器 ≤8kW` });
+                const singleOptions = INVERTER_CONFIG.single.c;  // 从配置读取
+                invC = singleOptions.find(s => s >= targetInvC) || singleOptions[0];
+                derivationLog[stepCIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器 ≤${Math.max(...singleOptions)}kW (配置: ${singleOptions.join(', ')})` });
             } else {
-                const threeOptions = [5, 8, 10];
-                invC = threeOptions.find(s => s >= targetInvC) || 5;
-                derivationLog[stepCIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器 ≤10kW` });
+                const threeOptions = INVERTER_CONFIG.three.c;  // 从配置读取
+                invC = threeOptions.find(s => s >= targetInvC) || threeOptions[threeOptions.length - 1];
+                derivationLog[stepCIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器 ≤${Math.max(...threeOptions)}kW (配置: ${threeOptions.join(', ')})` });
             }
             
             const ratioC = (resultC.totalKw / invC * 100).toFixed(0);

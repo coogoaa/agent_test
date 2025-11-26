@@ -408,17 +408,29 @@
 
         <!-- 操作按钮 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
-            <div class="flex gap-4">
-                <button id="export-config" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 font-semibold">
-                    导出配置 (JSON)
+            <div class="flex gap-4 flex-wrap">
+                <button id="save-config" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 font-semibold flex items-center gap-2">
+                    💾 保存配置
                 </button>
-                <button id="reset-config" class="bg-gray-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 font-semibold">
-                    重置为默认值
+                <button id="export-config" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 font-semibold flex items-center gap-2">
+                    📥 导出配置 (JSON)
                 </button>
-                <button id="load-config" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 font-semibold">
-                    导入配置文件
+                <button id="load-config" class="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 font-semibold flex items-center gap-2">
+                    📂 导入配置文件
+                </button>
+                <button id="reset-config" class="bg-gray-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 font-semibold flex items-center gap-2">
+                    🔄 重置为默认值
                 </button>
                 <input type="file" id="config-file-input" accept=".json" class="hidden">
+            </div>
+            <div class="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <p class="text-sm text-blue-800">
+                    <strong>💡 使用说明：</strong><br>
+                    • <strong>保存配置</strong>：将当前配置保存到浏览器，所有页面自动使用<br>
+                    • <strong>导出配置</strong>：下载JSON文件，可分享或备份<br>
+                    • <strong>导入配置</strong>：从JSON文件加载配置并自动保存<br>
+                    • <strong>重置</strong>：清除保存的配置，恢复默认值
+                </p>
             </div>
             <p class="text-sm text-gray-600 mt-4">💡 修改后的配置可以导出为JSON文件，在主页面中导入使用</p>
         </div>
@@ -531,6 +543,77 @@
             };
         }
 
+        // 保存配置到localStorage
+        function saveConfig() {
+            const config = collectConfig();
+            localStorage.setItem('solarConfig', JSON.stringify(config));
+            return config;
+        }
+
+        // 从localStorage加载配置
+        function loadConfigFromStorage() {
+            const stored = localStorage.getItem('solarConfig');
+            return stored ? JSON.parse(stored) : null;
+        }
+
+        // 应用配置到表单
+        function applyConfigToForm(config) {
+            if (!config) return;
+            
+            // PV配置
+            document.getElementById('pv-model').value = config.pv.model;
+            document.getElementById('pv-pmax').value = config.pv.pmax;
+            
+            // 电池配置
+            document.getElementById('battery-premium-daily').value = config.battery.premium.daily;
+            document.getElementById('battery-premium-evening').value = config.battery.premium.evening;
+            document.getElementById('battery-premium-pv').value = config.battery.premium.pv;
+            document.getElementById('battery-balanced-daily').value = config.battery.balanced.daily;
+            document.getElementById('battery-balanced-evening').value = config.battery.balanced.evening;
+            document.getElementById('battery-balanced-pv').value = config.battery.balanced.pv;
+            document.getElementById('battery-economy-daily').value = config.battery.economy.daily;
+            document.getElementById('battery-economy-evening').value = config.battery.economy.evening;
+            document.getElementById('battery-economy-pv').value = config.battery.economy.pv;
+            document.getElementById('battery-standards').value = config.battery.standards.join(', ');
+            
+            // 逆变器配置
+            document.getElementById('inv-single-a').value = config.inverter.single.a.join(', ');
+            document.getElementById('inv-single-b').value = config.inverter.single.b.join(', ');
+            document.getElementById('inv-single-c').value = config.inverter.single.c.join(', ');
+            document.getElementById('inv-three-a').value = config.inverter.three.a.join(', ');
+            document.getElementById('inv-three-b').value = config.inverter.three.b.join(', ');
+            document.getElementById('inv-three-c').value = config.inverter.three.c.join(', ');
+            document.getElementById('inv-target-ratio').value = config.inverter.targetRatio;
+            document.getElementById('inv-max-ratio').value = config.inverter.maxRatio;
+            
+            // 用电量配置
+            Object.keys(config.consumption).forEach(state => {
+                document.getElementById(`consumption-${state}`).value = config.consumption[state];
+            });
+            
+            // 成本配置
+            document.getElementById('cost-pv-per-kw').value = config.cost.pvPerKw;
+            document.getElementById('cost-inverter-per-kw').value = config.cost.inverterPerKw;
+            document.getElementById('cost-battery-per-kwh').value = config.cost.batteryPerKwh;
+            document.getElementById('cost-gst-rate').value = config.cost.gstRate;
+            
+            // 补贴配置
+            document.getElementById('subsidy-stc-price').value = config.subsidy.stcPrice;
+            document.getElementById('subsidy-install-year').value = config.subsidy.installYear;
+            document.getElementById('subsidy-deeming-end-year').value = config.subsidy.deemingEndYear;
+            document.getElementById('subsidy-battery-stc-factor').value = config.subsidy.batteryStcFactor;
+            document.getElementById('subsidy-battery-capacity-cap').value = config.subsidy.batteryCapacityCap;
+            Object.keys(config.subsidy.zoneRating).forEach(state => {
+                document.getElementById(`zone-rating-${state}`).value = config.subsidy.zoneRating[state];
+            });
+        }
+
+        // 保存配置按钮（新增）
+        document.getElementById('save-config').addEventListener('click', () => {
+            saveConfig();
+            alert('✅ 配置已保存！\n\n所有页面将使用新配置。');
+        });
+
         // 导出配置
         document.getElementById('export-config').addEventListener('click', () => {
             const config = collectConfig();
@@ -544,7 +627,8 @@
 
         // 重置配置
         document.getElementById('reset-config').addEventListener('click', () => {
-            if (confirm('确定要重置所有配置为默认值吗？')) {
+            if (confirm('确定要重置所有配置为默认值吗？\n\n这将清除localStorage中的配置并刷新页面。')) {
+                localStorage.removeItem('solarConfig');
                 location.reload();
             }
         });
@@ -558,15 +642,31 @@
             const file = e.target.files[0];
             if (!file) return;
             
-            const text = await file.text();
-            const config = JSON.parse(text);
-            
-            // 填充表单
-            document.getElementById('pv-model').value = config.pv.model;
-            document.getElementById('pv-pmax').value = config.pv.pmax;
-            // ... 其他字段类似
-            
-            alert('配置已导入！');
+            try {
+                const text = await file.text();
+                const config = JSON.parse(text);
+                
+                // 应用配置到表单
+                applyConfigToForm(config);
+                
+                // 保存到localStorage
+                localStorage.setItem('solarConfig', JSON.stringify(config));
+                
+                alert('✅ 配置已导入并保存！\n\n表单已更新，所有页面将使用新配置。');
+            } catch (error) {
+                alert('❌ 导入失败：' + error.message);
+            }
+        });
+
+        // 页面加载时自动加载保存的配置
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedConfig = loadConfigFromStorage();
+            if (savedConfig) {
+                applyConfigToForm(savedConfig);
+                console.log('✅ 已加载保存的配置');
+            } else {
+                console.log('ℹ️ 使用默认配置');
+            }
         });
 
         // 自定义房屋
