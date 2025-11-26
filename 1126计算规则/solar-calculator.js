@@ -480,7 +480,7 @@ function generateResultHTML(result, strategy) {
                 <div class="formula">夜间比例 (18:00-06:00) = ${(step1.nightRatioSum * 100).toFixed(2)}%</div>
                 <div class="formula">夜间用电 = ${step1.dailyAvgKwh.toFixed(2)} × ${(step1.nightRatioSum * 100).toFixed(2)}% = ${step1.nightlyConsumptionKwh.toFixed(2)} kWh</div>
                 <div class="formula">最大小时比例 = ${(step1.maxHourlyRatio * 100).toFixed(2)}%</div>
-                <div class="formula">峰值功率 = ${step1.dailyAvgKwh.toFixed(2)} × ${(step1.maxHourlyRatio * 100).toFixed(2)}% × 1.5 = ${step1.peakPowerKw.toFixed(2)} kW</div>
+                <div class="formula">峰值功率 = ${step1.dailyAvgKwh.toFixed(2)} × ${(step1.maxHourlyRatio * 100).toFixed(2)}% × 1.2 = ${step1.peakPowerKw.toFixed(2)} kW</div>
             </div>
         </div>
 
@@ -500,8 +500,8 @@ function generateResultHTML(result, strategy) {
             <div class="calc-step-title">⚡ 选择单相混合逆变器</div>
             <div class="calc-detail">
                 <div class="formula">电池充放电功率需求 = 电池容量 × 0.5C = ${step2.selectedBatteryKwh} × 0.5 = ${step3.minInverterKwByBattery.toFixed(2)} kW</div>
-                <div class="formula">峰值负载覆盖 = 峰值功率 × 0.7 = ${step1.peakPowerKw.toFixed(2)} × 0.7 = ${(step1.peakPowerKw * 0.7).toFixed(2)} kW</div>
-                <div class="formula">目标逆变器功率 = max(${step3.minInverterKwByBattery.toFixed(2)}, ${(step1.peakPowerKw * 0.7).toFixed(2)}) = ${step3.targetInverterKw.toFixed(2)} kW</div>
+                <div class="formula">峰值负载覆盖 = 峰值功率 × 1.0 = ${step1.peakPowerKw.toFixed(2)} × 1.0 = ${(step1.peakPowerKw * 1.0).toFixed(2)} kW</div>
+                <div class="formula">目标逆变器功率 = max(${step3.minInverterKwByBattery.toFixed(2)}, ${(step1.peakPowerKw * 1.0).toFixed(2)}) = ${step3.targetInverterKw.toFixed(2)} kW</div>
                 <div class="formula">标准逆变器库: [5.0, 6.0, 8.0, 10.0] kW</div>
                 <div class="formula"><strong>✅ 选定逆变器功率 = ${step3.selectedInverterKw} kW (单相上限10kW)</strong></div>
             </div>
@@ -511,7 +511,7 @@ function generateResultHTML(result, strategy) {
         <div class="calc-step">
             <div class="calc-step-title">☀️ 计算理想光伏板数量</div>
             <div class="calc-detail">
-                <div class="formula">容配比 (DC/AC Ratio) = ${step4.appliedRatio} ${step2.selectedBatteryKwh < 7 ? '(电池<7kWh)' : '(电池≥7kWh, 澳洲黄金配置)'}</div>
+                <div class="formula">容配比 (DC/AC Ratio) = ${step4.appliedRatio} (基于${result.strategy}策略)</div>
                 <div class="formula">目标光伏功率 = 逆变器功率 × 容配比 = ${step3.selectedInverterKw} × ${step4.appliedRatio} = ${step4.targetDcKw.toFixed(2)} kW</div>
                 <div class="formula">目标面板数量 = ${step4.targetDcKw.toFixed(2)} kW × 1000 ÷ 440W = ${step4.targetPanelCount} 块</div>
                 <div class="formula"><strong>✅ 理想配置 = ${step4.targetPanelCount} 块面板 (${step4.targetDcKw.toFixed(2)} kW)</strong></div>
