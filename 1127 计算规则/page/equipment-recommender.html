@@ -891,11 +891,73 @@ id_0	slope	aspect	nums
                 text: `实际容配比: ${resultB.totalKw.toFixed(2)}kW / ${invB}kW = ${ratioB}%`
             });
             
+            // 检查容配比是否超标
             if (parseInt(ratioB) > 200) {
                 derivationLog[stepBIndex].details.push({ 
                     text: `⚠️ 容配比 ${ratioB}% 超过 200%，违反澳洲Hybrid系统规则！`,
                     warning: true
                 });
+                
+                // 尝试增大逆变器
+                const minInvForCompliance = Math.ceil(resultB.totalKw / 2.0);
+                const threeOptions = phaseType === 'single' ? INVERTER_CONFIG.single.b : INVERTER_CONFIG.three.b;
+                const compliantInv = threeOptions.find(s => s >= minInvForCompliance);
+                
+                if (compliantInv && compliantInv > invB) {
+                    // 可以通过增大逆变器解决
+                    invB = compliantInv;
+                    const newRatio = (resultB.totalKw / invB * 100).toFixed(0);
+                    derivationLog[stepBIndex].details.push({ 
+                        text: `✓ 调整为 ${invB}kW 逆变器 → 容配比 ${newRatio}% (符合规则)`,
+                        highlight: true
+                    });
+                } else {
+                    // 逆变器已达上限，需要减少面板
+                    const maxInv = threeOptions[threeOptions.length - 1];
+                    const maxAllowedKw = maxInv * 2.0;  // 200%容配比
+                    const excessKw = resultB.totalKw - maxAllowedKw;
+                    const panelsToRemove = Math.ceil((excessKw * 1000) / PV_WATT);
+                    
+                    derivationLog[stepBIndex].details.push({ 
+                        text: `逆变器已达${phaseType === 'single' ? '单相' : '三相'}最大 ${maxInv}kW，需减少面板`,
+                        warning: true
+                    });
+                    derivationLog[stepBIndex].details.push({ 
+                        text: `最大允许: ${maxInv}kW × 200% = ${maxAllowedKw.toFixed(2)}kW`
+                    });
+                    derivationLog[stepBIndex].details.push({ 
+                        text: `超出: ${excessKw.toFixed(2)}kW → 需减少 ${panelsToRemove} 片面板`
+                    });
+                    
+                    // 从低分坡面开始减板子
+                    let removedCount = 0;
+                    const sortedByScore = [...roofPlanes].sort((a, b) => a.score - b.score);
+                    
+                    for (let plane of sortedByScore) {
+                        if (removedCount >= panelsToRemove) break;
+                        if (plane.max === 0) continue;
+                        
+                        const canRemove = Math.min(plane.max, panelsToRemove - removedCount);
+                        plane.max -= canRemove;
+                        removedCount += canRemove;
+                        
+                        derivationLog[stepBIndex].details.push({ 
+                            text: `  - 从 ${plane.id} (评分${plane.score.toFixed(0)}) 移除 ${canRemove} 片`
+                        });
+                    }
+                    
+                    // 重新计算
+                    resultB.count -= removedCount;
+                    resultB.totalKw = (resultB.count * PV_WATT / 1000);
+                    invB = maxInv;
+                    const finalRatio = (resultB.totalKw / invB * 100).toFixed(0);
+                    
+                    derivationLog[stepBIndex].details.push({ 
+                        text: `✓ 调整后: ${resultB.count}片 × ${PV_WATT}W = ${resultB.totalKw.toFixed(2)}kW / ${invB}kW = ${finalRatio}%`,
+                        highlight: true,
+                        success: true
+                    });
+                }
             } else if (parseInt(ratioB) < 150) {
                 derivationLog[stepBIndex].details.push({ 
                     text: `💡 容配比 ${ratioB}% 偏低，可考虑减小逆变器`
@@ -959,11 +1021,73 @@ id_0	slope	aspect	nums
                 text: `实际容配比: ${resultC.totalKw.toFixed(2)}kW / ${invC}kW = ${ratioC}%`
             });
             
+            // 检查容配比是否超标
             if (parseInt(ratioC) > 200) {
                 derivationLog[stepCIndex].details.push({ 
                     text: `⚠️ 容配比 ${ratioC}% 超过 200%，违反澳洲Hybrid系统规则！`,
                     warning: true
                 });
+                
+                // 尝试增大逆变器
+                const minInvForCompliance = Math.ceil(resultC.totalKw / 2.0);
+                const threeOptions = phaseType === 'single' ? INVERTER_CONFIG.single.c : INVERTER_CONFIG.three.c;
+                const compliantInv = threeOptions.find(s => s >= minInvForCompliance);
+                
+                if (compliantInv && compliantInv > invC) {
+                    // 可以通过增大逆变器解决
+                    invC = compliantInv;
+                    const newRatio = (resultC.totalKw / invC * 100).toFixed(0);
+                    derivationLog[stepCIndex].details.push({ 
+                        text: `✓ 调整为 ${invC}kW 逆变器 → 容配比 ${newRatio}% (符合规则)`,
+                        highlight: true
+                    });
+                } else {
+                    // 逆变器已达上限，需要减少面板
+                    const maxInv = threeOptions[threeOptions.length - 1];
+                    const maxAllowedKw = maxInv * 2.0;  // 200%容配比
+                    const excessKw = resultC.totalKw - maxAllowedKw;
+                    const panelsToRemove = Math.ceil((excessKw * 1000) / PV_WATT);
+                    
+                    derivationLog[stepCIndex].details.push({ 
+                        text: `逆变器已达${phaseType === 'single' ? '单相' : '三相'}最大 ${maxInv}kW，需减少面板`,
+                        warning: true
+                    });
+                    derivationLog[stepCIndex].details.push({ 
+                        text: `最大允许: ${maxInv}kW × 200% = ${maxAllowedKw.toFixed(2)}kW`
+                    });
+                    derivationLog[stepCIndex].details.push({ 
+                        text: `超出: ${excessKw.toFixed(2)}kW → 需减少 ${panelsToRemove} 片面板`
+                    });
+                    
+                    // 从低分坡面开始减板子
+                    let removedCount = 0;
+                    const sortedByScore = [...roofPlanes].sort((a, b) => a.score - b.score);
+                    
+                    for (let plane of sortedByScore) {
+                        if (removedCount >= panelsToRemove) break;
+                        if (plane.max === 0) continue;
+                        
+                        const canRemove = Math.min(plane.max, panelsToRemove - removedCount);
+                        plane.max -= canRemove;
+                        removedCount += canRemove;
+                        
+                        derivationLog[stepCIndex].details.push({ 
+                            text: `  - 从 ${plane.id} (评分${plane.score.toFixed(0)}) 移除 ${canRemove} 片`
+                        });
+                    }
+                    
+                    // 重新计算
+                    resultC.count -= removedCount;
+                    resultC.totalKw = (resultC.count * PV_WATT / 1000);
+                    invC = maxInv;
+                    const finalRatio = (resultC.totalKw / invC * 100).toFixed(0);
+                    
+                    derivationLog[stepCIndex].details.push({ 
+                        text: `✓ 调整后: ${resultC.count}片 × ${PV_WATT}W = ${resultC.totalKw.toFixed(2)}kW / ${invC}kW = ${finalRatio}%`,
+                        highlight: true,
+                        success: true
+                    });
+                }
             } else if (parseInt(ratioC) < 150) {
                 derivationLog[stepCIndex].details.push({ 
                     text: `💡 容配比 ${ratioC}% 偏低，可考虑减小逆变器`
