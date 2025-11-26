@@ -65,6 +65,11 @@
         <input type="text" id="config_panel_price_per_kw" value="540">
         <input type="text" id="config_inverter_price_per_kw" value="280">
         <input type="text" id="config_battery_price_per_kwh" value="865">
+        <input type="text" id="config_gst_rate" value="0.1">
+        <input type="text" id="config_deeming_period" value="6">
+        <input type="text" id="config_pv_stc_price" value="39">
+        <input type="text" id="config_battery_stc_factor" value="9.3">
+        <input type="text" id="config_battery_stc_price" value="39">
         <input type="text" id="config_inverter_v_start" value="100.0">
         <input type="text" id="config_inverter_max_single_phase_kw" value="10.0">
         <input type="text" id="config_inverter_standard_powers" value="3.0, 5.0, 6.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0">
@@ -75,9 +80,9 @@
         <input type="text" id="config_battery_large_ratio" value="1.8">
         
         <!-- 必需的DOM元素 -->
-        <input type="text" id="userState" value="NSW">
+        <input type="text" id="userState" value="QLD">
         <input type="text" id="userAnnualUsage" value="8000">
-        <input type="text" id="userPostcode" value="2000">
+        <input type="text" id="userPostcode" value="4000">
         <div id="roofPlanesContainer"></div>
         <form id="calcForm"></form>
     </div>
@@ -96,11 +101,11 @@
             document.getElementById('results').innerHTML = '';
             document.getElementById('summary').style.display = 'none';
 
-            // 固定用户输入
+            // 固定用户输入（默认QLD，仅考虑联邦补贴）
             const userInput = {
                 annual_usage_kwh: 8000,
-                state: 'NSW',
-                postcode: '2000'
+                state: 'QLD',
+                postcode: '4000'
             };
 
             // 固定硬件参数（从配置读取）
@@ -136,16 +141,62 @@
                     const resultB = generateSolarProposal(userInput, roofPlanes, panelSpecs, inverterSpecs, 'B');
                     const resultC = generateSolarProposal(userInput, roofPlanes, panelSpecs, inverterSpecs, 'C');
 
-                    // 计算成本（简化版）
-                    const costA = calculateSimpleCost(resultA);
-                    const costB = calculateSimpleCost(resultB);
-                    const costC = calculateSimpleCost(resultC);
+                    // 成本/补贴配置（仅联邦补贴，禁用州补贴）
+                    const costConfig = {
+                        state: userInput.state,
+                        postcode: userInput.postcode,
+                        panel_price_per_kw: parseFloat(document.getElementById('config_panel_price_per_kw')?.value || 540),
+                        inverter_price_per_kw: parseFloat(document.getElementById('config_inverter_price_per_kw')?.value || 280),
+                        battery_price_per_kwh: parseFloat(document.getElementById('config_battery_price_per_kwh')?.value || 865),
+                        gst_rate: parseFloat(document.getElementById('config_gst_rate')?.value || 0.1),
+                        deeming_period: parseFloat(document.getElementById('config_deeming_period')?.value || 6),
+                        pv_stc_price: parseFloat(document.getElementById('config_pv_stc_price')?.value || 39),
+                        battery_stc_factor: parseFloat(document.getElementById('config_battery_stc_factor')?.value || 9.3),
+                        battery_stc_price: parseFloat(document.getElementById('config_battery_stc_price')?.value || 39),
+                        enable_vic_rebate: false,
+                        enable_nsw_vpp: false
+                    };
+
+                    // 完整成本与补贴
+                    const fullA = calculateCostAndSubsidy(resultA, costConfig);
+                    const fullB = calculateCostAndSubsidy(resultB, costConfig);
+                    const fullC = calculateCostAndSubsidy(resultC, costConfig);
+
+                    // 衍生指标（扣电池与kW单价）
+                    function buildDerived(full, res) {
+                        const pvKw = res.step5.finalSystemKw;
+                        const gstRate = costConfig.gst_rate;
+                        const panelEx = full.costs.panel || 0;
+                        const inverterEx = full.costs.inverter || 0;
+                        const batteryEx = full.costs.battery || 0;
+                        const noBattEx = panelEx + inverterEx;
+                        const noBattInc = noBattEx * (1 + gstRate);
+                        const pvStc = full.subsidies.pvStc || 0;
+                        const finalFullInc = full.finalPrice; // 含税-全部联邦补贴
+                        const finalExBattInc = noBattInc - pvStc; // 扣电池与电池补贴，仅保留PV STC
+                        const kwNoBattEx = pvKw > 0 ? noBattEx / pvKw : 0;
+                        const kwNoBattInc = pvKw > 0 ? noBattInc / pvKw : 0;
+                        const kwNoBattIncAfterPv = pvKw > 0 ? (noBattInc - pvStc) / pvKw : 0;
+                        const zoneFactor = getZoneFactorByPostcode(userInput.postcode);
+                        return {
+                            zoneFactor,
+                            finalFullInc,
+                            finalExBattInc,
+                            kwNoBattEx,
+                            kwNoBattInc,
+                            kwNoBattIncAfterPv
+                        };
+                    }
+
+                    const derivedA = buildDerived(fullA, resultA);
+                    const derivedB = buildDerived(fullB, resultB);
+                    const derivedC = buildDerived(fullC, resultC);
 
                     testResults.push({
                         panelCount,
-                        strategyA: { ...resultA, cost: costA },
-                        strategyB: { ...resultB, cost: costB },
-                        strategyC: { ...resultC, cost: costC }
+                        strategyA: { ...resultA, costFull: fullA, derived: derivedA },
+                        strategyB: { ...resultB, costFull: fullB, derived: derivedB },
+                        strategyC: { ...resultC, costFull: fullC, derived: derivedC }
                     });
                 } catch (error) {
                     console.error(`Error at panel count ${panelCount}:`, error);
@@ -273,7 +324,17 @@
                 return;
             }
 
-            let csv = 'Panel Count,Strategy,PV kW,Inverter kW,Battery kWh,Total Cost,Cost Without Battery,Price per kW (No Battery)\n';
+            let csv = [
+                'panel_count','strategy',
+                'pv_kw','inverter_kw','battery_kwh',
+                'final_panel_count','min_panels_per_string',
+                'zone_factor','deeming_period',
+                'panel_cost_ex_gst','inverter_cost_ex_gst','battery_cost_ex_gst','pre_tax_total',
+                'gst_rate','gst_amount','system_total_inc_gst',
+                'pv_stc_rebate','battery_stc_rebate','subsidy_total',
+                'final_quote_full_inc_gst','final_quote_excl_battery_inc_gst',
+                'kw_price_no_batt_ex_gst','kw_price_no_batt_inc_gst','kw_price_no_batt_inc_gst_post_pv'
+            ].join(',') + '\n';
             
             testResults.forEach(result => {
                 const strategies = [
@@ -283,7 +344,40 @@
                 ];
 
                 strategies.forEach(s => {
-                    csv += `${result.panelCount},${s.name},${s.data.step5.finalSystemKw.toFixed(2)},${s.data.step3.selectedInverterKw.toFixed(2)},${s.data.step2.selectedBatteryKwh.toFixed(2)},${s.data.cost.totalCost.toFixed(2)},${s.data.cost.costWithoutBattery.toFixed(2)},${s.data.cost.pricePerKwWithoutBattery.toFixed(2)}\n`;
+                    const full = s.data.costFull;
+                    const d = s.data.derived;
+                    const pvKw = s.data.step5.finalSystemKw;
+                    const invKw = s.data.step3.selectedInverterKw;
+                    const batKwh = s.data.step2.selectedBatteryKwh;
+                    const finalPanels = s.data.step5.finalPanelCount;
+                    const minStr = s.data.step5.minPanelsPerString;
+                    const deeming = parseFloat(document.getElementById('config_deeming_period')?.value || 6);
+                    csv += [
+                        result.panelCount,
+                        s.name,
+                        pvKw.toFixed(2),
+                        invKw.toFixed(2),
+                        batKwh.toFixed(2),
+                        finalPanels,
+                        minStr,
+                        d.zoneFactor,
+                        deeming,
+                        (full.costs.panel||0).toFixed(2),
+                        (full.costs.inverter||0).toFixed(2),
+                        (full.costs.battery||0).toFixed(2),
+                        (full.costs.preTaxTotal||0).toFixed(2),
+                        (full.costs.gst ? (full.costs.gst / (full.costs.preTaxTotal||1)).toFixed(3) : (parseFloat(document.getElementById('config_gst_rate')?.value||0.1)).toFixed(3)),
+                        (full.costs.gst||0).toFixed(2),
+                        (full.costs.systemTotal||0).toFixed(2),
+                        (full.subsidies.pvStc||0).toFixed(2),
+                        (full.subsidies.batteryStc||0).toFixed(2),
+                        (full.subsidies.total||0).toFixed(2),
+                        (d.finalFullInc||0).toFixed(2),
+                        (d.finalExBattInc||0).toFixed(2),
+                        (d.kwNoBattEx||0).toFixed(2),
+                        (d.kwNoBattInc||0).toFixed(2),
+                        (d.kwNoBattIncAfterPv||0).toFixed(2)
+                    ].join(',') + '\n';
                 });
             });
 
