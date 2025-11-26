@@ -233,6 +233,51 @@
             };
         }
 
+        // 成本计算函数
+        function calculateCost(pvKw, inverterKw, batteryKwh) {
+            const pvCost = pvKw * COST_CONFIG.pvPerKw;
+            const inverterCost = inverterKw * COST_CONFIG.inverterPerKw;
+            const batteryCost = batteryKwh * COST_CONFIG.batteryPerKwh;
+            const preTaxTotal = pvCost + inverterCost + batteryCost;
+            const taxTotal = preTaxTotal * (1 + COST_CONFIG.gstRate);
+            
+            return {
+                pvCost,
+                inverterCost,
+                batteryCost,
+                preTaxTotal,
+                taxTotal
+            };
+        }
+
+        // 补贴计算函数
+        function calculateSubsidy(pvKw, batteryNominalKwh, state) {
+            const deemingPeriod = SUBSIDY_CONFIG.deemingEndYear - SUBSIDY_CONFIG.installYear + 1;
+            const zoneRating = SUBSIDY_CONFIG.zoneRating[state];
+            
+            // PV STC
+            const pvStc = Math.floor(pvKw * zoneRating * deemingPeriod);
+            
+            // Battery STC - 使用可用容量 (标称容量 × DoD)
+            const usableCapacity = batteryNominalKwh * BATTERY_PARAMS.dod;
+            const cappedUsableCapacity = Math.min(usableCapacity, SUBSIDY_CONFIG.batteryCapacityCap);
+            const batteryStc = Math.floor(cappedUsableCapacity * SUBSIDY_CONFIG.batteryStcFactor);
+            
+            // 总补贴
+            const totalStc = pvStc + batteryStc;
+            const subsidyAmount = totalStc * SUBSIDY_CONFIG.stcPrice;
+            
+            return {
+                deemingPeriod,
+                zoneRating,
+                pvStc,
+                batteryStc,
+                totalStc,
+                subsidyAmount,
+                usableCapacity
+            };
+        }
+
         function generateProposals(houseId, roofData, state, phaseType) {
             const roofPlanes = roofData.map(p => ({...p})).sort((a, b) => b.score - a.score);
             
@@ -296,6 +341,19 @@
             const ratioC = (resultC.totalKw / invC * 100).toFixed(0);
             const batteryC = calculateBatteryCapacity(resultC.totalKw, state, 'economy');
             
+            // 计算成本和补贴
+            const costA = calculateCost(resultA.totalKw, invA, batteryA.standard);
+            const subsidyA = calculateSubsidy(resultA.totalKw, batteryA.standard, state);
+            const finalPriceA = costA.taxTotal - subsidyA.subsidyAmount;
+            
+            const costB = calculateCost(resultB.totalKw, invB, batteryB.standard);
+            const subsidyB = calculateSubsidy(resultB.totalKw, batteryB.standard, state);
+            const finalPriceB = costB.taxTotal - subsidyB.subsidyAmount;
+            
+            const costC = calculateCost(resultC.totalKw, invC, batteryC.standard);
+            const subsidyC = calculateSubsidy(resultC.totalKw, batteryC.standard, state);
+            const finalPriceC = costC.taxTotal - subsidyC.subsidyAmount;
+            
             return {
                 houseId,
                 state,
@@ -308,29 +366,61 @@
                 },
                 planA: {
                     type: '高端型',
-                    pvKw: resultA.totalKw.toFixed(2),
+                    // 数值和单位分离
+                    pvKw_value: resultA.totalKw,
+                    pvKw_unit: 'kW',
                     panels: resultA.count,
-                    inverter: `${invA}kW Hybrid`,
-                    ratio: ratioA + '%',
-                    battery: `${batteryA.standard.toFixed(1)}kWh`,
+                    inverter_value: invA,
+                    inverter_unit: 'kW',
+                    ratio_value: parseInt(ratioA),
+                    ratio_unit: '%',
+                    battery_value: batteryA.standard,
+                    battery_unit: 'kWh',
+                    // 成本和补贴（数值和单位分离）
+                    taxTotal_value: Math.round(costA.taxTotal),
+                    taxTotal_unit: 'AUD',
+                    subsidy_value: Math.round(subsidyA.subsidyAmount),
+                    subsidy_unit: 'AUD',
+                    finalPrice_value: Math.round(finalPriceA),
+                    finalPrice_unit: 'AUD',
                     usedPlanes: resultA.usedPlanes.length
                 },
                 planB: {
                     type: '平衡型',
-                    pvKw: resultB.totalKw.toFixed(2),
+                    pvKw_value: resultB.totalKw,
+                    pvKw_unit: 'kW',
                     panels: resultB.count,
-                    inverter: `${invB}kW Hybrid`,
-                    ratio: ratioB + '%',
-                    battery: `${batteryB.standard.toFixed(1)}kWh`,
+                    inverter_value: invB,
+                    inverter_unit: 'kW',
+                    ratio_value: parseInt(ratioB),
+                    ratio_unit: '%',
+                    battery_value: batteryB.standard,
+                    battery_unit: 'kWh',
+                    taxTotal_value: Math.round(costB.taxTotal),
+                    taxTotal_unit: 'AUD',
+                    subsidy_value: Math.round(subsidyB.subsidyAmount),
+                    subsidy_unit: 'AUD',
+                    finalPrice_value: Math.round(finalPriceB),
+                    finalPrice_unit: 'AUD',
                     usedPlanes: resultB.usedPlanes.length
                 },
                 planC: {
                     type: '经济型',
-                    pvKw: resultC.totalKw.toFixed(2),
+                    pvKw_value: resultC.totalKw,
+                    pvKw_unit: 'kW',
                     panels: resultC.count,
-                    inverter: `${invC}kW Hybrid`,
-                    ratio: ratioC + '%',
-                    battery: `${batteryC.standard.toFixed(1)}kWh`,
+                    inverter_value: invC,
+                    inverter_unit: 'kW',
+                    ratio_value: parseInt(ratioC),
+                    ratio_unit: '%',
+                    battery_value: batteryC.standard,
+                    battery_unit: 'kWh',
+                    taxTotal_value: Math.round(costC.taxTotal),
+                    taxTotal_unit: 'AUD',
+                    subsidy_value: Math.round(subsidyC.subsidyAmount),
+                    subsidy_unit: 'AUD',
+                    finalPrice_value: Math.round(finalPriceC),
+                    finalPrice_unit: 'AUD',
                     usedPlanes: resultC.usedPlanes.length
                 }
             };
@@ -383,6 +473,9 @@
             html += '<th class="border p-2">逆变器</th>';
             html += '<th class="border p-2">容配比</th>';
             html += '<th class="border p-2">电池</th>';
+            html += '<th class="border p-2 bg-blue-100">含税价</th>';
+            html += '<th class="border p-2 bg-green-100">补贴</th>';
+            html += '<th class="border p-2 bg-yellow-100">最终报价</th>';
             html += '</tr></thead><tbody>';
             
             allResults.forEach(r => {
@@ -391,11 +484,14 @@
                     html += `<tr class="hover:bg-gray-50">`;
                     html += `<td class="border p-2">${r.houseId}</td>`;
                     html += `<td class="border p-2">${p.type}</td>`;
-                    html += `<td class="border p-2">${p.pvKw} kW</td>`;
+                    html += `<td class="border p-2">${p.pvKw_value.toFixed(2)} ${p.pvKw_unit}</td>`;
                     html += `<td class="border p-2">${p.panels}</td>`;
-                    html += `<td class="border p-2">${p.inverter}</td>`;
-                    html += `<td class="border p-2">${p.ratio}</td>`;
-                    html += `<td class="border p-2">${p.battery}</td>`;
+                    html += `<td class="border p-2">${p.inverter_value} ${p.inverter_unit}</td>`;
+                    html += `<td class="border p-2">${p.ratio_value}${p.ratio_unit}</td>`;
+                    html += `<td class="border p-2">${p.battery_value.toFixed(1)} ${p.battery_unit}</td>`;
+                    html += `<td class="border p-2 bg-blue-50">$${p.taxTotal_value.toLocaleString()}</td>`;
+                    html += `<td class="border p-2 bg-green-50">$${p.subsidy_value.toLocaleString()}</td>`;
+                    html += `<td class="border p-2 bg-yellow-50 font-bold">$${p.finalPrice_value.toLocaleString()}</td>`;
                     html += `</tr>`;
                 });
             });
@@ -414,11 +510,23 @@
         });
         
         document.getElementById('downloadCsvBtn').addEventListener('click', () => {
-            let csv = '房屋ID,方案,PV容量(kW),面板数,逆变器,容配比,电池(kWh)\n';
+            // CSV表头 - 数值和单位分离
+            let csv = '房屋ID,州,电网相位,方案类型,';
+            csv += 'PV容量(数值),PV容量单位,面板数量,';
+            csv += '逆变器功率(数值),逆变器单位,容配比(数值),容配比单位,';
+            csv += '电池容量(数值),电池单位,';
+            csv += '含税价(数值),含税价单位,补贴(数值),补贴单位,最终报价(数值),最终报价单位,';
+            csv += '使用坡面数\n';
+            
             allResults.forEach(r => {
                 ['planA', 'planB', 'planC'].forEach(plan => {
                     const p = r[plan];
-                    csv += `${r.houseId},${p.type},${p.pvKw},${p.panels},${p.inverter},${p.ratio},${p.battery}\n`;
+                    csv += `${r.houseId},${r.state},${r.phaseType},${p.type},`;
+                    csv += `${p.pvKw_value.toFixed(2)},${p.pvKw_unit},${p.panels},`;
+                    csv += `${p.inverter_value},${p.inverter_unit},${p.ratio_value},${p.ratio_unit},`;
+                    csv += `${p.battery_value.toFixed(1)},${p.battery_unit},`;
+                    csv += `${p.taxTotal_value},${p.taxTotal_unit},${p.subsidy_value},${p.subsidy_unit},${p.finalPrice_value},${p.finalPrice_unit},`;
+                    csv += `${p.usedPlanes}\n`;
                 });
             });
             
@@ -426,7 +534,7 @@
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `solar_proposals_${new Date().getTime()}.csv`;
+            a.download = `solar_proposals_complete_${new Date().getTime()}.csv`;
             a.click();
         });
     </script>
