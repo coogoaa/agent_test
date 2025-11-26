@@ -13,10 +13,84 @@ const STATE_DATA = {
 };
 
 const STRATEGY_CONFIG = {
-    A: { name: "高端型", battery_ratio: 1.5 },
-    B: { name: "平衡型", battery_ratio: 1.0 },
-    C: { name: "经济型", battery_ratio: 0.4 }
+    A: { name: "高端型", battery_ratio: 1.5, dc_ac_ratio: 1.8 },
+    B: { name: "平衡型", battery_ratio: 1.0, dc_ac_ratio: 1.6 },
+    C: { name: "经济型", battery_ratio: 0.4, dc_ac_ratio: 1.5 }
 };
+
+// STC Zone系数映射表（根据postcode前缀）
+const STC_ZONE_FACTORS = {
+    // Zone 1: 北部地区 (1.622)
+    '08': 1.622,  // NT (Darwin等)
+    '09': 1.622,  // NT
+    '48': 1.622,  // QLD北部
+    '49': 1.622,  // QLD北部
+    
+    // Zone 2: 中部地区 (1.536)
+    '40': 1.536,  // QLD中部
+    '41': 1.536,  // QLD中部
+    '42': 1.536,  // QLD中部
+    '43': 1.536,  // QLD中部
+    '44': 1.536,  // QLD中部
+    '45': 1.536,  // QLD中部
+    '46': 1.536,  // QLD中部
+    '47': 1.536,  // QLD中部
+    '50': 1.536,  // SA北部
+    '51': 1.536,  // SA北部
+    '60': 1.536,  // WA北部
+    '61': 1.536,  // WA北部
+    '66': 1.536,  // WA北部
+    '67': 1.536,  // WA北部
+    
+    // Zone 3: 南部地区 (1.382) - 默认
+    '20': 1.382,  // NSW
+    '21': 1.382,  // NSW
+    '22': 1.382,  // NSW
+    '23': 1.382,  // NSW
+    '24': 1.382,  // NSW
+    '25': 1.382,  // NSW
+    '26': 1.382,  // NSW
+    '27': 1.382,  // NSW
+    '28': 1.382,  // NSW
+    '29': 1.382,  // NSW
+    '30': 1.382,  // VIC
+    '31': 1.382,  // VIC
+    '32': 1.382,  // VIC
+    '33': 1.382,  // VIC
+    '34': 1.382,  // VIC
+    '35': 1.382,  // VIC
+    '36': 1.382,  // VIC
+    '37': 1.382,  // VIC
+    '38': 1.382,  // VIC
+    '39': 1.382,  // VIC
+    '52': 1.382,  // SA南部
+    '53': 1.382,  // SA南部
+    '54': 1.382,  // SA南部
+    '55': 1.382,  // SA南部
+    '56': 1.382,  // SA南部
+    '57': 1.382,  // SA南部
+    '58': 1.382,  // SA南部
+    '59': 1.382,  // SA南部
+    '62': 1.382,  // WA南部
+    '63': 1.382,  // WA南部
+    '64': 1.382,  // WA南部
+    '65': 1.382,  // WA南部
+    '68': 1.382,  // WA南部
+    '69': 1.382,  // WA南部
+    '26': 1.382,  // ACT
+    
+    // Zone 4: 塔斯马尼亚 (1.185)
+    '70': 1.185,  // TAS
+    '71': 1.185,  // TAS
+    '72': 1.185,  // TAS
+    '73': 1.185   // TAS
+};
+
+// 根据postcode获取Zone系数
+function getZoneFactorByPostcode(postcode) {
+    const prefix = String(postcode).substring(0, 2);
+    return STC_ZONE_FACTORS[prefix] || 1.382; // 默认Zone 3
+}
 
 // 各州年用电量和邮编默认值
 const STATE_DEFAULTS = {
@@ -194,10 +268,10 @@ function step1_analyzeLoad(userInput, hourlyRatios) {
     const nightRatioSum = nightHoursIndices.reduce((sum, i) => sum + hourlyRatios[i], 0);
     const nightlyConsumptionKwh = dailyAvgKwh * nightRatioSum;
     
-    // 峰值功率
+    // 峰值功率（降低安全系数从1.5到1.2）
     const maxHourlyRatio = Math.max(...hourlyRatios);
     const maxHourlyKwh = dailyAvgKwh * maxHourlyRatio;
-    const peakPowerKw = maxHourlyKwh * 1.5;
+    const peakPowerKw = maxHourlyKwh * 1.2;
     
     return {
         dailyAvgKwh,
@@ -215,22 +289,23 @@ function step2_sizeBattery(loadAnalysis, strategyType) {
     
     const targetCapacity = nightlyLoad * ratio;
     
-    // 从配置读取标准规格和匹配开关
-    const matchStandard = document.getElementById('config_battery_match_standard').checked;
-    const standardBatteries = document.getElementById('config_battery_standard_capacities').value
-        .split(',').map(s => parseFloat(s.trim())).sort((a, b) => a - b);
+    // 从配置读取标准规格和匹配开关（添加null检查）
+    const matchStandard = document.getElementById('config_battery_match_standard')?.checked || false;
+    const standardBatteriesStr = document.getElementById('config_battery_standard_capacities')?.value || '5.0, 9.6, 13.5, 19.2';
+    const standardBatteries = standardBatteriesStr.split(',').map(s => parseFloat(s.trim())).sort((a, b) => a - b);
     
     let selectedBatteryKwh;
     
     if (matchStandard) {
-        // 启用标准规格匹配：选择最接近且不小于目标容量90%的标准规格
+        // 启用标准规格匹配：选择不小于目标容量的最小规格（移除90%阈值）
         selectedBatteryKwh = standardBatteries[0];
         for (let bat of standardBatteries) {
-            if (bat >= targetCapacity * 0.9) {
+            if (bat >= targetCapacity) {
                 selectedBatteryKwh = bat;
                 break;
             }
         }
+        // 如果目标容量超过最大规格，选择最大规格
         if (targetCapacity > standardBatteries[standardBatteries.length - 1]) {
             selectedBatteryKwh = standardBatteries[standardBatteries.length - 1];
         }
@@ -249,19 +324,23 @@ function step2_sizeBattery(loadAnalysis, strategyType) {
 
 // 第三步：逆变器选型
 function step3_selectInverter(batteryKwh, peakLoadKw) {
-    const minInverterKwByBattery = batteryKwh * 0.5;
-    const targetInverterKw = Math.max(minInverterKwByBattery, peakLoadKw * 0.7);
+    // 使用配置的C-Rate，默认0.5
+    const cRate = parseFloat(document.getElementById('config_battery_c_rate')?.value) || 0.5;
+    const minInverterKwByBattery = batteryKwh * cRate;
     
-    // 从配置读取标准规格和匹配开关
-    const matchStandard = document.getElementById('config_inverter_match_standard').checked;
-    const maxSinglePhaseKw = parseFloat(document.getElementById('config_inverter_max_single_phase_kw').value) || 10.0;
+    // 提高覆盖率从0.7到1.0（因为已降低安全系数）
+    const targetInverterKw = Math.max(minInverterKwByBattery, peakLoadKw * 1.0);
+    
+    // 从配置读取标准规格和匹配开关（添加null检查）
+    const matchStandard = document.getElementById('config_inverter_match_standard')?.checked || false;
+    const maxSinglePhaseKw = parseFloat(document.getElementById('config_inverter_max_single_phase_kw')?.value) || 10.0;
     
     let selectedInverterKw;
     
     if (matchStandard) {
         // 启用标准规格匹配：选择最接近且不小于目标功率的标准规格
-        const standardInverters = document.getElementById('config_inverter_standard_powers').value
-            .split(',').map(s => parseFloat(s.trim())).sort((a, b) => a - b);
+        const standardInvertersStr = document.getElementById('config_inverter_standard_powers')?.value || '3.0, 5.0, 6.0, 8.0, 10.0';
+        const standardInverters = standardInvertersStr.split(',').map(s => parseFloat(s.trim())).sort((a, b) => a - b);
         
         selectedInverterKw = standardInverters[0];
         for (let inv of standardInverters) {
@@ -289,12 +368,17 @@ function step3_selectInverter(batteryKwh, peakLoadKw) {
 }
 
 // 第四步：光伏反推
-function step4_calculateTargetPV(inverterKw, batteryKwh, panelWatts) {
-    // 从配置读取容配比
-    const smallRatio = parseFloat(document.getElementById('config_battery_small_ratio').value) || 1.5;
-    const largeRatio = parseFloat(document.getElementById('config_battery_large_ratio').value) || 1.8;
+function step4_calculateTargetPV(inverterKw, batteryKwh, panelWatts, strategyType) {
+    // 优先使用策略配置的容配比
+    let dcAcRatio = STRATEGY_CONFIG[strategyType].dc_ac_ratio;
     
-    const dcAcRatio = batteryKwh < 7.0 ? smallRatio : largeRatio;
+    // 如果策略没有配置，则从配置TAB读取（向后兼容）
+    if (!dcAcRatio) {
+        const smallRatio = parseFloat(document.getElementById('config_battery_small_ratio')?.value) || 1.5;
+        const largeRatio = parseFloat(document.getElementById('config_battery_large_ratio')?.value) || 1.8;
+        dcAcRatio = batteryKwh < 7.0 ? smallRatio : largeRatio;
+    }
+    
     const targetDcKw = inverterKw * dcAcRatio;
     const targetPanelCount = Math.ceil((targetDcKw * 1000) / panelWatts);
     
@@ -368,7 +452,7 @@ function generateSolarProposal(userInput, roofData, panelSpecs, inverterSpecs, s
     const inverterData = step3_selectInverter(batteryData.selectedBatteryKwh, loadData.peakPowerKw);
     
     // 第4步：光伏反推
-    const targetPVData = step4_calculateTargetPV(inverterData.selectedInverterKw, batteryData.selectedBatteryKwh, panelSpecs.watts);
+    const targetPVData = step4_calculateTargetPV(inverterData.selectedInverterKw, batteryData.selectedBatteryKwh, panelSpecs.watts, strategy);
     
     // 第5步：物理校验
     const finalSystem = step5_physicalLayout(targetPVData.targetPanelCount, roofData, panelSpecs, inverterSpecs);
@@ -885,28 +969,7 @@ function resetConfigDefaults() {
 
 // ==================== 成本和补贴计算 ====================
 
-// Postcode到Zone Rating的映射（澳洲STC区域）
-const POSTCODE_ZONE_RATING = {
-    // Zone 1 (1.622)
-    'Zone1': 1.622,
-    // Zone 2 (1.536)
-    'Zone2': 1.536,
-    // Zone 3 (1.382) - 大部分NSW, VIC, SA, TAS
-    'Zone3': 1.382,
-    // Zone 4 (1.185) - 大部分QLD, WA, NT
-    'Zone4': 1.185
-};
-
-// 根据州和邮编获取Zone Rating
-function getZoneRatingByPostcode(state, postcode) {
-    // 简化映射规则
-    if (state === 'QLD' || state === 'WA' || state === 'NT') {
-        return POSTCODE_ZONE_RATING.Zone4; // 1.185
-    } else if (state === 'NSW' || state === 'VIC' || state === 'SA' || state === 'TAS' || state === 'ACT') {
-        return POSTCODE_ZONE_RATING.Zone3; // 1.382
-    }
-    return POSTCODE_ZONE_RATING.Zone3; // 默认
-}
+// 旧的Zone Rating函数已废弃，使用getZoneFactorByPostcode替代
 
 // 成本和补贴计算
 function calculateCostAndSubsidy(systemResult, config) {
@@ -918,7 +981,8 @@ function calculateCostAndSubsidy(systemResult, config) {
     
     const state = config.state || 'NSW';
     const postcode = config.postcode || '2000';
-    const zoneRating = getZoneRatingByPostcode(state, postcode);
+    // 使用新的Zone系数函数（基于postcode）
+    const zoneRating = getZoneFactorByPostcode(postcode);
     
     // 成本计算
     result.steps.push({
