@@ -130,6 +130,15 @@
                 </div>
             </div>
 
+            <!-- 计算按钮 -->
+            <div class="mt-6 pt-6 border-t border-gray-200">
+                <button id="calculateBtn" class="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold py-4 px-6 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center justify-center text-lg">
+                    <span class="text-2xl mr-3">🚀</span>
+                    <span>开始智能计算与推导</span>
+                </button>
+                <p class="text-xs text-gray-500 text-center mt-2">系统将自动生成三套差异化方案并展示完整推导过程</p>
+            </div>
+
             <!-- 屋顶详情展开 -->
             <div class="mt-6 pt-6 border-t border-gray-200">
                 <button id="toggleRoofDetails" class="text-sm text-blue-600 hover:text-blue-800 font-medium flex items-center">
@@ -156,19 +165,7 @@
             </div>
         </div>
 
-        <!-- 2. 推导过程展示区 (核心新增) -->
-        <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-green-500">
-            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
-                <span class="text-2xl mr-2">🧮</span>
-                智能推导过程详解
-            </h2>
-            
-            <div class="space-y-6" id="derivationSteps">
-                <!-- JS 动态填充推导步骤 -->
-            </div>
-        </div>
-
-        <!-- 3. 方案结果展示区 -->
+        <!-- 2. 方案结果展示区 -->
         <div class="mb-8">
             <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
                 <span class="text-2xl mr-2">📋</span>
@@ -218,8 +215,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-gray-50 p-3 border-t border-gray-200">
-                        <p class="text-xs text-gray-600 text-center">策略：物理极限满铺，追求能源独立</p>
+                    <div class="bg-purple-50 p-4 border-t border-purple-200">
+                        <div class="text-center mb-2">
+                            <p class="text-xs text-gray-600 mb-2">最终报价</p>
+                            <div class="flex items-baseline justify-center">
+                                <span class="text-2xl font-bold text-purple-700" id="propA-finalPrice">$0</span>
+                                <span class="text-sm text-gray-500 ml-1">AUD</span>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-1">含税价 <span id="propA-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propA-subsidy" class="font-semibold">$0</span></p>
+                        </div>
+                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-purple-200">策略：物理极限满铺，追求能源独立</p>
                     </div>
                 </div>
 
@@ -266,8 +271,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-gray-50 p-3 border-t border-gray-200">
-                        <p class="text-xs text-gray-600 text-center">策略：Hybrid 超配 (150%-200%)，电池吸收削峰</p>
+                    <div class="bg-blue-50 p-4 border-t border-blue-200">
+                        <div class="text-center mb-2">
+                            <p class="text-xs text-gray-600 mb-2">最终报价</p>
+                            <div class="flex items-baseline justify-center">
+                                <span class="text-2xl font-bold text-blue-700" id="propB-finalPrice">$0</span>
+                                <span class="text-sm text-gray-500 ml-1">AUD</span>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-1">含税价 <span id="propB-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propB-subsidy" class="font-semibold">$0</span></p>
+                        </div>
+                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-blue-200">策略：Hybrid 超配 (150%-200%)，电池吸收削峰</p>
                     </div>
                 </div>
 
@@ -313,9 +326,51 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-gray-50 p-3 border-t border-gray-200">
-                        <p class="text-xs text-gray-600 text-center">策略：6.6kW入门配置，基础储能，快速回本</p>
+                    <div class="bg-green-50 p-4 border-t border-green-200">
+                        <div class="text-center mb-2">
+                            <p class="text-xs text-gray-600 mb-2">最终报价</p>
+                            <div class="flex items-baseline justify-center">
+                                <span class="text-2xl font-bold text-green-700" id="propC-finalPrice">$0</span>
+                                <span class="text-sm text-gray-500 ml-1">AUD</span>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-1">含税价 <span id="propC-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propC-subsidy" class="font-semibold">$0</span></p>
+                        </div>
+                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-green-200">策略：6.6kW入门配置，基础储能，快速回本</p>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. 智能推导过程详解 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-green-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">🧮</span>
+                智能推导过程详解
+            </h2>
+            
+            <!-- Tab切换 -->
+            <div class="border-b border-gray-200 mb-6">
+                <nav class="flex -mb-px">
+                    <button class="derivation-tab active px-6 py-3 text-sm font-medium border-b-2 border-green-500 text-green-600" data-tab="pv-derivation">
+                        ☀️ 光伏系统推导
+                    </button>
+                    <button class="derivation-tab px-6 py-3 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="cost-derivation">
+                        💰 成本计算推导
+                    </button>
+                </nav>
+            </div>
+
+            <!-- 光伏系统推导 -->
+            <div id="pv-derivation" class="derivation-content">
+                <div class="space-y-6" id="derivationSteps">
+                    <!-- JS 动态填充推导步骤 -->
+                </div>
+            </div>
+
+            <!-- 成本计算推导 -->
+            <div id="cost-derivation" class="derivation-content hidden">
+                <div class="space-y-6" id="costDerivationSteps">
+                    <!-- JS 动态填充成本推导步骤 -->
                 </div>
             </div>
         </div>
@@ -379,6 +434,27 @@ id_0	slope	aspect	nums
         const STATE_CONSUMPTION = {
             'TAS': 10148, 'NT': 10008, 'ACT': 8632, 'SA': 7129,
             'NSW': 7778, 'QLD': 7270, 'WA': 7634, 'VIC': 6778
+        };
+
+        // 成本参数配置
+        const COST_CONFIG = {
+            pvPerKw: 540,           // AUD/kW
+            inverterPerKw: 280,     // AUD/kW
+            batteryPerKwh: 865,     // AUD/kWh
+            gstRate: 0.1            // 10%
+        };
+
+        // 补贴参数配置
+        const SUBSIDY_CONFIG = {
+            stcPrice: 39,                    // AUD per STC
+            installYear: 2025,
+            deemingEndYear: 2030,
+            batteryStcFactor: 9.3,           // STC/kWh
+            batteryCapacityCap: 50,          // kWh
+            zoneRating: {
+                'TAS': 1.382, 'NT': 1.622, 'ACT': 1.382, 'SA': 1.536,
+                'NSW': 1.382, 'QLD': 1.536, 'VIC': 1.382, 'WA': 1.536
+            }
         };
 
         // 各州各时段用电比例 (%)
@@ -515,6 +591,50 @@ id_0	slope	aspect	nums
                 methodDesc: methodDesc,
                 dailyConsumption: dailyConsumption,
                 eveningPeak: eveningPeakConsumption
+            };
+        }
+
+        // 成本计算函数
+        function calculateCost(pvKw, inverterKw, batteryKwh) {
+            const pvCost = pvKw * COST_CONFIG.pvPerKw;
+            const inverterCost = inverterKw * COST_CONFIG.inverterPerKw;
+            const batteryCost = batteryKwh * COST_CONFIG.batteryPerKwh;
+            
+            const preTaxTotal = pvCost + inverterCost + batteryCost;
+            const taxTotal = preTaxTotal * (1 + COST_CONFIG.gstRate);
+            
+            return {
+                pvCost,
+                inverterCost,
+                batteryCost,
+                preTaxTotal,
+                taxTotal
+            };
+        }
+
+        // 补贴计算函数
+        function calculateSubsidy(pvKw, batteryKwh, state) {
+            const deemingPeriod = SUBSIDY_CONFIG.deemingEndYear - SUBSIDY_CONFIG.installYear + 1;
+            const zoneRating = SUBSIDY_CONFIG.zoneRating[state];
+            
+            // PV STC
+            const pvStc = Math.floor(pvKw * zoneRating * deemingPeriod);
+            
+            // Battery STC (上限50kWh)
+            const usableBatteryKwh = Math.min(batteryKwh, SUBSIDY_CONFIG.batteryCapacityCap);
+            const batteryStc = Math.floor(usableBatteryKwh * SUBSIDY_CONFIG.batteryStcFactor);
+            
+            // 总补贴
+            const totalStc = pvStc + batteryStc;
+            const subsidyAmount = totalStc * SUBSIDY_CONFIG.stcPrice;
+            
+            return {
+                deemingPeriod,
+                zoneRating,
+                pvStc,
+                batteryStc,
+                totalStc,
+                subsidyAmount
             };
         }
 
