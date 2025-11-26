@@ -845,7 +845,7 @@ id_0	slope	aspect	nums
             derivationLog[stepAIndex].details.push({ text: `储能容量计算 (高端型):` });
             derivationLog[stepAIndex].details.push({ text: `  公式: ${batteryA.methodDesc}` });
             derivationLog[stepAIndex].details.push({ 
-                text: `  推荐容量: ${batteryA.standard} kWh (离网级备电)`,
+                text: `  推荐容量: ${batteryA.standard.toFixed(1)} kWh (离网级备电)`,
                 highlight: true
             });
 
@@ -883,7 +883,7 @@ id_0	slope	aspect	nums
             const ratioB = (resultB.totalKw / invB * 100).toFixed(0);
             
             derivationLog[stepBIndex].details.push({ 
-                text: `逆变器选型: 目标容配比180% → 需要 ${targetInvB}kW → 选择 ${invB}kW Hybrid`,
+                text: `逆变器选型: 目标容配比180% → 需要 ${targetInvB.toFixed(1)}kW → 选择 ${invB}kW Hybrid`,
                 highlight: true
             });
             
@@ -974,7 +974,7 @@ id_0	slope	aspect	nums
             derivationLog[stepBIndex].details.push({ text: `储能容量计算 (平衡型):` });
             derivationLog[stepBIndex].details.push({ text: `  公式: ${batteryB.methodDesc}` });
             derivationLog[stepBIndex].details.push({ 
-                text: `  推荐容量: ${batteryB.standard} kWh (标准化规格)`,
+                text: `  推荐容量: ${batteryB.standard.toFixed(1)} kWh (标准化规格)`,
                 highlight: true
             });
 
@@ -1013,7 +1013,7 @@ id_0	slope	aspect	nums
             const ratioC = (resultC.totalKw / invC * 100).toFixed(0);
             
             derivationLog[stepCIndex].details.push({ 
-                text: `逆变器选型: 目标容配比180% → 需要 ${targetInvC}kW → 选择 ${invC}kW Hybrid`,
+                text: `逆变器选型: 目标容配比180% → 需要 ${targetInvC.toFixed(1)}kW → 选择 ${invC}kW Hybrid`,
                 highlight: true
             });
             
@@ -1104,7 +1104,7 @@ id_0	slope	aspect	nums
             derivationLog[stepCIndex].details.push({ text: `储能容量计算 (经济型):` });
             derivationLog[stepCIndex].details.push({ text: `  公式: ${batteryC.methodDesc}` });
             derivationLog[stepCIndex].details.push({ 
-                text: `  推荐容量: ${batteryC.standard} kWh (基础储能，覆盖晚间基本用电)`,
+                text: `  推荐容量: ${batteryC.standard.toFixed(1)} kWh (基础储能，覆盖晚间基本用电)`,
                 highlight: true
             });
 
