@@ -465,22 +465,10 @@ const CONFIG_HOURLY_RATIOS = {
     VIC: [0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.03941, 0.04714, 0.04714, 0.04714, 0.04714, 0.04714, 0.04714, 0.04714, 0.03941, 0.03941]
 };
 
-let configRoofPlaneCount = 0;
-
 // 初始化配置TAB
 function initConfigTab() {
     renderMonthlyRatiosTable();
     renderHourlyRatiosTable();
-    addConfigRoofPlane();
-    addConfigRoofPlane();
-    updateConfigStateDefaults();
-}
-
-// 更新州默认值
-function updateConfigStateDefaults() {
-    const state = document.getElementById('configUserState').value;
-    document.getElementById('configUserAnnualUsage').value = CONFIG_STATE_ANNUAL_USAGE[state];
-    document.getElementById('configUserPostcode').value = CONFIG_STATE_POSTCODES[state];
 }
 
 // 渲染月度比例表格
@@ -531,64 +519,6 @@ function renderHourlyRatiosTable() {
     table.innerHTML = html;
 }
 
-// 添加配置屋顶坡面
-function addConfigRoofPlane() {
-    const container = document.getElementById('configRoofPlanesContainer');
-    const planeId = String.fromCharCode(65 + configRoofPlaneCount);
-    
-    const defaultValues = [
-        { azimuth: 0, tilt: 20, maxPanels: 10, efficiency: 0.95 },
-        { azimuth: 90, tilt: 20, maxPanels: 8, efficiency: 0.85 },
-        { azimuth: 180, tilt: 20, maxPanels: 6, efficiency: 0.70 },
-        { azimuth: 270, tilt: 20, maxPanels: 8, efficiency: 0.85 }
-    ];
-    
-    const defaults = defaultValues[configRoofPlaneCount] || { azimuth: 0, tilt: 20, maxPanels: 8, efficiency: 0.85 };
-    
-    const planeDiv = document.createElement('div');
-    planeDiv.className = 'roof-plane-item';
-    planeDiv.id = `config_roof_plane_${configRoofPlaneCount}`;
-    planeDiv.innerHTML = `
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-            <strong>屋顶坡面 ${planeId}</strong>
-            <button type="button" onclick="removeConfigRoofPlane(${configRoofPlaneCount})" 
-                style="background: #f44336; padding: 4px 12px; font-size: 12px; margin: 0;">删除</button>
-        </div>
-        <div class="roof-plane-grid">
-            <div class="form-group">
-                <label>坡面ID</label>
-                <input type="text" id="config_plane_id_${configRoofPlaneCount}" value="${planeId}">
-            </div>
-            <div class="form-group">
-                <label>方位角 (°)</label>
-                <input type="number" id="config_plane_azimuth_${configRoofPlaneCount}" value="${defaults.azimuth}">
-            </div>
-            <div class="form-group">
-                <label>倾角 (°)</label>
-                <input type="number" id="config_plane_tilt_${configRoofPlaneCount}" value="${defaults.tilt}">
-            </div>
-            <div class="form-group">
-                <label>最大面板数</label>
-                <input type="number" id="config_plane_max_panels_${configRoofPlaneCount}" value="${defaults.maxPanels}">
-            </div>
-            <div class="form-group">
-                <label>效率评分</label>
-                <input type="number" step="0.01" id="config_plane_efficiency_${configRoofPlaneCount}" value="${defaults.efficiency}">
-            </div>
-        </div>
-    `;
-    
-    container.appendChild(planeDiv);
-    configRoofPlaneCount++;
-}
-
-// 删除配置屋顶坡面
-function removeConfigRoofPlane(index) {
-    const element = document.getElementById(`config_roof_plane_${index}`);
-    if (element) {
-        element.remove();
-    }
-}
 
 // 导出配置
 function exportConfig() {
@@ -631,32 +561,12 @@ function collectAllConfig() {
         }
     });
     
-    const roofPlanes = [];
-    for (let i = 0; i < configRoofPlaneCount; i++) {
-        const planeIdElem = document.getElementById(`config_plane_id_${i}`);
-        if (planeIdElem) {
-            roofPlanes.push({
-                plane_id: planeIdElem.value,
-                azimuth: parseFloat(document.getElementById(`config_plane_azimuth_${i}`).value),
-                tilt: parseFloat(document.getElementById(`config_plane_tilt_${i}`).value),
-                max_panels: parseInt(document.getElementById(`config_plane_max_panels_${i}`).value),
-                efficiency: parseFloat(document.getElementById(`config_plane_efficiency_${i}`).value)
-            });
-        }
-    }
-    
     return {
-        user_info: {
-            state: document.getElementById('configUserState').value,
-            annual_usage_kwh: parseFloat(document.getElementById('configUserAnnualUsage').value),
-            postcode: document.getElementById('configUserPostcode').value
-        },
         state_data: {
             annual_usage: annualUsage,
             monthly_ratios: monthlyRatios,
             hourly_ratios: hourlyRatios
         },
-        roof_planes: roofPlanes,
         hardware: {
             panel: {
                 watts: parseFloat(document.getElementById('config_panel_watts').value),
@@ -690,6 +600,22 @@ function collectAllConfig() {
                 name: document.getElementById('strategy_c_name').value,
                 battery_ratio: parseFloat(document.getElementById('strategy_c_ratio').value)
             }
+        },
+        cost: {
+            panel_price_per_kw: parseFloat(document.getElementById('config_panel_price_per_kw').value),
+            inverter_price_per_kw: parseFloat(document.getElementById('config_inverter_price_per_kw').value),
+            battery_price_per_kwh: parseFloat(document.getElementById('config_battery_price_per_kwh').value),
+            gst_rate: parseFloat(document.getElementById('config_gst_rate').value)
+        },
+        subsidy: {
+            deeming_period: parseFloat(document.getElementById('config_deeming_period').value),
+            pv_stc_price: parseFloat(document.getElementById('config_pv_stc_price').value),
+            battery_stc_factor: parseFloat(document.getElementById('config_battery_stc_factor').value),
+            battery_stc_price: parseFloat(document.getElementById('config_battery_stc_price').value),
+            vic_rebate: parseFloat(document.getElementById('config_vic_rebate').value),
+            vic_loan: parseFloat(document.getElementById('config_vic_loan').value),
+            nsw_prc_price: parseFloat(document.getElementById('config_nsw_prc_price').value),
+            network_loss_factor: parseFloat(document.getElementById('config_network_loss_factor').value)
         }
     };
 }
@@ -718,12 +644,6 @@ function importConfig() {
 
 // 应用配置
 function applyConfig(config) {
-    if (config.user_info) {
-        document.getElementById('configUserState').value = config.user_info.state;
-        document.getElementById('configUserAnnualUsage').value = config.user_info.annual_usage_kwh;
-        document.getElementById('configUserPostcode').value = config.user_info.postcode;
-    }
-    
     if (config.hardware) {
         if (config.hardware.panel) {
             document.getElementById('config_panel_watts').value = config.hardware.panel.watts;
@@ -746,6 +666,24 @@ function applyConfig(config) {
         document.getElementById('strategy_b_ratio').value = config.strategies.B.battery_ratio;
         document.getElementById('strategy_c_name').value = config.strategies.C.name;
         document.getElementById('strategy_c_ratio').value = config.strategies.C.battery_ratio;
+    }
+    
+    if (config.cost) {
+        document.getElementById('config_panel_price_per_kw').value = config.cost.panel_price_per_kw;
+        document.getElementById('config_inverter_price_per_kw').value = config.cost.inverter_price_per_kw;
+        document.getElementById('config_battery_price_per_kwh').value = config.cost.battery_price_per_kwh;
+        document.getElementById('config_gst_rate').value = config.cost.gst_rate;
+    }
+    
+    if (config.subsidy) {
+        document.getElementById('config_deeming_period').value = config.subsidy.deeming_period;
+        document.getElementById('config_pv_stc_price').value = config.subsidy.pv_stc_price;
+        document.getElementById('config_battery_stc_factor').value = config.subsidy.battery_stc_factor;
+        document.getElementById('config_battery_stc_price').value = config.subsidy.battery_stc_price;
+        document.getElementById('config_vic_rebate').value = config.subsidy.vic_rebate;
+        document.getElementById('config_vic_loan').value = config.subsidy.vic_loan;
+        document.getElementById('config_nsw_prc_price').value = config.subsidy.nsw_prc_price;
+        document.getElementById('config_network_loss_factor').value = config.subsidy.network_loss_factor;
     }
 }
 

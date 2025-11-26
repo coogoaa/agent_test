@@ -163,32 +163,10 @@
 
             <!-- 参数配置TAB -->
             <div id="config" class="main-tab-content">
-                <h2>1️⃣ 用户基础信息</h2>
-                <div class="form-grid-3">
-                    <div class="form-group">
-                        <label>所在州</label>
-                        <select id="configUserState" onchange="updateConfigStateDefaults()">
-                            <option value="NSW">NSW - 新南威尔士州</option>
-                            <option value="VIC">VIC - 维多利亚州</option>
-                            <option value="QLD">QLD - 昆士兰州</option>
-                            <option value="SA">SA - 南澳大利亚州</option>
-                            <option value="WA">WA - 西澳大利亚州</option>
-                            <option value="TAS">TAS - 塔斯马尼亚州</option>
-                            <option value="NT">NT - 北领地</option>
-                            <option value="ACT">ACT - 首都领地</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>年用电量 (kWh)</label>
-                        <input type="number" id="configUserAnnualUsage" value="7778" readonly style="background: #f0f0f0;">
-                    </div>
-                    <div class="form-group">
-                        <label>邮编</label>
-                        <input type="text" id="configUserPostcode" value="2000">
-                    </div>
+                <h2>1️⃣ 各州用电曲线模型</h2>
+                <div class="info-box">
+                    <strong>说明：</strong>这些是各州的用电模型预设数据，用于负荷分析计算。通常不需要修改。
                 </div>
-
-                <h2 style="margin-top: 20px;">2️⃣ 各州用电曲线模型</h2>
                 
                 <h3>📊 各州全年用电量</h3>
                 <div style="overflow-x: auto;">
@@ -226,14 +204,10 @@
                     <table class="data-table" id="hourlyRatiosTable"></table>
                 </div>
 
-                <h2 style="margin-top: 20px;">3️⃣ GIS 屋顶识别结果</h2>
+                <h2 style="margin-top: 20px;">2️⃣ 硬件参数配置</h2>
                 <div class="info-box">
-                    配置屋顶各坡面的物理参数和发电效率。方位角：0=北, 90=东, 180=南, 270=西
+                    <strong>说明：</strong>这些是硬件设备的标准规格参数，用于系统设计计算。
                 </div>
-                <div id="configRoofPlanesContainer"></div>
-                <button type="button" onclick="addConfigRoofPlane()">+ 添加屋顶坡面</button>
-
-                <h2 style="margin-top: 20px;">4️⃣ 硬件参数配置</h2>
                 
                 <h3>☀️ 面板参数</h3>
                 <div class="form-grid">
@@ -295,9 +269,9 @@
                     </div>
                 </div>
 
-                <h2 style="margin-top: 20px;">5️⃣ 策略配置</h2>
+                <h2 style="margin-top: 20px;">3️⃣ 策略配置</h2>
                 <div class="info-box">
-                    配置不同策略的名称和电池容量系数。系数越大，配置的电池容量越大。
+                    <strong>说明：</strong>配置不同策略的名称和电池容量系数。系数越大，配置的电池容量越大。
                 </div>
                 
                 <div class="strategy-item">
@@ -348,7 +322,7 @@
                     </div>
                 </div>
 
-                <h2 style="margin-top: 20px;">6️⃣ 成本参数配置</h2>
+                <h2 style="margin-top: 20px;">4️⃣ 成本参数配置</h2>
                 <div class="info-box">
                     <strong>成本计算规则：</strong><br>
                     • 税前整体报价 = 面板系统容量 × 每kW面板报价 + 逆变器功率 × 每kW逆变器报价 + 电池标称容量 × 每kWh电池报价<br>
@@ -373,7 +347,7 @@
                     </div>
                 </div>
 
-                <h2 style="margin-top: 20px;">7️⃣ 补贴参数配置</h2>
+                <h2 style="margin-top: 20px;">5️⃣ 补贴参数配置</h2>
                 <div class="info-box">
                     <strong>补贴规则：</strong><br>
                     • STC PV Rebate = 光伏容量 × Zone Rating × Deeming Period × STC单价<br>
