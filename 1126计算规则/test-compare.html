@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算结果对比测试</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 1400px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; }
+        h1 { color: #4CAF50; }
+        h2 { color: #333; border-bottom: 2px solid #4CAF50; padding-bottom: 8px; }
+        .result-box { background: #f9f9f9; padding: 15px; margin: 10px 0; border-radius: 4px; border-left: 4px solid #4CAF50; }
+        .step { margin: 10px 0; padding: 10px; background: white; border-radius: 4px; }
+        .step-title { font-weight: bold; color: #4CAF50; margin-bottom: 5px; }
+        .detail { margin-left: 20px; font-size: 14px; line-height: 1.6; }
+        button { background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; margin: 10px 5px; }
+        button:hover { background: #45a049; }
+        .comparison { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .strategy-box { background: #f0f8ff; padding: 15px; border-radius: 4px; }
+        .strategy-title { font-weight: bold; font-size: 16px; margin-bottom: 10px; color: #2196F3; }
+        pre { background: #f5f5f5; padding: 10px; border-radius: 4px; overflow-x: auto; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 计算结果对比测试</h1>
+        
+        <div class="result-box">
+            <h3>测试参数</h3>
+            <pre id="testParams"></pre>
+        </div>
+
+        <button onclick="runTest()">运行测试（15块面板）</button>
+
+        <div id="results"></div>
+    </div>
+
+    <!-- 隐藏的配置输入 -->
+    <input type="hidden" id="config_panel_watts" value="440">
+    <input type="hidden" id="config_panel_v_mp" value="32.0">
+    <input type="hidden" id="config_inverter_v_start" value="100.0">
+    <input type="hidden" id="config_inverter_max_single_phase_kw" value="10.0">
+    <input type="hidden" id="config_battery_match_standard" checked>
+    <input type="hidden" id="config_battery_standard_capacities" value="5.0, 9.6, 13.5, 19.2">
+    <input type="hidden" id="config_battery_c_rate" value="0.5">
+    <input type="hidden" id="config_inverter_match_standard" checked>
+    <input type="hidden" id="config_inverter_standard_powers" value="3.0, 5.0, 6.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0">
+
+    <script>
+        const SKIP_INIT = true;
+    </script>
+    <script src="solar-calculator.js"></script>
+    <script>
+        function runTest() {
+            // 测试参数
+            const userInput = {
+                annual_usage_kwh: 8000,
+                state: 'NSW',
+                postcode: '2000'
+            };
+
+            const panelSpecs = {
+                watts: 440,
+                v_mp: 32.0
+            };
+
+            const inverterSpecs = {
+                v_start: 100.0,
+                max_single_phase_kw: 10.0
+            };
+
+            const roofPlanes = [{
+                plane_id: 'A',
+                azimuth: 0,
+                tilt: 23,
+                max_panels: 15,
+                efficiency: 1.0
+            }];
+
+            // 显示测试参数
+            document.getElementById('testParams').textContent = JSON.stringify({
+                userInput,
+                panelSpecs,
+                inverterSpecs,
+                roofPlanes
+            }, null, 2);
+
+            // 计算三种策略
+            const resultA = generateSolarProposal(userInput, roofPlanes, panelSpecs, inverterSpecs, 'A');
+            const resultB = generateSolarProposal(userInput, roofPlanes, panelSpecs, inverterSpecs, 'B');
+            const resultC = generateSolarProposal(userInput, roofPlanes, panelSpecs, inverterSpecs, 'C');
+
+            // 显示结果
+            displayComparison(resultA, resultB, resultC);
+        }
+
+        function displayComparison(resultA, resultB, resultC) {
+            const results = [
+                { name: '高端型 (A)', result: resultA },
+                { name: '平衡型 (B)', result: resultB },
+                { name: '经济型 (C)', result: resultC }
+            ];
+
+            let html = '<h2>📊 计算结果对比</h2><div class="comparison">';
+
+            results.forEach(({ name, result }) => {
+                html += `
+                    <div class="strategy-box">
+                        <div class="strategy-title">${name}</div>
+                        
+                        <div class="step">
+                            <div class="step-title">第1步：负荷分析</div>
+                            <div class="detail">
+                                日均用电: ${result.step1.dailyAvgKwh.toFixed(2)} kWh<br>
+                                夜间用电: ${result.step1.nightlyConsumptionKwh.toFixed(2)} kWh<br>
+                                峰值功率: ${result.step1.peakPowerKw.toFixed(2)} kW<br>
+                                最大小时比例: ${(result.step1.maxHourlyRatio * 100).toFixed(2)}%
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-title">第2步：电池定容</div>
+                            <div class="detail">
+                                策略比例: ${result.step2.ratio}<br>
+                                目标容量: ${result.step2.targetCapacity.toFixed(2)} kWh<br>
+                                选定电池: ${result.step2.selectedBatteryKwh} kWh
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-title">第3步：逆变器选型</div>
+                            <div class="detail">
+                                电池需求: ${result.step3.minInverterKwByBattery.toFixed(2)} kW<br>
+                                目标功率: ${result.step3.targetInverterKw.toFixed(2)} kW<br>
+                                选定逆变器: ${result.step3.selectedInverterKw} kW
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-title">第4步：光伏反推</div>
+                            <div class="detail">
+                                容配比: ${result.step4.appliedRatio}<br>
+                                目标光伏: ${result.step4.targetDcKw.toFixed(2)} kW<br>
+                                目标面板数: ${result.step4.targetPanelCount} 块
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-title">第5步：物理校验</div>
+                            <div class="detail">
+                                最小串联数: ${result.step5.minPanelsPerString} 块<br>
+                                实际面板数: ${result.step5.finalPanelCount} 块<br>
+                                <strong>最终光伏功率: ${result.step5.finalSystemKw.toFixed(2)} kW</strong>
+                            </div>
+                        </div>
+
+                        <div class="step" style="background: #e8f5e9; font-weight: bold;">
+                            <div class="step-title">💰 成本计算（简化版）</div>
+                            <div class="detail">
+                                面板: ${result.step5.finalSystemKw.toFixed(2)} × $1200 = $${(result.step5.finalSystemKw * 1200).toFixed(0)}<br>
+                                逆变器: ${result.step3.selectedInverterKw} × $280 = $${(result.step3.selectedInverterKw * 280).toFixed(0)}<br>
+                                电池: ${result.step2.selectedBatteryKwh} × $865 = $${(result.step2.selectedBatteryKwh * 865).toFixed(0)}<br>
+                                <strong>总成本: $${((result.step5.finalSystemKw * 1200) + (result.step3.selectedInverterKw * 280) + (result.step2.selectedBatteryKwh * 865)).toFixed(0)}</strong><br>
+                                不含电池: $${((result.step5.finalSystemKw * 1200) + (result.step3.selectedInverterKw * 280)).toFixed(0)}<br>
+                                kW单价: $${(((result.step5.finalSystemKw * 1200) + (result.step3.selectedInverterKw * 280)) / result.step5.finalSystemKw).toFixed(0)}/kW
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += '</div>';
+
+            // 添加完整JSON输出
+            html += '<h2>📋 完整JSON输出</h2>';
+            html += '<div class="comparison">';
+            html += `<div><h3>高端型 (A)</h3><pre>${JSON.stringify(resultA, null, 2)}</pre></div>`;
+            html += `<div><h3>平衡型 (B)</h3><pre>${JSON.stringify(resultB, null, 2)}</pre></div>`;
+            html += `<div><h3>经济型 (C)</h3><pre>${JSON.stringify(resultC, null, 2)}</pre></div>`;
+            html += '</div>';
+
+            document.getElementById('results').innerHTML = html;
+        }
+    </script>
+</body>
+</html>

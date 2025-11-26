@@ -29,13 +29,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>🔬 面板数量迭代测试 (1-100块)</h1>
+        <h1>面板数量迭代测试 (1-100)</h1>
         
         <div class="controls">
-            <h3>测试配置</h3>
-            <p><strong>测试场景：</strong>1个坡面，面板数量从1迭代到100，生成三套方案（高端型/平衡型/经济型）</p>
-            <p><strong>输出内容：</strong>系统配置、成本明细、不含电池的kW单价</p>
-            <button onclick="runTest()">▶️ 开始测试</button>
+            <p><strong>测试说明：</strong>自动迭代测试1-100块面板，每个面板数生成3套方案（高端型/平衡型/经济型）</p>
+            <p style="background: #fff3cd; padding: 10px; border-radius: 4px; margin: 10px 0;">
+                <strong>⚙️ 成本参数：</strong>
+                面板 <strong>540 AUD/kW</strong> | 
+                逆变器 <strong>280 AUD/kW</strong> | 
+                电池 <strong>865 AUD/kWh</strong>
+                <br>
+                <small>💡 注意：此为简化成本计算（不含税费和补贴），与主页面配置一致</small>
+            </p>
+            <button onclick="runTest()">🚀 开始测试</button>
             <button class="secondary" onclick="exportToCSV()">📥 导出CSV</button>
             <button class="secondary" onclick="exportToJSON()">📥 导出JSON</button>
         </div>
@@ -56,6 +62,9 @@
         <!-- 配置参数 -->
         <input type="text" id="config_panel_watts" value="440">
         <input type="text" id="config_panel_v_mp" value="32.0">
+        <input type="text" id="config_panel_price_per_kw" value="540">
+        <input type="text" id="config_inverter_price_per_kw" value="280">
+        <input type="text" id="config_battery_price_per_kwh" value="865">
         <input type="text" id="config_inverter_v_start" value="100.0">
         <input type="text" id="config_inverter_max_single_phase_kw" value="10.0">
         <input type="text" id="config_inverter_standard_powers" value="3.0, 5.0, 6.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0">
@@ -151,9 +160,10 @@
         }
 
         function calculateSimpleCost(systemResult) {
-            const panelPricePerKw = 1200; // AUD/kW
-            const inverterPricePerKw = 280; // AUD/kW
-            const batteryPricePerKwh = 865; // AUD/kWh
+            // 从配置读取成本参数，与主页面保持一致
+            const panelPricePerKw = parseFloat(document.getElementById('config_panel_price_per_kw')?.value || 540);
+            const inverterPricePerKw = parseFloat(document.getElementById('config_inverter_price_per_kw')?.value || 280);
+            const batteryPricePerKwh = parseFloat(document.getElementById('config_battery_price_per_kwh')?.value || 865);
 
             const pvKw = systemResult.step5.finalSystemKw;
             const inverterKw = systemResult.step3.selectedInverterKw;
