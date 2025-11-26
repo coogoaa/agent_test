@@ -113,6 +113,33 @@
             'WA': [0.0254, 0.0236, 0.0219, 0.0206, 0.0202, 0.0219, 0.0285, 0.0381, 0.0429, 0.0425, 0.0417, 0.0425, 0.0441, 0.0449, 0.0453, 0.0457, 0.0501, 0.0623, 0.0654, 0.0623, 0.0554, 0.0484, 0.0398, 0.0314]
         };
 
+        // 成本参数配置
+        const COST_CONFIG = {
+            pvPerKw: 540,
+            inverterPerKw: 280,
+            batteryPerKwh: 865,
+            gstRate: 0.1
+        };
+
+        // 电池硬件参数
+        const BATTERY_PARAMS = {
+            dod: 0.9,
+            rte: 0.95
+        };
+
+        // 补贴参数配置
+        const SUBSIDY_CONFIG = {
+            stcPrice: 39,
+            installYear: 2025,
+            deemingEndYear: 2030,
+            batteryStcFactor: 9.3,
+            batteryCapacityCap: 50,
+            zoneRating: {
+                'TAS': 1.382, 'NT': 1.622, 'ACT': 1.382, 'SA': 1.536,
+                'NSW': 1.382, 'QLD': 1.536, 'VIC': 1.382, 'WA': 1.536
+            }
+        };
+
         function calculateRoofScore(aspect) {
             const north = 0;
             let diff = Math.abs(aspect - north);
