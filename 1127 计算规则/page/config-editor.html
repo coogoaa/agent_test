@@ -44,6 +44,8 @@
                     <button class="tab-btn" data-tab="battery">电池计算系数</button>
                     <button class="tab-btn" data-tab="inverter">逆变器规格</button>
                     <button class="tab-btn" data-tab="consumption">州用电数据</button>
+                    <button class="tab-btn" data-tab="cost">成本参数</button>
+                    <button class="tab-btn" data-tab="subsidy">补贴参数</button>
                     <button class="tab-btn" data-tab="custom-house">自定义房屋</button>
                 </nav>
             </div>
@@ -223,6 +225,152 @@
                     </div>
                 </div>
 
+                <!-- 成本参数 -->
+                <div id="tab-cost" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">成本计算参数</h2>
+                    <p class="text-gray-600 mb-4">配置系统各组件的单价和税率</p>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+                        <h3 class="font-semibold text-blue-900 mb-2">成本计算公式</h3>
+                        <div class="text-sm text-blue-800 space-y-1">
+                            <p><strong>税前报价</strong> = PV容量(kW) × 每kW面板报价 + 逆变器功率(kW) × 每kW逆变器报价 + 电池容量(kWh) × 每kWh电池报价</p>
+                            <p><strong>含税报价</strong> = 税前报价 × (1 + GST税率)</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium mb-1">每kW面板税前报价 (AUD/kW)</label>
+                            <input type="number" id="cost-pv-per-kw" class="w-full border rounded p-2" value="540">
+                            <p class="text-xs text-gray-500 mt-1">PV系统单价（包含组件、支架、安装）</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">每kW逆变器报价 (AUD/kW)</label>
+                            <input type="number" id="cost-inverter-per-kw" class="w-full border rounded p-2" value="280">
+                            <p class="text-xs text-gray-500 mt-1">逆变器单价（包含设备、安装）</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">每kWh电池报价 (AUD/kWh)</label>
+                            <input type="number" id="cost-battery-per-kwh" class="w-full border rounded p-2" value="865">
+                            <p class="text-xs text-gray-500 mt-1">电池储能单价（基于标称容量）</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">GST税率</label>
+                            <input type="number" step="0.01" id="cost-gst-rate" class="w-full border rounded p-2" value="0.1">
+                            <p class="text-xs text-gray-500 mt-1">澳洲商品及服务税（默认10%）</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-gray-50 p-4 rounded">
+                        <h3 class="font-semibold mb-2">示例计算</h3>
+                        <div class="text-sm text-gray-700 space-y-1">
+                            <p>假设: 6.6kW PV + 5kW逆变器 + 6.5kWh电池</p>
+                            <p>税前 = 6.6×540 + 5×280 + 6.5×865 = 3,564 + 1,400 + 5,622.5 = <strong>10,586.5 AUD</strong></p>
+                            <p>含税 = 10,586.5 × 1.1 = <strong>11,645.15 AUD</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 补贴参数 -->
+                <div id="tab-subsidy" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">补贴计算参数 (STC)</h2>
+                    <p class="text-gray-600 mb-4">配置澳洲小规模技术证书（Small-scale Technology Certificates）补贴参数</p>
+                    
+                    <div class="bg-green-50 border-l-4 border-green-500 p-4 mb-6">
+                        <h3 class="font-semibold text-green-900 mb-2">补贴计算公式</h3>
+                        <div class="text-sm text-green-800 space-y-1">
+                            <p><strong>PV STC数量</strong> = FLOOR(PV容量 × Zone Rating × Deeming Period)</p>
+                            <p><strong>Battery STC数量</strong> = FLOOR(可用电池容量 × STC因子/kWh)</p>
+                            <p><strong>总STC数量</strong> = PV STC + Battery STC</p>
+                            <p><strong>补贴金额</strong> = 总STC数量 × STC单价</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">基础参数</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">STC单价 (AUD)</label>
+                                <input type="number" id="subsidy-stc-price" class="w-full border rounded p-2" value="39">
+                                <p class="text-xs text-gray-500 mt-1">每个STC证书的市场价格</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">安装年份</label>
+                                <input type="number" id="subsidy-install-year" class="w-full border rounded p-2" value="2025">
+                                <p class="text-xs text-gray-500 mt-1">用于计算Deeming Period</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">Deeming Period终止年</label>
+                                <input type="number" id="subsidy-deeming-end-year" class="w-full border rounded p-2" value="2030">
+                                <p class="text-xs text-gray-500 mt-1">政策终止年份（固定2030）</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">Battery STC因子 (STC/kWh)</label>
+                                <input type="number" step="0.1" id="subsidy-battery-stc-factor" class="w-full border rounded p-2" value="9.3">
+                                <p class="text-xs text-gray-500 mt-1">2025年标准: 9.3 STC/kWh</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">电池可用容量上限 (kWh)</label>
+                                <input type="number" id="subsidy-battery-capacity-cap" class="w-full border rounded p-2" value="50">
+                                <p class="text-xs text-gray-500 mt-1">超出部分不予补贴</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">Zone Rating (按州/邮编)</h3>
+                        <p class="text-xs text-gray-600 mb-3">不同地区的太阳能资源系数，影响PV补贴计算</p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">TAS (塔斯马尼亚)</label>
+                                <input type="number" step="0.1" id="zone-rating-TAS" class="w-full border rounded p-2" value="1.382">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">NT (北领地)</label>
+                                <input type="number" step="0.1" id="zone-rating-NT" class="w-full border rounded p-2" value="1.622">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">ACT (首都领地)</label>
+                                <input type="number" step="0.1" id="zone-rating-ACT" class="w-full border rounded p-2" value="1.382">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">SA (南澳)</label>
+                                <input type="number" step="0.1" id="zone-rating-SA" class="w-full border rounded p-2" value="1.536">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">NSW (新南威尔士)</label>
+                                <input type="number" step="0.1" id="zone-rating-NSW" class="w-full border rounded p-2" value="1.382">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">QLD (昆士兰)</label>
+                                <input type="number" step="0.1" id="zone-rating-QLD" class="w-full border rounded p-2" value="1.536">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">VIC (维多利亚)</label>
+                                <input type="number" step="0.1" id="zone-rating-VIC" class="w-full border rounded p-2" value="1.382">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">WA (西澳)</label>
+                                <input type="number" step="0.1" id="zone-rating-WA" class="w-full border rounded p-2" value="1.536">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-4 rounded">
+                        <h3 class="font-semibold mb-2">示例计算（2025年安装）</h3>
+                        <div class="text-sm text-gray-700 space-y-2">
+                            <p><strong>Deeming Period</strong> = 2030 - 2025 + 1 = 6年</p>
+                            <p><strong>假设</strong>: NSW州, 6.6kW PV + 6.5kWh电池</p>
+                            <div class="ml-4 space-y-1">
+                                <p>• PV STC = FLOOR(6.6 × 1.382 × 6) = FLOOR(54.7) = <strong>54 STC</strong></p>
+                                <p>• Battery STC = FLOOR(6.5 × 9.3) = FLOOR(60.45) = <strong>60 STC</strong></p>
+                                <p>• 总STC = 54 + 60 = <strong>114 STC</strong></p>
+                                <p>• 补贴金额 = 114 × 39 = <strong>4,446 AUD</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- 自定义房屋 -->
                 <div id="tab-custom-house" class="tab-content hidden">
                     <h2 class="text-xl font-bold mb-4">自定义房屋坡面信息</h2>
@@ -356,6 +504,29 @@
                     QLD: parseInt(document.getElementById('consumption-QLD').value),
                     VIC: parseInt(document.getElementById('consumption-VIC').value),
                     WA: parseInt(document.getElementById('consumption-WA').value)
+                },
+                cost: {
+                    pvPerKw: parseFloat(document.getElementById('cost-pv-per-kw').value),
+                    inverterPerKw: parseFloat(document.getElementById('cost-inverter-per-kw').value),
+                    batteryPerKwh: parseFloat(document.getElementById('cost-battery-per-kwh').value),
+                    gstRate: parseFloat(document.getElementById('cost-gst-rate').value)
+                },
+                subsidy: {
+                    stcPrice: parseFloat(document.getElementById('subsidy-stc-price').value),
+                    installYear: parseInt(document.getElementById('subsidy-install-year').value),
+                    deemingEndYear: parseInt(document.getElementById('subsidy-deeming-end-year').value),
+                    batteryStcFactor: parseFloat(document.getElementById('subsidy-battery-stc-factor').value),
+                    batteryCapacityCap: parseFloat(document.getElementById('subsidy-battery-capacity-cap').value),
+                    zoneRating: {
+                        TAS: parseFloat(document.getElementById('zone-rating-TAS').value),
+                        NT: parseFloat(document.getElementById('zone-rating-NT').value),
+                        ACT: parseFloat(document.getElementById('zone-rating-ACT').value),
+                        SA: parseFloat(document.getElementById('zone-rating-SA').value),
+                        NSW: parseFloat(document.getElementById('zone-rating-NSW').value),
+                        QLD: parseFloat(document.getElementById('zone-rating-QLD').value),
+                        VIC: parseFloat(document.getElementById('zone-rating-VIC').value),
+                        WA: parseFloat(document.getElementById('zone-rating-WA').value)
+                    }
                 }
             };
         }
