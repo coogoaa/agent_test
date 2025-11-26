@@ -206,57 +206,83 @@ function step1_analyzeLoad(userInput, hourlyRatios) {
     };
 }
 
-// 第二步:电池定容
+// 第二步：电池定容
 function step2_sizeBattery(loadAnalysis, strategyType) {
     const nightlyLoad = loadAnalysis.nightlyConsumptionKwh;
     const ratio = STRATEGY_CONFIG[strategyType].battery_ratio;
     
     const targetCapacity = nightlyLoad * ratio;
     
-    const standardBatteries = [5.0, 9.6, 13.5, 19.2];
-    let selectedBatteryKwh = 5.0;
+    // 从配置读取标准规格和匹配开关
+    const matchStandard = document.getElementById('config_battery_match_standard').checked;
+    const standardBatteries = document.getElementById('config_battery_standard_capacities').value
+        .split(',').map(s => parseFloat(s.trim())).sort((a, b) => a - b);
     
-    for (let bat of standardBatteries) {
-        if (bat >= targetCapacity * 0.9) {
-            selectedBatteryKwh = bat;
-            break;
+    let selectedBatteryKwh;
+    
+    if (matchStandard) {
+        // 启用标准规格匹配：选择最接近且不小于目标容量90%的标准规格
+        selectedBatteryKwh = standardBatteries[0];
+        for (let bat of standardBatteries) {
+            if (bat >= targetCapacity * 0.9) {
+                selectedBatteryKwh = bat;
+                break;
+            }
         }
-    }
-    
-    if (targetCapacity > standardBatteries[standardBatteries.length - 1]) {
-        selectedBatteryKwh = standardBatteries[standardBatteries.length - 1];
+        if (targetCapacity > standardBatteries[standardBatteries.length - 1]) {
+            selectedBatteryKwh = standardBatteries[standardBatteries.length - 1];
+        }
+    } else {
+        // 不启用标准规格匹配：直接使用目标容量
+        selectedBatteryKwh = parseFloat(targetCapacity.toFixed(2));
     }
     
     return {
         targetCapacity,
         selectedBatteryKwh,
-        ratio
+        ratio,
+        matchStandard
     };
 }
 
 // 第三步：逆变器选型
 function step3_selectInverter(batteryKwh, peakLoadKw) {
     const minInverterKwByBattery = batteryKwh * 0.5;
-    const standardInverters = [5.0, 6.0, 8.0, 10.0];
-    
     const targetInverterKw = Math.max(minInverterKwByBattery, peakLoadKw * 0.7);
     
-    let selectedInverterKw = 5.0;
-    for (let inv of standardInverters) {
-        if (inv >= targetInverterKw) {
-            selectedInverterKw = inv;
-            break;
-        }
-    }
+    // 从配置读取标准规格和匹配开关
+    const matchStandard = document.getElementById('config_inverter_match_standard').checked;
+    const maxSinglePhaseKw = parseFloat(document.getElementById('config_inverter_max_single_phase_kw').value) || 10.0;
     
-    if (selectedInverterKw > 10.0) {
-        selectedInverterKw = 10.0;
+    let selectedInverterKw;
+    
+    if (matchStandard) {
+        // 启用标准规格匹配：选择最接近且不小于目标功率的标准规格
+        const standardInverters = document.getElementById('config_inverter_standard_powers').value
+            .split(',').map(s => parseFloat(s.trim())).sort((a, b) => a - b);
+        
+        selectedInverterKw = standardInverters[0];
+        for (let inv of standardInverters) {
+            if (inv >= targetInverterKw) {
+                selectedInverterKw = inv;
+                break;
+            }
+        }
+        
+        // 单相上限
+        if (selectedInverterKw > maxSinglePhaseKw) {
+            selectedInverterKw = maxSinglePhaseKw;
+        }
+    } else {
+        // 不启用标准规格匹配：直接使用目标功率，但不超过单相上限
+        selectedInverterKw = Math.min(parseFloat(targetInverterKw.toFixed(2)), maxSinglePhaseKw);
     }
     
     return {
         minInverterKwByBattery,
         targetInverterKw,
-        selectedInverterKw
+        selectedInverterKw,
+        matchStandard
     };
 }
 

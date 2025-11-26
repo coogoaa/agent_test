@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>面板数量迭代测试 (1-100)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 1400px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { color: #4CAF50; }
+        .controls { background: #f9f9f9; padding: 15px; border-radius: 4px; margin-bottom: 20px; }
+        button { background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 14px; margin: 5px; }
+        button:hover { background: #45a049; }
+        button.secondary { background: #2196F3; }
+        button.secondary:hover { background: #1976D2; }
+        .progress { margin: 20px 0; }
+        .progress-bar { width: 100%; height: 30px; background: #e0e0e0; border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; background: #4CAF50; transition: width 0.3s; text-align: center; line-height: 30px; color: white; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 12px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background: #4CAF50; color: white; position: sticky; top: 0; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        .strategy-a { background: #fff3e0; }
+        .strategy-b { background: #e8f5e9; }
+        .strategy-c { background: #e3f2fd; }
+        .summary { background: #fff3cd; padding: 15px; border-radius: 4px; margin: 20px 0; }
+        .error { color: #d32f2f; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔬 面板数量迭代测试 (1-100块)</h1>
+        
+        <div class="controls">
+            <h3>测试配置</h3>
+            <p><strong>测试场景：</strong>1个坡面，面板数量从1迭代到100，生成三套方案（高端型/平衡型/经济型）</p>
+            <p><strong>输出内容：</strong>系统配置、成本明细、不含电池的kW单价</p>
+            <button onclick="runTest()">▶️ 开始测试</button>
+            <button class="secondary" onclick="exportToCSV()">📥 导出CSV</button>
+            <button class="secondary" onclick="exportToJSON()">📥 导出JSON</button>
+        </div>
+
+        <div class="progress" id="progressContainer" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+        </div>
+
+        <div class="summary" id="summary" style="display: none;"></div>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="solar-calculator.js"></script>
+    <script>
+        let testResults = [];
+
+        async function runTest() {
+            testResults = [];
+            document.getElementById('progressContainer').style.display = 'block';
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('summary').style.display = 'none';
+
+            // 固定用户输入
+            const userInput = {
+                annual_usage_kwh: 8000,
+                state: 'NSW',
+                postcode: '2000'
+            };
+
+            // 固定硬件参数（从配置读取）
+            const panelSpecs = {
+                watts: parseFloat(document.getElementById('config_panel_watts')?.value || 440),
+                v_mp: parseFloat(document.getElementById('config_panel_v_mp')?.value || 32.0)
+            };
+
+            const inverterSpecs = {
+                v_start: parseFloat(document.getElementById('config_inverter_v_start')?.value || 100.0),
+                max_single_phase_kw: parseFloat(document.getElementById('config_inverter_max_single_phase_kw')?.value || 10.0)
+            };
+
+            // 迭代1-100块面板
+            for (let panelCount = 1; panelCount <= 100; panelCount++) {
+                // 更新进度
+                const progress = (panelCount / 100 * 100).toFixed(0);
+                document.getElementById('progressFill').style.width = progress + '%';
+                document.getElementById('progressFill').textContent = progress + '%';
+
+                // 创建单个坡面
+                const roofPlanes = [{
+                    plane_id: 'A',
+                    azimuth: 0,
+                    tilt: 23,
+                    max_panels: panelCount,
+                    efficiency: 1.0
+                }];
+
+                // 计算三个方案
+                try {
+                    const resultA = generateSolarProposal(userInput, roofPlanes, panelSpecs, inverterSpecs, 'A');
+                    const resultB = generateSolarProposal(userInput, roofPlanes, panelSpecs, inverterSpecs, 'B');
+                    const resultC = generateSolarProposal(userInput, roofPlanes, panelSpecs, inverterSpecs, 'C');
+
+                    // 计算成本（简化版）
+                    const costA = calculateSimpleCost(resultA);
+                    const costB = calculateSimpleCost(resultB);
+                    const costC = calculateSimpleCost(resultC);
+
+                    testResults.push({
+                        panelCount,
+                        strategyA: { ...resultA, cost: costA },
+                        strategyB: { ...resultB, cost: costB },
+                        strategyC: { ...resultC, cost: costC }
+                    });
+                } catch (error) {
+                    console.error(`Error at panel count ${panelCount}:`, error);
+                }
+
+                // 让UI有时间更新
+                await new Promise(resolve => setTimeout(resolve, 10));
+            }
+
+            // 显示结果
+            displayResults();
+        }
+
+        function calculateSimpleCost(systemResult) {
+            const panelPricePerKw = 1200; // AUD/kW
+            const inverterPricePerKw = 280; // AUD/kW
+            const batteryPricePerKwh = 865; // AUD/kWh
+
+            const pvKw = systemResult.step5.finalSystemKw;
+            const inverterKw = systemResult.step3.selectedInverterKw;
+            const batteryKwh = systemResult.step2.selectedBatteryKwh;
+
+            const panelCost = pvKw * panelPricePerKw;
+            const inverterCost = inverterKw * inverterPricePerKw;
+            const batteryCost = batteryKwh * batteryPricePerKwh;
+
+            const totalCost = panelCost + inverterCost + batteryCost;
+            const costWithoutBattery = panelCost + inverterCost;
+            const pricePerKwWithoutBattery = pvKw > 0 ? costWithoutBattery / pvKw : 0;
+
+            return {
+                panelCost,
+                inverterCost,
+                batteryCost,
+                totalCost,
+                costWithoutBattery,
+                pricePerKwWithoutBattery
+            };
+        }
+
+        function displayResults() {
+            document.getElementById('summary').style.display = 'block';
+            document.getElementById('summary').innerHTML = `
+                <h3>📊 测试完成</h3>
+                <p>✅ 共测试 <strong>${testResults.length}</strong> 组配置（面板数 1-100）</p>
+                <p>✅ 每组生成 <strong>3</strong> 套方案（高端型/平衡型/经济型）</p>
+                <p>✅ 总计 <strong>${testResults.length * 3}</strong> 个系统配置</p>
+            `;
+
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">面板数</th>
+                            <th colspan="6">高端型 (A)</th>
+                            <th colspan="6">平衡型 (B)</th>
+                            <th colspan="6">经济型 (C)</th>
+                        </tr>
+                        <tr>
+                            <th>光伏kW</th>
+                            <th>逆变器kW</th>
+                            <th>电池kWh</th>
+                            <th>总成本</th>
+                            <th>不含电池</th>
+                            <th>kW单价</th>
+                            <th>光伏kW</th>
+                            <th>逆变器kW</th>
+                            <th>电池kWh</th>
+                            <th>总成本</th>
+                            <th>不含电池</th>
+                            <th>kW单价</th>
+                            <th>光伏kW</th>
+                            <th>逆变器kW</th>
+                            <th>电池kWh</th>
+                            <th>总成本</th>
+                            <th>不含电池</th>
+                            <th>kW单价</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            testResults.forEach(result => {
+                const a = result.strategyA;
+                const b = result.strategyB;
+                const c = result.strategyC;
+
+                html += `
+                    <tr>
+                        <td><strong>${result.panelCount}</strong></td>
+                        <td class="strategy-a">${a.step5.finalSystemKw.toFixed(2)}</td>
+                        <td class="strategy-a">${a.step3.selectedInverterKw.toFixed(2)}</td>
+                        <td class="strategy-a">${a.step2.selectedBatteryKwh.toFixed(2)}</td>
+                        <td class="strategy-a">$${a.cost.totalCost.toFixed(0)}</td>
+                        <td class="strategy-a">$${a.cost.costWithoutBattery.toFixed(0)}</td>
+                        <td class="strategy-a"><strong>$${a.cost.pricePerKwWithoutBattery.toFixed(0)}</strong></td>
+                        <td class="strategy-b">${b.step5.finalSystemKw.toFixed(2)}</td>
+                        <td class="strategy-b">${b.step3.selectedInverterKw.toFixed(2)}</td>
+                        <td class="strategy-b">${b.step2.selectedBatteryKwh.toFixed(2)}</td>
+                        <td class="strategy-b">$${b.cost.totalCost.toFixed(0)}</td>
+                        <td class="strategy-b">$${b.cost.costWithoutBattery.toFixed(0)}</td>
+                        <td class="strategy-b"><strong>$${b.cost.pricePerKwWithoutBattery.toFixed(0)}</strong></td>
+                        <td class="strategy-c">${c.step5.finalSystemKw.toFixed(2)}</td>
+                        <td class="strategy-c">${c.step3.selectedInverterKw.toFixed(2)}</td>
+                        <td class="strategy-c">${c.step2.selectedBatteryKwh.toFixed(2)}</td>
+                        <td class="strategy-c">$${c.cost.totalCost.toFixed(0)}</td>
+                        <td class="strategy-c">$${c.cost.costWithoutBattery.toFixed(0)}</td>
+                        <td class="strategy-c"><strong>$${c.cost.pricePerKwWithoutBattery.toFixed(0)}</strong></td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                    </tbody>
+                </table>
+            `;
+
+            document.getElementById('results').innerHTML = html;
+        }
+
+        function exportToCSV() {
+            if (testResults.length === 0) {
+                alert('请先运行测试！');
+                return;
+            }
+
+            let csv = 'Panel Count,Strategy,PV kW,Inverter kW,Battery kWh,Total Cost,Cost Without Battery,Price per kW (No Battery)\n';
+            
+            testResults.forEach(result => {
+                const strategies = [
+                    { name: 'A-高端型', data: result.strategyA },
+                    { name: 'B-平衡型', data: result.strategyB },
+                    { name: 'C-经济型', data: result.strategyC }
+                ];
+
+                strategies.forEach(s => {
+                    csv += `${result.panelCount},${s.name},${s.data.step5.finalSystemKw.toFixed(2)},${s.data.step3.selectedInverterKw.toFixed(2)},${s.data.step2.selectedBatteryKwh.toFixed(2)},${s.data.cost.totalCost.toFixed(2)},${s.data.cost.costWithoutBattery.toFixed(2)},${s.data.cost.pricePerKwWithoutBattery.toFixed(2)}\n`;
+                });
+            });
+
+            downloadFile('panel-iteration-test.csv', csv, 'text/csv');
+        }
+
+        function exportToJSON() {
+            if (testResults.length === 0) {
+                alert('请先运行测试！');
+                return;
+            }
+
+            const json = JSON.stringify(testResults, null, 2);
+            downloadFile('panel-iteration-test.json', json, 'application/json');
+        }
+
+        function downloadFile(filename, content, mimeType) {
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>
