@@ -18,39 +18,142 @@ const STRATEGY_CONFIG = {
     C: { name: "经济型", battery_ratio: 0.4 }
 };
 
-let roofPlaneCount = 1;
+// 各州年用电量和邮编默认值
+const STATE_DEFAULTS = {
+    TAS: { annual: 10148, postcode: '7000' },
+    NT: { annual: 10008, postcode: '0800' },
+    ACT: { annual: 8632, postcode: '2600' },
+    SA: { annual: 7129, postcode: '5000' },
+    NSW: { annual: 7778, postcode: '2000' },
+    QLD: { annual: 7270, postcode: '4000' },
+    WA: { annual: 7634, postcode: '6000' },
+    VIC: { annual: 6778, postcode: '3000' }
+};
+
+// 根据方位角估算效率评分（澳洲标准）
+function estimateEfficiencyByAzimuth(azimuth) {
+    // 澳洲在南半球，正北(0°)最佳
+    azimuth = parseFloat(azimuth) % 360;
+    if (azimuth < 0) azimuth += 360;
+    
+    // 0° (正北) = 1.0
+    // 45° (东北/西北) = 0.9
+    // 90° (正东/正西) = 0.75
+    // 135° = 0.6
+    // 180° (正南) = 0.5
+    
+    if (azimuth <= 45 || azimuth >= 315) {
+        // 北向 (0° ± 45°)
+        const deviation = Math.min(azimuth, 360 - azimuth);
+        return (1.0 - deviation / 45 * 0.1).toFixed(2);
+    } else if (azimuth <= 135) {
+        // 东向 (45° - 135°)
+        const centerDeviation = Math.abs(azimuth - 90);
+        return (0.75 - centerDeviation / 45 * 0.15).toFixed(2);
+    } else if (azimuth <= 225) {
+        // 南向 (135° - 225°)
+        const centerDeviation = Math.abs(azimuth - 180);
+        return (0.5 + centerDeviation / 45 * 0.1).toFixed(2);
+    } else {
+        // 西向 (225° - 315°)
+        const centerDeviation = Math.abs(azimuth - 270);
+        return (0.75 - centerDeviation / 45 * 0.15).toFixed(2);
+    }
+}
+
+// 更新州默认值
+function updateStateDefaults() {
+    const state = document.getElementById('userState').value;
+    const defaults = STATE_DEFAULTS[state];
+    
+    // 只在用户未手动修改时更新年用电量
+    const annualInput = document.getElementById('userAnnualUsage');
+    if (!annualInput.dataset.userModified) {
+        annualInput.value = defaults.annual;
+    }
+    
+    document.getElementById('userPostcode').value = defaults.postcode;
+}
+
+// 监听年用电量的手动修改
+document.addEventListener('DOMContentLoaded', function() {
+    const annualInput = document.getElementById('userAnnualUsage');
+    if (annualInput) {
+        annualInput.addEventListener('input', function() {
+            this.dataset.userModified = 'true';
+        });
+    }
+    
+    // 初始化第一个屋顶坡面
+    addRoofPlane();
+});
+
+let roofPlaneCount = 0;
 
 function addRoofPlane() {
     const container = document.getElementById('roofPlanesContainer');
-    const newPlane = document.createElement('div');
-    newPlane.className = 'roof-plane-input';
-    newPlane.innerHTML = `
-        <h3 style="margin-top: 15px;">屋顶坡面 ${roofPlaneCount + 1}</h3>
-        <div class="form-grid">
-            <div class="form-group">
-                <label>坡面ID</label>
-                <input type="text" name="plane_id_${roofPlaneCount}" value="${String.fromCharCode(65 + roofPlaneCount)}" required>
-            </div>
-            <div class="form-group">
-                <label>方位角 (0=北, 90=东, 180=南, 270=西)</label>
-                <input type="number" name="azimuth_${roofPlaneCount}" value="90" required>
-            </div>
-            <div class="form-group">
-                <label>倾角 (度)</label>
-                <input type="number" name="tilt_${roofPlaneCount}" value="20" required>
-            </div>
-            <div class="form-group">
-                <label>最大面板数</label>
-                <input type="number" name="max_panels_${roofPlaneCount}" value="8" required>
-            </div>
-            <div class="form-group">
-                <label>效率评分 (0-1)</label>
-                <input type="number" step="0.01" name="efficiency_${roofPlaneCount}" value="0.85" required>
-            </div>
+    const planeId = String.fromCharCode(65 + roofPlaneCount); // A, B, C...
+    
+    const defaultValues = [
+        { azimuth: 0, tilt: 20, maxPanels: 10 },
+        { azimuth: 90, tilt: 20, maxPanels: 8 },
+        { azimuth: 180, tilt: 20, maxPanels: 6 },
+        { azimuth: 270, tilt: 20, maxPanels: 8 }
+    ];
+    
+    const defaults = defaultValues[roofPlaneCount] || { azimuth: 0, tilt: 20, maxPanels: 8 };
+    const efficiency = estimateEfficiencyByAzimuth(defaults.azimuth);
+    
+    const planeCard = document.createElement('div');
+    planeCard.className = 'roof-plane-card';
+    planeCard.id = `roof_plane_${roofPlaneCount}`;
+    planeCard.innerHTML = `
+        <button type="button" class="delete-btn" onclick="removeRoofPlane(${roofPlaneCount})">删除</button>
+        <h4>🏠 屋顶坡面 ${planeId}</h4>
+        <div class="form-group">
+            <label>坡面ID</label>
+            <input type="text" name="plane_id_${roofPlaneCount}" value="${planeId}" required>
+        </div>
+        <div class="form-group">
+            <label>方位角 (°)</label>
+            <input type="number" name="azimuth_${roofPlaneCount}" value="${defaults.azimuth}" 
+                   onchange="updateEfficiency(${roofPlaneCount})" required>
+        </div>
+        <div class="form-group">
+            <label>倾角 (°)</label>
+            <input type="number" name="tilt_${roofPlaneCount}" value="${defaults.tilt}" required>
+        </div>
+        <div class="form-group">
+            <label>最大面板数</label>
+            <input type="number" name="max_panels_${roofPlaneCount}" value="${defaults.maxPanels}" required>
+        </div>
+        <div class="form-group">
+            <label>效率评分 (0-1)</label>
+            <input type="number" step="0.01" name="efficiency_${roofPlaneCount}" 
+                   id="efficiency_${roofPlaneCount}" value="${efficiency}" required>
         </div>
     `;
-    container.appendChild(newPlane);
+    
+    container.appendChild(planeCard);
     roofPlaneCount++;
+}
+
+function removeRoofPlane(index) {
+    const plane = document.getElementById(`roof_plane_${index}`);
+    if (plane) {
+        plane.remove();
+    }
+}
+
+function updateEfficiency(index) {
+    const azimuthInput = document.querySelector(`input[name="azimuth_${index}"]`);
+    const efficiencyInput = document.getElementById(`efficiency_${index}`);
+    
+    if (azimuthInput && efficiencyInput) {
+        const azimuth = parseFloat(azimuthInput.value);
+        const estimatedEfficiency = estimateEfficiencyByAzimuth(azimuth);
+        efficiencyInput.value = estimatedEfficiency;
+    }
 }
 
 function switchStrategy(strategy) {
