@@ -115,32 +115,17 @@
             'WA': [0.0254, 0.0236, 0.0219, 0.0206, 0.0202, 0.0219, 0.0285, 0.0381, 0.0429, 0.0425, 0.0417, 0.0425, 0.0441, 0.0449, 0.0453, 0.0457, 0.0501, 0.0623, 0.0654, 0.0623, 0.0554, 0.0484, 0.0398, 0.0314]
         };
 
-        // 成本参数配置
-        const COST_CONFIG = {
-            pvPerKw: 540,
-            inverterPerKw: 280,
-            batteryPerKwh: 865,
-            gstRate: 0.1
-        };
+        // 成本参数配置 - 从配置加载
+        const COST_CONFIG = CONFIG.cost;
 
-        // 电池硬件参数
+        // 电池硬件参数 - 从配置加载
         const BATTERY_PARAMS = {
-            dod: 0.9,
-            rte: 0.95
+            dod: CONFIG.battery.dod || 0.9,
+            rte: CONFIG.battery.rte || 0.9
         };
 
-        // 补贴参数配置
-        const SUBSIDY_CONFIG = {
-            stcPrice: 39,
-            installYear: 2025,
-            deemingEndYear: 2030,
-            batteryStcFactor: 9.3,
-            batteryCapacityCap: 50,
-            zoneRating: {
-                'TAS': 1.382, 'NT': 1.622, 'ACT': 1.382, 'SA': 1.536,
-                'NSW': 1.382, 'QLD': 1.536, 'VIC': 1.382, 'WA': 1.536
-            }
-        };
+        // 补贴参数配置 - 从配置加载
+        const SUBSIDY_CONFIG = CONFIG.subsidy;
 
         function calculateRoofScore(aspect) {
             const north = 0;
@@ -200,15 +185,20 @@
             method3 = pvKw * factor3;
             
             const recommended = Math.max(method1, method2, method3);
-            const standards = [5, 6.5, 9.6, 10, 13.5, 16, 20];
-            const standard = standards.find(s => s >= recommended) || standards[standards.length - 1];
+            
+            // 根据配置决定是否标准化
+            let finalCapacity = recommended;
+            if (CONFIG.battery.useStandards) {
+                const standards = CONFIG.battery.standards || [5, 6.5, 9.6, 10, 13.5, 16, 20];
+                finalCapacity = standards.find(s => s >= recommended) || standards[standards.length - 1];
+            }
             
             return {
                 method1: method1.toFixed(2),
                 method2: method2.toFixed(2),
                 method3: method3.toFixed(2),
                 recommended: recommended.toFixed(2),
-                standard: standard,
+                standard: finalCapacity,
                 methodDesc: `max(日用电×${factor1}, 傍晚峰×${factor2}, PV容量×${factor3})`
             };
         }
@@ -306,7 +296,7 @@
             
             // 方案A: 高端型 (满铺)
             const resultA = fillRoof(roofPlanes, 999);
-            let invA_size = Math.ceil(resultA.totalKw / INVERTER_CONFIG.targetRatio);
+            let invA_size = Math.ceil(resultA.totalKw / (INVERTER_CONFIG.targetRatio / 100));
             let stdSizesA = phaseType === 'single' ? INVERTER_CONFIG.single.a : INVERTER_CONFIG.three.a;
             let invA = stdSizesA.find(s => s >= invA_size) || stdSizesA[stdSizesA.length - 1];
             let ratioA = resultA.totalKw > 0 ? (resultA.totalKw / invA * 100).toFixed(0) : '0';
@@ -327,18 +317,60 @@
             const totalMaxKw = roofPlanes.reduce((sum, p) => sum + (p.max * PV_WATT / 1000), 0);
             const targetKwB = totalMaxKw > 15 ? 13.2 : 10.0;
             const resultB = fillRoof(roofPlanes, targetKwB);
-            const targetInvB = Math.ceil(resultB.totalKw / INVERTER_CONFIG.targetRatio);
+            const targetInvB = Math.ceil(resultB.totalKw / (INVERTER_CONFIG.targetRatio / 100));
             const optionsB = phaseType === 'single' ? INVERTER_CONFIG.single.b : INVERTER_CONFIG.three.b;
             let invB = optionsB.find(s => s >= targetInvB) || optionsB[optionsB.length - 1];
-            const ratioB = (resultB.totalKw / invB * 100).toFixed(0);
+            let ratioB = (resultB.totalKw / invB * 100).toFixed(0);
+            
+            // 检查容配比，必要时调整逆变器或减板子
+            if (parseInt(ratioB) > 200) {
+                const minInvForCompliance = Math.ceil(resultB.totalKw / 2.0);
+                const compliantInv = optionsB.find(s => s >= minInvForCompliance);
+                
+                if (compliantInv && compliantInv > invB) {
+                    // 可以通过增大逆变器解决
+                    invB = compliantInv;
+                    ratioB = (resultB.totalKw / invB * 100).toFixed(0);
+                } else {
+                    // 逆变器已达上限，需要减少面板
+                    const maxInv = optionsB[optionsB.length - 1];
+                    const maxAllowedKw = maxInv * 2.0;
+                    resultB.totalKw = maxAllowedKw;
+                    resultB.count = Math.floor((maxAllowedKw * 1000) / PV_WATT);
+                    invB = maxInv;
+                    ratioB = (resultB.totalKw / invB * 100).toFixed(0);
+                }
+            }
+            
             const batteryB = calculateBatteryCapacity(resultB.totalKw, state, 'balanced');
             
             // 方案C: 经济型 (6.6kW)
             const resultC = fillRoof(roofPlanes, 6.6);
-            const targetInvC = Math.ceil(resultC.totalKw / INVERTER_CONFIG.targetRatio);
+            const targetInvC = Math.ceil(resultC.totalKw / (INVERTER_CONFIG.targetRatio / 100));
             const optionsC = phaseType === 'single' ? INVERTER_CONFIG.single.c : INVERTER_CONFIG.three.c;
             let invC = optionsC.find(s => s >= targetInvC) || optionsC[0];
-            const ratioC = (resultC.totalKw / invC * 100).toFixed(0);
+            let ratioC = (resultC.totalKw / invC * 100).toFixed(0);
+            
+            // 检查容配比，必要时调整逆变器或减板子
+            if (parseInt(ratioC) > 200) {
+                const minInvForCompliance = Math.ceil(resultC.totalKw / 2.0);
+                const compliantInv = optionsC.find(s => s >= minInvForCompliance);
+                
+                if (compliantInv && compliantInv > invC) {
+                    // 可以通过增大逆变器解决
+                    invC = compliantInv;
+                    ratioC = (resultC.totalKw / invC * 100).toFixed(0);
+                } else {
+                    // 逆变器已达上限，需要减少面板
+                    const maxInv = optionsC[optionsC.length - 1];
+                    const maxAllowedKw = maxInv * 2.0;
+                    resultC.totalKw = maxAllowedKw;
+                    resultC.count = Math.floor((maxAllowedKw * 1000) / PV_WATT);
+                    invC = maxInv;
+                    ratioC = (resultC.totalKw / invC * 100).toFixed(0);
+                }
+            }
+            
             const batteryC = calculateBatteryCapacity(resultC.totalKw, state, 'economy');
             
             // 计算成本和补贴
@@ -484,14 +516,14 @@
                     html += `<tr class="hover:bg-gray-50">`;
                     html += `<td class="border p-2">${r.houseId}</td>`;
                     html += `<td class="border p-2">${p.type}</td>`;
-                    html += `<td class="border p-2">${p.pvKw_value.toFixed(2)} ${p.pvKw_unit}</td>`;
-                    html += `<td class="border p-2">${p.panels}</td>`;
-                    html += `<td class="border p-2">${p.inverter_value} ${p.inverter_unit}</td>`;
-                    html += `<td class="border p-2">${p.ratio_value}${p.ratio_unit}</td>`;
-                    html += `<td class="border p-2">${p.battery_value.toFixed(1)} ${p.battery_unit}</td>`;
-                    html += `<td class="border p-2 bg-blue-50">$${p.taxTotal_value.toLocaleString()}</td>`;
-                    html += `<td class="border p-2 bg-green-50">$${p.subsidy_value.toLocaleString()}</td>`;
-                    html += `<td class="border p-2 bg-yellow-50 font-bold">$${p.finalPrice_value.toLocaleString()}</td>`;
+                    html += `<td class="border p-2">${p.pvKw_value ? p.pvKw_value.toFixed(2) : '0.00'} ${p.pvKw_unit || 'kW'}</td>`;
+                    html += `<td class="border p-2">${p.panels || 0}</td>`;
+                    html += `<td class="border p-2">${p.inverter_value || 'N/A'} ${p.inverter_unit || 'kW'}</td>`;
+                    html += `<td class="border p-2">${p.ratio_value || 0}${p.ratio_unit || '%'}</td>`;
+                    html += `<td class="border p-2">${p.battery_value ? p.battery_value.toFixed(1) : '0.0'} ${p.battery_unit || 'kWh'}</td>`;
+                    html += `<td class="border p-2 bg-blue-50">$${p.taxTotal_value ? p.taxTotal_value.toLocaleString() : '0'}</td>`;
+                    html += `<td class="border p-2 bg-green-50">$${p.subsidy_value ? p.subsidy_value.toLocaleString() : '0'}</td>`;
+                    html += `<td class="border p-2 bg-yellow-50 font-bold">$${p.finalPrice_value ? p.finalPrice_value.toLocaleString() : '0'}</td>`;
                     html += `</tr>`;
                 });
             });
@@ -522,11 +554,11 @@
                 ['planA', 'planB', 'planC'].forEach(plan => {
                     const p = r[plan];
                     csv += `${r.houseId},${r.state},${r.phaseType},${p.type},`;
-                    csv += `${p.pvKw_value.toFixed(2)},${p.pvKw_unit},${p.panels},`;
-                    csv += `${p.inverter_value},${p.inverter_unit},${p.ratio_value},${p.ratio_unit},`;
-                    csv += `${p.battery_value.toFixed(1)},${p.battery_unit},`;
-                    csv += `${p.taxTotal_value},${p.taxTotal_unit},${p.subsidy_value},${p.subsidy_unit},${p.finalPrice_value},${p.finalPrice_unit},`;
-                    csv += `${p.usedPlanes}\n`;
+                    csv += `${p.pvKw_value ? p.pvKw_value.toFixed(2) : '0.00'},${p.pvKw_unit || 'kW'},${p.panels || 0},`;
+                    csv += `${p.inverter_value || 'N/A'},${p.inverter_unit || 'kW'},${p.ratio_value || 0},${p.ratio_unit || '%'},`;
+                    csv += `${p.battery_value ? p.battery_value.toFixed(1) : '0.0'},${p.battery_unit || 'kWh'},`;
+                    csv += `${p.taxTotal_value || 0},${p.taxTotal_unit || 'AUD'},${p.subsidy_value || 0},${p.subsidy_unit || 'AUD'},${p.finalPrice_value || 0},${p.finalPrice_unit || 'AUD'},`;
+                    csv += `${p.usedPlanes || 0}\n`;
                 });
             });
             

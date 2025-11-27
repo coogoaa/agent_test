@@ -13,7 +13,10 @@ const DEFAULT_CONFIG = {
         premium: { daily: 0.5, evening: 2.0, pv: 1.5 },
         balanced: { daily: 0.3, evening: 1.5, pv: 1.0 },
         economy: { daily: 0.2, evening: 1.0, pv: 0.8 },
-        standards: [5, 6.5, 9.6, 10, 13.5, 16, 20]
+        standards: [5, 6.5, 9.6, 10, 13.5, 16, 20],
+        useStandards: true,  // 是否使用标准电池规格标准化
+        dod: 0.9,    // Depth of Discharge (放电深度)
+        rte: 0.9     // Round Trip Efficiency (往返效率)
     },
     inverter: {
         single: {
@@ -26,8 +29,8 @@ const DEFAULT_CONFIG = {
             b: [5, 8, 10, 15],
             c: [5, 8, 10]
         },
-        targetRatio: 1.8,
-        maxRatio: 2.0
+        targetRatio: 180,  // 目标容配比 180%
+        maxRatio: 200      // 最大容配比 200%
     },
     consumption: {
         TAS: 10148,

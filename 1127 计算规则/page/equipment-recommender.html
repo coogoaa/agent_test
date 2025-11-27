@@ -131,15 +131,6 @@
                 </div>
             </div>
 
-            <!-- 计算按钮 -->
-            <div class="mt-6 pt-6 border-t border-gray-200">
-                <button id="calculateBtn" class="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold py-4 px-6 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center justify-center text-lg">
-                    <span class="text-2xl mr-3">🚀</span>
-                    <span>开始智能计算与推导</span>
-                </button>
-                <p class="text-xs text-gray-500 text-center mt-2">系统将自动生成三套差异化方案并展示完整推导过程</p>
-            </div>
-
             <!-- 屋顶详情展开 -->
             <div class="mt-6 pt-6 border-t border-gray-200">
                 <button id="toggleRoofDetails" class="text-sm text-blue-600 hover:text-blue-800 font-medium flex items-center">
@@ -431,38 +422,37 @@ id_0	slope	aspect	nums
 44	slope 7	4.6	2
 `;
 
-        // 各州年用电量数据 (kWh)
-        const STATE_CONSUMPTION = {
-            'TAS': 10148, 'NT': 10008, 'ACT': 8632, 'SA': 7129,
-            'NSW': 7778, 'QLD': 7270, 'WA': 7634, 'VIC': 6778
+
+        // ================= 全局数据与配置 =================
+        const AppData = {
+            pv: {},
+            houses: {},
+            currentState: 'NSW',
+            config: null
         };
 
-        // 成本参数配置
-        const COST_CONFIG = {
-            pvPerKw: 540,           // AUD/kW
-            inverterPerKw: 280,     // AUD/kW
-            batteryPerKwh: 865,     // AUD/kWh
-            gstRate: 0.1            // 10%
-        };
+        // 加载配置
+        const CONFIG = loadConfig();
+        AppData.config = CONFIG;
+        console.log('📋 当前配置:', CONFIG);
 
-        // 电池硬件参数
+        // 各州年用电量数据 (kWh) - 从配置加载
+        const STATE_CONSUMPTION = CONFIG.consumption;
+
+        // 成本参数配置 - 从配置加载
+        const COST_CONFIG = CONFIG.cost;
+
+        // 电池硬件参数 - 从配置加载
         const BATTERY_PARAMS = {
-            dod: 0.9,      // Depth of Discharge (放电深度)
-            rte: 0.95      // Round Trip Efficiency (往返效率)
+            dod: CONFIG.battery.dod || 0.9,      // Depth of Discharge (放电深度)
+            rte: CONFIG.battery.rte || 0.9       // Round Trip Efficiency (往返效率)
         };
 
-        // 补贴参数配置
-        const SUBSIDY_CONFIG = {
-            stcPrice: 39,                    // AUD per STC
-            installYear: 2025,
-            deemingEndYear: 2030,
-            batteryStcFactor: 9.3,           // STC/kWh
-            batteryCapacityCap: 50,          // kWh
-            zoneRating: {
-                'TAS': 1.382, 'NT': 1.622, 'ACT': 1.382, 'SA': 1.536,
-                'NSW': 1.382, 'QLD': 1.536, 'VIC': 1.382, 'WA': 1.536
-            }
-        };
+        // 补贴参数配置 - 从配置加载
+        const SUBSIDY_CONFIG = CONFIG.subsidy;
+        
+        // 逆变器规格配置 - 从配置加载
+        const INVERTER_CONFIG = CONFIG.inverter;
 
         // 各州各时段用电比例 (%)
         const STATE_HOURLY_PROFILE = {
@@ -475,20 +465,6 @@ id_0	slope	aspect	nums
             'ACT': [3.400, 3.031, 2.876, 2.867, 3.055, 3.643, 4.493, 4.904, 4.317, 3.792, 3.615, 3.118, 3.053, 2.937, 3.003, 3.369, 4.434, 5.901, 6.693, 6.550, 6.142, 5.416, 5.178, 4.208],
             'NT': [2.990, 2.638, 2.405, 2.319, 2.396, 2.745, 3.486, 4.163, 4.270, 4.255, 4.252, 4.348, 4.421, 4.440, 4.486, 4.667, 5.074, 5.727, 6.229, 5.996, 5.621, 4.970, 4.421, 3.679]
         };
-
-        // ================= 全局数据 =================
-        const AppData = {
-            pv: {},
-            houses: {},
-            currentState: 'NSW'
-        };
-
-        // ================= 加载配置 =================
-        const CONFIG = loadConfig();
-        console.log('📋 当前配置:', CONFIG);
-
-        // 逆变器规格配置（从CONFIG读取）
-        const INVERTER_CONFIG = CONFIG.inverter;
 
         // ================= 解析函数 =================
         
@@ -528,6 +504,24 @@ id_0	slope	aspect	nums
                     aspect: parseFloat(aspect),
                     max: panelCount
                 });
+            }
+            
+            // 加载自定义房屋数据
+            loadCustomHouses();
+        }
+        
+        function loadCustomHouses() {
+            try {
+                const stored = localStorage.getItem('customHouses');
+                if (stored) {
+                    const customHouses = JSON.parse(stored);
+                    Object.keys(customHouses).forEach(houseId => {
+                        AppData.houses[houseId] = customHouses[houseId];
+                    });
+                    console.log('✅ 已加载自定义房屋:', Object.keys(customHouses));
+                }
+            } catch (error) {
+                console.error('❌ 加载自定义房屋失败:', error);
             }
         }
 
@@ -595,13 +589,17 @@ id_0	slope	aspect	nums
                 methodDesc = `max(日用电×50%=${method1.toFixed(1)}, 傍晚峰×2.0=${method2.toFixed(1)}, PV×1.5=${method3.toFixed(1)})`;
             }
             
-            // 标准化到常见电池规格
-            const standardSizes = [0, 5, 6.5, 9.6, 10, 13.5, 16, 20];
-            const standardCapacity = standardSizes.find(s => s >= capacity) || capacity;
+            // 根据配置决定是否标准化到常见电池规格
+            let finalCapacity = capacity;
+            if (CONFIG.battery.useStandards) {
+                const standardSizes = CONFIG.battery.standards || [0, 5, 6.5, 9.6, 10, 13.5, 16, 20];
+                finalCapacity = standardSizes.find(s => s >= capacity) || capacity;
+            }
             
             return {
                 calculated: capacity,
-                standard: standardCapacity,
+                standard: finalCapacity,
+                isStandardized: CONFIG.battery.useStandards,
                 methodDesc: methodDesc,
                 dailyConsumption: dailyConsumption,
                 eveningPeak: eveningPeakConsumption
@@ -738,7 +736,7 @@ id_0	slope	aspect	nums
             derivationLog[stepAIndex].details.push({ text: `方案类型: 高端型 (含储能) → 允许容配比 150%-200%` });
             
             // 使用配置的目标容配比（Hybrid系统的合理范围）
-            let invA_size = Math.ceil(resultA.totalKw / INVERTER_CONFIG.targetRatio);
+            let invA_size = Math.ceil(resultA.totalKw / (INVERTER_CONFIG.targetRatio / 100));
             let stdSizesA;
             if (phaseType === 'single') {
                 stdSizesA = INVERTER_CONFIG.single.a;  // 从配置读取
@@ -867,7 +865,7 @@ id_0	slope	aspect	nums
             derivationLog[stepBIndex].details.push({ text: `方案类型: 平衡型 (含储能) → 允许容配比 150%-200%` });
             
             // 使用配置的目标容配比
-            const targetInvB = Math.ceil(resultB.totalKw / INVERTER_CONFIG.targetRatio);
+            const targetInvB = Math.ceil(resultB.totalKw / (INVERTER_CONFIG.targetRatio / 100));
             
             let invB;
             if (phaseType === 'single') {
@@ -997,7 +995,7 @@ id_0	slope	aspect	nums
             derivationLog[stepCIndex].details.push({ text: `方案类型: 经济型 (含储能) → 允许容配比 150%-200%` });
             
             // 使用配置的目标容配比
-            const targetInvC = Math.ceil(resultC.totalKw / INVERTER_CONFIG.targetRatio);
+            const targetInvC = Math.ceil(resultC.totalKw / (INVERTER_CONFIG.targetRatio / 100));
             
             let invC;
             if (phaseType === 'single') {
@@ -1114,8 +1112,8 @@ id_0	slope	aspect	nums
                 derivationLog,
                 plans: {
                     A: { ...resultA, inv: `${invA}kW Hybrid`, ratio: (resultA.totalKw / invA * 100).toFixed(0), battery: batteryA },
-                    B: { ...resultB, inv: `${invB}kW Hybrid`, ratio: ratioB, battery: batteryB },
-                    C: { ...resultC, inv: `${invC}kW Hybrid`, ratio: ratioC, battery: batteryC }
+                    B: { ...resultB, inv: `${invB}kW Hybrid`, ratio: (resultB.totalKw / invB * 100).toFixed(0), battery: batteryB },
+                    C: { ...resultC, inv: `${invC}kW Hybrid`, ratio: (resultC.totalKw / invC * 100).toFixed(0), battery: batteryC }
                 }
             };
         }
@@ -1287,20 +1285,6 @@ id_0	slope	aspect	nums
                 const icon = document.getElementById('toggleIcon');
                 panel.classList.toggle('hidden');
                 icon.textContent = panel.classList.contains('hidden') ? '▶' : '▼';
-            });
-            
-            // 计算按钮点击事件
-            document.getElementById('calculateBtn').addEventListener('click', () => {
-                const houseId = document.getElementById('houseSelector').value;
-                if (!houseId) {
-                    alert('请先选择房屋ID');
-                    return;
-                }
-                updateUI();
-                // 滚动到结果区域
-                setTimeout(() => {
-                    document.getElementById('proposalsContainer').scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }, 100);
             });
             
             // Tab切换事件

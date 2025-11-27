@@ -146,10 +146,30 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="mb-6">
                         <h3 class="text-lg font-semibold mb-3">标准电池规格 (kWh)</h3>
+                        <div class="flex items-center mb-3 bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <input type="checkbox" id="battery-use-standards" class="mr-2 w-4 h-4">
+                            <label for="battery-use-standards" class="text-sm font-medium text-gray-700">启用标准电池规格标准化</label>
+                        </div>
                         <input type="text" id="battery-standards" class="w-full border rounded p-2" value="5, 6.5, 9.6, 10, 13.5, 16, 20">
-                        <p class="text-xs text-gray-500 mt-1">用逗号分隔，系统会自动标准化到最接近的规格</p>
+                        <p class="text-xs text-gray-500 mt-1">用逗号分隔，仅在启用开关时生效。关闭后将使用计算出的精确值。</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold mb-3">电池性能参数</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">DoD (Depth of Discharge) - 放电深度</label>
+                                <input type="number" step="0.01" id="battery-dod" class="w-full border rounded p-2" value="0.9">
+                                <p class="text-xs text-gray-500 mt-1">范围: 0-1，用于计算可用容量和补贴。当前: 90%</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">RTE (Round Trip Efficiency) - 往返效率</label>
+                                <input type="number" step="0.01" id="battery-rte" class="w-full border rounded p-2" value="0.9">
+                                <p class="text-xs text-gray-500 mt-1">范围: 0-1，充放电循环效率。当前: 90%</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -383,12 +403,21 @@
                     
                     <div class="mb-4">
                         <label class="block text-sm font-medium mb-1">坡面数据</label>
-                        <textarea id="custom-slopes" class="w-full border rounded p-2 font-mono text-sm" rows="10" placeholder="示例：
+                        <textarea id="custom-slopes" class="w-full border rounded p-2 font-mono text-sm" rows="10" placeholder="格式1（逗号分隔）：
 359.8, 30
 269.8, 0
 179.8, 16
-89.8, 0"></textarea>
-                        <p class="text-xs text-gray-500 mt-1">格式: 方位角, 最大面板数（每行一个坡面）</p>
+
+格式2（两行一组）：
+299.35
+1
+209.35
+12"></textarea>
+                        <p class="text-xs text-gray-500 mt-1">
+                            支持两种格式：<br>
+                            • <strong>格式1</strong>: 方位角, 最大面板数（每行一个坡面）<br>
+                            • <strong>格式2</strong>: 每两行一组（第一行方位角，第二行面板数）
+                        </p>
                     </div>
                     
                     <button id="add-custom-house" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
@@ -491,7 +520,10 @@
                         evening: parseFloat(document.getElementById('battery-economy-evening').value),
                         pv: parseFloat(document.getElementById('battery-economy-pv').value)
                     },
-                    standards: document.getElementById('battery-standards').value.split(',').map(s => parseFloat(s.trim()))
+                    standards: document.getElementById('battery-standards').value.split(',').map(s => parseFloat(s.trim())),
+                    useStandards: document.getElementById('battery-use-standards').checked,
+                    dod: parseFloat(document.getElementById('battery-dod').value),
+                    rte: parseFloat(document.getElementById('battery-rte').value)
                 },
                 inverter: {
                     single: {
@@ -575,6 +607,13 @@
             document.getElementById('battery-economy-evening').value = config.battery.economy.evening;
             document.getElementById('battery-economy-pv').value = config.battery.economy.pv;
             document.getElementById('battery-standards').value = config.battery.standards.join(', ');
+            document.getElementById('battery-use-standards').checked = config.battery.useStandards !== undefined ? config.battery.useStandards : true;
+            if (config.battery.dod !== undefined) {
+                document.getElementById('battery-dod').value = config.battery.dod;
+            }
+            if (config.battery.rte !== undefined) {
+                document.getElementById('battery-rte').value = config.battery.rte;
+            }
             
             // 逆变器配置
             document.getElementById('inv-single-a').value = config.inverter.single.a.join(', ');
@@ -669,34 +708,164 @@
             }
         });
 
-        // 自定义房屋
+        // 解析坡面数据 - 支持三种格式
+        // 格式1: 方位角, 最大面板数
+        //   299.35, 3
+        //   209.35, 0
+        // 格式2: 每两行一组（第一行方位角，第二行面板数）
+        //   299.35
+        //   3
+        // 格式3: 每三行一组（第一行 slope 名称，第二行方位角，第三行面板数）
+        //   slope 1
+        //   285.94
+        //   3
+        function parseSlopes(slopesText) {
+            const lines = slopesText.trim().split('\n').filter(line => line.trim());
+            const slopes = [];
+            
+            if (lines.length === 0) {
+                return slopes;
+            }
+            
+            const first = lines[0].trim();
+            const hasComma = first.includes(',');
+            const isSlopeName = /^slope\s+/i.test(first); // 形如 "slope 1"
+            
+            if (hasComma) {
+                // 格式1: 方位角, 最大面板数
+                lines.forEach((line, idx) => {
+                    const parts = line.split(',').map(s => s.trim());
+                    if (parts.length >= 2) {
+                        const aspect = parseFloat(parts[0]);
+                        const max = Math.round(parseFloat(parts[1])) || 0;
+                        slopes.push({
+                            id: `slope ${idx + 1}`,
+                            aspect: aspect,
+                            max: max,
+                            score: calculateScore(aspect)
+                        });
+                    }
+                });
+            } else if (isSlopeName) {
+                // 格式3: 每三行一组（slope 名 + 方位角 + 面板数）
+                for (let i = 0; i + 2 < lines.length; i += 3) {
+                    const name = lines[i].trim();
+                    const aspectStr = lines[i + 1].trim();
+                    const maxStr = lines[i + 2].trim();
+                    
+                    const aspect = parseFloat(aspectStr);
+                    const max = Math.round(parseFloat(maxStr)) || 0;
+                    
+                    slopes.push({
+                        id: name,
+                        aspect: aspect,
+                        max: max,
+                        score: calculateScore(aspect)
+                    });
+                }
+            } else {
+                // 格式2: 每两行一组（第一行方位角，第二行面板数）
+                for (let i = 0; i + 1 < lines.length; i += 2) {
+                    const aspectStr = lines[i].trim();
+                    const maxStr = lines[i + 1].trim();
+                    
+                    const aspect = parseFloat(aspectStr);
+                    const max = Math.round(parseFloat(maxStr)) || 0;
+                    
+                    slopes.push({
+                        id: `slope ${Math.floor(i / 2) + 1}`,
+                        aspect: aspect,
+                        max: max,
+                        score: calculateScore(aspect)
+                    });
+                }
+            }
+            
+            return slopes;
+        }
+
+        // 自定义房屋 - 测试计算
         document.getElementById('test-custom-house').addEventListener('click', () => {
-            const houseId = document.getElementById('custom-house-id').value;
+            const houseId = document.getElementById('custom-house-id').value.trim() || 'test_custom';
             const slopesText = document.getElementById('custom-slopes').value;
             
-            if (!houseId || !slopesText) {
-                alert('请输入房屋ID和坡面数据');
+            if (!slopesText) {
+                alert('请输入坡面数据');
                 return;
             }
             
-            // 解析坡面数据
-            const slopes = slopesText.trim().split('\n').map((line, idx) => {
-                const [aspect, max] = line.split(',').map(s => s.trim());
-                return {
-                    id: `slope ${idx + 1}`,
-                    aspect: parseFloat(aspect),
-                    max: parseInt(max),
-                    score: calculateScore(parseFloat(aspect))
+            try {
+                // 解析坡面数据
+                const slopes = parseSlopes(slopesText);
+                
+                if (slopes.length === 0) {
+                    alert('❌ 无法解析坡面数据，请检查格式');
+                    return;
+                }
+                
+                const totalPanels = slopes.reduce((sum, s) => sum + s.max, 0);
+                const totalKw = (totalPanels * 0.44).toFixed(2);
+                
+                const result = {
+                    houseId,
+                    slopes,
+                    totalPanels,
+                    totalKw
                 };
-            });
+                
+                document.getElementById('custom-result').classList.remove('hidden');
+                document.getElementById('custom-result-text').textContent = JSON.stringify(result, null, 2);
+            } catch (error) {
+                alert('❌ 解析失败：' + error.message);
+            }
+        });
+
+        // 自定义房屋 - 添加到系统
+        document.getElementById('add-custom-house').addEventListener('click', () => {
+            const houseId = document.getElementById('custom-house-id').value.trim() || 'test_custom';
+            const slopesText = document.getElementById('custom-slopes').value;
             
-            document.getElementById('custom-result').classList.remove('hidden');
-            document.getElementById('custom-result-text').textContent = JSON.stringify({
-                houseId,
-                slopes,
-                totalPanels: slopes.reduce((sum, s) => sum + s.max, 0),
-                totalKw: (slopes.reduce((sum, s) => sum + s.max, 0) * 0.44).toFixed(2)
-            }, null, 2);
+            if (!slopesText) {
+                alert('请输入坡面数据');
+                return;
+            }
+            
+            try {
+                // 解析坡面数据
+                const slopes = parseSlopes(slopesText);
+                
+                if (slopes.length === 0) {
+                    alert('❌ 无法解析坡面数据，请检查格式');
+                    return;
+                }
+                
+                // 从localStorage获取现有的自定义房屋数据
+                let customHouses = {};
+                const stored = localStorage.getItem('customHouses');
+                if (stored) {
+                    customHouses = JSON.parse(stored);
+                }
+                
+                // 添加新房屋
+                customHouses[houseId] = slopes;
+                
+                // 保存到localStorage
+                localStorage.setItem('customHouses', JSON.stringify(customHouses));
+                
+                alert(`✅ 房屋 "${houseId}" 已添加到系统！\n\n共 ${slopes.length} 个坡面，${slopes.reduce((sum, s) => sum + s.max, 0)} 块面板\n\n请前往"单个分析"或"批量处理"页面使用。`);
+                
+                // 显示测试结果
+                document.getElementById('custom-result').classList.remove('hidden');
+                document.getElementById('custom-result-text').textContent = JSON.stringify({
+                    houseId,
+                    slopes,
+                    totalPanels: slopes.reduce((sum, s) => sum + s.max, 0),
+                    totalKw: (slopes.reduce((sum, s) => sum + s.max, 0) * 0.44).toFixed(2),
+                    status: '已保存到系统'
+                }, null, 2);
+            } catch (error) {
+                alert('❌ 添加失败：' + error.message);
+            }
         });
 
         function calculateScore(aspect) {
