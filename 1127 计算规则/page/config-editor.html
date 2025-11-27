@@ -178,7 +178,13 @@
                     <h2 class="text-xl font-bold mb-4">逆变器可用规格</h2>
                     
                     <div class="mb-6">
-                        <h3 class="text-lg font-semibold mb-3">单相电网</h3>
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="text-lg font-semibold">单相电网</h3>
+                            <label class="flex items-center text-sm text-gray-600">
+                                <input type="checkbox" id="inv-single-enable" class="mr-2 w-4 h-4">
+                                启用可用规格限制
+                            </label>
+                        </div>
                         <div class="grid grid-cols-3 gap-4">
                             <div>
                                 <label class="block text-sm font-medium mb-1">方案A (高端型) - kW</label>
@@ -196,7 +202,13 @@
                     </div>
 
                     <div class="mb-6">
-                        <h3 class="text-lg font-semibold mb-3">三相电网</h3>
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="text-lg font-semibold">三相电网</h3>
+                            <label class="flex items-center text-sm text-gray-600">
+                                <input type="checkbox" id="inv-three-enable" class="mr-2 w-4 h-4">
+                                启用可用规格限制
+                            </label>
+                        </div>
                         <div class="grid grid-cols-3 gap-4">
                             <div>
                                 <label class="block text-sm font-medium mb-1">方案A (高端型) - kW</label>
@@ -549,6 +561,8 @@
                         b: document.getElementById('inv-three-b').value.split(',').map(s => parseFloat(s.trim())),
                         c: document.getElementById('inv-three-c').value.split(',').map(s => parseFloat(s.trim()))
                     },
+                    enableSingleOptions: document.getElementById('inv-single-enable').checked,
+                    enableThreeOptions: document.getElementById('inv-three-enable').checked,
                     singleMaxKw: parseFloat(document.getElementById('inv-single-max').value),
                     threeMaxKw: parseFloat(document.getElementById('inv-three-max').value),
                     targetRatio: parseFloat(document.getElementById('inv-target-ratio').value),
@@ -637,6 +651,8 @@
             document.getElementById('inv-three-a').value = config.inverter.three.a.join(', ');
             document.getElementById('inv-three-b').value = config.inverter.three.b.join(', ');
             document.getElementById('inv-three-c').value = config.inverter.three.c.join(', ');
+            document.getElementById('inv-single-enable').checked = config.inverter.enableSingleOptions !== false;
+            document.getElementById('inv-three-enable').checked = config.inverter.enableThreeOptions !== false;
             document.getElementById('inv-target-ratio').value = config.inverter.targetRatio;
             document.getElementById('inv-max-ratio').value = config.inverter.maxRatio;
             

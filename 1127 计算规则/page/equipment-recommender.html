@@ -467,12 +467,15 @@ id_0	slope	aspect	nums
         }
 
         function getInverterOptions(planKey, phaseType) {
+            const useOptions = phaseType === 'single'
+                ? (INVERTER_CONFIG.enableSingleOptions !== false)
+                : (INVERTER_CONFIG.enableThreeOptions !== false);
             const baseOptions = phaseType === 'single' 
                 ? (INVERTER_CONFIG.single[planKey] || [])
                 : (INVERTER_CONFIG.three[planKey] || []);
             const phaseMax = getPhaseMaxLimit(phaseType);
             const filtered = baseOptions.filter(size => size <= phaseMax);
-            let options = filtered;
+            let options = useOptions ? filtered : [phaseMax];
             let injectedLimit = false;
             if (options.length === 0) {
                 if (baseOptions.length > 0) {
@@ -487,7 +490,7 @@ id_0	slope	aspect	nums
                 baseOptions,
                 phaseMax,
                 limitInjected: injectedLimit,
-                limitedByConfig: baseOptions.some(size => size > phaseMax)
+                limitedByConfig: useOptions && baseOptions.some(size => size > phaseMax)
             };
         }
 

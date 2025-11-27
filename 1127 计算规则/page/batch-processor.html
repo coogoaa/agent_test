@@ -151,12 +151,15 @@
         }
 
         function getInverterOptions(planKey, phaseType) {
+            const useOptions = phaseType === 'single'
+                ? (INVERTER_CONFIG.enableSingleOptions !== false)
+                : (INVERTER_CONFIG.enableThreeOptions !== false);
             const baseOptions = phaseType === 'single'
                 ? (INVERTER_CONFIG.single[planKey] || [])
                 : (INVERTER_CONFIG.three[planKey] || []);
             const phaseMax = getPhaseMaxLimit(phaseType);
             const filtered = baseOptions.filter(size => size <= phaseMax);
-            let options = filtered;
+            let options = useOptions ? filtered : [phaseMax];
             let injectedLimit = false;
             if (options.length === 0) {
                 if (baseOptions.length > 0) {
@@ -171,7 +174,7 @@
                 baseOptions,
                 phaseMax,
                 limitInjected: injectedLimit,
-                limitedByConfig: baseOptions.some(size => size > phaseMax)
+                limitedByConfig: useOptions && baseOptions.some(size => size > phaseMax)
             };
         }
 
@@ -436,98 +439,37 @@
                 };
             }
             
+            const totalMaxKw = roofPlanes.reduce((sum, p) => sum + (p.max * PV_WATT / 1000), 0);
+
             // 方案A: 高端型 (满铺)
             const resultA = fillRoof(roofPlanes, 999);
-            let invA_size = Math.ceil(resultA.totalKw / (INVERTER_CONFIG.targetRatio / 100));
-            let stdSizesA = phaseType === 'single' ? INVERTER_CONFIG.single.a : INVERTER_CONFIG.three.a;
-            let invA = stdSizesA.find(s => s >= invA_size) || stdSizesA[stdSizesA.length - 1];
-            let ratioA = resultA.totalKw > 0 ? (resultA.totalKw / invA * 100).toFixed(0) : '0';
-            
-            // 检查容配比，必要时减板子
-            if (parseInt(ratioA) > 200) {
-                const maxInv = stdSizesA[stdSizesA.length - 1];
-                const maxAllowedKw = maxInv * 2.0;
-                resultA.totalKw = maxAllowedKw;
-                resultA.count = Math.floor((maxAllowedKw * 1000) / PV_WATT);
-                invA = maxInv;
-                ratioA = (resultA.totalKw / invA * 100).toFixed(0);
-            }
-            
+            const inverterA = applyInverterRules(resultA, 'a', phaseType);
             const batteryA = calculateBatteryCapacity(resultA.totalKw, state, 'premium');
-            
+
             // 方案B: 平衡型 (10-13kW)
-            const totalMaxKw = roofPlanes.reduce((sum, p) => sum + (p.max * PV_WATT / 1000), 0);
             const targetKwB = totalMaxKw > 15 ? 13.2 : 10.0;
             const resultB = fillRoof(roofPlanes, targetKwB);
-            const targetInvB = Math.ceil(resultB.totalKw / (INVERTER_CONFIG.targetRatio / 100));
-            const optionsB = phaseType === 'single' ? INVERTER_CONFIG.single.b : INVERTER_CONFIG.three.b;
-            let invB = optionsB.find(s => s >= targetInvB) || optionsB[optionsB.length - 1];
-            let ratioB = (resultB.totalKw / invB * 100).toFixed(0);
-            
-            // 检查容配比，必要时调整逆变器或减板子
-            if (parseInt(ratioB) > 200) {
-                const minInvForCompliance = Math.ceil(resultB.totalKw / 2.0);
-                const compliantInv = optionsB.find(s => s >= minInvForCompliance);
-                
-                if (compliantInv && compliantInv > invB) {
-                    // 可以通过增大逆变器解决
-                    invB = compliantInv;
-                    ratioB = (resultB.totalKw / invB * 100).toFixed(0);
-                } else {
-                    // 逆变器已达上限，需要减少面板
-                    const maxInv = optionsB[optionsB.length - 1];
-                    const maxAllowedKw = maxInv * 2.0;
-                    resultB.totalKw = maxAllowedKw;
-                    resultB.count = Math.floor((maxAllowedKw * 1000) / PV_WATT);
-                    invB = maxInv;
-                    ratioB = (resultB.totalKw / invB * 100).toFixed(0);
-                }
-            }
-            
+            const inverterB = applyInverterRules(resultB, 'b', phaseType);
             const batteryB = calculateBatteryCapacity(resultB.totalKw, state, 'balanced');
-            
+
             // 方案C: 经济型 (6.6kW)
             const resultC = fillRoof(roofPlanes, 6.6);
-            const targetInvC = Math.ceil(resultC.totalKw / (INVERTER_CONFIG.targetRatio / 100));
-            const optionsC = phaseType === 'single' ? INVERTER_CONFIG.single.c : INVERTER_CONFIG.three.c;
-            let invC = optionsC.find(s => s >= targetInvC) || optionsC[0];
-            let ratioC = (resultC.totalKw / invC * 100).toFixed(0);
-            
-            // 检查容配比，必要时调整逆变器或减板子
-            if (parseInt(ratioC) > 200) {
-                const minInvForCompliance = Math.ceil(resultC.totalKw / 2.0);
-                const compliantInv = optionsC.find(s => s >= minInvForCompliance);
-                
-                if (compliantInv && compliantInv > invC) {
-                    // 可以通过增大逆变器解决
-                    invC = compliantInv;
-                    ratioC = (resultC.totalKw / invC * 100).toFixed(0);
-                } else {
-                    // 逆变器已达上限，需要减少面板
-                    const maxInv = optionsC[optionsC.length - 1];
-                    const maxAllowedKw = maxInv * 2.0;
-                    resultC.totalKw = maxAllowedKw;
-                    resultC.count = Math.floor((maxAllowedKw * 1000) / PV_WATT);
-                    invC = maxInv;
-                    ratioC = (resultC.totalKw / invC * 100).toFixed(0);
-                }
-            }
-            
+            const inverterC = applyInverterRules(resultC, 'c', phaseType);
             const batteryC = calculateBatteryCapacity(resultC.totalKw, state, 'economy');
-            
+
             // 计算成本和补贴
-            const costA = calculateCost(resultA.totalKw, invA, batteryA.standard);
+            const costA = calculateCost(resultA.totalKw, inverterA.kw, batteryA.standard);
             const subsidyA = calculateSubsidy(resultA.totalKw, batteryA.standard, state);
             const finalPriceA = costA.taxTotal - subsidyA.subsidyAmount;
-            
-            const costB = calculateCost(resultB.totalKw, invB, batteryB.standard);
+
+            const costB = calculateCost(resultB.totalKw, inverterB.kw, batteryB.standard);
             const subsidyB = calculateSubsidy(resultB.totalKw, batteryB.standard, state);
             const finalPriceB = costB.taxTotal - subsidyB.subsidyAmount;
-            
-            const costC = calculateCost(resultC.totalKw, invC, batteryC.standard);
+
+            const costC = calculateCost(resultC.totalKw, inverterC.kw, batteryC.standard);
             const subsidyC = calculateSubsidy(resultC.totalKw, batteryC.standard, state);
             const finalPriceC = costC.taxTotal - subsidyC.subsidyAmount;
-            
+
             return {
                 houseId,
                 state,
@@ -538,65 +480,9 @@
                     totalMaxPanels: roofPlanes.reduce((sum, p) => sum + p.max, 0),
                     totalMaxKw: totalMaxKw.toFixed(2)
                 },
-                planA: {
-                    type: '高端型',
-                    // 数值和单位分离
-                    pvKw_value: resultA.totalKw,
-                    pvKw_unit: 'kW',
-                    panels: resultA.count,
-                    inverter_value: invA,
-                    inverter_unit: 'kW',
-                    ratio_value: parseInt(ratioA),
-                    ratio_unit: '%',
-                    battery_value: batteryA.standard,
-                    battery_unit: 'kWh',
-                    // 成本和补贴（数值和单位分离）
-                    taxTotal_value: Math.round(costA.taxTotal),
-                    taxTotal_unit: 'AUD',
-                    subsidy_value: Math.round(subsidyA.subsidyAmount),
-                    subsidy_unit: 'AUD',
-                    finalPrice_value: Math.round(finalPriceA),
-                    finalPrice_unit: 'AUD',
-                    usedPlanes: resultA.usedPlanes.length
-                },
-                planB: {
-                    type: '平衡型',
-                    pvKw_value: resultB.totalKw,
-                    pvKw_unit: 'kW',
-                    panels: resultB.count,
-                    inverter_value: invB,
-                    inverter_unit: 'kW',
-                    ratio_value: parseInt(ratioB),
-                    ratio_unit: '%',
-                    battery_value: batteryB.standard,
-                    battery_unit: 'kWh',
-                    taxTotal_value: Math.round(costB.taxTotal),
-                    taxTotal_unit: 'AUD',
-                    subsidy_value: Math.round(subsidyB.subsidyAmount),
-                    subsidy_unit: 'AUD',
-                    finalPrice_value: Math.round(finalPriceB),
-                    finalPrice_unit: 'AUD',
-                    usedPlanes: resultB.usedPlanes.length
-                },
-                planC: {
-                    type: '经济型',
-                    pvKw_value: resultC.totalKw,
-                    pvKw_unit: 'kW',
-                    panels: resultC.count,
-                    inverter_value: invC,
-                    inverter_unit: 'kW',
-                    ratio_value: parseInt(ratioC),
-                    ratio_unit: '%',
-                    battery_value: batteryC.standard,
-                    battery_unit: 'kWh',
-                    taxTotal_value: Math.round(costC.taxTotal),
-                    taxTotal_unit: 'AUD',
-                    subsidy_value: Math.round(subsidyC.subsidyAmount),
-                    subsidy_unit: 'AUD',
-                    finalPrice_value: Math.round(finalPriceC),
-                    finalPrice_unit: 'AUD',
-                    usedPlanes: resultC.usedPlanes.length
-                }
+                planA: createPlanResult('高端型', resultA, inverterA, batteryA, costA, subsidyA, finalPriceA),
+                planB: createPlanResult('平衡型', resultB, inverterB, batteryB, costB, subsidyB, finalPriceB),
+                planC: createPlanResult('经济型', resultC, inverterC, batteryC, costC, subsidyC, finalPriceC)
             };
         }
 
@@ -644,7 +530,9 @@
             html += '<th class="border p-2">方案</th>';
             html += '<th class="border p-2">PV容量</th>';
             html += '<th class="border p-2">面板数</th>';
-            html += '<th class="border p-2">逆变器</th>';
+            html += '<th class="border p-2">逆变器原始功率</th>';
+            html += '<th class="border p-2">逆变器最终功率</th>';
+            html += '<th class="border p-2">逆变器说明</th>';
             html += '<th class="border p-2">容配比</th>';
             html += '<th class="border p-2">电池</th>';
             html += '<th class="border p-2 bg-blue-100">含税价</th>';
@@ -660,7 +548,9 @@
                     html += `<td class="border p-2">${p.type}</td>`;
                     html += `<td class="border p-2">${p.pvKw_value ? p.pvKw_value.toFixed(2) : '0.00'} ${p.pvKw_unit || 'kW'}</td>`;
                     html += `<td class="border p-2">${p.panels || 0}</td>`;
-                    html += `<td class="border p-2">${p.inverter_value || 'N/A'} ${p.inverter_unit || 'kW'}</td>`;
+                    html += `<td class="border p-2">${typeof p.inverter_raw_value === 'number' ? formatKwValue(p.inverter_raw_value) : 'N/A'} ${p.inverter_unit || 'kW'}</td>`;
+                    html += `<td class="border p-2">${typeof p.inverter_value === 'number' ? formatKwValue(p.inverter_value) : (p.inverter_value || 'N/A')} ${p.inverter_unit || 'kW'}</td>`;
+                    html += `<td class="border p-2 text-gray-600">${p.inverter_detail || '-'}</td>`;
                     html += `<td class="border p-2">${p.ratio_value || 0}${p.ratio_unit || '%'}</td>`;
                     html += `<td class="border p-2">${p.battery_value ? p.battery_value.toFixed(1) : '0.0'} ${p.battery_unit || 'kWh'}</td>`;
                     html += `<td class="border p-2 bg-blue-50">$${p.taxTotal_value ? p.taxTotal_value.toLocaleString() : '0'}</td>`;
@@ -687,7 +577,7 @@
             // CSV表头 - 数值和单位分离
             let csv = '房屋ID,州,电网相位,方案类型,';
             csv += 'PV容量(数值),PV容量单位,面板数量,';
-            csv += '逆变器功率(数值),逆变器单位,容配比(数值),容配比单位,';
+            csv += '逆变器原始功率(数值),逆变器最终功率(数值),逆变器单位,逆变器说明,容配比(数值),容配比单位,';
             csv += '电池容量(数值),电池单位,';
             csv += '含税价(数值),含税价单位,补贴(数值),补贴单位,最终报价(数值),最终报价单位,';
             csv += '使用坡面数\n';
@@ -697,7 +587,7 @@
                     const p = r[plan];
                     csv += `${r.houseId},${r.state},${r.phaseType},${p.type},`;
                     csv += `${p.pvKw_value ? p.pvKw_value.toFixed(2) : '0.00'},${p.pvKw_unit || 'kW'},${p.panels || 0},`;
-                    csv += `${p.inverter_value || 'N/A'},${p.inverter_unit || 'kW'},${p.ratio_value || 0},${p.ratio_unit || '%'},`;
+                    csv += `${p.inverter_raw_value ?? 'N/A'},${p.inverter_value ?? 'N/A'},${p.inverter_unit || 'kW'},"${(p.inverter_detail || '').replace(/"/g, '""')}",${p.ratio_value || 0},${p.ratio_unit || '%'},`;
                     csv += `${p.battery_value ? p.battery_value.toFixed(1) : '0.0'},${p.battery_unit || 'kWh'},`;
                     csv += `${p.taxTotal_value || 0},${p.taxTotal_unit || 'AUD'},${p.subsidy_value || 0},${p.subsidy_unit || 'AUD'},${p.finalPrice_value || 0},${p.finalPrice_unit || 'AUD'},`;
                     csv += `${p.usedPlanes || 0}\n`;
