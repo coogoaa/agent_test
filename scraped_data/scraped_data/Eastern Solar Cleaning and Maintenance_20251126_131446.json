@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/eastern-solar-cleaning-and-maintenance/",
+  "scraped_at": "2025-11-26T13:14:46.870759",
+  "company_info": {
+    "company_name": "Eastern Solar Cleaning and Maintenance",
+    "contact_address": "Boronia, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "34324",
+      "reviewer_name": "Barry",
+      "reviewer_location": "VIC - 3134",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3134",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-07-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Eastern Solar is a small local (Boronia) solar install and maintenance operation.Daniel took the time on his site visit, to check what we had (we were adding to an existing 2.43Kw system), checked out the available roof space, and discussed the various options especially inverters - I wanted one with a display).Installation was completed within the Friday, neat and tidy.  Daniel came back on the Monday to complete the paperwork and undertake some tweaking of the Fronius inverter to cope better with Ausnet's network and power voltage fluctuations.Overall happy with the choice and installation, and new Jinko panels are performing about 10% better than the existing 5yo Silex panels.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

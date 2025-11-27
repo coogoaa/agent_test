@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/wesley-social-enterprises/",
+  "scraped_at": "2025-11-26T19:06:21.273123",
+  "company_info": {
+    "company_name": "Wesley Social Enterprises",
+    "contact_address": "SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "43637",
+      "reviewer_name": "John",
+      "reviewer_location": "SA - 5095",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5095",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-01-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

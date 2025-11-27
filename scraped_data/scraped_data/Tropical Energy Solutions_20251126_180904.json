@@ -1,0 +1,175 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tropical-energy-solutions/",
+  "scraped_at": "2025-11-26T18:09:04.061773",
+  "company_info": {
+    "company_name": "Tropical Energy Solutions",
+    "contact_phone": "07 4772 7394",
+    "website_url": "https://www.tropicalenergysolutions.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_c53b3323dd4a01aaec06d97194c76746.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_4c842cbdb530070560f94a8b70d5dc91.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_6d3ca4a566be7034179dd5eb14448127.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_6b9d862699ea63579f7bcca752e717bf.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_447e44eacffd2a0e573d76e31efc6fff.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_2ada7b483f52be3afc92b8d3b07896d9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_bb6d67152bad5f0137af56b70bf010b6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_c282aa4095ea0e6f3a215dbca8a6da15.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_929aada379725cb78655cc6532c8ea50.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_56797cefb1efc9130f7c48a7d1db0f0c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/468_fd4acbcdc5073eba3c0b85a2b98eaf81.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f4c81c6f847a3563713c1874ec5de97b0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/80d6239c2069eb70888dc1758fb8a0d40.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c7fc5144477b9a15ce8b2886d6ebfd5d3.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "138792",
+      "reviewer_name": "Ken",
+      "reviewer_location": "QLD - 4740",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4740",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We followed the advice of getting multiple quotes for our solar after reading the advice provided by Solar Quotes. Very helpful.We ended up getting 5 quotes as the first quote came with a finance agreement we weren't comfortable with. 3 quotes were from the suppliers recommended by Solar Quotes. Each was professional & each taught us something we needed to know but weren't aware of.The 5th quote was from Tropical Solar after our Real Estate agent recommended them. Tropical Solar had all the features we were seeing as desirable from the previous companies, had the expertise we felt was important & were comfortably the best price for the most features. I really appreciated that the initial consultation was with the owner (Hunter Hoffman) as was most of the follow up interactions. His expertise was obvious & we ended up purchasing the exact same system & configuration as the he & his business partner (James) have installed on their own houses.Tropical Solar handled everything including Ergon. No fuss. Very customer friendly. Communication was excellent at every stage of the purchase, then install.The install team were awesome, led by James. Great post install explanation of the Deye/Trina Solar Vertex system. Never had a post install clean up as impeccable as this. No mess left anywhere.Brilliant team and we're very happy with the decision we made.Highly recommend Tropical Solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Deye",
+      "battery_brand": "Deye (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_deye.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f4c81c6f847a3563713c1874ec5de97b0.jpg"
+      ]
+    },
+    {
+      "review_id": "122396",
+      "reviewer_name": "Vicki",
+      "reviewer_location": "QLD - 4741",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4741",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great service and after sales. Explained a lot. And kept in touch throughout the whole service.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "120331",
+      "reviewer_name": "Kevin",
+      "reviewer_location": "QLD - 4750",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4750",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Tropical solar were professional from start to finish. The quotation was informative and professional. The installation went great, removed my old system and installed the new 13.2 kw system all in one day with all the staff on board and supervised by the management.  Cleaned up all the mess and staff were all courteous and professional.  Couldn't be happier.Solar quotes could do well to add them to your installers list.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/80d6239c2069eb70888dc1758fb8a0d40.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c7fc5144477b9a15ce8b2886d6ebfd5d3.jpg"
+      ]
+    },
+    {
+      "review_id": "789",
+      "reviewer_name": "Rob",
+      "reviewer_location": "QLD - 4812",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4812",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-06-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "They were the cheapest and could also demonstrate extensive experience in the solar market. While most of the others did not appear to have been around as long.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Deye logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_deye.png"
+    }
+  ]
+}

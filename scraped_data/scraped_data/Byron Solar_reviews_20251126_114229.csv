@@ -1,0 +1,3 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,panel_rating,inverter_rating,has_images,image_urls,overall_rating,quality_rating
+2949,Dale,NSW - 2478,NSW,2478,True,2012-09-05,05 September 2012,3.25,,,3.0,4.0,2.0,4.0,1.5kW,"$3,000 to $6,000",unknown (Other),SMA,,4.0,5.0,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png'],0,0
+1111,Paul,NSW - 2479,NSW,2479,True,2010-06-17,17 June 2010,3.67,,,5.0,5.0,0,1.0,1.5kW,"$3,000 to $6,000",,,,,,False,[],0,0

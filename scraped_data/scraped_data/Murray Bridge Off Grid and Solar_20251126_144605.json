@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/murray-bridge-off-grid-and-solar/",
+  "scraped_at": "2025-11-26T14:46:05.625592",
+  "company_info": {
+    "company_name": "Murray Bridge Off Grid and Solar",
+    "contact_phone": "08 7523 4322",
+    "website_url": "https://www.mboffgrid.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14394_fe672279dc11a2aeb1769ccae6d4c455.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14394_f805d613748bfe47401b9013abee666f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14394_7015a9bd7eb02ec408ec33b478749e9f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14394_80669c9281baabc699b86e60883e8fec.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

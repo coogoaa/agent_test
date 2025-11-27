@@ -1,0 +1,97 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mustart-electrical/",
+  "scraped_at": "2025-11-26T14:46:54.773716",
+  "company_info": {
+    "company_name": "Mustart Electrical",
+    "contact_address": "Mount Gambier, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "104577",
+      "reviewer_name": "Jason",
+      "reviewer_location": "SA - 5290",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great with everything from start to finish. Excellent installers very professional",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "106041",
+      "reviewer_name": "Brian",
+      "reviewer_location": "SA - 5280",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5280",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-12-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent service during and afterInstallationHelped out with all and any hiccups along the wayEnergy supplier stuffed up Installation of smart meterWrong oneSo none was installedMichael from mustart elecChased up problem and got it fixedPlus came up with a way of heating my hot water from solarCannot fault him or his service so far",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

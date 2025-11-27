@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/save-with-solar/",
+  "scraped_at": "2025-11-26T16:27:48.169808",
+  "company_info": {
+    "company_name": "Save With Solar",
+    "contact_address": "Cairns, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "60331",
+      "reviewer_name": "Edward",
+      "reviewer_location": "QLD - 4885",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4885",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "1. The Replenishment firm had to be chased up for a quote and it jumped $1900 from verbal. The sales rep was excellent.2. The East Coast firm didn't listen when I said Inverter inside and quoted outside.  Otherwise was good sales pitch.3. The other firm rang weeks later so was outside the game as it was already installed.The Save with Solar bloke was roughly same price as the East Coast firm but also was able to install sooner so that clinched it. He kept to his word, always a good thing.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "54424",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4885",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4885",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-10-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

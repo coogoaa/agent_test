@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-shop-group/",
+  "scraped_at": "2025-11-26T17:24:04.295846",
+  "company_info": {
+    "company_name": "Solar Shop Group",
+    "contact_address": "Tullamarine, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "88567",
+      "reviewer_name": "Shane",
+      "reviewer_location": "VIC - 3464",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3464",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I got quotes from probably 8 or 9 installers some of who were not all that honest or knowledgeable with my being able to get the Victorian Solar Rebate. Some of them told me just to get the old system removed and and replace with a new system and then I could apply for the rebate. Unfortunately for them I am able to read and could understand the list of stipulations required to apply for the said rebate. The ones who tried to tell me untruths I put to one side and went no further with them . Solar shop group was one of the people who told me the truth up front with regards to the Victorian solar rebate. Their quote was concise and there was nothing hidden.   I spoke mainly to Mathew the salesman and Kristie from their admin and I could not fault either of them. What they said they would do was what they did They were very professional. I have to say also great customer service. The installers were very quick and other than a small call back by the electrical inspector did a very good job. They cleaned up after themselves after they had finished even down to the cable ties that were on the new panels wiring. They told me they would be there at 8.30 am  turned up 10 mins early and were gone before the time they said they would be finished.  The company handles all the offical side of things all I had to do more or less was pay the bill. I would highly recommend this installer company",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

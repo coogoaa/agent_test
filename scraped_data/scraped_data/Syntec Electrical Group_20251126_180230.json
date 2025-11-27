@@ -1,0 +1,72 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/syntec-electrical-group/",
+  "scraped_at": "2025-11-26T18:02:30.403384",
+  "company_info": {
+    "company_name": "Syntec Electrical Group",
+    "contact_phone": "0422 605 945",
+    "website_url": "https://www.facebook.com/people/Syntec-Electrical-Group/61573937494228/#",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14382_1c0b2d1316cd26020ff6fe9a33159ac7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14382_76084406afef3e2d543ad8e1cb01620f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14382_fa05bc6c9fb10f8295fff72dd7de1364.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14382_a7987501f4c0ddb76fa692f65f9244cf.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "138147",
+      "reviewer_name": "Haimin",
+      "reviewer_location": "NSW - 2207",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2207",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Could not have asked for a better experience. David helped us supply and install a solar + battery system, data cabling and switchboard upgrade. Extremely happy with the workmanship and customer service. The cabling was tidy and square with minimal drilling, worksite left very clean, paperwork all organised in advance and David was very patient in finding the right solution for us despite multiple changes.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "ESY (Other)",
+      "battery_brand": "ESY Sunhome",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_esy-sunhome-batteries.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "ESY Sunhome logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_esy-sunhome-batteries.png"
+    }
+  ]
+}

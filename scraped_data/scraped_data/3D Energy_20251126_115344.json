@@ -1,0 +1,153 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/3d-energy/",
+  "scraped_at": "2025-11-26T11:53:44.683513",
+  "company_info": {
+    "company_name": "3D Energy",
+    "contact_address": "Gaythorne, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "112408",
+      "reviewer_name": "Grant",
+      "reviewer_location": "QLD - 4031",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4031",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Awesome communication, did the job when they said they would and it went without a hitch. Couldn’t ask for more + lots of good advice.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "99310",
+      "reviewer_name": "Valerie",
+      "reviewer_location": "QLD - 4113",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4113",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "There was no pressure to buy. This system was better value for money than 2 previously quoted on. Systems were bigger than those previously quoted on for similar money and could accommodate all our electricity needs, including the hot water systems and cleaning a huge pool.The installation team were very efficient, professional, obliging and friendly.Yes, they were very helpful with advice and helped organize all the paper work.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "71102",
+      "reviewer_name": "Poh-Ling",
+      "reviewer_location": "QLD - 4059",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4059",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quote was competitive, owner operated business. Installers were polite and tidy and installation was done within a week of acceptance of quote. Everything went smoothly. The company are accredited REC installers so the panels came with 25 years product warranty.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "54020",
+      "reviewer_name": "Judy",
+      "reviewer_location": "QLD - 4060",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4060",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-10-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "local contractor for ease of  future contact",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

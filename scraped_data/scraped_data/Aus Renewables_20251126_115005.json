@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/aus-renewables/",
+  "scraped_at": "2025-11-26T11:50:05.418889",
+  "company_info": {
+    "company_name": "Aus Renewables",
+    "contact_address": "Thebarton, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "104465",
+      "reviewer_name": "Richard",
+      "reviewer_location": "SA - 5112",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5112",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "A Salesman can to our house, looked at our location for the most suitable Solar System for us and discussed all of my queries.The Installation of the 22 Panels of the Canadian solar system, was very well carried out and the 4 workers were very polite and continued the Installation with no stoppages until work was completed.  Installation of the Sungrow Inverter was carried out very approx. 2 days later and all Certificates were given to me.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

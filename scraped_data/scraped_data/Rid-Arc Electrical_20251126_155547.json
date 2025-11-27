@@ -1,0 +1,38 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rid-arc-electrical/",
+  "scraped_at": "2025-11-26T15:55:47.448243",
+  "company_info": {
+    "company_name": "Rid-Arc Electrical",
+    "contact_phone": "0429 938 721",
+    "website_url": "https://www.facebook.com/people/Rid-Arc-Electrical/61550506211927/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14311_49f48a14e716eeb291a739c4d81b0ede.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14311_0869d8d52a354d76ed2ceff551dba0cc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14311_8815d5e8cb65367cdb4483bba2151497.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14311_47c40a8964ca94c10dee4377a3424264.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14311_0e5bd0557119dfc0113c8abaa2e633aa.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14311_45581db1bef361b801191474248bb51d.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

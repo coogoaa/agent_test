@@ -1,0 +1,97 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ozzie-solar/",
+  "scraped_at": "2025-11-26T16:25:43.413717",
+  "company_info": {
+    "company_name": "Ozzie Solar",
+    "contact_address": "Glandore, SA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "139988",
+      "reviewer_name": "Sally",
+      "reviewer_location": "SA - 5069",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5069",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was great.The 3 installers were very professional and trustworthy",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "more than 30kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "84814",
+      "reviewer_name": "Tracey",
+      "reviewer_location": "SA - 5161",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5161",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-12-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything about the installation process and quality of products was great experience.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    }
+  ]
+}

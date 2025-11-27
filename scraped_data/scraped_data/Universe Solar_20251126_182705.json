@@ -1,0 +1,109 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/universe-solar/",
+  "scraped_at": "2025-11-26T18:27:05.478387",
+  "company_info": {
+    "company_name": "Universe Solar",
+    "contact_address": "Ashmore, QLD",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "106463",
+      "reviewer_name": "Geoff",
+      "reviewer_location": "QLD - 4516",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4516",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-12-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Salesman was very dedicated and worked with us to find a product that suited us.Installation team were amazing. Very punctual and worked non stop. Very polite and helped answer lots of questions.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Axitec",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_axitec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "101684",
+      "reviewer_name": "Dave",
+      "reviewer_location": "QLD - 4226",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4226",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The system price was negotiated.Pre installation survey was carried out to ensure no hidden surprises for either party.Installation was carried out efficiently and some minor roof issues were attended to while the team were on the roof.Overall installation was extremely neat and precise.Final follow up service has been great.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Axitec logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_axitec.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

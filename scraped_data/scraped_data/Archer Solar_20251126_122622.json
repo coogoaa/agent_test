@@ -1,0 +1,102 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/archer-solar/",
+  "scraped_at": "2025-11-26T12:26:22.409697",
+  "company_info": {
+    "company_name": "Archer Solar",
+    "contact_address": "Capalaba, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29f175ea9e5da0f5c71a8e726e03fe920.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29f175ea9e5da0f5c71a8e726e03fe920.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "119306",
+      "reviewer_name": "Hayden",
+      "reviewer_location": "QLD - 4122",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4122",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had a great experience with Archer Solar. The sales manager was amazing, explained everything in great details. They left the site clean, and the in-house installer Mack was professional and knowledgeable. Gird connection was done extremely as it was an upgrade system. Extremely easy and fast process, hard part was just finding this guys, everything else was a piece of cake. Would definitely recommend them to fellow Aussies looking to get a solar system installed on their property.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29f175ea9e5da0f5c71a8e726e03fe920.JPG"
+      ]
+    },
+    {
+      "review_id": "108070",
+      "reviewer_name": "Joseph",
+      "reviewer_location": "QLD - 4500",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4500",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had a quote done for an 11kw system and accepted it. On the day before they contacted me in regard to my meter box needing to be check by their electrician, he came out to site inspected and advised me it would need to be upgraded. I said yes, I was aware of that and could he get a quote to have this done for me. We also discussed the system that was meant to be installed at my property and he informed me he could not install them as per the quote due to insufficient space and that he would be need to install on the southern section of the roof, I said I don’t believe it's worthwhile as they would not work very efficiently and I asked the electrician and he agreed saying they probably only work half the year and the half the year that they will work would be at a reduced amount and that if he installed them on the southern side that I would be made to sign a document saying I am aware of the reduced power the system will be creating due to the positioning.I did not hear back until the 2nd of February, when the sales was asking what my concerns were. I said if the sales had spoken to the electrician he would of informed him of me issues and should be contacting me with how it was going to be rectified, but he went on to tell me that the panels on the southern roof would work fine and I said why would his electrician say otherwise  I told him to talk to his electrician and get all the information needed to get the solar panels on my roof like and a quote for the meter box upgrade. I still have not received this or what size system and location of the panels as they quote, and image supplied were not accurate or possible. I told him time is money and I should have had my solar system on, but Archer Solar has failed me and now I am missing out due to the incompetence of them and the staff there, he said he would contact me that afternoon. I did not get any contact from him until today when I tried to call, and it rang out.I then called back on a private number demanding to speak to his manager he said he was not available. I then said if I do not get his name and contact number, I will be taking this further. He supplied me with another number. I tried to call that number and it is not working. Almost 2 weeks later i am still no closer to getting solar on my roof form this company.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.5,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

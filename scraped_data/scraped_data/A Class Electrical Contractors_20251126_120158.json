@@ -1,0 +1,70 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/a-class-electrical-contractors/",
+  "scraped_at": "2025-11-26T12:01:58.542359",
+  "company_info": {
+    "company_name": "A Class Electrical Contractors",
+    "contact_address": "Mildura, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 1.0,
+    "value_for_money_rating": 1.0,
+    "system_quality_rating": 1.0,
+    "installation_rating": 1.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "109999",
+      "reviewer_name": "Laurie",
+      "reviewer_location": "SA - 5712",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5712",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Contractors came to instal system in late September and system still not working or connected despite many phone calls. 7 months! 2 men came back recently and spent a whole day working on the system and still nothing.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "15kW",
+      "system_cost": "",
+      "panel_brand": "Astronergy",
+      "inverter_brand": "Solis",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_astronergy.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Astronergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_astronergy.png"
+    },
+    {
+      "brand_name": "Solis logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+    },
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

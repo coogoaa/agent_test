@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/stoked-electrical-and-solar/",
+  "scraped_at": "2025-11-26T18:29:28.478016",
+  "company_info": {
+    "company_name": "Stoked Electrical and Solar",
+    "contact_phone": "0424 533 310",
+    "website_url": "https://www.stokedelectricalandsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14487_768f8c1149cd2860618cd1615c8b2098.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14487_355e1ae02973315ae0f8f2586e78cd6d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14487_52fe0e2b5c6a061d5641bfe2a14e6654.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14487_0b639e4fdb024501c8e7fa5a76a85c91.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

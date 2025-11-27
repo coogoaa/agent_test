@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/switch-energy/",
+  "scraped_at": "2025-11-26T17:56:11.982387",
+  "company_info": {
+    "company_name": "Switch Energy",
+    "contact_address": "serves Darwin and parts of, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "76439",
+      "reviewer_name": "Ravneet",
+      "reviewer_location": "VIC - 3978",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3978",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-05-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales rep made sure I understood what I was getting and how it will benefit me. The install happened on the promised date and time. The grid connection paperwork was completed within a week of installation. The service was quick with a clear conversation. Happy with the service and would highly recommend Switch 2 Solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,125 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/brilliant-solar-and-battery/",
+  "scraped_at": "2025-11-26T12:24:59.650705",
+  "company_info": {
+    "company_name": "Brilliant Solar and Battery",
+    "contact_phone": "0449 918 077",
+    "website_url": "https://brilliantsolar.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "126875",
+      "reviewer_name": "Chris",
+      "reviewer_location": "NSW - 2526",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2526",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Brilliant Solar were as good as you could expect from a trade company. Sam was quick to follow up after the Solar quote enquiry, was flexible when working out a site inspection date that suited both of us, and quoted in quick time. He was then patient while I settled on equipment , orientation etc, and once locked in he was able to start on the day he agreed (actually started a day early which was fine with me) and install was quick and painless, you didn't even know there were tradies working on the roof and in the ceiling void.The final product is installed exactly as agreed and so far I am very impressed with the performance.Would certainly recommend Brilliant Solar.As a side note two other companies that were recommended by Solar quotes were also quick to get back to me, listen to my needs and provide pricing. I went with Brilliant Solar because the sales rep that came out was the same guy who installed my panels, and lives locally, so his reputation is his bread and butter. I am glad I made the right decision.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "126669",
+      "reviewer_name": "Gordon",
+      "reviewer_location": "NSW - 2530",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2530",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Happy with the quick quotes.Only installer to physically climb on roof before quotes given and actually measure how many panels would fit on my roof.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "121681",
+      "reviewer_name": "Justin",
+      "reviewer_location": "NSW - 2515",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2515",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "No fuss installation. The neighbour was so impressed they signed up as well",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

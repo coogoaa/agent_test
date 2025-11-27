@@ -1,0 +1,257 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lv-solar-and-renewable-energy/",
+  "scraped_at": "2025-11-26T15:25:42.887783",
+  "company_info": {
+    "company_name": "LV Solar and Renewable Energy",
+    "abn_number": "67640678557",
+    "acn_number": "640678557",
+    "contact_phone": "03 5176 5559",
+    "website_url": "https://www.lvsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13657_db53f6112895eb7ad564f8119533c1c5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13657_fb2fd0b552ae5a58a693f2ea565ae586.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13657_b95ed56d2e10a15a4c7c701789663088.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13657_cc16ce6ddb9145235d6fd3a59c06fbd2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13657_21bc3cf29a3f8852475eb55890b9899c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13657_41b9f4544418cb48611f51bf4cb50744.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13657_84dad402b6b2c8f9c64e993979801153.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/239d62fbfc92240a120365542d3478a30.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "04 May 2020L V Solar And Renewable Energy Pty Ltd",
+      "abn_company_name": "L V Solar And Renewable Energy Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "04 May 2020L V Solar And Renewable Energy Pty Ltd",
+      "acn_company_name": "L V Solar And Renewable Energy Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.83,
+    "system_quality_rating": 4.83,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "136538",
+      "reviewer_name": "Lee",
+      "reviewer_location": "VIC - 3844",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3844",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had a fantastic experience with Alf and the boys from LV Solar & Renewable Energy. The team did a great job installing our new solar + battery system as part of fully electrifying our home.The team did a great job installing our new solar + battery system as part of fully electrifying our home. They were professional, helpful, and made the whole process really smooth. Thanks to their work we’re now far less reliant on the grid and set up for the future with solar, battery storage, and EV charging. Highly recommend them to anyone looking to upgrade their home and reduce their energy costs.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_sigenergy.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/239d62fbfc92240a120365542d3478a30.jpg"
+      ]
+    },
+    {
+      "review_id": "135219",
+      "reviewer_name": "Kevin",
+      "reviewer_location": "VIC - 3816",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3816",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Entire process efficient with prompt polite customer service, installation was seamless and tidy, very happy with the system to date",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Deye",
+      "battery_brand": "Pylontech",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_deye.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+      ]
+    },
+    {
+      "review_id": "134959",
+      "reviewer_name": "Graeme",
+      "reviewer_location": "VIC - 3871",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3871",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently had LV Solar install a full Enphase solar system at my property, including 30 panels with Enphase microinverters and Enphase batteries — and I couldn’t be happier with the entire experience.From the very beginning, their communication was clear, prompt, and professional. The team kept me well-informed at every stage, from quoting to installation, and made the whole process stress-free. The installation itself was exceptional, with real attention to detail, and the end result looks fantastic.The system has been performing flawlessly, and it’s been set up to provide full off-grid power backup. During power outages, my home continues to run seamlessly — which has been a huge reassurance. Having Enphase microinverters, ensures when there is shading on the panels from the trees, the panels are operating at their peak performance.I’d absolutely recommend LV Solar to anyone looking for a top-tier solar install. Their service, product knowledge, and professionalism were outstanding.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "Enphase Energy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_enphase-energy.png"
+      ]
+    },
+    {
+      "review_id": "134814",
+      "reviewer_name": "David",
+      "reviewer_location": "VIC - 3844",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3844",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Rang LV Solar and Renewable Energy for a quote in the morning and the representative can the same afternoon.I already have a FRONIUS 5 kv inverter so I was given all the options with that in mind as to which battery was suitable and it's capabilities.The installation day was given , they turned up at the time I was given and the Electrician was was more than helpful with any questions I asked.The whole process was very smooth and I am more than satisfied with their service.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    },
+    {
+      "review_id": "121620",
+      "reviewer_name": "Thane",
+      "reviewer_location": "VIC - 3844",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3844",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Alf from LV Solar came to our house and discussed the options and the installation process with me. He was easy to understand and answered all of the questions I had. I received a follow up phone call the next week and was able to ask some more questions to clarify the quoted options. Once I decided to go ahead, the process was easy and smooth and I am very happy with the final installation and the results I am getting from my system.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "106624",
+      "reviewer_name": "Glen",
+      "reviewer_location": "VIC - 3844",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3844",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-12-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very competitive quote, tradesmen were polite & installation was hassle free. Customer service fantastic helping with the mobile app and detailed rundown of the whole installation process.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_sigenergy.png"
+    }
+  ]
+}

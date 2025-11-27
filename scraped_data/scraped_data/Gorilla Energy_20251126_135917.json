@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/gorilla-energy/",
+  "scraped_at": "2025-11-26T13:59:17.848758",
+  "company_info": {
+    "company_name": "Gorilla Energy",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14169_8d1faf5d80c237db6fda863347c71300.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14169_c884a2a31fea5d4beca610d4d1e5aa87.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14169_f5d3672c891d0f2d0f1fe426abd142df.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14169_2c44a0c99ddc2cefc007d8d55d0dd201.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

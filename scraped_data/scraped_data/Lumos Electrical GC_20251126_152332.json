@@ -1,0 +1,136 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lumos-electrical-gc/",
+  "scraped_at": "2025-11-26T15:23:31.998923",
+  "company_info": {
+    "company_name": "Lumos Electrical GC",
+    "contact_phone": "0476 184 730",
+    "website_url": "https://www.lumosgc.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14351_4ea06fbc83cdd0a06020c35d50e1e89a.JPEG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14351_6d0f846348a856321729a2f36734d1a7.JPEG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14351_c920209da0f2db9a5a8757bef89f1ed7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14351_99bcfcd754a98ce89cb86f73acc04645.JPEG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "133789",
+      "reviewer_name": "Brian",
+      "reviewer_location": "QLD - 4212",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4212",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Lumos came and quoted my system and got it approved and installed a few days later.The installation process was straight forward and explained well. It looks like it has been installed well to my knowledge.No charger was installed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "133787",
+      "reviewer_name": "Lynn",
+      "reviewer_location": "QLD - 4212",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4212",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote provided was exceptionally transparent, with no hidden costs. The team arrived promptly as scheduled, and the installation was completed seamlessly. My home was left clean and tidy, reflecting their professionalism and attention to detail. They efficiently connected the system to the grid and demonstrated great patience while guiding me through its operation. The aftercare service has been outstanding, ensuring continued support and peace of mind.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "133784",
+      "reviewer_name": "LaiYung",
+      "reviewer_location": "QLD - 4212",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4212",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had Ashley and the team fit solar to three of our properties. Price and dealing with Lumos was easy and problem free. We have had Lumos back to do other works since. Highly recommend",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/coughran-electrical/",
+  "scraped_at": "2025-11-26T13:13:37.079387",
+  "company_info": {
+    "company_name": "Coughran Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11707_5d290c879cb7c51730c8a57bdd8a3fe9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11707_38ac882634664c66834b694b37c9d210.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11707_e0a6b81f8ed00f1146870ea3da990617.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11707_a411d4b51d8829b918a9829e4658dfdc.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "44995",
+      "reviewer_name": "Jim",
+      "reviewer_location": "NSW - 2483",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2483",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "By dealing directly with the installer I was able to get a very competitive price and get advise on all the equipment directly from the people who install the system, without having to go through any third party salespersons, some of whom I found could be a bit misleading at times.I found this gave me great peace of mind and I have great trust in the system that they have installed.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/precision-energy/",
+  "scraped_at": "2025-11-26T16:28:52.780960",
+  "company_info": {
+    "company_name": "Precision Energy",
+    "contact_phone": "0412 052 411",
+    "website_url": "https://www.precisionenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14389_1e87edf4dbed474f3f582dffba325d98.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14389_b548de7edae3f765a8d1b71971c82ba8.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14389_41b6bf59e2c568aca4305edb12609fe0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14389_6b26d2c5057623c69efe7f04f1c4cf2f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14389_352573758e0c97faa116d071543af3b2.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/355610c455cb6b3c4ad45c88931e553f0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2475369c197a56fb80593be1740258ad1.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "135520",
+      "reviewer_name": "John",
+      "reviewer_location": "SA - 5095",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5095",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had a great experience with Shaun and Lachie from Precision Energy. They were prompt, professional, and clearly knew what they were doing. They explained everything in plain terms, answered all my annoying questons, made sure everything was safe and up to code, and left the place clean and tidy. These guys were great and I highly recommend them. It’s rare to find tradies who take this much pride in their work and go out of their way to make sure things are lined up and level!  — I’ll definitely be using them again!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/355610c455cb6b3c4ad45c88931e553f0.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2475369c197a56fb80593be1740258ad1.jpg"
+      ]
+    },
+    {
+      "review_id": "135409",
+      "reviewer_name": "James",
+      "reviewer_location": "SA - 5172",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5172",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Received a quote in a hour.Flawless installation, The whole team were polite workspace left cleaner then when they arrived.Outstanding customer service!Took the time to show me the ins and outs of everything.5 starts is not enough for this fantastic team!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

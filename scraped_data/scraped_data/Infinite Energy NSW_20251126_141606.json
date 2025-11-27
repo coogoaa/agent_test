@@ -1,0 +1,99 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/infinite-energy-nsw/",
+  "scraped_at": "2025-11-26T14:16:06.454078",
+  "company_info": {
+    "company_name": "Infinite Energy NSW",
+    "contact_address": "NSW, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.6,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "108497",
+      "reviewer_name": "Greg",
+      "reviewer_location": "NSW - 2519",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2519",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All very informative and fast to reply.Instal was great, done in one day and board  upgraded with large team onsite. Very polite and courteousCS was fantastic, very courteous and supportive.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "76582",
+      "reviewer_name": "Jayne",
+      "reviewer_location": "NSW - 2148",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2148",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-05-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very disappointed with the after sales services of our commercial solar panels.Whist the sales representatives were ever so keen to get us on board and the install went smoothly, when something went wrong and a panel breaks 18 months down the track, its just one problem after another.  After months of emails and requests for the repairs to be finalised, I am still waiting on the problem to be 100% complete.  If only someone would answer my emails.  Why should I have to keep calling/emailing asking for a response.  As a result of this experience, I would be very reluctant to recommend this business to anyone.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "more than 30kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.5,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/evolved-solar-and-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T13:31:54.360252",
+  "company_info": {
+    "company_name": "Evolved Solar and Electrical Pty Ltd",
+    "abn_number": "31360354492",
+    "acn_number": "610275646",
+    "contact_phone": "0408 429 097",
+    "website_url": "https://www.evolvedsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/372_5ca8e9266b31334dbc41e6f810a8b0a0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/372_81246d2a972e64a41d095646a85b8de7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/372_acdd6526a9967a87bd24bab0bd3f83ca.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/372_2a22256ef695761b37645129d8f6c37b.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "20 Jan 2016The Trustee For The Evolved Industries Trust",
+      "abn_company_name": "The Trustee For The Evolved Industries Trust"
+    },
+    "acn_details": {
+      "acn_active_since": "19 Jan 2016Evolved Solar And Electrical Pty Ltd",
+      "acn_company_name": "Evolved Solar And Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

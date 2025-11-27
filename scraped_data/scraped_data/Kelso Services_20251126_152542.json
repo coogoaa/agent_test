@@ -1,0 +1,275 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/kelso-services/",
+  "scraped_at": "2025-11-26T15:25:42.734546",
+  "company_info": {
+    "company_name": "Kelso Services",
+    "abn_number": "31102850448",
+    "acn_number": "102850448",
+    "contact_phone": "0413 686 009",
+    "website_url": "https://www.kelsoservices.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14186_8e510a36c6df2709872829864e3ae379.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14186_04a8acaeadf3e8c9be052e79efa9d99c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14186_9b67b5532799f9e83b66f03eeb55e4a0.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/44865321cd488bff9797a9320586e5890.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2cf4eee506d0ff61657e6141eea8b4bd1.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "18 Nov 2002Kelso Services Pty Limited",
+      "abn_company_name": "Kelso Services Pty Limited"
+    },
+    "acn_details": {
+      "acn_active_since": "18 Nov 2002Kelso Services Pty Limited",
+      "acn_company_name": "Kelso Services Pty Limited"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.86,
+    "system_quality_rating": 4.86,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 7
+  },
+  "reviews": [
+    {
+      "review_id": "138320",
+      "reviewer_name": "Chris",
+      "reviewer_location": "NSW - 2370",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2370",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quote are thorough, detailed and clearly explain costs and expected benefits.Installation process was fully explained and caused the least disruption possible.  Everything was left as it was found and no sign of the extensive work that had occurred remained after the installation.Customer service was as I have experienced previously, very easy and I was given explanations in a way that I could understand making my decision process much less complicated.The technicians carrying out the installation explained what they were doing in a way that made sense to me and showed me what they were going to do before they started work.I have explained my future plans to the Kelso sales team and they have given me options within my capability to understand.Installing solar power is a complicated process, Kelso made it as easy as possible and much less difficult than trying to understand the offers made by any electricity supply company.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "138279",
+      "reviewer_name": "Deb",
+      "reviewer_location": "NSW - 2350",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2350",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kelso Armidale were efficient in the sales and quoting of my new solar panels.  The installation team arrived at the time arranged, were efficient, friendly and considerate as I have a small dog who needed to be accommodated with opening and closing gates etc.The team worked well together and, following completion of the job, cleaned up my yard and roof.The team leader explained the system and app to me, answering all my questions.Would highly recommend Kelso Armidale.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "137591",
+      "reviewer_name": "Karen",
+      "reviewer_location": "NSW - 2350",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2350",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was very happy with the prompt responses and quality workmanship I received regarding my solar installation.Everything was done on time and in a professional manner. The installers were friendly, happy to answer questions, polite, and even tidied up after themselves.Perhaps a little more expensive than some other installers but I'm confident that the product quality and careful installation reflects the longevity of the product.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "SolarEdge",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "136607",
+      "reviewer_name": "Dave",
+      "reviewer_location": "NSW - 2365",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2365",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting process was flexible, prompt, helpful and informative.Install was punctual, friendly, neat and informative.After sales consultations and follow-up have been great.Calls are answered, and they have got back to us quickly if required.We felt looked after.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/44865321cd488bff9797a9320586e5890.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2cf4eee506d0ff61657e6141eea8b4bd1.png"
+      ]
+    },
+    {
+      "review_id": "136160",
+      "reviewer_name": "Therese",
+      "reviewer_location": "NSW - 2350",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2350",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The Kelso team installed our solar panels a couple of years ago. They were helpful, knowledgeable and very reliable.We have now expanded our setup to include batteries. Again, Kelso’s have proven to be well-priced, timely and have done another top notch installation job.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "134307",
+      "reviewer_name": "Michelle",
+      "reviewer_location": "NSW - 2365",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2365",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kelso Services are reliable and professional.  They do their best to match your property with the most affordable and effective solar products for your requirements.  Great people and great products.  I would highly recommend this company for anyone who wants wonderful customer service and high quality products.  Thank you so much Kelso Team for a smooth and enjoyable process in the purchase and installation of your great products!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "132802",
+      "reviewer_name": "Steve",
+      "reviewer_location": "NSW - 2452",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2452",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After deciding to put solar on, I got in touch with Kelso Services. Soon after, I started chatting with Laurence who ran me through all my options and provided information and advice regarding all aspects of installation. Before, during and after installation, the service was first rate. I highly recommend Kelso Services.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

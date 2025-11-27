@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/new-life-solar/",
+  "scraped_at": "2025-11-26T15:10:38.374072",
+  "company_info": {
+    "company_name": "New Life Solar",
+    "contact_address": "WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 3.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "23954",
+      "reviewer_name": "Laura",
+      "reviewer_location": "WA - 6210",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6210",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-10-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

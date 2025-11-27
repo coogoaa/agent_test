@@ -1,0 +1,114 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/peel-electrical-and-solar/",
+  "scraped_at": "2025-11-26T16:36:42.384460",
+  "company_info": {
+    "company_name": "Peel Electrical and Solar",
+    "contact_phone": "0490 405 220",
+    "website_url": "https://peelelectricalandsolar.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_037615f50d0043854c369bff9a220951.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_7ea2f881be6d9fbe1f98cf6733bfa709.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_16226125f4829411793cf3a84dd817fd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_71047d5fd78f25794bbbb797e346b58e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_71485937be9e74273d6b9e8a24ce8e74.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_f1cc4c649847106c9c734358ad9b2a86.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_a624956f8ed44d6392f1fd926333ce58.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_89a54a75277dfabf0125b5f7581f5b0d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_354c7139e0cec81a75d45b3c482a33cb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_239d3a88043030bd612539083d742224.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_3adcd8f400a3d36df6772ab2b94c2db3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_201d4fc9c4c4f8f540956e29f27bb4af.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13959_b7a68e9e7ada0e24c92825e39cc5e7b7.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "126045",
+      "reviewer_name": "Peter",
+      "reviewer_location": "NSW - 2540",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2540",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Discussed the pending gov battery rebate this November 2024.Came up with to have the panels and hybrid inverter installed and according to the monitoring app determine what size battery would be best.They removed my old Suntech panels and put the TW Solar Twmnd 430  / 440 watt in East and North  positions.Along with the Sungrow hybrid SH5.ORS",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "TW Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tw-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "121867",
+      "reviewer_name": "Diane",
+      "reviewer_location": "NSW - 2539",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2539",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From the outset I was really impressed by Jack Peel's approach to my RFQ. He asked to come to site, whereas others would come if I wanted. He was punctual, respectful with me, listened closely and talked me through my options in depth. The quote was the most competitive but what I appreciated the most is that it met all of my objectives. So he'd listened to my current and future uses and designed the solution accordingly. He kept me updated on progress throughout the install. His workers were of the same ilk..polite, efficient, tidy. They worked well as a team. The system has been running beautifully. Jack handled all work through the local energy provider and my existing supplier. He also arranged the monitoring on my phone. I'm amazed that even on the full days, the solar is still producing electricity. I'm so happy with Jack's work that I had him do further work around my home. He's a great local lad and I'm so happy with my decision to select him for the installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "TW Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_tw-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

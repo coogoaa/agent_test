@@ -1,0 +1,79 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-with-energy-solutions/",
+  "scraped_at": "2025-11-26T13:48:07.829423",
+  "company_info": {
+    "company_name": "Green with Energy Solutions",
+    "contact_address": "Berowra, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.5,
+    "customer_service_rating": 3.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "17707",
+      "reviewer_name": "Rhonda",
+      "reviewer_location": "NSW - 2259",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2259",
+      "reviewer_postcode_valid": true,
+      "review_date": "2013-02-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From the minute I spoke to Sarah I felt comfortable.  She explained everything exceptionally well and did not put the hard sell on.  We agreed to go ahead just before Christmas so I was aware that people were on holidays etc and that it did take a lot longer to install than normal but we were always in contact.The system is up and running but we have not had a bill yet from the electricity company so don't know yet what we will be saving.I strongly recommend these people.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "17686",
+      "reviewer_name": "James",
+      "reviewer_location": "NSW - 2259",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2259",
+      "reviewer_postcode_valid": true,
+      "review_date": "2013-02-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "GREEN with Energy used P H Electrical & Solar Installs. Broke 6 roof tiles, lucky I had spares!! Two lots of 8 panels, only  one lot working when they left.!! Had to call them back, came back as promised  and fixed the faulty panel. Replaced factory fitted plug and socket, all 16 panels now working. Supplied 6 new roof tiles. Still waiting for receipt  and warranty certificates for panels and inverter from green with energy!!!",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 3.0,
+      "system_size": "4kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,59 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solarise/",
+  "scraped_at": "2025-11-26T17:14:47.578309",
+  "company_info": {
+    "company_name": "Solarise",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.0,
+    "value_for_money_rating": 3.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "12567",
+      "reviewer_name": "Garry",
+      "reviewer_location": "VIC - 3939",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3939",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The solar industry stinks from my viewpoint and it is not necessarily because of the Solar companies.It is what is supposed to happen after the installation.Firstly, the customer should be able to sign up and then everything else follows.I was sent forms from AGL asking me technical questions which should have been answered by others. I rang AGL and they emailed me a form to fill in and sign. I had it back to them in 10 minutes.4 days went by then I received a letter (in the post) saying my paperwork was not complete and to contact AGL about it. We contacted AGL and they informed us that some technical information was missing and they had posted the form back to me. Another week went by and we still had not received the post. WHY could they not use email?Another criticism, when I did my initial enquiries, I asked lots of questions, including electricity tarrifs and feed in prices. Only after the insatallation, did AGL then tell me all the pricing will change. So the figures I was given to calculate my payback on buying Solar, were totally wrong because a whole new tariff system comes into play, yet I was not told any of this.The Solar industry needs streamlining and cleaning up before more people get \"burnt\".",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 3.0,
+      "system_size": "2kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "Unable to tell (Other)",
+      "inverter_brand": "Macsolar",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_macsolar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Macsolar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_macsolar.png"
+    }
+  ]
+}

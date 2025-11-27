@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/maruti-solar-group-of-services-pty-ltd/",
+  "scraped_at": "2025-11-26T14:52:32.776524",
+  "company_info": {
+    "company_name": "Maruti Solar Group Of Services Pty Ltd",
+    "contact_address": "Northcote, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 3.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "14454",
+      "reviewer_name": "Clive",
+      "reviewer_location": "VIC - 3074",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3074",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-07-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales person was very helpful and explained everything that I needed to know in plain terms so that I could understand.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

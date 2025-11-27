@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/copper-bull-electrical-services/",
+  "scraped_at": "2025-11-26T13:09:56.490354",
+  "company_info": {
+    "company_name": "Copper Bull Electrical Services",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14222_d52899c3bd311def211aed1cd7a95efc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14222_34c5affae983e3111c4735a9b784a4a9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14222_860595e9119191a661cbd1fd849d1b2e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14222_4fe5f0b45a4b0d1024e4a9dc7a4a860f.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

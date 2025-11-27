@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/switched-on/",
+  "scraped_at": "2025-11-26T17:56:38.716101",
+  "company_info": {
+    "company_name": "Switched On",
+    "contact_address": "Victor Harbor, SA",
+    "website_url": "https://www.switchedonsa.com/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "57586",
+      "reviewer_name": "Colin",
+      "reviewer_location": "SA - 5255",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5255",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Not sure (Other)",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "56620",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5211",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5211",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-12-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We chose Switched On (as Tony) has been an electrician for 17 years and 12 years installing pv panels as apposed to a salesperson providing guidance. Whilst the system is installed it is not switched on as we awaiting the installation of a new meter. Comparison quotes were all similar cost.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

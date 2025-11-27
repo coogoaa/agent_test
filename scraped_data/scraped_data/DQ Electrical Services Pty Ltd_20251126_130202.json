@@ -1,0 +1,169 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dq-electrical-services-pty-ltd/",
+  "scraped_at": "2025-11-26T13:02:02.853347",
+  "company_info": {
+    "company_name": "DQ Electrical Services Pty Ltd",
+    "abn_number": "42162404506",
+    "acn_number": "162404506",
+    "contact_phone": "0433 893 401",
+    "website_url": "https://www.facebook.com/DqElectricalServices/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13514_52760e58450552d80225ac123ddc9f6d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13514_84ae24d7b2f78dff26e252fa5e028416.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13514_50105ff127046ee9bbc4c7535bfe81ee.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "15 Feb 2013Dq Electrical Services Pty",
+      "abn_company_name": "Dq Electrical Services Pty. Ltd."
+    },
+    "acn_details": {
+      "acn_active_since": "15 Feb 2013Dq Electrical Services Pty",
+      "acn_company_name": "Dq Electrical Services Pty. Ltd."
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "129847",
+      "reviewer_name": "Gary",
+      "reviewer_location": "NSW - 2567",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2567",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-01-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Big shout out to Daniel and his team at DQ Electrical for a fantastic job. No sales pitch a simple easy quote system, the guys on site were friendly informed us of the process and how the equipment works and even setup the App. Install neat and professional, Daniel performed a hand over inspection and a thorough walk through of system.Fantastic job i would highly recommend.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "125252",
+      "reviewer_name": "Rebecca",
+      "reviewer_location": "NSW - 2155",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2155",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-08-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Danny and his team gave us an amazing service, value for money and done in a timely manner. We would highly recommend DQ electrical services",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "125178",
+      "reviewer_name": "David",
+      "reviewer_location": "NSW - 2154",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2154",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-08-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We were overwhelmed by solar options but DQ Electrical Services made it easy. Daniel provided clear, competitive quotes and expert advice. His professional installation team delivered efficiently. We’re thrilled with our system and the value it offers. Highly recommend DQ Electrical!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "117045",
+      "reviewer_name": "Jing",
+      "reviewer_location": "NSW - 2171",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2171",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great customer service. Great price. Daniel is very responsive and answered all my questions. Installation was fast and hassle free. Highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

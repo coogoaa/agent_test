@@ -1,0 +1,62 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rod-cooke/",
+  "scraped_at": "2025-11-26T16:05:12.086647",
+  "company_info": {
+    "company_name": "Rod Cooke",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "25644",
+      "reviewer_name": "Sune",
+      "reviewer_location": "NSW - 2265",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2265",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-12-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I really appreciated your assistance and if my friend hadn't surprised me after I had done some research with the fact that he still had the contacts and was able to sort it out for me I would have gone with one from your choice of three.  Possibly Bradford.  He was very helpful and offered a system I liked.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Can't remember the name (Other)",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

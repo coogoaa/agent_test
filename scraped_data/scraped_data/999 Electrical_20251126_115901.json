@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/999-electrical/",
+  "scraped_at": "2025-11-26T11:59:01.619791",
+  "company_info": {
+    "company_name": "999 Electrical",
+    "contact_address": "Beckenham, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "40817",
+      "reviewer_name": "Michael",
+      "reviewer_location": "WA - 6107",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6107",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-11-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Out of the three quotes i received, two were just a few lines on an email and only one quote was formal and complete with information. But in saying this your site and all your information was greatly informative and helped me stay on track.Thank you",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

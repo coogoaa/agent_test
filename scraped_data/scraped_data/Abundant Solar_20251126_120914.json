@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/abundant-solar/",
+  "scraped_at": "2025-11-26T12:09:14.779128",
+  "company_info": {
+    "company_name": "Abundant Solar",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "63573",
+      "reviewer_name": "Donna",
+      "reviewer_location": "NSW - 2622",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2622",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-05-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Upgraded off grid system from 24v 4Kw Selectronics to 48v 10kw SMA. There were a few hiccups with the Island (12) as it kept dropping its communication with the cloud. The installer was always available, or promptly returned our phonecalls. He never hesitated to return to site even though we are located virtually in the middle of nowhere. Highly recommend",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

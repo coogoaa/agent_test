@@ -1,0 +1,114 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/soma-power/",
+  "scraped_at": "2025-11-26T17:55:06.503905",
+  "company_info": {
+    "company_name": "Soma Power",
+    "contact_address": "Copacabana, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "969",
+      "reviewer_name": "Tony",
+      "reviewer_location": "NSW - 2257",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2257",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Local company. Great salesperson. Extremely helpful. Using top quality product. It took months and months to receive approval for the green loan. It only just came through at the death, before fed govt canned it. We wouldn't have gone ahead if we didn't get approval it's as simple as that.This is a real shame as the whole green loan thing really made sense.Anyway glad to let you know how the installation experience goes. Soma is flat out at the moment and will have mine up and going within the next couple of months. Weather permitting.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Solarworld",
+      "inverter_brand": "Xantrex / Enerdrive Pty Ltd",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_solarworld.png"
+      ]
+    },
+    {
+      "review_id": "835",
+      "reviewer_name": "Christine",
+      "reviewer_location": "NSW - 2262",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2262",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-06-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "They were able to answer all my questions. Even after installation where I had some questions regarding the panels and they have been very helpful.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "379",
+      "reviewer_name": "Tony",
+      "reviewer_location": "NSW - 2257",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2257",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-06-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My next door neighbor - a science teacher - had done the research on this company.  I was also comforted by the fact that the CEO was out on the job. Had a university degree in electrical engineering, and was able to model systems on the spot on his computer (given a few minutes) in the terms that seemed mathematically and scientifically rational.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Solarworld logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_solarworld.png"
+    }
+  ]
+}

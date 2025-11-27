@@ -1,0 +1,105 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-set/",
+  "scraped_at": "2025-11-26T17:22:39.497856",
+  "company_info": {
+    "company_name": "Solar Set",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14292_20c39f286d17e48329243bd029a7550b.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14292_b6b61bea229cf3b17c3429bb6abea041.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14292_5ee8fd238b0368a4c4b5e17a3d10fb78.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14292_3a955f91695ed07e6419f7c334a7ea3b.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "131973",
+      "reviewer_name": "Bob",
+      "reviewer_location": "NSW - 2478",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2478",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We have now had our Solar System Upgrade installed for around 4 months by Kale from Solarset. It was great to eventually have a company who were professional and cared about their work. For us this comes after 2 previous installers not providing the level of service promised.Solarset installed a Sungrow inverter and battery system to our existing panels. Kale's work excellent and the job site clean, tidy and above all else working as it should.Even with using our air conditioner throughout the summer our electricity bills have been minimal.My wife and I thoroughly praise Solarset's work ethics and highly recommend Kale and the team at Solarset.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "131684",
+      "reviewer_name": "Tim",
+      "reviewer_location": "NSW - 2487",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2487",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We recently had Solar Set install our solar system, and we couldn't be happier with the experience! Their team was incredibly friendly, polite, and highly efficient throughout the process. The installation was seamless, and the results have exceeded our expectations. We're thrilled to be saving heaps of money on our electricity bills and would highly recommend Solar Set to anyone considering going solar. Excellent service and fantastic results!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Aiko Solar (Other)",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

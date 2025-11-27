@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/harvest-energy/",
+  "scraped_at": "2025-11-26T14:22:14.632314",
+  "company_info": {
+    "company_name": "Harvest Energy",
+    "contact_phone": "0417 198 022",
+    "website_url": "https://www.harvestenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14393_2d4b45f7d2fe134b72f03bb69fc58564.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14393_ba9f2a25233a1f832a8758090afabaad.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14393_e77fe0b82599d3e3e9650f6d436b0fae.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14393_4ff739d78c3f737dcf510a1b80c1de2c.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

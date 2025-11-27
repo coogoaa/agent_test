@@ -1,0 +1,64 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/this-is-a-test-by-finn1234/",
+  "scraped_at": "2025-11-26T18:35:05.203792",
+  "company_info": {
+    "company_name": "this is a test by finn1234",
+    "electrical_contractor_license": "ACT: 2342342341, ACT: 12E",
+    "contact_address": "Garbutt, QLD",
+    "website_url": "https://www.solarquotes.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10724_67b748fc6cde924ea4e24c686b36dfe3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10724_9ad05b7763cfcbe2461de8a49061d67d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10724_4c1a50a719cb2391bad211965bd68507.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10724_0f3bd47e063c66dc6de66f7a966ba2b0.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10724_060b017ff73846075978d555c723df82.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10724_071a3a9cc8bde8d5f975f44454e48c90.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10724_f3d924cc5f5469241a3bd1bca849cfe6.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 2.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "67561",
+      "reviewer_name": "Jillian",
+      "reviewer_location": "NSW - 2000",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2000",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "THIS IS THE SECOND TEST, FOR INTERNAL PURPOSES ONLYTHIS IS THE SECOND TEST, FOR INTERNAL PURPOSES ONLY",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 2.0,
+      "system_size": "more than 20kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/peninsula-heat-pumps/",
+  "scraped_at": "2025-11-26T16:38:19.546568",
+  "company_info": {
+    "company_name": "Peninsula Heat Pumps",
+    "abn_number": "19663999095",
+    "acn_number": "663999095",
+    "contact_phone": "0417 316 264",
+    "website_url": "https://www.peninsulaheatpumps.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14418_79baf26c0d2fbfdf506a949ccd8f10af.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14418_8244f9abfac30db3e60871cf913da186.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14418_873fb56b41d41c3f26fc1b5277d842a2.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14418_b1a1ed946046348c31ce935a64782225.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14418_790f7e69b9b1c91eba4c48b21f78685f.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "01 Dec 2022Geelong Heat Pumps Pty Ltd",
+      "abn_company_name": "Geelong Heat Pumps Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "22 Nov 2022Geelong Heat Pumps Pty Ltd",
+      "acn_company_name": "Geelong Heat Pumps Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

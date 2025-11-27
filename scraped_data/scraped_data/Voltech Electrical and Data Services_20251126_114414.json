@@ -1,0 +1,21 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/voltech-electrical-and-data-services/",
+  "scraped_at": "2025-11-26T11:44:14.497556",
+  "company_info": {
+    "company_name": "Voltech Electrical and Data Services",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

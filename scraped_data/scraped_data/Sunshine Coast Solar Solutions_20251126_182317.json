@@ -1,0 +1,74 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunshine-coast-solar-solutions/",
+  "scraped_at": "2025-11-26T18:23:17.182909",
+  "company_info": {
+    "company_name": "Sunshine Coast Solar Solutions",
+    "contact_phone": "0430 311 555",
+    "website_url": "https://www.scsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13612_99e521a2ec7813d79cc80b5a5fc2fff8.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13612_969fd4d9034367770f1f333b3df62e5f.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13612_b1f26159cdeb7e56297cb0c8d4be3779.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13612_e7ba97014dfcf2e922b83a410fe4c203.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13612_0ae969e2776311b3501f6fa7fa2ff6a4.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13612_e164cd5cd3dc2e8c9407433055dfb2c8.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "112563",
+      "reviewer_name": "Anthony",
+      "reviewer_location": "QLD - 4552",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4552",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All positive thanks, very satisfactory outcome.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

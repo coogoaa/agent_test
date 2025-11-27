@@ -1,0 +1,54 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sun-power-solutions/",
+  "scraped_at": "2025-11-26T18:41:44.781378",
+  "company_info": {
+    "company_name": "SUN Power Solutions",
+    "contact_address": "Winston Hills, NSW",
+    "website_url": "http://www.aspectrc.net.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "36294",
+      "reviewer_name": "Russ",
+      "reviewer_location": "NSW - 2153",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2153",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-06-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Prior to purchase various options were explained to us and questions over a number of weeks answered by email and personally.The system was installed on time and efficiently.It has been problem free and provided excellent savings on our power bills.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/innovision-energy-solutions-pty-ltd/",
+  "scraped_at": "2025-11-26T14:22:10.320712",
+  "company_info": {
+    "company_name": "Innovision Energy Solutions Pty Ltd",
+    "abn_number": "32680876233",
+    "acn_number": "680876233",
+    "contact_phone": "0437 100 855",
+    "website_url": "https://www.innovisionenergy.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "01 Oct 2024Innovision Energy Solutions Pty Ltd",
+      "abn_company_name": "Innovision Energy Solutions Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "18 Sep 2024Innovision Energy Solutions Pty Ltd",
+      "acn_company_name": "Innovision Energy Solutions Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

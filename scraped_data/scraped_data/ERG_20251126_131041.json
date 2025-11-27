@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/erg/",
+  "scraped_at": "2025-11-26T13:10:41.765112",
+  "company_info": {
+    "company_name": "ERG",
+    "contact_address": "ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "46398",
+      "reviewer_name": "Ian",
+      "reviewer_location": "SA - 5088",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5088",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-04-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/manolec-electrical/",
+  "scraped_at": "2025-11-26T14:46:16.572525",
+  "company_info": {
+    "company_name": "Manolec Electrical",
+    "contact_phone": "0451 882 812",
+    "website_url": "https://www.facebook.com/profile.php?id=61553617665917",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14033_242c811932b3c7e507b5c12ee0c50ba5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14033_f7bc186421ba76b6b8b1785e27588ba3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14033_b9036bb3295c3e849de5af464b8b79e9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14033_327290fa9bdf8e0486b6082399f1589e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14033_f00ef69e6466742b0a87ba22f631d8ea.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

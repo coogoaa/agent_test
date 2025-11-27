@@ -1,0 +1,96 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-inspections/",
+  "scraped_at": "2025-11-26T17:33:02.604441",
+  "company_info": {
+    "company_name": "Solar Inspections",
+    "contact_address": "Landsdale, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 3.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "101066",
+      "reviewer_name": "Chris",
+      "reviewer_location": "WA - 6036",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6036",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great information and installation.Clear communication and information suppliedWorking Well",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "EGing",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_eging.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "78000",
+      "reviewer_name": "DRAGAN",
+      "reviewer_location": "WA - 6065",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6065",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything was very good. I was very happy with with the sales/ quoting process, the customer service and the organisation regarding the installation process. The only negative comment  about the installation; took much longer period of time to install then required.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "n/a (Other)",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "EGing logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_eging.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-power-gympie/",
+  "scraped_at": "2025-11-26T17:09:33.448167",
+  "company_info": {
+    "company_name": "Solar Power Gympie",
+    "contact_address": "Gympie, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "11830",
+      "reviewer_name": "Trevor",
+      "reviewer_location": "QLD - 4570",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4570",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-03-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We only had one quite come back to us from your service. We decided to go local for our system and also a larger company that is grouped with Oakvale Homes. We  checked them out and they ticked all the right boxes and friends had used the same company and was pleased with them.It was a 1.9 system with a 3kw inverter.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

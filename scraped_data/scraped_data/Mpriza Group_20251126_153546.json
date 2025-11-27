@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mpriza-group/",
+  "scraped_at": "2025-11-26T15:35:46.375800",
+  "company_info": {
+    "company_name": "Mpriza Group",
+    "contact_address": "Darwin, NT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "63690",
+      "reviewer_name": "Albert",
+      "reviewer_location": "NT - 836",
+      "reviewer_state": "NT",
+      "reviewer_postcode": "836",
+      "reviewer_postcode_valid": false,
+      "review_date": "2019-05-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "MPRIZA GROUP is the only supplier that came and check my roof and discussed the best position for my panels. Willing to spend a bit more time giving advise on which brand is better and which is not.Don`t have to wait long.My solar system is up and running in 1.5 weeks.Give MPRIZA GROUP a call or look them up on Facebook if you want to install solar system.You will not be disappointed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

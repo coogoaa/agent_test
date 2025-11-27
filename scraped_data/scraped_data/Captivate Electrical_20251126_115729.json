@@ -1,0 +1,126 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/captivate-electrical/",
+  "scraped_at": "2025-11-26T11:57:29.729126",
+  "company_info": {
+    "company_name": "Captivate Electrical",
+    "abn_number": "15660023414",
+    "acn_number": "660023414",
+    "contact_phone": "07 5343 6966",
+    "website_url": "https://www.captivateelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14338_e4945f56d0352d97ab917e78431bc72e.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14338_0c91907e29a8efbaa17f8d42de76ef7d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14338_6fea3ef8f314978dbea8b5b532870418.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14338_d245fb085c35010a911ae327a5c3c34c.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/63a5cac5ca736341f390a8fc463ed65d0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dd4e973cf6505c10bc2bd2e8428a67f41.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "08 Jun 2022Captivate Electrical Pty Ltd",
+      "abn_company_name": "Captivate Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "08 Jun 2022Captivate Electrical Pty Ltd",
+      "acn_company_name": "Captivate Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "138150",
+      "reviewer_name": "Garry",
+      "reviewer_location": "QLD - 4556",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Customer service from initial quote thru to installation has been excellent. Our current + new panels & new hybrid inverter are producing great results- our only issue is waiting on battery availability to finalise.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/63a5cac5ca736341f390a8fc463ed65d0.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dd4e973cf6505c10bc2bd2e8428a67f41.jpg"
+      ]
+    },
+    {
+      "review_id": "137752",
+      "reviewer_name": "Tibor",
+      "reviewer_location": "QLD - 4556",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Captivate owner David actually visited my home to inspect the installation site before quoting.Quote was excellent considering many of the larger firms were after a higher price for a inferior system.Arrived punctually with his team with new system installed by lunchtime after dismantelling old system.Also assisted with download and workings of the Fronius inverter  app after installation.David and his team were thoroughly professional during the whole process. No rubbish left and old system was also removed from the property.Same day after service provided in assisting with a firmware update.Overall a smooth process.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bbe-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T11:43:48.904436",
+  "company_info": {
+    "company_name": "BBE Electrical Pty Ltd",
+    "contact_address": "McLaren Vale, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "129231",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "SA - 5172",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5172",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Ben came to our property and inspected the set up we have had for over twenty years. He understood that we wanted to keep as much of the existing set up as possible that was still in very good condition. He did a lot of planning and significant consultation with SAPN. The installation was completed quickly and tidily with no inconvenience at all to us even though we are both retired and were home the whole time.The new system works perfectly. We can now charge our ev, run our pool and run the air conditioner if needed most of the day at the same time and still have excess power go the grid. Solar technology has improved a lot in two decades. We are very happy with the outcome. We highly recommend BBE Electrical.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Deye (Other)",
+      "battery_brand": "Pylontech",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Pylontech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+    }
+  ]
+}

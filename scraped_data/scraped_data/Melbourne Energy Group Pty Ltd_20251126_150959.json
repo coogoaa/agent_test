@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/melbourne-energy-group-pty-ltd/",
+  "scraped_at": "2025-11-26T15:09:59.837083",
+  "company_info": {
+    "company_name": "Melbourne Energy Group Pty Ltd",
+    "contact_phone": "03 8900 6811",
+    "website_url": "https://melbourneenergygroup.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12790_e1b18ddcf6b627977306b8340a0d9f77.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12790_db8da9735bccac2065f583a8cd8e1fd7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12790_df091b25e1de3601ca6145b3d6ec908b.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12790_ea305f2796ae63e3916a03d29e9a3963.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/albrite-solar/",
+  "scraped_at": "2025-11-26T11:51:54.870042",
+  "company_info": {
+    "company_name": "Albrite Solar",
+    "contact_address": "Benowa, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

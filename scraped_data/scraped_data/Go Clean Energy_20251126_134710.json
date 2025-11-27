@@ -1,0 +1,23 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/go-clean-energy/",
+  "scraped_at": "2025-11-26T13:47:10.693731",
+  "company_info": {
+    "company_name": "Go Clean Energy",
+    "contact_phone": "07 3848 1060",
+    "website_url": "https://gocleanenergy.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

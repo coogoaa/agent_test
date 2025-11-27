@@ -1,0 +1,32 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dr-sparky-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T13:03:57.164348",
+  "company_info": {
+    "company_name": "Dr Sparky Electrical Pty Ltd",
+    "contact_phone": "1800 377 727",
+    "website_url": "https://drsparkyelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14112_08e082d01b71cc52b4935735e1f2b2df.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14112_3799ff795741224e1d561fac4033d3ef.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14112_ad225d1af4e8b9721e8e701dfa9e4c67.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14112_b199a00e068d69c719b2a5b2cb5436b1.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14112_f7ee78aec5617f42a043ea6481dc071c.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14112_63cbf71f7ddca37c51c2c9a164251ead.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14112_53d71e2bf3222226c9db04d9c3bb321b.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

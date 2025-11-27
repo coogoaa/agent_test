@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energised-electrical-and-air-conditioning-pty-ltd/",
+  "scraped_at": "2025-11-26T13:30:40.666636",
+  "company_info": {
+    "company_name": "Energised Electrical and Air Conditioning Pty Ltd",
+    "contact_phone": "0466 559 642",
+    "website_url": "https://www.energisedelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_fc4f216bff66a07d850cead1cb8805c9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_4e091b13a62d9e73368a4aa480f25de9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_0413967994ea0d176f06a01eb1d36332.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_8e1274e8b331177579ed7ac4fd688f19.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_a4cd99457eccdb7efb893c8e068a3718.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_19cb90803fb79b1b46712b4152e3f3fa.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_52edd09c4e59f67d86e2c3b03dcdf3b1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_0eec3fa495292c6cf38e7b01d84b6c04.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_e5eecd6d12af15141ac3b11f03105055.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_419c9fedc214d0baf2120e27194bc47b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_11dc41c817eb64669f56727af75c7dfd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14060_a188119571705b315f920ad5ae4bf5e8.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "137328",
+      "reviewer_name": "Rachael",
+      "reviewer_location": "VIC - 3810",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3810",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Jeff was amazing to deal with! He came out to inspect the roof and discuss the options available to us to achieve the best results with a solar system. He answered questions quickly and made changes to systems and quotes until we had settled on what we were going to do. He was even happy to organise removal of our old system so our roof could be restored and then organise install of the new system once it was all finished. He kept us up to date with wait times on the battery. Even when the new system was up and running, he was happy to answer questions and provide additional information to help us understand the app to control the battery and manage our power. Couldn't ask for more!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

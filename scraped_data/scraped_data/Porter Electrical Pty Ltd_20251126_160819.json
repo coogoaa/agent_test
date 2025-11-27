@@ -1,0 +1,35 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/porter-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T16:08:19.518171",
+  "company_info": {
+    "company_name": "Porter Electrical Pty Ltd",
+    "contact_phone": "0481 722 403",
+    "website_url": "https://porterelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_a061a0d23ff2c9a6aec9ddaba8173438.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_674352df01030f0830e94761786ffd79.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_a134262a4841e9d7292058960791700b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_674352df01030f0830e94761786ffd79.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_a6e34d32eca0163f13569d4029315fb7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_bc2f8d65d7acc23776507b6f98570f42.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_7693cf474dbced941b684ae2ad9d056d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_a134262a4841e9d7292058960791700b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_838c956bdaa23041001beb59951a738f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13248_838c956bdaa23041001beb59951a738f.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

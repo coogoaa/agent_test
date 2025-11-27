@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/gls-electrical/",
+  "scraped_at": "2025-11-26T13:45:08.086467",
+  "company_info": {
+    "company_name": "GLS Electrical",
+    "contact_address": "Grange, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "3930",
+      "reviewer_name": "Brad",
+      "reviewer_location": "NSW - 2223",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2223",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-11-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We were dissapointed with Nicholls Solar. I negotiated the cost but was waiting for feedback on the extra charge to reconfigure the meter box. I requested the confirmation on October 17th and got caught when the announcement came through on October 27th. I immediately went with my next best quote (which was 12% more expensive) and sent the deposit. Their service let them down and lost them the sale. We also had real trouble getting a lead time indication.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.33,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

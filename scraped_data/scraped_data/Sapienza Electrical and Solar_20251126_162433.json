@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sapienza-electrical-and-solar/",
+  "scraped_at": "2025-11-26T16:24:33.837847",
+  "company_info": {
+    "company_name": "Sapienza Electrical and Solar",
+    "contact_phone": "0412 046 610",
+    "website_url": "https://www.sapienzaelectricalandsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14458_90e0257c12822ce438f0d6efd75106ff.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14458_347211473f8f091d8340bf938a586d4c.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14458_d66970fa6981e64c5558412f31453b59.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14458_d319da55f1a0c61c889d54ffc49badb3.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14458_c88cacbbea843e6db45bec362724383b.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

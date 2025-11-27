@@ -1,0 +1,196 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/say-yes-solar/",
+  "scraped_at": "2025-11-26T16:28:43.613851",
+  "company_info": {
+    "company_name": "Say Yes Solar",
+    "contact_address": "Black Forest, SA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/063db209f5ae34407214b82cce48f17c0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0670405426ef7562e0daad51ee65af071.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/063db209f5ae34407214b82cce48f17c0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0670405426ef7562e0daad51ee65af071.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.8,
+    "system_quality_rating": 4.8,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.8,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "99736",
+      "reviewer_name": "Paul",
+      "reviewer_location": "SA - 5093",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5093",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent service.  Great installation staff and clean and tidy workmanship.  Sales staff go over and above.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Alpha Technologies",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "90434",
+      "reviewer_name": "Z",
+      "reviewer_location": "SA - 5033",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5033",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-06-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "One of the best if not the best solar company in Adelaide.They did a job about a year ago and they still keep in contact with me. They sent someone to help me with issue I had. Good job guys",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/063db209f5ae34407214b82cce48f17c0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0670405426ef7562e0daad51ee65af071.jpeg"
+      ]
+    },
+    {
+      "review_id": "83667",
+      "reviewer_name": "Christopher",
+      "reviewer_location": "SA - 5042",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5042",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting process was excellent. Extremely polite staff & installers. Installation team worked very hard to get the job finished as quickly as possible, including grid connection and change of retailers",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "83055",
+      "reviewer_name": "Den",
+      "reviewer_location": "VIC - 3810",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3810",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-10-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "AAA+++, high quality installation and high level of customer support. Highly recommended. Competitive pricing and reliable brands of Huawei inverter installed.They organised the inspection and grid connection from start to finish.Great job, Say Yes Solar Victoria.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "75737",
+      "reviewer_name": "Mark",
+      "reviewer_location": "SA - 5008",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5008",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Within my review I wont be discussing the product, as it has just been installed less than a month ago, I need 12mths usage over it to actually talk about the solar product I have bought to be honest in regards to the product. Yet I will discuss the business SayYesSolar in which I bought the system, from their sales, to their installers to their owner/manager.Now previously I tried a few firms to get a quote from, each place I went to made me feel uncomfortable and even pressured, when I went to SayYesSolar what a pleasant suprise, they knew the product they were selling which is natural but they went out of their way from prior to sales to after sales with me, very well mannered and not pushy at all, this system was bought in March 2020. The sales person really pushed for a great price and system for myself in which I bought a 12kw system of him for a really good price.The installation was fantastic, quick and promptly done, they installed 40 panels within a day, came back the next day to just finish of the electrical work, very professional installers and wow quick. Now due to events in 2020, there was a slight delay in installation date and that is no big deal. I cannot find the words to describe how good the installers were, they guided me on some things and they also really thought out the installation, as some things are not considered when installing a solar system - layout to where its easy to clean the panels from time to time to get the best results - they did a fantastic job in what they did, sensible and thoughtful in their conduct.Customer service was brilliant as the owner/manager came and visited me after install just to help out with understanding some things, like installing the app and just extra walk through, very pleasant person to talk with and very helpful and really the company could have just done the install and take the money and that is it.There no negative points in my review, this is the first time I have ever done business in solar system and from the beginning to the end they were all fantastic to do business with.In the less than month of the solar system - the time of year i wished it was summer to actually see the results then, but everything looks ok. Growatt inverters (which are a good inverter) the Panels seem alright and will be reviewing them later. I really do recommend this company to anyone in their future.In the box below there is no option for 12kw",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "EGing",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_eging.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Alpha Technologies logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png"
+    },
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/volta-energy-systems-and-storage-pty-ltd/",
+  "scraped_at": "2025-11-26T18:45:12.659415",
+  "company_info": {
+    "company_name": "Volta Energy Systems and Storage Pty Ltd",
+    "contact_phone": "0481 381 755",
+    "website_url": "http://www.voltaess.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "89741",
+      "reviewer_name": "Robert",
+      "reviewer_location": "QLD - 4347",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4347",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Volta Energy Systems & Storage was always in the game in terms of their system design and the quality of components as well as working to our budget. What impressed the most was the willingness to create a system that met our needs in an off-grid  situation. Communication with Volta ESS was excellent throughout and after completion of the installation as we looked at various options. The team decommissioned our original setup and then created a great looking system, one that continues to impress on a daily basis.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Victron Energy",
+      "battery_brand": "Pylontech",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_victron-energy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+      ]
+    },
+    {
+      "review_id": "85606",
+      "reviewer_name": "Bruce",
+      "reviewer_location": "NSW - 2486",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2486",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was in the market for a decent battery system to add to my existing SMA solar system. I received vast amounts of conflicting information, but Volta helped me make sense of the options. They installed a 14kWh Victron/Pylontech modular battery system and additional solar PV as my consumption exceeded my production during the day. Now, I am so to say off the grid, and I’m very happy that I went with Volta Energy Systems. They were very competitive and did a great job. I would recommend them to anyone who needs trusted advice and exceptional service.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Victron Energy",
+      "battery_brand": "Pylontech",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_victron-energy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Victron Energy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_victron-energy.png"
+    },
+    {
+      "brand_name": "Pylontech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/elecshine-pty-ltd/",
+  "scraped_at": "2025-11-26T13:05:53.342675",
+  "company_info": {
+    "company_name": "ElecShine Pty Ltd",
+    "contact_phone": "1300 780 883",
+    "website_url": "http://elecshine.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/217_75b025f9c36dbc3d10c1954c5cdb4bb0.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/217_f85fd3125f18e50dd0c190eb892e3e3d.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/217_a8db91a634be959827d650ef929fa613.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/217_cd81937f36f0435d599ccdfbda4b3a9e.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/217_521f1fdec5a7c2f318da37e215558596.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.5,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "63586",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3910",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3910",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "no battery (Other)",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "60666",
+      "reviewer_name": "Yvonne",
+      "reviewer_location": "VIC - 3138",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3138",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Flex",
+      "inverter_brand": "Flex",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_flex.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_flex.png"
+      ]
+    },
+    {
+      "review_id": "67296",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3137",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3137",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Really pleased with our system. ElecShine were great in negotiating the Vic Solar Scheme system and getting our panels fitted quickly and efficiently. Very pleased we decided to go with them in getting a top quality system at a very good price.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "REC",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "63498",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3134",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3134",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-04-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Awesome experience from start to finish.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

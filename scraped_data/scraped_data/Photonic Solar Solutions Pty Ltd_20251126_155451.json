@@ -1,0 +1,72 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/photonic-solar-solutions-pty-ltd/",
+  "scraped_at": "2025-11-26T15:54:51.088584",
+  "company_info": {
+    "company_name": "Photonic Solar Solutions Pty Ltd",
+    "contact_address": "Bungendore, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "125757",
+      "reviewer_name": "Kathy",
+      "reviewer_location": "NSW - 2621",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2621",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Johan runs his business in the Bungendore-Queanbeyan-Canberra region.  Out of four quotes, he was one of only two who physically came to my property to talk things over and answer ALL my questions, plus adding information about my options so I could make a more informed decision.  The others just wanted me to believe how great they were and get the quote to me.  He has an extremely professional manner, being clear, transparent and responsive to my emails with extra questions.  The installation went smoothly, he organised my transition to a smart meter and I did not have to organise anything more once he was contracted.  He even moved my TV aerial for me as it was going to allow another panel.  I ended up with a 9.5 kW SolarEdge system in April 2023 which fills my north-facing roof.  17 months later it has been flawless.  I also bought a SE car charger which was brand new on the market at the time.  A few grumbles with SE about that but it has been sorted now and I have not had to think, wonder or worry about my system's performance since.  It's comforting, nevertheless, to know that Johan monitors all his installations DAILY.  I'm so surprised Johan isn't on SolarQuotes.  After getting my 3 quotes from SolarQuotes and still sighing, I searched in my local community's Facebook page and found recommendations for Photonic.  Haven't looked back.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "SolarEdge",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_solaredge.png"
+    }
+  ]
+}

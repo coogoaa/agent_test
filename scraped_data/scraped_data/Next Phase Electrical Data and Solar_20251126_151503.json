@@ -1,0 +1,64 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/next-phase-electrical-data-and-solar/",
+  "scraped_at": "2025-11-26T15:15:03.106789",
+  "company_info": {
+    "company_name": "Next Phase Electrical Data and Solar",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "100231",
+      "reviewer_name": "Greg",
+      "reviewer_location": "NSW - 2280",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2280",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very pleased with how the installation proceeded, on time, on the quality of the products and the service. Lachlan was very helpful and explained the procedures clearly and patiently. His quote also was detailed showing the costs of the various components which was lacking in the other quotes obtained. I have no hesitation in recommending this company to anyone thinking of installing a solar system",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SolarEdge",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "Not applicable (Other)",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

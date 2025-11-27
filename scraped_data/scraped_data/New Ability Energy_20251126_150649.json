@@ -1,0 +1,34 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/new-ability-energy/",
+  "scraped_at": "2025-11-26T15:06:49.840061",
+  "company_info": {
+    "company_name": "New Ability Energy",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14139_2fa67f482133f1c934235b73c2a03954.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14139_2ff2ba0051687eef5ca0459cf942940c.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14139_9caa2793658f3cc387f216157300b1ce.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14139_e31ace2a15a7c70645ad83df9ecd43b0.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

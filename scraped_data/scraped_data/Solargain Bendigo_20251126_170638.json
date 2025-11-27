@@ -1,0 +1,117 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solargain-bendigo/",
+  "scraped_at": "2025-11-26T17:06:38.120790",
+  "company_info": {
+    "company_name": "Solargain Bendigo",
+    "contact_phone": "1300 739 355",
+    "website_url": "https://solargainbendigo.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14339_fd1f6efe3ed5ad74ba3fac95b8174e71.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14339_eec0986bb9c1999fb5f246ddc8479542.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14339_f23ae5a8a6ed11c579e55f8d66d41a84.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14339_e5c75840eb33260f6e8e8ef622eff94d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14339_0d9e05361669240516cce902f30ee3ae.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "139513",
+      "reviewer_name": "Shane",
+      "reviewer_location": "VIC - 3550",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3550",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Nate and Caleb were great to deal with from the initial quote to the completed install of panels and batteries. Always happy to answer any questions.  A pleasure to deal with.  Thanks guys.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    },
+    {
+      "review_id": "139338",
+      "reviewer_name": "Jonathan",
+      "reviewer_location": "VIC - 3342",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3342",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I can’t fault the installation at all, very tidy. The guys wasted no time in getting my system installed from the moment I requested a quote to the finished product. I am exceptionally pleased with how my system is working and I can already see the benefits. Communication from the team has been great even when I have asked lots of questions.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "iStore",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_istore.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    },
+    {
+      "brand_name": "BYD logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+    }
+  ]
+}

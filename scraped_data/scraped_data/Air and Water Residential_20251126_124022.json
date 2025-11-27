@@ -1,0 +1,22 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/air-and-water-residential/",
+  "scraped_at": "2025-11-26T12:40:22.212786",
+  "company_info": {
+    "company_name": "Air and Water Residential",
+    "contact_address": "Bentley, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

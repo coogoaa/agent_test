@@ -1,0 +1,43 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mac-trade-services/",
+  "scraped_at": "2025-11-26T15:29:19.765776",
+  "company_info": {
+    "company_name": "MAC Trade Services",
+    "electrical_contractor_license": "SA: PGE 305233, SA: BLD 322897",
+    "contact_phone": "1300 430 917",
+    "website_url": "http://www.mactradeservices.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_862784f32d790f17b908008f3ec7b63a.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_d84ac8f2f4ebb1bafa9f9707be0f06c1.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_bf55d0e9d3d5824f679ea3a4d5744c3b.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_b524d7b622ab497e479111604ec934b8.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_2b8e3e442d7ab50a844476948a19c75e.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_07bc60566e8838acfdf45ce209a5d11d.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_211b46a6a331340a638358c15551d1d1.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_5b2a21286c1b465ef629f3135c3b51b7.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_e07a98d2a41fb68aef537842c104a7d4.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13827_3f4e831ec8cfdb595bd66dc445fcc00c.PNG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tec-services/",
+  "scraped_at": "2025-11-26T18:13:09.562289",
+  "company_info": {
+    "company_name": "TEC Services",
+    "contact_address": "WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "31103",
+      "reviewer_name": "Sue",
+      "reviewer_location": "WA - 6285",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6285",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-07-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was impressed by the ease of getting quotes through your site..in the end it is up to the supplier to contact a potential customer and I guess you can't have control over that, if one of them doesn't contact you. The ones that did though were professional and informative, and it gave me a great starting point for the journey to solar.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.67,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

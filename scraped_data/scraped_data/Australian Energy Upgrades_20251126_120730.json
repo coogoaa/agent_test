@@ -1,0 +1,112 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/australian-energy-upgrades/",
+  "scraped_at": "2025-11-26T12:07:30.325103",
+  "company_info": {
+    "company_name": "Australian Energy Upgrades",
+    "contact_phone": "1300 996 917",
+    "website_url": "https://australianenergyupgrades.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13874_75111fbd507c149b5edbac971904cc62.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13874_d7ca11ddf186b2e5ac0528bb5050a34e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13874_83844682fa51534114ccb8022d25fadf.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13874_e23f400b405d357539b712daa6618ba6.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "112779",
+      "reviewer_name": "Emma",
+      "reviewer_location": "VIC - 3217",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3217",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent installer! The quoting process was clear and easy. They answered all the questions we had promptly. The installation itself was efficient and they were very tidy and punctual. After the install they were happy to help organise the grid connection. Overall a very positive experienceEmma",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "112777",
+      "reviewer_name": "Joe",
+      "reviewer_location": "VIC - 3216",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3216",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All smooth from the start. I have high quality panels and inverter. App on my phone.Very professional install team comprised of local electricians. A top job.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

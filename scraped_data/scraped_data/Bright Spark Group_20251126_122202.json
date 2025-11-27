@@ -1,0 +1,33 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bright-spark-group/",
+  "scraped_at": "2025-11-26T12:22:02.076728",
+  "company_info": {
+    "company_name": "Bright Spark Group",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14307_842c37e36ffe97ea7113c6d9aa7f578c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14307_e31b731fc502bc8d9af3c41f9ecde38a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14307_2bd828652581bebb0973fe9d12369be9.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

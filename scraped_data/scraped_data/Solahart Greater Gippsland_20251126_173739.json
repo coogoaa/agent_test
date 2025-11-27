@@ -1,0 +1,42 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-greater-gippsland/",
+  "scraped_at": "2025-11-26T17:37:39.908447",
+  "company_info": {
+    "company_name": "Solahart Greater Gippsland",
+    "contact_phone": "03 5127 8954",
+    "website_url": "http://www.solahartgreatergippsland.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_e550ba85451c57a8caa27569964c1558.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_760207ba4334ae43d05185c87c842134.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_7197fcffe55707e4e5a4e1a377368ecb.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_47978565d574f26e4c3ac852aee255df.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_38025af0dac99429df94855842277788.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_2084c873633f426a1658ebdee935d76c.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_b52b3f8da444b85d08328456a6bf88e9.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_9339cb4918ed4ae32818cdbe5ed04585.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_daba868bff935b45b86caf27095a1f64.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14005_1169ea86022b70fb2c8a18d63f25771a.PNG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lumenaus-solar-and-battery-systems-pty-ltd/",
+  "scraped_at": "2025-11-26T15:21:42.627592",
+  "company_info": {
+    "company_name": "Lumenaus Solar and Battery Systems Pty Ltd",
+    "contact_phone": "1300 880 890",
+    "website_url": "https://lumenaus.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_893ca838edfdbd2e21d9b393fcddf64a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_d396c12580cc5905df9d28e8394ca20c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_be6fcd6a7fd236cf6ebcc59db1f7d66a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_b10b173e322cc26bf20fdee715bb708f.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_bbbf499f4d04c0125663adec53aa0983.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_ed648ba214bf4a01bba5edae391a9060.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_d3722450fff2d7c6b806aae5f20e5645.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_1db08806f4b5565a91e578e45ae161e7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_ae9267790ea7994588f284bd7ae71533.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_7ba59b356beacc2ca1dc0491607d47d8.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/285_cfa2b88826ed741ee744e0d339015b0c.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

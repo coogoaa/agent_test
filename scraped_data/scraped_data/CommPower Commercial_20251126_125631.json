@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/commpower-commercial/",
+  "scraped_at": "2025-11-26T12:56:31.892856",
+  "company_info": {
+    "company_name": "CommPower Commercial",
+    "contact_address": "Campbellfield, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "27196",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "VIC - 3078",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3078",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-08-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We got onto CommPower via a \"Solar Neighbourhoods\" initiative promoted via Yarra Energy Foundation. The PV Panels offered were Jinko and we took the option of using Enphase Microinverters. Had we have been going to use string inverters we may have used Solar Serve as a supplier. We were happy with the pricing and information provided by them, however the micro inverter option offered by them (SMA micro inverters) was not price competitive (plus reviews via the net for SMA micro inverters did not inspire confidence, although their string inverters are apparently one of the best available).We have had the system installed but have been disappointed at how long the process has taken to get the system inspected and get electricity retailer and distributer to do their part in getting system operational... It was day 14 of the 5-10 working days before system was inspected and approved. Our electricity retailer (Simply Energy) have advised that it will take them up to 5 days for them to process connection paperwork which will then take more time (up to another 20 working days) for Jemena to make software changes to meter before we are able to put into operation.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

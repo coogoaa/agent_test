@@ -1,0 +1,98 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/action-electricians/",
+  "scraped_at": "2025-11-26T12:15:14.535403",
+  "company_info": {
+    "company_name": "Action Electricians",
+    "contact_phone": "02 9055 9538",
+    "website_url": "https://actionelectricians.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14372_4ff1123562208a0081c4f282d41d8903.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14372_8cfe63134c3a0b550a057ec401dddb19.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14372_f0124ff79c1b6af7652bc59489695d50.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14372_9dc03a7274a93a54c400de2e5e97198d.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "135623",
+      "reviewer_name": "Sam",
+      "reviewer_location": "NSW - 2143",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2143",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had a fantastic experience with Action Electricians. They were professional, friendly, and made the whole process easy—from the initial quote to installation. Everything was explained clearly, and they handled all the paperwork. The system works great, and I’m already seeing savings on my power bill. Highly recommend them if you’re thinking about going solar!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "134859",
+      "reviewer_name": "Jason",
+      "reviewer_location": "NSW - 2176",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2176",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales and quoting process with Action Electricians was straightforward and professional. The quote was provided promptly and included clear itemization of costs, equipment specifications, and estimated timelines. Questions were answered clearly, and there was no pressure to commit.Customer service was responsive and helpful throughout the project. Action Electricians assisted with grid connection paperwork and followed up to confirm when the system was active. They also provided a basic walkthrough of the installed system, including how to monitor and operate the charger or inverter. Post-installation support was available and timely when needed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

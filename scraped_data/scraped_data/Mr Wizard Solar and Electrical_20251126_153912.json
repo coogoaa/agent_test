@@ -1,0 +1,170 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mr-wizard-solar-and-electrical/",
+  "scraped_at": "2025-11-26T15:39:12.711152",
+  "company_info": {
+    "company_name": "Mr Wizard Solar and Electrical",
+    "contact_phone": "1300 092 636",
+    "website_url": "https://mrwizardsolarbrisbane.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13498_76f33da8e58a2665bd3d17c247d122f9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13498_f8d20f368deb8aed70e77eee117a4843.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/6f0a383fd0c47f69ac060f19a1d9253c0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/6e7ab287a16652954ab648b934e352691.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.25,
+    "customer_service_rating": 4.25,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "108916",
+      "reviewer_name": "Shaun",
+      "reviewer_location": "QLD - 4037",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4037",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mr Wizard was happy to discuss options and revise the quote several times, but did not initially undertake a site inspection whereas other installers did, so they were able to provide better options.  Mr Wizard easily had the best price, provided highly rated panels and inverters, so overall provided the best value for us.  Quoting was friendly, responsive and accommodating.  Installation was friendly, prompt and professional.  We are happy with the installation overall and would recommend Mr Wizard - just do your homework first and know what you need to ensure you get the best system at the best price.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/6f0a383fd0c47f69ac060f19a1d9253c0.jpeg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/6e7ab287a16652954ab648b934e352691.jpeg"
+      ]
+    },
+    {
+      "review_id": "106536",
+      "reviewer_name": "Philip",
+      "reviewer_location": "QLD - 4101",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4101",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-10-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "ProSolar were very easy to talk to. I discussed things at length with Ben and did not get him to come out to the house until I had decided to use ProSolar. We then were able to discuss the layout of the panels and make the changes I wanted. There was no pressure at anytime to go with this company even though the government subsidy was going to be reduced at the end of the month.The installers turned up on time and efficiently made the installation without any mess and overcame issues with cabling to the inverter in the tidiest manner.Very very pleased.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 3.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "107636",
+      "reviewer_name": "Adrian",
+      "reviewer_location": "QLD - 4061",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4061",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great service and responsive to all questions and needs - even with a problem not related to the install and which meant coming back to the house later on. Highly recommend others to consider this firm.Thank you all.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "107267",
+      "reviewer_name": "Claire",
+      "reviewer_location": "QLD - 4064",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4064",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mr Wizard Solar were fast to respond to the quote request and priced competitively.Panels provided were quality with good warranty period.Install was available within a month.Installers were professional and friendly.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

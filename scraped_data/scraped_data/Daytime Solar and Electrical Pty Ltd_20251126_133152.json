@@ -1,0 +1,75 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/daytime-solar-and-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T13:31:52.472558",
+  "company_info": {
+    "company_name": "Daytime Solar and Electrical Pty Ltd",
+    "contact_phone": "1300 053 392",
+    "website_url": "https://daytimesolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13497_3d96b140a8895b360ecfe2bbc758d3b1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13497_b0875a2b2ca37c2e8ee6124973f570f6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13497_be7cdf50afd5a64ed4bc8995ee56c9a2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13497_c5a642e3d16adeeed2df9d1e82d93b70.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13497_fb8b33a89ff47c8396c2d32b8e950536.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13497_e3dedf43f479b49aa9d3093a340a752e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13497_cf8dbf18632fb1cf1127187d4ed859c6.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.3,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "118135",
+      "reviewer_name": "Robin",
+      "reviewer_location": "QLD - 4019",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4019",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Install was on time, polite efficient.Minor problems with Catch Power Relay, due to lack of knowledge.Minor cabling problem still to be sorted and the solar phone app is reporting strange data.  This Daytime Solar said they would correct.The grid connection was clean and efficient.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 3.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

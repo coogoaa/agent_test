@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/total-solar-solutions-australia/",
+  "scraped_at": "2025-11-26T18:00:00.473937",
+  "company_info": {
+    "company_name": "Total Solar Solutions Australia",
+    "company_description": "\"What makes us different?No overseas call centre, no sub-contracted installers and no fixed price packages with hidden costs. We provide only good old fashion Aussie customer service! We provide you with thorough quotes, honest opinions and tradies that arrive when they say they will.\"",
+    "awards_recognition": null,
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,222 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/one-stop-utilities/",
+  "scraped_at": "2025-11-26T16:08:40.688774",
+  "company_info": {
+    "company_name": "One Stop Utilities",
+    "contact_address": "Altona, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3a006a2191ce869791ebc08b0b61253d0.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d399c3c27a1537e628fc70ad3ac6f04e1.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b37563558cc309e2d33a5c0452f512b20.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3a006a2191ce869791ebc08b0b61253d0.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d399c3c27a1537e628fc70ad3ac6f04e1.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b37563558cc309e2d33a5c0452f512b20.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.83,
+    "system_quality_rating": 4.83,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.83,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "98923",
+      "reviewer_name": "Lee",
+      "reviewer_location": "VIC - 3026",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3026",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "HT-SAAE",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_shanghai-aerospace-automobile-electromechanical.png"
+      ]
+    },
+    {
+      "review_id": "87462",
+      "reviewer_name": "Tania",
+      "reviewer_location": "QLD - 4018",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4018",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "One stop Solar was the best price and had the latest product to install - beat the competition on price and products.Sales - Chris has excellent customer service and communication skills, I felt well informed about my decision. Chris kept me updated regularly and checked on how the installation was going several times on the day of install. After sales service has been outstanding.Installers - Dave (installer for over 20 years) and his offsider were punctual, polite and hardworking. They were very approachable and nothing was too much trouble, answering all of my questions on the day to make sure I knew everything about my solar.The product I have had installed is the best on the market and this company have the best people in the business to work for you. I couldn’t rate them all high enough. Thinking about getting solar - these guys are the best! Go for it, best decision I have made.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3a006a2191ce869791ebc08b0b61253d0.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d399c3c27a1537e628fc70ad3ac6f04e1.png"
+      ]
+    },
+    {
+      "review_id": "83490",
+      "reviewer_name": "Mark",
+      "reviewer_location": "VIC - 3076",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with install good service and good price will recommend to anyone",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "79907",
+      "reviewer_name": "Dmytrii",
+      "reviewer_location": "VIC - 3029",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3029",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales upsold a sightly better system so that they can install some panels north and the remaining west.Installer arrived with instructions to put everything on the west. After some chat I got explained why it can't go north (too small load on that string) abs we still had to proceed with all-west.That was a major disappointment as I specifically asked sales to ensure we can get some on the north side. But I guess I didn't have much choice and will need to see how it'll work out.Still waiting for the inspector to come it and unfortunately I have 0 expert limit.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b37563558cc309e2d33a5c0452f512b20.jpg"
+      ]
+    },
+    {
+      "review_id": "78372",
+      "reviewer_name": "Tom",
+      "reviewer_location": "VIC - 3075",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3075",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I found One Stop Utilities through an ad on ozbargain. They quoted me a 6.3kW system with Risen panels and a 5kW Goodwe inverter. Very prompt correspondence and I got the install done around a week after the solar homes approval from government. I believe the installers were subcontracted. Two guys turned up and they did a very neat job of installing the panels. I am an engineer and I got out the vic guidelines, and as far as I can tell it is all compliant. The inverter was installed next to my meterbox. This could have been a bit nicer as they did not run the conduit behind the brick veneer, however overall it is fairly neat/straight and is compliant.I turned the system on last week on an overcast Winter's day and produced way more power than I expected. My first good day in Winter is today and I have produced 14kWh between the sun coming up at 7.30 and 1pm right now.Overall I am very happy.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "70534",
+      "reviewer_name": "Anon",
+      "reviewer_location": "VIC - 3029",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3029",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "HT-SAAE logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_shanghai-aerospace-automobile-electromechanical.png"
+    }
+  ]
+}

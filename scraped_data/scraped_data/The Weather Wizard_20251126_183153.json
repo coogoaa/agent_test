@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/the-weather-wizard/",
+  "scraped_at": "2025-11-26T18:31:53.480183",
+  "company_info": {
+    "company_name": "The Weather Wizard",
+    "contact_address": "Perth, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "56387",
+      "reviewer_name": "Nic",
+      "reviewer_location": "WA - 6156",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6156",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Many of the quotes obtained only gave you three manufacturers, despite them \"advertising\" many different PV suppliers on their web page.  So you felt limited to only those brands.  Their quotes did not specify the exact model of PV;s for example only quoting the Wattage of the panels.  This resulted me in researching the wrong panels with respect to effeciency and other reviews for that panel.  People want to compare apples with apples so give them the model of panels too.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

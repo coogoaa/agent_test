@@ -1,0 +1,260 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/simply-solar/",
+  "scraped_at": "2025-11-26T16:56:40.517327",
+  "company_info": {
+    "company_name": "Simply Solar",
+    "contact_address": "Redland Bay, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a36c643cd5659d5fba467077860a2f520.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a36c643cd5659d5fba467077860a2f520.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.86,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.86,
+    "total_review_count": 7
+  },
+  "reviews": [
+    {
+      "review_id": "128025",
+      "reviewer_name": "Greg",
+      "reviewer_location": "NSW - 2125",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2125",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Simply Solar's Rod was recommended to us. He was genuine and gave good advice. All quotes from Solarquotes recommended installers were competitive. Any of the quotes could have secured the job but only one can do the job. Starting with Solarquotes is a great idea - all information was appreciated and very educational.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "123166",
+      "reviewer_name": "Simon",
+      "reviewer_location": "NSW - 2153",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2153",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-06-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Over 90% of feedback from HDD FB site recommended this company for Hills area & they didn't disappoint. Great quality & price",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "SolarEdge",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "118483",
+      "reviewer_name": "Mark",
+      "reviewer_location": "NSW - 2153",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2153",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Apart from the great work, Rod from Simply Solar Solutions provided some useful advice about sizing my system that addressed my need for minimum bills.  Rod's insightful comment was to eliminate bills, you need a system large enough to cover your expected WINTER usage.  Other companies focussed on annual usage and annual averages.Rod was also VERY price competitive versus other suppliers on a like for like basis.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "117894",
+      "reviewer_name": "Mark",
+      "reviewer_location": "NSW - 2156",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2156",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-12-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Answered all my questions, and I had a lot of questions.eg1. sub mains sizing as the installation is 80m from the main switchboard to limit voltage rise.2. single or three phase.3. shade on the panelsInstallation was done when they said it would be done.All the workers were polite and courteous.The office lady was very helpful and they did all the paperwork for the grid connection.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a36c643cd5659d5fba467077860a2f520.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a36c643cd5659d5fba467077860a2f520.jpg"
+      ]
+    },
+    {
+      "review_id": "92006",
+      "reviewer_name": "Benn",
+      "reviewer_location": "WA - 6147",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6147",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Simple to request specific needs and focus areas, was designed using aerial photography with adjustments on the day due to meter box and submeter box. Has been going great guns ever since!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Delta",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+      ]
+    },
+    {
+      "review_id": "82422",
+      "reviewer_name": "Mark",
+      "reviewer_location": "QLD - 4172",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4172",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-10-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Dealing with Scott Dillon was a pleasure, right from the quotation time, where he showed a great deal of knowledge and provided plenty of worthwhile advice. His polite manner and attendance at site during the installation provided significant support and satisfaction to me, as the home owner. He arrived on time and as promissed, and delivered the installation without hickup, with additional provision of advice after the connection that would definitely make me comfortable in recommending them to anyone considering solar installation.Ps. They also left our home without any mess at all, over the one and a half days of installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "42757",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4131",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4131",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-01-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

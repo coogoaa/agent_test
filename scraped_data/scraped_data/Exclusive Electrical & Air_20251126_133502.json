@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/exclusive-electrical--air/",
+  "scraped_at": "2025-11-26T13:35:02.453133",
+  "company_info": {
+    "company_name": "Exclusive Electrical & Air",
+    "contact_address": "Brisbane, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.5,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 2.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "116754",
+      "reviewer_name": "Bill",
+      "reviewer_location": "NSW - 2325",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2325",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote was prompt and thorough. Installer visited the site to assess the installation. He answered all my questions in detail. The installation was was done ahead of estimated schedule. The system was demonstrated to be working before the installation team left. The proprietor was present to supervise the installation. The work appeared to be of high quality.Upon completion the installer said that all I needed to do was to contact an energy retailer to upgrade the meter, and I was good to go. He suggested a few retailers he felt offered value for money.That is where it came unstuck. The installer failed to contact my retailer with required documentation. I spent a week attempting to get quotes for retail supply. Finally I contacted my current retailer, and they explained it was customary for the installer to contact them regarding the meter upgrade.I found the Certificate of Compliance amongst the documentation left with me on completion of the install. The Contract Notification Letter from Ausgrid required by AGL to be onsite for the meter upgrade was not amongst the documentation.It took several hours on the phone for me to sort it out. I paid the installer in full in good faith before the meter upgrade. I have sent several messages to my installer regarding this matter. He ghosted me as soon as I paid. The meter upgrade will take a further 15 business days.I knew that there was a \"process\" involved in getting the system operational. However, I was unaware of the details. I do not know whether there is information outlining this process on the Solar Quotes website, but it would be good information to provide.I chose my installer based on recommendation, reputation and the fact that he could do the job promptly. I did not choose on the basis of best price. I paid a premium for what I believed was a first-rate installation. Now I am not sure. If the installer cannot return my message with a request for documentation, I do not have high hopes if a warranty claim becomes necessary. I hope the Huawei inverters he installed are as good as he said they are.Moral: Do not pay your installer before the system is connected to the grid and it is FULLY operational. I have had $13,000 dollars worth of solar system on my roof for two weeks. It will be another two weeks before I have a meter enabling me to use the system.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 2.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    }
+  ]
+}

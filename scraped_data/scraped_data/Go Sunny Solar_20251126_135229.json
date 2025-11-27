@@ -1,0 +1,104 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/go-sunny-solar/",
+  "scraped_at": "2025-11-26T13:52:29.378417",
+  "company_info": {
+    "company_name": "Go Sunny Solar",
+    "company_description": "\"At Go Sunny Solar Adelaide, we pride ourselves on our expert knowledge and experienced workmanship when it comes to installing a solar system. When it comes to installing solar, we are dedicated to providing our customers with the perfect system for their needs and the best possible customer service.\"",
+    "contact_email": "info@gosunny.com.au",
+    "contact_address": "Adelaide, SA",
+    "awards_recognition": null,
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e49f6c85dc1d534283ebbee25927af0.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e49f6c85dc1d534283ebbee25927af0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "112374",
+      "reviewer_name": "Helen",
+      "reviewer_location": "SA - 5093",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5093",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Communication was immediate over the phone.  I was on the phone a couple of times for nearly an hour.  Being of the \"older generation\", Josh had to explain a couple of times how the solar power system worked. He was sooooooooooo patient with me. I had constant communication either with Josh or April from the office.  They even organized for the meter to be changed over with my electricity company.Andrew and the other installation guys were prompt.  They actually turned up early, and made the installation look easy. They did their job extremely well, and took all their rubbish with them.Go Sunny were the only company who offered a no deposit, with no interest terms, for 5 years.  Plenti approved a loan immediately.  I highly recommend both Go Sunny and Plenti.I was always worried that black panels would make my house look horrible.  How wrong was I? The colour actually compliments my house.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e49f6c85dc1d534283ebbee25927af0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e49f6c85dc1d534283ebbee25927af0.jpg"
+      ]
+    },
+    {
+      "review_id": "120453",
+      "reviewer_name": "Mer",
+      "reviewer_location": "SA - 5016",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5016",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Provided constant updates for our installation. Offered Interest Free which was excellent. The workmen were fantastic friendly of very professional. Can recommend this company for you Solar Panel installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

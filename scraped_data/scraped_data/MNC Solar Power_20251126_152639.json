@@ -1,0 +1,117 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mnc-solar-power/",
+  "scraped_at": "2025-11-26T15:26:39.847254",
+  "company_info": {
+    "company_name": "MNC Solar Power",
+    "contact_address": "Port Macquarie, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "134893",
+      "reviewer_name": "Michael",
+      "reviewer_location": "NSW - 2444",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2444",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sean and his crew did a great job on my installation today. Would recommend  to anyone",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "I don't know",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+      ]
+    },
+    {
+      "review_id": "105888",
+      "reviewer_name": "Greg",
+      "reviewer_location": "NSW - 2444",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2444",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-12-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had confidence in the sales process and product country of origin",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "87955",
+      "reviewer_name": "Anne",
+      "reviewer_location": "NSW - 2444",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2444",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales excellent ,information supplied was easy to understand and thorough plus “No Sales Pressure”Installation Team excellent, a real asset to their company polite, professional, nothing was too much trouble.Customer service top notch.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    }
+  ]
+}

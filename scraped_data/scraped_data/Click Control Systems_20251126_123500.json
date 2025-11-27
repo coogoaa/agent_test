@@ -1,0 +1,101 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/click-control-systems/",
+  "scraped_at": "2025-11-26T12:35:00.194298",
+  "company_info": {
+    "company_name": "Click Control Systems",
+    "contact_address": "Bendigo, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "114908",
+      "reviewer_name": "Gary",
+      "reviewer_location": "VIC - 3453",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3453",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales /quoting process was done by Steve, very easy to talk to, genuine, explanatory, informative, Polite and didn't try to sell more than we needed. Installation went fine and Mick and the boys were efficient, and polite.The follow up by Steve was also great.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "101589",
+      "reviewer_name": "Pat",
+      "reviewer_location": "VIC - 3453",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3453",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything went like clockwork, I would recommend this company any time.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius 5 KW Grid Interactive Solar Inverter (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

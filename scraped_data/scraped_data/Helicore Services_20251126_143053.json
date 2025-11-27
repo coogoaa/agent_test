@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/helicore-services/",
+  "scraped_at": "2025-11-26T14:30:53.513075",
+  "company_info": {
+    "company_name": "Helicore Services",
+    "contact_phone": "1800 044 133",
+    "website_url": "https://www.helicoreservices.com",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14355_b3301de6265b42c2c1b5eca1a5c286df.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14355_df89dde5323cbc0d9f1a5ebf6d2e69bc.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14355_6a02551e503be52411293ab461a3312d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14355_a4398925958eb8e2a5b4442ceea453ba.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

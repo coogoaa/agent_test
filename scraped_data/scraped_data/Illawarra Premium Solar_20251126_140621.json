@@ -1,0 +1,68 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/illawarra-premium-solar/",
+  "scraped_at": "2025-11-26T14:06:21.340933",
+  "company_info": {
+    "company_name": "Illawarra Premium Solar",
+    "contact_phone": "0417 282 016",
+    "website_url": "https://www.illawarrapremiumsolar.com/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "97079",
+      "reviewer_name": "Grant",
+      "reviewer_location": "NSW - 2525",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2525",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-01-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with Illawarra Premium Solar from the quote through to the install and follow up. Information provided was honest and realistic. I was impressed with the range and quality of the product they have on offer, helping me eliminate the minefield of some inferior products out there. Dylan, Josh and the team were very helpful and obliging, customising a solution for our energy needs. Quality install and product, thank you guys, job well done! I would highly recommend this team.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

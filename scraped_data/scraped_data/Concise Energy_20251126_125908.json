@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/concise-energy/",
+  "scraped_at": "2025-11-26T12:59:08.368884",
+  "company_info": {
+    "company_name": "Concise Energy",
+    "contact_address": "Southern Highlands, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "88966",
+      "reviewer_name": "Neville",
+      "reviewer_location": "NSW - 2580",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2580",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Even though he was not on your list the experience of dealing with your companies was a great help to me in finding what I needed.all had different ideas some I found not at all acceptable to my needs and one went very close to being accepted.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

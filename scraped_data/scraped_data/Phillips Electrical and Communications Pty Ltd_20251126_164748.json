@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/phillips-electrical-and-communications-pty-ltd/",
+  "scraped_at": "2025-11-26T16:47:48.267481",
+  "company_info": {
+    "company_name": "Phillips Electrical and Communications Pty Ltd",
+    "contact_phone": "02 6026 1112",
+    "website_url": "https://pecelec.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

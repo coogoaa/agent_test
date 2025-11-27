@@ -1,0 +1,63 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/jen-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T15:03:31.162391",
+  "company_info": {
+    "company_name": "Jen Electrical Pty Ltd",
+    "contact_phone": "1300 536 000",
+    "website_url": "https://jenelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13915_f6c58a713d48e742a93e44cb60ad3984.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13915_7d17bfb1f67ad353bd04131e6deb3989.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13915_ca4a9fe253e7e70acbcbf7c6c753d8a8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13915_01d80acebb7b27e4ab3c6cbe95cb1be8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13915_eddd7d968cfbc5d099210bd2c601a0da.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13915_e369cb0e6a1bbdd9302bfba019d9006b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13915_6d89afc960e6fd92257c81d9912c4876.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "119942",
+      "reviewer_name": "Ross",
+      "reviewer_location": "VIC - 3044",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3044",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From the beginning, Smartlyte were excellent at communicating and getting across exactly what was required for our EV charger install. Of the three responses I got they were the only ones to respond to my questions completely.There was very little wait time to book in a date. The install went well and is very neat. Everything was explained well, and we are very happy with the result. The price was also very reasonable.I'd happily recommend Smartlyte to anyone",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

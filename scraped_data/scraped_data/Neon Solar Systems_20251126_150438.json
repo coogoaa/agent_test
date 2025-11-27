@@ -1,0 +1,199 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/neon-solar-systems/",
+  "scraped_at": "2025-11-26T15:04:38.758188",
+  "company_info": {
+    "company_name": "Neon Solar Systems",
+    "contact_address": "North Manly, VIC",
+    "website_url": "https://www.neonsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13221_4fe131516526a774d20e3f76442f8ae3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13221_53e68a2dcd3507c93b6746dff2bf3e7a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13221_b50627345d6011dc44a0831b6ed60d17.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13221_0cb2198c936d01d55c68522a7c028876.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.8,
+    "system_quality_rating": 4.8,
+    "installation_rating": 4.6,
+    "customer_service_rating": 4.8,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "97809",
+      "reviewer_name": "Janice",
+      "reviewer_location": "VIC - 3174",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3174",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-02-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installation was handled professionally and the area was left tidy and one of the young men installed an app on my phone so I could keep an eye on how it is functioning.  Happy Customer Jan",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "93960",
+      "reviewer_name": "Gary",
+      "reviewer_location": "NSW - 2234",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2234",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales people including  Graham and Dev were exceptionally informative,courteous and quick to get back to me with answers on any querie that i had, we exchanged digital information to speed finalisation of the process. The installation crew were very caring and careful around my gardens and property,I cannot recommend this company highly enough.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "92124",
+      "reviewer_name": "Demitrios",
+      "reviewer_location": "VIC - 3076",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My experience with Moss from Neon Solar Systems Melbourne was perfect from start to finish. He ensured that everything was efficient and timely once I had placed my order with him. He aligned the installation date to suit my schedule and also assisted in claiming the rebate, the installation team Dave was on time and non-interrupting on the day of installation. I highly recommend Neon Solar Systems Melbourne.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "91366",
+      "reviewer_name": "Adam",
+      "reviewer_location": "NSW - 2101",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2101",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Neon solar was a fantastic company to deal with right from the first phone call. They came out on time quoted up a system that would suit my needs efficiently. The install went well and is neat and tidy. I was run through the inverter system and what the different readings on the panel mean so i can be sure it is all working smoothly. I highly recommend Neon for your solar system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "90549",
+      "reviewer_name": "Ilona",
+      "reviewer_location": "VIC - 3201",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3201",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-06-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I couldn’t recommend highly enough the service provided by Neon Solar Systems- Moss the consultant was more than helpful and knowledgeable and made the decision to proceed with installing the system easy - the men who installed the system were amazing - done with ease and left the property without a mess - but with a system that has already saved me $! Working from home I am using more electricity but saving - I have recommended Neon to many friends when they asked if I was happy with the solar - five stars! Definitely!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

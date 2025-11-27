@@ -1,0 +1,161 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ovo-electrical/",
+  "scraped_at": "2025-11-26T16:19:48.333265",
+  "company_info": {
+    "company_name": "OVO Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14220_6d1850106544359e907f6c7473c38e11.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14220_8a22f17fbf7d54d10cfed8c0f3111d8a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14220_dcbd36f0e1488b3b973491a0b314949c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14220_c60a0b31a2b846cef1c3706d38e0deef.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/035c89fa5fa6ed6a9ea5e89d8073a46e0.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.25,
+    "customer_service_rating": 4.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "138166",
+      "reviewer_name": "Spero",
+      "reviewer_location": "VIC - 3068",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3068",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This was my experience. The quotation was dependent on a google map image of the house. An image of the solar panels was overlaid on the roof image. The initial installation team showed up about two weeks later ready to install the panels. They inspected the roof, and I was told that they had the wrong brackets and left. Two weeks later I called to find out what was going on. The responder said that they would be back in a couple of days. The new team arrived and set to work installing some of the panels. They couldn't install all the panels because the original image of the roof was different to what it was now. I was also told the inverter couldn't be installed at the rear of the house, as I had originally requested, and was instead installed at the front. The customer service was lacking. The explanations were brief, if at all. The connection to the grid had to be chased up by me with no further explanation. I was not satisfied with the interaction with OVO Electrical at all.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3.3kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "130650",
+      "reviewer_name": "Juan",
+      "reviewer_location": "VIC - 3146",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3146",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-02-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The OVO Electrical team was very polite and professional. They explained everything carefully and worked very neatly. The whole process was smooth and without any stress. I really appreciate their hard work.I highly recommend Swatten and OVO Electrical! It is a very good investment for the home.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Swatten",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_swatten-inverters.jpg"
+      ]
+    },
+    {
+      "review_id": "129345",
+      "reviewer_name": "Efstratia",
+      "reviewer_location": "VIC - 3072",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3072",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales process was straightforward, with clear communication and transparency regarding rebates and discounts. The installation team was punctual, polite, and left everything spotless. They also managed the grid connection seamlessly and ensured I understood the system setup. I couldn’t have asked for a better experience. Highly recommend OVO Electrical for anyone considering solar!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/035c89fa5fa6ed6a9ea5e89d8073a46e0.jpeg"
+      ]
+    },
+    {
+      "review_id": "129208",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3145",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3145",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The entire process with OVO Electrical was seamless and professional. The quoting was transparent, and the team patiently answered all my questions. Installation was quick, tidy, and efficient—every detail was handled with care. The system is already showing great performance, and the team went the extra mile to guide me through the grid connection and monitoring app. Highly recommend OVO for their top-notch service and reliable systems",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

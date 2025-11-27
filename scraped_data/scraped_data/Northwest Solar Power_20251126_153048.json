@@ -1,0 +1,119 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/northwest-solar-power/",
+  "scraped_at": "2025-11-26T15:30:48.086595",
+  "company_info": {
+    "company_name": "Northwest Solar Power",
+    "contact_address": "Karratha, WA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e78607532206b7f6e68c921a22686a9f0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/43963b3fa8c79016288e3978ba99f6111.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/80add07548cb72fedf982ebbdf6f12362.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5d3105337892b908b22cadeeb8bc47703.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/74c24332fce454c257cb0bcd18e998900.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e78607532206b7f6e68c921a22686a9f0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/43963b3fa8c79016288e3978ba99f6111.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/80add07548cb72fedf982ebbdf6f12362.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5d3105337892b908b22cadeeb8bc47703.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/74c24332fce454c257cb0bcd18e998900.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "117726",
+      "reviewer_name": "Glen",
+      "reviewer_location": "VIC - 3081",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3081",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-12-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Lee from Northwest Electrical and Solar was genuine and went out of his way to meet our needs. No $0 upfront BS, just an honest, unfussy approach and worked with us every step of the way. Very happy!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e78607532206b7f6e68c921a22686a9f0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/43963b3fa8c79016288e3978ba99f6111.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/80add07548cb72fedf982ebbdf6f12362.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5d3105337892b908b22cadeeb8bc47703.jpg"
+      ]
+    },
+    {
+      "review_id": "81807",
+      "reviewer_name": "Mark",
+      "reviewer_location": "WA - 6720",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6720",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Purchased a 6.6kw solar system from Northwest Solar Power. Great company to deal with, competitive pricing, top quality materials & installation team are very professional & experienced. Would highly recommend using this company.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/74c24332fce454c257cb0bcd18e998900.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/74c24332fce454c257cb0bcd18e998900.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

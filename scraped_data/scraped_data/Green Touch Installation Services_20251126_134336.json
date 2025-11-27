@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-touch-installation-services/",
+  "scraped_at": "2025-11-26T13:43:36.462435",
+  "company_info": {
+    "company_name": "Green Touch Installation Services",
+    "contact_address": "Campbellfield, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "12745",
+      "reviewer_name": "Jaclynn",
+      "reviewer_location": "VIC - 3429",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3429",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-05-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had done a lot of reading and research and decided to get 3 quotes..  Solar Cola were quite expensive and did not send out a quote as they said they would after our meeting. Enviromate was very cheap, but did not even come to my house and after reading reviews I was concerned. SolarMyHome were accommodating and were friendly and helpful. They were mid priced.  After getting 3 quotes, almost by accident, I came across Green Touch. Green Touch were the only people out of 4 who readily went onto my roof to check things out. The assessor answered and clarified my questions.  The service was prompt and they turned up when they said they would with the goods quoted. The installers were friendly and did the job without any problems. They were happy to answer any questions I asked.  Green Touch organised for the system to be checked and given the OK and this was done promptly by the end of the following week. It is up and running and I have been contacted by my electricity provider. I am now waiting for the next stage when the Smart meter will be installed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

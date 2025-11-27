@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ag-city-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T12:34:51.554082",
+  "company_info": {
+    "company_name": "Ag City Electrical Pty Ltd",
+    "contact_address": "Griffith, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "925",
+      "reviewer_name": "Neil",
+      "reviewer_location": "NSW - 2671",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2671",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-06-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Difficult to tell whether it is value for money as there are so many variables. I paid significantly more than comparitive 3KW systems advertised on the basis of the professional advice given that my system was higher quality. I accepted this on good faith and continue to hope I wasn't ripped off.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

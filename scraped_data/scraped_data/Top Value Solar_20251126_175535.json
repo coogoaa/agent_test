@@ -1,0 +1,230 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/top-value-solar/",
+  "scraped_at": "2025-11-26T17:55:35.606505",
+  "company_info": {
+    "company_name": "Top Value Solar",
+    "contact_address": "Greenbank, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12894bca72e85cd3c15d534c8c2fd2700.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dc7bd7aa9030afde069ad8cb80c9a0700.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12894bca72e85cd3c15d534c8c2fd2700.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dc7bd7aa9030afde069ad8cb80c9a0700.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.83,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.83,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "126517",
+      "reviewer_name": "Chris",
+      "reviewer_location": "QLD - 4504",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4504",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Nishant from Top Value Solar was professional, friendly and easy to deal with. He provided me with the best value quote and provided a great solution in the form of a 13.2KW system with JA Panels and Sungrow  inverter. The installation was completed by his competent team and they were friendly and prompt. After the installation it was identified that there was an issue with the existing meter, and a smart meter was required to be installed by Energex to ensure the system was working properly.  Nish provided excellent customer service and support during this time post installation and answered all my questions and responded to my concerns. Once the new meter was installed by others, he also liaised with Sungrow directly for me to ensure that the inverter software was updated to reflect the new meter and the system was running correctly. I couldn't be happier with the install and the way the system is now operating. Top Value Solar are a great company, family owned and deliver on the promise. If you are considering a new solar system, I highly recommend them based on their pricing, service and ongoing support.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "89919",
+      "reviewer_name": "Venkat",
+      "reviewer_location": "QLD - 4300",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4300",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After a good referral from friend of mine I decided to give these guys a call. The sales staff was very knowledgeable and helping. They first listened to me and understood what I actually wanted. They asked for some of my previous electricity bills so that they can predict the savings from the system recommended. To my surprise they only recommended 6.66 kW system while everyone said to go bigger. I now knew that because no one was at home during the day so there was no use of going bigger.Installers were also very professional. Taught me how to check the readings and do's/don'ts. All in all very happy to go with them. Already seeing benefits in first bill even the solar was ON for just 1 month. Give these guys a call. You won't be disappointed",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "83584",
+      "reviewer_name": "Lisa",
+      "reviewer_location": "QLD - 4507",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4507",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All great. Electrician was very helpful explaining the inverter system. Installers did  great work no mess and polite anf punctual. All was organised for us. Including digital meter and grid connection.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12894bca72e85cd3c15d534c8c2fd2700.jpg"
+      ]
+    },
+    {
+      "review_id": "72999",
+      "reviewer_name": "Xin",
+      "reviewer_location": "QLD - 4122",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4122",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very efficient company, it took less than 7 days to complete the whole process. I am very happy with the performance of the system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dc7bd7aa9030afde069ad8cb80c9a0700.jpg"
+      ]
+    },
+    {
+      "review_id": "69029",
+      "reviewer_name": "Mansoor",
+      "reviewer_location": "QLD - 4509",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4509",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-10-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was looking installing solar system at my place for some time and when I decided to have a Solar System for my Home, I received around 12 quotes from different installers and after doing my research and mathematics TOP Value Solar came at the top of my list for following reasons. They responded quickly to my request for a quote and after the quote was emailed, their team member came to our home and simply explained the details contained in the quote. His product knowledge was extensive and he answered my endless questions and putting me at ease and this led to a subsequent brand change with the panels we'd initially wanted. The system they offered were top quality at affordable price and the best thing about them was they were offering me the premium products (Fronious Inverter and Longi Halfcut Panels) within my budget. When I compared the prices with other installers the price difference between the Top Value Solar and other providers was between 25% - 40% (which seems too good to be true). I mentioned the price difference to other installers but none of them was willing to match that. The other installers also raised their concerns about getting the quality of work and after installation support and etc from Top Value Solar but i am glad i went ahead with them as their product, service, promptness and customer relations all exceeded my expectations. I am one very happy customer and would definitely recommend Top Value Solar to anyone looking for solar system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "60674",
+      "reviewer_name": "Nasir",
+      "reviewer_location": "QLD - 4300",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4300",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-03-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

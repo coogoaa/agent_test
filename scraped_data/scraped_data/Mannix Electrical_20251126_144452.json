@@ -1,0 +1,112 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mannix-electrical/",
+  "scraped_at": "2025-11-26T14:44:52.590973",
+  "company_info": {
+    "company_name": "Mannix Electrical",
+    "contact_address": "Munno Para, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.33,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "94750",
+      "reviewer_name": "Mark",
+      "reviewer_location": "SA - 5070",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5070",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "37797",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5556",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-08-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "32510",
+      "reviewer_name": "Rod",
+      "reviewer_location": "SA - 5631",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5631",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-11-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

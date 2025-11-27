@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/barossa-valley-electrical/",
+  "scraped_at": "2025-11-26T12:34:54.970278",
+  "company_info": {
+    "company_name": "Barossa Valley Electrical",
+    "contact_phone": "0420 370 254",
+    "website_url": "https://barossavalleyelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12731_5f37cd0cd62714e713e6e08a2a25a613.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12731_ad9f99b01a481ae3d9da8ba2a46b988d.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

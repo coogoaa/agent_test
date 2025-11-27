@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/all-energy-queensland-pty-ltd/",
+  "scraped_at": "2025-11-26T11:56:17.048143",
+  "company_info": {
+    "company_name": "All Energy Queensland Pty Ltd",
+    "contact_address": "QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "70375",
+      "reviewer_name": "Pete",
+      "reviewer_location": "QLD - 4878",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4878",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-07-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "SolarQuotes recommended suppliers focused on Chinese panels. We do not want Chinese products and avoid them where possible.Sales/quoting process was excellent from one and average from another. The 3rd supplier did contact us but well after we committed.Installation: Polite? Tidy? Punctual? Yes, all of those.How was the customer service? Yes, grid connect all handled by supplier. Also available to answer stupid customer questions post sale, and with a smile. Lovely fellow.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Winaico",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Winaico logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif"
+    },
+    {
+      "brand_name": "Fimer logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+    }
+  ]
+}

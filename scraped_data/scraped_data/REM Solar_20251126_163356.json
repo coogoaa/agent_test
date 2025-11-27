@@ -1,0 +1,91 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rem-solar/",
+  "scraped_at": "2025-11-26T16:33:56.039376",
+  "company_info": {
+    "company_name": "REM Solar",
+    "contact_address": "WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "87695",
+      "reviewer_name": "Lauchlan",
+      "reviewer_location": "WA - 6163",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6163",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I liked dealing with REM electrical because I was dealing with not only the owner of the business but he was also an electrician and the installer. He had the technical knowledge I needed plus he was not pushy. Other quotes I received were through quite aggresive sales people who often had scant technical knowledge.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "41855",
+      "reviewer_name": "Dean",
+      "reviewer_location": "WA - 6210",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6210",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-12-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good communication and information throughout the process and good workmanship.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/platinum-electrical-contractors-mildura/",
+  "scraped_at": "2025-11-26T16:00:31.386531",
+  "company_info": {
+    "company_name": "Platinum Electrical Contractors Mildura",
+    "contact_address": "Mildura, VIC",
+    "website_url": "https://www.platinumelectricians.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7dc1433f2ae152b2fdb9c5fbcdc09a6a0.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7dc1433f2ae152b2fdb9c5fbcdc09a6a0.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "105838",
+      "reviewer_name": "Marie",
+      "reviewer_location": "NSW - 2739",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2739",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-11-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was lucky enough to have the team install a solar system for my family home. They were extremely professional and made the process so easy for me. I could not recommend them more highly. Everything was fantastic!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7dc1433f2ae152b2fdb9c5fbcdc09a6a0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7dc1433f2ae152b2fdb9c5fbcdc09a6a0.jpeg"
+      ]
+    },
+    {
+      "review_id": "61567",
+      "reviewer_name": "Kane",
+      "reviewer_location": "VIC - 3500",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3500",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mentioned in passing it was my sons first birthday coming up, a few days after installation complete they sent a helium balloon to him wishing him happy birthday! Suffice to say, beyond exceptional customer service, they understand they're working in a remote area with longstanding customer relations - and accountability. Wouldn't hesitate to recommend.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "62572",
+      "reviewer_name": "Paul",
+      "reviewer_location": "VIC - 3500",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3500",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-04-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "they came on time which is a good thing",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

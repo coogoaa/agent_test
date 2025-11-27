@@ -1,0 +1,4 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,panel_rating,inverter_rating,has_images,image_urls,overall_rating,quality_rating
+56994,Adrian,SA - 5254,SA,5254,True,2019-08-12,12 August 2019,4.5,,,4.0,5.0,4.0,5.0,4kW,"$3,000 to $6,000",Suntech,Zeversolar,,4.0,4.0,True,"['https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png', 'https://www.solarquotes.com.au/img/invertermanufacturers/I_zeversolar.png']",0,0
+55446,Phil,SA - 5092,SA,5092,True,2018-11-09,09 November 2018,4.0,,,4.0,4.0,4.0,4.0,5kW,"$3,000 to $6,000",,,,,,False,[],0,0
+50831,Anon,SA - 5091,SA,5091,True,2018-08-03,03 August 2018,4.0,,,4.0,4.0,4.0,4.0,5kW,"$3,000 to $6,000",,,,,,False,[],0,0

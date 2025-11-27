@@ -1,0 +1,137 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/evosol/",
+  "scraped_at": "2025-11-26T13:32:20.130633",
+  "company_info": {
+    "company_name": "Evosol",
+    "contact_address": "Landsdale, WA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "136957",
+      "reviewer_name": "William",
+      "reviewer_location": "WA - 6011",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6011",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Chiron did a very thorough job on researching and preparing for the install, which went very smoothly on the day. I added a 19.2kwh Sungrow battery and a Sungrow hybrid inverter plus an additional 10 panels. The tradies were friendly and professional and the job was clean and neat. Commissioning took about an hour mostly in getting the software firmware to update.It's been in place for about 21 months and working flawlessly.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "55547",
+      "reviewer_name": "Jay",
+      "reviewer_location": "WA - 6031",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6031",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We have obtained few quotes from different companies after reading into all the dodgy sales tactics plus install tactics in the Solar industry. Came through Evosol as a reference from a friend and asked them to come and give us a quote. Me and my wife both surprised by the knowledge of the person (Dan) who came and visited us. Was a qualified CEC design Engineer with no sales gimmicks, explained how it is and what it will do.Once we decided to go ahead with the system, they organised everything and kept us in the loop through the whole process and got the system on our roof roughly within 3 weeks. Everything was as advised and the installers were fantastic. Friendly and attention to detail and cleaned up everything.Wi fi set up so we can monitor the system plus emailed all the warranty documents within a day. No issues so far and they came back after a year from the install and gave us feedback on the savings. That's what prompted me to leave the review also.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "31589",
+      "reviewer_name": "Sam",
+      "reviewer_location": "WA - 6038",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6038",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-09-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This company gave me one of the best price in the market with quality german products.You can contact with them onEvosolsolar@gmail.com",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Tesla logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+    }
+  ]
+}

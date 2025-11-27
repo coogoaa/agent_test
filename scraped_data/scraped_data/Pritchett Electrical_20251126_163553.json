@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pritchett-electrical/",
+  "scraped_at": "2025-11-26T16:35:53.556336",
+  "company_info": {
+    "company_name": "Pritchett Electrical",
+    "contact_address": "Grovedale, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "2850",
+      "reviewer_name": "Richard",
+      "reviewer_location": "VIC - 3212",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3212",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "In within a week of ordering. Happy with the workmanship and materials. Generating between 8 and 22 KWh per day depending on weather. Still waiting on smart meter after 4 weeks.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "4124",
+      "reviewer_name": "Dan",
+      "reviewer_location": "VIC - 3216",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3216",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-12-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "we spent a bit more money using someone local, but he had it all hooked up within a week.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

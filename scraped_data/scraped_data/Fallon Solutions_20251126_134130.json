@@ -1,0 +1,72 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/fallon-solutions/",
+  "scraped_at": "2025-11-26T13:41:30.214519",
+  "company_info": {
+    "company_name": "Fallon Solutions",
+    "contact_address": "Mansfield, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12952_141ac24620ed10b1a2168896c81fe739.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12952_00e6ebb59249e7d346ac4b20f16f72fb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12952_7eb1ffe2f73709192f5b858566eae06d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12952_4c5a558fa23f3f040d257b50f4bbc8ae.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "77784",
+      "reviewer_name": "Caroline",
+      "reviewer_location": "QLD - 4170",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4170",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good friendly staff  on time  did mess up the garden but unavoidable",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Phono",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Phono logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

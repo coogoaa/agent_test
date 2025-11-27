@@ -1,0 +1,145 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/leeson-solar/",
+  "scraped_at": "2025-11-26T14:56:21.135890",
+  "company_info": {
+    "company_name": "Leeson Solar",
+    "contact_address": "Bundoora, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "119333",
+      "reviewer_name": "Wee Sern",
+      "reviewer_location": "VIC - 3752",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3752",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting process was great. Leeson Solar uses opensolar for quoting and design and analysis and it provides the information I needed to make a decision on the options and design to go for.The design process was quite good and the information provided by the OpenSolar web app allowed us to compare solutions and iterate through panel placements to optimise production of solar within the constraints of our roof. We had access to a design engineer at Leeson Solar as well and he performed a site visit prior to installation to update the design and confirm everything such as switchboard capacity, placement of inverter and panel placement on the roof.Customer service was great, they were able to work around our schedule and the operations team were responsive to follow up emails. They were able to organise everything and coordinate with everyone such as the independant inspector for the COE, the retailer/distributer for the FIT and Solar Vic.Installation went well, took over 1.5 days. The installers onsite were tidy, punctual and helpful. Great service!The installation included 16 x Trina Vertex S 415kW panels (6.64kW), a Fronius Primo Gen24+ 5kW solar inverter, a Fronius smart meter for measuring and monitoring production and grid consumption, access to SolarWeb for monitoring and reporting, access to the Fronius inverter customer login page and wifi  configuration.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "87020",
+      "reviewer_name": "Bruce",
+      "reviewer_location": "VIC - 3806",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3806",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+      ]
+    },
+    {
+      "review_id": "15129",
+      "reviewer_name": "Don",
+      "reviewer_location": "VIC - 3111",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3111",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-08-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Price was at least $1k cheaper than equivalent system from other suppliers.Company appeared to use high quality parts.Service was great.Would recommend to anyone wanting a quality system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "13885",
+      "reviewer_name": "Anon",
+      "reviewer_location": "VIC - 3095",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3095",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-06-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Check that your electricity supplier will allow larger solar system SP Ausnet only allow 5.75kw.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

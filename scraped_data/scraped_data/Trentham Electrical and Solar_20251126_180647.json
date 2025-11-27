@@ -1,0 +1,188 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/trentham-electrical-and-solar/",
+  "scraped_at": "2025-11-26T18:06:47.361085",
+  "company_info": {
+    "company_name": "Trentham Electrical and Solar",
+    "abn_number": "19674676067",
+    "acn_number": "674676067",
+    "contact_phone": "0438 162 615",
+    "website_url": "https://www.facebook.com/TrenthamElectrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_86bd96dbfbddee8a62fa56f51d575be2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_6b90ca2799f16756318f9cf0fcca7bb4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_3b7ec6f221edfa9e124850395896ea21.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_c529b4c27dfb1e21e2acc0e55bffa4a8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_71648a9f5d829d2f8172143c7f47e666.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_0705550b423cfc1fd301d2bfcec13c6f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_4d9b550ebf847738562b084713262ce0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_0705550b423cfc1fd301d2bfcec13c6f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_4d9b550ebf847738562b084713262ce0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_dc33ea5f7dedbfcd9195f9671ecb7dee.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_dccd04f0b63f619ba017fe578ce9ca3d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/326_d13cb5ffdd297fe17e78174ad2b20b7a.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": null
+    },
+    "abn_details": {
+      "abn_active_since": "02 Feb 2024Trentham Renewables Pty Ltd",
+      "abn_company_name": "Trentham Renewables Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "02 Feb 2024Trentham Renewables Pty Ltd",
+      "acn_company_name": "Trentham Renewables Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "138505",
+      "reviewer_name": "Stuart",
+      "reviewer_location": "VIC - 3444",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3444",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installers explained what panels and inverter was needed and reasons for the choice, Mick McDonald suggested a Fronius Primo GEN24 10kw inverter for our  system and quality Jinko Solar Neo Tiger panels26 offIt works excellent with a Fronius App that show all the information we need.Finn gave us 3 choices of installers, in which we went Trentham Electrical and Solar who locally based in Trentham Victoria. The service was great with consultations begore, during and after. We replaced an existing 3 kw system installed in October 2009",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$1,228,084",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "137043",
+      "reviewer_name": "Michael",
+      "reviewer_location": "VIC - 3458",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3458",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From start to finish the process has been great. Good communication and follow up and a well installed service.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    },
+    {
+      "review_id": "136916",
+      "reviewer_name": "Fiona",
+      "reviewer_location": "VIC - 3458",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3458",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We were so happy with the service from start to finish. From sales through to installation, everything was handled professionally and smoothly. Once the system was installed, the team took the time to walk us through everything in detail, which gave us great confidence in using it.They also managed all the compliance with Powercor and took care of the rebate paperwork, which certainly made the whole process much easier for us. We really appreciated their thoroughness and attention to detail.Highly recommended!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "TW Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "FranklinWH",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tw-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_franklinwh.png"
+      ]
+    },
+    {
+      "review_id": "125592",
+      "reviewer_name": "Shaunna",
+      "reviewer_location": "VIC - 3461",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3461",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with Trentham Electrical.Our LG battery was recalled & refunded, and we took the opportunity to slightly upgrade our system, plus correct an issue with the original installation. I was able to speak directly with the company principal, who was the person doing the actual installation. He understood exactly where I was coming from, and accurately reflected our conversation in a comprehensive email. The business teamwork was seamless, and installation was timely, smooth and thoughtful, incorporating our aesthetic preference too. The quote was competitive, and almost identical to the only other formal quote we received (2 other companies we contacted didn't bother to submit a quote at all).A month down the track our new battery is still performing beautifully, and we feel confident that IF an issue arose, Trentham Electrical would be very responsive.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Franklin (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

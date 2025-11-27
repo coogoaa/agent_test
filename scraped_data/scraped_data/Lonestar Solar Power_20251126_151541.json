@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lonestar-solar-power/",
+  "scraped_at": "2025-11-26T15:15:41.699823",
+  "company_info": {
+    "company_name": "Lonestar Solar Power",
+    "contact_address": "Cheltenham, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "83670",
+      "reviewer_name": "Gavin",
+      "reviewer_location": "QLD - 4819",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4819",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Used over past year or two by neighbours and others nearby (Townsville) - excellent reviews, sound advice, standard good quality gear, no bullshit or upsells. Seems to be working as expected with no hassles.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

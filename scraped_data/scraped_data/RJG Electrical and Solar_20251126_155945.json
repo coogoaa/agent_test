@@ -1,0 +1,170 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rjg-electrical-and-solar/",
+  "scraped_at": "2025-11-26T15:59:45.717681",
+  "company_info": {
+    "company_name": "RJG Electrical and Solar",
+    "abn_number": "16665055603",
+    "acn_number": "665055603",
+    "contact_phone": "0402 307 679",
+    "website_url": "https://rjgelectricalandsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14114_7d74882d4b5dfabc95973cb2ab69a2e4.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14114_823cea8571833089f5b7ef4bb4156e46.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14114_0db5558ecbe3838b107f624a8224f9cd.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1774d63c4f275a4e625d79e2991e77350.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/208ab832271e3a2fb4ddc42c2a31cb771.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ee8ad309392b3fa369efbb34351d87352.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a90edbe4524623671ada2a64d3ed1c03.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e4a9d9aceea3bc14a26baeb34582b2534.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "17 Jan 2023Rjg Electrical And Solar Pty Ltd",
+      "abn_company_name": "Rjg Electrical And Solar Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "17 Jan 2023Rjg Electrical And Solar Pty Ltd",
+      "acn_company_name": "Rjg Electrical And Solar Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "138699",
+      "reviewer_name": "Lachlan",
+      "reviewer_location": "VIC - 3984",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3984",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I would recommend RJG solar to anyone that is looking for a no nonsense, logical and straightforward Solar company.Adam at RJG was very approachable, knowledgeable and prompt with all enquiries throughout my quoting and installation process.The installation with Riley and his team went smoothly with minimal interruptions to power to the home and all cable runs were installed neatly and professionally within walls and out of sight.Post install setup and configuration has taken a bit of time to get to where we want it to be, however the follow up with Adam has been very good and they continue to work with us to optimize the system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Tesla (Other)",
+      "battery_brand": "Tesla Powerwall 3",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1774d63c4f275a4e625d79e2991e77350.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1774d63c4f275a4e625d79e2991e77350.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/208ab832271e3a2fb4ddc42c2a31cb771.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ee8ad309392b3fa369efbb34351d87352.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a90edbe4524623671ada2a64d3ed1c03.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e4a9d9aceea3bc14a26baeb34582b2534.jpg"
+      ]
+    },
+    {
+      "review_id": "135000",
+      "reviewer_name": "Philippe",
+      "reviewer_location": "VIC - 3805",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Rang around for quotes and overall RJG electric was the one we chose. They were efficient and helpful. The installation was completed promptly and the electrical checks completed and passed and the battery is now operational.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "133225",
+      "reviewer_name": "Steve",
+      "reviewer_location": "VIC - 3925",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3925",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything from quote to installation was very professional. The installation team were very polite and efficient. Riley was very knowledgeable and went above and beyond the scope of the job. I would highly recommend them to future clients.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 3 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    },
+    {
+      "brand_name": "Tesla logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+    }
+  ]
+}

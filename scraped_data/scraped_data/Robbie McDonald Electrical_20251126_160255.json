@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/robbie-mcdonald-electrical/",
+  "scraped_at": "2025-11-26T16:02:55.044793",
+  "company_info": {
+    "company_name": "Robbie McDonald Electrical",
+    "contact_address": "Buderim, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "86367",
+      "reviewer_name": "Tony",
+      "reviewer_location": "QLD - 4556",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Following Solar Quotes process of three suppliers contacting us to supply a quote, a friend recommended getting a quote from a separate installer, who we eventually went with who was punctual and tidy and we have yet to change the grid connection. We have assurances and warranties as recommended by Solar Quotes.Although we did not proceed with Solar Quotes, we were happy with all our dealings with them, including the punctuality of the three quotes commissioned through Solar Quotes as well as their attitudes.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

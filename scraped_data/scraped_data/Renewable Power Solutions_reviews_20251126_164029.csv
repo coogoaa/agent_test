@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+9749,Simon,SA - 5700,SA,5700,True,2011-08-08,08 August 2011,4.33,,,5.0,4.0,0,4.0,3kW,"$6,000 to $10,000",,,,False,[],0,0

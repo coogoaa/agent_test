@@ -1,0 +1,68 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/arvio/",
+  "scraped_at": "2025-11-26T12:32:56.427944",
+  "company_info": {
+    "company_name": "Arvio",
+    "contact_address": "Mitcham, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "104030",
+      "reviewer_name": "Will",
+      "reviewer_location": "VIC - 3401",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3401",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-09-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I have recently had my 4.25kW stand alone system upgraded to 10kW. Using 20, 500W  Trina panelsThe system was installed by Arvio using 15kWhr Arvio UCBs.The system has so far gone through the longest periods of overcast weather that I can recall since installing my first solar in the late 80s.The batterys charge up extremely rapidly and there has been no need for the backup diesel since installation.Arvio were extremely cooperative and their workmanship was excellent. They were prompt and worked happily for long hours to install the system which passed inspection without query.The system is AC coupled with Fronius and Selectronic Inverters. There is DC coupling included to eliminate issues with black starts.It may be too early to comment on the overall performance of the system, but it has performed without fault and with the warranties and the reputation of Arvio I expect my assessments of 'fantastic' to hold in the long run.I would strongly recommend Arvio to anyone wanting a first class job.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Selectronic SP Pro and Fronius Primo (Other)",
+      "battery_brand": "Arvio",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_arvio.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Arvio logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_arvio.png"
+    }
+  ]
+}

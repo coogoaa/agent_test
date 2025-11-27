@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/powercom/",
+  "scraped_at": "2025-11-26T16:20:39.558082",
+  "company_info": {
+    "company_name": "Powercom",
+    "contact_address": "Kingston, TAS",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "107485",
+      "reviewer_name": "Iainn",
+      "reviewer_location": "TAS - 7050",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7050",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote was verbal and immediate, the installation was excellent and some of the solar quoters you referred to me had commented on the quality installation of the solar panel system already. Powercom have a good reputation for quality work, but in fairness I wanted to give other companies the opportunity to quote. Powercom carry stock of the Tesla batteries, so were able to supply at short notice, whereas most of your referrals had to source the battery on receiving the order, which would immediately place them at a supply disadvantage. Aside from that, Powercom were more than a thousand dollars cheaper.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Tesla Powerwall 2 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pro-volt-electrical-and-solar/",
+  "scraped_at": "2025-11-26T16:37:29.011850",
+  "company_info": {
+    "company_name": "Pro Volt Electrical and Solar",
+    "abn_number": "99101389891",
+    "contact_phone": "0401 800 960",
+    "website_url": "http://www.pvelectrical.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "01 Dec 2012Pro Volt Electrical And Solar",
+      "abn_company_name": "Pro Volt Electrical And Solar"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "123971",
+      "reviewer_name": "Hazem",
+      "reviewer_location": "NSW - 2232",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2232",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently had the pleasure of working with ProVolt for my solar panel and battery installation, and I couldn’t be more satisfied with the entire process. From the very beginning, their team demonstrated an unparalleled level of professionalism, knowledge, and support.From our initial consultation, it was clear that ProVolt was committed to finding the best solution for my needs. They provided me with multiple options and were incredibly patient and accommodating as I made changes to the design several times. Their willingness to ensure I was completely satisfied with the final design speaks volumes about their dedication to customer satisfaction.Throughout the installation, they maintained excellent communication, keeping me informed at every step. Their team was always punctual, respectful, and left our property clean and tidy each day. The installation process was seamless, and the quality of their work was top-notch.What stood out the most was their depth of knowledge and their ability to manage a very complex and challenging installation in a way that seems so smooth and seamless. They provided me with all the information I needed to make informed decisions, and their support didn’t end once the installation was complete. They continued to offer guidance and assistance, ensuring that my system was operating optimally and further more I asked them to do few more upgrades and new connections as I couldn’t find or trust anyone else to do a better job.In every aspect of the process, ProVolt exceeded my expectations. Their professionalism, expertise, and commitment to excellence make them a standout choice for anyone considering solar energy. I wholeheartedly recommend ProVolt to anyone looking for a reliable and knowledgeable solar installer.Thank you, Shahir, Allana and the team, for making my installation and experience a very smooth and positive one!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

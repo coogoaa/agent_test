@@ -1,0 +1,122 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/electrical-pro/",
+  "scraped_at": "2025-11-26T13:11:30.602388",
+  "company_info": {
+    "company_name": "Electrical Pro",
+    "contact_address": "Murray Bridge, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 3.67,
+    "system_quality_rating": 3.67,
+    "installation_rating": 3.67,
+    "customer_service_rating": 3.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "66038",
+      "reviewer_name": "Jenny",
+      "reviewer_location": "SA - 5253",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5253",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "73509",
+      "reviewer_name": "Luke",
+      "reviewer_location": "SA - 5254",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5254",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Was friendly but provided no value. They turned up without confirming a date/time, spent most of the time trying to setup own equipment, didn't start with checking basics such as mains feed into the system, did not listen to customer state the operating parameters which he was trying to confirm and then replied with sarcasm about not running a charity when asked to discuss invoice. This was an inverter problem investigation and so may have been beyond their capability given they stated they typically \"just run cables\" so first time installation or simpler jobs may be more within their scope of expertise. Very disappointing.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "2kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "inverter_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "39407",
+      "reviewer_name": "Mike",
+      "reviewer_location": "SA - 5236",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5236",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-10-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

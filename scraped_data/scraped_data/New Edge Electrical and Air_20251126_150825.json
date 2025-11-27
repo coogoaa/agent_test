@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/new-edge-electrical-and-air/",
+  "scraped_at": "2025-11-26T15:08:25.351091",
+  "company_info": {
+    "company_name": "New Edge Electrical and Air",
+    "contact_phone": "02 4018 7566",
+    "website_url": "https://www.newedgeelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14450_6d283a0eb007683e94c72317741975ae.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14450_422ce9a4235f03e847807f883d601474.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14450_54739259d831c1c56d80b31f21297bfc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14450_2d40cef46e0685d4a21b9fb1b7d2c962.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

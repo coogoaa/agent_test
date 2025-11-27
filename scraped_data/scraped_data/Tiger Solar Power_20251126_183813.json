@@ -1,0 +1,86 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tiger-solar-power/",
+  "scraped_at": "2025-11-26T18:38:13.024843",
+  "company_info": {
+    "company_name": "Tiger Solar Power",
+    "contact_phone": "08 7100 9663",
+    "website_url": "https://tigersolarpower.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14431_e7e17643bd5e750c8b94d5ffe6c542c9.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14431_c1889ad57929ea9a1ac3ba10085e6881.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14431_cadb3d79f933e7951387b190b02b70eb.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14431_18b13775480f024746618784bec605c3.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "140429",
+      "reviewer_name": "Gary",
+      "reviewer_location": "SA - 5014",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5014",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "As stated above went above and beyond to ensure a seamless priceless",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Alpha Technologies",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Alpha Technologies logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png"
+    },
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

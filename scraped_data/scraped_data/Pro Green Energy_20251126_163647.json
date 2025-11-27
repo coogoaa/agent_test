@@ -1,0 +1,89 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pro-green-energy/",
+  "scraped_at": "2025-11-26T16:36:47.397652",
+  "company_info": {
+    "company_name": "Pro Green Energy",
+    "contact_address": "Liverpool, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 1.9,
+    "value_for_money_rating": 2.5,
+    "system_quality_rating": 2.5,
+    "installation_rating": 1.5,
+    "customer_service_rating": 1.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "118739",
+      "reviewer_name": "Brendan",
+      "reviewer_location": "NSW - 2324",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2324",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "A company filled with broken promises. Solar did not work as required from day one.Instant warranty issues that they would not acknowledge or respond to with plenty of broken promises that they would return our call on a date to fix the issues. Still can’t get in contact. Solar still not working.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "110982",
+      "reviewer_name": "Reinhard",
+      "reviewer_location": "NSW - 2549",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2549",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-05-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The salesperson was very nice and answered all my questions, and the installation was tidy.A day after they left, I found that the account of the inverter of an older installation showed the production of the new installation as consumption. I rang the Installer, and he told me that that was not their problem and that I should contact the Installer of the old Installation. My account from my electricity supplier showed me that all the power I produced with the new Installation went straight to the grid instead of using it and exporting the surplus. The response was \"that is impossible\".It took 2 weeks of phone calls and emails until the Installer admitted that there was something wrong. He then promised to do something about it, but nothing happened until today.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/captain-green-wa/",
+  "scraped_at": "2025-11-26T11:56:13.565288",
+  "company_info": {
+    "company_name": "Captain Green WA",
+    "contact_address": "Perth, WA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.2,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.25,
+    "customer_service_rating": 4.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "135680",
+      "reviewer_name": "Tony",
+      "reviewer_location": "WA - 6061",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6061",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Easy to deal with, great price, punctual clean tidy istall",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "JinkoSolar",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_jinkosolar.png"
+      ]
+    },
+    {
+      "review_id": "134084",
+      "reviewer_name": "Tony",
+      "reviewer_location": "WA - 6163",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6163",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Absolutely fantastic company to deal with. They were professional from start to finish. The pricing was VERY competitive.Everything about the experience—from customer support to delivery—was handled smoothly and efficiently. Highly recommend them for anyone.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "131712",
+      "reviewer_name": "Gary",
+      "reviewer_location": "WA - 6084",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6084",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Average  until problem with alarm, and then useless, we have to contact consumer affairs",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.75,
+      "quality_of_system_rating": 1.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "127478",
+      "reviewer_name": "John",
+      "reviewer_location": "WA - 6210",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6210",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had follow up call which was appreciated. Zack was prompt and helpful in explaining things to me and responding",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "I don't know",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JinkoSolar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_jinkosolar.png"
+    }
+  ]
+}

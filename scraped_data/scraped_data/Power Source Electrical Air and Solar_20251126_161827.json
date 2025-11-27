@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/power-source-electrical-air-and-solar/",
+  "scraped_at": "2025-11-26T16:18:27.473991",
+  "company_info": {
+    "company_name": "Power Source Electrical Air and Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14141_475833b8e8c4ec878044a4abfc8d0de0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14141_771ecd8a80abed98181a7d06b2602021.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14141_b784889cc7315d0eda43d47a5c4381e3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14141_98be49854de329a85cf31241bde05c06.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

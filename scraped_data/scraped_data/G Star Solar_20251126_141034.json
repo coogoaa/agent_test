@@ -1,0 +1,157 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/g-star-solar/",
+  "scraped_at": "2025-11-26T14:10:34.347490",
+  "company_info": {
+    "company_name": "G Star Solar",
+    "contact_address": "Canberra, ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.5,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "117683",
+      "reviewer_name": "Gordon",
+      "reviewer_location": "ACT - 2911",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2911",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-12-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "They quoted on the specification that I provided. Quotation was upgraded and I obtained better value than the other quotes. The installation was done in 1 day by 4 people, Cleanup was excellent and final config and connection of the Alpha Ess battery and the Fronius inverter to the internet completed the following morning. Obtained feed in tariff of 18 cents on a 12-month contract. obtaining over 8Kw at peak time of day. I am a happy camper.Gordon Canberra.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 3.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "101633",
+      "reviewer_name": "Sean",
+      "reviewer_location": "VIC - 3145",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3145",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Adam and the G-Store team have been fast, efficient and extremely helpful in ensuring we got a system that met our needs.Quotes were quick and the installation teams were on time and the work site extremely clean at the end of their job.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "70112",
+      "reviewer_name": "John",
+      "reviewer_location": "NSW - 2580",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2580",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-07-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales quote process was smooth and efficientInstallation team were easy to talk too, cleaned up after themselves and turned up when they said they would.  They also arranged grid connection after install",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "70724",
+      "reviewer_name": "Udo",
+      "reviewer_location": "NSW - 2621",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2621",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quality of system, Installation, Customer Service, Polite, Tidy, Punctual, they just do a good job the others were wishy washy",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

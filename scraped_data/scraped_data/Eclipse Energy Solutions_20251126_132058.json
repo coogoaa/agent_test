@@ -1,0 +1,60 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/eclipse-energy-solutions/",
+  "scraped_at": "2025-11-26T13:20:58.445679",
+  "company_info": {
+    "company_name": "Eclipse Energy Solutions",
+    "contact_phone": "0417 786 225",
+    "website_url": "https://www.eclipseenergysolutions.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14242_e9855c7eb08d3b567b40384bb3b7dca1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14242_92d1b93342698c36cfcb4de65c4f509f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14242_6b9198817816e258649546b4efb6bd1a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14242_19c17a0953b15d233b6035055e0b812c.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "130159",
+      "reviewer_name": "Bec",
+      "reviewer_location": "WA - 6018",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6018",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-01-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Can not recommend @eclipseenergywa high enough - prompt, professional service and took the time to educate us on how to best make use of our solar power.  10/10 recommend ??If you are looking to save some $$ and help the environment at the same time, now is the time to make the switch!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

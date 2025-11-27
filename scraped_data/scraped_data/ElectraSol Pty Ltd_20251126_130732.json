@@ -1,0 +1,64 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/electrasol-pty-ltd/",
+  "scraped_at": "2025-11-26T13:07:32.493434",
+  "company_info": {
+    "company_name": "ElectraSol Pty Ltd",
+    "contact_phone": "08 8165 0267",
+    "website_url": "https://www.electrasolsa.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13759_96a3be3cf272e017046d1b2674a52bd3.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13759_a2ef406e2c2351e0b9e80029c909242d.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13759_e45ee7ce7e88149af8dd32b27f9512ce.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13759_7d0665438e81d8eceb98c1e31fca80c1.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13759_751d31dd6b56b26b29dac2c0e1839e34.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13759_faeac4e1eef307c2ab7b0a3821e6c667.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13759_d72d187df41e10ea7d9fcdc7f5909205.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13759_fad6f4e614a212e80c67249a666d2b09.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "36023",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5070",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5070",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-06-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

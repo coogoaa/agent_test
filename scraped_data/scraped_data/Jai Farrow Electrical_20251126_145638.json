@@ -1,0 +1,113 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/jai-farrow-electrical/",
+  "scraped_at": "2025-11-26T14:56:38.192976",
+  "company_info": {
+    "company_name": "Jai Farrow Electrical",
+    "contact_phone": "0458 196 695",
+    "website_url": "https://www.facebook.com/jaifarrowelectrical/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14126_6ffd9fe3821a1dd485d90c0fa547a0d9.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14126_1d1bc285605226d76f0920baf6e1d98c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14126_338da319f9e5e7f1c08ea2176445b903.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14126_591fbbd8fce210f37274272bd75a3b42.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14126_8ce276dc020d4c3d245d382555691bda.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3b4ec67c3019bbe5000e155378d8a7a40.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a72b357596989ab27e61cce11e48a7091.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a11fe652fb20b39bc8f86abc0a65802d0.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dd4c374c971caa28978648d84be6acec1.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "126470",
+      "reviewer_name": "Greg",
+      "reviewer_location": "SA - 5605",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5605",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently had the pleasure of working with Jai Farrow Electrical for the installation of a solar system on my home, and I couldn't be more satisfied. From the very beginning, the quoting process was incredibly straightforward. Jai provided clear, detailed information and answered all my questions, making it easy to understand my options.The installation itself was seamless. Jai arrived on time, worked efficiently, and maintained a tidy workspace throughout the process. It was evident that Jai takes huge pride in his work.What truly stood out was the exceptional customer service. After installation, Jai took the time to walk us through how to use the system and the accompanying app, ensuring we felt comfortable and confident in managing our new solar setup.I highly recommend Jai Farrow Electrical for anyone considering solar energy. His professionalism, expertise, and commitment to customer satisfaction is truly commendable.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3b4ec67c3019bbe5000e155378d8a7a40.jpeg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a72b357596989ab27e61cce11e48a7091.jpeg"
+      ]
+    },
+    {
+      "review_id": "126445",
+      "reviewer_name": "Patrice",
+      "reviewer_location": "SA - 5680",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5680",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We were very happy with the quote and customer service provided by Jai Farrow Electrical.The job was done very professionally and to a very high standard.All site areas were left very clean with no mess at all.The after sales service follow-up has been invaluable.We recommend this company for anyone looking at installing solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a11fe652fb20b39bc8f86abc0a65802d0.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a11fe652fb20b39bc8f86abc0a65802d0.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dd4c374c971caa28978648d84be6acec1.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dd4c374c971caa28978648d84be6acec1.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

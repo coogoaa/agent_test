@@ -1,0 +1,147 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/go-solar/",
+  "scraped_at": "2025-11-26T13:50:15.854234",
+  "company_info": {
+    "company_name": "Go Solar",
+    "contact_address": "ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.5,
+    "customer_service_rating": 3.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "117874",
+      "reviewer_name": "Graham",
+      "reviewer_location": "NSW - 2315",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2315",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-12-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "98401",
+      "reviewer_name": "Geoff",
+      "reviewer_location": "NSW - 2287",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2287",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-03-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had an Enphase Solar System installed by Go Solar Newcastle. I was impressed with the presentation of their system and even though it was a lot more costly than other offers I went with that system. I was happy with their installation WITH EXCEPTION of their internet connection which was part of their package.  Go Solar Controlled the system, it continually failed, it cost me extra to have it upgraded, and eventually they ignored my requests to get it operational. The eventual solution was for me to have a dedicated internet connection installed that I controlled.THEN CAME the best, the Enphase system totally died, as it was only a couple of years old so it was under Warranty.Phone calls, txt messages emails to Go Solar was met with a couple of txts with the last stating that he would send someone to attend to it. After a month waiting for that to occur I commenced to find another Enphase installer and found H C B Solar at Cardiff, even though they were NOT the original installer they were only too happy to help.Within a few days they had a Technician inspect the system, confirm it had totally failed, arranged a replacement Enphase system under Warranty and instal the new unit. If you want Service & Warranty you now know where not to go.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3.3kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "I don't know",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+      ]
+    },
+    {
+      "review_id": "86535",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "NSW - 2323",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2323",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Only one of the four companies that quoted followed up with a phone call to ask if I had any questions or needed further information",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "40090",
+      "reviewer_name": "Si",
+      "reviewer_location": "SA - 5047",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5047",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-11-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Initially the installation was not that successful such as inappropriate panels location, faulty electric connection. We contacted the sales person Jack Yang who was quick responsive and responsible for customer care. After a series of panel relocation and electric re connection our system was finally as good as our neighbour's.Their service & equipment is really value for money. Highly recommend for low budget family.Thanks for all the efforts from Jack & electricians.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

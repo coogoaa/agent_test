@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+34644,Marion,NT - 870,NT,870,False,2017-04-01,01 April 2017,4.67,,I would certainly recommend Photon Solar,5.0,4.0,0,5.0,3kW,"$3,000 to $6,000",,,,False,[],0,0

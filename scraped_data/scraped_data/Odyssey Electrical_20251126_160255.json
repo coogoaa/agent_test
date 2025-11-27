@@ -1,0 +1,60 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/odyssey-electrical/",
+  "scraped_at": "2025-11-26T16:02:55.656802",
+  "company_info": {
+    "company_name": "Odyssey Electrical",
+    "contact_address": "Perth, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.0,
+    "value_for_money_rating": 1.0,
+    "system_quality_rating": 1.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "77958",
+      "reviewer_name": "Charlie",
+      "reviewer_location": "WA - 6167",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6167",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Clenergy",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_clenergy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Clenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_clenergy.png"
+    }
+  ]
+}

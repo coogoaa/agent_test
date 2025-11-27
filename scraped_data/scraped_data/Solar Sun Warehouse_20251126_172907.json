@@ -1,0 +1,59 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-sun-warehouse/",
+  "scraped_at": "2025-11-26T17:29:07.129688",
+  "company_info": {
+    "company_name": "Solar Sun Warehouse",
+    "contact_address": "Morphettvale, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "4874",
+      "reviewer_name": "Julie",
+      "reviewer_location": "NSW - 2305",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2305",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-10-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Solar Frontier",
+      "inverter_brand": "Xantrex / Enerdrive Pty Ltd",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_solar-frontier.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Solar Frontier logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_solar-frontier.png"
+    }
+  ]
+}

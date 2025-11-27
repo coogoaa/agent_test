@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/booth-solar-services/",
+  "scraped_at": "2025-11-26T12:12:33.005832",
+  "company_info": {
+    "company_name": "Booth Solar Services",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14313_6f182a9ce65b4cf5564e277bf770e0f0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14313_7a4c1299cae9e7f9e2a0b7c78fc07d82.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14313_eeddacbbb7c8d3beed252a7069e14bbc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14313_bb35bdadf5e243b7ff6f7733801a9f06.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

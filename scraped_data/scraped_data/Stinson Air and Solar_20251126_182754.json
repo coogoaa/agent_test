@@ -1,0 +1,125 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/stinson-air-and-solar/",
+  "scraped_at": "2025-11-26T18:27:54.899300",
+  "company_info": {
+    "company_name": "Stinson Air and Solar",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "85903",
+      "reviewer_name": "Tom",
+      "reviewer_location": "WA - 6020",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6020",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Lyall was an excellent sales person, recommending the cheaper Huawei inverter over the more expensive Fronius. This is unlike most sales people as they tend to try and sell you the more expensive items. Lyall was also more than happy to provide a number of different quotes and amend them to suit our needs and therefore allowing us to compare like for like products with other companies.The installation went smoothly. Installers were on time, left no mess behind and were very friendly.Gabriel was extremely helpful post installation and was more than happy to chat with me on the phone for more than 20 min on two separate occasions, answering all and any questions I had.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "73521",
+      "reviewer_name": "Nena",
+      "reviewer_location": "WA - 6019",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6019",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I work for a large home builder and have dealt with Stinson Air on a regular basis over the past 10 years. They also installed the air conditioning systems at two of my homes and have been an absolute pleasure to deal with.Fast, efficient and nothing is ever too hard. Exceptional customer service and all the staff I have dealt with have been so happy and helpful.I have referred many family and friends to them and would highly recommend Stinson Air and acknowledge them as the best in the industry for all your Air Conditioning Needs!10/10",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "53271",
+      "reviewer_name": "Ian",
+      "reviewer_location": "WA - 6280",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6280",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Looked after from start to finish.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/a1-solar-and-electricals/",
+  "scraped_at": "2025-11-26T12:05:21.831429",
+  "company_info": {
+    "company_name": "A1 Solar and Electricals",
+    "contact_phone": "0405 143 101",
+    "website_url": "https://a1solarandelectricals.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14491_7b2f4eed91d1c5efb7721e7a7d05ef46.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14491_b0d555967a3e5312065294b61eef8e39.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14491_fe74a0d4934c927e0ea48bb429949de3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14491_cf01ebc4f6782fbfdaffef7ea36b6573.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "140462",
+      "reviewer_name": "Geoff",
+      "reviewer_location": "VIC - 3195",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3195",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great service, they arrived on time and did a fantastic job, very tidy and cleaned up everything when finished. Varinder and his partner were very friendly and explained everything before leaving. Would highly recommend.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "140262",
+      "reviewer_name": "Dona",
+      "reviewer_location": "VIC - 3337",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3337",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great adviser for solar and battery installation - explained in great way  the system and it's use.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "more than 30kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Hiconics (Other)",
+      "battery_brand": "Hiconics (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

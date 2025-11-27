@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/logic-solar/",
+  "scraped_at": "2025-11-26T15:14:27.299481",
+  "company_info": {
+    "company_name": "Logic Solar",
+    "contact_phone": "1300 068 468",
+    "website_url": "https://www.logicsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14400_5e39378bb93a95fc8584353f009b53a3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14400_db482629c739a26e13ab07ee274d703f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14400_2c1cb81a084a1cd67ddb17b624f38ab8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14400_e4a986efa09e61253736cdf6159b6d1e.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

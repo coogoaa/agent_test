@@ -1,0 +1,60 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/northern-spark-solar-contractors/",
+  "scraped_at": "2025-11-26T15:29:54.704194",
+  "company_info": {
+    "company_name": "Northern Spark Solar Contractors",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "90484",
+      "reviewer_name": "Michael",
+      "reviewer_location": "WA - 6020",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6020",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-06-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote was in line with the other solar providers with known and commonly used products.The installation was completed in one day with quality attachments as we live 500m from the ocean.Customer service was excellent with all the help needed to organise grid connection after install.Northern Spark is a small company who also completed our neighbours instillation plus others in our street, I would highly recommend them as would our neighbour.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

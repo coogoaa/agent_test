@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/eco-wise-energy/",
+  "scraped_at": "2025-11-26T12:47:30.720827",
+  "company_info": {
+    "company_name": "Eco Wise Energy",
+    "contact_address": "Bibra Lake, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "90092",
+      "reviewer_name": "Brem",
+      "reviewer_location": "WA - 6359",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6359",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting was all rushed but seemed OK. Great installers - did a neat job and kept me informed. The installation was finished after sunset so the installers chose to come back next day to check that it started OK and only then got my signature. Grid connection was organised by the solar installation company. Currently performing well.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "SolaX Power",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Seraphim logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+    },
+    {
+      "brand_name": "SolaX Power logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+    }
+  ]
+}

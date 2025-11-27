@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-caboolture/",
+  "scraped_at": "2025-11-26T17:30:35.558672",
+  "company_info": {
+    "company_name": "Solahart Caboolture",
+    "contact_address": "Caboolture, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "55467",
+      "reviewer_name": "Martin",
+      "reviewer_location": "QLD - 4506",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4506",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I requested 3 quotes through your company. One visited and gave a verbal quote but didn't follow through with a written quote. One gave me a price over the phone then added an extra $660 for Electrical work on the meter. The third quote didn't even follow through.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

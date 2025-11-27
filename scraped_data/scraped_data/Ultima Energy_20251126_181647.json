@@ -1,0 +1,34 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ultima-energy/",
+  "scraped_at": "2025-11-26T18:16:47.212046",
+  "company_info": {
+    "company_name": "Ultima Energy",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14157_943359f44dc87f6a1679c987280e8dc7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14157_3bfa569280f763df385e8ba9b5502dd4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14157_5f01b70e5fc11f9aa2abf83d466cb482.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14157_e57100611e2a77724323e2ddaa10062b.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,90 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-pro-electrical/",
+  "scraped_at": "2025-11-26T13:48:34.512928",
+  "company_info": {
+    "company_name": "Green-Pro Electrical",
+    "contact_address": "Dandenong South, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/47a7165969028d49898ac6b8229a11e80.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9edfb174085e41629ea0a569348e81a91.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28f9b4f053315194852e08866dd832352.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/47a7165969028d49898ac6b8229a11e80.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9edfb174085e41629ea0a569348e81a91.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28f9b4f053315194852e08866dd832352.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "128008",
+      "reviewer_name": "Mathew",
+      "reviewer_location": "VIC - 3156",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3156",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The team at Green-Pro were professional and helpful when we were selecting an installer to install a replacement solar system. We had a 1.5kW solar system but now that Premium FIT has ended we were afraid of high bills and needed something more suitable.  The team at Green-Pro recommended we install a larger system for not too much more which would have a better payback time than the smaller system I was looking for but it would make a much bigger difference in the future as we electrify our heating, hot water and cooking away from natural gas.The installation went smoothly fully completed in less than one day with no major issues apart from just one broken tile which we were pre-warned might happen and we had a few spares on hand.  The system so far has been performing quite well hitting Ausnet's export limit of 5kW quite often in the sunny weather we're recently having. As we installed a slightly larger system it's going to be effectively free to use the air-conditioner in summer but it's not too hot to need it just yet.  I would highly recommend the team at Green-Pro Electrical and Solar for your solar installation.The installation team were very surprised our existing solar system lasted so long (15 years) and were quite interested in our Energy Monitor that they've never seen before which they worked around whilst installing a new RCBO in the switchboard. The team also explained that monitoring the system on the web or through an app would help detect any issues if any occur.Financially the savings we are getting in spring, a low usage season, are easily covering the monthly Solar Victoria loan repayments ($29.17 per month) and those savings will increase further in summer and winter as our usage increases.We received a 5 year warranty on the full system with some coverage extending up to 10 years on the inverter and 25 years on the panels.  I'm quite confident the system will last quite a long time as they only offer Tier 1 panels and reliable inverters.  They explained they did not want to use cheap low-quality parts to avoid having to revisit again.  The inverter manufacturer has an office in Rowville, Victoria which being in Australia should make it easier to make a claim If needed.To finalise. We're happy with the system so far and highly recommend Green-Pro.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/47a7165969028d49898ac6b8229a11e80.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/47a7165969028d49898ac6b8229a11e80.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9edfb174085e41629ea0a569348e81a91.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9edfb174085e41629ea0a569348e81a91.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28f9b4f053315194852e08866dd832352.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28f9b4f053315194852e08866dd832352.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Risen logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

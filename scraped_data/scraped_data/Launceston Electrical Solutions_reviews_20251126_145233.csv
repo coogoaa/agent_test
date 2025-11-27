@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+66640,Anon,TAS - 7190,TAS,7190,True,2019-07-27,27 July 2019,4.33,,,3.0,5.0,0,5.0,20kW,"more than $20,000",,,,False,[],0,0

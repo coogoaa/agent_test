@@ -1,0 +1,47 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ultravolt-electrical-services-pty-ltd/",
+  "scraped_at": "2025-11-26T18:20:53.291531",
+  "company_info": {
+    "company_name": "Ultravolt Electrical Services Pty Ltd",
+    "abn_number": "17642873390",
+    "acn_number": "642873390",
+    "contact_phone": "1800 887 297",
+    "website_url": "https://ultravolt.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/356_d70535403c8d04f418242f4561818aad.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/356_363888cd06cb2234a9788fdfcccbf790.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/356_7515222539be71917c13b9856a46648f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/356_04372ae6632e63de766186bb4b9b8850.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/356_3c82ac3945f99513cf07e058fb143cd6.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "22 Jul 2020Ultravolt Electrical Services Pty Ltd",
+      "abn_company_name": "Ultravolt Electrical Services Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "22 Jul 2020Ultravolt Electrical Services Pty Ltd",
+      "acn_company_name": "Ultravolt Electrical Services Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

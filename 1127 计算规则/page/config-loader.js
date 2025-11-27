@@ -36,6 +36,10 @@ const DEFAULT_CONFIG = {
         targetRatio: 180,  // 目标容配比 180%
         maxRatio: 200      // 最大容配比 200%
     },
+    expansion: {
+        roofCapacityFactor: 0.7,  // 储能扩容屋顶容量系数
+        replaceInverter: true      // 储能扩容是否更换逆变器
+    },
     consumption: {
         TAS: 10148,
         NT: 10008,

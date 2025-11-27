@@ -1,0 +1,202 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lynergy/",
+  "scraped_at": "2025-11-26T15:26:11.615566",
+  "company_info": {
+    "company_name": "Lynergy",
+    "contact_phone": "0400 482 058",
+    "website_url": "http://www.lynergy.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12240_bb8f9d4469e641067da8eebdd9e7c803.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12240_ef61bfab79768f76e3649c5c88298acf.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12240_6757a5807a805b64024e2f65068354bb.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12240_ba9f077acc249419449e120c25c865c3.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12240_fe7fe72cf7b40383f19d9080ba11b1a1.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12240_87d48658ee2995da4acb940818b95086.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12240_74f2048d5f33c978fad44f94e63d9c8e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12240_a8c4aaec3299edb3835be39adfe9a256.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/50d2b3e769df8d4ff51f18e430caec0a0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.6,
+    "system_quality_rating": 4.6,
+    "installation_rating": 4.6,
+    "customer_service_rating": 4.8,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "106333",
+      "reviewer_name": "Suzanne",
+      "reviewer_location": "NSW - 2627",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2627",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-12-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Lynergy in Cooma provided me with a quality system that will stand the test of time. Installation was well coordinated and very tidy and I’m ready to be switched on.  I was guided through the online app to access the system performance and am looking forward to using my solar energy. Josh and his staff did a great job and were a pleasure to deal with and I would highly recommend them for our unique environment here in the snowy mountains. Local knowledge is gold.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "105123",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "NSW - 2630",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2630",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-11-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Josh and his team did a great install, great price and overall service. Very happy with it all.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3.3kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "93085",
+      "reviewer_name": "Rob",
+      "reviewer_location": "NSW - 2630",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2630",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-09-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quoting process was completed quickly. Install date was nominated in reasonable time despite a slight delay in panel availability. The installation was performed in one day with no issues.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "91911",
+      "reviewer_name": "Jeannette",
+      "reviewer_location": "NSW - 2630",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2630",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Josh was great the whole way through from quoting to installation. Very efficient.  The array of panels looks neat. The system was tested and works great.  We are waiting for the power company to fit new meters before we can use it.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/50d2b3e769df8d4ff51f18e430caec0a0.jpg"
+      ]
+    },
+    {
+      "review_id": "76083",
+      "reviewer_name": "Cornelis",
+      "reviewer_location": "NSW - 2630",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2630",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-12-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We were looked after from start to finishWe did not have to do anything",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Phono",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Risen logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

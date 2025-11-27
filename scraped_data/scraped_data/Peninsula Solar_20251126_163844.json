@@ -1,0 +1,114 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/peninsula-solar/",
+  "scraped_at": "2025-11-26T16:38:44.737924",
+  "company_info": {
+    "company_name": "Peninsula Solar",
+    "contact_phone": "0403 653 192",
+    "website_url": "https://www.peninsulasolar.net.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12104_efa53769afe8c734cf1694aaaaa0dc82.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12104_d46d841931389f9aa24dfd9d1d106edb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12104_109068827f93217109939524391951bd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12104_936187dc47e9c5e00134c35c41f64f29.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3936ea3575f62e85a386991a11851db00.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "87164",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3936",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3936",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Apart from Govt Lockdowns the installation and purchasing process went well",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3936ea3575f62e85a386991a11851db00.JPG"
+      ]
+    },
+    {
+      "review_id": "86411",
+      "reviewer_name": "Spencer",
+      "reviewer_location": "VIC - 3199",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3199",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great experience from the very first inquiry.  Have had two installs from this company and to date it's been a very smooth process and the level of service and the interactions with all staff has been A+.Highly recommend",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

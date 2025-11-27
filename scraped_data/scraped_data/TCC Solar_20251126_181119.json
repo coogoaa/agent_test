@@ -1,0 +1,66 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tcc-solar/",
+  "scraped_at": "2025-11-26T18:11:19.002110",
+  "company_info": {
+    "company_name": "TCC Solar",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "67725",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "NSW - 2174",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2174",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Paul, Andrew and Julie were fantastic. Advice, Install, customer service and after sales service were very good, accurate, completed on time and very neat and tidy. Nice in dealing with them and overall we are very satisfied.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LG logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

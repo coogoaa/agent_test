@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/k-and-c-stork-solar-power/",
+  "scraped_at": "2025-11-26T15:18:24.234343",
+  "company_info": {
+    "company_name": "K and C Stork Solar Power",
+    "contact_address": "Maryborough, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 3.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "11614",
+      "reviewer_name": "Kevin",
+      "reviewer_location": "VIC - 3058",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3058",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thank you for all the information. I found some of it very helpful I would rate your help 5 out of 5.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Carbon Management Solutions",
+      "inverter_brand": "Carbon Management Solutions",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_carbon-management-solutions.png"
+      ]
+    },
+    {
+      "review_id": "7610",
+      "reviewer_name": "Julie",
+      "reviewer_location": "VIC - 3465",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3465",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-05-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We only got one quote back from Solarquotes.  I looked into the area where I reside and found a qualified person that does them.  Thanks",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 3.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Carbon Management Solutions logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_carbon-management-solutions.png"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/shaw-electrix/",
+  "scraped_at": "2025-11-26T16:44:59.164930",
+  "company_info": {
+    "company_name": "Shaw Electrix",
+    "abn_number": "68166941519",
+    "acn_number": "166941519",
+    "electrical_contractor_license": "ACT: 201451, NSW: 266210C",
+    "contact_phone": "0400 555 206",
+    "website_url": "https://shawelectrix.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14417_e3840d35f52efaa46174904c5a96d653.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14417_c92e950745b4cbc3b281a21a7dafe7ac.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14417_cc3e10c6e9c41d39493a0b709b65f9aa.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14417_8589375c4b1be492d5a9500faeb6134b.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14417_e364cbe7b3d94bec3e3a78c4a6dbab95.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "26 Nov 2013Shaw Electrix Pty Ltd",
+      "abn_company_name": "Shaw Electrix Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "26 Nov 2013Shaw Electrix Pty Ltd",
+      "acn_company_name": "Shaw Electrix Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

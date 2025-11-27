@@ -1,0 +1,70 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/treu-solar/",
+  "scraped_at": "2025-11-26T18:07:43.616819",
+  "company_info": {
+    "company_name": "Treu Solar",
+    "contact_address": "Gordonvale, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/387c470b62be6bd8310b30b5daa5f9956.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0141d321cb1381ee5b29bedbdff6ef067.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/91672b402db5dd56ff8ed16e3f60ce8f8.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/387c470b62be6bd8310b30b5daa5f9956.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0141d321cb1381ee5b29bedbdff6ef067.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/91672b402db5dd56ff8ed16e3f60ce8f8.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "112957",
+      "reviewer_name": "Richard",
+      "reviewer_location": "QLD - 4860",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4860",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "the sales/quoting process was excellent. Your website and service is a wonderful resource. a big help getting me through the confusing offers and claims made by some installers",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

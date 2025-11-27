@@ -1,0 +1,184 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/same-day-electrical-launceston/",
+  "scraped_at": "2025-11-26T16:20:57.977266",
+  "company_info": {
+    "company_name": "Same Day Electrical Launceston",
+    "contact_address": "Norwood, TAS",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.6,
+    "system_quality_rating": 4.6,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "102759",
+      "reviewer_name": "Haydyn",
+      "reviewer_location": "TAS - 7248",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7248",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-08-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good Ben was great to work with. Timely.. efficient and did an excellent job explaining and installing",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "86009",
+      "reviewer_name": "Peter",
+      "reviewer_location": "TAS - 7304",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7304",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Same Day Electrical (Ben Williams) is very easy to deal with and listens to what the customer is after. The company also tries to only use the well known brand best systems (inverter and panels) to ensure that it reliable for the customer.He also promptly responded to queries and keep us informed in relation to the scheduling of the installation. He was also spot on in relation to time take for the installation. The work as also very neat and tidy.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "69017",
+      "reviewer_name": "Roger",
+      "reviewer_location": "TAS - 7275",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7275",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Rep was company owner and installer, came to the house to advise and quote. Fitted Suntech panels, Fronius Promo inverter 6kw system. Very pleased with the way everyyhing has been done. I reccomend this company and installer.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "73741",
+      "reviewer_name": "Derek",
+      "reviewer_location": "TAS - 7249",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7249",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent on all accounts and follow up information was great.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "71555",
+      "reviewer_name": "Phyllis",
+      "reviewer_location": "TAS - 7250",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7250",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Service great - speeding install, price good - all good thanks",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Fronius",
+      "battery_brand": "no (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

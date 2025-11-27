@@ -1,0 +1,120 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-energy-and-battery-storage-solutions-sebss/",
+  "scraped_at": "2025-11-26T17:18:37.291956",
+  "company_info": {
+    "company_name": "Solar Energy and Battery Storage Solutions SEBSS",
+    "contact_phone": "0414 636 099",
+    "website_url": "https://www.sebss.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "87571",
+      "reviewer_name": "Greg",
+      "reviewer_location": "QLD - 4390",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4390",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "very happy with all the pre-purchase communications, follow up and then organising installation. Impressed with the installers who were very professional, clean and tidy. Waiting now for Origin to come and replace the meter.Grateful to you for your guidance. Once that is done I will find out about grid connection. Expecting to have a visit from Kame at SEBSS later this week or next week.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "87518",
+      "reviewer_name": "MIKE",
+      "reviewer_location": "QLD - 4401",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4401",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All very tidy and the advice was of a high level",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "84552",
+      "reviewer_name": "Bernie",
+      "reviewer_location": "QLD - 4390",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4390",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-12-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Easy contact from Paul and his team around the product and best set up for our house and usage. Once agreed and paid the installer turned up on one of the hottest days so far this year and got straight into it. Polite and industrious. Just a brilliant clean install with great communication. Left the place spotless and very gracious with their  hints around best use of the system. The follow up service saw the SEBSS team arrive a few days after the install to check everything was installed as needed and working correctly and we were aware of all of the intricacies around the best items to be using in the house when the solar system was at it's most productive.My biggest concern was due to the remoteness of our home, we may not receive the service we would have received if we were in the CBD, we could not have been more wrong. I would recommend the team at SEBSS to anyone.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Seraphim logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

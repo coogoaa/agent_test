@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+23942,Shane,NSW - 2360,NSW,2360,True,2014-10-05,05 October 2014,5.0,,,5.0,5.0,5.0,5.0,5kW,"$10,000 to $15,000",,,,False,[],0,0

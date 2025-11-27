@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ane-electrical-and-solar/",
+  "scraped_at": "2025-11-26T12:17:52.992485",
+  "company_info": {
+    "company_name": "ANE Electrical and Solar",
+    "contact_phone": "0421 742 522",
+    "website_url": "http://www.anesolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13043_d358be3c5380835a125019959a4a7cc4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13043_9ec36ef901593df842df18d5b3b590e8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13043_160fbfad44f094062bb9c5f9cf80bc2b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13043_8c8bb8fccca20ad7f4c40bdc2320962a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13043_30991a0c27051447775d771b9f00fb48.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

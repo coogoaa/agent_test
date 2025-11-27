@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solflow-pty-ltd-trading-as-darwin-solar-nt/",
+  "scraped_at": "2025-11-26T17:38:58.743328",
+  "company_info": {
+    "company_name": "Solflow Pty Ltd trading as Darwin Solar NT",
+    "contact_address": "Darwin, NT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 1.0,
+    "value_for_money_rating": 1.0,
+    "system_quality_rating": 1.0,
+    "installation_rating": 1.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "51125",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NT - 830",
+      "reviewer_state": "NT",
+      "reviewer_postcode": "830",
+      "reviewer_postcode_valid": false,
+      "review_date": "2018-08-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Expensive waste of money.  Ongoing problems with system - solar panels not working for 18 months and pool pump continually stopping.  No instructions, no follow up service and no response to phone calls or emails.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/clean-energy-south-west/",
+  "scraped_at": "2025-11-26T12:26:55.453281",
+  "company_info": {
+    "company_name": "Clean Energy South West",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14143_8b783d577eec3a5a8c9003daed436622.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14143_63f974a78ee7cf845ae08c7f9a4604f6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14143_c88d15812316e37bcd52dd3b524d00f3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14143_167c848c9a693025905f011a51b4adfd.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

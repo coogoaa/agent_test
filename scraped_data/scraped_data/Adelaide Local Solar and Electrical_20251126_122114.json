@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/adelaide-local-solar-and-electrical/",
+  "scraped_at": "2025-11-26T12:21:14.237802",
+  "company_info": {
+    "company_name": "Adelaide Local Solar and Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14212_08697d0cc3c5b425ebb9186b39d6bce7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14212_5bdea51a3b35a08636489073a54a6249.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14212_c603fb890c25927be9c8860c6a04d3d5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14212_553951057d9fcf29e37bf4931fb21951.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

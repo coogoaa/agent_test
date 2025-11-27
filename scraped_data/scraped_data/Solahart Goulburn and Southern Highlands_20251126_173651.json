@@ -1,0 +1,158 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-goulburn-and-southern-highlands/",
+  "scraped_at": "2025-11-26T17:36:51.399995",
+  "company_info": {
+    "company_name": "Solahart Goulburn and Southern Highlands",
+    "contact_phone": "02 4883 4888",
+    "website_url": "https://solahartgoulburnandsouthernhighlands.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "95558",
+      "reviewer_name": "Wendy",
+      "reviewer_location": "NSW - 2580",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2580",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very courteous respectful and clear explanations from the very start of process by Matt Donan.Installers completed the job in very good time and worked well as a team.Very professional.No loud profanities or coarse joking..respectful conversation with one another and to me was very much appreciated.l would certainly and highly recommend them to anyone!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "91357",
+      "reviewer_name": "Lyn",
+      "reviewer_location": "NSW - 2578",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2578",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Matt from Solahart was very well and thoroughly prepared on initial meeting, he listened and advised a solution which suited our requirements. The sales process was straight forward, included detailed analysis of pay-back periods, offer of interest-free finance with all questions quickly answered and anticipated time frames being met.  The installation was completed in one day by a professional, polite and well organised team.  Customer service continued post install with Matt organising the grid connection and provision of the solar monitoring apps (phone and laptop).",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Solahart Industries",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "89833",
+      "reviewer_name": "Gregory",
+      "reviewer_location": "NSW - 2575",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2575",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "They attempted to call the provider but due to confidentiality were unable to get the feed in tariff setup.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "89589",
+      "reviewer_name": "Gai",
+      "reviewer_location": "NSW - 2580",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2580",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Firstly,  I tend to investigate before I buy anything and the information in the 101 guide was everything I needed. All three companies suggested quoted but only 1 came to the house.That was the difference. Photos of our roof line aren't the full story.The quote we accepted was the most expensive but realistically all quotes were equal when you considered apples for apples. Some quoted less expensive panels or inverters. Any of the systems would have been good but the performance in the years to come and warranty out weighed the upfront costs in the short term. Also the knowledge and follow up of Solahart was the best. We are very happy with our choice. We are confident the system will support our current and future requirements, support a possible electric vehicle and battery connection when we decide to install one.Solahart did offer a finance solution. We haven't used this.The sales person walked us through the install, positioning of panels, inverter and how the electrician would run the wiring and what it would look like. We also discussed solar water but that's not at the moment.Solahart have taken care of everything. The application to essential energy was taken care of and we are now just waiting for the install. I'll follow up with photos.I have recommended Solaquotes to anyone that discusses solar as it is the one stop info starting point. Could not be happier so far and really excited about the upcoming install.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

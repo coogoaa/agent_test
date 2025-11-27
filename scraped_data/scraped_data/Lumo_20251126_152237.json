@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lumo/",
+  "scraped_at": "2025-11-26T15:22:37.754002",
+  "company_info": {
+    "company_name": "Lumo",
+    "contact_address": "VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "30102",
+      "reviewer_name": "Elwood",
+      "reviewer_location": "VIC - 3337",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3337",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-04-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Well the solar panels and inverter  was installed promptly. but for me that's where it stopped. After being told they do everything, well what people need to know is paper work from both power companyies must be down loaded and filled out buy me,So you need a photo copier. some guy came to the house fiddled with the solar for about 3 or 4 mins don't know what he did and the solar company Lumo haveno idea who he was and where he came from. My unit was installed 29/2/16 and to date 13/4/16 still have no idea whats happening if it is on, if it's connected if it's producing power. I don't like being told I don't need to do anything when its not true.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

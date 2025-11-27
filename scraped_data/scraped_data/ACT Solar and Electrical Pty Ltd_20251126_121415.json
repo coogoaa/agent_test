@@ -1,0 +1,60 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/act-solar-and-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T12:14:15.326830",
+  "company_info": {
+    "company_name": "ACT Solar and Electrical Pty Ltd",
+    "contact_address": "Gungahlin, ACT",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "22738",
+      "reviewer_name": "Lorraine",
+      "reviewer_location": "ACT - 2614",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2614",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The staff were professional and  knowledgeable and kept us up to date with the next stage.  They were also able to carry out other works at my request and I would use them again for all other electrical works.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

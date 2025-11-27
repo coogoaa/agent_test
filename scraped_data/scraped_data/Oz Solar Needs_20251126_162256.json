@@ -1,0 +1,103 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/oz-solar-needs/",
+  "scraped_at": "2025-11-26T16:22:56.024048",
+  "company_info": {
+    "company_name": "Oz Solar Needs",
+    "contact_address": "Willawong, QLD",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "126410",
+      "reviewer_name": "Vanessa",
+      "reviewer_location": "QLD - 4487",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4487",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I got 4 quotes from suppliers ranging in price from $8,900 to $20,000 dollars all after the government rebate.All supplied me with a plan from Google maps.  Only one company OZ Solar actually came to house.  Heena from OZ Solar needs applied to ERGON to see what size system they would allow as I live rural and am on a swer line.I was not required to pay a deposit before installation.  On the day of installation the electrician change the layout of the panels to get the best results.  The 13.2 Kw system was installed within the day. The men cleaned up after themselves.  We are now waiting for ERGON to upgrade the meter box.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "120913",
+      "reviewer_name": "Will",
+      "reviewer_location": "QLD - 4824",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4824",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good.Installed and functioning within a day. Installer provided some info and help with the inverter app.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

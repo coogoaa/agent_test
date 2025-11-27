@@ -1,0 +1,70 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ahj-trade-services/",
+  "scraped_at": "2025-11-26T12:38:13.223957",
+  "company_info": {
+    "company_name": "AHJ Trade Services",
+    "abn_number": "42678354375",
+    "acn_number": "678354375",
+    "contact_phone": "0492 910 232",
+    "website_url": "https://ahjtrade.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14209_0f518197ed15060a510a4cea756f7f78.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14209_c83deeef85d36a214a927988afc9e193.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14209_3b0cc606529d8a885067911948861709.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14209_d8357b3060c18dbca5f30891decb11eb.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "20 Jun 2024Ahj Trade Services Pty Ltd",
+      "abn_company_name": "Ahj Trade Services Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "20 Jun 2024Ahj Trade Services Pty Ltd",
+      "acn_company_name": "Ahj Trade Services Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "132508",
+      "reviewer_name": "Tony",
+      "reviewer_location": "QLD - 4606",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4606",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Easy as sales/quote process, installer was awesome and provided good instruction.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3.3kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/elk-electrical/",
+  "scraped_at": "2025-11-26T13:21:55.432887",
+  "company_info": {
+    "company_name": "Elk Electrical",
+    "contact_phone": "1300 113 222",
+    "website_url": "https://www.elkelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14390_fa2fe4c474588064c913922061b73fa1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14390_2d0024440d6da41a388efd03af5a0f65.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14390_78412ba59111c700cc37ba68ca0a1d34.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14390_11d9879e7d417843c8e2dc5eea6f43ae.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14390_9e2bf329f4bf5e064e15ee7e286cad8b.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

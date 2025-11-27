@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+107032,Glenn,NSW - 2093,NSW,2093,True,2023-01-04,04 January 2023,5.0,,,5.0,5.0,5.0,5.0,3kW,,,Orion,,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_orion.jpg'],0,0

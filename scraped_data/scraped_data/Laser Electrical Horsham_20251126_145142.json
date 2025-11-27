@@ -1,0 +1,46 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/laser-electrical-horsham/",
+  "scraped_at": "2025-11-26T14:51:42.342243",
+  "company_info": {
+    "company_name": "Laser Electrical Horsham",
+    "abn_number": "44100781324",
+    "acn_number": "100781324",
+    "contact_phone": "03 5382 1375",
+    "website_url": "https://www.facebook.com/people/Laser-Plumbing-and-Electrical-Horsham/100063767851136/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/120_1f064f178bb5efda8defffcb9b519726.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/120_43e98c51bf989c94bea2f73f4eda1028.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/120_631f23106eeeefc1182905ebbaf1e827.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/120_d04ce8dcd5af78119417632c869d9d54.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "20 Jun 2002Coutts Electrical",
+      "abn_company_name": "Coutts Electrical & Data Pty. Ltd."
+    },
+    "acn_details": {
+      "acn_active_since": "03 Jun 2002Coutts Electrical",
+      "acn_company_name": "Coutts Electrical & Data Pty. Ltd."
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

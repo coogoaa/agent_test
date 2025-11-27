@@ -1,0 +1,139 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-microgrids-australia/",
+  "scraped_at": "2025-11-26T16:52:40.648815",
+  "company_info": {
+    "company_name": "Solar Microgrids Australia",
+    "abn_number": "46600708932",
+    "acn_number": "600708932",
+    "contact_phone": "0481 381 755",
+    "website_url": "https://www.solarmicrogrids.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14029_66b10c8f3d813e1bccf03976e9dbc016.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14029_f81740a8faa80b0bee2ef9c3ea56d61f.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14029_4fa44d85b81f009320aea7872ea82904.png"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e01b998c447427401d7343c10cf627700.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "15 Jul 2014Moffatt Electrical Holdings Pty Ltd",
+      "abn_company_name": "Moffatt Electrical Holdings Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "15 Jul 2014Moffatt Electrical Holdings Pty Ltd",
+      "acn_company_name": "Moffatt Electrical Holdings Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "131701",
+      "reviewer_name": "Mary",
+      "reviewer_location": "WA - 6726",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6726",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installer was very good, kept me updated every step of the way and answered all questions I asked including about installing the app on my phone, I would recommend this business.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e01b998c447427401d7343c10cf627700.jpeg"
+      ]
+    },
+    {
+      "review_id": "131049",
+      "reviewer_name": "Phil",
+      "reviewer_location": "WA - 6726",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6726",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-02-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar Microgrids installer James provided wonderful service. He explained clearly how the system operates, how to get the most out of it and what will be required if we wish to connect a battery. His workmanship was excellent and I would recommend him to anyone wishing to install a system in the West Kimberley.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "130566",
+      "reviewer_name": "Luke",
+      "reviewer_location": "WA - 6726",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6726",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-02-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We recently had James from Solar Microgrids install solar on our property in Broome - James was extremely knowledgeable and honest in all interactions, kept us up to date with progress and the install is very tidy work. Appreciated that James worked with us to find solutions that suited our needs, including future battery options. On top of all that the pricing was great. Thanks!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

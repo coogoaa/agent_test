@@ -1,0 +1,89 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/phil-wilshire-electrical/",
+  "scraped_at": "2025-11-26T16:47:00.705515",
+  "company_info": {
+    "company_name": "Phil Wilshire Electrical",
+    "contact_address": "Caloundra, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b0bbafbdffd1ee01dc429882867800c60.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b0bbafbdffd1ee01dc429882867800c60.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "100427",
+      "reviewer_name": "Nadja",
+      "reviewer_location": "QLD - 4562",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4562",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Phil has installed 2x solar gate openers, front gate, wireless intercom and security camera. He went out of his way to make sure I am happy with everything. I am very please with his work and cannot recommend him enough.All other companies I contacted for a wireless system turned me away because my gates are too far away from the house - but Phil found the perfect solution for me.Highly recommend!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "I don't know",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b0bbafbdffd1ee01dc429882867800c60.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b0bbafbdffd1ee01dc429882867800c60.jpg"
+      ]
+    },
+    {
+      "review_id": "2970",
+      "reviewer_name": "Ron",
+      "reviewer_location": "QLD - 4575",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4575",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-10-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,84 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/uts-electrical/",
+  "scraped_at": "2025-11-26T18:31:38.502386",
+  "company_info": {
+    "company_name": "UTS Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14309_30d297bf0de0febdd6aada11868e20c1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14309_ec040d3656395069cb28bb872a6a95b5.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14309_7a73897531ac382d03df26398bf92131.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14309_ed6359b5865fc729f244bcad49aa73b6.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14309_0d54d633753a5ae7b0d866e87a650fb2.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "132266",
+      "reviewer_name": "Adrian",
+      "reviewer_location": "NSW - 2177",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2177",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was smooth from start to finish. The sales and quoting stage was clear and informative, with all my questions answered promptly. Installation day went exactly as planned—the team was punctual, polite, and left everything neat and tidy. They did a great job installing the solar panels and inverter, and everything was set up professionally. After the install, their customer service was excellent; they helped organise the grid connection and took the time to explain how to monitor and get the most out of the system. I’m really happy with the experience and would highly recommend them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "GoodWe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_goodwe.png"
+    }
+  ]
+}

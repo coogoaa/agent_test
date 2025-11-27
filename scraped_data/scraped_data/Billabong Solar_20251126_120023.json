@@ -1,0 +1,189 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/billabong-solar/",
+  "scraped_at": "2025-11-26T12:00:23.317152",
+  "company_info": {
+    "company_name": "Billabong Solar",
+    "contact_address": "Melton South, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "111770",
+      "reviewer_name": "Jinu",
+      "reviewer_location": "VIC - 3764",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3764",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Non pressured factual info provided.  Priced well! Kept us in the loop all the way through. Good communication!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "more than 30kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "106962",
+      "reviewer_name": "Michelle",
+      "reviewer_location": "VIC - 3869",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3869",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quoting process was seamless, quick to come and quote, quick to send the quote through.Our installation was delayed by one day due to weather, but we were kept informed throughout the whole process.It was nice to have a tradesman turn up when they said they were going to, to have our system installed.  They turned up, got straight to work and have done a beautiful job, very clean and neat.  Tidied up after themselves, unlike other tradies we have had.Their customer service has been outstanding, have been there every step of the way to answer any questions.Thank you Nithin and team, we would highly recommend you to anyone who is looking to install solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "106004",
+      "reviewer_name": "Lloyd",
+      "reviewer_location": "VIC - 3818",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3818",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-12-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Billabong Solar made our whole solar journey effortless. From quote to install the procss was easy and timely. We would recommend Billabong for all your solar needs. 5 huge stars from us. Thanks Nithin and Team great job,",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "92852",
+      "reviewer_name": "Leo",
+      "reviewer_location": "VIC - 3478",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3478",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent work. System is working great. Go for this mob",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "92196",
+      "reviewer_name": "JINU",
+      "reviewer_location": "VIC - 3083",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3083",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Easy to deal with. Took care of everything. Tidy installation. Slightly delayed due to covid restrictions",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

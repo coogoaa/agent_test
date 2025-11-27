@@ -1,0 +1,62 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sun-renew-solar/",
+  "scraped_at": "2025-11-26T18:43:07.861371",
+  "company_info": {
+    "company_name": "Sun Renew Solar",
+    "contact_address": "Salisbury, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "95616",
+      "reviewer_name": "Elke",
+      "reviewer_location": "WA - 6569",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6569",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had one 6.6/5 kw system installed in investment property. Still waiting for approval of system with battery, which has a great concept und great price. Ok from Western Power still missing, Synergy has approved. Can't wait.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "I don't know",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    }
+  ]
+}

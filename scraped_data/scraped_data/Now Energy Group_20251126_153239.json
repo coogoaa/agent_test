@@ -1,0 +1,140 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/now-energy-group/",
+  "scraped_at": "2025-11-26T15:32:39.034191",
+  "company_info": {
+    "company_name": "Now Energy Group",
+    "contact_phone": "0412 191 664",
+    "website_url": "https://www.nowenergygroup.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_9c84073d0e8d7892e6c0692ea70e35a1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_0ebb3934ac66b4935089bee1187c0070.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_733334fe777fd2437751ad019eaf7990.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_da553014d24f92fdaa4ebda282328630.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_9e109945ab1b7ca24c3f26bfdf4657d6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_36435314fd6f5cb67cc7867d014b525e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_c71a47bc7d9ba5f4a0e0ed24f009ad32.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_8765ae5e08ea10759c49da01196d728d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_d139870cd3df321f1bb6064557c82d78.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_2a5ed57d13a2d977607c4b4388090892.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_4acc431a6a6188c760f807b0dc87fbd0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_67980e501794dc472397f592008251f6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_ce7a41e6b47e86bc9a39aeaa7bb1b657.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_fa371010ffadeb27c4f11583c3d17f3c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13412_10f2b8f078e2a8254cf926f10525a974.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0d6e0f184eda40d999d9000b4a1f3a2d0.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f1bbf136339d8e45e4e2896f55cf88c61.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "97853",
+      "reviewer_name": "Scott",
+      "reviewer_location": "WA - 6066",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6066",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-02-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had very good communication between us and the installer. Our 6.6kw system has made our 350-400 dollar bill drop to a around 30. Well worth it with how much the price of power keeps increasing.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "97721",
+      "reviewer_name": "Chris",
+      "reviewer_location": "WA - 6164",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6164",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-02-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Upon the first visit from Darran, he was professional and knowledgeable in the products needed for my house. When Darran and his team came to install our solar they were polite and producing top workmanship that was 2nd to non!Thanks again!RegardsChris & Megan",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0d6e0f184eda40d999d9000b4a1f3a2d0.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f1bbf136339d8e45e4e2896f55cf88c61.jpeg"
+      ]
+    },
+    {
+      "review_id": "97683",
+      "reviewer_name": "Fiona",
+      "reviewer_location": "WA - 6027",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6027",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-02-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Darran installed our solar, very happy with everything including Sunny Boy. Always punctualWould recommend 5/5",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3.3kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "I don't know",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

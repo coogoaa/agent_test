@@ -1,0 +1,40 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sea-contracting-pty-ltd/",
+  "scraped_at": "2025-11-26T16:33:07.504245",
+  "company_info": {
+    "company_name": "SEA Contracting Pty Ltd",
+    "abn_number": "63608208868",
+    "acn_number": "608208868",
+    "contact_phone": "0427 043 562",
+    "website_url": "https://seacontracting.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "23 Sep 2015Sea Contracting Pty Ltd",
+      "abn_company_name": "Sea Contracting Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "14 Sep 2015Sea Contracting Pty Ltd",
+      "acn_company_name": "Sea Contracting Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

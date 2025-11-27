@@ -1,0 +1,158 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solbase/",
+  "scraped_at": "2025-11-26T17:35:40.446844",
+  "company_info": {
+    "company_name": "Solbase",
+    "contact_address": "North Strathfield, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d43b309daf78e261d9c14e96363d4eb90.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4dbeb637b89e5edfe2e4d80a4b915fb91.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7190c45447b72facf029bf95ef01612d2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/85ea04b6fc8fa30c2332af4f38f5e8d30.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d43b309daf78e261d9c14e96363d4eb90.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4dbeb637b89e5edfe2e4d80a4b915fb91.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7190c45447b72facf029bf95ef01612d2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/85ea04b6fc8fa30c2332af4f38f5e8d30.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "134907",
+      "reviewer_name": "Arthur",
+      "reviewer_location": "NSW - 2158",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2158",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had Solbase quote and install 13kw of solar panels with a 16kw battery using Sigenergy components. The whole process went smoothly except for the issue of the NSW Gov removing the battery rebate due to the Federal Gov battery rebate but we came to an agreement on this. The system is working really well and I highly recommend Solbase to anyone looking for a solar system.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d43b309daf78e261d9c14e96363d4eb90.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4dbeb637b89e5edfe2e4d80a4b915fb91.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4dbeb637b89e5edfe2e4d80a4b915fb91.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7190c45447b72facf029bf95ef01612d2.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7190c45447b72facf029bf95ef01612d2.jpg"
+      ]
+    },
+    {
+      "review_id": "120116",
+      "reviewer_name": "Sourmack",
+      "reviewer_location": "NSW - 2075",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2075",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I received 10+ quotes and after a detailed evaluation decided to progress with Solbase.The sales/quoting process was smooth and pricing was competitive.The installers professional and polite and spent time to help connect my inverter app.The Solbase team had my Solar system installed yesterday. The system is working well and the sales to installation process was overall very smoothe. Also the owner visited on the installation day to say hi and check everything progressing well which was a nice touch.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "112232",
+      "reviewer_name": "Paul",
+      "reviewer_location": "NSW - 2305",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2305",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote process was good with a wide range of price options. In general most providers were offering combinations of the same equipment so the choice came down to price and confidence in the installation and customer service.Solbase provided the lowest price. I requested to speak to their installer on site before selecting. The installer provided excellent answers to my questions, had over 700 installation jobs and also appreciated the need for care in avoiding roof damage during the installation. Based on this factors I selected Solbase. On the day the team were really good. They took care to make sure the installation was carefully undertaken and aesthetically pleasing. I am happy to say that the job went well. It was completed in about 4 hours without damage or incident. The panels look great and are working well. The wireless inverter app is easy to use and provides sufficient information for my needs. Overall I am very happy with the process and outcome.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/85ea04b6fc8fa30c2332af4f38f5e8d30.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/85ea04b6fc8fa30c2332af4f38f5e8d30.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

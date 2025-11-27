@@ -1,0 +1,198 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solaraide/",
+  "scraped_at": "2025-11-26T16:55:26.530602",
+  "company_info": {
+    "company_name": "Solaraide",
+    "contact_address": "Dandenong, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8fbe5e5d25a99cd6cfbfd130e7c3ade90.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8fbe5e5d25a99cd6cfbfd130e7c3ade90.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.8,
+    "system_quality_rating": 4.2,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.2,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "128205",
+      "reviewer_name": "Mark",
+      "reviewer_location": "VIC - 3978",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3978",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Worst costumer service/after sales. I have decided to go with saj inventer based on the recommendation of the solar company.. 4 weeks after installation, it is not producing the way it should. Its a 10.56kw tier 1 panels and yet it only produce less than 5kw the whole day, on a good sunny day. Saj does not want to honor any warranty. Will never purchase anything from them ever again. Steer away if possible.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 1.0,
+      "system_size": "10kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "SAJ",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 1.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+      ]
+    },
+    {
+      "review_id": "126983",
+      "reviewer_name": "Sai chand",
+      "reviewer_location": "VIC - 3168",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3168",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quick installation and very smooth process of sale. Sales man was very polite and honest.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    },
+    {
+      "review_id": "126542",
+      "reviewer_name": "Muniba",
+      "reviewer_location": "VIC - 3978",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3978",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I’m very happy with all the process. They were very punctual and professional. Quoting process and prices were all good. They helped organise the grid connection after the installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SAJ",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8fbe5e5d25a99cd6cfbfd130e7c3ade90.jpeg"
+      ]
+    },
+    {
+      "review_id": "126527",
+      "reviewer_name": "Sunny",
+      "reviewer_location": "VIC - 3076",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Really impressive way of working ,quick and efficient, quality work and friendly service, highly recommend",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    },
+    {
+      "review_id": "121265",
+      "reviewer_name": "Mac",
+      "reviewer_location": "VIC - 3978",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3978",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting were well explained and wasn’t overly pushy, installation was quick and punctual and overall customer service was second to none. Great experience",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SAJ logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+    }
+  ]
+}

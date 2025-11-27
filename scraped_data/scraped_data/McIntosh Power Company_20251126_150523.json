@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mcintosh-power-company/",
+  "scraped_at": "2025-11-26T15:05:23.210434",
+  "company_info": {
+    "company_name": "McIntosh Power Company",
+    "contact_phone": "0406 155 129",
+    "website_url": "https://mcintoshpower.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14422_8ddf878039b70767c4a5bcf4f0c4f65e.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14422_fac989447cad2edbc89fbcba70003b36.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14422_437f57809f82b9e2947f70fd488eb536.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14422_7e7cb6814b74d6596098fc80127569a5.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14422_425db905039f7a6559ce1115efa7d397.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

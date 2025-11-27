@@ -1,0 +1,145 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/nsw-country-solar/",
+  "scraped_at": "2025-11-26T15:35:09.956343",
+  "company_info": {
+    "company_name": "NSW Country Solar",
+    "contact_phone": "02 6845 1519",
+    "website_url": "http://www.nswcountrysolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11024_253bb08fd0b0e01473b0d48275fbe565.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11024_12a56a7b8c82d9bb10599798f3914f5d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11024_bf736acf045351b8839bae1403521bff.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11024_d28f5a179befbe366b4876691a991a26.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11024_47e75afaeaf931775ff47317b3747bd9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11024_9e9ce67dd356df5efcd95b40b779cabb.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8d71e48d0923f127ddba401b95a07ae40.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "121312",
+      "reviewer_name": "Nathan",
+      "reviewer_location": "NSW - 2343",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2343",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I went with an off grid system utilising Redflow batteries. Will was fantastic to deal with, exceptionally knowledgeable and did fantastic work.He was very patient with me as I came up to speed on managing the Victron system and the Redflow system.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Victron Energy",
+      "battery_brand": "Redflow",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_victron-energy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_redflow.png"
+      ]
+    },
+    {
+      "review_id": "117381",
+      "reviewer_name": "Rick",
+      "reviewer_location": "NSW - 2852",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2852",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-12-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Decided to install a Powerwall 2 to an existing solar system in the country. No recommended installer from SolarQuotes. The original installer of the solar panels is not a Tesla agent. Quotes from city based installers who use subcontracters??? Better quote from a country installer but very busy - a good sign? Job done. Very happy with the install and performance to date.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "7kW",
+      "system_cost": "",
+      "panel_brand": "Trina",
+      "inverter_brand": "Enphase",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8d71e48d0923f127ddba401b95a07ae40.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8d71e48d0923f127ddba401b95a07ae40.jpg"
+      ]
+    },
+    {
+      "review_id": "110095",
+      "reviewer_name": "Mick",
+      "reviewer_location": "NSW - 2174",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2174",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-05-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Marco and his team from NSW Solar based in Sydney were seamless, as this was not a straught forward installation their patience was appreciated to gwt it just right. Using cable tray and ducting that matches my roof sheet where needed the roof work could not be more aestheically pleasing.Same can be said for the inverter work in the garage, again using cable tray to make the cableing dissapear the final look was awesome.They painted the tray black fo rme after I requested it.Job installed in time frame promised, system over performing, creduts coming in, topped of with Solar Analytics I can easily brag to others !",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "",
+      "panel_brand": "Yingli",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Victron Energy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_victron-energy.png"
+    },
+    {
+      "brand_name": "Redflow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_redflow.png"
+    }
+  ]
+}

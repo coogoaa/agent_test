@@ -1,0 +1,180 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/delta-solar-services/",
+  "scraped_at": "2025-11-26T13:36:16.375774",
+  "company_info": {
+    "company_name": "Delta Solar Services",
+    "contact_address": "Alexander Heights, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "113653",
+      "reviewer_name": "Simon",
+      "reviewer_location": "WA - 6162",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6162",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Working with Javad was a very easy experience.He worked with me to find the combination of inverter and panels that suited our current and future needs, and then the install went smoothly and looks to be of high-quality workmanship.  Best of all, Delta Solar was comfortably the most cost competitive for an equivalent system.  Definitely worth consideration over some of the larger companies who were up to 50% more expensive for the same inverter/panel combination.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "94649",
+      "reviewer_name": "Rajakumar",
+      "reviewer_location": "WA - 6122",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6122",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Delta solar service WA Perth and team is a knowledgeable, professional, efficient and did a great job for good price highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "94585",
+      "reviewer_name": "Ravi",
+      "reviewer_location": "WA - 6112",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6112",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We just had huawei inverter with jinko panels Delta solar services is a fantastic company to deal very professional service with competitive pricing",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "94134",
+      "reviewer_name": "Ashish",
+      "reviewer_location": "WA - 6107",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6107",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Outstanding service and attention to details. Owner with hands on experience delivered and installed Huawei inverter very professionallyWe are very happy with Huawei and services provided by DELTA SOLAR SERVICES PTY LTD team highly recommended",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "94085",
+      "reviewer_name": "KRISHNAKUMAR",
+      "reviewer_location": "WA - 6069",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6069",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    }
+  ]
+}

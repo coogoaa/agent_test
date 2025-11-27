@@ -1,0 +1,117 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/captain-solar/",
+  "scraped_at": "2025-11-26T11:57:04.925702",
+  "company_info": {
+    "company_name": "Captain Solar",
+    "contact_address": "ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.3,
+    "value_for_money_rating": 3.67,
+    "system_quality_rating": 3.67,
+    "installation_rating": 3.0,
+    "customer_service_rating": 2.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "113185",
+      "reviewer_name": "Gary",
+      "reviewer_location": "NSW - 2795",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2795",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "One of the more expensive system quotes and the communications so far have been poor. 8 weeks after paying deposit am still waiting for even one of the install team to get back to set up a date. Will look at getting refund and going elsewhere.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 2.0,
+      "quality_of_system_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "33684",
+      "reviewer_name": "David",
+      "reviewer_location": "QLD - 4868",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4868",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-02-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My only negative comment is I should have been told how long it would take from start to finish. It took far longer than I expected by the time the electricity supplier went through his process.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "23555",
+      "reviewer_name": "Jason",
+      "reviewer_location": "ACT - 2913",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2913",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-08-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very professional team, friendly technicians. The system is of good quality and the installation work is excellent. We have had this system for about a year now and there has been zero problems so far.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

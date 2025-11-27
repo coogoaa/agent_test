@@ -1,0 +1,37 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bright-future-energy/",
+  "scraped_at": "2025-11-26T12:19:36.437573",
+  "company_info": {
+    "company_name": "Bright Future Energy",
+    "contact_phone": "1300 885 389",
+    "website_url": "https://brightfutureenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14439_3b8cb1542466e345d49f4cd513824288.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14439_850ddc6f95301216e00ef437b55d40c6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14439_80354ff9922e58a896c2f05a134a89a0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14439_dfab90004f836c466f4ae62ad051556d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14439_60c72d975dbd97bef56cd6b7dc1cb810.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

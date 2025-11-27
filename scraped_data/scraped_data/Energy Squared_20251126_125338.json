@@ -1,0 +1,97 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energy-squared/",
+  "scraped_at": "2025-11-26T12:53:38.934436",
+  "company_info": {
+    "company_name": "Energy Squared",
+    "abn_number": "41641947220",
+    "acn_number": "641947220",
+    "contact_phone": "0421 510 161",
+    "website_url": "https://energysquared.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14354_8fd68ecd6974478b3fee321d62a3862d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14354_5632032056b407cd6f96682a1e4bab6f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14354_e17d6e71c1c00d7c67b3bf7a99acb880.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14354_3a035a3337afa187c5a5b34d824f26cc.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "01 Dec 2022A Varvaris",
+      "abn_company_name": "A Varvaris (sa) Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "22 Jun 2020A Varvaris",
+      "acn_company_name": "A Varvaris (sa) Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "139219",
+      "reviewer_name": "Paul",
+      "reviewer_location": "SA - 5501",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5501",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Arrived when he said he would, only took 2 weeks from start to installation.Fast and neat install, friendly crew and Arthur was very good with communication. We had a small issue and he promptly came back and fixed( within a couple of hours on a weekend!)Arthur seems to genuinely want to install a system that suits your expectations as if he was installing his own system.Very happy with the process from start to finish and they managed to supply a larger system than I originally looked for a the lowest price, so great bang for buck, at this stage very pleased with my solar and battery installation",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

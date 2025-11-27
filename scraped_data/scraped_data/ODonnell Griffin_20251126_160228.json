@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/odonnell-griffin/",
+  "scraped_at": "2025-11-26T16:02:28.055285",
+  "company_info": {
+    "company_name": "ODonnell Griffin",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.0,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 2.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "30671",
+      "reviewer_name": "Catherine",
+      "reviewer_location": "NSW - 2299",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2299",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-06-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "When the inverter died 6 years down the track, Griffin O'Donnell were not contactable.  They did not return phone calls left on their answering machine.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 2.0,
+      "system_size": "1.5kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "quality_of_system_rating": 3.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

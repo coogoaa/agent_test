@@ -1,0 +1,184 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/raso-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T16:13:57.497800",
+  "company_info": {
+    "company_name": "Raso Electrical Pty Ltd",
+    "abn_number": "54648409901",
+    "acn_number": "648409901",
+    "contact_phone": "0405 335 536",
+    "website_url": "https://www.facebook.com/people/Raso-Electrical/100069228900743/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_7ff174ff642b1025c45e64407f39b6b7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_01cd580cb7ebd251dac1069b648b1a6c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_7c0e6af03174ba887b7130e8d31d390e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_cf376915d5d0dcc09b7e613b8fd65375.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_496390ce2cdc012a070bd0307c6e2611.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_04f2a8852cc5b43f7f375435044d3a2d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_f942ae4277e036e075e8b5522d819eba.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_d43bedda2c3c2b872974881ee14d8965.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_2b5b013a43d154e07107f14d165abb84.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_23321bdb12276f7e6fcc411f1501b051.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318_6b75fafc1442d6b1b7f4028f2ff352f2.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "03 Mar 2021Raso Electrical Pty Ltd",
+      "abn_company_name": "Raso Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "03 Mar 2021Raso Electrical Pty Ltd",
+      "acn_company_name": "Raso Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.75,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "129463",
+      "reviewer_name": "Emma",
+      "reviewer_location": "VIC - 3058",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3058",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very responsive, knowledgeable, helpful and skilled with great communication skills. I would happily recommend Raso Electrical to others.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "Yingli",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "131600",
+      "reviewer_name": "Nick",
+      "reviewer_location": "VIC - 3023",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3023",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent  service and advice answered all my questions and concerns on time and you can see the attention to detail  from the best recommendation for my system through to install and follow upThanks again team",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "120656",
+      "reviewer_name": "Sergio",
+      "reviewer_location": "VIC - 3054",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3054",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The process was a little painful as one of the providers went out of business (G-Store) and another that we engaged, refunded our deposit saying that, on inspection, they couldn't do the workThe installation was conducted efficiently over two days. The installers were tidyExcellent service before installation (the installer actually came out and was on site for an inspection ) and on days of installation  as well.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "107700",
+      "reviewer_name": "Julian",
+      "reviewer_location": "VIC - 3031",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3031",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Louis and his team installed a 9kw system for me. Very happy with the results. He was quick, communicated well, and helped me decide on the most appropriate design for our site. Highly recommended!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

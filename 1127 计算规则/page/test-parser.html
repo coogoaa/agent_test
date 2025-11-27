@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>解析测试</title>
+</head>
+<body>
+    <h1>测试坡面数据解析</h1>
+    <textarea id="input" rows="20" cols="80">299.3576965332031
+1
+209.3575897216797
+0
+299.357666
+0
+209.3575897216797
+12
+119.35782623291016
+0
+29.357751846313477
+2
+119.35781860351562
+0
+29.357751846313477
+0
+119.35782623291016
+0
+29.357751846313477
+3
+119.35781860351562
+0
+29.357751846313477
+0</textarea>
+    <br>
+    <button onclick="test()">测试解析</button>
+    <pre id="output"></pre>
+
+    <script>
+        function parseSlopes(slopesText) {
+            const lines = slopesText.trim().split('\n').filter(line => line.trim());
+            const slopes = [];
+            
+            console.log('总行数:', lines.length);
+            console.log('前几行:', lines.slice(0, 6));
+            
+            // 检测格式：如果第一行包含逗号，使用逗号分隔格式；否则使用两行一组格式
+            const hasComma = lines[0].includes(',');
+            console.log('是否包含逗号:', hasComma);
+            
+            if (hasComma) {
+                // 格式1: 方位角, 最大面板数
+                lines.forEach((line, idx) => {
+                    const [aspect, max] = line.split(',').map(s => s.trim());
+                    console.log(`行${idx}: aspect=${aspect}, max=${max}`);
+                    slopes.push({
+                        id: `slope ${idx + 1}`,
+                        aspect: parseFloat(aspect),
+                        max: parseInt(max) || 0,
+                        score: calculateScore(parseFloat(aspect))
+                    });
+                });
+            } else {
+                // 格式2: 每两行一组（第一行方位角，第二行面板数）
+                console.log('使用两行一组格式');
+                for (let i = 0; i < lines.length; i += 2) {
+                    if (i + 1 < lines.length) {
+                        const aspect = parseFloat(lines[i]);
+                        const max = parseInt(lines[i + 1]) || 0;
+                        console.log(`坡面${Math.floor(i/2)+1}: aspect=${aspect} (行${i}), max=${max} (行${i+1})`);
+                        slopes.push({
+                            id: `slope ${Math.floor(i / 2) + 1}`,
+                            aspect: aspect,
+                            max: max,
+                            score: calculateScore(aspect)
+                        });
+                    }
+                }
+            }
+            
+            return slopes;
+        }
+
+        function calculateScore(aspect) {
+            let diff = Math.abs(aspect - 0);
+            if (diff > 180) diff = 360 - diff;
+            return Math.max(0, 100 - (diff / 180) * 100);
+        }
+
+        function test() {
+            const input = document.getElementById('input').value;
+            const slopes = parseSlopes(input);
+            
+            const result = {
+                slopes: slopes,
+                totalPanels: slopes.reduce((sum, s) => sum + s.max, 0),
+                totalKw: (slopes.reduce((sum, s) => sum + s.max, 0) * 0.44).toFixed(2)
+            };
+            
+            document.getElementById('output').textContent = JSON.stringify(result, null, 2);
+        }
+    </script>
+</body>
+</html>

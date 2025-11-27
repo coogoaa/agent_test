@@ -1,0 +1,203 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/r-solar-and-electrical/",
+  "scraped_at": "2025-11-26T16:05:58.885637",
+  "company_info": {
+    "company_name": "R Solar and Electrical",
+    "contact_phone": "0429 342 406",
+    "website_url": "https://www.rsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13875_5bef6f6914b4e6c5a3ade664d42d9f87.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13875_cab0033d160b0156f8f25f6953d72b2b.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13875_3fdef3e4001f8575e7f29670a0da9f78.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13875_14430e387add491034e7b4c2c5fd1c9d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13875_b231994d67bd3347489ee0129a907f90.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13875_128a2468aaee05bda24412b515089dce.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.67,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "139214",
+      "reviewer_name": "Adrian",
+      "reviewer_location": "VIC - 3059",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3059",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with our experience. The team installed everything quickly, efficiently, and very neatly. They also gave clear information and guidance at the start, which made the whole process smooth and stress-free.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Anker Solix",
+      "battery_brand": "Anker Solix",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_anker-solix.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_anker-solix.png"
+      ]
+    },
+    {
+      "review_id": "139049",
+      "reviewer_name": "Nikhil",
+      "reviewer_location": "VIC - 3336",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3336",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently got my solar installed and couldn’t be happier with the whole experience! The team was professional, punctual, and made the entire process super smooth—from quoting to installation. Everything was explained clearly, and they took care of all the details with great attention. The system looks neat, works perfectly, and I’m already seeing the benefits. Highly recommend them to anyone considering going solar!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Anker Solix",
+      "battery_brand": "Anker Solix",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_anker-solix.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_anker-solix.png"
+      ]
+    },
+    {
+      "review_id": "137730",
+      "reviewer_name": "Bo",
+      "reviewer_location": "VIC - 3204",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3204",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had a 6.6 kW solar system and 24 kWh Sigenergy battery installed in September 2025, right in the middle of widespread supply shortages. R Solar & Electrical managed to secure stock quickly through their specialist channels, while colleagues using other installers are still waiting on inventory ordered earlier. Installation was professional, well-coordinated, and delivered as promised—very pleased with the overall experience.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "122476",
+      "reviewer_name": "Cedric",
+      "reviewer_location": "VIC - 3805",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "When I first contacted Jordan, he explained, in detail, the process and options available to me.  All subsequent calls and emails were promptly answered.  Once I accepted the quote, the installation and post installation paperwork was done quickly and efficiently by the R Solar team.  I was kept informed of each stage of the process.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "113242",
+      "reviewer_name": "Anj",
+      "reviewer_location": "VIC - 3149",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3149",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Just add some photos of installation, whatever you can. 2 photos are enough. Inverter and roof (from distance).I had a wonderful experience dealing with Shuey from R Solar and Electrical. From the start, he was able to explain to me the differences in products and recommended a system size that would suit our needs. I was provided with multiple quotes but I chose to go with a hybrid option so I could add a battery later.The admin team helped me with the pre-approvals and organising a quick installation and completed all the post installation paperwork.Joseph was great on the day. They were done with the installation in a day.Highly recommended",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Anker Solix logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_anker-solix.png"
+    },
+    {
+      "brand_name": "Anker Solix logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_anker-solix.png"
+    }
+  ]
+}

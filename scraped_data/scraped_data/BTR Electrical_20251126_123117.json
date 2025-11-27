@@ -1,0 +1,74 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/btr-electrical/",
+  "scraped_at": "2025-11-26T12:31:17.675895",
+  "company_info": {
+    "company_name": "BTR Electrical",
+    "contact_address": "Eltham, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "88584",
+      "reviewer_name": "Clint",
+      "reviewer_location": "VIC - 3068",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3068",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-11-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Electrical provider that has recently added solar installations to their service portfolio.  Eager to learn and then excel in delivery and installation.  Very personalised service from the outset.  Polite, willing to listen to customer objectives and then formulate the best approach, bringing the customer along the journey.  Installation went smoothly, arrived on time, tidied up and addressed further questions and concerns without debate.  Inspection and grid connection process happened seamlessly with minimal fuss.  Really put the customer first and took responsibility to make the whole process seem really easy.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Qcells logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

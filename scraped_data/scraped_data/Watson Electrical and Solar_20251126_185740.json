@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/watson-electrical-and-solar/",
+  "scraped_at": "2025-11-26T18:57:40.429102",
+  "company_info": {
+    "company_name": "Watson Electrical and Solar",
+    "abn_number": "46400772247",
+    "contact_phone": "0434 902 955",
+    "website_url": "https://watsonelec.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14277_89f9283d3bdfcf444a24557a762147a1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14277_c536661808f7e42e0397155e64d15e8c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14277_711f16a7639768572ab9419460f78a4b.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14277_fa880f063842ba703ed7131431a10fcd.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14277_1dc453e975f97ad1a400805fba1ff995.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14277_3f0a2454ac56a51b4088e7de2f93ce31.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "26 Aug 2024Watson Electrical",
+      "abn_company_name": "Watson Electrical & Solar"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

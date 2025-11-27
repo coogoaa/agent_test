@@ -1,0 +1,47 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pica-electrical/",
+  "scraped_at": "2025-11-26T15:55:35.185430",
+  "company_info": {
+    "company_name": "Pica Electrical",
+    "abn_number": "61622270384",
+    "acn_number": "622270384",
+    "contact_phone": "1300 653 556",
+    "website_url": "https://www.picaelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/366_0aeb931c9efb8d31520f857b8e00e27a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/366_ce8edb44376d29f62e6100c93524e77f.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/366_32097be05b0e088014c4320758967ba2.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/366_9498f3976c6fa263a20306f9051ba53e.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/366_6fd173f3be2457c7e52465ae3dbf6e86.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "16 Oct 2017Pica Electrical Pty Ltd",
+      "abn_company_name": "Pica Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "16 Oct 2017Pica Electrical Pty Ltd",
+      "acn_company_name": "Pica Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

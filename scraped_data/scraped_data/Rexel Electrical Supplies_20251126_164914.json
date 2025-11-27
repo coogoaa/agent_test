@@ -1,0 +1,51 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rexel-electrical-supplies/",
+  "scraped_at": "2025-11-26T16:49:14.048516",
+  "company_info": {
+    "company_name": "Rexel Electrical Supplies",
+    "contact_address": "Adelaide, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "16570",
+      "reviewer_name": "Adrian",
+      "reviewer_location": "SA - 5341",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5341",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-11-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Appreciation of all information available.",
+      "value_for_money_rating": 0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

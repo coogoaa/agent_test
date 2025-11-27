@@ -1,0 +1,155 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energeniq-enginering/",
+  "scraped_at": "2025-11-26T13:28:54.944138",
+  "company_info": {
+    "company_name": "Energeniq Enginering",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "65586",
+      "reviewer_name": "Debra",
+      "reviewer_location": "NSW - 2250",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2250",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Yes.Apart from your website there is little or NO help with choosing a solar system.The sales people baffle you with bullshit and one is at their mercy.Not a lot of fun. Very stressful.Only went ahead to help create clean power.The government departments were next to useless.The clean energy councilâ€™s website is geared only  to support the companies selling the solar product.They were not a helpful tool for the individual buying the product.The government needs to keep a closer eye on what is going on in this open market.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Solaredge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "68831",
+      "reviewer_name": "Kamran",
+      "reviewer_location": "NSW - 2145",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2145",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was after something that I can monitor anytime, so that I could keep an eye on my consumption and generation. Consultant guided me through different options and I found Enphase Microinverters option to be best suitable. The proposal and installation diagram was shared with me, the price was unbeatable hence I signed up immediately.The installation took place quite professionally, the rails installation, tilts and panels placement and all wiring was done neat and clean. Extremely satisfied with installation and the generation I am getting (getting more than what was proposed by consultant)",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "68584",
+      "reviewer_name": "Rosa",
+      "reviewer_location": "NSW - 2765",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2765",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I needed to be convinced but after  speaking to the solar consultant name faizan from ENERGENIQ ENGINEERING , i was confident to upgrade our solar system, he told me every thing in a proper way to install 12KW solar panels to convert my electricity bill from $1100 to $0 but when i recieved my first bill,i was surprised and very happy that my bill was in $119.87 in credit.I signed up on 22/05/2019 and they install the solar system with in a week and the was up and running perfectly and it was generating 65KW on a sunny winters day.The customer service with the company guy name faizan was excellent and he is always available for any concerns about my solar system or my power bills.I highly recommend to anyone interested in solar system installation to contact with Energeniq Engineering.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "68493",
+      "reviewer_name": "Nalinda",
+      "reviewer_location": "NSW - 2760",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2760",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I engaged Zain from Energeniq who gave me good price for 5.6KW system with goodwe inverter/Longi panels, 10 year warranty. Good price and product, installation took place after 1 week of signing of documents. It was smooth process and very happy that I choose Energeniq Enginering.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Solaredge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

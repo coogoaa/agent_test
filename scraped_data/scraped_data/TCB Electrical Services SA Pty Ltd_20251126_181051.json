@@ -1,0 +1,59 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tcb-electrical-services-sa-pty-ltd/",
+  "scraped_at": "2025-11-26T18:10:51.804240",
+  "company_info": {
+    "company_name": "TCB Electrical Services SA Pty Ltd",
+    "contact_phone": "0429 348 000",
+    "website_url": "http://www.tcbelectricalservices.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11534_d1eaedbc1c1947cf5b0aa5d81698b357.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11534_8c476e646828d613fc0c2482ba6ca64f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11534_f544900f2a2848d107311f15bb6e94d4.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "57091",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5064",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5064",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-12-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The system hasn't been in long and is yet to have the meter installed to connect it to the grid",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

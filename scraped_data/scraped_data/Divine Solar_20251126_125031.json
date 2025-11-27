@@ -1,0 +1,78 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/divine-solar/",
+  "scraped_at": "2025-11-26T12:50:30.996564",
+  "company_info": {
+    "company_name": "Divine Solar",
+    "contact_address": "Parramatta, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.5,
+    "customer_service_rating": 3.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "60270",
+      "reviewer_name": "Daniel",
+      "reviewer_location": "NSW - 2773",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2773",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-02-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We got our solar system from Divine Solar a year and a half ago. The experience was very average. The quality of the work and the quality of the finished install is as good as you can expect but the company was very disorganised. They sold us 17 panels, on the day of install the installers go \"no, you can't fit 17 panels\" so we ended up with 16 (not a big deal, but.. unprofessional). The quote was not of a very good quality, it had a hand-drawn layout of our house of where the panels would go. The sales person clearly overstated how much electricity we would produce (quoting as much as 44kwh on a sunny summer day, with data from 2 summers now we never generated more than 25kwh).On the quote we clearly stated that we wanted the WiFi module, this was not installed. We contacted them, and they tried to say \"no, that was not part of the deal\" pointed out that they had billed us for it. They drop off the module (after a week or so) in a box and say \"you can install it, there are videos on youtube for how to install it\". We got an electrician to come and do the install. Over all, it was average. Not good, but not bad either. The quality of the system is good and the install is good, but the management around it was not very good.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "34300",
+      "reviewer_name": "Beverley",
+      "reviewer_location": "NSW - 2774",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2774",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-03-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "As yet, our system has not been installed.  The first delay was due to extreme heat.  The second delay was due to the high demand of their product.  Their warehouse ran out and so we had to wait a couple of weeks for their new supply.  Then there was the rain over a lengthy period of time.  And so safety issues delayed the installation.  However, the company kept us informed.  They always phoned back at agreed times with answers to any questions.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

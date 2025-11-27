@@ -1,0 +1,123 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/waltlec/",
+  "scraped_at": "2025-11-26T19:04:40.599856",
+  "company_info": {
+    "company_name": "Waltlec",
+    "contact_address": "Townsville, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 3.33,
+    "system_quality_rating": 3.33,
+    "installation_rating": 4.67,
+    "customer_service_rating": 3.33,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "83902",
+      "reviewer_name": "Dorothy",
+      "reviewer_location": "QLD - 4818",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4818",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything went really well except for Ergon connecting my new meter - 7 weeks to get it connected",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Opal Solar",
+      "inverter_brand": "Delta",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_opal-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+      ]
+    },
+    {
+      "review_id": "9573",
+      "reviewer_name": "Joshua",
+      "reviewer_location": "QLD - 4817",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4817",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Kyocera Corporation (Other)",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 1.75,
+      "quality_of_system_rating": 1.0,
+      "panel_rating": 1.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    },
+    {
+      "review_id": "11571",
+      "reviewer_name": "Allyson",
+      "reviewer_location": "QLD - 4811",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4811",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-02-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Opal Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_opal-solar.png"
+    },
+    {
+      "brand_name": "Delta logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+    }
+  ]
+}

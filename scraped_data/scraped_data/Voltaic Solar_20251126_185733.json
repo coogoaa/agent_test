@@ -1,0 +1,112 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/voltaic-solar/",
+  "scraped_at": "2025-11-26T18:57:33.649150",
+  "company_info": {
+    "company_name": "Voltaic Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14148_31053ad0506e935470ca21b43cae98cf.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14148_f9a97ed4e88eeab44f2693afa0eb2089.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14148_9e605ce3bb6ad134bb55c54d861ceb6a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14148_e9aa2cebdb28a919e34609630508c269.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "129253",
+      "reviewer_name": "Yasir",
+      "reviewer_location": "NSW - 2765",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2765",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently had solar panels installed and was thoroughly impressed with the service. The entire process was remarkably straightforward, making it stress-free for me. The installer was incredibly proactive, answering all my queries and providing valuable insights to help me make an informed decision. The pricing was highly competitive, offering excellent value for money. The installation itself was smooth and completed in a timely manner. Overall, I am extremely satisfied with the service and would highly recommend it to anyone considering solar panels.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "129036",
+      "reviewer_name": "Ilkka",
+      "reviewer_location": "NSW - 2529",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2529",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We were expecting the installation to be done on Saturday early and they were right on time and delivered the best way possible without any problems. I  would recommend this company to anyone who is looking to install solar panels or as we did to replace the existing solar system and take it away for no extra costs",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "128475",
+      "reviewer_name": "Sea",
+      "reviewer_location": "NSW - 2141",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2141",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Service was excellentGood communication with sales personValue for moneyInstaller did very good job.Good explanation on how to manage with app.People are very nice",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "I don't know",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

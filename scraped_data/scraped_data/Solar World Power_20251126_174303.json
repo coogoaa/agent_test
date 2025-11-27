@@ -1,0 +1,95 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-world-power/",
+  "scraped_at": "2025-11-26T17:43:03.519246",
+  "company_info": {
+    "company_name": "Solar World Power",
+    "contact_address": "Sydney, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "125917",
+      "reviewer_name": "Rojesh",
+      "reviewer_location": "NSW - 2560",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2560",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently installed a 13kW solar system and chose Solar World after comparing several quotes ranging from $4,300 to $15,000. The process with Solar World was straightforward: I specified my preferred solar panels and inverter, and they provided a quote based on that.On the installation day, the electrician and two other team members arrived on time. They explained the installation process, took my preferences into account, and completed the installation efficiently. Afterward, they provided a thorough explanation of the setup, the inverter, and how to use the app, and they left the site clean and tidy.Despite other installers quoting $3,000 to $5,000 more for the same solar brand but with a non hybrid single-phase inverter insisting they have better workmanship and warranty, Solar World offered a relatively cheap price with better hardware. I installed:Trina 440W PanelsSungrow 3-Phase Hybrid Inverter (SH10RT)I want to give a special thanks to Reshma from sales and Kiro, the electrician, for their excellent service.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "125307",
+      "reviewer_name": "Faizan",
+      "reviewer_location": "NSW - 2212",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2212",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-08-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar world delivered an excellent service during our purchase because we have been answered all our questions with detailed explanation before we bought 13.2kw system. Reshma, Fareed and Ganesh are amazing people with all the technical knowledge related to solar system either the question relates to solar panel or solar inverter they have answered us patiently and satisfactorily.As far as their prices are concerns they have given us best price in the market. Reshma looked after us and tried to cater all our needs within our budget.Fareed has given us very detailed service to connect our Wifi with Inverter and explained all the features, how monitor solar power generation and how to troubleshoot if problem arises.They are best in the market. HIGHLY RECOMMENDED with five stars.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

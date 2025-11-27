@@ -1,0 +1,73 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/spider-solar-and-electrical/",
+  "scraped_at": "2025-11-26T18:11:31.936218",
+  "company_info": {
+    "company_name": "Spider Solar and Electrical",
+    "contact_phone": "0493 668 515",
+    "website_url": "https://spidersolarelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_c4c1b791bd1bdafa626317a9324c1406.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_d5f7268c371afce8e441bace67d06aa0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_c3ea7eb29afb9e54a51fd4adf8cd8901.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_32850e9e9e8ce750fde255ae99887d1d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_fcc87674afeac7fecdf2b9b367a73121.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_936627b07b5c2ed65e3b75414e5142a4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_2bd99991433f4174b3685ec15b7e629a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_a46cf2a94f0394c84b29a55b1761bddb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_06be4139c55fb241ba5e45a1a629417e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_b784efa8afebfe66b4b4662fe4c87132.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13986_82dd7c48ee9c88d51ae434e9777bf37a.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a2b1c173597c1d9d2ffcc47342848ed0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "121890",
+      "reviewer_name": "Terence",
+      "reviewer_location": "NSW - 2765",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2765",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote provided is very details including the product specifications and all installation work to be completed.The installation is very tidy and clean.The installer went through everything on how to use the product and offered to give him a call anytime if any issues arose. The product works straight away and no technical support is required.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a2b1c173597c1d9d2ffcc47342848ed0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a2b1c173597c1d9d2ffcc47342848ed0.jpg"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

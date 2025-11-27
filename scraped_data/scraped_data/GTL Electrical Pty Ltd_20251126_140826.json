@@ -1,0 +1,68 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/gtl-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T14:08:26.051057",
+  "company_info": {
+    "company_name": "GTL Electrical Pty Ltd",
+    "contact_phone": "07 4725 0689",
+    "website_url": "http://www.gtlelectrical.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "33427",
+      "reviewer_name": "Mark",
+      "reviewer_location": "QLD - 4811",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4811",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-08-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We are very happy with the service we received from Simon and Jye and the rest of the team at GTL Electrical.  I found them extremely easy to deal with from the moment I first contacted them to arrange a quote - Simon came to our house and took the necessary time to explain what they could offer - he followed up promptly with a quote providing us with various options.  I liked the idea of not being restricted to one particular product brand and was pleased to see their business premises was not full of stock waiting to be sold.  The installation was arranged once Ergon approvals were received - it was completed neatly and on time and the system appears to be working extremely well!  I would have no hesitation in recommending GTL Electrical to anyone seeking solar for a domestic or commercial property in the Townsville region.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Seraphim logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

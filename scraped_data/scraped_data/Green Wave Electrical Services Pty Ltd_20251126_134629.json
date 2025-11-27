@@ -1,0 +1,68 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-wave-electrical-services-pty-ltd/",
+  "scraped_at": "2025-11-26T13:46:29.774608",
+  "company_info": {
+    "company_name": "Green Wave Electrical Services Pty Ltd",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "110660",
+      "reviewer_name": "KAREN",
+      "reviewer_location": "VIC - 3232",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3232",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It’s early days, but I am very pleased with my new solar power system.Installation was fuss free; the installer provided clear explanations of the technology and the government support available; and the App is so easy to use. I have learned even more about minimising my power use without sacrificing comfort.The information on Finn Peacocks website is excellent.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Hanwha Q CELLS",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

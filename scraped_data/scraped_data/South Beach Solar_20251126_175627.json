@@ -1,0 +1,215 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/south-beach-solar/",
+  "scraped_at": "2025-11-26T17:56:27.166398",
+  "company_info": {
+    "company_name": "South Beach Solar",
+    "contact_phone": "0418 776 242",
+    "website_url": "https://southbeachsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12648_7c83517e392b0f52bfcdec6afd6a2f3e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12648_deb8684da20e1afd3f797fcd06f511b5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12648_21ee2bc0b29b22f263a983ac24e7d04e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12648_029e99c9756ce0368d20d48f130e7490.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12648_55758c19fa9ff7ade67811cae16dd118.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12648_3fe11fb08bbc54a9ccb41588856eb888.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "138496",
+      "reviewer_name": "Thorold",
+      "reviewer_location": "VIC - 3931",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3931",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting process was quick and painless, especially since we had an unusual roof and previous installers were lacking the expertise to install panels on this type of roof. South Beach Solar easily and competently installed the system, their work was of high standard, punctual and extremely neat. The installers were very polite and went about the installation in a very professional manner.South Beach Solar took care of all connections and rebates in a seamless fashion. We were shown how to use the system and the phone App which keeps the user abreast of all workings of the system.We did have a problem with a component of the system and this was delt with by South Beach Solar very promptly and cheerfully under warranty with no further charge to us.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "LG Chem",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_lg-chem.png"
+      ]
+    },
+    {
+      "review_id": "114735",
+      "reviewer_name": "Graham",
+      "reviewer_location": "VIC - 3934",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3934",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process was quick and seamless with all queries about product and installation process answered promptly.Installation was performed safely, professionally and without damage to property.Installation certified without any need to rework.Highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "105211",
+      "reviewer_name": "Trevor",
+      "reviewer_location": "VIC - 3934",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3934",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-11-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Jordan and his team were awesome.  He was so informative and so helpful.  Helped explain everything and the pros & cons of the different systems I was looking into.  Cant highly recommend them enough.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "99927",
+      "reviewer_name": "Anthony",
+      "reviewer_location": "VIC - 3940",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3940",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From coming out to meet me several times to quote up and give me fantastic advice to regular communication prior to the install, thanks to Jordan and his team. I’m thrilled with the result that the system has achieved. Highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "99926",
+      "reviewer_name": "Mary",
+      "reviewer_location": "VIC - 3942",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3942",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Highly recommend Jordan and his team! Communication was excellent throughout the entire process of selecting solar panels and battery, installation and setting up of monitoring system. Jordan and his team arrived when they said they would and always tidied up after themselves. The panels look great, the battery fits neatly in a corner of our garage and most importantly we are self sufficient for our energy needs. It’s great to be feeding clean electricity back into the grid. It is great to be able to support a local business. If you are thinking about solar panels contact South Beach Solar. They are fabulous, Thanks Jordan!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    },
+    {
+      "brand_name": "LG Chem logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_lg-chem.png"
+    }
+  ]
+}

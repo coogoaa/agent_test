@@ -1,0 +1,107 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/clean-energy-providers/",
+  "scraped_at": "2025-11-26T12:25:19.520901",
+  "company_info": {
+    "company_name": "Clean Energy Providers",
+    "contact_phone": "1300 202 555",
+    "website_url": "https://www.cleanenergyproviders.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/40b7bd47b4f698a85ddeea12b27eb8d20.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c1fbb3a71d47ee39c6c7f49de5078d961.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/40b7bd47b4f698a85ddeea12b27eb8d20.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c1fbb3a71d47ee39c6c7f49de5078d961.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "128486",
+      "reviewer_name": "Keith",
+      "reviewer_location": "QLD - 4275",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4275",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Having moved from the foot of the Blue Mountains NSW and purchasing a small property in Boyland QLD, we inherited a 14 year old 1.5kW PV solar system, complete with dead inverter and a pair of rusty old solar HW panels of the same vintage. With house, sheds, rainwater tanks, septic, pool and a bore to run, a complete replacement of solar was a no brainer.A Google search found SolarQuotes, with its wealth of information and independent insights into all things grid connected solar, and just as importantly, unbiased customer reviews of their experience with solar products and installers.Now armed with a pretty good idea on size, kit and cost of the replacement solar system we were after we requested and received 3 solar quotes from SolarQuotes vetted installers.  All 3 installers were in our general vicinity (just over the hill from the Gold Coast) and all were in touch within the week to discuss our requirements. Unfortunately only one of the installers had a SolarQuotes customer review to go by, but all suggested similar speced systems (Jinko or Canadian Solar PV and Sungrow 10kW inverter) and were within cooee of our cost expectations.The key differentiator for us was that only one installer took the time and effort to come out, view the property on the ground (not just from the air) and sit down face to face to talk through their quote, our expectations and various options. This made it much easier to refine our final requirements, while at the same time encouraging a bit of 'pencil sharpening' by the installer on final system components and cost.So, it was an easy and the right choice to go with Clean Energy Providers as it turned out. Nick, Blair, Michael and the whole team at Clean Energy Providers have been an absolute pleasure to work with throughout the whole pre-sales, contract, removal of the old system, installation, grid connection and post implementation support. They even helped arrange a plumber to isolate the rusty old Solar HWS panels, before removing these with the rest of the old system.The only minor hiccup was when the new Sungrow Hybrid 10kW inverter started throwing non-fatal faults a few days after installation, luckily with no impact on production. Clean Energy Providers hadn't seen the fault before and immediately referred it on to Sungrow, who identified an internal device fault, with the inverter thinking there was a battery attached when there wasn't. Sungrow were quick to shipping a new inverter and Clean Energy Providers had it installed in no time.We couldn't be happier with the end-to-end process and final installation and highly recommend Clean Energy Providers to anyone looking for a professional, customer focused and friendly team of solar installers.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "118892",
+      "reviewer_name": "Leslie",
+      "reviewer_location": "QLD - 4212",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4212",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Clean Energy Providers (CEP) were friendly and professional. They were prepared to quote and install on a 45degree 'A frame' roof. Three others suggested by solar quotes either, did not reply, were not interested or opted out at the last moment after providing what appeared to be a good quote. CEP was more expensive than the quote that dropped out. However I believe the 13.2kw system 30 panels (Trina) were better than the  of the original quote (Seraphim). Both included Sungrow inverter. CEP also clearly stated they would fully upgrade the switchboard and include a hot water service timer switch. CEP explained they would need to use two crews due to the slope. I accept this was a reasonable factor that added to the cost. They provided me with an installation date and said it would take 2 days. The CEP team of 4 men arrived on schedule- despite the very hot, humid and intermittent rain- and got the job done on time. There was one mishap, when one worker almost fell through the roof eaves, which damaged the soffit. But Nick from CEP had a carpenter out there that day to repair to be as good as new. CEP did all the liaison with the power company (Energex/Origin) for the feed in power and replacement of the meter. I could not have asked for better service and can strongly recommend Clean Energy Providers.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/40b7bd47b4f698a85ddeea12b27eb8d20.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c1fbb3a71d47ee39c6c7f49de5078d961.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

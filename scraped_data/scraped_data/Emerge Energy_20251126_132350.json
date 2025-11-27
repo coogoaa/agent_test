@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/emerge-energy/",
+  "scraped_at": "2025-11-26T13:23:50.025190",
+  "company_info": {
+    "company_name": "Emerge Energy",
+    "contact_phone": "0421 667 761",
+    "website_url": "https://emergeenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14444_1f81af12915c2cf0e8e2aa228f4eb80f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14444_3f44606a61ca96a34824827ec9a98d8a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14444_2ada50c482fe429061c67dbe7d69e159.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14444_0b7bf43239ff54e6f9c5b49e522db6ee.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14444_2a451eef493de0272c45e26aa95a31b1.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

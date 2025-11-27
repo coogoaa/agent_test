@@ -1,0 +1,73 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/etchs-electrical-and-communications/",
+  "scraped_at": "2025-11-26T13:18:20.394300",
+  "company_info": {
+    "company_name": "Etchs Electrical and Communications",
+    "contact_address": "Hobart, TAS",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/51911ccc78a9e2ea411d2176ad7c6d1a0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cb989044d297b3510951fe8a52d06ec61.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8c7b281c3cb0e5e9a7d1fb8c600a22f82.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/51911ccc78a9e2ea411d2176ad7c6d1a0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cb989044d297b3510951fe8a52d06ec61.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8c7b281c3cb0e5e9a7d1fb8c600a22f82.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "71478",
+      "reviewer_name": "Scott",
+      "reviewer_location": "TAS - 7277",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7277",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Etch's Electrical and Communications Services handled the sales quote and technical explanation very professionally with all pertinent information provided. We had detailed discussions with Paul Etchel regarding our requirements, which were extensive considering our installation of in-floor heating and also that our residence was not optimally aligned for solar. Paul organised an appraisal and provided a plan of the proposed installation together with details of all proposed equipment and held discussions with us regarding TASnetworks limits on the installation possibilities.The installation was done quickly and professionally. Paul and son Jason have an outstanding work ethic and even returned on a Saturday to ensure completion of the installation. The worksite was always left tidy with all mess and waste cleared up and taken off site each day.Customer service is exceptional and Paul Etchel organised for all planning and Council approvals to be done prior to installation and arranged for inspection and grid connection with TASnetworks and Aurora Energy once installation was completed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Huawei Sun 2000L Battery Ready 5kW inverters (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/51911ccc78a9e2ea411d2176ad7c6d1a0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cb989044d297b3510951fe8a52d06ec61.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8c7b281c3cb0e5e9a7d1fb8c600a22f82.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    }
+  ]
+}

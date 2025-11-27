@@ -1,0 +1,3 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+48944,Anon,VIC - 3933,VIC,3933,True,2018-06-15,15 June 2018,4.0,,,0,4.0,4.0,4.0,6kW,"$6,000 to $10,000",,,,False,[],0,0
+32276,Colin,VIC - 3469,VIC,3469,True,2016-11-11,11 November 2016,4.0,,,4.0,4.0,4.0,4.0,More than 6kW,"$10,000 to $15,000",,,,False,[],0,0

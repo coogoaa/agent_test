@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/stone-yy-electrical/",
+  "scraped_at": "2025-11-26T18:29:55.682248",
+  "company_info": {
+    "company_name": "Stone YY Electrical",
+    "contact_address": "Sydney, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "114007",
+      "reviewer_name": "Judy",
+      "reviewer_location": "NSW - 2234",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2234",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Prompt response to enquiry & quote clearly set out.Installation went smoothly. Installers were knowledgeable.Satisfactory customer service, grid connection explained.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "7kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Risen logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png"
+    },
+    {
+      "brand_name": "Solis logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+    }
+  ]
+}

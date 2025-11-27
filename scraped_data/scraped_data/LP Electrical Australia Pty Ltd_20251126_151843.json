@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lp-electrical-australia-pty-ltd/",
+  "scraped_at": "2025-11-26T15:18:43.190758",
+  "company_info": {
+    "company_name": "LP Electrical Australia Pty Ltd",
+    "contact_address": "Woolloongabba, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "92143",
+      "reviewer_name": "Ian",
+      "reviewer_location": "QLD - 4573",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4573",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales quoting process was painless.  A visit to site to view the roof line, location of panels and inverter etc, and to discuss our requirements and concerns was essential.The company representative was punctual, knew his business, volunteered/shared information, built confidence.The company customer service rep was very efficient and helpful, polite and reliable.  She explained the process and checked in after the install to ensure we were satisfied with the install, had any questions, and explained the next steps - all reassuring.The company submitted a service request on the energy provider to complete the connection.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "7kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hyundai Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

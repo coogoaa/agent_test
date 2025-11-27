@@ -1,0 +1,134 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/talk-energy/",
+  "scraped_at": "2025-11-26T18:05:16.013180",
+  "company_info": {
+    "company_name": "Talk Energy",
+    "contact_address": "Mt Pleasant, WA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/547800c63dc7a7b18067b469086deeaa0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0e55c43c32c4bb1c3f921bd73b878e471.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/547800c63dc7a7b18067b469086deeaa0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0e55c43c32c4bb1c3f921bd73b878e471.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "134106",
+      "reviewer_name": "Peter",
+      "reviewer_location": "WA - 6035",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6035",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was very impressed with the quick turn around from my first informative discussion to installation. They do an excellent payment plan as well! The management and Installers  who also were very informative as well and very respectful! After sales service was second to none! I have no hesitation in recommending this Company for your Solar needs.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/547800c63dc7a7b18067b469086deeaa0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/547800c63dc7a7b18067b469086deeaa0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0e55c43c32c4bb1c3f921bd73b878e471.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0e55c43c32c4bb1c3f921bd73b878e471.jpeg"
+      ]
+    },
+    {
+      "review_id": "129342",
+      "reviewer_name": "Fabian",
+      "reviewer_location": "WA - 6153",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6153",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The Talk Energy team excelled from my first interaction right up through to following up after install. A local company who delivers and stand behind their commitments.From the initial call to Talk Energy reception, the BD home visit the next day, installation supervisor pre-install inspection, back-office staff commercial requirements and install date confirmations, great installation team effort, all this plus Director oversight and technical query assistance. Work progressed as planned with clear timelines for the quote, pre-install inspection and installation.All the office staff were friendly and efficient. Patrick the Business Development Manager was polite, knowledgeable, flexible and accommodating. Dom and the installation team were on time, professional, safe, informative, clean and careful. Faran the Director was very accommodating and answered all my technical queries.My three-month solar journey had been very stressful.  I obtained numerous quotes from different suppliers and had signed with 4 other solar providers but end up cancelling those contracts due to either poor service, lateness or price increases from their original quotes provided.  The industry appeared to be swamped with cowboys or those unable to keep their commitments. But thankfully Talk Energy were able to walk the talk and deliver. 5 Stars!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "118234",
+      "reviewer_name": "Rhonda",
+      "reviewer_location": "WA - 6151",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6151",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The process was seamless from start to finish. The installers were efficient, polite and professional. The company organised all paperwork and grid connections.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Astronergy",
+      "inverter_brand": "SolaX Power",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_astronergy.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

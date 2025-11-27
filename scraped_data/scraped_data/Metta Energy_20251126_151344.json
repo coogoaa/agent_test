@@ -1,0 +1,33 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/metta-energy/",
+  "scraped_at": "2025-11-26T15:13:44.684076",
+  "company_info": {
+    "company_name": "Metta Energy",
+    "electrical_contractor_license": "NSW: 265448C, VIC: REC 25795",
+    "contact_phone": "1300 520 883",
+    "website_url": "https://www.mettaenergy.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11771_18497fe6fadef15ba9a1903d728e5af2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11771_81dd1285fbbf6ae22e328ee173cc63bc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11771_6f22fd17e7b56d87af1994cc747a33e0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11771_4c203e570bbb0e33f529214a7d48e74e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11771_978c9296f24c4b85ac9d7706992734ba.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11771_3de54f2a70099d08ed3886d0a72b8c37.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11771_87ed3c7ed3660bead02fbb079a5699c9.PNG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": true,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

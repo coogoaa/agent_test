@@ -1,0 +1,103 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/jdz-solar-and-electrical/",
+  "scraped_at": "2025-11-26T15:01:48.182769",
+  "company_info": {
+    "company_name": "JDZ Solar and Electrical",
+    "contact_address": "Lismore, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "113617",
+      "reviewer_name": "Stuart",
+      "reviewer_location": "NSW - 2470",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2470",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales Quotation process was mosthelpful and informative. Significant and large installations had been made by this Company in the Local Region. JDZ Solar are based locally, in close proximity to our residence.The installation went as pre-determined, Grid connection was organised as well.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "81690",
+      "reviewer_name": "Shane",
+      "reviewer_location": "NSW - 2470",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2470",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very easy, not intimidating or sales pitchy.Installation was easy & efficient, all bases covered they worked with me to install when it suited me, polite, tidy & punctual.Once again customer service was great they were very informative & accomodating with all aspects of the process.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

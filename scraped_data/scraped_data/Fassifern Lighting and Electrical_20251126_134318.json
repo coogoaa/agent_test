@@ -1,0 +1,107 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/fassifern-lighting-and-electrical/",
+  "scraped_at": "2025-11-26T13:43:18.166995",
+  "company_info": {
+    "company_name": "Fassifern Lighting and Electrical",
+    "contact_address": "Kalbar, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/47d6e4839c3139bca86cded3cd14f5f30.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/16ae74a0b7bd3811a87e231b2f646fa81.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/282547faa40771a29418e3e09ec2ce4f2.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/47d6e4839c3139bca86cded3cd14f5f30.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/16ae74a0b7bd3811a87e231b2f646fa81.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/282547faa40771a29418e3e09ec2ce4f2.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "112157",
+      "reviewer_name": "Craig",
+      "reviewer_location": "QLD - 4310",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4310",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Steve came out we discussed several options. The roof on my house isn't well shaped or oriented for the system I wanted.  Steve was willing to discuss alternative mounting locations with me, so we could install a system that I thought would best suit our needs.  Using the sheds, I had available and some tilt brackets, I ended up with an 8kW system facing north.  The solar system was about $1,500 dearer than mounting a similar system on the roof of my house.  It will, however, give better performance across the day, especially into the afternoon, which will be important during the summer months.The installation went smoothly and was finished to a high standard.  The team was there when they said they would be there and completed the job promptly.  They were willing to install a standard contactor for my Hot Water Service, which is coupled with my smart home, rather than insisting on a dumb timer. This will allow me to run the hot water when there is production capacity.Steve organised the grid connection and new meter installation as soon as the installation was completed.  While Energex and Orgin have dragged the chain (meter installation took 5 weeks after the EWR was submitted, and I'm still waiting for the relevant back-end systems to be updated 9 weeks later), this isn't the installer's fault.*Note: I do know the installer outside this business transaction. He was, however, required to provide a competitive quote and deliver a system to my expectations. If he had failed, I wouldn't have left any review.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Phono",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/47d6e4839c3139bca86cded3cd14f5f30.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/16ae74a0b7bd3811a87e231b2f646fa81.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/282547faa40771a29418e3e09ec2ce4f2.jpg"
+      ]
+    },
+    {
+      "review_id": "42575",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4310",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4310",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-01-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sae group Toowoomba did not contact me for about 1 month. They obviously did not adhere to the timetable quoted by SolarQuotes.By this time I had decided to go with a local electrician and entered a contract..",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Phono logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-brisbane-south-east-(solahart-qld)/",
+  "scraped_at": "2025-11-26T17:28:51.190267",
+  "company_info": {
+    "company_name": "Solahart Brisbane South East (Solahart QLD)",
+    "contact_address": "QLD",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "118570",
+      "reviewer_name": "Ted",
+      "reviewer_location": "QLD - 4511",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4511",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very efficient on the phone and on site discussing our needs. The installers were very efficient , tidy, polite and attention to detail, the connection to grid was all done and organised. all we had to do at all really was pay the invoice on completion",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "70666",
+      "reviewer_name": "Elaine",
+      "reviewer_location": "QLD - 4680",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4680",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had our SolarHart hot water system installed on 3/7/19. Great service from Ari in the Gladstone office, and Lindsay and Rob from Rayliz Plumbing did a fantastic job on installation and promptly came back when I had a query about hot water to kitchen. The distance is from the back of the house to the front for the water to travel, so it takes a long time to heat. Probably uses about 10litres of water at night before the water is hot enough to run for washing up water and a bit less during the day. I often boil the kettle, which is a bit annoying, as this is a faster way to heat the sink water, but a minor detail, as the shower water is great.The one thing I am really annoyed about is that the switch has been turned off, and not by us, to our solar panels ( which were already installed ) and not turned back on. We did not know this until we got a $600 electricity bill!!! After countless calls to SolarHart and also speaking personally with the Electrician, no-one would take responsibility as Ergon aren't able to pinpoint the exact date the switch was turned off.I was dissapointed that SolarHart management didn't just step up to the plate and admit that it must have been their mistake, going on the fact that we hadn't generated Solar energy for the ENTIRE 3month period we'd had the unit, yet for the entire 7.5 year period prior, that we'd had the solar panels, they'd generate 13.5.- 15KW/day, which equates to our bill being in credit by $520 each 3month bill and more in summer.So, in summary, I would recommend this product, but would urge any other potential customers with solar panels on their roof, to get both the Electician - who installs a booster switch into the power box- and the plumbers who install the unit, to double check before leaving that the switch for the solar panels are deffinately turned back to the ON position, so you don't find yourselves in the same position as us.I had been looking forward to getting our first power bill, since our SolarHart installation, so we could see how much we had saved.  Now we will just have to wait until the next bill.Not entirely happy customer :(",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "65279",
+      "reviewer_name": "Grant",
+      "reviewer_location": "QLD - 4211",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4211",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-06-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "58261",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4818",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4818",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-01-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

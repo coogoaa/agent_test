@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/renewable-energy-consultancy-services-pty-ltd/",
+  "scraped_at": "2025-11-26T16:37:57.060938",
+  "company_info": {
+    "company_name": "Renewable Energy Consultancy Services Pty Ltd",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.8,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "56103",
+      "reviewer_name": "Ed",
+      "reviewer_location": "NSW - 2161",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2161",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I bought the system 6 years ago and now the inverter is not working. The inverter has a 10 Year Warranty and so I would like a repair or replacement as it is still under a manufacturers warranty.I have written to all the people who I dealt with 6 years ago but my emails keep bouncing back.I rang Renewable Energy Consultancy but the phone is disconnected.I attempted to find them on line, but can't find them.I spent nearly $3000 on this system. The warranty gave me peace of mind. BUT, the installers have flown the coup.Don't know what to do next",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 1.0,
+      "system_size": "2kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

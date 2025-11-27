@@ -1,0 +1,4 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+48473,Jarred,VIC - 3401,VIC,3401,True,2018-06-02,02 June 2018,1.75,,,3.0,1.0,2.0,1.0,5kW,"$15,000 to $20,000",,Redback,,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_redback.png'],0,0
+30167,Michael,VIC - 3401,VIC,3401,True,2016-04-18,18 April 2016,5.0,,,5.0,5.0,5.0,5.0,5kW,"$3,000 to $6,000",,,,False,[],0,0
+11700,Nathan,VIC - 3395,VIC,3395,True,2012-03-07,07 March 2012,4.0,,I found your information very helpful.,4.0,4.0,4.0,4.0,5kW,"$10,000 to $15,000",,,,False,[],0,0

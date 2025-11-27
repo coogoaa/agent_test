@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dix-electrical/",
+  "scraped_at": "2025-11-26T12:50:55.488651",
+  "company_info": {
+    "company_name": "Dix Electrical",
+    "contact_address": "Nowra, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "17362",
+      "reviewer_name": "Dudley",
+      "reviewer_location": "NSW - 2540",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2540",
+      "reviewer_postcode_valid": true,
+      "review_date": "2013-01-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "System fully explained, shown all the parts that would be used. Told about the different inverters etc., Short wait time before installation. Three installers took about 5 hours to ensure job done correctly and advised best times to run dishwashers etc.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

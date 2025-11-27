@@ -1,0 +1,32 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/millair-energy-innovations-pty-ltd/",
+  "scraped_at": "2025-11-26T15:19:43.454096",
+  "company_info": {
+    "company_name": "Millair Energy Innovations Pty Ltd",
+    "contact_phone": "07 4700 7035",
+    "website_url": "https://www.millairenergyinnovations.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14397_4f182467f25f20619d054feb837cbf4a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14397_57c6ab2a6ea462b25c1e5bcd014595c5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14397_4918bf651202acdfe088893a96104acb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14397_1d334057ca2216c7fc69ef3ccaac915a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14397_3525a932e5ed257938dd75667b86ec04.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14397_df0d8c940794c8d37ee250cacd570d81.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14397_ba85a262ec2af983251b6b56d6a11d61.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

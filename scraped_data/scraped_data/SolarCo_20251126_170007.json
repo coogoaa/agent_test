@@ -1,0 +1,103 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solarco/",
+  "scraped_at": "2025-11-26T17:00:07.080373",
+  "company_info": {
+    "company_name": "SolarCo",
+    "contact_address": "Orange, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/19bf924c431a0da4fa6b4c74a691ad520.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a35e5d71a5e3e669f23c703bf2e060e71.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/19bf924c431a0da4fa6b4c74a691ad520.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a35e5d71a5e3e669f23c703bf2e060e71.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "73629",
+      "reviewer_name": "David",
+      "reviewer_location": "NSW - 2800",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2800",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-10-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Highly recommended supplier and installer. 3 options provided and no pressure to choose.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Opal Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_opal-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/19bf924c431a0da4fa6b4c74a691ad520.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a35e5d71a5e3e669f23c703bf2e060e71.jpeg"
+      ]
+    },
+    {
+      "review_id": "21333",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2800",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2800",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-01-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All the suppliers that contacted me through your company were prompt in getting a quote to me. In the end price and working with a local company were the reasons we chose to go with Solar Co. I personally contacted each of your potential suppliers and informed them of our choice.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Opal Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_opal-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

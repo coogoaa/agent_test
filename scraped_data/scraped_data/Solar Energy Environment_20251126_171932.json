@@ -1,0 +1,155 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-energy-environment/",
+  "scraped_at": "2025-11-26T17:19:32.442828",
+  "company_info": {
+    "company_name": "Solar Energy Environment",
+    "contact_address": "Wangaratta, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "26313",
+      "reviewer_name": "Philip",
+      "reviewer_location": "VIC - 3672",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3672",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-01-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Would recommend this firm to anyone--easy and pleasant to deal with and rapid response to all matters.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "SunEarth",
+      "inverter_brand": "Delta",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_sunearth.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+      ]
+    },
+    {
+      "review_id": "24476",
+      "reviewer_name": "Wayne",
+      "reviewer_location": "VIC - 3687",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3687",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-07-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Several other companies never bothered to follow up with us after their initial consultation.So the only option was to go with those who did provide follow up with good communication which gave us confidence in them.Thankyou Finn for guiding us through this complicated process with your much appreciated knowledge.Regards Wayne.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "SunEarth",
+      "inverter_brand": "Delta",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_sunearth.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+      ]
+    },
+    {
+      "review_id": "22849",
+      "reviewer_name": "Steve",
+      "reviewer_location": "NSW - 2646",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2646",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-01-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The organisation was very professional with paperwork and communication. I was also very impressed with the quality and expertise of the installers",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "SunEarth",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_sunearth.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "22826",
+      "reviewer_name": "Janet",
+      "reviewer_location": "NSW - 2642",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2642",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kylie from Solar energy environment was awesome to deal with. When they couldn't deliver a product they said they could (tilt frames for tile roof) we were offered a discount. They offer after sales service that they will make sure we will get the best value.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunEarth logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_sunearth.png"
+    },
+    {
+      "brand_name": "Delta logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+    }
+  ]
+}

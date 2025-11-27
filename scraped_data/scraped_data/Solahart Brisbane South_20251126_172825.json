@@ -1,0 +1,34 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-brisbane-south/",
+  "scraped_at": "2025-11-26T17:28:25.705351",
+  "company_info": {
+    "company_name": "Solahart Brisbane South",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14320_b4f23ec257a9c3b9a091bb645e02d98d.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14320_6271231a4a2973447245ae3d4e79e6bd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14320_97d5578fdee960633ca10fce06d27522.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14320_48485a7241e158f359931eefa4d8aaec.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

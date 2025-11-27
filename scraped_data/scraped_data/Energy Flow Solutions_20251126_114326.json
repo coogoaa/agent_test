@@ -1,0 +1,74 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energy-flow-solutions/",
+  "scraped_at": "2025-11-26T11:43:26.141624",
+  "company_info": {
+    "company_name": "Energy Flow Solutions",
+    "contact_phone": "0467 342 225",
+    "website_url": "https://www.energyflowsolutions.net",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14120_281be6d9117b5efbf926d37c412321c9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14120_cabea72c7aa335235830d3bc81f35c97.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14120_532c86feb0a2fe98d5e074eb3b672f2c.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14120_aff952588bcdd8ffa0b6ec4554d91884.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14120_ec51af42cbc90fc7cd7ab0564a05da3d.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "126237",
+      "reviewer_name": "Peter",
+      "reviewer_location": "NSW - 2330",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2330",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installers were very professional and pro active with the installation. They had to modify the plan and they did so very efficiently. The installers showed me everything needed with the inverter and the online app.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

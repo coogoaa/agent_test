@@ -1,0 +1,153 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/esmart-electrical/",
+  "scraped_at": "2025-11-26T13:13:43.901297",
+  "company_info": {
+    "company_name": "eSmart Electrical",
+    "contact_address": "Millicent, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "134161",
+      "reviewer_name": "Grant",
+      "reviewer_location": "NSW - 2039",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2039",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Fantastic communication and information from the E Smart team  for a first time solar system customer. Not the cheapest system available, but when looking into the quality of the components and how smooth they made every step of the process, we couldn’t be happier.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "68660",
+      "reviewer_name": "Maathew",
+      "reviewer_location": "NSW - 2748",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2748",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This is a one year review. A site visit was performed before installation. Installation was on a day where a little rain was expected. All workers were employed directly by the company and are electricians (or apprentice electricians). The faces on the website are who you get. Work was done right up until it we had a bit of a shower. Once cleared installation was finished that day. Installation was very neat (no ugly conduit). All necessary paper work was completed by eSmart. Once installation was completed a folder containing all my necessary documents was provided to me. Only a couple of roof tiles (concrete) were broken, which were replaced by my spares. Once operational I was shown how to use Enphase interface. I had one software problem months later which was rectified a few days later, via remote access.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "LG",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "61432",
+      "reviewer_name": "Philip",
+      "reviewer_location": "NSW - 2170",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2170",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-03-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Before I started looking for quotes I did a lot of reading on sites such as your and talking to people with systems installed (just wandered the streets of my neighbourhood), all very helpful, once I had an idea of what to look for I started with your site to get some quotes. I found the level of quotation service varied enormously. we have real shading issues and when I requested a site visit, the answer was something like \"are you ready to sign up\". NO come and assure me that my hard earned money is being spent efficiently. I was directed to e-smart solar by my friendly neighbourhood electrician and after contacting them and explaining my concerns, a sit visit was suggested before I asked. Not the cheapest but he won hands down. We have installed 18*LG 330w panels with Solaredge Optomisers and a Solaredge 6kW inverter.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "33907",
+      "reviewer_name": "Greg",
+      "reviewer_location": "SA - 5280",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5280",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-10-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

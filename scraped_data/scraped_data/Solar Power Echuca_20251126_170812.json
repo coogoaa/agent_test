@@ -1,0 +1,132 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-power-echuca/",
+  "scraped_at": "2025-11-26T17:08:12.893853",
+  "company_info": {
+    "company_name": "Solar Power Echuca",
+    "contact_phone": "0414 859 008",
+    "website_url": "http://solarpowerechuca.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1fb3bd6fda7ce7120672c906a07944d70.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d7a28c2add1e4c09f71957d69d708f151.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1fb3bd6fda7ce7120672c906a07944d70.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d7a28c2add1e4c09f71957d69d708f151.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "86745",
+      "reviewer_name": "IAN",
+      "reviewer_location": "VIC - 3555",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3555",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good local company. Excellent service. Installation was punctual and very neat work.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Solis (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+      ]
+    },
+    {
+      "review_id": "81106",
+      "reviewer_name": "COLIN",
+      "reviewer_location": "NSW - 2731",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2731",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Customer Service was thorough and the installation was seamless. All parties were friendly and did a neat and tidy job. I did not have to organize a thing.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1fb3bd6fda7ce7120672c906a07944d70.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1fb3bd6fda7ce7120672c906a07944d70.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d7a28c2add1e4c09f71957d69d708f151.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d7a28c2add1e4c09f71957d69d708f151.jpg"
+      ]
+    },
+    {
+      "review_id": "78679",
+      "reviewer_name": "Kevin",
+      "reviewer_location": "VIC - 3555",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3555",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-07-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar power echuca 6.6kw system great info, install and a nice crew of local guys.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Seraphim logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+    }
+  ]
+}

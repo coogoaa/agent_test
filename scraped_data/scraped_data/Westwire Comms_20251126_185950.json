@@ -1,0 +1,74 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/westwire-comms/",
+  "scraped_at": "2025-11-26T18:59:50.654216",
+  "company_info": {
+    "company_name": "Westwire Comms",
+    "contact_address": "Sunbury, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "112152",
+      "reviewer_name": "Neil",
+      "reviewer_location": "VIC - 3160",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3160",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process was informative and thorough. Installation was very well done. Neat with cabling ducted in the wall and job done in a punctual time scale. Site was left clean and tidy. Company followed through, with my retailer and distributor,   organising grid connection and plan changes for FIT. Could not be happier overall.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Solis logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+    }
+  ]
+}

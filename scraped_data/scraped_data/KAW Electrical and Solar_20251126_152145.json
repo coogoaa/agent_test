@@ -1,0 +1,116 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/kaw-electrical-and-solar/",
+  "scraped_at": "2025-11-26T15:21:45.218022",
+  "company_info": {
+    "company_name": "KAW Electrical and Solar",
+    "abn_number": "29864484190",
+    "contact_phone": "0476 479 835",
+    "website_url": "http://www.kawelectricalandsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13894_edda20ad06129f635abce2646e952386.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/48236b56a266bd3996c10e7a34ca7b800.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "25 Nov 2021K",
+      "abn_company_name": "K.a.w Electrical & Solar"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "124389",
+      "reviewer_name": "John",
+      "reviewer_location": "VIC - 3448",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3448",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kirk was an absolute pleasure to do business with. My house had an existing 5KW system that I wanted to increase capacity by using available roof space. I knew a second add-on system alongside the existing system was achievable, so sought out someone who was capable of doing that. Kirk was efficient and upfront with quoting exactly what was needed to install an additional system using 24 Jinko panels and 8KW Fronius inverter, and arrange grid connection. The install process was neat and professional, Kirk was a breeze to deal with, nothing was too much trouble and he willingly provided helpful information and advice. I had an excellent experience and recommend KAW Electrical and Solar for your solar system supply and install.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/48236b56a266bd3996c10e7a34ca7b800.jpg"
+      ]
+    },
+    {
+      "review_id": "118737",
+      "reviewer_name": "Adrian",
+      "reviewer_location": "VIC - 3461",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3461",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kirk was efficient and upfront with quoting outling exactly what was need to install a solar battery.The install process  was extremely neat and professional.Kirk was a breeze to deal with.Would highly recommend KAW ELectrical and Solar for your battery install",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 3.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

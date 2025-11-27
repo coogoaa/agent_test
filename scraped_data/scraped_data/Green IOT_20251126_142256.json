@@ -1,0 +1,243 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-iot/",
+  "scraped_at": "2025-11-26T14:22:55.999936",
+  "company_info": {
+    "company_name": "Green IOT",
+    "company_description": "\"Operating since 2019, Green IOT is a specialist renewable energy company offering residential and commercial solar panel installations, battery storage solutions, and EV charging systems.As a NETCC Approved Solar Seller (formerly CEC Approved Solar Retailer ), Green IOT has been helping thousands of families and businesses solve the challenge of unreliable power supply and rising energy costs.\"",
+    "electrical_contractor_license": "NSW: 346121C, SA: PGE 306297",
+    "contact_phone": "1300 211 230",
+    "website_url": "https://www.greeniot.com.au",
+    "awards_recognition": null,
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12967_a3d2c0b6d46271a0377ce8360d5ba606.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12967_b4a344354c9c0fda8322e444a0b6f2eb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12967_b74325f65cad8afe09e78207db445069.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12967_18efe22ffecccbd0319782f49195462e.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7080dad6a55439b902553a70e1c1f4ec0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/6825d4955cd9c5d87a68c8e72f6e36751.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.83,
+    "installation_rating": 4.83,
+    "customer_service_rating": 4.83,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "129070",
+      "reviewer_name": "Gerry",
+      "reviewer_location": "NSW - 2151",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2151",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "GreenIOT are based very close to where I live.Last year a retired engineer neighbour maxed out his roof space with one of their systems, he has been delighted with its performance.Over a couple of visits to discuss with Ted, we arrived at a 14.96kW panel system.2 Inverters.. LG hybrid for the battery side and a Sungrow for the front panel system.I had an existing 13 year old 2.7kW NE facing system with a Zantrex inverter that was fully paid off.Due to current domestic arrangements it was very obvious that I had to rethink solar power and install a battery.WFH and use of the house as a Sydney base by adult children and partners was a major factor.I had the advantage of being able to analyse over a year of data from a Powerpal monitor so I was very aware of my consumption needs and patters.I also had detailed records on how the old system performed so had a good idea of what to expect.Install took 2 days.Front system was operational mid afternoon on Day 1. Site was tidied at the end of the day.Day 2 was the battery and back up swap over system install.The install needs were rather complex as the house fusebox is on a NW facing wall that gets blasted by sun from about 11am. So the system was installed on the garage external wall on the cool and shaded side of the house.Customer Service.Unfailingly polite.A couple of times the crew clarified installation changes in the light of the detail work on the house.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "LG Energy Solution",
+      "battery_brand": "LG Chem",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_lg-energy-solution.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_lg-chem.png"
+      ]
+    },
+    {
+      "review_id": "126731",
+      "reviewer_name": "Bruce",
+      "reviewer_location": "NSW - 2145",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2145",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quotation is simple and not pushy.We got 2 x 5kW Huawei inverters with 30 Longhi panels. Technicians arrived and completed installation within a day, they cleaned up and took all rubbish away.GreenIOT organised grid connection and provided instructions to install APP to track power generation",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "104234",
+      "reviewer_name": "Jing",
+      "reviewer_location": "NSW - 2153",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2153",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-10-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote process was perhaps the most complicated one during the course, after comparing all quotes from different suppliers and detailed explanations on different options from Green IOT I have decided to go ahead with Green IOT for 6.6kw Qcell peak duo panels and a 5kw Sungrow hybrid inventor with the option of adding battery in the future.The system was installed only days after deposit payment and the panels were placed in a way best suited our roof layout.Green IOT helped us to apply for changing the traditional electricity metre into a new smart metre.Very happy with the system and overall process from quoting to installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Hanwha Q CELLS",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7080dad6a55439b902553a70e1c1f4ec0.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/6825d4955cd9c5d87a68c8e72f6e36751.jpg"
+      ]
+    },
+    {
+      "review_id": "80458",
+      "reviewer_name": "Tony",
+      "reviewer_location": "NSW - 2137",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2137",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-04-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quality Tier 1 Jinko Tiger panels and GoodWe 6.0 kW 3MPPT inverter with long warranties 20/30 yr and 10 yr respectively.Efficient installation 1 dayOrganised Smart meter about to be installedOrganised STC.Final payment was a net paymentGreen IoT have a 10 yr warranty on installationNo shading problems.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "84372",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2121",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2121",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-12-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "83384",
+      "reviewer_name": "KEVIN",
+      "reviewer_location": "NSW - 2154",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2154",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Ted from Green IOT is very responsive and explained lots of details. He helped me picked a more suitable system with a very competitive price.Installation went pretty well. Took much longer than I thought though. Actual installation started around 9am and finished at 4pm. Tidy installation, their team picked up all rubbish when they left and the finished system looks neat.Quality is too early too tell. So far all good.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "LG Energy Solution logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_lg-energy-solution.png"
+    },
+    {
+      "brand_name": "LG Chem logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_lg-chem.png"
+    }
+  ]
+}

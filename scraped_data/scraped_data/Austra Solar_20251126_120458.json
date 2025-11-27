@@ -1,0 +1,87 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/austra-solar/",
+  "scraped_at": "2025-11-26T12:04:58.374414",
+  "company_info": {
+    "company_name": "Austra Solar",
+    "contact_address": "Chippendale, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29c0ca0ac585298ff5d93d259ede03d50.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29c0ca0ac585298ff5d93d259ede03d50.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 1.0,
+    "value_for_money_rating": 1.0,
+    "system_quality_rating": 1.0,
+    "installation_rating": 1.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "139223",
+      "reviewer_name": "Lijo",
+      "reviewer_location": "QLD - 4154",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4154",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very disappointing experience with Austra Solar.I paid a deposit in June 2025 for a solar installation, but as of October 31, 2025, the system has still not been installed. The company has revised the quotation three times, each time increasing the price instead of honouring the original agreement.Their communication has been inconsistent, and there’s been no clear timeline or commitment to complete the job. I feel this is unprofessional and misleading — customers should not have to wait months or deal with constant price changes after paying a deposit.Would not recommend based on my experience.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "20kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29c0ca0ac585298ff5d93d259ede03d50.jpg"
+      ]
+    },
+    {
+      "review_id": "138429",
+      "reviewer_name": "Ben",
+      "reviewer_location": "NSW - 2031",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2031",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I made a $300 deposit on a large battery/inverter purchase with Solar Power Nation subsidiary Austra Solar on 30 June 2025. After trying to find Austra Solar's \"head office\" in Chippendale in early August so that I could have a chat to them about how I wanted to configure the scoped system with my existing battery, I realised that Austra don't have a physical presence, and were a mere sales and marketing outfit - less diplomatically put, a scam factory. I immediately requested a refund on my deposit (payment receipt PA-4142, mentioned here to avoid their bullsh*t default \"Dear Customer, We are sorry to hear you had a frustrating experience. Unfortunately, we can't trace you as our customer. Please share your quotation or invoice number and we will look into the matter with utmost priority. Regards, SPN Online\" response) on 9th August. After no response to multiple emails and they having blocked my mobile number, I went to NSW Fair Trading and commenced action against them.Bizarrely, the same scammer that accepted my deposit actually rang me - after 6-7 emails sent to him demanding a refund - and tried to upsell me on an even larger battery. Their modus operandi of seeking to prey upon customer naivety and greed at deals which don't actually exist (if it seems too good to be true, it is too good to be true) didn't allow this clown to comprehend that I was fair dinkum about coming after them to get my money back.Anyway - NSW Fair Trading, via the NSW Building Commission, eventually got formal correspondence to Austra Solar. I received an email chain confirming the deposit return and it was returned earlier this week, two months after I first requested it in writing.The lesson? Talk to friends and family about their experience with good, reputable suppliers/installers. Don't go hunting for the cheapest price online, as those deals either don't exist or the install will be so cheap and crappy that the otherwise decent kit just won't function or perform. If these scammers do have your money, go through the formal channels re: recovery, be persistent and remain patient.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

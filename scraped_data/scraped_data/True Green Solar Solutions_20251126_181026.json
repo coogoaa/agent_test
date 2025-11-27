@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/true-green-solar-solutions/",
+  "scraped_at": "2025-11-26T18:10:26.159209",
+  "company_info": {
+    "company_name": "True Green Solar Solutions",
+    "contact_address": "SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "31946",
+      "reviewer_name": "Maura",
+      "reviewer_location": "SA - 5114",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5114",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-10-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My system was installed within 1 week.My metre was running backwards before the installers left my place.Mike (Business Manager) was lovely and very helpful.The installers were very informative and answered all my questions.System looks great and invertor looks robust and user friendly.Its only early days but so far I am very confident with my purchase.Later i hope to upgrade my ratings but I only had the system installed recently and I like to wait until I see the full benefits before I do that",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

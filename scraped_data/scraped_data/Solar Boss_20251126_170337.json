@@ -1,0 +1,103 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-boss/",
+  "scraped_at": "2025-11-26T17:03:37.601903",
+  "company_info": {
+    "company_name": "Solar Boss",
+    "contact_address": "Derrimut, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.5,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "131955",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "VIC - 3042",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3042",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Terrific experience from start to finish, sales process and funding sorted in record time, and installation of the 6.6kv system went without a hitch…..the system has been operating now for almost a month now, and hasn’t missed a beat…..I highly recommend Solar Boss to anyone seeking solar options ???",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "107435",
+      "reviewer_name": "Gary",
+      "reviewer_location": "VIC - 3088",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3088",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar Boss were easy to deal with, were happy to supply alternative quotes on different researched components and whilst they were not the cheapest, they promised quick installation which they did once approval was gained.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

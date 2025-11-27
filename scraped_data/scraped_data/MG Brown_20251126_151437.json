@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mg-brown/",
+  "scraped_at": "2025-11-26T15:14:37.013120",
+  "company_info": {
+    "company_name": "MG Brown",
+    "contact_address": "Ballarat, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "11751",
+      "reviewer_name": "Neville",
+      "reviewer_location": "VIC - 3370",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3370",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "On site inspection was the same day when I got the quote. They're based locally. I found the staff very friendly. John [salsesman] checked our house to find any power waste. Paperwork to power supplier and powercor submitted by installer. Power supplier dropped 5c off kw/h on a two year fixed contract. Installation to start 29.3.2012.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

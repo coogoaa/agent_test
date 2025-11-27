@@ -1,0 +1,128 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/northern-sky-electrical/",
+  "scraped_at": "2025-11-26T15:29:00.957408",
+  "company_info": {
+    "company_name": "Northern Sky Electrical",
+    "contact_address": "Cairns, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.6,
+    "value_for_money_rating": 3.67,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 2.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "27813",
+      "reviewer_name": "Rodney",
+      "reviewer_location": "QLD - 4869",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4869",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-06-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Two quotes compared. Both for 5Kw system. Q-cell 265 watt panels versus LG 315 watt panels. Decided to go with LG panel quote as product information and physical inspection of these panels appear both technically superior and weather proofing ( in Cairns, particularly relevant) has extra coatings. Manufacturer's warranty claims appear appropriate. Have no problems with other LG products owned. Next test will be installation process.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 2.5,
+      "quality_of_system_rating": 3.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    },
+    {
+      "review_id": "27362",
+      "reviewer_name": "Pat",
+      "reviewer_location": "QLD - 4870",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4870",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-05-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Greg has been back to check that all is working satisfactorily.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/fd00d9270a9e5b2b8e034cf969ccf6a2.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/f69703e12c9ac57855fb9dda99ec9134.JPG"
+      ]
+    },
+    {
+      "review_id": "29923",
+      "reviewer_name": "Rod",
+      "reviewer_location": "QLD - 4869",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4869",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-03-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I paid slightly over the odds to get quality panels and inverter. Problems arose after about 3 weeks when auto alarm via inverter to email ceased to function. Later, system went off line from sundown to sunset for 22 days straight. In both instances Greg( NSE proprietor) stated he would look into it with ABB. I would still be waiting, given he did not get back to me and it was not fixed, I contacted ABB customer service in both instances and fix was arranged. If you buy from NSE, possibly do not expect after sales service based on this experience with me.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 2.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LG logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png"
+    },
+    {
+      "brand_name": "Fimer logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+    }
+  ]
+}

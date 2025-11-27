@@ -1,0 +1,71 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/stag-solar-and-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T18:18:17.233802",
+  "company_info": {
+    "company_name": "Stag Solar and Electrical Pty Ltd",
+    "contact_phone": "0421 313 505",
+    "website_url": "https://stag.energy/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13061_53f85b5efea9d8f91c21c2b71926ea1b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13061_131ccb9f4c98d0140eec68968c76f257.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13061_5b8c3724104b943d159b73b998679701.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "126862",
+      "reviewer_name": "Will",
+      "reviewer_location": "NSW - 2529",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2529",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had the team from Stag come in an upgrade my 14 year old system.  The pre-sale work was excellent.  The team was happy to spend time with me on the design and answer any of the questions I had.For the install they contacted me to advise the gear had come in early and they could install tomorrow (originally suggested it may be a couple of weeks).The install team arrived in force in the morning when they said they would.  The team was very professional and polite and went out of their way to make sure we understood exactly what was going on.  We had a couple of minor issues with the existing battery, but team contacted the battery support team and worked through the problems.Overall a thoroughly professional effort.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

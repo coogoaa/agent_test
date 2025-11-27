@@ -1,0 +1,68 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/jn-solar-and-power-solutions/",
+  "scraped_at": "2025-11-26T15:09:46.601452",
+  "company_info": {
+    "company_name": "JN Solar and Power Solutions",
+    "contact_address": "Central Coast, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.3,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "4059",
+      "reviewer_name": "MARK",
+      "reviewer_location": "NSW - 2447",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2447",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I conducted a lot of reasearch before deciding to go solar. I had several company reps visit and provide quotes, but I found when talking to most of them they would only discuss the proposed raise in REC prices and, at that time, the NSW govts pending decision to reduce tariffs when I mentioned it, they were not really forthcoming in parting with too much info. Some attitudes also changed once I was able to discuss some of the technical points with them, such as difference between poly/mono crystalline panels, and drop some of the better performing panel names. All of the reps were pretty open about the benefits and limitations of their product, compared to my own research into the topic.My advice to anyone considering solar? read as much as you can find online, do your research into the difference between the mono and poly crystaline panels, the quality, reputation and output of the various panel makers, and the same for inverters. It may also be worthwhile to lock into the gray matter the names of some of the better rated Chinese panels, and which 'brand' panels are now actually made in China anyway. It made a big difference with some reps once they knew that I had a basic understanding of the process and was not relying on them to tell me what it was all about.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 3.0,
+      "system_size": "3kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Sunrise",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 3.33,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_sunrise.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/p1769gka8fr6p8f914o71i161rfr1.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/p1769gka8fr6p8f914o71i161rfr1.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sunrise logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_sunrise.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

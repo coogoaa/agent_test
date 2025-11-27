@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dcm-solar/",
+  "scraped_at": "2025-11-26T13:32:58.722239",
+  "company_info": {
+    "company_name": "DCM Solar",
+    "contact_address": "Balmain, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.4,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 3.5,
+    "installation_rating": 3.5,
+    "customer_service_rating": 3.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "548",
+      "reviewer_name": "John",
+      "reviewer_location": "QLD - 4556",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-08-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 3.0,
+      "system_size": "1.5kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "Conergy",
+      "inverter_brand": "Solar Energy Australia",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "quality_of_system_rating": 3.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_conergy.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solar-energy-australia.png"
+      ]
+    },
+    {
+      "review_id": "2057",
+      "reviewer_name": "Peter",
+      "reviewer_location": "NSW - 2081",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2081",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-08-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "1.5kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Conergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_conergy.png"
+    },
+    {
+      "brand_name": "Solar Energy Australia logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solar-energy-australia.png"
+    }
+  ]
+}

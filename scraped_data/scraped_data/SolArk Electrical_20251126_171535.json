@@ -1,0 +1,37 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solark-electrical/",
+  "scraped_at": "2025-11-26T17:15:35.399051",
+  "company_info": {
+    "company_name": "SolArk Electrical",
+    "contact_phone": "0458 777 445",
+    "website_url": "https://solark.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14346_3756e0f7650008570f0fe474eaa6ea73.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14346_c03d53b70feba4ea842510abecd6c45e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14346_b79b0d6fbd0a569c798de4a34415b2e4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14346_6271231a4a2973447245ae3d4e79e6bd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14346_b4f23ec257a9c3b9a091bb645e02d98d.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

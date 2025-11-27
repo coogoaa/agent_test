@@ -1,0 +1,143 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sun-juice/",
+  "scraped_at": "2025-11-26T18:39:55.603512",
+  "company_info": {
+    "company_name": "Sun Juice",
+    "contact_address": "QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.3,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 3.25,
+    "installation_rating": 3.0,
+    "customer_service_rating": 3.5,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "99083",
+      "reviewer_name": "Pris",
+      "reviewer_location": "QLD - 4655",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4655",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had a system quoted and installed.  From the start the sales rep tended to have bad attitude and was quite arrogant.Simple questions were generally answered but was like pulling teeth.Install got put off and delayed a few times due to weather which I was happy to work with them on.  Install was quite sloppy and untidy, conduits loose and not aligned on the wall, screw fasteners loose, exposed DC cables near the inverter itself.   There is only the DC isolator in the invertor itself, no separate isolation for the panels.  This no doubt meets the minimum AS however is still a poor design.The cover over the inverter that was fitted is poorly done to a substandard degree of workmanship, it is loos, sits approx 2cm off the wall and is supported by to narrow allot tubes that sit on the render and are damaging the render.There is NO support at all, when I asked for assistance to set up the app I was told in a very rude and arrogant manner to go look it up myself on the net.  Really?  Again when the invertor was continuously faulting there was no support and I had to go directly to the invertor manufacturer who fortunately were able to apply the necessary configurations changes.I was advised all my paperwork would be posted out in 2 weeks, over a month and no paperwork and yup no reply to my queries.Saves yourself a lot of angst and do not use them   RUDE, ARROAGANT and CONDECENDING.  Really regret using them.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "92399",
+      "reviewer_name": "Vanessa",
+      "reviewer_location": "QLD - 4650",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4650",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting were clear, concise and an easy process. Installation on our garage was not intrusive, Craig from Hervey Bay came to check how the work was progressing. they were a little late as had been held up on another job but they stayed till the job was finished. Helped us after installation with the pocket WIFI to monitor and explained everything fully. The Customer Handover Documentation booklet  is very impressive with the information all in easy understandable language with some witty comment also. Thanks to all from Vanessa & Gavin",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "7kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "65712",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4650",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4650",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-07-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with presentation, price and the method in which he explained the system to us.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "25676",
+      "reviewer_name": "Col",
+      "reviewer_location": "QLD - 4655",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4655",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-03-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Hard to buy from City businesses when you live in the country.We wanted to shop locally",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

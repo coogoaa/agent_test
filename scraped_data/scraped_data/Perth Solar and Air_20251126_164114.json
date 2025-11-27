@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/perth-solar-and-air/",
+  "scraped_at": "2025-11-26T16:41:14.873663",
+  "company_info": {
+    "company_name": "Perth Solar and Air",
+    "contact_phone": "0451 714 727",
+    "website_url": "https://perthsolarandair.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14392_c6f4262cc7bb575b210efd0ef687d28f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14392_736e1f1ecc530ac7227fd0ea44ed9710.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14392_91f007f20cb7aa1a799c601e8c79665a.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14392_68f85e8e4ecb272083b5042f8f4e16d4.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

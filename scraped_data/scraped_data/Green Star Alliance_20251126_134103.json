@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-star-alliance/",
+  "scraped_at": "2025-11-26T13:41:03.918848",
+  "company_info": {
+    "company_name": "Green Star Alliance",
+    "contact_address": "Melbourne, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.0,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 3.5,
+    "installation_rating": 3.5,
+    "customer_service_rating": 1.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "9247",
+      "reviewer_name": "Rick",
+      "reviewer_location": "VIC - 3131",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3131",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I am still waiting on the inspection and hookup to the grid. I understand that it's a very busy time at the end of june, but I feel like I am in the dark as to where the process is up to ?I don't even know if all my documents are with the network supplier or retailer.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 2.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Beyond Building Group (Other)",
+      "inverter_brand": "Sunny Roo Products",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 3.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sunny-roo-products.jpg"
+      ]
+    },
+    {
+      "review_id": "9377",
+      "reviewer_name": "Ian",
+      "reviewer_location": "VIC - 3088",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3088",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-07-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "At point of sale I was promised the system would be installed before the end of the financial year, June 30. I later found out that the company had signed up over 600 other systems in that period and had no chance of fitting my system within that time frame. It was not until I rang Green Solar Alliance that any contact was made to advise me the system would be late. I had to make 3 further follow up calls, whinging, over the next three weeks to finally have an installer ring me with a fitment date. I would have been happy at the sign up at the time if I was advised the system would not be fitted for 2 months but for the salesman to lie and tell me it would be fitted in the next 3 weeks is disgusting. Honesty is always the best policy.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sunny Roo Products logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sunny-roo-products.jpg"
+    }
+  ]
+}

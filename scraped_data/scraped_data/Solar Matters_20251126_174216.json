@@ -1,0 +1,146 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-matters/",
+  "scraped_at": "2025-11-26T17:42:16.281026",
+  "company_info": {
+    "company_name": "Solar Matters",
+    "contact_address": "Point Cook, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.75,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "114630",
+      "reviewer_name": "Jimmy",
+      "reviewer_location": "WA - 6023",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6023",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Happy with the solar installation. Happened within a week. Fast work with two teams working on a double storey home with multiple roof surfaces.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "114567",
+      "reviewer_name": "James",
+      "reviewer_location": "WA - 6026",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6026",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Could not have been happier with how things went. The install was completed within a day and everything was cleaned up perfectly. We were shown how to use the app and can see how much power our system in creating. Very happy with the whole process.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "114547",
+      "reviewer_name": "Kylie",
+      "reviewer_location": "WA - 6026",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6026",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After our last panels caught fire we were in need of a new system. We looked into a few quotes and Alex and his team came back with the best service and reasonable price. Explained everything so we understood what was happening. We couldn’t be happier with their prompt, professional service, on time and left everything very neat and tidy.Thanks to all the team at Solar Matters",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "68773",
+      "reviewer_name": "William John",
+      "reviewer_location": "VIC - 3028",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3028",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "1.  Visited the property, honest and non-evasive response to questions, helpful.2.  A totally professional and pleasant installation team.3.  A complete customer service was given and I feel confident that the service would continue after the system is fully commissioned",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$1,000,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

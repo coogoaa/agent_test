@@ -1,0 +1,191 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/marshall-solar-and-energy/",
+  "scraped_at": "2025-11-26T14:50:53.904336",
+  "company_info": {
+    "company_name": "Marshall Solar and Energy",
+    "contact_phone": "1800 826 676",
+    "website_url": "https://marshallsolarandenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b7fc856e4e4f1eb74079ec47330224c50.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e1963e77933953eb110fc43d6ef59b411.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b7fc856e4e4f1eb74079ec47330224c50.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e1963e77933953eb110fc43d6ef59b411.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.2,
+    "system_quality_rating": 4.4,
+    "installation_rating": 4.6,
+    "customer_service_rating": 4.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "115186",
+      "reviewer_name": "Alex",
+      "reviewer_location": "TAS - 7050",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7050",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-10-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Prompt responses right from the assessment and quote (even after hours). Installation was delayed but that was due to adverse weather. Everyone was respectful and worked efficiently with no significant interruption to the household. All the necessary dealings with other agencies and providers were taken care of eith minimal fuss. Well done and thank you to Matthew, Chris, Oscar and Joe at Marshall Solar & Energy.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Winaico",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b7fc856e4e4f1eb74079ec47330224c50.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e1963e77933953eb110fc43d6ef59b411.jpg"
+      ]
+    },
+    {
+      "review_id": "110740",
+      "reviewer_name": "Stuart",
+      "reviewer_location": "TAS - 7011",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7011",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-05-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installers arrived on time, finished the work in a timely manner.  We were then shown how to check the panel.  Authorised inspector advised that the installation was a very neat installation. That the placement of the panels and the inverter was excellent and labelled correctly.  An excellent installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "I don't know",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+      ]
+    },
+    {
+      "review_id": "108264",
+      "reviewer_name": "Graham",
+      "reviewer_location": "TAS - 7177",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7177",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had a 5.5 kWh system put in by the Sorell branch of Marshall Solar. No issues there. The system is good and the installation was fine, BUT, twice our inverter has gone off with a fault message to contact the company. We do this and are told they will be there the next day. They dont show up. We repeat, and repeat. So far this time it has bern 10 days, with a phone call to them almost every day. They are running out of their list of excuses. Meanwhile it is costing us money as we have no solar power. So unimpressed. System is still under warranty. Service is as important as quality of insyallation. Certainly will not be recommending this company",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "64522",
+      "reviewer_name": "Rosanna",
+      "reviewer_location": "TAS - 7310",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7310",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-05-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We live in Sydney and after trying a few companyâ€™s to put in solar into our new home in Tasmania and not receiving one reply we were about to give up.I went again on the net and found Matthew straight away his professional nature came through.Within two days we had a quote and a date for installation.Two lovely guys came to install and have done an amazing job.We may have paid slightly more but we got quality panels and fantastic service, we could not recommend them more.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "62229",
+      "reviewer_name": "Lara",
+      "reviewer_location": "TAS - 7009",
+      "reviewer_state": "TAS",
+      "reviewer_postcode": "7009",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-04-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Winaico logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

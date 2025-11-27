@@ -1,0 +1,72 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/velocity-energy/",
+  "scraped_at": "2025-11-26T18:35:21.413408",
+  "company_info": {
+    "company_name": "Velocity Energy",
+    "contact_address": "Brendale, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "101028",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "SA - 5018",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5018",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From first contact to follow up, the communication from the team at Venergy was professional and top notch.They were very detailed at outlining the system, the good elements and trade-offs for the various selections, and honest and up front about all the options.Throughout the all phases of my install (consultation, sales, install, post-install), they were more than happy to discuss and go through any questions I had, and made themselves available.Preparing for install was a breeze, with good communication on install dates, and called me the day before also to check that everything was on track.Installers were professional and did a great job. On both visits (one for panel install, one for battery install) they took the time to walk me through anything and were more than happy to answer questions.They arrived on time and were very tidy.I had a minor hiccup with the battery install, however when informing Venergy, they did not shy away from the issue, and made sure that it was fixed to my satisfaction, and they did all they could in their power to make it right. They kept me informed at every step of the way, and even keeping me in the loop when there were no updates yet, but just to let me know that they hadn't forgotten me. They seem to be committed to long-term customer satisfaction, and clearly, they are not fly-by-night operators.When comparing prices with other installers, they were about on-par with other quotes for like for like.When I intend to expand my existing system, I will have no hesitation to engage Venergy again.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Delta",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "Delta logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+    },
+    {
+      "brand_name": "Tesla Powerwall 2 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

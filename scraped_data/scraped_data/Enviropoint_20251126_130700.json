@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/enviropoint/",
+  "scraped_at": "2025-11-26T13:07:00.419015",
+  "company_info": {
+    "company_name": "Enviropoint",
+    "contact_address": "Kirrawee, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "738",
+      "reviewer_name": "Alex",
+      "reviewer_location": "NSW - 2527",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2527",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-06-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

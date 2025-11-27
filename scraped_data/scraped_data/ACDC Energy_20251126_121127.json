@@ -1,0 +1,115 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/acdc-energy/",
+  "scraped_at": "2025-11-26T12:11:27.594971",
+  "company_info": {
+    "company_name": "ACDC Energy",
+    "contact_address": "Toowoomba, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "71928",
+      "reviewer_name": "Rachel",
+      "reviewer_location": "QLD - 4455",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4455",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great to speak to, got back to me straight away and were professional.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Risun Technology",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "65627",
+      "reviewer_name": "Paul",
+      "reviewer_location": "QLD - 4350",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4350",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-06-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Bought the system under the Qld Government Grant and loan scheme, fantastic value and makes the system really affordable , and reassuring to have the Government approved installers with the system checked by another Auditor, it was rated as Industry best practice, very happy!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "Redback",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_redback.png"
+      ]
+    },
+    {
+      "review_id": "43202",
+      "reviewer_name": "Carol",
+      "reviewer_location": "QLD - 4401",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4401",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-01-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thank you Finn for the great information. We received a very good quote as well and very detailed. Perhaps they were a close second quote. I went for quality as opposed to cheap. And the local company were the ones in the end. It has given me a greater understanding of the solar systems. Thank you for you help.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

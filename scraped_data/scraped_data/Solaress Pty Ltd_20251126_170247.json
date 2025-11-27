@@ -1,0 +1,97 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solaress-pty-ltd/",
+  "scraped_at": "2025-11-26T17:02:47.655873",
+  "company_info": {
+    "company_name": "Solaress Pty Ltd",
+    "abn_number": "59631872574",
+    "acn_number": "631872574",
+    "contact_phone": "0430 577 543",
+    "website_url": "https://www.solaress.net.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14077_bed5dea3e943a47e3a132f939103645e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14077_dcbd36f0e1488b3b973491a0b314949c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14077_ed24ff8971b1fa43a1efbb386618ce35.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14077_124c0fb4d706262b4fcccc2edef6602b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14077_d1a13dbbc14ae58b08d53dfd67bf87f5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14077_8f3182163857c5463c883017ff1cd3cc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14077_851d760ef443b9719adbe12f29d9a9cb.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "25 Feb 2019Solaress Pty Ltd",
+      "abn_company_name": "Solaress Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "25 Feb 2019Solaress Pty Ltd",
+      "acn_company_name": "Solaress Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "126022",
+      "reviewer_name": "Kevin",
+      "reviewer_location": "SA - 5117",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5117",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very good quoting. Was owner of company and electrician himself. Gave good options looking towards future etc.Was very punctual and polite and quote was completely quickly and the office followed up.Install went very well and very good gang of installers with the boss coming to talk through install.  Good instructions on the system and use of the app.All was completely seamlessly.. No issues at all.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

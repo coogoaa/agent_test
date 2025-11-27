@@ -1,0 +1,192 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/west-state-electrics/",
+  "scraped_at": "2025-11-26T19:07:42.827878",
+  "company_info": {
+    "company_name": "West State Electrics",
+    "contact_address": "Bibra Lake, WA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b925e65a6a447e643123290acf5c99df0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318ec6231de4a0f381fcdc24788bdadb1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2628ea1268429b0902ec8612d4748a3c2.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b925e65a6a447e643123290acf5c99df0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318ec6231de4a0f381fcdc24788bdadb1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2628ea1268429b0902ec8612d4748a3c2.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "125428",
+      "reviewer_name": "Mohan",
+      "reviewer_location": "WA - 6009",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6009",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-08-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good so farCleanNRG were also very good - has some trouble deciding between the two suppliers",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_walbox.png"
+      ]
+    },
+    {
+      "review_id": "113614",
+      "reviewer_name": "Vanessa",
+      "reviewer_location": "WA - 6006",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6006",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Straightforward quoting process.  Importantly they were happy to listen to us and our concerns/issues, unlike other companies.  The only negative was that the price wasn't fixed from the original quote and actually increased slightly after the site inspection.  The sales person did their best to troubleshoot minimising the price difference.  The reason for this is that the install wasn't straightforward.  Our garage where the battery and inverter were going is separate from the house and so the wiring needed to be trenched underground.  We also have no side access to the house so everything had to go over or through, and the pitch on our roof is minimal with very little roof crawl space to work in.  Once the go ahead was given, communication was great.  The install took 3.5 days.  We were only required to be around for the last day to go through how the system and monitoring works.  The install team were punctual and tidy.  Again communication was good.  The grid connection was also done by the installer so nothing to do from my end but enjoy the solar and battery use.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b925e65a6a447e643123290acf5c99df0.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/318ec6231de4a0f381fcdc24788bdadb1.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2628ea1268429b0902ec8612d4748a3c2.jpg"
+      ]
+    },
+    {
+      "review_id": "106973",
+      "reviewer_name": "Arthur",
+      "reviewer_location": "WA - 6148",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6148",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The job was done over a day, everything goes as planned.Very happy with the communicaiton on the day. The team was helpful.Chris Barnes did a really well to help me understand what I need from the start, without being pushy.Thank you West State.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Winaico",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "92236",
+      "reviewer_name": "Mick",
+      "reviewer_location": "WA - 6163",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6163",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It came down to three companies and in the end they where almost the same in price, quality; make and customer service.I chose the one I felt most comfortable with and there workshops are just around the corner.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Fronius",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Wallbox logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_walbox.png"
+    }
+  ]
+}

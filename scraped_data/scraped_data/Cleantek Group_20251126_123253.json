@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/cleantek-group/",
+  "scraped_at": "2025-11-26T12:32:53.446992",
+  "company_info": {
+    "company_name": "Cleantek Group",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14224_c83fb914836cf3fe5d5a2ee61d18771f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14224_238b743d8b8151e07a0cc9781db21eb2.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14224_185100936647d6cbe7f7c16168f7583e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14224_ca1c7e50270e98fd226d363e937d3ade.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/eternal-alliance-group/",
+  "scraped_at": "2025-11-26T13:18:45.012815",
+  "company_info": {
+    "company_name": "Eternal Alliance Group",
+    "contact_address": "Canterbury, NT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "8376",
+      "reviewer_name": "Martin",
+      "reviewer_location": "NSW - 2567",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2567",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-06-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The people who were doing the installation were professional and even changed broken roof tiles. Integral Energy are completley incompetent at giving approval to connect to the grid. My solar panels and inverter has been installed since 29th April and still hasn't been connected, to date over 6 weeks.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

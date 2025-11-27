@@ -1,0 +1,159 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/murcott-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T14:45:20.894258",
+  "company_info": {
+    "company_name": "Murcott Electrical Pty Ltd",
+    "abn_number": "78612508335",
+    "acn_number": "612508335",
+    "contact_phone": "0422 081 450",
+    "website_url": "http://murcottelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_3a650cdfdfe1fbda317c6cedc28e5f21.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_98d8a00adf03bac52d38ff35470fb986.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_97cebf12cc8f2bd12db9a0a84bc12213.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_ba07ad5e90736680db928461f39b5586.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_c4ca4238a0b923820dcc509a6f75849b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_c81e728d9d4c2f636f067f89cc14862c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_eccbc87e4b5ce2fe28308fd9f2a7baf3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_a87ff679a2f3e71d9181a67b7542122c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_e4da3b7fbbce2345d7772b0674a318d5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_1679091c5a880faf6fb5e6087eb1b2dc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12519_09562c466f16d9a02ad794a8cd6ae76b.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c8795a0f69ff21ae8e4d40a614e967960.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "19 May 2016Murcott Electrical Pty Ltd",
+      "abn_company_name": "Murcott Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "19 May 2016Murcott Electrical Pty Ltd",
+      "acn_company_name": "Murcott Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "121459",
+      "reviewer_name": "Joshua",
+      "reviewer_location": "VIC - 3108",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3108",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great experience from start to finish. Got a very detailed energy/cost savings projection on top of a no-obligation quote.Chris and team were punctual and made every effort for a smooth installation. Rubbish cleared, inverter wifi connection setup and paperwork for grid connection all done on my behalf without fuss. The whole process was made much easier than I had ever expected. I highly recommend anyone interested in solar to look up Murcott Electrical.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c8795a0f69ff21ae8e4d40a614e967960.png"
+      ]
+    },
+    {
+      "review_id": "119435",
+      "reviewer_name": "Michael",
+      "reviewer_location": "VIC - 3807",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3807",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Our installation requirements proved tricky, including the need for panels to be located on several sections of a steeply pitched Colorbond roof.  Chris provided great advice regarding feasibility and panel layout, and potential system specifications and options. During installation the team went above and beyond to ensure satisfaction.The end to end process was seamless, taking around a month elapsed from sign-up (including time waiting for solar rebate processing and approval) - very impressive.Communication was exemplary throughout, and we would have no hesitation in recommending Murcott Electrical to other prospective solar customers.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "118384",
+      "reviewer_name": "Justin",
+      "reviewer_location": "VIC - 3818",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3818",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Was a very plesant experience from start to finish , Chris was great to deal with and very helpful. One of very few tradesmen with a high level of customer service. Would highly reccomend the team at Murcott for any of your solar jobs.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

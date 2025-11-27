@@ -1,0 +1,79 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sea-energy-group-pty-ltd/",
+  "scraped_at": "2025-11-26T16:33:34.776112",
+  "company_info": {
+    "company_name": "Sea Energy Group Pty Ltd",
+    "contact_phone": "0439 112 123",
+    "website_url": "http://www.seaenergygroup.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13583_20137a9cff35ab64ebcd86c05a67a53f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13583_99c24baf4f612d4b3b01f8a69ea9b6aa.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13583_04daa2821c81457c026b3f7b6c9c2d12.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13583_73aa9e3d650193b6ea8308b2d44d789c.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "110102",
+      "reviewer_name": "John",
+      "reviewer_location": "VIC - 3691",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3691",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-05-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "SEA gave us clear advice about system options, came up with a very competitive quote and did a great job of the installation. They were polite and at each stage asked us about what we wanted or thought. AND they even vacuumed the mess up afterwards.!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Seraphim logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

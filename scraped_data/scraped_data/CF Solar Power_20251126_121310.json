@@ -1,0 +1,91 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/cf-solar-power/",
+  "scraped_at": "2025-11-26T12:13:10.132857",
+  "company_info": {
+    "company_name": "CF Solar Power",
+    "contact_address": "Melbourne, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "72869",
+      "reviewer_name": "Prem",
+      "reviewer_location": "VIC - 3750",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3750",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "69519",
+      "reviewer_name": "Anon",
+      "reviewer_location": "VIC - 3029",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3029",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-10-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very proud of my decision to have Solar installed with CF Solar Power. Highly recommended. Patiently answered all my doubts/questions. No unexpected fees and charges. Makes the whole process so easy including rebates, documents, and installation. Start savings on power bills.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/daniel-bryant-electrical/",
+  "scraped_at": "2025-11-26T13:26:58.302423",
+  "company_info": {
+    "company_name": "Daniel Bryant Electrical",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "21749",
+      "reviewer_name": "Tony",
+      "reviewer_location": "VIC - 3805",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-02-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installer supplied me with a signed quote which included all the warranties, address of his business, email address etc. and then he visited my house to take the roof measurements, after which he sat down with me and showed the installation drawing, showed me on his elec. meter how the selected system will perform at different times of the day. explained what the warranties covered and the warranties times, he also spent a lot of time answering all the questions in a lot of details that I put to him.He showed up on time and he done the work to a very professional manner and finish.He used 18x 195 Trina panels (3510w) and a 3.5Kw Growatt Inverter( he did offer a German inverter for another $xxx, but I declined)He showed me how to turn the system on & off and showed me how the wireless power module works and what it shows that the system is doing. After I signed over the Gov, rebate, he informed me that he will take care of all the paperwork to (A) get the inspector to inspect & issue an elec. certificate,(B) inform my elec. supplier to come and calibrate the inverter to complete the job.  He cleaned any left overs before he left my house.All and all, I am very satisfied with the total job and experience. I recommend this experienced installer.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

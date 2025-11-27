@@ -1,0 +1,63 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sensus-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T16:40:32.588295",
+  "company_info": {
+    "company_name": "Sensus Electrical Pty Ltd",
+    "contact_phone": "07 3205 9100",
+    "website_url": "https://www.sensuselectrical.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "70214",
+      "reviewer_name": "Mark",
+      "reviewer_location": "QLD - 4037",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4037",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Haven’t yet been hooked up to the grid but they initiated everything, all other aspects were carried out without fuss or disturbance to our everyday life.",
+      "value_for_money_rating": 0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

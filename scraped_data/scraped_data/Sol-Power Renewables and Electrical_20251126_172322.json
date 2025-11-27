@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sol-power-renewables-and-electrical/",
+  "scraped_at": "2025-11-26T17:23:22.308497",
+  "company_info": {
+    "company_name": "Sol-Power Renewables and Electrical",
+    "contact_phone": "0430 670 538",
+    "website_url": "https://www.sol-power.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14360_2c140ebba187229f2dda294e457b92ab.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14360_28bd5ae5ef822f5bf4c66812184b91fa.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14360_67075af34b87045f3c39020758650756.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14360_4b27ca145109c30f32fe5ac19e234d1c.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

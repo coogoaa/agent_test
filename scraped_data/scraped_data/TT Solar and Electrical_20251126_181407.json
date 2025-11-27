@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tt-solar-and-electrical/",
+  "scraped_at": "2025-11-26T18:14:07.017470",
+  "company_info": {
+    "company_name": "TT Solar and Electrical",
+    "contact_phone": "0427 063 501",
+    "website_url": "https://ttsolar-electrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14321_d6c10b3699afcdf8c4242fcd1280507d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14321_c6743d83a43481f197043db0cd54e9dd.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14321_e5580e6c4b81923307bab5a9f329569a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14321_e324ff358d0f96fd8861d98cc38a00e7.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

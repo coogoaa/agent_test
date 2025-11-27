@@ -1,0 +1,115 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solid-solar-services/",
+  "scraped_at": "2025-11-26T17:39:54.429663",
+  "company_info": {
+    "company_name": "Solid Solar Services",
+    "contact_phone": "0477 773 173",
+    "website_url": "http://www.solidsolarservices.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13681_c677653891bcaf9330770e3ee65d76cf.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13681_0807fd42e94a2c3911be2c5747703a1c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13681_8887e5594f1b08cfce17ce52c8d8b18c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13681_5e36dce8c7e42bc6968ea596a69e00f9.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/06ffb5f3f5015ebe3c624599de028a5e0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b50ac2c0a85628d9996eaa57f312d65e1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fc74231419209b3ebdac252d4ec7f7082.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "127543",
+      "reviewer_name": "Eldon",
+      "reviewer_location": "NSW - 2155",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2155",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "System installed: AKIO NeoStar 2P 470W x 28 (13.16kW) + Fronius Gen24 10.0SolidSolar was incredibly professional and efficient —everything from confirming the quote to completing the installation was done within the same weekThe installation was neat and tidyAlex was incredibly responsive, willing to answer all my technical questions, and provided excellent recommendations throughout the process.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "AKIO (Other)",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/06ffb5f3f5015ebe3c624599de028a5e0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b50ac2c0a85628d9996eaa57f312d65e1.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fc74231419209b3ebdac252d4ec7f7082.jpg"
+      ]
+    },
+    {
+      "review_id": "106765",
+      "reviewer_name": "Debbie",
+      "reviewer_location": "NSW - 2035",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2035",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-10-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The process was very efficient. Email quote followed by an insure visit within days. Answers all my questions and knew his stuff.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

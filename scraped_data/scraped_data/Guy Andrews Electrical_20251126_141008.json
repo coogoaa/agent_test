@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/guy-andrews-electrical/",
+  "scraped_at": "2025-11-26T14:10:08.529085",
+  "company_info": {
+    "company_name": "Guy Andrews Electrical",
+    "contact_address": "Coonabarabran, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "75273",
+      "reviewer_name": "Norbert",
+      "reviewer_location": "NSW - 2843",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2843",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The system was installed on March 20th 2020, connected to the grid and has been operating since then. However I have not yet succeeded with commissioning the data monitor of the Fronius inverter  and linking it to my mobile and laptop. The installer promised to sent somebody to assist but the Coronavirus situation makes this a low priority. If Fronius expects Customers to do this by themselves, particular with people in my age group, 88+, they should provide clear written instructions of the steps required and not rely on YouTube presentations which are too quick and impossible to understand by people with hearing loss.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Phono",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Phono logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

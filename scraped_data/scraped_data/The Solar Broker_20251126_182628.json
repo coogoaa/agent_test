@@ -1,0 +1,99 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/the-solar-broker/",
+  "scraped_at": "2025-11-26T18:26:28.710985",
+  "company_info": {
+    "company_name": "The Solar Broker",
+    "contact_address": "Woolloongabba, QLD",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "135992",
+      "reviewer_name": "Doug",
+      "reviewer_location": "QLD - 4655",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4655",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "SAJ",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+      ]
+    },
+    {
+      "review_id": "126278",
+      "reviewer_name": "Brett",
+      "reviewer_location": "NSW - 2782",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2782",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Gavin from The Solar Broker was a pleasure to deal with from my initial enquiry to installation and final hand over inspection.The whole process was great.The system has been operating for a week now and I haven't had to take from the grid once.The next step will be selling my excess energy back to the grid and making money.I could not be happier.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SAJ logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+    }
+  ]
+}

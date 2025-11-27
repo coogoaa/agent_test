@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/smith-energy/",
+  "scraped_at": "2025-11-26T17:18:48.565880",
+  "company_info": {
+    "company_name": "Smith Energy",
+    "contact_phone": "0435 752 455",
+    "website_url": "https://facebook.com/Smith.Energy.Services",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14166_c4ca4238a0b923820dcc509a6f75849b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14166_51a29b40d9696a97838875093428027e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14166_ac3f7cbec4079ddd34a88f44f7ae8868.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14166_9618c57e02732ec24cd99de979751a11.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

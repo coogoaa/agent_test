@@ -1,0 +1,132 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/obrien-electrical-echuca-moama/",
+  "scraped_at": "2025-11-26T15:57:57.946080",
+  "company_info": {
+    "company_name": "OBrien Electrical Echuca Moama",
+    "contact_address": "Moama, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.33,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.33,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "98998",
+      "reviewer_name": "Wayne",
+      "reviewer_location": "SA - 5290",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I found Obrien electrical  to be honest and straight forward in all aspects of my solar install from onsite inspection to install. There was no sales pressure and listened to what i required from the solar system and advised me on my best options.Customer service went above and beyond from the solar corodinator to the installers. Very neat and tidy tradesmen. Used quality products all were listed on your preferred products on your website.I Sourced the installer from local recommendations and solar reviews. Very glad i went with a local supplier rather than some of your recommended installers. One didn't show up one couldn't confirm install dates and the other just wanted to sell the system. I did as kfor you to recommend a local supplier. I was advised there were none you could recomend.i am glad i chose a local suppler whom i coul not fault very professional from initial qoute to grid connection.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "92323",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3156",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3156",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales/quoting experience was very good, but I had made it easy for them because I had all docs ready, knew what I wanted, and was ready to make a decision.Installation was a bit of a mixed bag. Compounded by Covid happening just as they were to start. The techs involved had a bit of a problem keeping to deadlines/appointments, but to be honest, the whole world was confused about what they could or should do/not do.I cannot overstate the care that they took to do a quality install, with wires under the metal roof rather than in exposed poly pipes. similarly, the feeds to the inverter and meter are inside the double brick walls, with no external 'plumbing' involved. More work involved, but no request for additional payment! They also made sure that an awning was installed to shade the Fronius inverter.Customer service was an issue, but later on in the process it was clear that my elec retailer was the problem, not the installer. Because of the regulatory process being hidden behind so many layers, this was not apparent early.It took approx 3 months for the panels to be turned on, and O'Briens Rowville tried to diplomatically steer me thru this process with the retailer. Eventually we got there, and I will not name the retailer, but their idea of customer service is closer to a cows experience of being serviced by a bull.  It is my impression that they were using delaying tactics whenever they could.3 months on from everything being turned on, I am impressed by the savings. Winter in Melbourne is probably not the time to analyse solar performance, but for Winter, we are looking at a 35% savings on electricity! Bring on Summer.In conclusion, I would recommend O'Briens Rowville. Certainly polite. Workmanship very good. Diplomacy very good.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "90360",
+      "reviewer_name": "Garry",
+      "reviewer_location": "SA - 5290",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-06-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hyundai Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

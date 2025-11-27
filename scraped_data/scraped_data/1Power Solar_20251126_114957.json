@@ -1,0 +1,75 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/1power-solar/",
+  "scraped_at": "2025-11-26T11:49:57.233709",
+  "company_info": {
+    "company_name": "1Power Solar",
+    "contact_phone": "1300 553 665",
+    "website_url": "https://www.facebook.com/1powersolar/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "109243",
+      "reviewer_name": "Simon",
+      "reviewer_location": "VIC - 3201",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3201",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-03-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had a 6.6Kw system, installed with Sungrow 5Kw Inverter and Seraphim 330w Blade panels, Been running now for around 18mths with zero issues and producing good energy.We were recently selected for a random audit and the inspector said its one of the cleanest and nicest installs he's seen, no issue to report at all which is very encouraging.Response can be a little slow but once engaged were really helpful and obliging even discussing various inverter options before committing to what we chose",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Seraphim logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

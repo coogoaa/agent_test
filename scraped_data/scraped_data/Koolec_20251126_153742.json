@@ -1,0 +1,139 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/koolec/",
+  "scraped_at": "2025-11-26T15:37:42.434042",
+  "company_info": {
+    "company_name": "Koolec",
+    "abn_number": "47272428367",
+    "contact_phone": "0455 949 718",
+    "website_url": "https://www.facebook.com/profile.php?id=61559292602553",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14147_f831c48c107b3d9d4b4791debed6cb60.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14147_a7aada36278cb24a513137f1ad541064.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14147_e2fcd8324fcdfd027032d31c34b9b785.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14147_a32d49257235f70c48405d11c40fb923.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0c030234f6c649056119eab2bf180c110.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0b8acc000b4923931de29515fcbe29561.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/883f491457e25cea065e82fcc8c38b452.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9d17cbdfca764eb4d15bb425621efa413.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28b79bb1d8bacec2c9db119cc6fdf97f0.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "06 Feb 2020Koolec",
+      "abn_company_name": "Koolec"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "130156",
+      "reviewer_name": "Bruce",
+      "reviewer_location": "VIC - 3068",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3068",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-01-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The Sales/Quoting Process was exceptional. Jamin from Koolec visited the site and assessed our requirements in detail. Subsequently we were presented with a written proposal that included a video presentation of two options. This enabled us to assess just what each option offered, the brands to be used which I had already indicated as my preferences, and the cost. From this information, and a few queries back to Jamin, it was very easy to assess each proposal and make a choice. We did, and installation was scheduled very easily and promptly.Installation commenced on time. Unfortunately Jamin had to deal with staff illness during the install but this only showed the caliber of the company as the installation continued on and was only slightly impacted timewise which was no problem for us. Jamin's attitude, politeness and tidiness throughout was exemplary.On completion, the system, which included a charge point for our new EV (electric vehicle), was connected to the grid and we were shown how to use appropriate the software.In summary, this was an installation that was not expected at this time and my initial research seem to indicate a somewhat \"scary\" road ahead. However, the Solar Quotes guide which brought us to Koolec ended up being \"A dream installation that actually came true\".",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0c030234f6c649056119eab2bf180c110.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0b8acc000b4923931de29515fcbe29561.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/883f491457e25cea065e82fcc8c38b452.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9d17cbdfca764eb4d15bb425621efa413.jpg"
+      ]
+    },
+    {
+      "review_id": "127172",
+      "reviewer_name": "Janet",
+      "reviewer_location": "VIC - 3087",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3087",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Koolec installed our panels in May and we could not be happier. Great service, from the quote right through to install and follow up.They worked so has to get everything done in 2 days with minimal disruption to the household.Jamin followed up with the energy provider and the connection was seamless.. his after care was great, checking everything was working and explains the system and app to us.Would highly recommend ths very professional and hard working team.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28b79bb1d8bacec2c9db119cc6fdf97f0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28b79bb1d8bacec2c9db119cc6fdf97f0.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_fronius.png"
+    }
+  ]
+}

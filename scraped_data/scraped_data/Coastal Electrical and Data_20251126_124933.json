@@ -1,0 +1,43 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/coastal-electrical-and-data/",
+  "scraped_at": "2025-11-26T12:49:33.380870",
+  "company_info": {
+    "company_name": "Coastal Electrical and Data",
+    "contact_phone": "0400 213 659",
+    "website_url": "https://www.coastaled.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_97384261b8bbf966df16e5ad509922db.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_c8b1ffb60c719aff6eb1da7f05369a1d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_126a4c617ff15429318438f24eac6dcf.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_16d5e5e42be40aea7faf781c06c8b375.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_da2c81a86ed8d61a90b3d4af4df6f987.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_b18235561b615e8d456b8cda5ba99437.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_be9654c1fda9336aa75836bbac77eebc.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_7a92b288d91ca037ca0be9d7f8bb6c81.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_c04b79b98aaf62744e73123e066d9451.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_bc800a566051bd2686ad3bb9891e3bac.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13513_a33b1aa240c9bb652f6f9f887b106975.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/hughston-electrical-services/",
+  "scraped_at": "2025-11-26T13:55:22.852471",
+  "company_info": {
+    "company_name": "Hughston Electrical Services",
+    "contact_address": "Agnes Water, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

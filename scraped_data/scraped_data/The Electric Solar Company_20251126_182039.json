@@ -1,0 +1,22 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/the-electric-solar-company/",
+  "scraped_at": "2025-11-26T18:20:39.607932",
+  "company_info": {
+    "company_name": "The Electric Solar Company",
+    "contact_address": "Caulfield Junction, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

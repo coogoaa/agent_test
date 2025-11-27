@@ -1,0 +1,145 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/haynes-electrical-contractors-pty-ltd/",
+  "scraped_at": "2025-11-26T14:24:06.064438",
+  "company_info": {
+    "company_name": "Haynes Electrical Contractors Pty Ltd",
+    "abn_number": "91784388531",
+    "acn_number": "648460637",
+    "contact_phone": "0430 945 864",
+    "website_url": "https://www.hayneselectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14317_ba3c46bd25e7dd9133bf8b5bcdf08755.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14317_776e8dbc79a1fa74ce14e3e42db5f5f8.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14317_208eb508460b038a4f3b378c9377caf7.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14317_5da9e563cb2af6dbeca197fbbcbc2359.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14317_d454b1cf576aa582bd8ab52471e92c33.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "05 Mar 2021The Trustee For Haynes Electrical Contractors Trust",
+      "abn_company_name": "The Trustee For Haynes Electrical Contractors Trust"
+    },
+    "acn_details": {
+      "acn_active_since": "05 Mar 2021Haynes Electrical Contractors Pty Ltd",
+      "acn_company_name": "Haynes Electrical Contractors Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "140114",
+      "reviewer_name": "Phill",
+      "reviewer_location": "VIC - 3429",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3429",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I got 3 quotes to add a battery to my existing solar panels in Sunbury, Melbourne.All 3 were professional, and all ended with the same solution option based on cost and requirements - SigEnergy 24Kwh battery (3x8Kwh) with 10Kw inverter. Removed old inverter, but kept existing panels (4.75Kw).Two quotes were similar, while the 3rd quote was an extra $3,800 - exactly the same kit for all 3 quotes.Very happy with the installation and result. Seamless transition, tidy install and clear communications.Zero issues arising from the resulting inspection (mandatory in Vic).Also gained insights on a clear pathway to electrify the rest of the house.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "139001",
+      "reviewer_name": "Stephen",
+      "reviewer_location": "VIC - 3437",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3437",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Haynes was one of the first to follow up on the request for quotation. Mack was prompt, friendly, polite and always patient. We were looking for a rooftop solar with battery backup.An initial site visit walked us through their supply options, always keeping our requirements and preferences in mind. We had a few questions about their proposal, and the response to our emails was always prompt and informative.Once we decided to go with their system, they came back very quickly with a timeline, duration and information on the steps we needed to take to ensure that the system was usable and would start to pay itself off as quickly as possible.The installation itself was quick, the team were very efficient and all very polite. Every thing was cleaned up afterwards and the installation looks very smart.Mack showed us how the system operated, walked us through the app installation and operation, and outlined what would happen over the coming days. All required contact with the distributor to get us connected to the grid and start the process of getting paid for exporting was managed by them. Apart from applying for the associated rebates, we just had to sit back and let it happen.We are very happy with the system we have and will happily recommend Haynes Electrical Contractors to anyone looking to have a solar system installation carried out.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "TW Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tw-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "138630",
+      "reviewer_name": "Steve",
+      "reviewer_location": "VIC - 3429",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3429",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was positive at every stage.No issues with the installation itself.  Mac worked really hard to isolate and resolve any issues.  They came when they said they would, and the Inspection was organised very soon after the install.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

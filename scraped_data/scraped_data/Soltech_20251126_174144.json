@@ -1,0 +1,125 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/soltech/",
+  "scraped_at": "2025-11-26T17:41:44.204365",
+  "company_info": {
+    "company_name": "Soltech",
+    "contact_address": "Tullamarine, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.33,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "128480",
+      "reviewer_name": "Tiaan",
+      "reviewer_location": "VIC - 3328",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3328",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Charles B. at Soltech was exceptional in helping us find the most suitable battery for our needs, calling back at least 3 times with various options and prices. His customer service was flawless—prompt, professional, and incredibly knowledgeable. He took the time to explain everything in detail and made the entire process seamless. Installation was arranged a few days later and again blown away with the Tech's high level of care. Highly recommend Soltech!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Soltaro",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_soltaro.png"
+      ]
+    },
+    {
+      "review_id": "119191",
+      "reviewer_name": "Alan",
+      "reviewer_location": "NSW - 2018",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2018",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sale and quoting process was very good. The installation and grid connection were extremely smooth.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "SolarEdge",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "66172",
+      "reviewer_name": "Con",
+      "reviewer_location": "NSW - 2560",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2560",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-07-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Once the install was finished we were told to fill out the form to arrange the digital meter to be installed, which we found out would take another 2-3 weeks.This should have been done alot earlier so that we could monitor the system digitally straight after installation.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Soltaro logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_soltaro.png"
+    }
+  ]
+}

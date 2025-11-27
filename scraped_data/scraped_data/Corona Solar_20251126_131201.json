@@ -1,0 +1,126 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/corona-solar/",
+  "scraped_at": "2025-11-26T13:12:01.603460",
+  "company_info": {
+    "company_name": "Corona Solar",
+    "contact_address": "Noosa Heads, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "86094",
+      "reviewer_name": "Darryl",
+      "reviewer_location": "QLD - 4560",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4560",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We got a bigger system with top quality panels and inverter for less than we were quoted for by other providers.  A family owned business with excellent warranty, the installers were hard working, quick ,respectful, attentive and really helpful.   Corona solar should feature on your recommended installer list fantastic value...",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "74179",
+      "reviewer_name": "Cecil",
+      "reviewer_location": "QLD - 4557",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4557",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Glen was great when quoting, he wasnt like other pushy sales people and stuck to the facts.The installation went with out a hitch.  Glen was going on holiday on the Monday but installed on the Sunday before which was great.Glen and Nick was punctual and left the site tidy.After the installation they helped with the warranty and hooking up the smart app threw the smart reader.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "71352",
+      "reviewer_name": "Brendan",
+      "reviewer_location": "QLD - 4556",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very professional. Great price of quality products. Neat quick install.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

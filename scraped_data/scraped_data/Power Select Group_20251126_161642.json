@@ -1,0 +1,31 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/power-select-group/",
+  "scraped_at": "2025-11-26T16:16:42.302805",
+  "company_info": {
+    "company_name": "Power Select Group",
+    "contact_phone": "1300 226 229",
+    "website_url": "https://www.powerselectgroup.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14446_30c04582be4d1bdd01d11c83d6bf3a06.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14446_7051bb88097377f37cc030816a41855d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14446_b5ac24ed165ffb22c0c36b7af4a3e5b5.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14446_3ce732353e60db62f5bcafd48e9b9d11.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14446_99e5d58aae24f912771019d5233e1b66.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14446_23872aac0ec7d5c0282cc4d8b308e8d0.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

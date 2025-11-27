@@ -1,0 +1,153 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solec-industries/",
+  "scraped_at": "2025-11-26T17:36:07.738312",
+  "company_info": {
+    "company_name": "Solec Industries",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.75,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "98171",
+      "reviewer_name": "Csaba",
+      "reviewer_location": "NSW - 2560",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2560",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-02-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solec Industries was our system installer. Rob and his team are excellent. They aim is customer satisfaction which shows throughout the whole process from quotes to installation and comissioning the system. Highly recommended!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "70200",
+      "reviewer_name": "Julie",
+      "reviewer_location": "NSW - 2753",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2753",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Rob was extremely polite, his team were punctual and tidy.  The system is good quality and working well.  Rob did return to site to ensure Solar Analytics was working correctly and that we understood how to use the functions on the app.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "53888",
+      "reviewer_name": "Tom",
+      "reviewer_location": "NSW - 2172",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2172",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-06-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great service and on site evaluation with very difficult curved roof. Rob and his team very professional. Very easy to deal with and the price was extremely comparable.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Solaredge",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "51896",
+      "reviewer_name": "Edwin",
+      "reviewer_location": "NSW - 2148",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2148",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-08-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

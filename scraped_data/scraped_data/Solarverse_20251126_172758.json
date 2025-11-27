@@ -1,0 +1,32 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solarverse/",
+  "scraped_at": "2025-11-26T17:27:58.567390",
+  "company_info": {
+    "company_name": "Solarverse",
+    "company_description": "At Solarverse, our mission is to provide sustainable, quality and reliable solar energy solutions and expert installation services with a 5-year service guarantee across Perth. Our focus is to help you save on your energy bills while contributing to environmental sustainability and a cleaner planet. With the assistance from the government incentives, we offer premium quality products from reliable brands to help maximise your savings and to ensure a seamless transition to clean, sustainable energy.Our Director, founder and lead installer has over 10+ years of experience in providing expert installation services across all suburbs in Perth. With our deep understanding of the renewable energy field and experience gained over the years, we are able to deliver exceptional services to customers and help improve their daily lives.Solarverse’s in-house installation team are SAA accredited and has installation certifications from notable brands such as SolarEdge, Tesla and Enphase.We provide:•  No-obligation quotes and free site inspections•  5 Years of installation warranty + 10 year inverter warranty + 25-30 year panel warranty•  All in-house installers•  SAA Accredited solar installers•  Certified Solar Edge installers•  Certified Tesla installers•  Certified Enphase installers•  Support & maintenance",
+    "contact_phone": "08 6252 3404",
+    "website_url": "https://solarverse.au/",
+    "awards_recognition": null,
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14279_b3ef3f92384bb28a91ed372d2ece9b3f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14279_da1b9638bf0662c47a14893cfc17bf60.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14279_9342d9f60d24018fa77f941ff16232c7.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14279_b343e253deead471eb72e8fe93c59577.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14279_b79b0d6fbd0a569c798de4a34415b2e4.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

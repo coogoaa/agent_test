@@ -1,0 +1,202 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/kva-power/",
+  "scraped_at": "2025-11-26T14:46:13.837611",
+  "company_info": {
+    "company_name": "KVA Power",
+    "contact_address": "Perth, WA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/defa8a87541d65720fc5ff56727c072f0.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/defa8a87541d65720fc5ff56727c072f0.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.8,
+    "installation_rating": 4.2,
+    "customer_service_rating": 4.2,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "111572",
+      "reviewer_name": "Rosanne",
+      "reviewer_location": "WA - 6030",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installation took four hours in March.Now when the wind blows from the west I'm scared the panels on the south side are going to fall off.I notified KVA that they were rattling, two weeks after installation, and they said that was normal, but now I can hear the sound of the rattle has changed which indicates that the panels are looser than before.It's 3.55am on 16 June.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "100914",
+      "reviewer_name": "Wayne",
+      "reviewer_location": "WA - 6030",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sunny provided a very competitive quote and we wet ahead with the install. The installers were flexible with the positioning and we settled on a layout to provide the maximum return.All went to plan and after 9 months have not had to pay an electricity bill.Happy with resultsWayne",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    },
+    {
+      "review_id": "100566",
+      "reviewer_name": "Jeff",
+      "reviewer_location": "WA - 6167",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6167",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From start to finish these guys are excellent. Fast and responsive. The installation process was done very fast and very neat and tidy with a demo on how to use the system. Will definitely recommend these guys to someone looking for a great hassle free job",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/defa8a87541d65720fc5ff56727c072f0.jpg"
+      ]
+    },
+    {
+      "review_id": "90227",
+      "reviewer_name": "Mark",
+      "reviewer_location": "WA - 6149",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6149",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-01-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sunny handled the site inspection, quote and final sale. He has a university degree in Electrical Engineering  and was very knowledgeable about the solar process and solar components. He prepared us a Rolls Royce quote and then showed us how we could substitute quality components to reduce the cost.  In the end he wasn't the cheapest but we had confidence in the system he was offering.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "83929",
+      "reviewer_name": "Owen",
+      "reviewer_location": "WA - 6076",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything from Sunny the salaeman. No pressure. No Deposits. To keeping exact times and being punctual. No stuffing afound. To Aman with the installation team. 4 hours with a 3 phase 2 storey house was amazing. And 950 cheaper than any competitor. Fronius convertor 20 Jinko panels.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Seraphim logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+    },
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/coastline-solar-connections/",
+  "scraped_at": "2025-11-26T12:50:48.052188",
+  "company_info": {
+    "company_name": "Coastline Solar Connections",
+    "contact_address": "Taree, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "90602",
+      "reviewer_name": "Danny",
+      "reviewer_location": "NSW - 2261",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2261",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-06-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "While the quoting process was long, Peter was enthusiastic about the product, it's performance & the whole company. He was able to answer all my questions & provided more documentation than I have ever been supplied.The installation was smooth, quick & the installers cleaned up after wards even vacuuming my garage floor. They were extremely polite, tidy & above all punctual. The installers even supplied me with their personal contact details should there be a problem.They are organising the grid connection, meter replacement & are even monitoring system performance.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Tindo Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "68051",
+      "reviewer_name": "Bill",
+      "reviewer_location": "NSW - 2430",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2430",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Eoplly",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_eoplly.png"
+      ]
+    },
+    {
+      "review_id": "7404",
+      "reviewer_name": "Ron",
+      "reviewer_location": "NSW - 2428",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2428",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-05-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales person explained in so much more detail than all the other sales people.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Tindo Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

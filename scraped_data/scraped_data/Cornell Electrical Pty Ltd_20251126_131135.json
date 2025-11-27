@@ -1,0 +1,82 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/cornell-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T13:11:35.199181",
+  "company_info": {
+    "company_name": "Cornell Electrical Pty Ltd",
+    "contact_phone": "08 8317 5797",
+    "website_url": "https://www.cornellelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13456_475fb267ef02ed4a21d8dff9cc7280ef.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13456_f99d186e390cbac0fdc8cf1c6da52127.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13456_352ccd39c4ed093da3690db82cca8ca0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13456_d6de9c41935881bd1a5c461aa6bbc400.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13456_0df3df2097d874f3da2123fe8fec86fa.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13456_f99d186e390cbac0fdc8cf1c6da52127.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13456_3284781df06f7bb55220ae4cc9c8bdd5.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "100686",
+      "reviewer_name": "Geoff",
+      "reviewer_location": "SA - 5125",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5125",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Cornell Electrical were one of three companies referred by Solar Quotes.  From initial contact, pre- quote site inspection, and system installation, Kyle and his team were superb, excellent customer engagement and communication, and ultra professional.  6.6 kw system installed and up and running within two weeks of initial consultation.  Thoroughly recommend, and have in fact already passed details on to friends.  Great Job !!!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

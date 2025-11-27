@@ -1,0 +1,112 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/total-solar/",
+  "scraped_at": "2025-11-26T17:57:50.551790",
+  "company_info": {
+    "company_name": "Total Solar",
+    "contact_address": "Strath Creek, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 3.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "80973",
+      "reviewer_name": "Sally",
+      "reviewer_location": "VIC - 3565",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3565",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything was a positive experience. I would recommend the whole process to anyone considering installing solar",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "59727",
+      "reviewer_name": "Brian",
+      "reviewer_location": "VIC - 3122",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3122",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-02-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Got a recommendation from a friend and Total Solar Solutions delivered to our expectations. The really took care to make the job neat. They have been very efficient in making the arrangements to connect to the grid for export. Only connected at the end go january, but the performance of the system so far is excellent",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "29342",
+      "reviewer_name": "Jim",
+      "reviewer_location": "VIC - 3152",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-02-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Every supplier tells you their product is the best on the market, and it's not easy  for the layman to decide which system is the best in terms of value for money and efficiency. At the end of the day, I went with a recommendation from a family member. There was nothing wrong with the guys recommended by Solar Quotes, however I felt more comfortable with a person I knew to be an experienced tradesman who would do the instal and ran the company.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,112 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ingenereo/",
+  "scraped_at": "2025-11-26T14:17:57.829073",
+  "company_info": {
+    "company_name": "ingenereo",
+    "contact_address": "St Lucia, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 1.7,
+    "value_for_money_rating": 1.67,
+    "system_quality_rating": 2.0,
+    "installation_rating": 2.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "59233",
+      "reviewer_name": "David",
+      "reviewer_location": "QLD - 4069",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4069",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-01-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 1.75,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    },
+    {
+      "review_id": "26593",
+      "reviewer_name": "George",
+      "reviewer_location": "QLD - 4380",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4380",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-06-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Three years later I have a problem as it stopped working and resulted in no income. Am unable to contact anybody to rectify the problem as all phone numbers supplied do not answer. I feel it was a very poor investment when you consider similar systems are now less than half that price. On top of that Ergon forced me to pay $20,000 just to connect to the grid, that was a ripoff as anyone generating electricity for them is saving them the cost of building a power station. I will never own the transformer they upgraded, it is always their property and should I sell my property they immediately drop to payment of 8 cents per kw and not 44 cents which I agreed to with them. Everything is in Ergon's favour.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "More than 6kW",
+      "system_cost": "more than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "21607",
+      "reviewer_name": "Chris",
+      "reviewer_location": "QLD - 4055",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4055",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-02-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Please do not deal with this dishonest company. They have lied to me from day 1 and my system still does not work. Customer service is non existent. The have been misleading and deceptive but the most disappointing thing is the downright lies and when caught out \"bad luck\". The latest is they'll \"continue to replace my faulty inverter with another faulty inverter until the five years warranty is up, then is your problem\"",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fimer logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+    }
+  ]
+}

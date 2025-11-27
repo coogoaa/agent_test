@@ -1,0 +1,28 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/keenspark/",
+  "scraped_at": "2025-11-26T15:23:57.108324",
+  "company_info": {
+    "company_name": "KEENSPARK",
+    "contact_phone": "0432 145 674",
+    "website_url": "https://www.keenspark.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14454_594c5228f070ede9c567a8ee4c3c0663.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14454_d44670871b62e932bc165b2df110b468.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14454_6445d7d6347b15b03b8a9e4aa6114fdf.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

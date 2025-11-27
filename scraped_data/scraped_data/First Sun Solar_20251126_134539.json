@@ -1,0 +1,131 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/first-sun-solar/",
+  "scraped_at": "2025-11-26T13:45:39.755847",
+  "company_info": {
+    "company_name": "First Sun Solar",
+    "contact_address": "Canberra, ACT",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1cecceb954e8df9f93dbb5fe06b0bd410.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b852321ffcfa58b413eace5e69cf9e991.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4f98128092f67268d4b633b67adbedde2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/788f197f183d9a53dcc1dae5ad986b1e3.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1cecceb954e8df9f93dbb5fe06b0bd410.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b852321ffcfa58b413eace5e69cf9e991.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4f98128092f67268d4b633b67adbedde2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/788f197f183d9a53dcc1dae5ad986b1e3.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "128851",
+      "reviewer_name": "Jake",
+      "reviewer_location": "QLD - 4209",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4209",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I can give my highest recommendations to the team at First Sun Solar! I had originally contacted the Australian Distributor for Solis Inverters looking for an Installer in my region and they recommended Jeremy to me. He was friendly and extremely knowledgeable but not pushy like so many others in the solar game.He listened to what I was after, made recommendations and was able to cater to the various requests I had. Not only this - but their quote was very competitive - the best I had when comparing to other similar solar companies in the region who actually do the work themselves vs outsource. From initial contact with him to install it was only two weeks and he made the process super easy.Many thanks to Grant, Andy & the team who came out and installed the system yesterday. They were clearly experts in their field. Super friendly and polite and extremely efficient. They took great care installing the system - not a single tile on my room was broken and the install looks flawless. It’s currently 11am in the morning on a completely overcast day and my system which consisted of an 8kw Solis Hybrid Inverter and 10.3KW of Aiko Panels is generating over 5kw - absolutely stoked!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1cecceb954e8df9f93dbb5fe06b0bd410.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b852321ffcfa58b413eace5e69cf9e991.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4f98128092f67268d4b633b67adbedde2.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/788f197f183d9a53dcc1dae5ad986b1e3.jpg"
+      ]
+    },
+    {
+      "review_id": "99655",
+      "reviewer_name": "Scott",
+      "reviewer_location": "ACT - 2902",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2902",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-03-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales quote process was pleasant, in person and interactive. They assisted with connecting to rebates and other schemes in the ACT.The installation is not fully complete as pending arrival of the optimisers for 7 panels. The installers so far have been polite and tidy.The panels that are installed are already connected to the Grid. They were helping with an updated meter (more data available from that than the 15 year old digital one), but I decided to run with that myself rather than have a 3rd party handle it.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 4.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/06972ee38b16593f14d9d3f7774aadac.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/06972ee38b16593f14d9d3f7774aadac.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/fffdb5c7479b05e1e983269c366b2876.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/fffdb5c7479b05e1e983269c366b2876.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/0bced540c46974de9f4921dbad854817.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/0bced540c46974de9f4921dbad854817.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Solis logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ais-electrical-qld/",
+  "scraped_at": "2025-11-26T11:50:20.417098",
+  "company_info": {
+    "company_name": "AIS Electrical QLD",
+    "contact_phone": "07 3206 1441",
+    "website_url": "https://aiselectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13346_9b9a10657b3ee51448fde61722ec33c2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13346_c8cf3b5949760f578641b25ae2a53ac8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13346_d0ff653988e4445ed175081fe3321881.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13346_2e040d8fa51a471bf4cdfec71418c61b.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

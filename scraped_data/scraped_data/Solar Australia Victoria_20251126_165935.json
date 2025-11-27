@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-australia-victoria/",
+  "scraped_at": "2025-11-26T16:59:35.213105",
+  "company_info": {
+    "company_name": "Solar Australia Victoria",
+    "contact_address": "Moama, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 2.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "99848",
+      "reviewer_name": "Raelene",
+      "reviewer_location": "VIC - 3206",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3206",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This business is split into Bendigo and Echuca/Moama. Bendigo did all of the sales side and was amazing. He went into more detail about my usage and likely savings than anyone else did and nothing was too much trouble. The price of the equipment we agreed on was very good. We decided to use the local Echuca/Moama installers from his partners side of the business because we assumed that any follow up would be better being local. (My home is in Echuca)The equipment was all ordered and installed in very good time considering it was right before Xmas. They are electricians from Moama. They were great. They clearly has a good reputation with the inspector, because the certification was done very quickly right before Xmas.Unfortunately everyone then went away on holidays so there was nothing more done for many weeks. The inverter was working but I had no access to the app so I didn't know if it was working or not. This system is in a holiday home and I was there for 5 weeks but didn't get the app running at all in that time which is the time we use more power that the rest of the year. Even after they came back from holidays they did not find the time in the next 3 weeks that I was there to come to solve the problem.Many weeks after it was installed we finally got the app up and running only to discover that my 6 Kw system was limited at 5 Kw production so it then took weeks again to get this next problem fixed. They actually ended up getting the Electrician to go and fix the problem because he went away on holidays again before he ever got my app running.Before these problems were fixed I was allowed to distribute some of my excess power back to the grid. (Initially I was not allowed this.) Solar Australia did do the paperwork to get this happening and now I am waiting weeks yet again to get them to change the inverter set up to be able to see the true production of power and what goes to the grid and what is self consumption.It is 6 months since my system was installed. I had weeks of not knowing if the system was actually producing power to save me money, All of those weeks I was not getting the full production of my, so loosing money, and now I am waiting weeks again to be able to see what my production and usage are. What will be next and how much longer? I certainly can not recommend using SolarAustralia..",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 2.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lamm-solar-and-electrical/",
+  "scraped_at": "2025-11-26T14:48:36.839194",
+  "company_info": {
+    "company_name": "Lamm Solar and Electrical",
+    "abn_number": "99814792818",
+    "acn_number": "624422206",
+    "contact_phone": "0424 288 901",
+    "website_url": "https://www.lammelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14082_acbef4eeda9a2e2fa4d052a93fb46f28.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14082_6b54fca6ce80143a07b0628c14edc60d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14082_6f430cfc67c1d792331911d4c8e53fbd.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "14 Feb 2018The Trustee For The Lm Family Trust",
+      "abn_company_name": "The Trustee For The Lm Family Trust"
+    },
+    "acn_details": {
+      "acn_active_since": "14 Feb 2018Lamm",
+      "acn_company_name": "Lamm (sa) Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 4.8,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "135797",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "SA - 5159",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5159",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything went very smoothly with the whole process. The benefits of the proposed system were explained and I was able to confirm these by referring to the Solar Quotes website.Installation took place on schedule with no dramas.So far the system has performed exactly to expectations.I'd have no hesitation in recommending Lamm Solar and Electrical.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "134835",
+      "reviewer_name": "Riley",
+      "reviewer_location": "SA - 5174",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5174",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had a great experience with this solar installer. They visited our home to provide a detailed quote and gave helpful recommendations based on our needs. The installation was completed quickly and professionally, and the whole process was smooth from start to finish.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "133908",
+      "reviewer_name": "Richard",
+      "reviewer_location": "SA - 5025",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5025",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was extremely pleased with the team at LAMM solar. The sales manager Warwick was extremely professional visiting me in person to go through the details. He was honest and not at all pushy, just a genuinely nice bloke. His team were fantastic and there were no issues at all with the install. It was timely, clean and I was informed of progress reguarly. They even sourced and installed a Tesla EV charger and have me ready for stage two which will include batteries. I could not be any more complimentary of this business. Big enough to do the work in a timely manner but small to enough to ensure that I felt valued.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "132583",
+      "reviewer_name": "Les",
+      "reviewer_location": "SA - 5159",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5159",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had used Lamm Electrical on two or three occasions prior to the solar quotation and installation with satisfaction. The quote arrived promptly and was detailed and easy to understand for a non technical person. However I did have a couple of questions which were answered quickly over the phone with patience. The quote was not the cheapest but far from the most expensive. Good quality components and materials will never be the lowest cost.The installation followed soon after acceptance of the quote and was completed within the day. No dramas, no fuss and tidier than when started. There was some considerable delay from the power company in connecting and fitting a new smart meter. The power company didn't seem to understand the meaning of customer service! Although Lamm Solar had already been paid, Lewis the proprietary spent considerable time and I don't know how in persuading them to fit the meter. Once fitted Lewis came to check to make sure we were comfortable with the system.The system has operated without fault for the last eight years or so. I hope I'm not chancing my luck here!  It has also reduced our bills greatly and paid for it's self long ago. One of the better decisions in both system and company of choice.Since the solar system we have had Lamm carry out quite a few smaller jobs for us, some very small. Always prompt courteous, at the right price and always clean and tidy.  I have such confidence  and trust in Lamm I don't bother contacting anyone else.I have no hesitation in recommending Lamm because I know you will receive honest good advice. I would like to add, I have no relationship with Lamm other than customer, supplier basis.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "132254",
+      "reviewer_name": "Patrick John",
+      "reviewer_location": "SA - 5163",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5163",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good Price. Good Job. Happy All Round. Would recommend  and use this business again.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

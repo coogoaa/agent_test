@@ -1,0 +1,110 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/unisol-solar-and-electrical/",
+  "scraped_at": "2025-11-26T18:23:54.253607",
+  "company_info": {
+    "company_name": "Unisol Solar and Electrical",
+    "contact_phone": "0401 537 654",
+    "website_url": "https://unisolsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13252_aa701a0c4481aa4c829470d79c400ba3.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13252_9e5d1f3d4e58674f90d4988cc70912a6.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13252_69a46fb574d2d1f8f72bc9911bd2a6cd.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13252_e22a53056a8da696d037ee2482926cc1.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "88249",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "WA - 6163",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6163",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Colin was excellent to deal with from the first phone call. He provided us with multiple quotes and was very thorough in explaining the different products. Unlike other companies we got quotes from he did not try to oversell, and was keen to ensure we understood the system he proposed. Installation was quick and efficient, price was fair and we ended up with a high end system perfect for our energy consumption. We recommended Colin to several neighbours who have all been totally happy with Unisol. 100% recommend this small family run business",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "88128",
+      "reviewer_name": "Terry",
+      "reviewer_location": "WA - 6169",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6169",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and process was all good and explained well, quoting was quick and reasonable.Installation was great, installers very clean polite, on time.Job well done guys.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

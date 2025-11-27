@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/new-alternative-technologies/",
+  "scraped_at": "2025-11-26T15:07:15.444868",
+  "company_info": {
+    "company_name": "New Alternative Technologies",
+    "contact_address": "Byron Bay, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "31468",
+      "reviewer_name": "Kath",
+      "reviewer_location": "NSW - 2480",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2480",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-12-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Small, owner operated company providing quality installation.  Nathan Hicks (owner & electrician) does his best to satisfy his customers individual requirements.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Zeversolar",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_zeversolar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "Zeversolar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_zeversolar.png"
+    }
+  ]
+}

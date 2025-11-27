@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solway-star/",
+  "scraped_at": "2025-11-26T17:54:40.235176",
+  "company_info": {
+    "company_name": "Solway Star",
+    "contact_address": "ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "48922",
+      "reviewer_name": "Philip Leahy",
+      "reviewer_location": "VIC - 3006",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3006",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-06-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The team worked very well together here today. Will did an excellent job of getting everything done and operating in what seemed to me to be a very efficient manner. They were courteous and pleasant to work with and had the whole job completed and working by 13:30",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

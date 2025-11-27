@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sydney-wide-solar/",
+  "scraped_at": "2025-11-26T17:59:19.658671",
+  "company_info": {
+    "company_name": "Sydney Wide Solar",
+    "contact_phone": "1300 309 980",
+    "website_url": "https://www.facebook.com/sydneywidesolar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14449_336cd9584144c7f46a4be7ce5948fe14.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14449_bb28f250f9a056413d258547791c4adb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14449_f3289b5918ed60666fa64c7fdb434a96.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14449_51ea928cc81f03bef0f74203ca31b441.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

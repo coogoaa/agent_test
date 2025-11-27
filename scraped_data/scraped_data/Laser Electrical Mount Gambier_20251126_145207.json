@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/laser-electrical-mount-gambier/",
+  "scraped_at": "2025-11-26T14:52:07.469932",
+  "company_info": {
+    "company_name": "Laser Electrical Mount Gambier",
+    "contact_address": "Mount Gambier, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "63367",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "SA - 5290",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-04-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Chose local suppliers for solar panels and battery system as 1 of your quotes was 500km plus away, no good for quick follow up service and the farmers group  did not bother with a quote at all but if they had, that was coming from over 1500kmâ€™ away. Really not much use being so far away for follow up service,considering the local people dropped around to check to see all was running ok last week. Which was a 15 minute drive. Your web site needs to get realistic quotes from businesses within 100km but thanks anyway we did get 2 phone calls asking what we were interested in regarding solar intallation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

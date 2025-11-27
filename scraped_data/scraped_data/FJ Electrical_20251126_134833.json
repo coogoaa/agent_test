@@ -1,0 +1,92 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/fj-electrical/",
+  "scraped_at": "2025-11-26T13:48:33.820441",
+  "company_info": {
+    "company_name": "FJ Electrical",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "72894",
+      "reviewer_name": "Nathan",
+      "reviewer_location": "ACT - 2602",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2602",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It is almost five years since we had FJ electrical install a 5Kw array on our roof and so while it is probably a little bit late for me to only now be providing feedback but, better late than never.From the outset, the company were great.  Their quote was on the money (not too expensive and not too cheep) and their service was excellent.  Despite the fact that I live in Canberra and at the time at least (may have expanded, not sure) they were a Sydney company dealing with them was hassle free.At about the four year mark, the inverter need to be serviced (through no fault of FJ Electrical) and they arranged to have one of their team unertake the service (at no cost to me!!).Overall, very happy and would unreservedly recommend them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "19391",
+      "reviewer_name": "Gerry",
+      "reviewer_location": "ACT - 2905",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2905",
+      "reviewer_postcode_valid": true,
+      "review_date": "2013-07-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy - can't wait until all hooked up with ACTEW and working.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

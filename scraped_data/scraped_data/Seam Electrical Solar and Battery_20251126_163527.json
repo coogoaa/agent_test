@@ -1,0 +1,258 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/seam-electrical-solar-and-battery/",
+  "scraped_at": "2025-11-26T16:35:27.065806",
+  "company_info": {
+    "company_name": "Seam Electrical Solar and Battery",
+    "abn_number": "57655421631",
+    "acn_number": "655421631",
+    "contact_phone": "0401 705 706",
+    "website_url": "https://www.facebook.com/SeamSolar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/78192bf81659aa6aefca1b69b1c51e960.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8e1421f03c911a8d5c8d8e4affd51b8b1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c59ac94862a4e8c158ad4ede89e6d70b2.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b1f430d23b481d72bc2a2e434ff8c22a3.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4dfdff9128ac6e24ec094f7bf77a397f4.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/78192bf81659aa6aefca1b69b1c51e960.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8e1421f03c911a8d5c8d8e4affd51b8b1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c59ac94862a4e8c158ad4ede89e6d70b2.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b1f430d23b481d72bc2a2e434ff8c22a3.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4dfdff9128ac6e24ec094f7bf77a397f4.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "18 Nov 2021Seam Electrical Pty Ltd",
+      "abn_company_name": "Seam Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "18 Nov 2021Seam Electrical Pty Ltd",
+      "acn_company_name": "Seam Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 4.83,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "137016",
+      "reviewer_name": "Aaron",
+      "reviewer_location": "VIC - 3871",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3871",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Seam Electrical Solar and Battery installed a solar panel array and battery system at my property in September 2025. I was impressed by Seam from my first interactions. After an initial site visit by Daniel Birch (their sales representative), Seam made a further visit (this time by Mark Birch, the proprietor) to discuss my requirements in detail. Seam were responsive to my follow-up enquiries and happily provided a modified quote when I decided to change the system configuration. After I accepted the quote, they advised dates for the installation (well within their quoted timeframe) and stuck to the dates even after bad weather forced the delay of other work.The installation itself was trouble-free and professionally done with a minimum of disruption. I was very happy with the final result, which looks fantastic and has been very cleanly finished. Mark got it up and running and showed me how everything worked. He was also happy to talk about my energy use and ways it could be reduced, including offering to use his FLIR camera to spot places in the house where heat may be leaking out.The electrical inspection went off without a hitch and the inspector commented on the professionalism and quality of the installation – which he said made his job incredibly easy. Although it has only been operating for a few days, the system is running well and the house has not used any power from the grid since it came online.I highly recommend Seam to anyone in South or West Gippsland considering the installation of a solar system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "battery_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/78192bf81659aa6aefca1b69b1c51e960.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8e1421f03c911a8d5c8d8e4affd51b8b1.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c59ac94862a4e8c158ad4ede89e6d70b2.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b1f430d23b481d72bc2a2e434ff8c22a3.jpeg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4dfdff9128ac6e24ec094f7bf77a397f4.jpeg"
+      ]
+    },
+    {
+      "review_id": "126344",
+      "reviewer_name": "Tracy",
+      "reviewer_location": "VIC - 3844",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3844",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mark from Seam electrical is fantastic to deal with.He is so knowledgeable, informative and very accommodating to your wants and needs.Very punctual and polite.I would highly recommend Seam electrical.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "116877",
+      "reviewer_name": "Anna",
+      "reviewer_location": "VIC - 3977",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3977",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I chose to go with Seam Electrical as I found Mark to be very knowledgeable and honest in his approach. He was the only installer that offered to do a site visit before I made a commitment so I could make an informed decision and obtain an accurate quote. He was not pushy at all. I have absolutely made the right decision in choosing Seam Electrical.Mark was awesome, explained all the different options and types of inverters and made sure I understood. He was very easy to work with and has excellent communication skills. There was a delay with the supply of the inverter, however I was advised of this beforehand. The scheduled installation would go ahead and the inverter would be installed once supplied. This did not bother me as have no reason to doubt his word.The installation went smoothly and efficiently. Mark and his team take pride in their work. They were punctual, professional and clean. The panels look great.The inverter is being installed soon and the inspection has already been organised. Mark will take care of the grid connection as well. It has been a very easy process.It has been a pleasure dealing with Seam Electrical and I have no hesitation in recommending them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "113504",
+      "reviewer_name": "John",
+      "reviewer_location": "VIC - 3820",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3820",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great service and advice and recommendations from other electricians who said they do quality installs",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Redback",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_redback.png"
+      ]
+    },
+    {
+      "review_id": "113145",
+      "reviewer_name": "Avon",
+      "reviewer_location": "VIC - 3820",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3820",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I could not speak highly enough of Mark Birch - owner of the business -  I am an elderly lady and he was very considerate and explained everything so well. Also spoke to my daughter who helps me with queries.He and his offsider were here on the allotted day,  punctual, and left everything very tidy.Mark discussed with me the process of connection.I have a large tree on my nature strip and Mark drove past a number of times before connection  - at different times of day - to work out the best position for the panels.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Redback",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_redback.png"
+      ]
+    },
+    {
+      "review_id": "108099",
+      "reviewer_name": "Gary",
+      "reviewer_location": "VIC - 3818",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3818",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "He was very good with his communication. Kept me informed every step of the way. He also turned up on time.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

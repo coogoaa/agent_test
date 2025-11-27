@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pedler-naracoorte/",
+  "scraped_at": "2025-11-26T16:35:47.126356",
+  "company_info": {
+    "company_name": "Pedler Naracoorte",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "6495",
+      "reviewer_name": "Robert",
+      "reviewer_location": "SA - 5291",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5291",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Approx 8 - 10 week wait from order to installation. We have seen no evidence of material hold ups due to the Japan Disasters which we know is affecting some installers. At least we got our ETSA Utilities 3 Phase meter on 3 weeks prior to installation of system which seems great considering every other person we talk to has several weeks gap after installation before they get meter.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 3.0,
+      "system_size": "4kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "Chint Solar Zhejiang",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_chint-solar-zhejiang.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Chint Solar Zhejiang logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_chint-solar-zhejiang.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

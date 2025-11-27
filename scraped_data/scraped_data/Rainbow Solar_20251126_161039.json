@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rainbow-solar/",
+  "scraped_at": "2025-11-26T16:10:39.771725",
+  "company_info": {
+    "company_name": "Rainbow Solar",
+    "contact_address": "Coburg, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.3,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 2.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "29237",
+      "reviewer_name": "Anon",
+      "reviewer_location": "VIC - 3350",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3350",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-01-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Rainbow Solar eventually installed the system and seem to have done a good job. However they messed me around for weeks before installing the system to the point where I wondered if they were really going to install the system at all.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 2.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

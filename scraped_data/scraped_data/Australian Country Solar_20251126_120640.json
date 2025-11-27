@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/australian-country-solar/",
+  "scraped_at": "2025-11-26T12:06:40.468801",
+  "company_info": {
+    "company_name": "Australian Country Solar",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.5,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "20247",
+      "reviewer_name": "Adam",
+      "reviewer_location": "NSW - 2480",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2480",
+      "reviewer_postcode_valid": true,
+      "review_date": "2013-10-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We were told we would have an Australian made inverter of 3kw fitted,only to find out we actually got some Korean branded thing.We were also told we would have Munchen brand,250w panels that operate in low light as they function off uv light but we ended up with Hanover branded panels.We are currently awaiting a response from Australian Country Solar as to why it all changed,we have not paid the outstanding funds & will not until we get a reasonable result..It has been 4 weeks wait for an answer & still we have not heard...Very poor customer service, they promise everything but deliver nothing of quality..The electricians that did the install we're fabulous on the other hand...Do not use A.C.S. aka ASA/ASX...",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.5,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

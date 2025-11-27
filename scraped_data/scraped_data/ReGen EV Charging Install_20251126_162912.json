@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/regen-ev-charging-install/",
+  "scraped_at": "2025-11-26T16:29:12.333363",
+  "company_info": {
+    "company_name": "ReGen EV Charging Install",
+    "abn_number": "84121128002",
+    "acn_number": "137215108",
+    "contact_phone": "1300 063 427",
+    "website_url": "https://www.regenevcharginginstall.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14038_2b63f03f68bc300d74db9d2b6cb11345.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14038_573c0ce261cb0392a880c4be077f4807.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14038_1b3b9554ef3804b9a981aa5352aa7fe6.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14038_8ec5c36272879134f432b9da74e57845.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "01 Jan 2010The Trustee For The Induced Voltage Trust",
+      "abn_company_name": "The Trustee For The Induced Voltage Trust"
+    },
+    "acn_details": {
+      "acn_active_since": "20 May 2009Induced Voltage Pty Ltd",
+      "acn_company_name": "Induced Voltage Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

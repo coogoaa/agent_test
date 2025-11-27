@@ -1,0 +1,60 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/upowr/",
+  "scraped_at": "2025-11-26T18:29:49.189930",
+  "company_info": {
+    "company_name": "Upowr",
+    "contact_address": "Barangaroo, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "115707",
+      "reviewer_name": "John",
+      "reviewer_location": "NSW - 2536",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2536",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-10-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoted what I thought was a fair price very detailed no BS explained in layman's terms and did not bag other suppliers. A very nice installer cleaned up afterwards explained what he had done and the communications through Upower was excellent. All connected and running as it should.The advice given was factual. Only time will value the system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

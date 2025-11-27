@@ -1,0 +1,314 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/level-electrical-and-solar-arundel/",
+  "scraped_at": "2025-11-26T15:00:19.752323",
+  "company_info": {
+    "company_name": "Level Electrical and Solar Arundel",
+    "abn_number": "31629525079",
+    "acn_number": "629525079",
+    "electrical_contractor_license": "NSW: 349155C, QLD: 85719",
+    "contact_phone": "1300 438 585",
+    "website_url": "http://arundel.levelelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cd3412b93354bb44ab8fad3e81b118920.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/657d11d7fb98e7dad214f572aa48e80f1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/044886edcbbe8d8a62f1d841283945da1.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cd3412b93354bb44ab8fad3e81b118920.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/657d11d7fb98e7dad214f572aa48e80f1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/044886edcbbe8d8a62f1d841283945da1.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "22 Oct 2018Organized Electrical Solutions Pty Ltd",
+      "abn_company_name": "Organized Electrical Solutions Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "21 Oct 2018Organized Electrical Solutions Pty Ltd",
+      "acn_company_name": "Organized Electrical Solutions Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.88,
+    "system_quality_rating": 4.88,
+    "installation_rating": 4.88,
+    "customer_service_rating": 5.0,
+    "total_review_count": 8
+  },
+  "reviews": [
+    {
+      "review_id": "139522",
+      "reviewer_name": "Andreas",
+      "reviewer_location": "QLD - 4272",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4272",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The crew turned up on time and did an awesome job. They also left the place neat and tidy.I've got the opportunity to see a finished installation as reference.Customer service after installation and support is brilliant",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Deye",
+      "battery_brand": "Deye (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_deye.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_zappi.png"
+      ]
+    },
+    {
+      "review_id": "139495",
+      "reviewer_name": "Vince",
+      "reviewer_location": "QLD - 4272",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4272",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installer was very communicative promptly answering all my question, quality of the install was impeccable",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Deye",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_deye.png"
+      ]
+    },
+    {
+      "review_id": "138728",
+      "reviewer_name": "Peter",
+      "reviewer_location": "QLD - 4211",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4211",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Amin was very helpful and install team was great, on time and tidy",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "136630",
+      "reviewer_name": "Ayman",
+      "reviewer_location": "QLD - 4214",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4214",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After a disappointing experience with the installer who originally fitted my solar panels three years ago, which I initially considered using the same company for my solar battery installation to keep everything under one provider, I decided to explore other options.Following an initial call with a Level electrical representative and sending my electrical for the last few months, I was scheduled an appointment with electrical designer Amir. He provided me with a much better package, helped rationalise my purchase based on my actual needs, and offered clear, sensible advice.On installation day, everything went according to plan. When I had a question, Amir personally called to explain things in detail. The communication throughout the installation was excellent, and the work was carried out neatly and professionally.The follow-up after installation has also been outstanding, with remote monitoring support and practical advice on balancing my energy usage.Initially, I was hesitant to sign up with Level Electrical given the limited reviews available on SolarQuotes, but I can honestly say I am very pleasantly surprised and impressed so far.In contrast, my original installer, EISS, showed little to no planning for the system at all and I felt was favoured for asking questions. They took an instalment payment in mid-May for a July installation (with the rebate), held onto the money for few weeks, then eventually returned it after saying they weren’t sure about the system. Later, when I approached them again, they had no issue to install the very same system they had rejected—this time with an extra $2,000 added, saying: “Sorry mate, prices have increased.”",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cd3412b93354bb44ab8fad3e81b118920.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/657d11d7fb98e7dad214f572aa48e80f1.jpeg"
+      ]
+    },
+    {
+      "review_id": "132058",
+      "reviewer_name": "Steve",
+      "reviewer_location": "QLD - 4207",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4207",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "How was the sales/quoting process? Absolutely excellent, simple, efficient, turned up on time, delivered information in a timely manner in plain English.How did the installation go? tuned up on time with a bunch of staff, they worked through the rain to get the install done in 1 day.How was the customer service? so far, great",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/044886edcbbe8d8a62f1d841283945da1.jpeg"
+      ]
+    },
+    {
+      "review_id": "130335",
+      "reviewer_name": "Alastair",
+      "reviewer_location": "QLD - 4216",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4216",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-01-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Couldn't be happier with the whole process from quote to installation.Nic is very knowledgeable and offered options for the best solution for what I wanted to achieve.The team who did the installation did a fantastic job it what I would say was not any job. They worked together as a team was also impressive.Very satisfied customer.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "128478",
+      "reviewer_name": "Matthew",
+      "reviewer_location": "QLD - 4111",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4111",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Dave was great, really good to see the owner of the business quoting and explaining how it all works and delivering a quality service.Install done within a week of the deposit payment.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "125668",
+      "reviewer_name": "Joshua",
+      "reviewer_location": "QLD - 4272",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4272",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thanks to Nic, Jed and the rest of the Level team for sorting out a great system for us. There were a few teething issues that required a couple of return visits but they took full responsibility and made it an easy process. We also got a new heat pump HWS through Level plumbing and this was coordinated at the same time as the solar/battery installation. Very happy with the price too. Installation is neat and tidy too.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Deye logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_deye.png"
+    },
+    {
+      "brand_name": "Zappi logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_zappi.png"
+    }
+  ]
+}

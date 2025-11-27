@@ -1,0 +1,73 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-albany/",
+  "scraped_at": "2025-11-26T17:27:40.219011",
+  "company_info": {
+    "company_name": "Solahart Albany",
+    "contact_address": "Albany, WA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "126451",
+      "reviewer_name": "Ross",
+      "reviewer_location": "WA - 6330",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6330",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The salesman appeared to know the rules, regs, limitations and benefits of the system we had installed.  It was only a 5.5kw system which is the maximum allowed under the rules from Western Power.Quoting was efficient and on time.  Installation took a while (had to cancel once because of the wet weather)  but up and running within a week of the installation.Installer was polite, efficient and helpful and did everything needed to connect to the grid.Salesman returned and showed me how the inverter worked and switched the system on.Waiting now for our first bill from Western Power to see if there is any difference.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolaHart logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

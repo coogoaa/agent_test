@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/chris-jones-electrical/",
+  "scraped_at": "2025-11-26T12:16:22.497951",
+  "company_info": {
+    "company_name": "Chris Jones Electrical",
+    "contact_address": "Glengarry, VIC",
+    "website_url": "https://www.facebook.com/ChrisJonesElec",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12565_28096bc2ffec8d5244802d224edff0e7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12565_722c03d1c5dc470a6f68e7fbf1525f4b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12565_9bc598facc14c659cf3a1513b0c1c6f5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12565_7900a20d59563cc31c661209bbfb7f3c.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

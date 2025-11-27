@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lux-group-electrical-services/",
+  "scraped_at": "2025-11-26T15:24:46.006571",
+  "company_info": {
+    "company_name": "Lux Group Electrical Services",
+    "contact_phone": "0432 642 531",
+    "website_url": "https://luxgroupelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14445_6fd31f208476319eef34d1c0bf4adf49.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14445_226707b403e79595d8ce813526834f0c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14445_0b7be6392530b33fd4788f520a091a3d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14445_dae917ebafcb53f3ed256255cc9d5b21.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14445_e426f27a61c0b21d91f1a79bf1442001.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

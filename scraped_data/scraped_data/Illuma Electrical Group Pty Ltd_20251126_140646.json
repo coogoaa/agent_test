@@ -1,0 +1,144 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/illuma-electrical-group-pty-ltd/",
+  "scraped_at": "2025-11-26T14:06:46.929903",
+  "company_info": {
+    "company_name": "Illuma Electrical Group Pty Ltd",
+    "contact_phone": "0493 384 687",
+    "website_url": "https://www.illumaelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3e6fb380ec60d4534d0390f75932620c0.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3e6fb380ec60d4534d0390f75932620c0.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.33,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "111365",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "VIC - 3465",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3465",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The salesperson was very helpful and the crew that did the installation was there when they said they would be. A slight hiccup with Vicsolar slowed the process down a bit and a few difficulties getting the wifi to connect but all going well now.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "110376",
+      "reviewer_name": "Daniel",
+      "reviewer_location": "VIC - 3448",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3448",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-05-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Starting off I was contacted by Bill at Illuma Energy Group, he was really easy going and explained everything and was happy to help answer all questions. I was getting quotes from quite a few companies and that didn’t bother Bill at all, he seemed genuinely honest and just wanted the best outcome possible, he didn’t badmouth other companies as other did, he just wanted to provide the best quote he could with as much information as I required.When it came to the install, it was fast and efficient, the guys were great, knowledgeable and friendly.I can’t recommend them enough!We went with a 11kW system, 25 Jinko panels and a GE 10kW inverter into a 16.6kWh BYD battery system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "GE",
+      "battery_brand": "BYD",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_ge.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3e6fb380ec60d4534d0390f75932620c0.jpg"
+      ]
+    },
+    {
+      "review_id": "108425",
+      "reviewer_name": "Allanah",
+      "reviewer_location": "VIC - 3756",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3756",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was so quick and a lot easier than I thought it would be. We got a quote and had the installation done less than a week later. I have no complaints.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

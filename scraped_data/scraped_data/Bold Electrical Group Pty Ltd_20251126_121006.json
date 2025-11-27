@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bold-electrical-group-pty-ltd/",
+  "scraped_at": "2025-11-26T12:10:06.185703",
+  "company_info": {
+    "company_name": "Bold Electrical Group Pty Ltd",
+    "abn_number": "65657097259",
+    "acn_number": "657097259",
+    "contact_phone": "0487 788 698",
+    "website_url": "https://www.boldelectricalgroup.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14161_315d43732cc922b7addf4809d3e644bb.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14161_ba9f077acc249419449e120c25c865c3.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14161_01a8e1a594c1817af2af24d71938bbcf.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14161_c0e8a4d33d86dcc36278be79b00a5c21.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "07 Feb 2022Bold Electrical Group Pty Ltd",
+      "abn_company_name": "Bold Electrical Group Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "07 Feb 2022Bold Electrical Group Pty Ltd",
+      "acn_company_name": "Bold Electrical Group Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

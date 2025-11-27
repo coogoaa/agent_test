@@ -1,0 +1,98 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/abacus-energy/",
+  "scraped_at": "2025-11-26T12:07:26.250369",
+  "company_info": {
+    "company_name": "Abacus Energy",
+    "abn_number": "48630100515",
+    "acn_number": "630100515",
+    "electrical_contractor_license": "NSW: 333815C, VIC: REC 26274",
+    "contact_phone": "02 6024 2639",
+    "website_url": "https://www.facebook.com/Abacus.energy.wodonga/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12358_c20ad4d76fe97759aa27a0c99bff6710.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12358_e4da3b7fbbce2345d7772b0674a318d5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12358_8f1f353d7b90b5f1cdd057fd4305a5e1.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12358_abed6c9332d6c7fd7f92826efbbad515.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "29 Nov 2018Abacus Energy Pty Ltd",
+      "abn_company_name": "Abacus Energy Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "19 Nov 2018Abacus Energy Pty Ltd",
+      "acn_company_name": "Abacus Energy Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "132793",
+      "reviewer_name": "Jeff",
+      "reviewer_location": "NSW - 2640",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2640",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had our stand alone system since 2016 and since then we have nothing but exceptional support and service from the team. They are an exceptional and professional business who have provided nothing but the best in installation and ongoing support to our home.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Selectronic",
+      "battery_brand": "GNB (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_selectronic.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_abb.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "Selectronic logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_selectronic.png"
+    },
+    {
+      "brand_name": "ABB logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_abb.png"
+    }
+  ]
+}

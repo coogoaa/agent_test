@@ -1,0 +1,47 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/williams-electrical-and-air-pty-ltd/",
+  "scraped_at": "2025-11-26T19:04:43.305864",
+  "company_info": {
+    "company_name": "Williams Electrical and Air Pty Ltd",
+    "abn_number": "70673633362",
+    "acn_number": "673633362",
+    "contact_phone": "1300 353 224",
+    "website_url": "https://williamselectricalandair.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/374_8726404b3d4e98fc04988dd87ae4524b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/374_3d4457f490e49d0ea101c17b5e47f1a9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/374_a61fe628d8ae04ac7f506ea82b691c24.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/374_52813b2c649e7d875226d2faa34c10e1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/374_6662cc988260ad7a4f301c7383a9da81.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "18 Dec 2023Williams Electrical And Air Pty Ltd",
+      "abn_company_name": "Williams Electrical And Air Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "13 Dec 2023Williams Electrical And Air Pty Ltd",
+      "acn_company_name": "Williams Electrical And Air Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solarcity/",
+  "scraped_at": "2025-11-26T16:59:39.581485",
+  "company_info": {
+    "company_name": "Solarcity",
+    "contact_address": "Berrimah, NT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "72853",
+      "reviewer_name": "Roxanne",
+      "reviewer_location": "NT - 832",
+      "reviewer_state": "NT",
+      "reviewer_postcode": "832",
+      "reviewer_postcode_valid": false,
+      "review_date": "2020-01-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was very happy with the installation, the efficiency of the SolarCity NT crew doing the install and their technical knowledge is a great asset. They were very neat and tidy, friendly and approachable. I am very glad we chose SolarCity NT for our solar install.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hyundai Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

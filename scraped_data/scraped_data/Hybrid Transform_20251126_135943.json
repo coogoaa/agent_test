@@ -1,0 +1,83 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/hybrid-transform/",
+  "scraped_at": "2025-11-26T13:59:43.439728",
+  "company_info": {
+    "company_name": "Hybrid Transform",
+    "contact_address": "Epping Road, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cbc15b88ffc9da622af3b0bf5fae21051.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/40a2c64a62b7302e728bfe40b46ddada2.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d7f3dac20a7ea13c5d21d8aee7d583a03.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a97e3c8c52c94b840f8cb34b5ad7a5f04.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cbc15b88ffc9da622af3b0bf5fae21051.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/40a2c64a62b7302e728bfe40b46ddada2.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d7f3dac20a7ea13c5d21d8aee7d583a03.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a97e3c8c52c94b840f8cb34b5ad7a5f04.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "107357",
+      "reviewer_name": "Scott",
+      "reviewer_location": "NSW - 2880",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2880",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Polite, punctual, knowledgeable.  Actually came on-site with an electrical and installer and looked at the meter and the roof.  Answered any questions I had.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cbc15b88ffc9da622af3b0bf5fae21051.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/40a2c64a62b7302e728bfe40b46ddada2.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d7f3dac20a7ea13c5d21d8aee7d583a03.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a97e3c8c52c94b840f8cb34b5ad7a5f04.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

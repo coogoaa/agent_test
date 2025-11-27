@@ -1,0 +1,87 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-mad/",
+  "scraped_at": "2025-11-26T17:39:57.603267",
+  "company_info": {
+    "company_name": "Solar Mad",
+    "contact_phone": "02 6964 0976",
+    "website_url": "http://solarmad.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "85379",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2680",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2680",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "LG",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png"
+      ]
+    },
+    {
+      "review_id": "14865",
+      "reviewer_name": "Thea",
+      "reviewer_location": "NSW - 2711",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2711",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-07-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I finished up going with Solar Mad in Griffith NSW, they were very honest and there quality material was also the bestI did a lot of searching got 4 quotes.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LG logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png"
+    }
+  ]
+}

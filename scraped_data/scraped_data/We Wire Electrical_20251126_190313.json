@@ -1,0 +1,96 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/we-wire-electrical/",
+  "scraped_at": "2025-11-26T19:03:13.021685",
+  "company_info": {
+    "company_name": "We Wire Electrical",
+    "contact_address": "Williams Landing, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b8ec057a4e0ce28754d59b2ed8390f190.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b8ec057a4e0ce28754d59b2ed8390f190.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "95836",
+      "reviewer_name": "Vince",
+      "reviewer_location": "VIC - 3233",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3233",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Provided a drone shot at the end.Friendly folks and earth to deal with",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b8ec057a4e0ce28754d59b2ed8390f190.jpeg"
+      ]
+    },
+    {
+      "review_id": "78186",
+      "reviewer_name": "Rebecca",
+      "reviewer_location": "VIC - 3340",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3340",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Leigh and the team at We Wire were great - quotes a very competitive price for the system we wanted, were reliable with the install and kept us informed along the way and were great following up with us to make sure everything was working after had to sort out a minor issue with our power company before we could switch the system on. Highly recommend these guys!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

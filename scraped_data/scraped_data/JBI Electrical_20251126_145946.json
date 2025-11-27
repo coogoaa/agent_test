@@ -1,0 +1,48 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/jbi-electrical/",
+  "scraped_at": "2025-11-26T14:59:46.420066",
+  "company_info": {
+    "company_name": "JBI Electrical",
+    "abn_number": "35645744985",
+    "acn_number": "645744985",
+    "electrical_contractor_license": "NSW: 453567C, VIC: REC 29135",
+    "contact_phone": "03 9114 1716",
+    "website_url": "https://www.jbielectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14426_47233176f232754fc495f918df53a436.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14426_fc7a8bd97e18781badf88b7b24a6f9e6.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14426_1ba051e69620d1310426cd5549af263a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14426_ebb7ecf82b5e351c82f7419226af572a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14426_6516a898c90adc48429042e0265c851c.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "09 Nov 2020Jb Industrial Electrics Pty Ltd",
+      "abn_company_name": "Jb Industrial Electrics Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "09 Nov 2020Jb Industrial Electrics Pty Ltd",
+      "acn_company_name": "Jb Industrial Electrics Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

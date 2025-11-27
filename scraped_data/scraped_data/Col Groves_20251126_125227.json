@@ -1,0 +1,66 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/col-groves/",
+  "scraped_at": "2025-11-26T12:52:27.902965",
+  "company_info": {
+    "company_name": "Col Groves",
+    "contact_address": "2478, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "84284",
+      "reviewer_name": "Michael",
+      "reviewer_location": "NSW - 2477",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2477",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-12-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Local company able to quote the correct inverter and panels...other companies only will sell what they have not what you want.Installation was tidy, punctual...next day no power was able to send to the grid or house...seems I have too much power over and beyond the 5kw back to the grid...I am still waiting for them to come back and fixed the system.Customer service...still waiting.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

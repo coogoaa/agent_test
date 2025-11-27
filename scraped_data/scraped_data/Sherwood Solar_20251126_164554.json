@@ -1,0 +1,130 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sherwood-solar/",
+  "scraped_at": "2025-11-26T16:45:54.006677",
+  "company_info": {
+    "company_name": "Sherwood Solar",
+    "contact_phone": "0431  550  644",
+    "website_url": "https://www.sherwoodsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12753_218d1f3f1bd90585240318fb414c941c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12753_9cd2cf1b02ae981926ac6aa3de9ed7a1.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "94340",
+      "reviewer_name": "Jo",
+      "reviewer_location": "NSW - 2290",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Wade responded very promptly to our inquiry. We made our decision without pressure. Wade and his team skill-fully removed our old system and replaced it with a higher performing one in very quick time, before the hail started!!They were very polite, efficient and focused. After the installation was done they waited patiently until I was ready to see the web-accessible monitoring of the system in operation.We are very pleased with their work and would highly recommend them to others. We discovered Sherwood Solar through my sister who is very happy with her Sherwood installed system and the courteous and efficient team.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "86696",
+      "reviewer_name": "Simone",
+      "reviewer_location": "NSW - 2259",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2259",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After getting a few quotes for solar we decided to go with a company that wasn’t the cheapest but a company that demonstrated quality, care and professionalism. Wade and his team at Sherwood Solar have gone above our expectations in the quality and installation of our solar. He regularly checks our incoming and out going consumptions and notices if there is a problem. Our electricity provider did something wrong with hooking up the system, we didn’t notice but Wade did, came back and fixed the providers mistake. Now that is service and care. That is quality and care that you get from Wade and his team at Sherwood Solar. Thank you guys",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "77495",
+      "reviewer_name": "Luke",
+      "reviewer_location": "NSW - 2290",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was straight forward and hassle free. Wade from Sherwood was helpful and assisted with the decision making process regarding the system size and brand selection. The system was installed within a week of accepting the quote and overall everything has gone smoothly since.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

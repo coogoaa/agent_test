@@ -1,0 +1,153 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-right-wa-pty-ltd/",
+  "scraped_at": "2025-11-26T17:16:50.729842",
+  "company_info": {
+    "company_name": "Solar Right WA Pty Ltd",
+    "contact_phone": "0416 335 520",
+    "website_url": "https://solarrightwa.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a404b74cfd5f7f34857aeb9de3595c80.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a404b74cfd5f7f34857aeb9de3595c80.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.75,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "124208",
+      "reviewer_name": "Paul",
+      "reviewer_location": "WA - 6031",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6031",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From beginning to end we found dealing with Creig and Nathan was professional but very friendly.No sales talk just facts that we needed to know.Pricing was very fair considering the quality of products being offered.Insulation was faultlessly executed and everything was left clean and tidy.Would recommend this company with out hesseration.The system is working exactly as they said it would and we can monitor it easily via the app.Well done guys.Paul and Sally from Banksia Grove",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "116579",
+      "reviewer_name": "Marcel",
+      "reviewer_location": "WA - 6030",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar Right WA installed our PV solution. From the first interaction, quoting, advisory to the installation - the whole experience was great. All questions we had were answered promptly and also the team was happy to reschedule the install due to other works being done on the house. Highly recommended!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a404b74cfd5f7f34857aeb9de3595c80.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a404b74cfd5f7f34857aeb9de3595c80.jpg"
+      ]
+    },
+    {
+      "review_id": "100560",
+      "reviewer_name": "Krystal",
+      "reviewer_location": "WA - 6030",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I can not fault the entire process. I got numerous quotes and this company was the quickest, honest and easiest to deal with by far.My quote was prompt and the best system for my needs was recommended.The installation was wonderful. They were prompt, tidy and went above and beyond.I am so glad I went with this company as the entire process was a joy.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Huawei (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    },
+    {
+      "review_id": "69854",
+      "reviewer_name": "Damian",
+      "reviewer_location": "WA - 6036",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6036",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-07-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All aspects of job well carried out prompt and tidy.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "N a (Other)",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

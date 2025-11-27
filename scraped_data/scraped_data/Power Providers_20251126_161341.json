@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/power-providers/",
+  "scraped_at": "2025-11-26T16:13:41.100992",
+  "company_info": {
+    "company_name": "Power Providers",
+    "contact_phone": "0421 398 698",
+    "website_url": "https://powerproviders.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14368_a37853b3a07e3d389649ab49c2ff8111.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14368_222c5b8df82e8c890e2d8eeb257bc89b.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14368_76b15768a4f62f213df53b568a8eabe8.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14368_c4ca4238a0b923820dcc509a6f75849b.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

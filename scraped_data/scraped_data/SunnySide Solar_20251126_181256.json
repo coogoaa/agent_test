@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunnyside-solar/",
+  "scraped_at": "2025-11-26T18:12:56.052253",
+  "company_info": {
+    "company_name": "SunnySide Solar",
+    "abn_number": "16676101125",
+    "acn_number": "676101125",
+    "contact_phone": "0434 733 985",
+    "website_url": "https://sunnysidesolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14197_7a56a3dd23cee77684a91e83e49f1bbb.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14197_b5e7d988cfdb78bc3be1a9c221a8f744.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14197_943359f44dc87f6a1679c987280e8dc7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14197_8c3fa8196ef3e2c81e88d4c24d6b7c06.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "25 Mar 2024Sunnyside Solar Pty Ltd",
+      "abn_company_name": "Sunnyside Solar Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "25 Mar 2024Sunnyside Solar Pty Ltd",
+      "acn_company_name": "Sunnyside Solar Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

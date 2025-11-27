@@ -1,0 +1,22 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/truenergy/",
+  "scraped_at": "2025-11-26T18:13:20.367528",
+  "company_info": {
+    "company_name": "TRUenergy",
+    "contact_address": "Melbourne, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

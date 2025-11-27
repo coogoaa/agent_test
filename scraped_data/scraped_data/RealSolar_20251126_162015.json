@@ -1,0 +1,79 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/realsolar/",
+  "scraped_at": "2025-11-26T16:20:15.909383",
+  "company_info": {
+    "company_name": "RealSolar",
+    "contact_address": "Woollahra, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "3914",
+      "reviewer_name": "Graham",
+      "reviewer_location": "NSW - 2121",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2121",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-11-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "1492",
+      "reviewer_name": "James",
+      "reviewer_location": "NSW - 2647",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2647",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-07-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It is vital that permission to go ahead is received from your energy supplier eg country energy. Also be sure that a gross metre(NSW) has \"your name on it\" immediately, as there seems to be a shortage of these. Only pay a small deposit with half balance paid at completion of work and rest when it performs to your satisfaction, ie, metre put in and supplier inspection completed.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

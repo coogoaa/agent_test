@@ -1,0 +1,100 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sol-energy/",
+  "scraped_at": "2025-11-26T17:21:42.740130",
+  "company_info": {
+    "company_name": "Sol Energy",
+    "contact_address": "St Marys, SA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "121012",
+      "reviewer_name": "Chris",
+      "reviewer_location": "QLD - 4207",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4207",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "There are some indifferent operators in every field of endeavour however Soleil Energy Solutions set the standard by which the rest are measured, if you use their services and you are for some reason not content the problem will be you.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Alpha Technologies",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "31795",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3204",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3204",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-09-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Alpha Technologies logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png"
+    },
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

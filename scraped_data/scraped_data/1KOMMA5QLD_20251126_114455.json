@@ -1,0 +1,128 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/1komma5qld/",
+  "scraped_at": "2025-11-26T11:44:54.902971",
+  "company_info": {
+    "company_name": "1KOMMA5QLD",
+    "contact_address": "Coombabah, QLD",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "129786",
+      "reviewer_name": "Karen",
+      "reviewer_location": "QLD - 4285",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4285",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Initial consultation was great, salesperson was polite, knowledgeable and patient. At no stage was there any pressure.Installation went seamlessly. Both of the installers were helpful and worked tirelessly on a really hot day. They were on time and did exactly as promised. Customer service has been very good,The only slight criticism would be that the wifi reporting has had a couple of glitches.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "133742",
+      "reviewer_name": "Carol",
+      "reviewer_location": "QLD - 4551",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4551",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Got 4 quotes, this guy offered up front reduction even if new government didn’t get in. All demonstrations clear and phone app installed",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "129993",
+      "reviewer_name": "Debbie",
+      "reviewer_location": "QLD - 4173",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4173",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-01-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I could not be more impressed by the customer service from start to finish. From Martin, Amanda and the install team.install team were young, but had excellent manners and were so polite and helpfulThey explained everything to me. Would have no hesitation in recommending IKOMMA5 for your solar experience.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

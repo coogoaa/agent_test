@@ -1,0 +1,146 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sip-energy/",
+  "scraped_at": "2025-11-26T16:59:14.265847",
+  "company_info": {
+    "company_name": "Sip Energy",
+    "abn_number": "41641001032",
+    "acn_number": "641001032",
+    "contact_phone": "0412 288 279",
+    "website_url": "https://www.sipenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14315_990bf8a25df4adbd7e28623de45f75bd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14315_19fcc52a50513ba8cae04031b4712ea6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14315_cc37759b86728d1aeb3c29166743cfd3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14315_e21283844e4952e5a71f029de22b11f1.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "11 Jan 2022Sipenergy Pty Ltd",
+      "abn_company_name": "Sipenergy Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "18 May 2020Sipenergy Pty Ltd",
+      "acn_company_name": "Sipenergy Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "139201",
+      "reviewer_name": "Nancy",
+      "reviewer_location": "NSW - 2138",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2138",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From quotes to installation, Sip Energy is very responsive and staff very polite.  Theo the sales consultant is very polite and responsive. Briony is very understanding.The Installation went smoothly and place was kept clean and tidy.  Mo, the electrician, is very pleasant and patient. He helped to download the iSolar app and patiently went through with us how to maintain the battery.As this review is given only a week after the installation, I am not able to give a review on the quality of the system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "135839",
+      "reviewer_name": "Richie",
+      "reviewer_location": "NSW - 2226",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2226",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I just want to say a big thank you to Nick and the entire SipEnergy team. The guys on-site, especially Mo and the team, were amazing. A special thanks to Michael for taking the time to ensure everything was set up correctly. We’re extremely happy with the solar panels and battery installation. We were pretty nervous before the job started, but as soon as the team arrived, everything went smoothly. Highly recommend!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "SolarEdge",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "SolarEdge",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "132381",
+      "reviewer_name": "Peter",
+      "reviewer_location": "NSW - 2226",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2226",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Extremely professional and courteous people to deal with through quoting and installation. Great value for money and delivered as they promised. Included system and battery.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

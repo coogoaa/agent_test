@@ -1,0 +1,97 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/app-solar/",
+  "scraped_at": "2025-11-26T12:23:18.107671",
+  "company_info": {
+    "company_name": "App Solar",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "102289",
+      "reviewer_name": "Ramon Jr",
+      "reviewer_location": "NSW - 2760",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2760",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-08-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "First & Second item are spot on.The third one, I have to organise the grid connection myself, but all good anyway.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "No Battery yet (Other)",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "68361",
+      "reviewer_name": "Vihang",
+      "reviewer_location": "NSW - 2152",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "While looking for my solar system I came across so many cowboy solar companies, it was a great relief when I came across App Solar. They have been in the industry for years and I am sure they will be around for years to come which gives me peace of mind knowing if I have any issues they will honor their workmanship warranty. Be careful guys, there are many popup solar companies that has been around for few months, offer 10 years warranty and disappear in few more months.They educated me in picking the quality product from various options, at no point they were pushy or keen to get me to sign the agreement. They took their time to assess the shadowing problem on one side of my roof for few days and designed a best possible placement of the panels for my roof.The quote I received from them was the best price I had received from all other companies.The installer was very experienced and I had no surprises during the installHighly recommend App Solar, people who own and work there are very genuine and quality is their priority.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

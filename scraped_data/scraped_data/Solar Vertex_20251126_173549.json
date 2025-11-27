@@ -1,0 +1,35 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-vertex/",
+  "scraped_at": "2025-11-26T17:35:49.907549",
+  "company_info": {
+    "company_name": "Solar Vertex",
+    "contact_address": "Toongabbie, NSW",
+    "website_url": "https://www.solarvertex.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13209_8694c7379e95c57f015852f535f3b486.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13209_539e0d1db8747b8afab76f219e9eadc3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13209_4318d020be385019b8bf0ae618bee5ac.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

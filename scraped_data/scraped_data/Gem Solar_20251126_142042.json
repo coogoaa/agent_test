@@ -1,0 +1,130 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/gem-solar/",
+  "scraped_at": "2025-11-26T14:20:42.118049",
+  "company_info": {
+    "company_name": "Gem Solar",
+    "contact_address": "QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c218079ce7e0f78e1a95939b79c16ef40.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c218079ce7e0f78e1a95939b79c16ef40.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "109749",
+      "reviewer_name": "Darryl",
+      "reviewer_location": "QLD - 4570",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4570",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process was very good, follow-up on all queries was great. I was very happy with their advice and recommendation, it aligned with my own research and understanding.Installation and communication was seamless and prompt. Clear communication at all times.Installation process was very professional and actually looked good. Questions and further communication with installers was welcome and very good.Customer service was outstanding as the installers ensured the monitoring software was operating correctly and everything  was operating as advertised. This system purchased from RACQ solar was an upgrade / addition to an already existing system (3.3 Kw). There is three phase power to the house, the existing system is single phase. Installers ensured both systems were operating correctly.In addition, prompt follow up service was supplied when an issue was discovered (power to shed power points ceased operating, but lights worked fine.) More than happy with response to the problem and the fix.The system also included a battery, to ensure power supply during grid failure and night. After three days, there has been no requirement to purchase power from the grid. Solar panels also includes hot water heating as the previous solar hot water system had failed and required removal.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Hanwha Q CELLS",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "92486",
+      "reviewer_name": "Sarah",
+      "reviewer_location": "QLD - 4078",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4078",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Gem energy were so helpful through the entire process. The guys who came out and installed from Eirgo were really friendly and professional too. Happy with the process from start to finish and at a reasonable price too. Highly recommend",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c218079ce7e0f78e1a95939b79c16ef40.jpeg"
+      ]
+    },
+    {
+      "review_id": "24996",
+      "reviewer_name": "Koos",
+      "reviewer_location": "QLD - 4152",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-01-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Gem Solar responded to my numerous technical queries quickly. Although they have not been around as long as some of the other well established providers, their total offering beat all the other providers hands down.Every provider has to be a \"new player\" in the market at some stage - the ones that have been around for a long time were just good new players, like Gem Solar.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

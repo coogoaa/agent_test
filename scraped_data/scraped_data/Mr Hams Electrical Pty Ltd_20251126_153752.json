@@ -1,0 +1,121 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mr-hams-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T15:37:52.885539",
+  "company_info": {
+    "company_name": "Mr Hams Electrical Pty Ltd",
+    "contact_phone": "0448 006 205",
+    "website_url": "https://mrhamselectrical.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "92819",
+      "reviewer_name": "Tanya",
+      "reviewer_location": "QLD - 4305",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4305",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great company to deal with - nothing was too much trouble. System is working great. Very happy with everything.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Phono",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "87757",
+      "reviewer_name": "Nicholas",
+      "reviewer_location": "QLD - 4306",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4306",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Awesome service, helped install app and show me how it all works. System is working really well and living up to all my expectations for it.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "80519",
+      "reviewer_name": "Elle",
+      "reviewer_location": "QLD - 4070",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4070",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After obtaining 3 quotes through solarquotes, Mr Hamâ€™s Electrical provided the best system for the best money. They were even better than my local Facebook group recommendations that I received.Mr Hamâ€™s were quick to answer my many questions and provided me with confidence in the system I chose.Installation was prompt and without any problems.I would definitely recommend them to friends and family.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Phono logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

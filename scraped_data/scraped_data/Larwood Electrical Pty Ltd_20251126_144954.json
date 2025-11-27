@@ -1,0 +1,102 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/larwood-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T14:49:54.846134",
+  "company_info": {
+    "company_name": "Larwood Electrical Pty Ltd",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14175_99efbd8175ae073cc812796da8072d45.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14175_3c657a00bd052bbf689391cc3ffb2d63.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14175_b93761b1a7844d7d57ff73cca444c092.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14175_d67cd5ae066fa14a2c349253e8e5269d.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "134017",
+      "reviewer_name": "Douglas",
+      "reviewer_location": "VIC - 3500",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3500",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This was an extension to my existing panels.  Greg was very informative, punctual, nothing was a hassle. Aftersales service and advice first rate.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "128873",
+      "reviewer_name": "Ryan",
+      "reviewer_location": "NSW - 2738",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2738",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Larwood electrical were awesome to work with from start to finish and great value for money. Very organised, seamless and timely installation, and very willing to help us to understand our system to ensure we are getting the most out of it. I couldn’t speak anymore highly of Greg and the team. Thanks guys!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

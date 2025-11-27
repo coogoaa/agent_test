@@ -1,0 +1,73 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/elect-solar-services/",
+  "scraped_at": "2025-11-26T13:06:18.764089",
+  "company_info": {
+    "company_name": "Elect Solar Services",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14122_980b0c072d6b3b5dd34f96bcc4a9354f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14122_06c358fe8b32a02d7fc43df8e242e80c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14122_1e844895687df246c8982ff6b0073b06.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14122_025cdebed2e1b244cbb120c81399ce9a.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "138997",
+      "reviewer_name": "Flinn",
+      "reviewer_location": "QLD - 4550",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4550",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Brodie was very easy to deal withGood price for a quality system. Highly recommend",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Deye",
+      "battery_brand": "Deye (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_deye.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Deye logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_deye.png"
+    }
+  ]
+}

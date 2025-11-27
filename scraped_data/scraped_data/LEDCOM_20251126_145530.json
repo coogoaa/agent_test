@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ledcom/",
+  "scraped_at": "2025-11-26T14:55:30.127138",
+  "company_info": {
+    "company_name": "LEDCOM",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14179_023f07d47be86ed4c9e961d7dbe04274.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14179_b4d4940a9d16ae6ab9445eb2a24211fd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14179_ba3894efb427b2a652b0f3bc4e057f2e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14179_3b19b8555669a53db78aa01cda1ab01d.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

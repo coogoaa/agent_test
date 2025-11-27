@@ -1,0 +1,83 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mann-made-electrical-contractors/",
+  "scraped_at": "2025-11-26T15:38:03.548999",
+  "company_info": {
+    "company_name": "Mann Made Electrical Contractors",
+    "abn_number": "60677324999",
+    "acn_number": "677324999",
+    "contact_phone": "0434 818 134",
+    "website_url": "https://mmelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14370_fffcc499a456b0668f396916f125fd78.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14370_41b9ac2ba590dd34b883e773fbb67428.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14370_1777e4ad96f32f9da561258f9ee5a95e.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "14 May 2024Mann Made Electric Co Pty Ltd",
+      "abn_company_name": "Mann Made Electric Co Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "14 May 2024Mann Made Electric Co Pty Ltd",
+      "acn_company_name": "Mann Made Electric Co Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "135945",
+      "reviewer_name": "Jethro",
+      "reviewer_location": "VIC - 3152",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Alexi looked after my car charger install. Due to the desired location it required a lot  of cable and he installed so neat it was like it was part of a new build.Explained options and gave costings clearly upfront.It required a sub-board as my existing board was quite full and the length of cable. This increased price but really happy and now I can expand more appliances in future.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Tesla logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+    }
+  ]
+}

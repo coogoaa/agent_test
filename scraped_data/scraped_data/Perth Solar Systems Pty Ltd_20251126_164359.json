@@ -1,0 +1,28 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/perth-solar-systems-pty-ltd/",
+  "scraped_at": "2025-11-26T16:43:59.659255",
+  "company_info": {
+    "company_name": "Perth Solar Systems Pty Ltd",
+    "contact_phone": "0406 795 106",
+    "website_url": "https://perthsolarsystems.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13207_2b7028d71926d546433efa71e3aa42d2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13207_81d70b9151aa2980aeb6c2e6f64696ef.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13207_6eb6cf5895ddb27bf5a7fca06ebc15fd.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,89 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/integrated-solar-solutions/",
+  "scraped_at": "2025-11-26T14:26:40.192662",
+  "company_info": {
+    "company_name": "Integrated Solar Solutions",
+    "contact_address": "Acacia Ridge, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.5,
+    "value_for_money_rating": 2.5,
+    "system_quality_rating": 2.5,
+    "installation_rating": 2.5,
+    "customer_service_rating": 2.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "76360",
+      "reviewer_name": "Mark",
+      "reviewer_location": "NSW - 2477",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2477",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-05-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sold me a 6kw , 21 panels solar system with a promise of zero billing with $300 - $400 rebate every quarter at 21c origin Energy. Single person living alone. Paid $5000 for this, installed in oct 2019, 1st bill $421.82? No feed in has been happening since installed. Contacted them, came to fix problem twice, blaming problem on Origin. Solar feed in now working. Received another bill of $268.86 in May. Out of pocket $1200 missing rebates & bills.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "BeiJing Chiner New Energy",
+      "inverter_brand": "Hex Power System",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_hex-power-system.png"
+      ]
+    },
+    {
+      "review_id": "71780",
+      "reviewer_name": "Bernard",
+      "reviewer_location": "NSW - 2484",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2484",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales/Quoting:-Good;Installation:-Well/Yes/Yes/Yes;Customer Service:-Good/Yes;At least 10 words above!!!!! At least 12 by my count!!! 29 counting the last 3 comments!!!",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hex Power System logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_hex-power-system.png"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mitch-tulley-electrical/",
+  "scraped_at": "2025-11-26T15:22:32.186567",
+  "company_info": {
+    "company_name": "Mitch Tulley Electrical",
+    "contact_phone": "0421 664 507",
+    "website_url": "https://www.facebook.com/mitchtulleyelectrical/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13063_96676fe8eeb1526575f9aa11b30f60c2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13063_5e891f835c1e9b6e515e9e086fc57347.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13063_303190ba288b9f957bad1330cf3648f7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13063_ae4431edf2ae4227e7bcc7b8ade32618.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13063_e6be34dbc56b35eac4c8d73069f9be7c.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a694273b04abd98f9c1c779e51b46e950.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/106b053e9ec429379ca761fec23153801.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ba12637d7eaa14bd2901e6cb18ffcb1d2.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "90726",
+      "reviewer_name": "Fraser",
+      "reviewer_location": "QLD - 4670",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4670",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-06-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mitch and his off-sider, Locky, work well as a team to provide well installed product that is performing up to my high expectations.They were onsite when then said they would be, followed my instructions to the T and left the site clean. What more could you want?",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a694273b04abd98f9c1c779e51b46e950.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a694273b04abd98f9c1c779e51b46e950.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/106b053e9ec429379ca761fec23153801.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/106b053e9ec429379ca761fec23153801.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ba12637d7eaa14bd2901e6cb18ffcb1d2.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ba12637d7eaa14bd2901e6cb18ffcb1d2.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

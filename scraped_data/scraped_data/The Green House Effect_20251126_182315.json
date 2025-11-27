@@ -1,0 +1,116 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/the-green-house-effect/",
+  "scraped_at": "2025-11-26T18:23:14.965649",
+  "company_info": {
+    "company_name": "The Green House Effect",
+    "contact_address": "Healesville, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "125989",
+      "reviewer_name": "Brendan",
+      "reviewer_location": "VIC - 3658",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3658",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It was great being able to talk about the design of this system with someone so knowledgeable and considerste",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "79388",
+      "reviewer_name": "Robert",
+      "reviewer_location": "VIC - 3056",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3056",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-07-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Jerry and the team was a pleasure to deal with. Helpful, knowledgeable and reasonably (honest) price. Quality work with my solar hybrid installation. I was very pleased with the result!",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "BYD",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    },
+    {
+      "review_id": "56976",
+      "reviewer_name": "Paul",
+      "reviewer_location": "VIC - 3711",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3711",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-12-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent customer service and very knowledgeable. A great experience.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "more than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

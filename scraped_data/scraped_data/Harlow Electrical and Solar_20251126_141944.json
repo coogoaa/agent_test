@@ -1,0 +1,91 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/harlow-electrical-and-solar/",
+  "scraped_at": "2025-11-26T14:19:44.957374",
+  "company_info": {
+    "company_name": "Harlow Electrical and Solar",
+    "contact_phone": "0439 420 602",
+    "website_url": "https://www.facebook.com/HarlowElectricalandSolar/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13313_edcba227be246aa6d22a5f140dedf484.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13313_dd449f6597ff3face646f91bb1e7a284.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13313_92cc6928197deef78310a10b8988b637.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13313_3856b51d36497001d068ab594ac6d824.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13313_df2917707a77bfb3b735c34687b49eda.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13313_54c8f7ef8e0a707d6e10c4697a0bf5b3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13313_956e7e360987bf7f5ecf84b1d1759e53.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13313_4af52202f77beb11ba59ce2056aa7878.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "116394",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3664",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3664",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Provided us with quotes for different sized systems to choose from.The installation took longer than planned due to our roof design.They organised everything that was needed to have the system up and running once it had been inspected and certified.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 2 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

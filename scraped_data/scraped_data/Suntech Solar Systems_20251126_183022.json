@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/suntech-solar-systems/",
+  "scraped_at": "2025-11-26T18:30:22.376840",
+  "company_info": {
+    "company_name": "Suntech Solar Systems",
+    "contact_phone": "1300 786 429",
+    "website_url": "https://www.suntechsolarsystems.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14387_b57c54ca9bf0cdb2299e1ccec7556168.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14387_423eb53bec4f71c93f4369047c8a4683.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14387_7568771437d31f2b572657cd4fd55c07.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14387_ffab0979723c0f3c06fc39ae88197ca7.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,142 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/power-saving-centre/",
+  "scraped_at": "2025-11-26T16:14:57.381923",
+  "company_info": {
+    "company_name": "Power Saving Centre",
+    "contact_address": "North Rockhampton, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.9,
+    "value_for_money_rating": 4.25,
+    "system_quality_rating": 4.25,
+    "installation_rating": 4.0,
+    "customer_service_rating": 3.25,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "122485",
+      "reviewer_name": "Nathan",
+      "reviewer_location": "QLD - 4701",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4701",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Installer is long out of business.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Samil Power",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_samil-power.png"
+      ]
+    },
+    {
+      "review_id": "88487",
+      "reviewer_name": "Rachel",
+      "reviewer_location": "ACT - 2615",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2615",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-04-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Idris at ACT ESS is the go-to gun for complex installs in the ACT.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "more than $20000",
+      "panel_brand": "",
+      "inverter_brand": "SolaX Power",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+      ]
+    },
+    {
+      "review_id": "46363",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2582",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2582",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-04-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It was over Christmas so not very timely, there have been a few hiccups but they are very willing to fix any problems. The field is changing so much with software and because I have 2 systems I wanted software which would show me both systems and I wanted my usage and production and Solar Analytics gives me good data.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "13814",
+      "reviewer_name": "David",
+      "reviewer_location": "QLD - 4702",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4702",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-06-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I found it almost impossible to compare the various suppliers and systems because there are so many variables and too few common qualities. I ended going with a local mob that had installed a system for a mate of mine and he had no complaints. I feel the industry is full of sharks and felt it better to go with a local mob, even though I payed more, in case something goes wrong. This way I can be standing at their doorstep to redress any issues I'm not happy with.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Samil Power logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_samil-power.png"
+    }
+  ]
+}

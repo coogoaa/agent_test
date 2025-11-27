@@ -1,0 +1,104 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/northern-rivers-solar/",
+  "scraped_at": "2025-11-26T15:28:35.352759",
+  "company_info": {
+    "company_name": "Northern Rivers Solar",
+    "contact_address": "Lismore, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/81286a7db31146658426b71bb304045a1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f2420f73a5576a599a94c987b1148712.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e31d762e1abe2d30d0b6a260549a9b563.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/81286a7db31146658426b71bb304045a1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f2420f73a5576a599a94c987b1148712.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e31d762e1abe2d30d0b6a260549a9b563.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "91215",
+      "reviewer_name": "Joy",
+      "reviewer_location": "NSW - 2480",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2480",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very professional, polite, helpful and answered all questions well.  Install was prompt and workers communicated well on the day. Good system and competitive price, but not the cheapest…. It’s not always the best!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/81286a7db31146658426b71bb304045a1.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f2420f73a5576a599a94c987b1148712.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e31d762e1abe2d30d0b6a260549a9b563.jpeg"
+      ]
+    },
+    {
+      "review_id": "53768",
+      "reviewer_name": "Jodie",
+      "reviewer_location": "NSW - 2489",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2489",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-10-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

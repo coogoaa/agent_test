@@ -1,0 +1,99 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/elexcellent/",
+  "scraped_at": "2025-11-26T13:19:49.858424",
+  "company_info": {
+    "company_name": "Elexcellent",
+    "contact_phone": "0431 910 630",
+    "website_url": "https://www.elexcellent.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "126298",
+      "reviewer_name": "Doug",
+      "reviewer_location": "VIC - 3934",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3934",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent visited the site and we had a cordial and instructive discussion on what would be the best capacity and placement of panels  and inverter.This was followed by a very thorougher, informative and easy to understand quote and a couple of question and answer sessions.Although not the lowest quote we chose Excellent and they were very helpful with our dealings with the solar authorities.The installers arrived on time and carried out the installation with no disturbance to our day. When finished the installation area was left clean and tidy and we were instructed on the operation of the system.Excellent arranged everything with the authorities and the inspection and connection was accomplished within a couple of days. (The inspector complemented the installers on the professionalism of their work and the system.)At all times the representatives of Excellent were punctual, polite, understanding of our ignorance of solar systems and took great lengths to answer our questions.We would highly recommend this company and their representatives and would gladly have them visit our home again.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "119044",
+      "reviewer_name": "Ben",
+      "reviewer_location": "VIC - 3138",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3138",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kody was great, the finished product was spectacular.My bills have been reduced to $0Couldn’t recommend him more",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

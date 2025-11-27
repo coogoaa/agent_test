@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solarspec/",
+  "scraped_at": "2025-11-26T17:24:54.829997",
+  "company_info": {
+    "company_name": "SolarSpec Commercial",
+    "contact_address": "Hallam, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.2,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "12483",
+      "reviewer_name": "George",
+      "reviewer_location": "SA - 5556",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I went through a local electrician in Wallaroo who uses Solarspec as a designer and equipment supplier.He purchases all the hardware through an intermediate company in Kadina.As a consequence the only contact I had, was with the electrician who arranged everything. If ETSA had been quicker off the mark I would have had the system installed and operative by the middle of February.The system was installed on 18/4/12 and the import / export meter went in the following day.16 X 190 w Suntech panels STP 190S - 24AD+3Kw Sunnyboy inverter SB3000TL - 20$6,600I would advise anyone who lives in the country do their homework and look around their immediate area for a registered electrician who is also an accredited PV panel installer.Steer clear, if possible, of city based suppliers as you have no idea who the installer will be and where to find them if something is amiss.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "10411",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5280",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5280",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-10-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

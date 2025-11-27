@@ -1,0 +1,148 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/gambier-electronics/",
+  "scraped_at": "2025-11-26T14:13:16.017956",
+  "company_info": {
+    "company_name": "Gambier Electronics",
+    "contact_address": "Mount Gambier, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "29741",
+      "reviewer_name": "Keith",
+      "reviewer_location": "SA - 5290",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-11-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I only wanted to upgrade from a 2.57 to a 3 kw so I only needed one panel to be installed and the only person to get in touch with me wanted to pull the existing system out and replace the whole thing and charge me thousands. The extra panel was supplied and installed for $650 without a problem.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "Conergy",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.33,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_conergy.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "16899",
+      "reviewer_name": "Rick",
+      "reviewer_location": "SA - 5290",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-12-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Decided to go with a local firm rather than Adelaide based. I chose Gambier Electronics after local feedback, and as they have been installing systems for several years. I am a bit nervous about new companies setting up to cash in on gov't. incentives. (Pink bats debacle and school projects come to mind). I was offered choice of components and pricing.As promised they installed before Xmas (8 weeks from contract signing), kept in touch prior to installation and did a great job.First day of operation - 47kWh from 6.56kW system. OK, for Mount Gambier.Highly recommended installer.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "8303",
+      "reviewer_name": "David",
+      "reviewer_location": "SA - 5290",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The above responses may change in the near future if it all falls apart!!Thank you for your assistance - I was able to ascertain that the local price was in the ball park.Re below: first name and state only thanks.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "13361",
+      "reviewer_name": "Guy",
+      "reviewer_location": "SA - 5290",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-05-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Conergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_conergy.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

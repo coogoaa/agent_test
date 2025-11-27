@@ -1,0 +1,171 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-on-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T16:59:59.799898",
+  "company_info": {
+    "company_name": "Solar On Electrical Pty Ltd",
+    "electrical_contractor_license": "NSW: 294186C, VIC: REC 22896",
+    "contact_phone": "0408 258 298",
+    "website_url": "http://www.solaronelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_9ab6f36fda10dbfd5aebb86bd2f6b2e7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_73a7178785251394989397914c06774e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_7aa2f08b8c99928b73f261c965153e58.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_5d82c2076349e2970b02671e7c97e56f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_cafff2dfecfc9d1c87f4c0fd8aa51e99.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_7bf1bfd17ac86a4dca30823b98f34ae0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_9c3abe44e6ee11295634152b3cbaa975.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_349d7df65d18aa5664276202668152e6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_8389ae3098fd4a07e2976443ea24a95f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/10838_54e475a6b9123c479dd15730ea4311ab.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "114804",
+      "reviewer_name": "Graeme",
+      "reviewer_location": "VIC - 3564",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3564",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Brooke put our first solar up in 2010 and we have moved into to town now. This is our second solar Brooke is putting up.Their work is first class and we recommend Brooke and is team to do a great job.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "101781",
+      "reviewer_name": "Melissa",
+      "reviewer_location": "VIC - 3658",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3658",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar on electrical were amazing very helpful explained everything before and during installation the there guys (Scott Mitch Colby ) were very polite and respectfulCould not fault this company for excellent customer service and quick response to all the questions I asked HIGHLY RECOMMENDEDThank you to Brooke and shaymus and team",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "100018",
+      "reviewer_name": "Matilda",
+      "reviewer_location": "VIC - 3034",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3034",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The Solar On team were friendly, efficient, and professional in all interactions. They are great at what they do and installed our solar with excellent workmanship as well as teaching us how to utilise and maximise our solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "81802",
+      "reviewer_name": "Hayley",
+      "reviewer_location": "VIC - 3624",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3624",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I received quotes from three companies, and chose a local, friendly company with a competitive price. Installation was prompt and easy, within one week of signing. They organised and explained each step, helped me to install the Fronius app, and were more than happy to help with after sales service/questions also.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

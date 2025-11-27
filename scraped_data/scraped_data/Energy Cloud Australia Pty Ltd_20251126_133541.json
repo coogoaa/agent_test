@@ -1,0 +1,127 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energy-cloud-australia-pty-ltd/",
+  "scraped_at": "2025-11-26T13:35:41.265368",
+  "company_info": {
+    "company_name": "Energy Cloud Australia Pty Ltd",
+    "contact_address": "Mount Waverley, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "99880",
+      "reviewer_name": "Annie",
+      "reviewer_location": "VIC - 3030",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "SAJ",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+      ]
+    },
+    {
+      "review_id": "69464",
+      "reviewer_name": "Jennifer",
+      "reviewer_location": "VIC - 3160",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3160",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-10-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Amazing top notch Electrianâ€™sPolite staff would not hesitate to recommend such professional staff",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "67384",
+      "reviewer_name": "Patrick",
+      "reviewer_location": "VIC - 3106",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3106",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Feng [engineer], has a regular team of fully qualified workers .turned up with 10 workers and 7 vans - done the whole job in 9 hours [68 Longi panels and a 2KW Fronius inverter].What a team and efficiency!Workmanship and down to earth quote - unbeatable !!!!!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SAJ logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+    }
+  ]
+}

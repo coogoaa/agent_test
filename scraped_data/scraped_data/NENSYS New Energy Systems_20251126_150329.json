@@ -1,0 +1,94 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/nensys-new-energy-systems/",
+  "scraped_at": "2025-11-26T15:03:29.136061",
+  "company_info": {
+    "company_name": "NENSYS New Energy Systems",
+    "contact_address": "Raceview, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.5,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "94008",
+      "reviewer_name": "Warren",
+      "reviewer_location": "QLD - 4312",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4312",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Had this installer to do a number of solar jobs for me over the years and I've never found I needed to call anyone else. A top notch bloke who really knows what he's about - and reasonably priced. You get what you pay in this world and there are far too many installers out there only to make a quick buck - not this fellow. His after sales service is great - hasn't ever left me hanging, although because of his talent I'd say he's in great demand, hence you might have to wait a little longer than any other installer to get him out. Hope he lives forever.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3.3kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Kyocera",
+      "inverter_brand": "Latronics",
+      "battery_brand": "Energystore (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_latronics.png"
+      ]
+    },
+    {
+      "review_id": "5553",
+      "reviewer_name": "John",
+      "reviewer_location": "QLD - 4305",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4305",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "THE PERSON LIVES LOCAL, ALLOWED INSPECTION OF OTHER INSTALLATIONS HE HAS COMPLETEDiN THE BUSINESS MORE THAN 3 YEARS.WILL ONLY USE JAPANISE PANELS FOR TOP QUALITYWILL FIT IN 3 TO 4 WEEKSRETURN VISITS TO CHECK OPERATION AND CUSTOMER SATISFACTIONSHOWED PICTURES OF OTHER WORK COMPLETED & SATISFIED CUSTOMERSIS ON THE APPROVED ACCREDITED DESIGNERS & INSTALLERS LIST FROM CLEAN ENERGY COUNCIL",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Sharp",
+      "inverter_brand": "Latronics",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_sharp.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_latronics.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Latronics logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_latronics.png"
+    }
+  ]
+}

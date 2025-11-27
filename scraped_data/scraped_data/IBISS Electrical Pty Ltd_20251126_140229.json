@@ -1,0 +1,199 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ibiss-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T14:02:29.434246",
+  "company_info": {
+    "company_name": "IBISS Electrical Pty Ltd",
+    "abn_number": "68674576268",
+    "acn_number": "674576268",
+    "contact_phone": "0404 541 893",
+    "website_url": "https://ibisselectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12752_3e912e91ecc37c7d1b83ee0f93536427.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12752_6cf00500a8becac7ed7277dd97c3aef9.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12752_5846a661ed0137376823f80aa5635803.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12752_1136a09ac2a718a2123f65d3eba393ab.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "30 Jan 2024Ibiss Electrical Pty Ltd",
+      "abn_company_name": "Ibiss Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "30 Jan 2024Ibiss Electrical  Pty Ltd",
+      "acn_company_name": "Ibiss Electrical  Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.6,
+    "system_quality_rating": 4.8,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "138914",
+      "reviewer_name": "Dave",
+      "reviewer_location": "VIC - 3030",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "A big thanks to Chris and his team, installed two solar systems complete with Tesla batteries, competitive quote, timely installation, good workmanship. Kept me informed a d was very helpful.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Tesla (Other)",
+      "battery_brand": "Tesla Powerwall 3",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "138884",
+      "reviewer_name": "Nick",
+      "reviewer_location": "VIC - 3226",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3226",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Luke at IBISS was fantastic helping me decide what solar and battery configuration I needed; he offered friendly expert, non-pushy advice that was tailored to my needs, easy to understand and included all the latest government subsidies. During installation Luke and the team did a professional job and Luke is still helping me out as I learn how to get the best out of my system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "138617",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3215",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3215",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Chris and his team were great. Made the whole process simple and easy.  Gave us lots of information and support. They were very professional responding quickly to questions and enquiries. The installation team was good too. Efficient and tidy and talked us through the operation etc of the system. Good value for money and would certainly recommend  Ibiss.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "138580",
+      "reviewer_name": "Anissa",
+      "reviewer_location": "VIC - 3241",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3241",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quick review of my inverter and the problem associated with it. Replied within the next day with a quote. Had a job cancellation the following week and was able to replace inverter on that day. Installation was done efficiently,  I was shown the unit and how to operate it.Chris and Logan were both friendly and communicated with me at every stage of their service.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "136449",
+      "reviewer_name": "Ben",
+      "reviewer_location": "VIC - 3220",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3220",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent customer service and installation.Provided a clear quote and went through all options and setup. Highly recommend.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Tesla Powerwall 3",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 3 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

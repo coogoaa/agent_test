@@ -1,0 +1,186 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pure-solar/",
+  "scraped_at": "2025-11-26T16:48:28.372781",
+  "company_info": {
+    "company_name": "Pure Solar",
+    "contact_address": "Fyshwick, ACT",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c25154dd6c900fd579edbd1ccd682e760.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c25154dd6c900fd579edbd1ccd682e760.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.2,
+    "system_quality_rating": 4.8,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.8,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "119050",
+      "reviewer_name": "Patrick",
+      "reviewer_location": "NSW - 2423",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2423",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great sale/great quotingGreat installer, polite, tidy and punctualTop customer service, yes they took care of the grid connection",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "107247",
+      "reviewer_name": "Sam",
+      "reviewer_location": "NSW - 2290",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "In person assessment and quote. Went above and beyond to explain solar and answer my questions. Quick turn around and good communication throughout the process! Local company with local lads installing gave me confidence in their exceptional worksmanship warranty.One point for improvement; it was a different contact for assessor, installer and invoice people which was a bit confusing but clear in the end.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c25154dd6c900fd579edbd1ccd682e760.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c25154dd6c900fd579edbd1ccd682e760.jpeg"
+      ]
+    },
+    {
+      "review_id": "1783",
+      "reviewer_name": "DON",
+      "reviewer_location": "ACT - 2902",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2902",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "There are a terrible number of solar power sales persons who have little or no interest in the product they are selling.  In summary of my experience I approached 16 companies.  4 did not reply.  3 replied after the decision was made.  4 sent sales persons who did not have sufficient technical knowledge and came back with expensive quotes.  6 companies were adequately represented in a technical sense, but only 2 had the systems in which we were confident.We chose Pure Solar P/L because their representative (Phil) knew his business, constructively offered a number of configurations, took the time to back to answer further questions and was happy for us to take our time in making our decision. Pure Solar were not the largest competitor, nor were they the cheapest.We were so impressed that we extended the installation to also include a 315 litre solar hot water system.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "7784",
+      "reviewer_name": "Stefan",
+      "reviewer_location": "NSW - 2621",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2621",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-05-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From my research and discussions with friends and relatives who have installed systems (all approximately 10kW) most suppliers are disorganized, somewhat unreliable and don't have expert knowledge that should be a capability of each solar energy business person who has contact with customers. The two exceptions to this that I am aware of in the ACT and surrounding regions are Jeff Knowles from Pure Solar and Kelvin Martin from Sunpath Solar.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "More than 6kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "1602",
+      "reviewer_name": "Richard",
+      "reviewer_location": "ACT - 2602",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2602",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-07-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This industry really needs to clean up its act, there are so many little things, pitfalls, and bullshit.The Recs System sucks for the residential buyer, the market variability almost killed the deal.Trying to find ligitimate independent reviews of panel brands is a monumental challenge. Google searches only list company marketing and everybody has the best and produces the best.Every brand seems to have their own graph.PureSolar not only seemed to be the most straight forward, they seem to be more than a website and I am very confident the outcome will be great.  If it is crap I will write another review.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.67,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

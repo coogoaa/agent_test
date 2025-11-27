@@ -1,0 +1,62 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/skilled-electrical-services/",
+  "scraped_at": "2025-11-26T17:02:45.815501",
+  "company_info": {
+    "company_name": "Skilled Electrical Services",
+    "contact_address": "Coolum Beach, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "124270",
+      "reviewer_name": "Lindell",
+      "reviewer_location": "QLD - 4565",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4565",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We discovered quite quickly, when researching solar companies, that the process can be a mine field.  We were relieved when we met Greg Wylie of Skilled Electrical Services, a local solar installer.  From our first meeting with Greg right through the whole process of solar installation, we felt we were in safe hands.  Greg has been in the solar business for decades, knows his stuff and was happy to answer all of our questions.  He is professional and does what he says he will do.  We are thrilled with our 10kw solar system and cannot recommend Greg of Skilled Electrical Services highly enough.Greg's quote was thousands cheaper than the other installers that we obtained quotes from.  It is his business so is very hands on, ie does the installation himself with his team.  His after sales service is excellent and has followed up to make sure everything is going well.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Aiko Solar (Other)",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

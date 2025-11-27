@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/something-solar/",
+  "scraped_at": "2025-11-26T17:55:33.362407",
+  "company_info": {
+    "company_name": "Something Solar",
+    "contact_address": "Grafton, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 2.0,
+    "customer_service_rating": 2.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "3522",
+      "reviewer_name": "Hector",
+      "reviewer_location": "NSW - 2460",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2460",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-11-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Slow to be installed. Wouldn't turn up when expected. Didn't take many of our concerns seriously. Poor workmanship, scratched gutters draging panels up and over. However its up and working but for the first two weeks the performsance was only a third what it should have been. Two fuses were blown or not installed so two of the three arrays were not operating, probably about 150KW of production lost.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 2.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/h-e-electrical-contracting/",
+  "scraped_at": "2025-11-26T14:12:44.205827",
+  "company_info": {
+    "company_name": "H E Electrical Contracting",
+    "contact_phone": "0404 785 157",
+    "website_url": "https://www.facebook.com/heelectricalsa/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

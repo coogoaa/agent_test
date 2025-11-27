@@ -1,0 +1,112 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ccl-energy/",
+  "scraped_at": "2025-11-26T12:03:00.204642",
+  "company_info": {
+    "company_name": "CCL Energy",
+    "contact_address": "Robertson, QLD",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "55811",
+      "reviewer_name": "Tim",
+      "reviewer_location": "QLD - 4505",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4505",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From start to install completion, the whole process was very straightforward to me. CCL removed my crappy old defective system and installed a high quality new one.They were completely honest about what to expect, the costs and provided several feasible options at different price points.After minor negotiation, I even ended up with a free Fronius Smart Meter installed.CCL installed within a week from order and spent the full day on site making sure the installation quality was spot on.There was no rush to get to another job site and absolutely no mess left behind.Due to my erratic work times, I couldn't be there during or straight after install to supervise the install or have the system and monitoring explained to me, but with a few minutes of Google-ing, the Fronius monitoring setup was easy.This is my 3rd solar install, and easily my best.For a no fuss, high quality install, I highly recommend CCL.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "51534",
+      "reviewer_name": "Christine",
+      "reviewer_location": "QLD - 4214",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4214",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-08-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Bought the system last year with CCL. Great experience and hassle free process from installation to meter change. Highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "42073",
+      "reviewer_name": "Steve",
+      "reviewer_location": "QLD - 4051",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4051",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-12-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

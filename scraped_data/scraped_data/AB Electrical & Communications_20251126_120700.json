@@ -1,0 +1,60 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ab-electrical--communications/",
+  "scraped_at": "2025-11-26T12:07:00.734492",
+  "company_info": {
+    "company_name": "AB Electrical & Communications",
+    "contact_address": "Sydney, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "118035",
+      "reviewer_name": "Wayne",
+      "reviewer_location": "QLD - 4740",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4740",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "As I was only looking to add extra panels to an existing system 2 of Your offerings replied 1 being dearer than the other but I was annoyed with their paper work which tells you dozen odd things you are obligated to but offer only one line of what they'll do for you for your money &my concern was I wanted 3 rails which verbally they said yes to but on 3 occasions I asked for it in writing but it never happened when  Addison of AB called in servicing the Senec Battery he  installed 6mths earlier I asked him about panels he was cheaper put it in writing & knocked em in before Chrissy. how could one not appreciate his business savvy..",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    }
+  ]
+}

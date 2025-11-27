@@ -17,7 +17,7 @@
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
-                        📊 单个分析
+                        📊 新建系统
                     </a>
                     <a href="batch-processor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
                         📦 批量处理
@@ -43,6 +43,7 @@
                     <button class="tab-btn active" data-tab="pv">PV组件参数</button>
                     <button class="tab-btn" data-tab="battery">电池计算系数</button>
                     <button class="tab-btn" data-tab="inverter">逆变器规格</button>
+                    <button class="tab-btn" data-tab="expansion">储能扩容</button>
                     <button class="tab-btn" data-tab="consumption">州用电数据</button>
                     <button class="tab-btn" data-tab="cost">成本参数</button>
                     <button class="tab-btn" data-tab="subsidy">补贴参数</button>
@@ -251,6 +252,47 @@
                                 <input type="number" id="inv-three-max" class="w-full border rounded p-2" value="30">
                                 <p class="text-xs text-gray-500 mt-1">默认≤30kW，可根据电网要求调整</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 储能扩容 -->
+                <div id="tab-expansion" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">储能扩容参数</h2>
+                    <p class="text-gray-600 mb-4">配置储能扩容场景的特殊参数</p>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+                        <h3 class="font-semibold text-blue-900 mb-2">储能扩容说明</h3>
+                        <div class="text-sm text-blue-800 space-y-1">
+                            <p>储能扩容场景适用于已有光伏系统的用户，希望增加储能容量。</p>
+                            <p>• <strong>屋顶容量系数</strong>：考虑到已有组件占用，可用屋顶空间 = GIS分析潜力 × 容量系数</p>
+                            <p>• <strong>更换逆变器</strong>：是否在扩容时更换为新的混合逆变器（支持储能）</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium mb-1">屋顶容量系数</label>
+                            <input type="number" step="0.1" min="0" max="1" id="expansion-roof-factor" class="w-full border rounded p-2" value="0.7">
+                            <p class="text-xs text-gray-500 mt-1">默认0.7，表示可用70%的屋顶空间用于扩容</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">更换逆变器</label>
+                            <div class="flex items-center mt-2">
+                                <input type="checkbox" id="expansion-replace-inverter" class="mr-2 w-4 h-4" checked>
+                                <label for="expansion-replace-inverter" class="text-sm text-gray-700">默认更换为新的混合逆变器</label>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-1">关闭此选项将保留原有逆变器配置</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-gray-50 p-4 rounded">
+                        <h3 class="font-semibold mb-2">计算示例</h3>
+                        <div class="text-sm text-gray-700 space-y-1">
+                            <p>假设: GIS分析显示屋顶最大可装30片组件 (13.2kW)</p>
+                            <p>• 屋顶容量系数 = 0.7</p>
+                            <p>• 扩容可用 = 30 × 0.7 = 21片 (9.24kW)</p>
+                            <p>• 系统将基于9.24kW进行三套方案推导</p>
                         </div>
                     </div>
                 </div>
@@ -568,6 +610,10 @@
                     targetRatio: parseFloat(document.getElementById('inv-target-ratio').value),
                     maxRatio: parseFloat(document.getElementById('inv-max-ratio').value)
                 },
+                expansion: {
+                    roofCapacityFactor: parseFloat(document.getElementById('expansion-roof-factor').value),
+                    replaceInverter: document.getElementById('expansion-replace-inverter').checked
+                },
                 consumption: {
                     TAS: parseInt(document.getElementById('consumption-TAS').value),
                     NT: parseInt(document.getElementById('consumption-NT').value),
@@ -655,6 +701,12 @@
             document.getElementById('inv-three-enable').checked = !!config.inverter.enableThreeOptions;
             document.getElementById('inv-target-ratio').value = config.inverter.targetRatio;
             document.getElementById('inv-max-ratio').value = config.inverter.maxRatio;
+            
+            // 储能扩容配置
+            if (config.expansion) {
+                document.getElementById('expansion-roof-factor').value = config.expansion.roofCapacityFactor || 0.7;
+                document.getElementById('expansion-replace-inverter').checked = config.expansion.replaceInverter !== false;
+            }
             
             // 用电量配置
             Object.keys(config.consumption).forEach(state => {

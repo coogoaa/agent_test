@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ampetus-energy/",
+  "scraped_at": "2025-11-26T12:12:25.185649",
+  "company_info": {
+    "company_name": "Ampetus Energy",
+    "contact_address": "ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "37707",
+      "reviewer_name": "Craig",
+      "reviewer_location": "NSW - 2745",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2745",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-08-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Initial customer service and communication was good but since paying my deposit there have been delays which were not communicated to me without me contacting Ampetus Energy. It has now been 4 weeks since I paid my deposit and an installer has not yet made a site inspection. I have sent photos, as requested, of my meter box, roof area and electricity bill and am patiently waiting. I am giving Ampetus Energy the benefit of the doubt due to what they say has been an oversight by their installer.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 3.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

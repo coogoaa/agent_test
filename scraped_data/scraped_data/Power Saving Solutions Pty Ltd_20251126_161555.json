@@ -1,0 +1,111 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/power-saving-solutions-pty-ltd/",
+  "scraped_at": "2025-11-26T16:15:55.417360",
+  "company_info": {
+    "company_name": "Power Saving Solutions Pty Ltd",
+    "contact_phone": "1300 659 229",
+    "website_url": "https://powersavingsolutions.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/330_0a5ef147b45ccd055ec19743a51d3486.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/330_54984c603c9489844f777dbfca7d49a2.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/330_d04216c3a993445e8ec5c295e4d63f0c.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/330_6f8bebda15ae3b8ae1c8f132477c468e.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/330_c35e09873450d68bf75de67f3e158d85.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/330_3dc31838b4f6a780e9d6e668a6d30286.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/330_f9fe50cb1d8991bfca9d342bf7ba5522.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/330_2665e18c8c31fa4e9033c7b83c9fb4a2.png"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0f543a53df0ecaf8bc1b5b58e3f4951d0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "115217",
+      "reviewer_name": "Daniel",
+      "reviewer_location": "NSW - 2170",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2170",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-10-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We went with Power Saving Solutions as they spent a good amount of time with me during our quote and were able to design our solar system to fit our needs and wants better than the other quotes we received.We have an almost flat roof and they were able to design a system that maximized the space on our roof whilst mounting the panels on tilt frames which allowed for north facing panels and sufficient angle for self cleaning. The other quotes either were only able to mount then flat to the roof or could only offer 30% less capacity on tilt frames. This may be because PSS were able to provide panel options which weren't offered by other installers -Installation was also extremely quick (although this might have been circumstantial), as we got a quote on Tuesday, signed the contract and paid the deposit on Wednesday, roof inspection on Friday, and installation completed on Thursday-Friday the week after - in total 8 business days from quote to installed. No issues with installation quality as far as I can tell.Smart meter reconfiguration went smoothly, and PSS provided all required paperwork. Energy Australia started reading our feed in 3 days after installation was completed.Happy with the performance of the system - our first full month we were able to generate 1.17 MWh and were in credit, which saved us approx. $200 for the month compared to without solar.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0f543a53df0ecaf8bc1b5b58e3f4951d0.jpg"
+      ]
+    },
+    {
+      "review_id": "84490",
+      "reviewer_name": "Fahad",
+      "reviewer_location": "NSW - 2765",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2765",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-12-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "PSS was fast to provide a quote, followed up by a phone call and a home visit. We were very particular in terms of the quality of the installation of solar in our brand new home and the legends at PSS delivered. Sean always took the time to explain and answer all my questions and personally supervised the team on the installation day. Can not be happier and I am glad I chose to go with Power Saving Solutions.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

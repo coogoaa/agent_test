@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bush-solar/",
+  "scraped_at": "2025-11-26T12:34:11.579524",
+  "company_info": {
+    "company_name": "Bush Solar",
+    "contact_address": "Wentworthville, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "14710",
+      "reviewer_name": "Geoff",
+      "reviewer_location": "NSW - 2583",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2583",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-07-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "You gave us 3 names as possible suppliers. Two of the companies whose names you gave us were too far away (our decision in one case and the company's decision in the other) but the third was (relatively) a local. I had discussions with them which resulted in a mutual agreement not to proceed. Whilst they were based in Goulburn - about 90km from the property - and therefore quite convenient, they were booked up until August and their price was about double what we had been advised by the supplier we found ourselves.I was very satisfied with your input and felt that you exceeded your promise in relation to the service provided.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

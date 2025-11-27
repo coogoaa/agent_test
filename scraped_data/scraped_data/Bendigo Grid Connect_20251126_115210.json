@@ -1,0 +1,188 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bendigo-grid-connect/",
+  "scraped_at": "2025-11-26T11:52:10.519638",
+  "company_info": {
+    "company_name": "Bendigo Grid Connect",
+    "contact_address": "Ravenswood, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28beaf9973fb2d7acd6a77bca57a8a010.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28beaf9973fb2d7acd6a77bca57a8a010.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.4,
+    "installation_rating": 4.2,
+    "customer_service_rating": 4.8,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "106673",
+      "reviewer_name": "Aun",
+      "reviewer_location": "VIC - 3550",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3550",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-12-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Gavin was very easy to get ahold of, did a good home visit and overview, then put out his suggestions and came to install two weeks later. Fantastic customer service too, helped me download the app and taught me to use it.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/28beaf9973fb2d7acd6a77bca57a8a010.jpg"
+      ]
+    },
+    {
+      "review_id": "96405",
+      "reviewer_name": "Michael",
+      "reviewer_location": "VIC - 3555",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3555",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Tindo Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png"
+      ]
+    },
+    {
+      "review_id": "14840",
+      "reviewer_name": "Bendigo Model Railroaders",
+      "reviewer_location": "VIC - 3550",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3550",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-07-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "13360",
+      "reviewer_name": "Anon",
+      "reviewer_location": "",
+      "reviewer_state": "",
+      "reviewer_postcode": "",
+      "reviewer_postcode_valid": false,
+      "review_date": "2012-05-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Post research/interviews - 5 contenders, we both independently chose the same supplier.  Felt other salespersons less informed, should have been.   Bendigo Grid had no sales pitch as such, just knew his stuff and wasn't afraid to lose the job by giving us advice.  Some had orientation/direction just plain wrong on what a system could do, some - not your recommendations - lied outright.  This industry is hard to negotiate as you have pointed out Finn and knowing your system's capabilities is paramount.  It is fine to hire an \"engaging salesperson\" but - at your peril have him ill informed  -is my advice post experience.  I think having been in business and knowing some pitfalls, a lot of the \"Tradies\" having a go think a frontman a good idea, can be, sometimes, but learning on the job whilst informing prospective customers is a very, very bad look.  Kind regards.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "9868",
+      "reviewer_name": "Anon",
+      "reviewer_location": "VIC - 3556",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-08-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Has been good dealing with Bendigo Grid Connect, however still waiting to be connected to the Grid. Other than that, happy with his service.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

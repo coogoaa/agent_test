@@ -1,0 +1,66 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-energy-engineering/",
+  "scraped_at": "2025-11-26T14:16:07.591079",
+  "company_info": {
+    "company_name": "Green Energy Engineering",
+    "contact_address": "SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.8,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "40544",
+      "reviewer_name": "Trevor",
+      "reviewer_location": "SA - 5269",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5269",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-07-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This company did not live up to it's legal requirements, let alone it's advertised blurb. I write this on the 16/11/2017, and at the moment we are still trying to get a \"call out fee\" refunded, as the tec that was to do the job still has not turned up. The company (green energy engineering) was to have sent him/her about 3 mths ago. We have been in touch with green energy and cannot get this resolved. We have now gone to the industry ombudsman, and their recommendation is to take them (green energy engineering) to court. My recommendation about this company.... Under no circumstances have anything to do with them.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "Munsterland Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/0dbc03effb995b4c65747293a8541452.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/0dbc03effb995b4c65747293a8541452.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/2c0ba9572fbff30526aa1bdd3a46e32d.JPG",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/2c0ba9572fbff30526aa1bdd3a46e32d.JPG"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

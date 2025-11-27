@@ -1,0 +1,233 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/slb-solutions/",
+  "scraped_at": "2025-11-26T17:08:49.695446",
+  "company_info": {
+    "company_name": "SLB Solutions",
+    "contact_phone": "0422 099 045",
+    "website_url": "https://www.slbsolutions.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14158_6bc2686345970273614dd477a9adc6cb.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14158_f8435f17e8bf7c80749656b46404b7f7.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14158_cec7001a078dcda68e1e393b3c788cde.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14158_97204e2994814ae7c2e84498697c7dbb.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14158_58badf503156ff3209e7646fcb36c404.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14158_c087d2a9e39093db340d1de65fd8193f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14158_4b7660962e5ceceba9b1e4f685c26fd1.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0dbd5eabdc1832d413a73c37daddf48c0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c681c39b5d09881febea99b94aa7e2581.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "137306",
+      "reviewer_name": "Frank",
+      "reviewer_location": "VIC - 3101",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3101",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We utilized SLB Solutions to supply and install a 24kWHr battery storage with a backup gateway system to our current solar array setup. Vince was very pleasant and we discussed some systems explaining the pros and cons of each. End result we agreed on a Sigenergy modular 24kWHr system.Vince arranged a time and with his worker they upgraded my electrical switchbox as it was old and had insufficient breakers for all this new equipment.  The new Sigenergy system was delivered and installed in one morning. Vince arranged for the rebate paperwork to be done and within 4 days the system was electrically checked and certified with all systems working perfectly.Vince’s work was fantastic, clean and efficient leaving a professional installation.Happy to recommend Vince as a courteous, friendly installer who explained what was happening and how the system worked. Would happily use him again.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "Risen",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0dbd5eabdc1832d413a73c37daddf48c0.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c681c39b5d09881febea99b94aa7e2581.jpg"
+      ]
+    },
+    {
+      "review_id": "133996",
+      "reviewer_name": "Scott",
+      "reviewer_location": "VIC - 3187",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3187",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently commissioned a 13.4 kWh Solar system pared with a 20kWh battery at my own home, and chose SLB Solutions as my preferred installer for the task.I could not be happier with the over all install, as Vince and his team were always punctual, very informative and presented a very high quality of workmanship.I highly recommend their services.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "133722",
+      "reviewer_name": "Onur",
+      "reviewer_location": "VIC - 3064",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3064",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "One of the best, most efficient installers in the industry. Vince has installed multiple solar systems for us and not a single issue. The quality of the installations are second to none. Polite, efficient, professional. Highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "more than 30kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "133699",
+      "reviewer_name": "Vicky",
+      "reviewer_location": "VIC - 3429",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3429",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I’ve been very happy dealing with Vince.He was always helpful and polite. He returned calls and messages promptly and was very punctual.Installation of my EV charger went smoothly and Vince helped install the app on my phone and gave instructions on usage.Highly recommend.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_ev-switch.png"
+      ]
+    },
+    {
+      "review_id": "129676",
+      "reviewer_name": "Vraj",
+      "reviewer_location": "VIC - 3076",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-01-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My end-to-end experience with Vince was really smooth throughout the process.Very efficient installer with great attention to detail. Also, left the site tidy post installation. I would definitely utilise SLB’s services again in future.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "129673",
+      "reviewer_name": "Shanagh",
+      "reviewer_location": "VIC - 3167",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3167",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-01-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Fantastic service, Vince is friendly and knowlegable and able to answer any of my questions.  Job was completed promptly with minimum disruption.  Highly recommend for all your solar needs.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Risen logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

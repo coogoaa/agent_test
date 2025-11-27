@@ -1,0 +1,179 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/b-solar/",
+  "scraped_at": "2025-11-26T12:27:01.239602",
+  "company_info": {
+    "company_name": "b Solar",
+    "contact_address": "Abbotsford, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.2,
+    "value_for_money_rating": 4.4,
+    "system_quality_rating": 4.2,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.2,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "110590",
+      "reviewer_name": "Theodore",
+      "reviewer_location": "VIC - 3930",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3930",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-05-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I could not ask for anyone better than Stan Farkas.Stan made sure everything ran smoothly the electricians were great and very polite and tidy they organised the grid connection and within 4 hours the inspector arrived and check everything and passed all the work.Thank you b solar and especially Stan cheers Theo",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "96506",
+      "reviewer_name": "Gary",
+      "reviewer_location": "VIC - 3131",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3131",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-08-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process - goodInstallation - average - installer had to return to fix errorsCustomer service - good",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 2.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "87470",
+      "reviewer_name": "James",
+      "reviewer_location": "VIC - 3147",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3147",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process was simple and fairly factual.Installation was organised within a week of accepting quote, and concluded with 6 hours by a very polite crewGrid inspection and connection explanation seemed disjointed and I had no real idea of how long it would take with plenty of talk of 7-21 for various parts of the process. Out of the blue, 8 days later on a Sunday, an inspector called and set up a time for later that morning, 30 minutes after all checked and Grid connected. Power company Tango then contacted me and offered a lower grid price, lower service price, and 60c FIT - making me a very happy camper.Installers cleaned up, and then left me the garbage to dispose of myself, marring an almost perfect experience.All up very happy, but had they removed the boxing material I would give them 11/10",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Talesun Solar",
+      "inverter_brand": "Shenzen Sofar Solar",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_shenzen-sofar-solar.png"
+      ]
+    },
+    {
+      "review_id": "83446",
+      "reviewer_name": "Leigh",
+      "reviewer_location": "VIC - 3555",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3555",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales quoting process was very clear and upfrontThe installer was very polite and the whole process went extremely well.The inspection has been done and ticked off for the installation, but the grid installation has yet to be done.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Foxess (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    },
+    {
+      "review_id": "76660",
+      "reviewer_name": "Roland",
+      "reviewer_location": "VIC - 3909",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3909",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-05-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales person.very goodInstallation went well. Very Polite.Customer service was ok. DID answer the questions when asked.Only just completed too early to give more feedback",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

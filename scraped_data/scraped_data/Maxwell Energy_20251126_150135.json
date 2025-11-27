@@ -1,0 +1,34 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/maxwell-energy/",
+  "scraped_at": "2025-11-26T15:01:35.305454",
+  "company_info": {
+    "company_name": "Maxwell Energy",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14268_70d54357ed916e0edd2348f4ce874324.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14268_5d500faa70809f1ca52e3ecf15432e04.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14268_ba6c93396c4e8652e618cbba72109412.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14268_15193fae55cbe3ddf5069b0a32907bdf.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

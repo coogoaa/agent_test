@@ -1,0 +1,40 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/hot-water-com-au/",
+  "scraped_at": "2025-11-26T13:50:27.400614",
+  "company_info": {
+    "company_name": "HOT WATER COM AU",
+    "abn_number": "18652602661",
+    "acn_number": "652602661",
+    "contact_phone": "1300 153 025",
+    "website_url": "https://hotwater.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14118_e7cf4f6e85420f264ec0740cd04eda65.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14118_29864b66547110ab93a8f2d77eb96564.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14118_f9920742ff67359e63e2cfe12cc61315.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14118_ac9081240e2e6e047a67a98fd6ae188b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14118_ccc47a84a7f03292947fa2b341bfd0c6.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "06 Aug 2021Gmh Hotwater Pty Ltd",
+      "abn_company_name": "Gmh Hotwater Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "06 Aug 2021Gmh Hotwater Pty Ltd",
+      "acn_company_name": "Gmh Hotwater Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

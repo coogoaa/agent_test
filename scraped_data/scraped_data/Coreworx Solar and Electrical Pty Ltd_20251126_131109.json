@@ -1,0 +1,82 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/coreworx-solar-and-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T13:11:09.308670",
+  "company_info": {
+    "company_name": "Coreworx Solar and Electrical Pty Ltd",
+    "electrical_contractor_license": "NSW: 370548C, VIC: REC 32282",
+    "contact_phone": "0477 656 819",
+    "website_url": "https://coreworxcontracting.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13582_d016e85ba421408889fa6bc2e09ad7b7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13582_b16ad4c418e788a81bd517c885e505d4.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13582_c80753108f4a90d287aefb31699903a4.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13582_b1643355cc648689c74323ab0ab49b1a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13582_7d2e3b503f5b45ba686dce8a1e5105cf.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13582_6c57f48fd341d2e7f3d971b7c0469560.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "119929",
+      "reviewer_name": "Noel",
+      "reviewer_location": "NSW - 2640",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2640",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Customer service was excellent with help in all connectionsInstallation  was on time given and very neat and tidy",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

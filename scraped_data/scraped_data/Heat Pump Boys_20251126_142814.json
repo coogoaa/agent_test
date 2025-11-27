@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/heat-pump-boys/",
+  "scraped_at": "2025-11-26T14:28:14.058915",
+  "company_info": {
+    "company_name": "Heat Pump Boys",
+    "contact_phone": "0448 097 257",
+    "website_url": "https://heatpumpboys.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14156_a50e530307e9c962280828e8761bf025.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14156_f30a37f0e5f9b300579b7d09cfe98788.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14156_42f816a47db469e4e70266fb2a190893.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14156_6860bc442870fd6dfe4a783de9b203a3.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14156_33f0dbf2e51d075e2b47a0e8565b9359.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

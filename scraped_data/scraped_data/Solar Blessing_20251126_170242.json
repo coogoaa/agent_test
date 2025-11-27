@@ -1,0 +1,134 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-blessing/",
+  "scraped_at": "2025-11-26T17:02:42.258917",
+  "company_info": {
+    "company_name": "Solar Blessing",
+    "contact_address": "Stanthorpe & Toowoomba, QLD",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "120834",
+      "reviewer_name": "Peter",
+      "reviewer_location": "QLD - 4376",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4376",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My first contact with Solar Blessing was to try and check my system. They came out within a few days and tested it and showed me why the system had failed. I then asked for quotes to replace. I found them extremely helpful in this process.I decided to get the fronious inverter next gen with a 10 kilowatt system installed.Solar blessing took care of all the documents for Ergon and it was approved within a few days.They gave me a time to remove my old system and after that they installed the new the next day.On installation they were very helpful in explaining all the installation and why they had to do things to satisfy the solar panel company all serial numbers had to be registered to qualify.In all these guys were extremely professional and ultra friendly.I highly recommend them a great team.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "104525",
+      "reviewer_name": "Wolfgang",
+      "reviewer_location": "QLD - 4380",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4380",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-10-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Smooth progression from quoting process to installation and after customer service.The system is up now for almost 12month and is performing as specified.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "34989",
+      "reviewer_name": "Neil",
+      "reviewer_location": "QLD - 4370",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4370",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-12-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Really, the companies that quoted were all in the same ballpark money wise and with similar, if not the same, equipment.In the end we went with Solar Blessing as they used a Fronius inverter which I feel more comfortable with, and they also started an Ergon approval check immediately with no requirement to proceed with them after a response. Ergon took 3 weeks to respond and were apologetic! I'd been warned by two quoters that Ergon was knocking back 5KW systems but we were approved. Phew!After approval and go ahead, the system was installed within the week and is purring like a kitten. It took a half day to install and the sparky's work was exceptionally tidy. It's performing well, pretty close to the published hourly Solar System Output (22 degree north facing roof pitch) in January stats, even though it's April and we have an East/West configuration giving better tail end output.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Winaico",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/central-vic-solar-solutions/",
+  "scraped_at": "2025-11-26T12:10:09.716218",
+  "company_info": {
+    "company_name": "Central Vic Solar Solutions",
+    "abn_number": "55110494850",
+    "acn_number": "682084957",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14340_31cdda7b9e0d99a7527b5232f2ff0712.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14340_c2ef6ae9e654b65bbbcce33f26cd630d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14340_81f0268e5bf69bc375a57f477832cea7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14340_05736bb245ec5366aeacfcd6b79666ac.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "05 Nov 2024The Trustee For W",
+      "abn_company_name": "The Trustee For W & W Family Trust"
+    },
+    "acn_details": {
+      "acn_active_since": "05 Nov 2024Central Vic Solar Solutions Pty Ltd",
+      "acn_company_name": "Central Vic Solar Solutions Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

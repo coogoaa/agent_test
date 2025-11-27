@@ -1,0 +1,23 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/555bes/",
+  "scraped_at": "2025-11-26T11:57:22.322776",
+  "company_info": {
+    "company_name": "555BES",
+    "contact_phone": "0499 555 557",
+    "website_url": "https://www.555bes.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

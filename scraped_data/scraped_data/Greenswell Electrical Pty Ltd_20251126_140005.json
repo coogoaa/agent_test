@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/greenswell-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T14:00:04.981838",
+  "company_info": {
+    "company_name": "Greenswell Electrical Pty Ltd",
+    "contact_phone": "0432 615 958",
+    "website_url": "https://www.greenswellelectrical.com",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14380_3de085cb263316d02cc9034833b35e78.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14380_521922d1d6f22a4e93679e8006b427b0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14380_bf5fb85d38b7a564d12a18ee02a0b08a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14380_e68e3b727add5de684ea7c9ef626160d.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

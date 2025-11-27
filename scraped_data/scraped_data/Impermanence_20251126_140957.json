@@ -1,0 +1,74 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/impermanence/",
+  "scraped_at": "2025-11-26T14:09:57.043024",
+  "company_info": {
+    "company_name": "Impermanence",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/56fa1ef1ef7adfeb873c48b54c8803c20.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4f1d6053d8bcbe95cf3657b4c4660cae1.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/56fa1ef1ef7adfeb873c48b54c8803c20.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4f1d6053d8bcbe95cf3657b4c4660cae1.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "72389",
+      "reviewer_name": "Des",
+      "reviewer_location": "VIC - 3179",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3179",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Justin provided information in language we could understand. He, and his installers, were personable polite and punctual. They assisted in arranging connection to the grid post installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/56fa1ef1ef7adfeb873c48b54c8803c20.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4f1d6053d8bcbe95cf3657b4c4660cae1.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

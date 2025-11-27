@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energy-connection-services/",
+  "scraped_at": "2025-11-26T13:37:05.159665",
+  "company_info": {
+    "company_name": "Energy Connection Services",
+    "contact_phone": "0419 747 058",
+    "website_url": "https://energyconnectionservices.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14391_1e8761c64b2da893f5749f551811aaff.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14391_1d708e4d7e8dc7bbc91b4a48a4d7dfca.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14391_6b932682621ebbed959cbea9adf8cde2.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14391_6a12751d09c94deed9728e35b7c52e59.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

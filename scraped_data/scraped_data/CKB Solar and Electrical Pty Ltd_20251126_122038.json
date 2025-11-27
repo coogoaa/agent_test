@@ -1,0 +1,87 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ckb-solar-and-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T12:20:38.345247",
+  "company_info": {
+    "company_name": "CKB Solar and Electrical Pty Ltd",
+    "contact_phone": "0432 777 646",
+    "website_url": "http://www.ckbsolar.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "68582",
+      "reviewer_name": "Serena",
+      "reviewer_location": "NSW - 2850",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2850",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Absolutely satisfied with CKB Solar and Electrical company. Tried to get quotes from solar pumping solutions and they didn't show up many times.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Q.Antun solar module (Other)",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "59243",
+      "reviewer_name": "Ana",
+      "reviewer_location": "NSW - 2850",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2850",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-01-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The person that designed the system was the same that installed it. He is a licence electrician and solar installer.I asked him the question from your website plus more and he was always answering and explaining,it was never a problem. I was never made feel bad about asking questions or stupid like with other companies. They came on time and when they said they were coming. I was not pressured to buy at any moment. I will definetly recommend CKB Solar and Electrical Pty Ltd to anyone. I am very very happy that I chose this company.Regard, Ana Maria",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

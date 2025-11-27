@@ -1,0 +1,31 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/cde-solar-and-batteries/",
+  "scraped_at": "2025-11-26T12:04:43.964800",
+  "company_info": {
+    "company_name": "CDE Solar and Batteries",
+    "contact_phone": "0402 077 557",
+    "website_url": "http://cdesolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13094_06f03af1ea25299c2fa6d5ffa1477e4f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13094_a7f7ada54be8871afaaee4adf7ecf541.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13094_14c0be3dd3ba08e43b915148ece48196.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13094_6319c3876606987506cf489b61ed777a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13094_efe31f308f8eb1d9e8f537d018a90620.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13094_e8ce3870c05d8b118a9f2703dc92aee4.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

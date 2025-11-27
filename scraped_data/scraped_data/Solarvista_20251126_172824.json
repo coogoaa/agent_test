@@ -1,0 +1,271 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solarvista/",
+  "scraped_at": "2025-11-26T17:28:24.435407",
+  "company_info": {
+    "company_name": "Solarvista",
+    "contact_address": "Melbourne, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/484c21d908723e0fa14a1a528240e8fb0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f70f2526fa2e3d1fea499cb1ac5b7cb0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4172945a9dbcabeafaf02b56aaec6f050.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fa4f2050a73114eeef00c956aa175c8e0.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/484c21d908723e0fa14a1a528240e8fb0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f70f2526fa2e3d1fea499cb1ac5b7cb0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4172945a9dbcabeafaf02b56aaec6f050.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fa4f2050a73114eeef00c956aa175c8e0.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.86,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 7
+  },
+  "reviews": [
+    {
+      "review_id": "136385",
+      "reviewer_name": "Jonathan",
+      "reviewer_location": "VIC - 3030",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Anthony and his team were great installer with good knowledge on designing a solar system. He would not suggest an overpriced system that you may not necessarily needed.Their after-sales support is also great whenever you need to ask him on further upgrade with your system such as battery or additional solar panels, he will give you good advice. He also responsive when you need to troubleshoot your inverter software.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/484c21d908723e0fa14a1a528240e8fb0.jpg"
+      ]
+    },
+    {
+      "review_id": "120752",
+      "reviewer_name": "John",
+      "reviewer_location": "VIC - 3042",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3042",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Anthony and his team are absolute professional solar installers. The expertise and care Anthony showed was fantastic and his team's workmanship was just as good on my home in Airport West. Highly recommend SolarVista. Also, big shout out to their music while they were on-site - what a vibe.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f70f2526fa2e3d1fea499cb1ac5b7cb0.jpg"
+      ]
+    },
+    {
+      "review_id": "119962",
+      "reviewer_name": "Mario",
+      "reviewer_location": "VIC - 3018",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3018",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great Supplier & InstallerAnthony was informative and the quote and information was received within a few days.The installation and workmanship was of a very high standard. The customer service has been excellent, they have organized everything. I would highly recommend Solar Vista.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "117733",
+      "reviewer_name": "Antonio",
+      "reviewer_location": "VIC - 3018",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3018",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-12-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The initial meeting was informative  and the quote was received within a few days.The installation was carried out professionally and the workmanship was of a high standard, the tradesmen were polite and tidy. The customer service has been excellent, they have organized everything.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "113554",
+      "reviewer_name": "Maree",
+      "reviewer_location": "VIC - 3145",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3145",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thank you Anthony for your expertise, knowledge and patience. Expert guidance in application for Govt Grant. Anthony and his team were courteous, reliable and conducted a seamless installation for our Medical Centre. Impeccable customer service and eagerness to please. Highly reccomend this crew!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4172945a9dbcabeafaf02b56aaec6f050.jpeg"
+      ]
+    },
+    {
+      "review_id": "111606",
+      "reviewer_name": "John",
+      "reviewer_location": "VIC - 3097",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3097",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We recently had solar installed in our house and we were very impressed with Solarvista and the way theycarried out the work. The team of workers were reliable, courteous and co-operative and the assistance wereceived from Anthony in processing all the necessary applications for rebates was invaluable. We would nothesitate in recommending Anthony and his team for any job as their work is carried out at a high standardand we were totally satisfied with the completed works.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Hanwha Q CELLS",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fa4f2050a73114eeef00c956aa175c8e0.jpg"
+      ]
+    },
+    {
+      "review_id": "99151",
+      "reviewer_name": "Tony",
+      "reviewer_location": "VIC - 3182",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3182",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The panel layout was the most effective of those offered, and the price was better than other quotes, while the panel quality was as high or higher.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Huawei",
+      "battery_brand": "Huawei",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    }
+  ]
+}

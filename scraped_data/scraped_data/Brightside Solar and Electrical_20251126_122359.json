@@ -1,0 +1,87 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/brightside-solar-and-electrical/",
+  "scraped_at": "2025-11-26T12:23:59.134418",
+  "company_info": {
+    "company_name": "Brightside Solar and Electrical",
+    "contact_address": "Annandale, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "91354",
+      "reviewer_name": "Neerav",
+      "reviewer_location": "NSW - 2203",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2203",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "If you want solar installed in Inner West Sydney choose Paul the owner of Brightside Solar and Electrical who will do your install personally by himself for a fair price. Don't bother with the big solar companies that spend lots on pushy advertising and use low quality sub contractors.Paul will personally inspect your roof before quoting. Most solar companies won't visit you and they'll quote from satellite photos of your roof.Over 2.5 days Paul carefully installed 9.36kW 24 x Jinko Tiger N 390w panels on our roof (some with Tigo optimisers due to shade from neighbours), as well as a Sungrow 8kW SG8K-D premium inverter with Solar Analytics performance and fault reporting built-in.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    },
+    {
+      "review_id": "55954",
+      "reviewer_name": "John",
+      "reviewer_location": "NSW - 2130",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2130",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    }
+  ]
+}

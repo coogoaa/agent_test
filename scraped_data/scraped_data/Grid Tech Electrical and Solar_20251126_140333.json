@@ -1,0 +1,78 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/grid-tech-electrical-and-solar/",
+  "scraped_at": "2025-11-26T14:03:33.836132",
+  "company_info": {
+    "company_name": "Grid Tech Electrical and Solar",
+    "contact_phone": "1300 436 288",
+    "website_url": "http://www.gridtechelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_ffe052afc6c9ef34e8a65201c52395c6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_0acf4ffd5b72702650af7111ec6d194f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_efdc9fea0e3506d3e513702c6a1db126.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_8869ef85e7e6d52330a93eaa89252904.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_45e97b88536403d819236529791a11b1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_881abe1e019dccab7a72e61ba266078c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_5a35c341a8b17730101a7e4f48c7f178.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_4b529888f1e6098f2f574558e9d4514b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_44638ffad9f9382c0b129b84662fec5c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_1088f8e4d4ee3521ffbba4f94e568845.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_88e78cd40cbc1dc238f6696d7876ecc5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_300954b03e33c0c0919e9264583ac23c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_0d73b1473515e0b46d09f31b893a1cd3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_8c4ddb3462905653b6aa4a020639f8d9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13700_d22f777f569e6b264e8f812df0a7c1d4.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "109715",
+      "reviewer_name": "Ben",
+      "reviewer_location": "QLD - 4563",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4563",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The guys were super helpful. Arrived on time for the quote, not pushy, very friendly.Highly recommend",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

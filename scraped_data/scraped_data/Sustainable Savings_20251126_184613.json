@@ -1,0 +1,40 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sustainable-savings/",
+  "scraped_at": "2025-11-26T18:46:12.958048",
+  "company_info": {
+    "company_name": "Sustainable Savings",
+    "abn_number": "21604401103",
+    "acn_number": "604401103",
+    "contact_phone": "08 7120 6366",
+    "website_url": "https://www.sustainablesavings.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "25 Feb 2015Sustainable Savings Pty",
+      "abn_company_name": "Sustainable Savings Pty. Ltd."
+    },
+    "acn_details": {
+      "acn_active_since": "24 Feb 2015Sustainable Savings Pty",
+      "acn_company_name": "Sustainable Savings Pty. Ltd."
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

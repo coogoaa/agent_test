@@ -1,0 +1,73 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/proactive-electrical-and-solar/",
+  "scraped_at": "2025-11-26T16:37:55.690025",
+  "company_info": {
+    "company_name": "Proactive Electrical and Solar",
+    "contact_phone": "0477 285 354",
+    "website_url": "http://proactiveelectricalsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_842b1530b571e006a5f8e5f0194e20fc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_ce2334d50e2b0601fccfda0322504905.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_7277afbf3ba235727b4abace6f75c9f7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_ddb6da06ee04c004264f8c5654bb98e2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_dfb633b86d2b5eb14cff51c628c7f5ad.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_5f886aeb9ef35e9670d36588617f283e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_056487de657a4a5db5947418f05a6b27.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_f70aedc747cd885e91b850e5b3e906a0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_59ecb98bdfe29912d983539f9c8c6667.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13852_da15b2a38dab2cdf78baa4eead861410.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "118429",
+      "reviewer_name": "Neil",
+      "reviewer_location": "NSW - 2484",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2484",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mark did a good job.Freindly,helpful,took care of all the paper work, and helped with grid connection after install.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "shanghai JA (Other)",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/advance-clean-energy-solar/",
+  "scraped_at": "2025-11-26T12:25:56.319596",
+  "company_info": {
+    "company_name": "Advance Clean Energy Solar",
+    "contact_address": "Russell Island, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "12723",
+      "reviewer_name": "Digby",
+      "reviewer_location": "QLD - 4184",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4184",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-05-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Suppliers through your website contacted me promptly and were all very informative and helpful. Service to the Islands was variable but generally good. Without naming - one had two adverse reports from the limited number of former customers I spoke to and another had one.My final choice was mainly from local references. They were not the cheapest but they are highly regarded on the Islands and I could not fault their service. Warranties were equal or better than  other equipment supplied. They are long time residents in a restricted community and have a reputation for backup service on all their electrical work.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

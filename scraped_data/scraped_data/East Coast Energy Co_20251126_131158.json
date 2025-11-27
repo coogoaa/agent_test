@@ -1,0 +1,44 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/east-coast-energy-co/",
+  "scraped_at": "2025-11-26T13:11:58.886550",
+  "company_info": {
+    "company_name": "East Coast Energy Co",
+    "contact_phone": "0414 400 690",
+    "website_url": "https://www.eastcoastenergyco.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_aad2335491c6d55b1a04dfbeb9bc8156.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_63a251db6f876a1510e184256a318220.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_58f1a7f5546d84ed39976806eeda943d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_73c15d28353da48dd011c42716f99845.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_a4051caac7e052a21e1f4cd8ca950b9a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_89cf0f230373e8b21b01837398319d68.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_82c34ac1c9cf0b412e52c1ae98d7480c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_3435a1b009cf78675b8469edcf8c033e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_1bad9e0d768ed95a6dd120d333fc575f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_a5ab601dbdf4a4904809495a44c30404.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_357490347d644149cbb067b359421880.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14061_d3144e5dfe1142ae148e7bd36d176955.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

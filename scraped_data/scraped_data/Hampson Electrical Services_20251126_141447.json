@@ -1,0 +1,158 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/hampson-electrical-services/",
+  "scraped_at": "2025-11-26T14:14:47.058921",
+  "company_info": {
+    "company_name": "Hampson Electrical Services",
+    "contact_phone": "0413 253 622",
+    "website_url": "http://www.hampsonelectricalservices.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11289_e24559d8c5c6d4829e133b53574ccb96.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11289_2f3c929ebd1e830bf717bffe135f1af2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11289_bfa286551dd1e09b830e7b12b1f9fedf.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "80361",
+      "reviewer_name": "Jean",
+      "reviewer_location": "VIC - 3995",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3995",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting was followed up and fully discussed. The installation was punctual and professional. No mess. They organised the inspection and grid connection. Very helpful.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "80279",
+      "reviewer_name": "Greg",
+      "reviewer_location": "VIC - 3869",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3869",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with all aspects of the process that we went through when dealing with Hampson electrical.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "80112",
+      "reviewer_name": "Alfredo",
+      "reviewer_location": "VIC - 3960",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3960",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Punctual, clean, and professional, good person to deal with and good installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "32990",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3805",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-12-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Lee is a knowledgeable installer. He was quick, well priced and did a clean install with no hiccups. He was able to install within the fortnight and lodged the necessary paperwork the following day.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/one-flash-electrical/",
+  "scraped_at": "2025-11-26T16:07:17.974281",
+  "company_info": {
+    "company_name": "One Flash Electrical",
+    "contact_address": "Tamworth, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11255_27782ca9abcf2c09c8df99938afde4a3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11255_b2f12deb937c419dee7f76b78ce78c80.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11255_6cb49e1b1544fa67012af7fdbb1d8f18.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11255_0f471e2f5ff0aa4a8465fc29c636e860.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11255_ca85ce0490e1c655d7ffe835c614c1c0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11255_8041ddbaba385148bd6c14d2d77a9245.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11255_d4250e80a181c02394a024d72c26e82b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11255_1eb23dd6eabd7197d06993b87fbb577c.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

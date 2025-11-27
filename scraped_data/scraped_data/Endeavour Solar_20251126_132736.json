@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/endeavour-solar/",
+  "scraped_at": "2025-11-26T13:27:36.421761",
+  "company_info": {
+    "company_name": "Endeavour Solar",
+    "contact_phone": "1300 941 133",
+    "website_url": "https://endeavoursolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14369_ceec549a7e8444cfcf1812988fa5740d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14369_fdc1601aca3185a49c11ca89b1b01453.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14369_93fedec83d418b6e069128f8dee653ac.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14369_17ca4b20d55bf03c41b52536a9899917.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

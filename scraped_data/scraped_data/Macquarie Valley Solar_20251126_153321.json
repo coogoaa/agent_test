@@ -1,0 +1,78 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/macquarie-valley-solar/",
+  "scraped_at": "2025-11-26T15:33:21.621862",
+  "company_info": {
+    "company_name": "Macquarie Valley Solar",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "27696",
+      "reviewer_name": "Michael",
+      "reviewer_location": "NSW - 2820",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2820",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The total outlay for the 1.5Kw system was $3,145.00. The quote from Macquarie Valley Solar was $900.00 cheaper than the nearest quote. I finally decided to go with Macquarie Valley Solar because of the cost and also because they were based in my home town of Wellington NSW.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "22536",
+      "reviewer_name": "Larry",
+      "reviewer_location": "NSW - 2830",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2830",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-04-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I obtained 4 quotes from companies in Dubbo, Orange & Wellington and found them all to be very cooperative and willing to provide all information requested so that I could make an informed decision on which company to select. I selected a 2.5kW system as recommended and the prices ranged from $4600 to $6300.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.67,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+9333,Lothar,NSW - 2750,NSW,2750,True,2011-07-16,16 July 2011,5.0,,,5.0,5.0,5.0,1.5kW,Under $3000,,,,False,[],0,0

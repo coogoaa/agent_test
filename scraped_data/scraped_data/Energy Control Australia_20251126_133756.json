@@ -1,0 +1,68 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energy-control-australia/",
+  "scraped_at": "2025-11-26T13:37:56.483621",
+  "company_info": {
+    "company_name": "Energy Control Australia",
+    "contact_address": "Hawthorn East, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 1.0,
+    "value_for_money_rating": 1.0,
+    "system_quality_rating": 1.0,
+    "installation_rating": 1.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "129227",
+      "reviewer_name": "Kai",
+      "reviewer_location": "VIC - 3355",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3355",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We purchased a Solis solar system from Energy Control in 2021 with a 10 year inverter warranty, only for the inverter to blow up less than 4 years later. Despite repeated efforts to resolve this matter directly over the last month, both the supplier and installer have refused to take any action. Avoid doing business with this company.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Solis logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+62034,Anon,NSW - 2264,NSW,2264,True,2019-04-01,01 April 2019,5.0,,,5.0,5.0,5.0,5.0,5kW,"$3,000 to $6,000",,,,False,[],0,0

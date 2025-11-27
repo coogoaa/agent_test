@@ -1,0 +1,78 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ac-watts-electrical-and-solar/",
+  "scraped_at": "2025-11-26T12:10:04.295379",
+  "company_info": {
+    "company_name": "Ac Watts Electrical And Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1b630d4a87257948a736a001e70cfd350.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9124b015cc916f956c30ecede9d88af71.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e8dd47a0ba253a4d80073395969b857c3.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1b630d4a87257948a736a001e70cfd350.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9124b015cc916f956c30ecede9d88af71.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e8dd47a0ba253a4d80073395969b857c3.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "129160",
+      "reviewer_name": "Graham",
+      "reviewer_location": "SA - 5165",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5165",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Cameron, who is A.C. Watts, was recommended to us by our electrician, Anthony Hogben. He was asked to remove an old PV system and replace it with a bigger, up to date system to include an EV charger. His initial inspection was thorough and his assessment of our needs was carefully considered and delivered on the day of the inspection. He was prompt, courteous and very friendly. He inspired confidence in us immediately. We weren't pressed by him for a decision on his quote as we obtained several more quotes from other installers for comparison. At the end of the process we had absolutely no hesitation in awarding him the job, and we were not be disappointed. On the day of installation he arrived on time with a crew of four young assistants. There was no hesitation in starting work and despite the heat, the entire job was completed in the day. His crew worked hard and without complaint. They were all very cheerful and knew what they were doing with minimal direction.  The installation was neat and the job site left completely clean and tidy. After the team left Cameron ran us through the hardware and how to use it. All our questions were answered without hesitation leaving us feeling confident that we would have little trouble getting to operate the new system to our advantage. We have absolutely no hesitation in recommending A.C. Watts and Cameron himself as a most professional outfit.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1b630d4a87257948a736a001e70cfd350.JPG",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9124b015cc916f956c30ecede9d88af71.JPG",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e8dd47a0ba253a4d80073395969b857c3.JPG"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/jnt-services-group/",
+  "scraped_at": "2025-11-26T15:11:00.725478",
+  "company_info": {
+    "company_name": "JNT Services Group",
+    "abn_number": "90470288033",
+    "contact_phone": "0455 612 744",
+    "website_url": "https://jntservicesgroup.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14203_3838b0ffc7636b3cf65ba69956b9abf3.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14203_2da76ca92be5d43a088df19b3386046c.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14203_1323bdc0c36e8d83bebce8336e30dbaa.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14203_bc345c0e9edc9393ac6b7e7c05f8050e.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "09 Aug 2022T",
+      "abn_company_name": "T.p Agnew & J Mckirdy"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,102 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-victoria/",
+  "scraped_at": "2025-11-26T17:44:03.168126",
+  "company_info": {
+    "company_name": "Solahart Victoria",
+    "contact_address": "VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.4,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 2.0,
+    "installation_rating": 1.5,
+    "customer_service_rating": 2.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "90139",
+      "reviewer_name": "Angelica",
+      "reviewer_location": "VIC - 3631",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3631",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I felt I am the one who need to do initiative to follow up, most of the time I am waiting what is the next step, the team who installed 2 of the 3 installers are like kids playing around, It was installed on the 15th of May turned on, on the 26th a bit of a wait.We have 3phase power, we are installed 1phase inverter,",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 3.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 3.0,
+      "inverter_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "82922",
+      "reviewer_name": "Anon",
+      "reviewer_location": "VIC - 3156",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3156",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-10-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Was sold a system that was too small for our family, always have to use the boost during winter negating any savings. System wasn't  pressure tested as I found a leak after a few weeks later and I had to tidy up all the cabling.System only lasted 5 years and hot water pump failed.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 2.0,
+      "system_size": "3.3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.0,
+      "quality_of_system_rating": 1.0,
+      "panel_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolaHart logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

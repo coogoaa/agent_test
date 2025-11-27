@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/excellence-electrical-engineering/",
+  "scraped_at": "2025-11-26T13:34:12.885221",
+  "company_info": {
+    "company_name": "Excellence Electrical Engineering",
+    "contact_address": "Sydney, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "30448",
+      "reviewer_name": "Marg",
+      "reviewer_location": "NSW - 2583",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2583",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-05-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellence Engineering was recommended by a friend of a friend. Although they were a Sydney based company (we are 250km in the country), they were doing a big job in a nearby major town, so fitted us in while in the area. They followed through everything they said they would, and their quote was more competitive than the other 2 we got.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

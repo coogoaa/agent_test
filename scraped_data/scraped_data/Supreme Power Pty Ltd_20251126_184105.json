@@ -1,0 +1,21 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/supreme-power-pty-ltd/",
+  "scraped_at": "2025-11-26T18:41:05.458232",
+  "company_info": {
+    "company_name": "Supreme Power Pty Ltd",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

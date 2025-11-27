@@ -1,0 +1,125 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunwatt-aust-pty-ltd/",
+  "scraped_at": "2025-11-26T18:35:15.020562",
+  "company_info": {
+    "company_name": "Sunwatt Aust Pty Ltd",
+    "contact_address": "Greensborough, VIC",
+    "website_url": "http://www.sunwatt.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "95876",
+      "reviewer_name": "Pam",
+      "reviewer_location": "VIC - 3122",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3122",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-08-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We dealt with Charlie Alifraco. He used  subcontractors for the installation and they were very competent. Charlie was onsite to check the installation and to show us how to use the inverter app. His company had been recommended to us by friends. We realised we had a problem with winter shading from a protected tree on the north east side of the property. Charlie came around with a device to measure the extent of the interference from shading, which confirmed his earlier findings using Google Maps and OpenSolar. He recommended an east-west alignment, which he demonstrated would yield higher production than the alignments proposed in plans by two other solar companies. The installation was done within 3 weeks of contract, and took about a day and a half. We found Charlie very helpful in answering our questions and advising on options.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "6077",
+      "reviewer_name": "Joe",
+      "reviewer_location": "VIC - 3023",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3023",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "9255",
+      "reviewer_name": "Colin",
+      "reviewer_location": "VIC - 3757",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3757",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-07-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 3.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

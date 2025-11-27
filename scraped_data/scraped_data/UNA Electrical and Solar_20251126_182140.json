@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/una-electrical-and-solar/",
+  "scraped_at": "2025-11-26T18:21:40.415871",
+  "company_info": {
+    "company_name": "UNA Electrical and Solar",
+    "contact_phone": "0425 255 172",
+    "website_url": "https://unasolar.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14348_5dc497e923d207fab885c817172a53b5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14348_f2e0680a815c795438980ca9622b6f79.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14348_5fc8148f4927ee4d6527cdef0102889e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14348_608a47af967eab5e2813245f1f258dc5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14348_a323150f0ad09c7741a6f4f363a0132d.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

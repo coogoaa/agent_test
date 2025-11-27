@@ -1,0 +1,22 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/darren-jackson-electrical-data-and-solar/",
+  "scraped_at": "2025-11-26T13:29:09.366373",
+  "company_info": {
+    "company_name": "Darren Jackson Electrical Data and Solar",
+    "contact_address": "Bourke, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

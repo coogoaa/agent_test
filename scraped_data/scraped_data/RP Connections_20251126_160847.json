@@ -1,0 +1,35 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rp-connections/",
+  "scraped_at": "2025-11-26T16:08:47.542337",
+  "company_info": {
+    "company_name": "RP Connections",
+    "abn_number": "76539681950",
+    "contact_phone": "0423 891 224",
+    "website_url": "https://rpconnections.com",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14366_6e309088301e12250238235868e94bd7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14366_61fbaa30c610f6b63e9194e614441f89.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14366_417ae9382dbff1fdc5f72df98b6db684.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14366_d7a2a53427b8a4834f7964b7d46128ee.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14366_155866932ad1b2097d64065211ca715a.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "09 Dec 2017Rp Connections",
+      "abn_company_name": "Rp Connections"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

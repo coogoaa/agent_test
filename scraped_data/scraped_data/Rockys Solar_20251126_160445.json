@@ -1,0 +1,117 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rockys-solar/",
+  "scraped_at": "2025-11-26T16:04:44.997306",
+  "company_info": {
+    "company_name": "Rockys Solar",
+    "contact_address": "Sale, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2f79b4abc00c9d1dd616115386bb8f7f0.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2f79b4abc00c9d1dd616115386bb8f7f0.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "140183",
+      "reviewer_name": "Phil",
+      "reviewer_location": "VIC - 3850",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3850",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We needed a bit of negotiation on the quote as we had a bit of trouble getting them to understand our particular requirements. Installation was excellent, apart from a slight delay due to needing to order additional parts. Customer service is also excellent.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Hinen (Other)",
+      "inverter_brand": "Hinen (Other)",
+      "battery_brand": "Hinen",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_hinen.png"
+      ]
+    },
+    {
+      "review_id": "86601",
+      "reviewer_name": "Jason",
+      "reviewer_location": "VIC - 3840",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3840",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent quality system installation was done in timely manner with no issues nice clean job. Hot water has powerdiver so excess solar heats this and works well.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Phono",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2f79b4abc00c9d1dd616115386bb8f7f0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2f79b4abc00c9d1dd616115386bb8f7f0.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/d1fada2fb52d4948832a4138869122b5.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/d1fada2fb52d4948832a4138869122b5.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/72ba1a5745139f44122e7d6c761d39e4.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/72ba1a5745139f44122e7d6c761d39e4.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/a992a05d668a85777e20fa6c7756cb6e.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/a992a05d668a85777e20fa6c7756cb6e.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/01a8e0516ba5a7cadb9a32fe7f64930d.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/01a8e0516ba5a7cadb9a32fe7f64930d.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hinen logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_hinen.png"
+    }
+  ]
+}

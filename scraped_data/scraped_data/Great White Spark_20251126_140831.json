@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/great-white-spark/",
+  "scraped_at": "2025-11-26T14:08:31.768545",
+  "company_info": {
+    "company_name": "Great White Spark",
+    "contact_address": "VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.0,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 3.5,
+    "installation_rating": 2.5,
+    "customer_service_rating": 2.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "75556",
+      "reviewer_name": "Chris",
+      "reviewer_location": "VIC - 3199",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3199",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I asked for a quote to remove our solar panels, clean and then reinstall after our roof was replaced. All good at a $1000 and the removal was done really promptly. The issues happened when they came to reinstall. They said it was now a colorbond roof and that it would be an extra $700 as the rails etc would need to be replaced. Why did they not ask what the new roof was going to be?? They finally did the job over three days including trying to do it whilst the roof was wet. The roof replacement man actually said to them not to get on the roof but they did anyway and the they complained about it being slippery and not safe. They did NOT replace the rails. They also cut the securing devices (as witnessed by third parties) and then tried to blame it on other tradesmen.  When I queried all this I was told that although they did not replace the rails other items, including the locking bolts, that they had to replace were actually worth more than what they quoted. They then tried to charge me GST on top of the quote which is actually illegal if they are quoting non-business entities without specifically advising that it is plus GST.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.0,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "67641",
+      "reviewer_name": "Caroline",
+      "reviewer_location": "VIC - 3926",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3926",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The Sales and quoting process was very smooth. The installation was done over two days, by professional and friendly technicians The performance of the system is available on via the internet.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Solaredge",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

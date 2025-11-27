@@ -1,0 +1,28 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/monaro-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T15:30:41.654704",
+  "company_info": {
+    "company_name": "Monaro Energy Pty Ltd",
+    "contact_phone": "1800 073 639",
+    "website_url": "https://monaro.energy/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12770_15d523024695bec03d9bd9fd3c13de4d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12770_bf0834a280cdeee104af67d8f9504c96.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12770_3b2cb39d9871cb9529b1c69b0ab5e92f.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/wattle-powr/",
+  "scraped_at": "2025-11-26T18:59:47.993857",
+  "company_info": {
+    "company_name": "Wattle Powr",
+    "contact_phone": "0485 982 007",
+    "website_url": "https://www.wattlepowr.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14412_2c7e25456725efc721ea7862704ad891.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14412_e79b84d06171d61cbdd73949547ea52b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14412_2ef82511465797fc01d2a3e6867f6681.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14412_2fa24d4d49c467e0d9fd530fb6f0f803.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

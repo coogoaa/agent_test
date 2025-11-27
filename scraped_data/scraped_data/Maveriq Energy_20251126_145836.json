@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/maveriq-energy/",
+  "scraped_at": "2025-11-26T14:58:36.812746",
+  "company_info": {
+    "company_name": "Maveriq Energy",
+    "contact_phone": "0420 333 583",
+    "website_url": "https://www.maveriqenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14374_05d2ac46e8f02bde19a965e3e4cf3c50.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14374_5332b03fe602d6732f6a0e3944b47ef3.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14374_b26aadafd4946874d1c4dc2dfbdb726e.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14374_41b3592023a2fd017a37870f00791d70.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14374_5846a661ed0137376823f80aa5635803.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

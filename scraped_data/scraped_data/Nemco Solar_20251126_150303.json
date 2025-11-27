@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/nemco-solar/",
+  "scraped_at": "2025-11-26T15:03:03.557291",
+  "company_info": {
+    "company_name": "Nemco Solar",
+    "contact_address": "Farrer Place, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "68865",
+      "reviewer_name": "Samantha",
+      "reviewer_location": "NSW - 2066",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2066",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Got quotes from many companies, nemco stood out with their professional proposal, advice and helpful nature. Really happy with the installation and have been monitoring the usage for the first week - so far so good. Definitely a professional team and would use again",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Q Cells (Other)",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "68762",
+      "reviewer_name": "Christina",
+      "reviewer_location": "NSW - 2015",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2015",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The entire process was professional and I couldn't have asked for better service. The quote was competitive and the installers were very respectful of my home. I've only just had it installed, so I'm looking forward to my next bill!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

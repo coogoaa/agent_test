@@ -1,0 +1,99 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/safe-wire-electrical/",
+  "scraped_at": "2025-11-26T16:17:53.689629",
+  "company_info": {
+    "company_name": "Safe Wire Electrical",
+    "contact_address": "SA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29855a96b20961ea06aef69449007d430.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29855a96b20961ea06aef69449007d430.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "84527",
+      "reviewer_name": "Kyra",
+      "reviewer_location": "SA - 5049",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5049",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-12-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Punctual, tidy, professionalOnly charged wholesale on system, cash for worker to install in weekend. - all above board, just a way for business to allow staff to earn extra out of hours, hence why so cheap. All certified, certified electricians and got my solar warranties and certificate. I asked for black racking system and they installed for me for no extra cost.Other quotes received were up around 7-10k fir same system paying retail prices.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29855a96b20961ea06aef69449007d430.jpeg"
+      ]
+    },
+    {
+      "review_id": "24416",
+      "reviewer_name": "Darren",
+      "reviewer_location": "SA - 5162",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5162",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-11-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

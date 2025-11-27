@@ -1,0 +1,152 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-hervey-bay/",
+  "scraped_at": "2025-11-26T17:38:07.710230",
+  "company_info": {
+    "company_name": "Solahart Hervey Bay",
+    "contact_phone": "07 4124 2522",
+    "website_url": "https://www.solahartherveybay.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "116148",
+      "reviewer_name": "Paul",
+      "reviewer_location": "VIC - 3818",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3818",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quotation was impressive - detailed explanation of the system which was recommended and other options.The salesman came to our house for a personal check, discussion of our requirements and a face-to-face consultation.The quote was tailored to our needs and covered all the things we were looking for.After the quote was received, I was able to make a few phone calls or emails to the salesman and the office to clarify some points and to answer some questions I had.The installation was done on time as planned. The installers were efficient, capable and showed good workmanship. They  were willing to discuss any questions I had and they completed their work so tidily I could barely see that they had been.After the installation, they have organised for the grid connection to be made. They have followed up with an email to explain \"What happens next\".",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "106450",
+      "reviewer_name": "Sharon",
+      "reviewer_location": "QLD - 4650",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4650",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Right from the start we were very happy with Solarheart. Staff knows their products, answered our many questions and installed before Christmas. Very happy client.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "107880",
+      "reviewer_name": "Peter",
+      "reviewer_location": "QLD - 4655",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4655",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales quoting was very goodInstillation was punctual and professional standardThe inverter came with a 5yr warranty unless you had wifi at the house so the company can monitor operation in which case the warranty increased to 10yrs.What wasn't explained at the time was your wifi had to be associated with a land line service. Solarheart have come up with a solution for this as my wifi is wireless, so I will still get the 10yr warranty.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "89608",
+      "reviewer_name": "Leanne",
+      "reviewer_location": "QLD - 4580",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4580",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quick and professional. Friendly and informative about products. Happy with price.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolaHart logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

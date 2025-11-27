@@ -1,0 +1,66 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/optimum-elec-pty-ltd/",
+  "scraped_at": "2025-11-26T16:13:00.505194",
+  "company_info": {
+    "company_name": "Optimum Elec Pty Ltd",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "114607",
+      "reviewer_name": "Alan",
+      "reviewer_location": "QLD - 4883",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4883",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Response to first call very prompt, came to assess my problem of old system failing and advised could provide a quote for new system. Agreed he quote and compared to others slightly dearer but local on the tablelands. Discussed minor changes for better inverter and revised quote comparable with others. Not pushy like 2 of the others so ordered. Advised a date to install and arrived and did work same day. As roof area a little small we discussed location of panels, so I knew what was going on. On completion explained everything and covered operation of the inverter. Took old system away and left everywhere clean and tidy. Efficient and friendly work team.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

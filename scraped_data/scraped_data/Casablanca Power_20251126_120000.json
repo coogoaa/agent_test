@@ -1,0 +1,98 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/casablanca-power/",
+  "scraped_at": "2025-11-26T12:00:00.305307",
+  "company_info": {
+    "company_name": "Casablanca Power",
+    "contact_address": "Eastern Creek, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.1,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 3.5,
+    "customer_service_rating": 3.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "125839",
+      "reviewer_name": "Maissa",
+      "reviewer_location": "NSW - 2200",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2200",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I installed with this company, the job was perfect and the team was very helpful and professional. I have no regrets. I give them 5 stars.They helped with grid connection as well.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "121205",
+      "reviewer_name": "Shoahaib",
+      "reviewer_location": "NSW - 2145",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2145",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Super cheap installation with quality Jinko and sungrow equipment which worksHowever:- Poor customer service with bait and switch of inverter: setting up non-hybrid but at point of sale saying hybrid inverter- Incorrect inverter installed initially which I believe would've been missed if I hadn't looked at the app. Likely Deliberate- I then had to pay an extra $1000 for the hybrid inverter which I requested which was agreed upon initially- No setting up isolar app- No setting teaching on isolar app- Fractured tile(s)- discovered by independent contracted solar company- Multiple excuses made to follow up to fix consumption meter (advised myself to contact sungrow with no follow up by himself and ?incorrect misleading information given)- Causing stress and spending extra to fix his mistakesOverall: would have paid extra for quality products, actual coverage if damages with quality installation and good long customer service.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

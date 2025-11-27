@@ -1,0 +1,170 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/wolff-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T19:08:19.847363",
+  "company_info": {
+    "company_name": "Wolff Energy Pty Ltd",
+    "contact_phone": "1300 096 533",
+    "website_url": "https://wolffenergysolutions.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_77a68bb7f35e8c4ff56bd2e9c6860870.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_9bd387df24979a362535fe29f56efd02.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_cf14ca62635277d6c27c25dc8de682e0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_169736b32166373ff25402da841cdec5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_248c918045332175374c4efbf23f2862.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_3279ca914ee88482f1e82da46212d062.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_1cb5dbf755afe7dbc6a07239b1973903.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_882718335e2de79577c392cae2a5c3c4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13249_663f07034cb3073cf8f3d30a1b204151.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "99828",
+      "reviewer_name": "Aaron",
+      "reviewer_location": "QLD - 4035",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4035",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Ben and the team completed a solar install on our new build. Their attention to detail throughout the process has made our installation fit with our new house without appearing to be added on as an afterthought. The installers were highly professional with excellent attention to detail and pride in their work. We absolutely recommend Wolff Energy for solar installation works!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "99809",
+      "reviewer_name": "Roger",
+      "reviewer_location": "QLD - 4551",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4551",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process was smooth and easy.The installation was neat and tidy, the installers walked me through the correct operation, what to expect post installation and set up the monitoring and showed me how to understand it.The office called to follow up to ensure the installers were on time and left the site clean and tidy.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "99645",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "QLD - 4305",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4305",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I have used Wolff Energy on numerous occasions and have recommended them to many family and friends. They provide a very neat and tidy installation for a competitive price whilst not compromising on quality. The process has always been seamless and their communications are prompt and precise. Well done to Ben and the team at Wolff Energy, keep up the good work.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "99643",
+      "reviewer_name": "Sam",
+      "reviewer_location": "QLD - 4305",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4305",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great value for money upgraded to fronius inverter and seraphim panels. Essentially wiped out my $5-$600 per quarter electricity bill. Would recommend Wolff energy.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

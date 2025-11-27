@@ -1,0 +1,100 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/next-power/",
+  "scraped_at": "2025-11-26T15:15:29.107405",
+  "company_info": {
+    "company_name": "Next Power",
+    "contact_address": "Landsdale, WA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "26627",
+      "reviewer_name": "Tony",
+      "reviewer_location": "WA - 6076",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-02-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Supplier was very proactive and keen to provide excellent service. Communication was always prompt and professional. Installer made extra effort to ensure the best location for inverter, conduits were hidden, and panels located in best location to maximise performance. System has been operating now for about 2 weeks, and installer has continued to monitor and feed back on system performance. System took a few days to ramp up, and now peaking at 4.5kW in mid-winter. Very happy with this system/supplier/ installer so far.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "26432",
+      "reviewer_name": "Graham",
+      "reviewer_location": "WA - 6024",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6024",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-06-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was handled with professionalism and efficiency -- instillation was  quick and efficient - very happy with Next Power",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

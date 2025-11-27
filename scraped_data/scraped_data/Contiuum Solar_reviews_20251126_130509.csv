@@ -1,0 +1,3 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+67619,JINGTING,WA - 6148,WA,6148,True,2019-08-21,21 August 2019,4.75,,,5.0,4.0,5.0,5.0,6.6kW,"$3,000 to $6,000",EGing,,,True,['https://www.solarquotes.com.au/img/panelmanufacturers/I_eging.png'],0,0
+57937,Gemma,WA - 6390,WA,6390,True,2019-01-02,02 January 2019,5.0,,,5.0,5.0,5.0,5.0,5kW,"$6,000 to $10,000",,,,False,[],0,0

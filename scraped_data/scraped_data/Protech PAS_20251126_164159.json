@@ -1,0 +1,74 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/protech-pas/",
+  "scraped_at": "2025-11-26T16:41:59.100658",
+  "company_info": {
+    "company_name": "Protech PAS",
+    "contact_phone": "1800 177 683",
+    "website_url": "https://protechenergy.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13151_bc4c2a1496063cbeca398260a195cdb7.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13151_6f20a0b26f63bb9273fa6e1c6bdf5d37.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13151_e426b507ee7af5c5adb698f7e93789f3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13151_7a157cbe5e2839e7e97876fafe31b4c3.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "86322",
+      "reviewer_name": "Jonathan",
+      "reviewer_location": "VIC - 3058",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3058",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Installation was 2 days + a morning setting up the analytics and grid limiting feature",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

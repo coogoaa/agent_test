@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/thompson-electrical-group/",
+  "scraped_at": "2025-11-26T18:36:22.832070",
+  "company_info": {
+    "company_name": "Thompson Electrical Group",
+    "contact_address": "Yarrawonga, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "103463",
+      "reviewer_name": "Tony",
+      "reviewer_location": "QLD - 4211",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4211",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-09-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thomas Electrical did a review on my existing system (installed by others 3 years ago) as I thought it wasn't working properly.  Turns out it was but was not sufficient for our needs so they gave me a quote for a supplementary system.  I contacted Solar Quotes to get other quotes to make sure the quote was fair.  Turns out the first quote I got was good.  The only quote that was comparable was First Choice Solar.  The second quote was dearer and the other guy wanted to replace the existing system and give me 2 new systems without coming to look at the existing installation.Very happy with the outcome, process was smooth and easy.  We installed a Goodwe battery ready inverter with Goodwe home monitoring system and everything is working great.  Lets see what our next bill is like.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

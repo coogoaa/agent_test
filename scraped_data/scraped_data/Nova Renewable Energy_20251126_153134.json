@@ -1,0 +1,37 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/nova-renewable-energy/",
+  "scraped_at": "2025-11-26T15:31:34.076301",
+  "company_info": {
+    "company_name": "Nova Renewable Energy",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14286_57a7218138dc554c25c3d020f839edcc.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14286_715b968d5886864614e92a1ef27b5160.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14286_af77543ca25bd2b64356e3db1d2ffd7e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14286_8781051b8978c88e2d17921229ab7efb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14286_57f7bff3fea21aa7f4c9061656318652.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14286_ab680cb50ce365b0c9d96e4f528e2990.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14286_1cf57e5c2b5dbd62059a600b2058fd77.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

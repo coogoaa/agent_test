@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dna-electrical-services-pty-ltd/",
+  "scraped_at": "2025-11-26T12:55:21.705227",
+  "company_info": {
+    "company_name": "DNA Electrical Services Pty Ltd",
+    "contact_address": "Albion Park, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11904_56ef58e0bda669d7903ee1f484a8fc7b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11904_586b7cd73ed522fd8f568686312f0806.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11904_ebf45be9c9cd5461740f7b91ccd5bc79.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

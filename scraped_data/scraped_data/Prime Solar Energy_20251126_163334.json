@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/prime-solar-energy/",
+  "scraped_at": "2025-11-26T16:33:34.196903",
+  "company_info": {
+    "company_name": "Prime Solar Energy",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14285_ef71ac79a4c1825a5f005c5640401dfd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14285_f55c2343e41cc166de092c5bbe9fdce7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14285_5a3564ad986563fc3674a54ca30a575a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14285_e3d030376ca714eae5a6134bf5389e7b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14285_cca4edc4eafc6600dc3674536e5916fc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14285_160a0b35f1cd57d3b2992778914b50cc.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

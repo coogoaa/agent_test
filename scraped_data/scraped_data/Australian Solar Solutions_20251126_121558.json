@@ -1,0 +1,55 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/australian-solar-solutions/",
+  "scraped_at": "2025-11-26T12:15:58.017441",
+  "company_info": {
+    "company_name": "Australian Solar Solutions",
+    "contact_address": "Edmonton, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "12100",
+      "reviewer_name": "John",
+      "reviewer_location": "QLD - 4860",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4860",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "A prospective purchaser should definately check out the market as I have a mate who bought a system  from a Brisbane supplier and is having real problems getting connected to the grid and also is having difficulties getting someone to look at a fault with his  transformer. Believe me when I say that I will and have done in recommending my supplier to others and this has definately resulted in sales for him.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "SRP mono crystaline solar panels 250W (Other)",
+      "inverter_brand": "orion 2000 (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sun2u/",
+  "scraped_at": "2025-11-26T11:42:56.257410",
+  "company_info": {
+    "company_name": "Sun2U",
+    "contact_address": "Rutherford, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "89923",
+      "reviewer_name": "Tania",
+      "reviewer_location": "NSW - 2325",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2325",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thanks to Sun2u , for the installation of our solar system. Everything was explained from start to finish.  No pushy sales pitch. Very professional, honest, punctual & helpful. Cannot thank you guys enough for the fantastic service. After service if needed was no problem at all. Would Highly recommend David and his team  for any solar and electrical needs.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "77070",
+      "reviewer_name": "David",
+      "reviewer_location": "NSW - 2323",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2323",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good advice and information pre installation, flawless installation good communication and good follow up post installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Winaico",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "74601",
+      "reviewer_name": "John",
+      "reviewer_location": "NSW - 2320",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2320",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Reviewing the eight quotes was made easier, by using the information provided by you.The installation without any dramas, by a well experienced crew.The manager was there to get the job underway, then left to attend to other matters, before returning to inspect the job and commission finish.  He also passed the information to Ausgrid.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina Honey (Other)",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mr-solar-renewable-energy-systems/",
+  "scraped_at": "2025-11-26T15:38:44.079649",
+  "company_info": {
+    "company_name": "Mr Solar Renewable Energy Systems",
+    "contact_address": "Frankston, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.8,
+    "value_for_money_rating": 2.67,
+    "system_quality_rating": 3.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 2.33,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "111979",
+      "reviewer_name": "Juan",
+      "reviewer_location": "VIC - 3201",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3201",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very clear about systems and recommendations for our particular situation.All our questions were unsewered, before the next step took place.Installation scheduled and performed on time.No price variation at the completion of the installation.Very professional.All paperwork completed and share with us.Very high recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SMA",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "75086",
+      "reviewer_name": "Gavan",
+      "reviewer_location": "VIC - 3723",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3723",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mr Solar Renewal Energy Systems was to supply LG solar panels and a Caterpiller Diesel generator. We paid the deposit and later received emails from two of Mr Solar' employees. We discovered that these email addresses were hacked and gave this information to the Australian Cyber Security centre and the Fraud team at the NAB. Mr Solar denied any accountability. We have lost a total of $24,473.98 which was paid into a Mr Solar account name.We asked for the return of the initial deposit and today I received and email asking me why and what amount ($1469.33) and when it was paid. No delivery or installation took place. Legal advise has been sought.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "more than 30kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "73022",
+      "reviewer_name": "Alasdair",
+      "reviewer_location": "VIC - 3198",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3198",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We were happy with the installation the tradies worked well and were very considerate. We are now 3 months down the track and because they filled out 2016 forms we are not connected they are refusing to fill in the correct forms. They are amateur at best in their handling of our situation. They blamed origin and only copied us into emails where they pretend to be proactive. Missing the 26 emails where they: Forget to sign the form, get the wrong meter number, put the wrong address etc. Very disappointed we are not getting power during peak summer.",
+      "value_for_money_rating": 2.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.25,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    },
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mcore-electrical-solutions/",
+  "scraped_at": "2025-11-26T15:06:06.936182",
+  "company_info": {
+    "company_name": "MCORE Electrical Solutions",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "20184",
+      "reviewer_name": "Bernie",
+      "reviewer_location": "VIC - 3227",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3227",
+      "reviewer_postcode_valid": true,
+      "review_date": "2013-09-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "MCORE recommended and installed a micro inverter system when promised, and with prompt follow up of inspection and communication with network supplier and retailer. Web based monitoring set up on the day. Carmen Maio was excellent. Very highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/wavelength-electrical-and-fire-pty-ltd/",
+  "scraped_at": "2025-11-26T19:02:19.370843",
+  "company_info": {
+    "company_name": "Wavelength Electrical and Fire Pty Ltd",
+    "contact_phone": "0431 713 073",
+    "website_url": "https://www.wavelengthelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14476_5075ae88629a7b4e5ea890bc26a6d360.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14476_c0046a42ab0819bb2550df4b4bb5a683.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14476_5718b7ec37a7a1e688a878e4fe4d606d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14476_cf00f24fb0cc5d0828fe9391e6a6b838.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14476_da1d1c647974ff3cbc78195975e79753.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

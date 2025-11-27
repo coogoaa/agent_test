@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/keightley-electrical-services/",
+  "scraped_at": "2025-11-26T15:24:25.367516",
+  "company_info": {
+    "company_name": "Keightley Electrical Services",
+    "contact_address": "Ridgehaven, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "27314",
+      "reviewer_name": "Christine",
+      "reviewer_location": "SA - 5091",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5091",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-08-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It is always a very difficulty decision to make when we are not fully aware of the technical issues involved.  You just have to go with your own feelings and feedback from others.Thank you for your help and follow up.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ozzie-solar-works/",
+  "scraped_at": "2025-11-26T16:26:10.689538",
+  "company_info": {
+    "company_name": "Ozzie Solar Works",
+    "contact_address": "Gloucester, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "111818",
+      "reviewer_name": "Stephen",
+      "reviewer_location": "NSW - 2422",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2422",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Allen Rose came to inspect the site when he said he would, within a few days, he sent a detailed quote stating the equipment he had quoted on. This allowed me to check the quality of the equipment online and compare to others and those recommended by Solar Quotes.When I accepted the quote, Allen gave an estimated time for installation.Allen further contacted us to confirm his intended attendance and stuck to that time.The installation went smoothly and took two days.Allen had completed all the paperwork with the supplier who came to replace the meter in about ten days.Overall a good experience.Thanks Ozzie Solar Works.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "SolaX Power",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "SolaX Power logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+    }
+  ]
+}

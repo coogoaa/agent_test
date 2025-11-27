@@ -1,0 +1,34 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/k-electrix/",
+  "scraped_at": "2025-11-26T15:19:09.812495",
+  "company_info": {
+    "company_name": "K-Electrix",
+    "contact_phone": "0474 708 763",
+    "website_url": "https://www.kelectrix.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_8b23e3314b7e7bb1e68acaa8fcf9d23b.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_e4bf7e5b146b37cbaa29b869554761d6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_ee69ac41a06f6e8e2b1424ec83698541.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_045ce8336e806b9c388ebb6fd4cd1796.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_9f34458d23c6a2746e8acb308feb1906.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_7e55854711fd4709599110ae2fef43ad.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_1bc1c77ea0cadcfc83b146696cb4a284.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_48f1c9e12ef99c1c41624c3c3684ddf5.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12290_f6be44b4c7309577f5371fff9c82af53.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

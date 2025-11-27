@@ -1,0 +1,33 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/enwise-electrical-and-refrigeration/",
+  "scraped_at": "2025-11-26T13:08:37.339683",
+  "company_info": {
+    "company_name": "Enwise Electrical and Refrigeration",
+    "abn_number": "79113643093",
+    "acn_number": "113643093",
+    "contact_phone": "07 4982 0420",
+    "website_url": "http://www.enwise.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    },
+    "abn_details": {
+      "abn_active_since": "04 Apr 2005Enwise Electrical Pty Ltd",
+      "abn_company_name": "Enwise Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "04 Apr 2005Enwise Electrical Pty Ltd",
+      "acn_company_name": "Enwise Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

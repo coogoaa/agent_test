@@ -1,0 +1,180 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/phased-electrical-and-solar-pty-ltd/",
+  "scraped_at": "2025-11-26T16:44:54.034084",
+  "company_info": {
+    "company_name": "Phased Electrical and Solar Pty Ltd",
+    "abn_number": "55630143109",
+    "acn_number": "630143109",
+    "contact_phone": "0408 239 980",
+    "website_url": "https://phased.net.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_7ec607cfb68dc8172dee6de031de2f99.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_4a9fa012acf38ae2c49aa7a82f72d565.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_665e16de948b4482d60a7fc13b64221b.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_dcfc4ae8ffdd5d4e740f1d663b9a47d1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_46791423ff848c06e0813327a5a94986.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_1d936f1e109b99cadd794cd407a88ed9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_7a3184b60c22df448260e4eafd6f6da9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_38aa4acb0a946231a7293bc12a4a3f70.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_7fa9eccb185b2f939709e1c556b5ad28.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_c0a26f12e5308cc555f7fd8254ff44f0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_95815c4a8fff76cc9be664c70fde587b.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14022_7ac02ca44c54cfe44815a13f9cbb28b2.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/39e4eb8894a83ad7fcb4948b27d973950.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "21 Nov 2018Phased Electrical And Solar Pty Ltd",
+      "abn_company_name": "Phased Electrical And Solar Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "21 Nov 2018Phased Electrical And Solar Pty Ltd",
+      "acn_company_name": "Phased Electrical And Solar Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "131537",
+      "reviewer_name": "Heidi",
+      "reviewer_location": "NSW - 2340",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2340",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Tom was very easy to communicate with and very efficient, he explained everything thoroughly and gave great advice about solar panels that had matched with what I read on SolarQuotes website. The quote was very reasonably priced and everything was organised so smoothly. Installation happened quickly and we were taken through the system and everything was explained well! Thankyou Phased Electrical & Solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Aiko Solar Zhejiang (Other)",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "128780",
+      "reviewer_name": "Catherine",
+      "reviewer_location": "NSW - 2340",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2340",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Tom was everything you could expect from a professional. He organised absolutely everything the was nothing at all for me to do.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "126518",
+      "reviewer_name": "Paul",
+      "reviewer_location": "NSW - 2340",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2340",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I decided to go with Phased Solar due to Tom's personal touch when quoting the job- the installation was smooth and punctual. Tom is approachable and ready to answer questions.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "125602",
+      "reviewer_name": "Robert",
+      "reviewer_location": "NSW - 2340",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2340",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Fantastic chat With Tom from Phased electric and solar about panels and batteries. Great price, excellent installation, very tidy. Overall very happy. Thanks guys",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Enphase",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/39e4eb8894a83ad7fcb4948b27d973950.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/39e4eb8894a83ad7fcb4948b27d973950.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

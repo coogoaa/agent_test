@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tier-one-solar/",
+  "scraped_at": "2025-11-26T18:37:19.427557",
+  "company_info": {
+    "company_name": "Tier One Solar",
+    "contact_address": "Lakewood, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.3,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 2.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "72533",
+      "reviewer_name": "Ann",
+      "reviewer_location": "NSW - 2454",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2454",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was recommended by a friend to use this company but service was very poor as to getting back to customers re problems or times for service",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 2.25,
+      "quality_of_system_rating": 3.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

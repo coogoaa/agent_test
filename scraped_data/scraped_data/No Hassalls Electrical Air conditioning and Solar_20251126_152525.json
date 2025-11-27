@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/no-hassalls-electrical-air-conditioning-and-solar/",
+  "scraped_at": "2025-11-26T15:25:24.997376",
+  "company_info": {
+    "company_name": "No Hassalls Electrical Air conditioning and Solar",
+    "contact_address": "Yarrawonga, NT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "121755",
+      "reviewer_name": "Neville",
+      "reviewer_location": "NT - 812",
+      "reviewer_state": "NT",
+      "reviewer_postcode": "812",
+      "reviewer_postcode_valid": false,
+      "review_date": "2024-05-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Ben of No Hassall's Electrical is extremely knowledgeable, reasonable and fair and his technicians are not only very competent but also courteous and efficient. I have absolutely no hesitation in recommending this amazing Darwin team for any of your solar, electrical and air conditioning needs. Fair dinkum!Quality of the system is marred by the appalling warranty service provided by SolarEdge and in no way reflects on the qualities of No Hassall's Electrical or the REC panels they installed. The LG Chem battery that we had installed is also somewhat dodgy given their battery fire risks and with our battery having to be replaced already due to swelling issues.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 3.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

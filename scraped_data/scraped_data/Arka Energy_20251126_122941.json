@@ -1,0 +1,102 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/arka-energy/",
+  "scraped_at": "2025-11-26T12:29:41.084308",
+  "company_info": {
+    "company_name": "Arka Energy",
+    "contact_address": "Milton, QLD",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 3.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "68401",
+      "reviewer_name": "Mark",
+      "reviewer_location": "QLD - 4677",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4677",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-09-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Initially Gem Energy had the best proposal, however a representative from Arka Energy called in and offered to quote. Quote was less than others and for 39kw compared to 30kw from Gem and also using new Canadian Solar panels.Installation was organised within a week of accepting the quote. Installation took a day longer than expected by the installers due to some complications with roof rafter spacing. I am now waiting on an Arka representative to come back and help set up the monitoring system as I am having difficulty getting it to go online.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "more than 20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "47921",
+      "reviewer_name": "Mick",
+      "reviewer_location": "QLD - 4701",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4701",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-01-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 3.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "De longhi (Other)",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

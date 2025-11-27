@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-townsville/",
+  "scraped_at": "2025-11-26T17:43:35.895663",
+  "company_info": {
+    "company_name": "Solahart Townsville",
+    "abn_number": "55659875984",
+    "acn_number": "659875984",
+    "contact_phone": "07 4775 5541",
+    "website_url": "https://solaharttownsville.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13862_9e31e3fd2fcbcf5dcec66b76ef41f95c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13862_7694609196142f799121b24c2f53eabc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13862_035d869f4be18ba716765b0e13177618.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13862_cfc97ba1a16da519f5d30e94ad7672ad.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13862_d9d9a5c14d890d73e89d8b87dbb7463b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13862_1ffceb22fae75a69a6373795f758c613.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13862_2fad188574b3f5728e6a69bbb53c8293.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13862_effacc413417ad9c15a8db40e8e54c9b.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "02 Jun 2022Healey",
+      "abn_company_name": "Healey & Geia Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "02 Jun 2022Healey",
+      "acn_company_name": "Healey & Geia Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "125795",
+      "reviewer_name": "Mark",
+      "reviewer_location": "QLD - 4818",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4818",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Easy install to organise, good communication. No problems at all, easy from start to finish",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

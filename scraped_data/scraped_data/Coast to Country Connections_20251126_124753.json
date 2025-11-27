@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/coast-to-country-connections/",
+  "scraped_at": "2025-11-26T12:47:52.965755",
+  "company_info": {
+    "company_name": "Coast to Country Connections",
+    "contact_phone": "0430 531 212",
+    "website_url": "https://www.coasttocountryconnections.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14154_053cb743cef041ef011cbfddc055b49f.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14154_8f58fc34780123eaef1ec149bfbc9e69.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14154_f9dfce8f262a0dd9a95920efdf3826fe.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14154_cde8ef2461c9c74e6fbb4c4d79498883.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14154_4867490e918940113f73149de5634301.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

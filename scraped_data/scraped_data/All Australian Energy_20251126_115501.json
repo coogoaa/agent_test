@@ -1,0 +1,100 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/all-australian-energy/",
+  "scraped_at": "2025-11-26T11:55:01.912075",
+  "company_info": {
+    "company_name": "All Australian Energy",
+    "contact_phone": "0433 256 964",
+    "website_url": "https://allaustralianenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14453_e1e038a5fc448bd9327b046ca0baadee.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14453_c02458d9a1e3da9c9f0e7bfdd4f5b116.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14453_4337f9abf735c05bbe0d003b5f98a09b.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14453_b31855b9e00b70ff13216ba2fd5fa1b5.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "140260",
+      "reviewer_name": "Lee",
+      "reviewer_location": "NSW - 2577",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2577",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently had a solar battery system installed through All Australian Energy, and the entire experience was excellent from start to finish. Jayden and Mateo were fantastic to deal with—professional, helpful, and patient as they guided me through selecting the correct system for my home. They made the whole process clear and straightforward, and I really appreciated their honest advice.On installation day, Ben and his team arrived on time and got straight to work. Their workmanship was clean and efficient, and they took the time to walk me through how everything operated once the system was up and running. The installation was completed to a very high standard, and the system has been performing perfectly.Overall, I’m extremely happy with both the product and the service. I highly recommend All Australian Energy, as well as Jayden, Mateo, Ben, and the installation team, for anyone considering solar and battery solutions.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "ESY Sunhome",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_esy-sunhome-batteries.png"
+      ]
+    },
+    {
+      "review_id": "137904",
+      "reviewer_name": "Steven",
+      "reviewer_location": "NSW - 2533",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2533",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The AAE team were great from start to finish. They were very helpful with determining the best fit for purpose system for my needs and were courteous, prompt and very competitive with quoting.The install team were fantastic at communicating when they would be on site and very efficient at getting the work done. The job site was left clean and tidy when they left.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "ESY Sunhome logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_esy-sunhome-batteries.png"
+    }
+  ]
+}

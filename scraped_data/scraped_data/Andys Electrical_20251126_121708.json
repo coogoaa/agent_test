@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/andys-electrical/",
+  "scraped_at": "2025-11-26T12:17:08.886065",
+  "company_info": {
+    "company_name": "Andys Electrical",
+    "contact_address": "Somerton Park, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "84373",
+      "reviewer_name": "Christian",
+      "reviewer_location": "SA - 5034",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5034",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-12-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Andy provided no-frills quote and advice. He's worked meticulously on the job and was very flexible. He's helped with all the paperwork and organising meter changes and STC rebates. Thoroughly recommend his expertise.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Tindo Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Tindo Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    }
+  ]
+}

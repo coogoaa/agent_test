@@ -1,0 +1,112 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/western-downs-solar-pty-ltd/",
+  "scraped_at": "2025-11-26T19:08:35.875670",
+  "company_info": {
+    "company_name": "Western Downs Solar Pty Ltd",
+    "contact_phone": "0439 611 321",
+    "website_url": "https://westerndownssolar.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_d0fe46a66ddbdfc1ab7780834ca137f9.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_7c2f6cd2b0fb752cf26b376c56367382.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_2dd5d68a323d858b0140e54c2987039c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_6476837a34ce887b513eab36c61503f1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_63e0e84933985b51911546bc85b70f61.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_6d64f99420e37d38bc6b96e04c24672a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_6bb6c83cd323856e1cc206120df03230.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_246a90ca8a5cde1c9b5f83dbe1de994b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_b26c7c9e2b42e4d6c5d337367812374a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_0f37c2be542f31dbcba18317750e62be.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_2777657855020ed75f71352b811d0512.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_90a6f127816653e8e03f633e252a22e6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_f5a21be8ce2e9c9b2b3c3fff17ceecd5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_9a589f0a95ade4f318ceb28b256580a7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13260_49f8c2500a6014f9743bff5c6b70f575.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "99085",
+      "reviewer_name": "Julie",
+      "reviewer_location": "QLD - 4413",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4413",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Western downs solar at Miles were great with the workmanship we had the job done very quickly and great customer service would highly recommend there services.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "91712",
+      "reviewer_name": "Steven",
+      "reviewer_location": "QLD - 4413",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4413",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thank you to Solar Quotes for making the whole process so simple and hassle free. The three companies were in touch within a few days. All were very helpful, listened to what I needed and had the quotes back promptly. Western Downs did an onsite inspection and were very helpful in offering suggestions and answering questions.The installation was done within a few weeks of the quote being accepted. All the work was completed within the time frame they gave. They took away all the rubbish and the job looks fantastic. Mick really takes pride in his work.All the contact with Ergon was done by them and we were connected to the grid two weeks after the install was completed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

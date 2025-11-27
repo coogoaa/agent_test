@@ -1,0 +1,59 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/west-australian-alternative-energy/",
+  "scraped_at": "2025-11-26T19:06:49.197594",
+  "company_info": {
+    "company_name": "West Australian Alternative Energy",
+    "contact_address": "Busselton, WA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "31182",
+      "reviewer_name": "Chris",
+      "reviewer_location": "WA - 6280",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6280",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-07-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This supplier was the only quoter that did a proper energy balance to see how much power I actually needed",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

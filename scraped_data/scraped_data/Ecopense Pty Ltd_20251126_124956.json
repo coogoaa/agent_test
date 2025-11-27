@@ -1,0 +1,23 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ecopense-pty-ltd/",
+  "scraped_at": "2025-11-26T12:49:56.198973",
+  "company_info": {
+    "company_name": "Ecopense Pty Ltd",
+    "contact_phone": "02 9669 6727",
+    "website_url": "http://www.ecopense.com/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

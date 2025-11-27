@@ -1,0 +1,113 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/andy-johnson-electrical-services-pty-ltd/",
+  "scraped_at": "2025-11-26T12:16:44.331621",
+  "company_info": {
+    "company_name": "Andy Johnson Electrical Services Pty Ltd",
+    "contact_phone": "0487 897 180",
+    "website_url": "https://www.johnsonelectricalservices.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_943359f44dc87f6a1679c987280e8dc7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_8c3fa8196ef3e2c81e88d4c24d6b7c06.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_6085d576e2148e6e63cfd6a9d8e905fa.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_668f962dacff756e71ef8ae030f74280.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_3935748e044df9ef838503e013a7f050.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_3df7a7827efc23793be60e83dc9e7559.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_5a63400cc9ae76c8e824970f54088d48.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_4ff4828c793b5f686dce95ce720d0839.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_a8cca44cc775629be90ec1c889172ca4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_af6810c20d910fb168c500fdc83f1d81.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_af1fbae9837dd058a4aff050752fe00a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_e09d3dc6f09f042818d3f3ae66c05a09.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_2991139799fec2b90819ecffc4eab405.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13604_254742894e7187abb429794888a7b834.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "125549",
+      "reviewer_name": "David",
+      "reviewer_location": "NSW - 2444",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2444",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great communication, no mess and all installed in one day.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "123772",
+      "reviewer_name": "Maryline",
+      "reviewer_location": "NSW - 2444",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2444",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Andy Johnson Electrical Services (0487897180 - Port Macquarie)1/ the quoting process was easy, he came promptly after our request, he assessed the site for the installation for an 8KW system2/ he assessed our roof surface (North, East  and West sides) to be sufficient for this system despite we had a large hot water system already in place3/ he had stock of the panels and equipment for immediate installation ( we did not have to wait for panels delivery, Andy installed the system 1 week after the quote was approved)4/ He was the guy to actually do the installation (he is an electrician , not just a sale person)5/ The installation was over 1 and 1/2 days due to wet weather conditions. He came over on the week end to complete the installation and help us on how to use the app to assess our feed in and power consumption.6/ Finally, he was price competitive for this system size.7/ He lives locally, so if we had any issue he would be available at short notice.8/The brands of products he recommended were also recommended on SolarQuote for Performance and durability.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hyundai Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

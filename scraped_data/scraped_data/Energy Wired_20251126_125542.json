@@ -1,0 +1,117 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energy-wired/",
+  "scraped_at": "2025-11-26T12:55:42.772330",
+  "company_info": {
+    "company_name": "Energy Wired",
+    "contact_address": "Ferntree Gully, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fbf4c730c0a7c0ec9aedd89441ada50c0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/33782fa643b7f0033d63f8ed02cf78d21.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f5a0b184988f00c40a7bbf54ace71d352.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fbf4c730c0a7c0ec9aedd89441ada50c0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/33782fa643b7f0033d63f8ed02cf78d21.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f5a0b184988f00c40a7bbf54ace71d352.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "95335",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3805",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-11-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Highly recommended solar installer with absolute confidence. Professional, honest, and helpful from start to finish. They provided us with multiple options in a proposal online and talked us through each option so we could make a well-informed decision on the system based on our budget. On the day they talked us through where things would be installed, etc so we knew exactly what was going on. From viewing the roof I can see they took great care to install the brackets as best practice on the tile roof. By the end of the day they had cleaned up and the system was installed and ready for sign-off. A very smooth, professional, and straightforward process. For those looking for a quality no hassle installer I would highly recommend Energy Wired.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fbf4c730c0a7c0ec9aedd89441ada50c0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/fbf4c730c0a7c0ec9aedd89441ada50c0.jpeg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/33782fa643b7f0033d63f8ed02cf78d21.jpeg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f5a0b184988f00c40a7bbf54ace71d352.jpeg"
+      ]
+    },
+    {
+      "review_id": "74365",
+      "reviewer_name": "Bruce",
+      "reviewer_location": "VIC - 3806",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3806",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Best quality components and warranties. Good price. Neat installation. Helpful.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LG",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Solis logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+    }
+  ]
+}

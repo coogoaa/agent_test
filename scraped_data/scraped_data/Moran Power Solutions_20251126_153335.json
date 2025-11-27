@@ -1,0 +1,23 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/moran-power-solutions/",
+  "scraped_at": "2025-11-26T15:33:35.740417",
+  "company_info": {
+    "company_name": "Moran Power Solutions",
+    "contact_phone": "0408 966 729",
+    "website_url": "https://www.moranpowersolutions.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,4 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,inverter_rating,has_images,image_urls,overall_rating,quality_rating
+71536,Neale,QLD - 4740,QLD,4740,True,2019-12-16,16 December 2019,4.5,,Professional in all aspects. Original system still operating well 8 years on.,4.0,4.0,5.0,5.0,3kW,"$10,000 to $12,500",,Fimer,,5.0,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png'],0,0
+40717,Col,QLD - 4740,QLD,4740,True,2017-11-20,20 November 2017,5.0,,,5.0,5.0,5.0,5.0,4kW,"$3,000 to $6,000",,,,,False,[],0,0
+2510,Graeme,QLD - 4740,QLD,4740,True,2010-09-06,06 September 2010,4.75,,,5.0,4.0,5.0,5.0,3kW,"$6,000 to $10,000",,,,,False,[],0,0

@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/zero-4-energy/",
+  "scraped_at": "2025-11-26T19:12:24.042429",
+  "company_info": {
+    "company_name": "Zero 4 Energy",
+    "contact_address": "North Strathfield, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13215_9ca2c8a5dca2c4c0c3df53d58cd15e31.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13215_d0a6fa54066ecaae8dada056ab874cae.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13215_9fe12ce243738d6d2933a38b93e7eef3.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13215_33a7f734baead4610361f3c8a64d3ea0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13215_e386e58e3e2ef8e12159b9d0f234c77d.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

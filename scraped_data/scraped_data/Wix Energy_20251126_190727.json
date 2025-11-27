@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/wix-energy/",
+  "scraped_at": "2025-11-26T19:07:27.141170",
+  "company_info": {
+    "company_name": "Wix Energy",
+    "contact_phone": "07 5690 1555",
+    "website_url": "https://www.wixenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14266_f08bad4f4324713b4d2eaf95497afb41.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14266_b65f21c3efdb21afc99b260373d83909.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14266_1bf6b436ce8b126bda9d2d2fb684cc29.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14266_6e4f8e719f7f64297e0bd79663c67fdc.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

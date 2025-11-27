@@ -1,0 +1,34 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bright-earth-solar/",
+  "scraped_at": "2025-11-26T12:18:52.302811",
+  "company_info": {
+    "company_name": "Bright Earth Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14246_f6a0914624c0f145f12cbf572a8984a4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14246_0683fba145dc56e115ad5aa5f7de0b4f.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14246_1a90f341cccc5d5c1ea58d89dab889a6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14246_db801ec582d47420f37b45e8a89ac6fd.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

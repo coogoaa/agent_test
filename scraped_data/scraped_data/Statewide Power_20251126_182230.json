@@ -1,0 +1,113 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/statewide-power/",
+  "scraped_at": "2025-11-26T18:22:30.446498",
+  "company_info": {
+    "company_name": "Statewide Power",
+    "abn_number": "55106218973",
+    "acn_number": "106218973",
+    "contact_phone": "08 9779 9568",
+    "website_url": "https://statewidepower.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/353_585b6ff5a9acbf76d28c40565a58d727.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/353_4eda9eabe457884ddf1eadb47fd2c549.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/353_98eb95b98981f37b40bbfb1c41d896d3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/353_7df068ccddf4234b1f7951eca3a4fb26.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": null
+    },
+    "abn_details": {
+      "abn_active_since": "05 Sep 2003Fisher Electrics Wa Pty Ltd",
+      "abn_company_name": "Fisher Electrics Wa Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "05 Sep 2003Fisher Electrics Wa Pty Ltd",
+      "acn_company_name": "Fisher Electrics Wa Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "129816",
+      "reviewer_name": "Nick",
+      "reviewer_location": "WA - 6562",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6562",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-01-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Statewide power replaced our power system quickly and expertly. All good.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Das dual glass (Other)",
+      "inverter_brand": "Fronius",
+      "battery_brand": "Discover (Other)",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "88914",
+      "reviewer_name": "Ben",
+      "reviewer_location": "WA - 6224",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6224",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-04-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The team at Statewide power are fantastic!Knowledgeable, punctual, polite and couldn't be more helpful.Highly recommended!!!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "GenZ Energy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "battery_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_genz-energy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

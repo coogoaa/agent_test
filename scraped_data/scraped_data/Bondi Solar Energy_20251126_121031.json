@@ -1,0 +1,145 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bondi-solar-energy/",
+  "scraped_at": "2025-11-26T12:10:31.551538",
+  "company_info": {
+    "company_name": "Bondi Solar Energy",
+    "contact_phone": "0415 923 017",
+    "website_url": "https://www.bondisolarenergy.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13349_8259a436b18941a1a1338639e1913f90.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13349_0f39b91d6a868e4d2575d0d7c014c013.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13349_35cbc4cbde1bf25db6dae1ced01dc1be.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13349_29cb9551d665e1ee236e1d1bd966d279.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13349_217e049a583f4ae598a2699234e21d14.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13349_ac8ba498e6f07fec42ebf4c21e20a7ed.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13349_138c0264f6ecc9d76f635f6ce58f0b8d.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/95ea04ec65c0001fd4e848b9db8651ad0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c1825ff0e42c172ea89663d101b17241.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "96151",
+      "reviewer_name": "Mark",
+      "reviewer_location": "NSW - 2045",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2045",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I can rate Bondi Solar Energy very highly. Installer Michael was helpful, answered all questions and provided excellent advice. Unlike other quotes he actually attended my house so was able to be aware of any specific issues and provide relevant advice. This increased my confidence and understanding of the installation and its costing. He kept me informed as weather conditions interrupted the schedule and when finally able to carry out the installation was punctual and his workers polite and friendly.Overall an excellent service and a company I can recommend.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "93172",
+      "reviewer_name": "William",
+      "reviewer_location": "NSW - 2015",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2015",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-09-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It was a pleasure to deal with Bondi Solar Energy. The owner - Mick, is friendly and knowledgeable and the installation crew were very professional. Mick helped us choose the best system that would save us the most amount of money. We have learned that cheap solar panels are a bad idea if you actually want to save more money on energy bills. Very happy from start to finish.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "92141",
+      "reviewer_name": "Harry",
+      "reviewer_location": "NSW - 2232",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2232",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Bondi Solar Energy were extremely professional from start to finish.  From the moment they came out to quote to the installation, nothing was a problem.  When they quoted they checked a few of our electricity bills to see the what our usage was.  This way they were able to advise just how many solar panels we would require.On the day of installation the Bondi Solar Energy Team turned up on time and got to work. Once the installation was complete they made sure all was working before leaving.  We received a phone call the next day to walk us through the Enlighten App and explain how it works and to show us the savings we had already made.We were initially worried about the street appeal and how the panels would look, now installed it is clear we had nothing to worry about as these are some sexy looking panels.  The other good thing is seeing just how much energy we are producing, being able to check it with the Enlighten App.Thank you Bondi Solar Energy for making this process so easy for us.  It is always a bit stressful when you are outlaying money and not knowing if your investment will work.  Now we look forward to receiving our energy bills.Harry and Inga",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/95ea04ec65c0001fd4e848b9db8651ad0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/95ea04ec65c0001fd4e848b9db8651ad0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c1825ff0e42c172ea89663d101b17241.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c1825ff0e42c172ea89663d101b17241.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

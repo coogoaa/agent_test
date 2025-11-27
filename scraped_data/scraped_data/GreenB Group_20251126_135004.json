@@ -1,0 +1,119 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/greenb-group/",
+  "scraped_at": "2025-11-26T13:50:04.682670",
+  "company_info": {
+    "company_name": "GreenB Group",
+    "contact_address": "Kew, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.1,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 3.33,
+    "installation_rating": 3.33,
+    "customer_service_rating": 2.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "17161",
+      "reviewer_name": "Ian",
+      "reviewer_location": "VIC - 3400",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3400",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From the time the system was installed the inverter has not worked correctly so that it keeps switching back to the grid and on average only generates less than 2 kwh each day.  I have twice contacted the installer and they are waiting to hear back from the supplier of the inverter.  Green B rang up two days after the system had been erected and wanted the rest of their money.  However I have refused to pay until it is operating as it should.  Only at that time will I regard the system as being fully installed.Still waiting for the inspection from the power company and to find out if we need a new smart meter, so I can contact our electricity retailer to negotiate a feed in price.  I am a bit frustrated by the whole experience so far and am hoping that it will improve in the future.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 2.0,
+      "system_size": "2kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Renesola",
+      "inverter_brand": "Samil Power",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "quality_of_system_rating": 3.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_renesola.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_samil-power.png"
+      ]
+    },
+    {
+      "review_id": "16879",
+      "reviewer_name": "Ross",
+      "reviewer_location": "VIC - 3396",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3396",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-12-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "More than 6kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "15373",
+      "reviewer_name": "Julie",
+      "reviewer_location": "VIC - 3300",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3300",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-08-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "6 weeks after I have signed up still not installed.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 2.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.5,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Renesola logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_renesola.png"
+    },
+    {
+      "brand_name": "Samil Power logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_samil-power.png"
+    }
+  ]
+}

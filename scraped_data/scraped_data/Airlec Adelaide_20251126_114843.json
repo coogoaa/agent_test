@@ -1,0 +1,138 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/airlec-adelaide/",
+  "scraped_at": "2025-11-26T11:48:43.640589",
+  "company_info": {
+    "company_name": "Airlec Adelaide",
+    "contact_phone": "0434 008 133",
+    "website_url": "http://www.airlec.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11697_7c111fba018f6e965cecb3cef0b84f57.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11697_71561c916c5aea35c8cb1912cf9c4156.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11697_11d778680ecf7213d43d5ec290d0ca2d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11697_62bf4d19fc5db9990c6704a2061ff062.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11697_9191c9781962528fbbcac888050518e2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11697_2b44248f0275a58bea10c72aa832a20e.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/70ba221a9ee4e12bd8fc1b1039858bfa0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "113497",
+      "reviewer_name": "Rob",
+      "reviewer_location": "QLD - 4352",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4352",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My installation was to replace an existing smaller system. The quote was detailed and was followed up with a 'phone call to ensure it was what I was after. I had questions on the panels and inverter which were all answered. I also asked about changing tariffs and timers which, excepting the cost of the timers, was included. The panels were placed where I wanted them in the quote but I am sure if I wanted something different, they would have explained why that may not have been the best idea but have left the final decision to me. They turned up on time on the day and when the light started to fade it seemed they would have to complete the job the next day, but they finished the job and then tidied up afterwards. I did find a few bits and pieces that had bounced out of vision the next day but it would be harsh to suggest that this was an issue. Also, being located in Toowoomba, Queensland it was appreciated that Airlec is a Toowoomba based company.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "109888",
+      "reviewer_name": "Neil",
+      "reviewer_location": "SA - 5091",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5091",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Contacted Solar Quotes and Dino of AIRLEC Adelaide Electrical immediately contacted me and attended at my home.  I had a quote before the other two installers even contacted me, I was very impressed.  My first question to Dino is \"what would you put in your home?\"  Form there it was all downhill, I had a great system with battery installed and running flawlessly in no time flat.  No sales pressure, no BS, just expert advice.  Airlec went over and beyond the quote and installed a cover (supplied by me) over the system and at a very minimum cost installed a new induction cooktop and wiring to the board.  Nothing was a problem.  Many businesses can learn from the service provided by Dino and his guys.  Thank you for selecting Airlec to quote my system, best move I made was contacting Solar Quotes, thank you.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/70ba221a9ee4e12bd8fc1b1039858bfa0.jpg"
+      ]
+    },
+    {
+      "review_id": "44670",
+      "reviewer_name": "Frank",
+      "reviewer_location": "SA - 5073",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5073",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-02-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Job was very neat & tidy, all quality parts/products - walked us through every step and explained the principals of why & how, and any benefits that we were able to achieve.used - 43 Jinko 270 w panels - 2 5kw inverters - trackers -  balancers, - 3 phase etc.... breaker in meter box also was installed. Now it is pumping kw back to the grid - Yahoo !! This set up would be close to wiping out my entire electricity bill.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

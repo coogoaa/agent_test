@@ -1,0 +1,77 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/aspect-solar-projects/",
+  "scraped_at": "2025-11-26T12:36:34.791858",
+  "company_info": {
+    "company_name": "Aspect Solar Projects",
+    "abn_number": "53676582139",
+    "acn_number": "676582139",
+    "contact_phone": "0400 560 907",
+    "website_url": "https://aspectsolarprojects.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14267_f1383cd3c994dcd0e41f69f72e7e2876.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14267_c1766448014c28465fde0a38661fe9bb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14267_f698e006e621a1898de76990b4ae43a6.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14267_039a3a801dbff36d65b6f5de30d6f2b5.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "15 Apr 2024Aspect Solar Projects Pty Ltd",
+      "abn_company_name": "Aspect Solar Projects Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "15 Apr 2024Aspect Solar Projects Pty Ltd",
+      "acn_company_name": "Aspect Solar Projects Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "140098",
+      "reviewer_name": "Lyn",
+      "reviewer_location": "NSW - 2256",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2256",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Prompt responses and quick turnaround times on the installation.  Works completed to a high standard",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

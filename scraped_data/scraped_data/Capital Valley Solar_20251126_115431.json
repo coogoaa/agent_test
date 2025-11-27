@@ -1,0 +1,108 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/capital-valley-solar/",
+  "scraped_at": "2025-11-26T11:54:31.189607",
+  "company_info": {
+    "company_name": "Capital Valley Solar",
+    "contact_phone": "1300 652 865",
+    "website_url": "https://cvsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14395_1565c15e443c2b92830ff0f2fdc9865b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14395_8c86b0b676c4a28eec2b3a8f0a488edd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14395_9f2b6fd357f634938be08abf4ae39f1f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14395_acbf7365c2bde3c0fc670489d938c305.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14395_ffab0979723c0f3c06fc39ae88197ca7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14395_85bc4b1dde70f19a20bb1358eef2b5f5.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "135695",
+      "reviewer_name": "Mohammed Abdullah",
+      "reviewer_location": "ACT - 2913",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2913",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I couldn’t be happier with my  solar installation. The team was professional, punctual, and highly knowledgeable. From the initial consultation to the final switch-on, the process was seamless and stress-free. They took the time to explain the system, tailored the setup to suit my energy needs, and ensured all paperwork and approvals were handled efficiently. I’m already seeing the benefits on my electricity bill. Highly recommend this company to anyone considering solar!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "135694",
+      "reviewer_name": "Mirza",
+      "reviewer_location": "ACT - 2913",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2913",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We recently had a 19kW solar system installed by Capital Valley Solar, including a SMA inverter and a Stiebel Eltron heat pump. From the initial consultation to the final installation, the entire experience was smooth and professional.Kam from CVS was outstanding—his technical knowledge is impressive, and he clearly explained every step of the process. He was always available to answer our questions and made sure we understood how to get the most out of our system.The communication throughout the project was excellent, and more importantly, the job was completed on time, with no surprises or delays.We are very happy with the quality of work and the products installed. We highly recommend Capital Valley Solar to anyone looking for a reliable and knowledgeable solar installer in Canberra.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

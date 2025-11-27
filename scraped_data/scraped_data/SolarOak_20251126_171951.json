@@ -1,0 +1,123 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solaroak/",
+  "scraped_at": "2025-11-26T17:19:50.992059",
+  "company_info": {
+    "company_name": "SolarOak",
+    "contact_address": "Wangara, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "139724",
+      "reviewer_name": "Andre",
+      "reviewer_location": "WA - 6155",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6155",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great inverter and has been solid performer. It protects itself when the network voltage went all over the place until they managed to rebalance the phase.I just added the battery now it works 24 / 7 and so far has not missed a beat",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 2.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "iStore",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_istore.jpg"
+      ]
+    },
+    {
+      "review_id": "109877",
+      "reviewer_name": "Peter",
+      "reviewer_location": "WA - 6056",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6056",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales person was  straight to the point,he came up with a number of solutions and prices to pick from,and has been very cooperative since installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "95349",
+      "reviewer_name": "Lynette",
+      "reviewer_location": "WA - 6103",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6103",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-11-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar oak is a small company and had very competitive   rates also they were able to restore our roof at the same time",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "iStore logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_istore.jpg"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/project-solar/",
+  "scraped_at": "2025-11-26T16:39:46.417176",
+  "company_info": {
+    "company_name": "Project Solar",
+    "contact_address": "Adelaide, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.4,
+    "system_quality_rating": 4.4,
+    "installation_rating": 4.6,
+    "customer_service_rating": 4.2,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "92440",
+      "reviewer_name": "Ehsan",
+      "reviewer_location": "SA - 5096",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5096",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I knew what I wanted and Project Solar had the means and products to suit my needs. I contacted other companies and most wanted to make me commit over the phone and I felt pressured to say yes. Buying solar and batteries I feel is something best suited to a face to face meet and greet. We met at a cafe and discussed what I was looking for. The asked all the relevant questions and when it came to the quote the only extra cost was an upgrade to the meter box. (Which I was expecting)All application were done prior to the install and connection to the grid happen with two weeks of install.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Alpha Technologies",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "92373",
+      "reviewer_name": "Stuart",
+      "reviewer_location": "SA - 5095",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5095",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Talked to me like a person, not just what the brochure said.Application process was sent to me. Explained that each power company is different and has different processes. 2 weeks from install date to metering done, this date was given to me 3 days before I had system installed. So that’s not bad.After sales has been great, the staff come back out to set up my wifi with no fuss at all. Even did review today to get me better rates which was fantastic.Thank you!",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "NINGBO HAQ NEW ENERGY CO LTD",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_ningbo-haq-new-energy-co-ltd.png"
+      ]
+    },
+    {
+      "review_id": "72520",
+      "reviewer_name": "Daniel",
+      "reviewer_location": "SA - 5214",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5214",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Reasonable price good communication  instalment was punctal great to deal with and helped me and explained how to connect with to grid",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Solas (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+      ]
+    },
+    {
+      "review_id": "71896",
+      "reviewer_name": "Ian",
+      "reviewer_location": "SA - 5540",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5540",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales quoting process; A little bit of jockying around with different panels, inverters and system size. They are in this to maximise their profits and of course I am not interested in paying an over premium price. Lots of homework on my behalf before hand helped me.Installation; Installation was done by a third party and it appears neat and tidy. The installers were friendly and did explain any questions I had.Customer service; System was installed and fully paid about three weeks ago but not turned on yet due to paperwork stuff ups that I have no control over.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "30kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "71238",
+      "reviewer_name": "Slava",
+      "reviewer_location": "SA - 5125",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5125",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales person was great to deal with, installation had minor date mixup but was promptly addressed. Grid connection took longer than promised and I made few calls to AGL myself. Post installation customer service needs improvement.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Fronius",
+      "battery_brand": "VARTA",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_varta.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Alpha Technologies logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png"
+    },
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

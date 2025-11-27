@@ -1,0 +1,73 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ja-solar-and-batteries/",
+  "scraped_at": "2025-11-26T14:55:28.956438",
+  "company_info": {
+    "company_name": "JA Solar and Batteries",
+    "contact_address": "Windsor Garden, SA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/68353fcc9539893937e16e088e7326c90.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/68353fcc9539893937e16e088e7326c90.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "107913",
+      "reviewer_name": "Paul",
+      "reviewer_location": "SA - 5087",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5087",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with the price and installation. The tradesman had a good attitude and the job was completed in a timely fashion, and looks very neatly done.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/68353fcc9539893937e16e088e7326c90.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/68353fcc9539893937e16e088e7326c90.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Risen logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

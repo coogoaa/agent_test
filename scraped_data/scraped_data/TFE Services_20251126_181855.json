@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tfe-services/",
+  "scraped_at": "2025-11-26T18:18:55.797619",
+  "company_info": {
+    "company_name": "TFE Services",
+    "contact_phone": "0432 480 445",
+    "website_url": "https://www.tfe-services.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14344_767aeddc54915171c0912e7dec22c1c9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14344_59a79b91f59e8371e4593008c00f77e3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14344_cfbf988b9b53e1ffdc08aca4f615e916.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14344_7464209e38bd5e402bcd7e2629d4ecc6.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

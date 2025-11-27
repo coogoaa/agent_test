@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ausdynamix-pty-ltd/",
+  "scraped_at": "2025-11-26T11:53:26.822195",
+  "company_info": {
+    "company_name": "Ausdynamix Pty Ltd",
+    "contact_address": "Melton, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "14292",
+      "reviewer_name": "D",
+      "reviewer_location": "VIC - 3340",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3340",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-06-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Ausdynamix was the only company to have a sales person visit our premises and check everthing out so the quote was fully detailed and firm. Other prices were vague with many 'tags'. The service offered by Ausdynamix was complete right up to arranging meter programming and follow up to connect the system to a computer viaBluetooth. I received 4 calls with initially the installation date 2 weeks out and subsequent confirmations that the date was firm. There has since been follow up calls checking our satisfaction with the job.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

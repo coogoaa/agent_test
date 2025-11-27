@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/wiland-electrical/",
+  "scraped_at": "2025-11-26T19:03:27.439940",
+  "company_info": {
+    "company_name": "Wiland Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14226_6fb2f048ac8580b15f75c45f25188029.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14226_6a63b9fd7e7f5b6433f87306efbb9228.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14226_f3e79b8227501fe0d0901e1b43ff0ff5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14226_652f906d53c87e4ac80f86cc1d5e6e77.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

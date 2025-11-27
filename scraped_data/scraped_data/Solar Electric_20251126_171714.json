@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-electric/",
+  "scraped_at": "2025-11-26T17:17:13.994084",
+  "company_info": {
+    "company_name": "Solar Electric",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "26653",
+      "reviewer_name": "Chris",
+      "reviewer_location": "NSW - 2067",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2067",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-03-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We sought quotes  from Solar Quotes referred people and from other sources. We did a LOT of homework beforehand and during the process and used the Solar Quotes site as one of our reference points. The prices offered and the types of offerings ranged widely. One company provided a quote based on their idea of what we need - not listening to our concerns and not visiting the site. Others came, saw, discussed, advised and made a range of offers. The installer we went with was referred by a highly informed engineer friend. He came and carefully considered all the issues at hand and gave good advice. His quote was well below all others and included highly regarded panels and inverter system. He then came and personally installed the equipment in a first class manner.The key discoveries we have made: 1. Do your homework. Not all systems are the same. 2. Most (but not all) salespeople are charming. You are buying complex technical equipment, not charm. The installer we used was extremely well experienced and informed AND charming. 3. The solar electricity scene is changing quickly. It is important to consider whether you will be able to efficiently adapt your system during its lifetime (e.g. adding batteries, more panels, capacity to charge an electric car, moving from gas to efficient electric heating/hot water) because these are on the 3-10 year horizon for many households. 4. Get more quotes because that can yield really good financial and quality dividends on your investment.We are pleased to have installed this system. Solar Quotes provided a good starting and an ongoing reference point for the journey we took.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LG logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

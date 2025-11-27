@@ -1,0 +1,70 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/the-switch-all-electrical-services/",
+  "scraped_at": "2025-11-26T18:31:27.666895",
+  "company_info": {
+    "company_name": "The Switch All Electrical Services",
+    "contact_address": "NSW, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "93826",
+      "reviewer_name": "Marina",
+      "reviewer_location": "NSW - 2550",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2550",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-09-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting was specific to our needs, including site visit and good communication: listening to our concerns and values, giving options and adjustments throughout the process.Friendly and COVID-19 restrictions appreciated.Extremely good install: clean & tidy, kept to quotes price despite length of time was longer (more labor) because of some unforeseen difficulties in removing old system.  Considerate communication before, during and after (notice of arrival time & dates, asking about access), suggestions given and listening to our preferences, friendly.Communication is five star.  Highly recommend Guy and his team.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hyundai Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 2 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sharp-solar/",
+  "scraped_at": "2025-11-26T16:43:44.984336",
+  "company_info": {
+    "company_name": "Sharp Solar",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "56309",
+      "reviewer_name": "Jeff",
+      "reviewer_location": "NSW - 2870",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2870",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Still waiting for the smart meter donâ€™t know if it is going to cost more one not",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "4kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

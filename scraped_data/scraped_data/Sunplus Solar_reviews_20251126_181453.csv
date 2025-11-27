@@ -1,0 +1,4 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+9043,Anon,VIC - 3820,VIC,3820,True,2011-07-04,04 July 2011,4.0,,,4.0,4.0,4.0,4.0,3kW,"$6,000 to $10,000",,,,False,[],0,0
+1502,Brian,NSW - 2474,NSW,2474,True,2010-07-05,05 July 2010,3.67,,Instalation is held up due to lack of inverters.,4.0,4.0,0,3.0,2kW,"$3,000 to $6,000",,,,False,[],0,0
+1475,John,NSW - 2470,NSW,2470,True,2010-07-05,05 July 2010,5.0,,I would highly recommend Allan Slap of Sun Plus Electrical to all.,5.0,5.0,5.0,5.0,2kW,"$3,000 to $6,000",,,,False,[],0,0

@@ -1,0 +1,204 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/southeast-solar-australia/",
+  "scraped_at": "2025-11-26T17:58:54.749879",
+  "company_info": {
+    "company_name": "Southeast Solar Australia",
+    "contact_phone": "1300 289 765",
+    "website_url": "https://www.southeastsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12421_6ff4c877d9822ec7acd57c09a295540b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12421_20c1d18791a246001f5df7867d4e6bf5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12421_bdfec51e163dae35e29826d07f9e02f6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12421_60268f027dc32bfeca86dc3c6ca3da9d.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.8,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "128864",
+      "reviewer_name": "James",
+      "reviewer_location": "VIC - 3131",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3131",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Southeast Solar Australia great to deal with a very competitive price and prompt installation.Highly recommend them",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Fox ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "128963",
+      "reviewer_name": "Joe",
+      "reviewer_location": "VIC - 3180",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3180",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mario managed the system installation from start to finish, and did a great job. He was always responsive and was quick to handle issues that occurred. Well done.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "126498",
+      "reviewer_name": "Shaani",
+      "reviewer_location": "VIC - 3124",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3124",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "As the first company that contacted me South East Solar Sales person Jordan explained in detail all about the different panels and inverters and the way panels could be connected ( string of with micro inverters). He provided me with some basic quotes and let me continue on with my research.When Jordan called again about a week later to follow up on the initial quotes, he listened to what our needs and concerns were and answered my list of questions.He arranged for Mario to attend on site so my concerns about where the inverter and the size of the inverter could be installed.Jordan was patient and provided numerous quotes as I increased my knowledge and determined that we wanted a 10.86kW system comprised of  Trina panels with micro inverters and an Enphase inverter so we could perhaps add a battery in years to come.We also factored in the future possibility of changing over to an EV car, a heat water pump and induction cooktop  as existing appliances fail.The installation was done by a sub contractor company called Maxwell Solar and they were great.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "123184",
+      "reviewer_name": "Bilal",
+      "reviewer_location": "VIC - 3805",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-06-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Loved the workmanship as the are Honest, Professional, Reliable and Polite.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "123177",
+      "reviewer_name": "Eleni",
+      "reviewer_location": "VIC - 3976",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3976",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-06-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process was honest and informativeInstalling was seamless and very professionalCustomer experience was great, they dealt with all aspects including the grid connection and inspection in a timely manner.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

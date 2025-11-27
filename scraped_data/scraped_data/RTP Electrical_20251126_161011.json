@@ -1,0 +1,129 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rtp-electrical/",
+  "scraped_at": "2025-11-26T16:10:11.838426",
+  "company_info": {
+    "company_name": "RTP Electrical",
+    "abn_number": "88152147736",
+    "acn_number": "152147736",
+    "contact_phone": "1300 776 353",
+    "website_url": "http://rtpelectrical.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    },
+    "abn_details": {
+      "abn_active_since": "18 Jul 2011R",
+      "abn_company_name": "R.t. Projects Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "18 Jul 2011R",
+      "acn_company_name": "R.t. Projects Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "116166",
+      "reviewer_name": "Greg",
+      "reviewer_location": "VIC - 3076",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Rohan was educated in the field which helped us meet on the best system to install.He was prompt & professional with the installation.Still waiting on final connection. That is at my end.Cheers greg",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "94878",
+      "reviewer_name": "Craig",
+      "reviewer_location": "VIC - 3040",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3040",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-11-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Happy with the job. RTP made it easy. Team were a pleasure to deal with at my home.Certified promptly after completion.Would definitely recommend.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "72082",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3190",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3190",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent quote and communication.Installation was the neatest and bang on code the certifier has seen.After installation service has been excellent.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

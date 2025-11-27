@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/crest-solar/",
+  "scraped_at": "2025-11-26T13:18:18.863919",
+  "company_info": {
+    "company_name": "Crest Solar",
+    "contact_address": "Sydney, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "80295",
+      "reviewer_name": "Jim",
+      "reviewer_location": "NSW - 2152",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "once system was up and running and paid for their customer service started to be wanting. Call/email returns were very patchy. Also am having a major problem with our electricity supplier as our meters needed to be change from analogue to digital which I wasn't totally aware of that it was my job to do so was waiting on installers to organise which didn't happen till after several run ins with supplier in regards to weird meter readings and estimated readings. Now fighting about last electricity bill as they deem it to be tampering with meters not having them changed over to digital BEFORE solar system was switched on.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 3.0,
+      "system_size": "10kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

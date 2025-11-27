@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/vino-electrical-and-solar/",
+  "scraped_at": "2025-11-26T18:42:02.930078",
+  "company_info": {
+    "company_name": "Vino Electrical and Solar",
+    "contact_address": "Albany, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.3,
+    "value_for_money_rating": 1.0,
+    "system_quality_rating": 1.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 2.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "131160",
+      "reviewer_name": "Parambir",
+      "reviewer_location": "WA - 6330",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6330",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I-store should have done their Research and Development on their consumption monitors before rolling out product in the Aussie market . It is frustrating and disappointing for the customers to see their consumption monitors not working properly and are a complete waste of money ! I chose istore thinking that it is made by huawei and will be good quality but unfortunately it's not the case.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 2.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "iStore",
+      "battery_brand": "",
+      "overall_review_rating": 2.25,
+      "quality_of_system_rating": 1.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_istore.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "iStore logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_istore.jpg"
+    }
+  ]
+}

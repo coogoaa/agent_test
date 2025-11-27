@@ -1,0 +1,94 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunspark-solutions/",
+  "scraped_at": "2025-11-26T18:26:30.762626",
+  "company_info": {
+    "company_name": "Sunspark Solutions",
+    "contact_address": "Perth, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "78875",
+      "reviewer_name": "John",
+      "reviewer_location": "QLD - 4152",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-07-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "David from SunSpark contacted me promptly after applying for quotes from Solar Quotes. (Very well presented and informative web site btw )  He provided options to suit my budget and requirements. David was both knowledgeable and helpful with my newbie questions. The system was installed within a week of contract signing. The installation team were efficient and very professional. The electricians carried out the job with expertise and care, resulting in a very neat and tidy installation. No hesitation in recommending SolarSpark!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "71587",
+      "reviewer_name": "Joseph",
+      "reviewer_location": "WA - 6055",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6055",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "High quality, personal service from quoting to commissioning of the system. Prior to quoting they listened to our requirements and took on board the research we had done to form those requirements. As such they didn't try to push any particular brands, or standard packages.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Solaredge",
+      "battery_brand": "LG",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/elite-renewables/",
+  "scraped_at": "2025-11-26T13:20:43.810395",
+  "company_info": {
+    "company_name": "Elite Renewables",
+    "contact_phone": "0416 545 238",
+    "website_url": "http://www.eliterenewables.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_1d41e6f55521cdba4fc73febd09d2eb4.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_c81e728d9d4c2f636f067f89cc14862c.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_eccbc87e4b5ce2fe28308fd9f2a7baf3.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_a87ff679a2f3e71d9181a67b7542122c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_e4da3b7fbbce2345d7772b0674a318d5.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_0cf63cf3ea8214aee827b90afaef209a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_8f14e45fceea167a5a36dedd4bea2543.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_c9f0f895fb98ab9159f51fd0297e236d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13735_45c48cce2e2d7fbdea1afc51c7c6ad26.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "114857",
+      "reviewer_name": "Leonora",
+      "reviewer_location": "VIC - 3041",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3041",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Chris was very efficient, knowledgeable and patient with answering all my questions. The whole process was free of stress and the work was done expertly and on time. I would recommend this installer any time.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "112836",
+      "reviewer_name": "Shiraz",
+      "reviewer_location": "VIC - 3044",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3044",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After receiving 3 quotes, we couldn’t believe the difference in terms of price and quality of panels/inverter used by Elite Renewables. Chris was super helpful in finding the right size system for us and not just pushing for the biggest system/sale. His knowledge in the solar industry and in product brands and quality is great. The installation team were very professional and did an amazing job. Highly recommend Elite Renewables for your solar and battery needs.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

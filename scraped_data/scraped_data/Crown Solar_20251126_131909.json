@@ -1,0 +1,72 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/crown-solar/",
+  "scraped_at": "2025-11-26T13:19:09.311009",
+  "company_info": {
+    "company_name": "Crown Solar",
+    "contact_address": "2565, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "128694",
+      "reviewer_name": "Darren",
+      "reviewer_location": "NSW - 2205",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2205",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Russell runs a nice transparent process in which he has quoted me an extremely reasonable price and has looked after me well post installation. I was getting the panels installed before I moved in and during the home renovations.I have referred Crown to my parents, family and friends. They worked with me in getting quotes ready for my family, and also detailing why they couldn't go ahead with solar at my parents place (roof was not structurally sound).Saying no, as they knew it would cause problems down the track, speaks greatly to their professionalism. Not here to take money, but making sure the system was installed and won't have any headaches to their customers.Installation at my place was a breeze. The installers were great at their job, with no mess left.The team at Crown helped me with connecting to the grid, where Russell came over and showed me how to use the inverter and helped me set up the app for it, to see how many KWs I would be making.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

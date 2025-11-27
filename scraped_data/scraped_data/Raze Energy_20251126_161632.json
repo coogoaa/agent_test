@@ -1,0 +1,91 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/raze-energy/",
+  "scraped_at": "2025-11-26T16:16:32.316734",
+  "company_info": {
+    "company_name": "Raze Energy",
+    "contact_address": "Bangalow, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "87687",
+      "reviewer_name": "Dan",
+      "reviewer_location": "NSW - 2481",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2481",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Dan and his team at Raze recently installed an superb 9.62kW system for me which was a combination of quality installation and affordable price. I thoroughly recommend Raze and encourage everyone who is considering solar to speak with these guys first. The process was very user friendly and simple!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Sumec Phono Solar (Other)",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "86823",
+      "reviewer_name": "Jimmy",
+      "reviewer_location": "QLD - 4518",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4518",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Can’t recommend Dan and his team highly enough.  After weeks of people trying to sell me the dream, it was refreshing to hear an honest opinion.  He gave me the product sheets and information freely and explained the costs throughly.  Installation was seamless and clean, contractors helped every step of the way and left me feeling very comfortable.Great work guys",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Phono",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

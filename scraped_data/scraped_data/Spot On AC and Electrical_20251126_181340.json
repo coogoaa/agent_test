@@ -1,0 +1,151 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/spot-on-ac-and-electrical/",
+  "scraped_at": "2025-11-26T18:13:40.732345",
+  "company_info": {
+    "company_name": "Spot On AC and Electrical",
+    "abn_number": "56360594596",
+    "contact_phone": "0458 089 398",
+    "website_url": "https://www.facebook.com/Spotonacelectrical/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_74a95a997f804638daace0b750400daa.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_f558a7cea171eed97113e74dd6cec399.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_cf1c82641a213d36f5b9140b556e60c9.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_50c9b884499a5eac550169f71e78e573.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_e977266334973cfc73bc61f54bfd3b27.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_fa807503cc4c1f5bd1a9fa3df57e7dfb.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_ecfe56fa03b6b3a3afbce55d348e8c95.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_23351444a88f837460985ac5a604e901.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_1f71129af4b20ca54cdd543579bae1cc.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_bb9aeda316bb7f1e651e21faf7e04510.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_ddb90f501f65f5ae938038d1194dd6f2.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/325_5971c48050d1cf5af9e7bcdfad1cad7d.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a21823d961154f3e80b158ce506e6e6c0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "02 Mar 2015Spot On A",
+      "abn_company_name": "Spot On A/c & Electrical"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "139564",
+      "reviewer_name": "Martin",
+      "reviewer_location": "VIC - 3747",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3747",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Tom Wylie and his assistant Seth were a pleasure to deal with. They have done an outstanding job in a calm, unhurried and thorough manner. They consulted with throughout and explained what needed to be explained clearly and genuinely. The system is working perfectly. Full recommendation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "127553",
+      "reviewer_name": "Glenn",
+      "reviewer_location": "VIC - 3673",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3673",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Tom was fantastic, he was one of the few people who actually came to the property and looked at the farm shed I originally wanted to install the solar on. He said it would not support the weight, which was a concern of mine too. I did not want them on the house roof so he suggested an array in the paddock. It turned out great.We have had some scarily high winds and it has had zero issues. Also choosing the ground array meant we could face all the panels into the optimum direction. So even on cloudy days we are still producing power.Tom is hard working and very easy to deal with. He is happy to answer questions and give advice and alternatives if needed, and work with you to get what you want done. It took a bit longer than the original estimate, but that was partly weather, and Tom wanting to give the supports ample time to harden.He left the job site really clean as well. I would have no problem recommending him to do a solar install as well as any electrical work needed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a21823d961154f3e80b158ce506e6e6c0.jpg"
+      ]
+    },
+    {
+      "review_id": "59793",
+      "reviewer_name": "Harvey",
+      "reviewer_location": "VIC - 3701",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3701",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-02-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tri-ct-elec-pty-ltd/",
+  "scraped_at": "2025-11-26T18:08:11.043895",
+  "company_info": {
+    "company_name": "Tri CT Elec Pty Ltd",
+    "contact_phone": "0435 408 068",
+    "website_url": "https://trictelec.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14235_0e935cb6e3329d4bba15335768d81d97.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14235_984190e094b3ac54c410df2c3dba1227.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14235_be0bf1a596eb3bd5d16c37d69a051714.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14235_6c0b764ff6b96e78f2692b7623094937.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14235_a44fb77041b0e151baa7dacb112ced87.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "135607",
+      "reviewer_name": "George",
+      "reviewer_location": "VIC - 3058",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3058",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great installer and good value. Great communication throughout and honest about products/services.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "131067",
+      "reviewer_name": "KC",
+      "reviewer_location": "VIC - 3152",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-02-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The process from providing quote up to installation was very smooth and satisfied with the system installed which is meeting my expectation. The quality of installation is very good and tidy. After installation service is great with following up with Ausnet on grid connection and advised the status.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

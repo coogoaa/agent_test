@@ -1,0 +1,107 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sun-phase-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T18:41:19.026869",
+  "company_info": {
+    "company_name": "Sun Phase Electrical Pty Ltd",
+    "contact_phone": "0403 008 285",
+    "website_url": "https://www.sunphaseelec.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13866_43483103997bad2233e6bbb93ed13ee1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13866_8513073672ff1f8a3e073b7f324880f8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13866_2e100413a117c93cf2faf599065f041a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13866_1b9cde7165a5ad1a2e3899e711f845ca.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13866_0d034edd714a476f81b90522ebdd01b0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13866_c9f9ad63a8b329f3ec39186f4eca6ff2.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "124873",
+      "reviewer_name": "Craig",
+      "reviewer_location": "VIC - 3930",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3930",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-08-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything went to plan, the quotes I received were all very close to each other so I knew I was getting a good deal. My installer did everything and more than he quoted!! Very, very happy with the whole process.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "121547",
+      "reviewer_name": "Natalya",
+      "reviewer_location": "VIC - 3977",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3977",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "As first-time homeowners we knew we wanted solar but had absolutely no idea how to go about it.We got quotes from 5 different providers but Sun Phase stood out to us for several reasons, from quick responses to our questions, to being one of only two providers to actually visit our house when preparing a quote.Sun Phase patiently worked with us as we planned out various configurations of set up sizes, panel brands and inverter models. The depth of information and attention to detail that Andy provided during all our interactions was above and beyond.Sun Phase’s pricing was really competitive, and the installation was seamless. So glad we chose Sun Phase for our solar installation, would 100% recommend Andy for anyone looking at solar for their home.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

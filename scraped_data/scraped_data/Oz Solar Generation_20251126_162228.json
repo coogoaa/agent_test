@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/oz-solar-generation/",
+  "scraped_at": "2025-11-26T16:22:28.372965",
+  "company_info": {
+    "company_name": "Oz Solar Generation",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14115_b5ae253641bc018323fe6c493205fd36.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14115_f7caf0f98e09f0bbdac56d8f3ff68496.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14115_fa06509084c80e7e8e8c223ac0d711f0.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14115_bd63beaf8952ac71955d65c5b6a3e50c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14115_8dcef68b196cfa7e74d90d0c93ef4faa.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14115_f1c53be356f44226af893387989d71b8.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

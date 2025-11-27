@@ -1,0 +1,87 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/elecmation/",
+  "scraped_at": "2025-11-26T13:04:39.734532",
+  "company_info": {
+    "company_name": "Elecmation",
+    "abn_number": "72638872232",
+    "acn_number": "638872232",
+    "contact_phone": "0437 667 491",
+    "website_url": "https://elecmation.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_aeec1d8d48db86b8490347985cb51797.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_e1f594fb0d0844febc015afdd671de33.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_677a997530a36367f778e1ed33723c51.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_5c8e612722964bc30ecd2ef1602fcc9e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_a4429617ae3d55c41626d67436bf77b0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_d4c9ac7e3521a0a1e851a1a3a9aebc48.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_b279cbc146e39779a07b330fd269abba.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_92815312897a467f6bb5b88bd7fffd10.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13540_33fdd64bd479fc2b95d041971b57b82f.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "04 Feb 2020Elecmation Pty Ltd",
+      "abn_company_name": "Elecmation Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "04 Feb 2020Elecmation Pty Ltd",
+      "acn_company_name": "Elecmation Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "120792",
+      "reviewer_name": "Warren",
+      "reviewer_location": "VIC - 3844",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3844",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Detailed quote with 3 options offered. All the details we retired were included.Installation was punctual and neat a tidy.Communication was great inspection and grid connection arranged with no issues.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/six-star-plus/",
+  "scraped_at": "2025-11-26T17:01:06.476352",
+  "company_info": {
+    "company_name": "Six Star Plus",
+    "contact_phone": "03 8795 7091",
+    "website_url": "https://www.sixstarplus.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12368_c4ca4238a0b923820dcc509a6f75849b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12368_c81e728d9d4c2f636f067f89cc14862c.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12368_ea66c06c1e1c05fa9f1aa39d98dc5bc1.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12368_3adeeef26448093d29f7fac0f148162f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12368_1ef2bf9c609c9a76ee0b08561a13d474.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7b37e845036e2c530e21e3e50ed79bec0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ac25e94f3423c25e8c6f2baca1264a230.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/389da4734c451dd0b726ef05abee7cea1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3845bbc633f1640e1e261e9794a4e9132.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "134014",
+      "reviewer_name": "Rebecca",
+      "reviewer_location": "VIC - 3201",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3201",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great company to deal with from the quoting stage - explaining what’s needed for what we want. The rebate process, the scheduling of the installation and the follow up commissioningWe were kept up to date the whole processCheerful staff in the office and polite trades on site",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7b37e845036e2c530e21e3e50ed79bec0.jpg"
+      ]
+    },
+    {
+      "review_id": "133644",
+      "reviewer_name": "Lisa",
+      "reviewer_location": "VIC - 3995",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3995",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "One of the few solar installers I spoke to that actually took the time to design and explain the solution that would fit our household needs as well as the rebates that were available to us.  When we do further upgrades to my solar it will be exclusively through them.  We also installed an Emerald Heat Pump and the app enables us to keep track the usage and maximise efficiency.  The salesperson Lauren was professional and knowledgeable. Supply and Installation of both was smooth and hassle free. We had a great experience with the whole team.  I'd definitely give them the 6 stars",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ac25e94f3423c25e8c6f2baca1264a230.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/389da4734c451dd0b726ef05abee7cea1.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/3845bbc633f1640e1e261e9794a4e9132.png"
+      ]
+    },
+    {
+      "review_id": "133134",
+      "reviewer_name": "Nicole",
+      "reviewer_location": "VIC - 3084",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3084",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very easy to get a quote.Installers showed up on time, very polite and tidy. Install took about 1.5 hoursThey took all the rubbish and connected connected the linked the heat pump to wifi for me.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "133111",
+      "reviewer_name": "Isabella",
+      "reviewer_location": "VIC - 3809",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3809",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From start to finish, our experience with Six Star Plus was nothing short of exceptional. The sales and quoting process was smooth, transparent, and professional. They took the time to explain our options clearly, answered all our questions, and provided a competitive, well-detailed quote with no hidden surprises.The installation was just as impressive. The team was polite, punctual, and incredibly tidy—they treated our home with respect and left everything spotless. The workmanship was top-notch, and it was clear they take great pride in their work.What really stood out was the customer service. After the installation, they didn’t just pack up and leave—they helped organise the grid connection and walked us through how to use the charger properly, making sure we felt confident and informed.We highly recommend Six Star Plus to anyone looking for reliable, high-quality service. They went above and beyond at every stage, and we couldn’t be happier with the result!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3.3kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

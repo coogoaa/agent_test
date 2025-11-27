@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mdg-industries-pty-ltd/",
+  "scraped_at": "2025-11-26T15:07:30.985322",
+  "company_info": {
+    "company_name": "MDG Industries Pty Ltd",
+    "contact_address": "Beechworth, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "28543",
+      "reviewer_name": "Murray",
+      "reviewer_location": "VIC - 3737",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3737",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-11-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I have no hesitation in recommending Matt Gallagher from MDG Industries, he was very customer focused as well as value adding an additional system to enhance the solar by diverting excess power to our hot water service during the day (saving on off peak cost as opposed to getting 6 cents credit for returning it back to the grid). The installation method was excellent, clean, tidy & prompt.The selection of equipment was based on Matt's recommendation (Enphase micro inverter & Jing Li panels) with computerised software that i can tap into any time to evaluate the performance.All professionally completed and I am one very happy customer.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

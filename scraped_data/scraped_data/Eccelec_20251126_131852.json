@@ -1,0 +1,136 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/eccelec/",
+  "scraped_at": "2025-11-26T13:18:52.057784",
+  "company_info": {
+    "company_name": "Eccelec",
+    "abn_number": "60633756644",
+    "acn_number": "633756644",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "28 May 2019Eccelec Pty Ltd",
+      "abn_company_name": "Eccelec Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "28 May 2019Eccelec Pty Ltd",
+      "acn_company_name": "Eccelec Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "75394",
+      "reviewer_name": "Matt",
+      "reviewer_location": "NSW - 2720",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2720",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with the service i received from the team at Eccelec, fantastic communication and once quote was accepted works were completed on time and to a high standard.highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "75021",
+      "reviewer_name": "Ian and Kerry",
+      "reviewer_location": "NSW - 2720",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2720",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Our initial meeting with Brett was very informative. He was the only one of the three quotes to get on our roof before he left. His quote was extremely comprehensive providing all the details as per Solar Quotes guidelines.The installation was so smooth. It was done in one day. Brett and his team arrived at the time stated. They left our property as they found it.At each step of the way Brett was more than helpful. Brett has told us that he service doesn't stop now that the panels are up. We look forward to working with him as we learn about our electricity use.We really like the fact that the Brett, as a local business owner and electrician was involved in this process from start to finish.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "63369",
+      "reviewer_name": "Megan",
+      "reviewer_location": "NSW - 2720",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2720",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "A comprehensive and very informative written quote was the main reason for our final choice of installers. The quote was professionally presented and directed to our expressed requirements.Both installers were professional and extremely helpful.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "GE",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_ge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

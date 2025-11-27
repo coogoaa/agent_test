@@ -1,0 +1,79 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/thomas-electrical-and-solar/",
+  "scraped_at": "2025-11-26T18:35:31.168206",
+  "company_info": {
+    "company_name": "Thomas Electrical and Solar",
+    "contact_address": "Gold Coast, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ff4f13e22d76493f671d4ef1026e1ad20.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/46442377aa829378f2f41725a8cc7bd31.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ff4f13e22d76493f671d4ef1026e1ad20.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/46442377aa829378f2f41725a8cc7bd31.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "127569",
+      "reviewer_name": "Benjamin",
+      "reviewer_location": "QLD - 4300",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4300",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "If you are in the market for solar, I would recommend you reach out to Bryce and his team at Thomas Electrical and Solar.Communication was fantastic, the quote with a bespoke design arrived in my inbox on the same day of initial inquiry.Scheduling may have been a little atypical for me, as the team had a cancellation and I was able to get my system installed much quicker than expected. On the day the team were on time and there no nasty surprises when it came to invoicing. The workmanship is professional and of exceptional quality, and the work areas were left clean.One thing I particularly liked was the team replaced any roof tiles that were cracked (just five for me) as part of the service, leaving me with a completed project and no headaches. The system is working perfectly, and we are very pleased with the results.30 JinKo panels (13.2kw)1 GoodWe 10kw inverter (wired Ethernet)",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ff4f13e22d76493f671d4ef1026e1ad20.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ff4f13e22d76493f671d4ef1026e1ad20.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/46442377aa829378f2f41725a8cc7bd31.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/46442377aa829378f2f41725a8cc7bd31.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bendigo-solar-services/",
+  "scraped_at": "2025-11-26T11:52:35.068060",
+  "company_info": {
+    "company_name": "Bendigo Solar Services",
+    "contact_address": "White Hills, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "87089",
+      "reviewer_name": "Heath",
+      "reviewer_location": "VIC - 3451",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3451",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kept informed and updated throughout the process and John was happy to answer multiple questions both before and since the installation",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Phono",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Phono logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png"
+    }
+  ]
+}

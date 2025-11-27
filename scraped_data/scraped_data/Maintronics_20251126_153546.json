@@ -1,0 +1,124 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/maintronics/",
+  "scraped_at": "2025-11-26T15:35:46.830654",
+  "company_info": {
+    "company_name": "Maintronics",
+    "contact_address": "Northern River Area, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.2,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.33,
+    "customer_service_rating": 4.33,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "1805",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2480",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2480",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    },
+    {
+      "review_id": "3319",
+      "reviewer_name": "BADEN",
+      "reviewer_location": "NSW - 2470",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2470",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    },
+    {
+      "review_id": "1430",
+      "reviewer_name": "John",
+      "reviewer_location": "NSW - 2464",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2464",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-07-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fimer logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+    }
+  ]
+}

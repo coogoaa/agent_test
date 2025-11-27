@@ -1,0 +1,110 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/the-energy-experts/",
+  "scraped_at": "2025-11-26T18:21:06.732248",
+  "company_info": {
+    "company_name": "The Energy Experts",
+    "contact_address": "NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_22b663e9db5ddf12c56c533dfd06e492.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_1f8f958c18fc2b38b5370d493b37587e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_544e23f761cc5036687efb6507ec7601.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_28ad024e0603d789cfb7f3fe6e284406.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_1cfd0e013118991f092d0f013e562c4a.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_41c94d71ac0f2546d2eb33181da47cec.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_ddbfac1a1b5b012083a65042d70ae88d.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_69ff19165db4a2c02e2bc13651cad761.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12343_cd13cb58f34ca280ae0767389bd4e7a5.PNG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "80654",
+      "reviewer_name": "Vic",
+      "reviewer_location": "NSW - 2519",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2519",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything went smoothly - job was done quickly and well. System provided all I asked for and more.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Fronius",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "66598",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2535",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2535",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-07-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LG logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 2 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

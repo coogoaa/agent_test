@@ -1,0 +1,129 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/iq-solar/",
+  "scraped_at": "2025-11-26T14:49:39.817934",
+  "company_info": {
+    "company_name": "IQ Solar",
+    "contact_address": "Wetherill Park, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "111333",
+      "reviewer_name": "Brad",
+      "reviewer_location": "NSW - 2156",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2156",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Dealing with Stuart Gordon was a delight. His knowledge and no nonsense approach to explaining the alternatives to lay buyers is second to none. Any confusion I had fell away as Stuart went through the best alternatives for my particular needs & wants.In the end he looked after me on price as well so it was a no brainer....IQ Solar got my deal.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "83802",
+      "reviewer_name": "James",
+      "reviewer_location": "NSW - 2063",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2063",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Stuart is the best - he took the time to explain, made a youtube video to show the different options, didn't try to upsell.  I feel like I got exactly what I needed at a good price.  His installers were super professional and did a great job quickly.  From the time I made the decision, it was on my roof in under a week.  Amazing.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "87044",
+      "reviewer_name": "Geoffrey",
+      "reviewer_location": "NSW - 2035",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2035",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From start to finish the team at iQ Solar were thorough and professional. The results (my solar output and the first energy bill) are better than expected. My only concern is that the inverter is a touch intrusive as it was attached to the side of my house in public view. A more discrete location might have been better. Still, I remain a happy customer.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "LG",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

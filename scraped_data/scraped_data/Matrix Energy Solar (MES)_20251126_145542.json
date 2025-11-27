@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/matrix-energy-solar-(mes)/",
+  "scraped_at": "2025-11-26T14:55:42.250697",
+  "company_info": {
+    "company_name": "Matrix Energy Solar (MES)",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14310_0e08647681f56b53544f070cb814bf02.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14310_cae64fcaf4a875d7523e5e5ceda6be86.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14310_ca71c863092660a98a77b19e6a38bf72.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14310_0b2c082c00e002a2f571cbe340644239.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

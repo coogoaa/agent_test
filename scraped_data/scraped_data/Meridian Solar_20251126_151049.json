@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/meridian-solar/",
+  "scraped_at": "2025-11-26T15:10:49.500267",
+  "company_info": {
+    "company_name": "Meridian Solar",
+    "contact_address": "Maroubra, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "21188",
+      "reviewer_name": "Philip",
+      "reviewer_location": "NSW - 2024",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2024",
+      "reviewer_postcode_valid": true,
+      "review_date": "2013-12-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It was very easy and the people I dealt with were all very professional. None put any undue pressure on me to accept their quote.Your service is really useful, and I would have followed up your recommendation if I hadn't  found Meridian.Getting comparative quotes from recommended companies is very helpful.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.33,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

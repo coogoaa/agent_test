@@ -1,0 +1,224 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/get-greener-nrg/",
+  "scraped_at": "2025-11-26T14:28:46.898875",
+  "company_info": {
+    "company_name": "Get Greener NRG",
+    "contact_address": "Perth, WA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.83,
+    "customer_service_rating": 4.5,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "131402",
+      "reviewer_name": "Mark",
+      "reviewer_location": "WA - 6076",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Spoke to Gary and his company has installed a system on our own house, and then my daughters. We recommended him to a good friend and they had the same good service.Whilst installing on our house nearly 3 years ago, I discussed getting a battery. Gary was very honest and said that he did not believe that technology was there yet, but we have set it up so that we can have it if for the future. His workmen were extremely good, even though it was close to 40° when they are installing it back in December 2022.We have since bought a petrol/ hybrid car and we are looking at having a fast charger installed by the same company.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "125781",
+      "reviewer_name": "Terence",
+      "reviewer_location": "WA - 6026",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6026",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was happy with everything you asked above, the only critic I had was slow setting up my phone connection and I like information pamphlets that come with the products, but didn't receive.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "90558",
+      "reviewer_name": "Chris",
+      "reviewer_location": "WA - 6014",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6014",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-06-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good company to deal with, spent a far amount of time with me going backwards and forwards over the various options available.Provided a good quality final result at a fair price.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "87517",
+      "reviewer_name": "Lester",
+      "reviewer_location": "WA - 6169",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6169",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "No fuss, no 20 page contract to read or sign , honest advice, no sales talk or bs about how the rebate is going to be gone by the end of the month, or what is the best system for your needs, just good old listening to what you want and supplying and installing what you ask for. No hidden costs or surprise, surprise you need this or that at this or that price to bring the installation up to compliance level. Excellent service and friendly tradesmen. Obliviously time will tell as to whether they honor the warranties etc.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "76600",
+      "reviewer_name": "David",
+      "reviewer_location": "WA - 6019",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6019",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Gary was very good to deal with and we are very happy with the system",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "70902",
+      "reviewer_name": "Karl",
+      "reviewer_location": "WA - 6026",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6026",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good job with no fuss from start to finish. Happy with everything.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+59729,Tony,NSW - 2540,NSW,2540,True,2019-02-08,08 February 2019,5.0,,,5.0,5.0,5.0,5.0,4kW,"$3,000 to $6,000",,,,False,[],0,0
+56140,Dale,NSW - 2540,NSW,2540,True,2018-11-23,23 November 2018,4.75,,I appreciated your advice on material to use,5.0,4.0,5.0,5.0,5kW,Under $3000,,,,False,[],0,0
+41973,Anon,NSW - 2540,NSW,2540,True,2017-12-18,18 December 2017,4.0,,Upgraded the existing 3kW Solar System with an additional array of 3.3kW Solar Panels and 5kW Inverter (Battery Ready) System.,4.0,4.0,4.0,4.0,3kW,"$3,000 to $6,000",,,,False,[],0,0

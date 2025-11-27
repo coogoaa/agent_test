@@ -1,0 +1,147 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ibreeze/",
+  "scraped_at": "2025-11-26T14:02:56.495327",
+  "company_info": {
+    "company_name": "iBreeze",
+    "contact_address": "Falcon, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "85674",
+      "reviewer_name": "Donna",
+      "reviewer_location": "WA - 6210",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6210",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Would highly recommend IBreeze. No inquiry was to much bother. Installers were efficient and friendly.  Very happy with the customer service from the start to the finish of installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Leapton",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_leapton.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "81941",
+      "reviewer_name": "Owen",
+      "reviewer_location": "WA - 6210",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6210",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "excellent  service and installation, price similar to other offers, local company",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Leapton",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_leapton.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "52328",
+      "reviewer_name": "Stephen",
+      "reviewer_location": "WA - 6210",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6210",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-09-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Your website enabled me to educate myself a lot about solar installations, and I thank you for that.My installation was a 6.48kW system. 24 Jinko panels, Fronius Symo inverter.I was also able to bring 4 other installations to this company so we all benefited from that.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "40181",
+      "reviewer_name": "Ray",
+      "reviewer_location": "WA - 6168",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6168",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-11-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Whilst I was waiting for your 3 quotes to come through I had 2 local companies quote, one was over the top, whilst the i breeze quote was on the money.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Leapton logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_leapton.png"
+    },
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

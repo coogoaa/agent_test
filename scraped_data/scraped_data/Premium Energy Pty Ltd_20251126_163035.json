@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/premium-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T16:30:35.454889",
+  "company_info": {
+    "company_name": "Premium Energy Pty Ltd",
+    "contact_address": "VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "43534",
+      "reviewer_name": "Allan",
+      "reviewer_location": "VIC - 3352",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3352",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-01-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Euro Solar stuffed me around, would not answer my questions. No one contacted me from your website. I ended up searching myself. A friend recommended Halil at Premium Energy Pty Ltd. He answered all the questions that I had, matched the price offered by others and was really helpful. system will be installed on Friday.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

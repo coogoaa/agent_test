@@ -1,0 +1,73 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/baldwin-electrical/",
+  "scraped_at": "2025-11-26T12:29:05.746751",
+  "company_info": {
+    "company_name": "Baldwin Electrical",
+    "contact_address": "Kingaroy, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "123597",
+      "reviewer_name": "Michael",
+      "reviewer_location": "QLD - 4615",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4615",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Local installers Darren Baldwin and Owen Blamires installed our new 10kw Enphase system using Jinko panels with micro inverters and a 10kw enphase battery. Using my knowledge from solar quotes we had a terrific discussion about different options and agreed on this one. They explained everything in laymen terms, delivered on time, did an excellent installation and all the way explained what was happening and why. They assisted us with grid connection and explained the app on the phone. Brilliant job all round.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "Enphase Energy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_enphase-energy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    },
+    {
+      "brand_name": "Enphase Energy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_enphase-energy.png"
+    }
+  ]
+}

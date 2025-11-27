@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/a-bailey-plumbing/",
+  "scraped_at": "2025-11-26T12:01:08.695764",
+  "company_info": {
+    "company_name": "A Bailey Plumbing",
+    "contact_address": "Brisbane, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 3.5,
+    "customer_service_rating": 3.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "83324",
+      "reviewer_name": "Ray",
+      "reviewer_location": "QLD - 4054",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4054",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quoting process was very professional, there was little if any 'sales' aspect to this.The installation, including relocation of my existing solar hot water panels, was about as good as it could be. The technicians were punctual, the work site was left very tidy and for the most part all involver were polite. The solar hot water aspect went a little better that the new/replacement PV system but there were no issues at all.The price paid included both relocation of the hot water panels, removal of the previous small PV system and supply and installation of the new PV system.I can not imagine how the customer service could be bettered, I have no hesitation in recommending A. Bailey Plumbing Pty, Ltd.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 2.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "69557",
+      "reviewer_name": "Barry",
+      "reviewer_location": "QLD - 4070",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4070",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-10-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "When the cost of a cylinder of LPG hit $150 I decided to investigate alternatives. My LPG hot water system was around 13 years old and approaching the end of its life. Solar HW was the obvious choice due to its low operating costs. I had previously obtained a quote from a leading supplier but wanted a comparison so placed a request with Solar Quotes, only Andrew Bailey Plumbing responded. Matt who provided the quote explained the advantages and disadvantages of the various options and why he was recommending, a Rheem Hiline 300 liter using the higher performance CSA collectors. The only available roof space was east facing as the more favourable locations were covered with PV panels.As I had full LPG cylinders AB Plumbing was prepared to extend the duration of their quote until I had used some of the gas. When the day of installation arrived I found that the guys were friendly, professional and knew their job and were happy to offer advice on how to get the best performance from the system. Only minor issue is that there was a delay of several days before the electrician could make the electrical connection. The guys did provide a temporary connection and also due to warm sunny days this was unnecessary beyond an initial 90 minutes of electrical heating. Once they arrived the electrical connection was made without any fuss and again with further advice on how to use the system.We have been using the system now for a week, including several cloudy days. In that period we have never experienced anything other than plentiful hot water so very satisfied with the result. Rather than be paying around $700 for LPG our new solar HW system should only cost somewhere between $50 and $100 per year.Happy to recommend A B Plumbing to anyone wanting a solar hot water system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Qcells logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

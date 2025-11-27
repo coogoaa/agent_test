@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+30769,Alan,QLD - 4301,QLD,4301,True,2016-06-15,15 June 2016,4.25,,I wanted a local installer above all else.,4.0,4.0,5.0,4.0,5kW,"$3,000 to $6,000",,,,False,[],0,0

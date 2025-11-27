@@ -1,0 +1,181 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/offgrid-wa/",
+  "scraped_at": "2025-11-26T16:03:50.511943",
+  "company_info": {
+    "company_name": "OffGrid WA",
+    "contact_phone": "08 9206 5000",
+    "website_url": "https://offgridwa.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14464_3e5602d37b0c9d08f1a7632dd8610fe4.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14464_29db9693b5e5fe8583715bba9faa7d46.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14464_6aa197836aae0428da7977ab81041f06.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14464_d8ceb46dd962bb7b404aa25f8007231c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14464_a99a97dab19e680d63967a510ae24fff.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14464_05629225523357273c052c734e2c8382.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14464_316e5a761ae331adad2e32ad234351ee.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "140131",
+      "reviewer_name": "Luke",
+      "reviewer_location": "WA - 6063",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6063",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent & exceedingly helpful & friendly initial sales experience. An unfortunate mistake made for a painful challenge during installation. However, I was satisfied with the response in resolving that issue. I couldn't be happier with the installation team who were extremely skilled & knowledgeable, worked extremely hard to complete what was a complex & challenging job within the allotted time & were professional & friendly throughout.The system itself is excellent, & I am extremely happy with it, with perhaps some minor functional limitations around notifications within the app offering opportunities for improvement - although this is provided by the manufacturer. Value for money was exceptional.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "138928",
+      "reviewer_name": "Stuart",
+      "reviewer_location": "WA - 6317",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6317",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "OffgridWA were very professional to deal with right though the process. Took the time to explain things and work out the best system for our needs. They were never pushy to make a sale and gave us plenty of time to think it over. The guys that did the install were excellent.Highly recommend this company",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "138533",
+      "reviewer_name": "K.",
+      "reviewer_location": "WA - 6503",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6503",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was excellent. A full assessment of our power requirements was made and a clear explanation of how it all works was given. A very clear quote was provided, all our questions were answered. The installation was quick, efficient and very tidy.  We have already recommended this business to our neighbours and friends. The follow up has been excellent and we are delighted with the end result. The installation has actually far exceeded our expectations.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "138523",
+      "reviewer_name": "Darren",
+      "reviewer_location": "WA - 6026",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6026",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From the get go they were very professionalI would highly recommend this company",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

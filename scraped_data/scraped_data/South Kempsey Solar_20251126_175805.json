@@ -1,0 +1,84 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/south-kempsey-solar/",
+  "scraped_at": "2025-11-26T17:58:05.524796",
+  "company_info": {
+    "company_name": "South Kempsey Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14331_a57242556b1772fcb53f756fcf6c4c66.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14331_f3f243c43be205089d93ef11cb803da0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14331_754cfe3bc6f8c0eb6e2fbb4bb41dd849.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14331_176b0af443b7b2b1d41045317db2af7d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14331_5d5cc57136418222ad3842cc8c037571.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "133211",
+      "reviewer_name": "Alun",
+      "reviewer_location": "NSW - 2441",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2441",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I received excellent, knowledgeable advice and a scalable solar solution that works perfectly for our home.South Kempsey Solar's installation was professional, courteous, and timely.I highly recommend the South Kempsey Solar team for all your renewable energy needs.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Tesla logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+    }
+  ]
+}

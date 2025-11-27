@@ -1,0 +1,79 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/scott-black-solar/",
+  "scraped_at": "2025-11-26T16:31:05.540878",
+  "company_info": {
+    "company_name": "Scott Black Solar",
+    "contact_address": "Emerald, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/86e2cca28969dcc62fe18c60c894b4360.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a39db74fd9015ed14c733c35130e773c1.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/86e2cca28969dcc62fe18c60c894b4360.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a39db74fd9015ed14c733c35130e773c1.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "79998",
+      "reviewer_name": "Darryl",
+      "reviewer_location": "QLD - 4723",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4723",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Scott stopped in on the way home from a job and we discussed the best system for my requirements.  A quote for two different systems arrived by email on the weekend.  I agreed on 18 x 370w Longi panels and Solaredge inverter with an optimiser for each panel and they handled all arrangements with the power supplier promptly.Once the power board had been checked and supplier OK received two Scott Solar installers arrived at 7am with all the parts and by 4pm the system was running and supplying electricity to our home and the grid.Top job.RegardsDarryl",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Solaredge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/86e2cca28969dcc62fe18c60c894b4360.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/86e2cca28969dcc62fe18c60c894b4360.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a39db74fd9015ed14c733c35130e773c1.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a39db74fd9015ed14c733c35130e773c1.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Solaredge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rmh-solarelect/",
+  "scraped_at": "2025-11-26T16:01:57.733258",
+  "company_info": {
+    "company_name": "RMH SolarElect",
+    "contact_address": "Higgins, ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "77411",
+      "reviewer_name": "Ken",
+      "reviewer_location": "ACT - 2615",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2615",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Rob from RMH Solarelect was fantastic, he did a site visit and discussed options including issues posed by shading. In the end given the nature of roof and location we came to agreement that optimisers wpuld not be needed.We went 13.2 kw of panels on our North and westfacing roof faces with a 10kw 3phase inverter . The day of the install they demonstrated their experience in installing solar systems. This was matched by Ron's ability to organise all certification and a new meter from Evoenergy.Rob continues to follow up after the install to ensure I am happy and everything is working well.Can't recommend enough.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

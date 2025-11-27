@@ -1,0 +1,158 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-architects-australia/",
+  "scraped_at": "2025-11-26T16:58:11.757532",
+  "company_info": {
+    "company_name": "Solar Architects Australia",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/274_91d1608adf270a148caf90ab8bea4d7b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/274_71be7bc5d2c8c643d1ff9e97e118a034.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/274_0c27e82bb3bd69ad8da2d22fc520befc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/274_fc3fc1746ba6c7dc1a98feda0c4bc57c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/274_6533617094a4d8dcde3c8b1fda110206.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/274_91cb1d82873e30e1633b61165655ccc6.PNG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.25,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "116129",
+      "reviewer_name": "Moray",
+      "reviewer_location": "NSW - 2441",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2441",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The entire process from quoting to installation and after service was great.Andy and his team are very nice guys, respectful, efficient and know there products.They tidied up before leaving, which is very nice. Not all tradies do.They organised the Grid connection after our solar installment.Very happy to recommend Solar Architects Australia.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "102843",
+      "reviewer_name": "Jeremy",
+      "reviewer_location": "VIC - 3913",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3913",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-08-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had delayed getting solar for some time as it all seemed to hard with so many players in the market. I received quotes from various providers but decided to go with Solar Architects as they were the only provider who physically got on the roof to inspect and measure the available space and design a system suited to what was available.The remainder of the process was painless, communication was great and the installers were friendly and did an exceptional job.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "100314",
+      "reviewer_name": "Roger",
+      "reviewer_location": "NSW - 2441",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2441",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Good sales process, friendly staff & efficient & tidy throughout the installation process. Great customer service, helped with the grid connection & meter upgrade.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "99461",
+      "reviewer_name": "Mark",
+      "reviewer_location": "VIC - 3934",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3934",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales / quoting process was made very easy. The installation was just as easy, they came  the day they said they would, quick , efficient quality job . All documentation came through as promised which made for easy connection with our electricity company.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

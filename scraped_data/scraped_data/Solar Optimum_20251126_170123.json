@@ -1,0 +1,98 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-optimum/",
+  "scraped_at": "2025-11-26T17:01:23.624289",
+  "company_info": {
+    "company_name": "Solar Optimum",
+    "contact_address": "Sydney, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 3.5,
+    "installation_rating": 3.5,
+    "customer_service_rating": 3.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "127735",
+      "reviewer_name": "Tony",
+      "reviewer_location": "ACT - 2914",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2914",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I've been unable to connect to my solar inverter via my phone. Despite numerous calls and emails, their initial response was slow, only providing written instructions that failed to resolve the issue.After persistent follow-ups via email and phone, they finally sent a technician, who, despite trying with both my phone and his own, could not connect to the inverter. We arranged a follow-up visit, but the original technician couldn't make it. Instead, his boss arrived, only to be rude, condescending and extremely unprofessional (caught on my security cameras), resulting in a heated argument.I've repeatedly contacted Solar Optimum for a resolution, only to receive apologies and promises of action that never materialise. Despite their claim that Wi-Fi connections aren't part of their service, my concern is that the issue could be a faulty transmitter, which should be covered under warranty. They should have assessed the situation on-site, either to address a warranty claim or to charge for the call-out if it wasn't.The lack of accountability, unprofessionalism and poor after-service care from Solar Optimum is completely unacceptable in today's age. If you have a problem with your unit, be prepared for a long, drawn-out process with minimal support.There are plenty of reputable installers out there - I only wish I had done my homework first. I’m leaving this review to warn others and I'll be taking this matter further with my local consumer affairs office. If you value responsive customer service, look elsewhere. Solar Optimum's post-sale support is severely lacking, and you may find yourself in an endless cycle of unfulfilled promises and wasted time.Avoid this installer.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "4kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 2.0,
+      "quality_of_system_rating": 2.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "125966",
+      "reviewer_name": "Brendon",
+      "reviewer_location": "NSW - 2170",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2170",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great brand and quality they work fantastic and I got the 440 watt N-type panels. Only 15 panels and these panels are the ones you want",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "DAS Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_das-solar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

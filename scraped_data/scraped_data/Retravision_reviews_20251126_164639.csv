@@ -1,0 +1,5 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+32113,Margaret,WA - 6007,WA,6007,True,2016-10-27,27 October 2016,3.0,,,3.0,2.0,4.0,0,2kW,"$6,000 to $10,000",,Zeversolar,,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_zeversolar.png'],0,0
+10498,Jim,VIC - 3219,VIC,3219,True,2011-10-14,14 October 2011,4.0,,,4.0,4.0,4.0,4.0,1.5kW,"$3,000 to $6,000",,,,False,[],0,0
+9203,Ian,VIC - 3029,VIC,3029,True,2011-07-10,10 July 2011,4.25,,Thanks for your help.,4.0,4.0,5.0,4.0,3kW,"$10,000 to $15,000",,,,False,[],0,0
+8351,Dennis,WA - 6166,WA,6166,True,2011-06-10,10 June 2011,4.0,,,4.0,4.0,0,4.0,3kW,"$6,000 to $10,000",,,,False,[],0,0

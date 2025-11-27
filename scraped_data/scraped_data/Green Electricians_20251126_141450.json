@@ -1,0 +1,127 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-electricians/",
+  "scraped_at": "2025-11-26T14:14:50.732854",
+  "company_info": {
+    "company_name": "Green Electricians",
+    "contact_address": "QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "120327",
+      "reviewer_name": "Sharen",
+      "reviewer_location": "VIC - 3027",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3027",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "One word : Fantastic!The guys at Green Electric have a solid team and are absolute pros. They are very knowledgeable, while being extremely polite, pleasing and put the customers' satisfaction above all. I recently got them to install a 10+ kW solar system at my house, and they were wonderful from start to finish. Since the first meeting with them where I was introduced to some detailed technical concepts explained everything so patiently by Qasim, while giving me options that would suit my budget, and accommodating even some superior brands/products within the same budget, till the installation, - it was all so smooth. Post the installation, they guided me through the system and also helped organize the grid connection + inspection.  I'd highly recommend to anyone who's looking to install a solar system. Do reach out to them for a consult. As a bonus, they have inhouse installation teams as well which are directly supervised by the company and they definitely do a superior job.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "116433",
+      "reviewer_name": "Grant",
+      "reviewer_location": "VIC - 3046",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3046",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Green Electric Solutions were not one of the recommended companies but did a great job at our place. Quick turnaround from signing contract to installation, absolutely no problems on the day of install.Good communication throughout.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "34429",
+      "reviewer_name": "Trevor",
+      "reviewer_location": "QLD - 4421",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4421",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-09-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

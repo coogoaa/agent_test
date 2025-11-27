@@ -1,0 +1,150 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/act-now-energy-solutions/",
+  "scraped_at": "2025-11-26T12:12:58.335048",
+  "company_info": {
+    "company_name": "Act Now Energy Solutions",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11832_4e637986d56ffcb192fba025fab47283.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11832_c4ca4238a0b923820dcc509a6f75849b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11832_7c0aeecab21729f2365d671a79d426cf.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11832_850edbdffbe63571b7f5fde77a8635de.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.25,
+    "system_quality_rating": 4.75,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "69875",
+      "reviewer_name": "Dennis",
+      "reviewer_location": "QLD - 4506",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4506",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We decided to install a medium size system with a Fronius 4.0kW inverter with 5.1kW of panels on roof. The pre quote inspection was thorough and professional, with the quote including full dismantle and removal of our existing outdated and inadequate solar system.The installation went smoothly on the day and thanks to the consideration of shading when locating the panels we are now getting excellent output from the system (up to 28-30 kWh per day in October 2019). So whilst there are cheaper installers we were very happy to choose ACT Energy Solutions, particularly given the quality inverter and panels (Canadian) provided. Inverter was placed in ideal location within our garage.The business was excellent with communication during entire process and also post installation when I needed to clarify the inverter shutdown procedure.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "63347",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4160",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4160",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-04-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Only supplier to review the potential impact of shade, including measuring it, and only supplier to really look at roof access and get on the roof to measure it up to confirm that 20 panels could fit considering the terracotta roof tiles we have and roof shape.  Also volunteered to relocate TV antenna which would have shaded the panels in morning.One of only two suppliers who was adamant that the inverter should go in the garage out of the sun, whereas other supplier (SAE Group) stated the inverter must be mounted next to the electrical main meter box on the north wall of the house in full sun.  As an engineer I know that electronics must not be mounted in full sun.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "55807",
+      "reviewer_name": "Adam",
+      "reviewer_location": "QLD - 4012",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4012",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The team was very professional from start to finish. Al took the time to discuss the system and the different options as well as the pros and cons. Quote was competitive. Tim and the rest of the installation crew were exceptional.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "50846",
+      "reviewer_name": "Alan",
+      "reviewer_location": "QLD - 4212",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4212",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-08-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This customer focus and attention to detail the owner displayed during the quoting process is obviously a culture that the employees embrace too.They have gone out of their way to make sure things are just right. For example, without being asked to, they relocated the TV antenna so it would not cast a shadow on the panels. They then put a lot of effort into making sure the reception was better than before they moved the antenna.Most companies advise to have some spare roof tiles as the odd breakage is to be expected.My install was moved forward due to someone else postponing so I had not organised the spare tiles. These guys found some for me at no extra charge!",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

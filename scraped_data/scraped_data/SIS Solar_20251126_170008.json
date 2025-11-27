@@ -1,0 +1,154 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sis-solar/",
+  "scraped_at": "2025-11-26T17:00:08.334882",
+  "company_info": {
+    "company_name": "SIS Solar",
+    "contact_address": "Wyong, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.25,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "110338",
+      "reviewer_name": "Ken",
+      "reviewer_location": "NSW - 2257",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2257",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales pitch was OK and I decided to go ahead.Then however I was doubtful at first ,as people started turning up without any notification to me after I had signed up . I began to think is this a \"Cowboy Operation\". I was assured when I complained that \"something had gone wrong in \"The Office\" and an apology was forwarded.No problem with the installation team. All of the above.The company advised me that they would do all the relevant paperwork re the new connection. I have just received from the supplier that they would shortly be installing the new meter.The site is difficult to array the panels to receive max sunlight.In consultation with the company I am happy with the array position.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 3.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "113191",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "NSW - 2159",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2159",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Simon was excellent in answering all my never-ending questions in detail and gave me the time i needed. No pressure no gimmicks. Gave us options for size of the system and quality to premium systems which allowed us to make the rigt decision that suited our situation.Pre install site review was very informative about best location for the panels (do you use more power in the morning or afternoon) which allowed perfect positioning of the panels for the winter sun and afternoon summer sun. Positioning of the invertor for the best performance was also discussed. Install went all to plan.Overall customer service was excellent.:)",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "112825",
+      "reviewer_name": "Christine",
+      "reviewer_location": "NSW - 2261",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2261",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quoting process was clear and concise.  The installers arrived when they said they would.  There was no disruption and they left the premises spotless.  They contacted our electricity provider to arrange for a new meter.  A super local company who did a great job at a good price.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "109667",
+      "reviewer_name": "Greg",
+      "reviewer_location": "NSW - 2251",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2251",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "SIS Solar (the installer) supplied a Solplanet (AISWEI) ASWS 4000-s Inverter with our solar installation which failed.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Solplanet",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 1.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solplanet.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

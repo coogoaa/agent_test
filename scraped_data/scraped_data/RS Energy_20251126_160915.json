@@ -1,0 +1,66 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rs-energy/",
+  "scraped_at": "2025-11-26T16:09:15.813632",
+  "company_info": {
+    "company_name": "RS Energy",
+    "contact_address": "Queensland, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "80201",
+      "reviewer_name": "Murray",
+      "reviewer_location": "QLD - 4209",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4209",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "RS energy was ringing me all the time to get the job, there price was the cheapest and they also used top of the line products so I went with them, was a good experience, everything Lewis said he was going to do, he delivered. However, we have been getting cold water in the morning since the Solar I stalk  which isnâ€™t pleasant. Have called RS energy and txt messaged, no response (it is Sunday). Will call again Monday. Overall Iâ€™d recommend RS Energy, fair price and was pretty easy to deal with.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 3.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

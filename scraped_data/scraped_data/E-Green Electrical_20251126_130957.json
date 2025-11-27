@@ -1,0 +1,105 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/e-green-electrical/",
+  "scraped_at": "2025-11-26T13:09:57.871940",
+  "company_info": {
+    "company_name": "E-Green Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13855_0fafed3e0a6ea6110425514a7ecb58e7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13855_979b665bdc73f9b6217b122813d85a4c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13855_4bd94b332876d4523452d96372e50c29.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13855_def53428f96267fc3244814948b6a282.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13855_8cb5dc5f564fb62cbe4371485544eed8.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "117801",
+      "reviewer_name": "Wayne",
+      "reviewer_location": "NSW - 2223",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2223",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-12-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I am pleased that I installed Solar Penal seems to work well as long as the sun shine, may take a lot more time to recup the outlay, believe the outlay will take longer then demonstrated by the sale information I received.Installation; An arrival time was not communicated to the customer. Not a good idea to arrive in customers driveway and start unloading before the customers is aware there here.Polite, all waste removed.Customer Service with Kia was great all the way through with a couple technical problems resolved by him.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Growatt",
+      "battery_brand": "Don't have Battery. (Other)",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "113248",
+      "reviewer_name": "Seth",
+      "reviewer_location": "NSW - 2036",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2036",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quoting process was simple and easy. Everything was done over the phone, I was prompted to send photos so they could quote accurately. The sales team over the phone was alright and not a pushy sales company. The installer was very experienced, took his time on the installation to make sure it was all connected and working properly. They took the time to show me the system and link it up to wifi too.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

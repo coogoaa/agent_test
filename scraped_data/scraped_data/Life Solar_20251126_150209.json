@@ -1,0 +1,173 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/life-solar/",
+  "scraped_at": "2025-11-26T15:02:09.656879",
+  "company_info": {
+    "company_name": "Life Solar",
+    "contact_address": "Melbourne, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/eddf484daa8f5aad5e4eb5fe37295c990.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7cdba65f041d786e0a150253b3a3ecbe1.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/eddf484daa8f5aad5e4eb5fe37295c990.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7cdba65f041d786e0a150253b3a3ecbe1.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.5,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "75623",
+      "reviewer_name": "Win",
+      "reviewer_location": "VIC - 3068",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3068",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I have had 5 quotes (I believe not through your SOLARQUOTES) but all visits from \"cold calls\". I was not impressed by the first 3 companies. I have now agreed to go ahead with the last quote from LIFE SOLAR.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "72474",
+      "reviewer_name": "Anku",
+      "reviewer_location": "VIC - 3029",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3029",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After receiving several questionable over the phone quotes and recommendations from other solar companies, I was about ready to give up my quest to install solar.Then I came across Life Solar. What a difference! Life Solar was the only company who offered to send a sales consultant to my home to assess my energy usage and determine the best solar system for my needs. And all staff were professional, very knowledgeable, and polite- from the office support , to the sales consultant, and installation team.I would not hesitate to recommend Life Solar to anyone considering installing solar, and already have to my family and friends! Exceptional service Life Solar!!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "72441",
+      "reviewer_name": "NEHA",
+      "reviewer_location": "VIC - 3029",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3029",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We decided on LIFE SOLAR after our friend's recommendation. We did have several Quotes from various Suppliers but everybody was just selling cheap wheras these guys gave us quality options (We already had our research done). Our experience from purchase to install has been smooth. Installers were very professional and arrived on the day we were told. We were advised that our install will take place within 2-4 weeks and it was done within a 10 days and inspection and paperwork were followed fast. I was happy with overall process. Can definately recommend these guys.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/eddf484daa8f5aad5e4eb5fe37295c990.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7cdba65f041d786e0a150253b3a3ecbe1.jpg"
+      ]
+    },
+    {
+      "review_id": "69985",
+      "reviewer_name": "Abhey",
+      "reviewer_location": "VIC - 3064",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3064",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quick Installation within my budget. I suppose semi decent system",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 3.0,
+      "system_size": "6.6kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

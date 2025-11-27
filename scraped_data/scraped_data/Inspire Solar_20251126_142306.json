@@ -1,0 +1,176 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/inspire-solar/",
+  "scraped_at": "2025-11-26T14:23:06.366787",
+  "company_info": {
+    "company_name": "Inspire Solar",
+    "contact_address": "Melbourne, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/49cf0eda7023640d0c30a5be17eccccd0.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/49cf0eda7023640d0c30a5be17eccccd0.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "130972",
+      "reviewer_name": "Chez",
+      "reviewer_location": "VIC - 3152",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-02-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently had the pleasure of working with the installer, and I couldn’t be more impressed with the entire experience. From start to finish, the installer was incredibly patient and took the time to thoroughly explain every step of the solar installation process. As someone new to solar energy, I had a lot of questions, and they answered each one with knowledge and expertise, ensuring I felt confident in my decision.Not only is the installer extremely knowledgeable, but they also provided a fair and competitive price for the system. It was clear that they prioritised offering the best value rather than trying to upsell unnecessary products. The installation itself went smoothly, and they made sure everything was up and running efficiently.I recommend Inspire Solar to anyone looking for a trustworthy, professional, and patient solar installer who truly cares about delivering great results at a reasonable price.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "126674",
+      "reviewer_name": "Gregory",
+      "reviewer_location": "VIC - 3131",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3131",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Trying to compare different services with lots of helpful providers was quite difficult.  Zohair stood out because although his quote was among the lowest, his service was local, patient and well-organised.  He was able to talk me through all aspects of the install, change system details multiple times, and give very good followup service as well. His installers were top level and he sells all the solid-quality brands.   When the install happens it is very quick, so it is good to have the plan well thought through before-hand, e.g. positioning of inverter and the like.  There may not be time to make changes on the day.  Our install is producing very nicely now, even on cloudy days.  We next hope to ask Inspire for additional panels on our deck roof, and also a battery.  (We have 25 Jinko panels for 11kW with a 15kW Sungrow 3 phase inverter, slightly over-sized to allow for future panels.)",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/49cf0eda7023640d0c30a5be17eccccd0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/49cf0eda7023640d0c30a5be17eccccd0.jpeg"
+      ]
+    },
+    {
+      "review_id": "125713",
+      "reviewer_name": "Craig",
+      "reviewer_location": "VIC - 3199",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3199",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-09-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very happy with the system installed by Inspire. Zohair was very helpful in designing the best system for our house. Quality system at a very good price. Zohair was also very helpful with an issue caused by recent storms and high winds (caused by a power outage to 1 phase in our 3 phase suppy). Thanks very much.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "122290",
+      "reviewer_name": "Rhys",
+      "reviewer_location": "VIC - 3024",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3024",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales person was very helpful.Answered all my question and gave some great expert advice.Was very easy to work with my wants and needs for my system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

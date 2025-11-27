@@ -1,0 +1,76 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/liv-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T15:08:42.470823",
+  "company_info": {
+    "company_name": "LIV Energy Pty Ltd",
+    "contact_phone": "0467 340 678",
+    "website_url": "http://www.livenergy.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_48c2f5585f96aff317fa3118d47d7270.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_1704ed662b7909225c478991c75608ac.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_29df4ae93a4cb1bcb15d9f35e12781d8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_41f4bf3811d93bc5ce0403a90376eb00.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_8647d600cb51ba7f55e022dc3c430645.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_315e915b7677b19ea514882ab57f36a3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_c0b204e4b5b78e5c1c746c9e1f70aefa.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_2c6815f50ef3b3e1e097ebc8824c135a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_41582a39cb00ce21893fcf481c5d31f9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_04f1683fd79376b03f127a1c91795d92.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_a2dd066f71c4c710926dab611d594b9b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_13733fcf17d7dbe3dc0579d5bf436c23.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13976_49b9cb83a8472d91e3e461e6d5b22490.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "122540",
+      "reviewer_name": "Hayley",
+      "reviewer_location": "NSW - 2567",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2567",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was easy. I took the advice of the installer who reviewed my electricity bill and provided me with 3 options. He was friendly, good price quick to install. Very happy with my purchase.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

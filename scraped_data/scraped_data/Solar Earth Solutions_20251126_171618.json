@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-earth-solutions/",
+  "scraped_at": "2025-11-26T17:16:18.416314",
+  "company_info": {
+    "company_name": "Solar Earth Solutions",
+    "contact_address": "Mindarie, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "128525",
+      "reviewer_name": "Aldo",
+      "reviewer_location": "WA - 6018",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6018",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar Earth Solutions were amazing from the start. I contacted them and they were not pushy at any time as was the case with many others. SES offered good advice and listened to what I wanted. They offered a system that fell within the parameters I wanted and for a very reasonable price. They were not the cheapest but the system I ended up with was high end products, which is what I wanted. The installers arrived on time on the day, they were polite and explained what they were going to do and how they would do it, and were finished at the time they estimated. They cleaned up after themselves. I could not be more pleased with the outcome. I highly recommend Solar Earth Solutions.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

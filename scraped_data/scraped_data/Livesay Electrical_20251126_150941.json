@@ -1,0 +1,81 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/livesay-electrical/",
+  "scraped_at": "2025-11-26T15:09:41.860020",
+  "company_info": {
+    "company_name": "Livesay Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_328236407c285ea1bc8346ad80b786df.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_54b65b28ba3ae47d56cb74c6e210bd5e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_64022cc0f85c81a354ce299aeb024ffc.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_1d455f15c4aa109b7d481aaa111b4753.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_db16d9054f61a2da6e4c0e3f6a812dcc.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_33be038aa95522334edf3bab559098d7.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_a0290205546756df985353ae45625203.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_fa06ac5f2328dc9af84402a80b918d5a.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_25cda2ef44c74d821fb8724e89231d6a.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_a5469804012706684ba40a8637156854.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_679ce8c8b061d191e740a7984a48d47a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_5e83da6bcfb6da3d3834834ff09254a0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14056_919fcf31cce552322851ca51e59737ec.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "128293",
+      "reviewer_name": "Cameron",
+      "reviewer_location": "VIC - 3805",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The team at Livesay were great to deal with and the installation was well done.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

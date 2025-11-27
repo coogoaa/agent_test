@@ -1,0 +1,131 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/transformed-energy-solutions/",
+  "scraped_at": "2025-11-26T18:04:11.611322",
+  "company_info": {
+    "company_name": "Transformed Energy Solutions",
+    "contact_address": "Marion, SA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/61492861d609c7d789ea701e33b06b680.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/61492861d609c7d789ea701e33b06b680.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "97051",
+      "reviewer_name": "Ron",
+      "reviewer_location": "SA - 5073",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5073",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-01-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The guys came for an on-site inspections straight away whereas all others we contacted were reluctant to do that. They listened to what it was that I wanted rather than them telling me what I needed and they arranged everything as quickly as possible under the current situation with covid. They kept me up to date with progress and because they arranged everything, it was a painless process for us. When they came to do the installation, they were punctual, very polite and did the job with no fuss to us. They cleaned up after the installation and the system was working straight away with no hassles at all.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "RedEarth",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_redearth.png"
+      ]
+    },
+    {
+      "review_id": "87202",
+      "reviewer_name": "Saphia",
+      "reviewer_location": "SA - 5038",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5038",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Transformed Energy Solutions installed our solar system and were absolutely fantastic! The team was responsive from the first day I contacted them, I felt very informed on our options and selected an option that was high quality and affordable. I particularly liked the roof design layout they sent before installation. The crew was very efficient and friendly. I did a lot of shopping around before selecting these guys and I’m glad I did because they did such a great job. I just got my first bill since solar and it’s made a big difference.I now use them for all our electrical work around the house. I highly recommend them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/61492861d609c7d789ea701e33b06b680.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/61492861d609c7d789ea701e33b06b680.jpg"
+      ]
+    },
+    {
+      "review_id": "62591",
+      "reviewer_name": "Tim",
+      "reviewer_location": "SA - 5034",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5034",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "One of your 3 quoters didn't contact me. The other two were fine.I happened upon the guys at Transformed Energy Solutions and was very happy with the quoted system price point and eagerness to install ASAP which was important to me. The install looks to be immaculate.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/b391d31c96ac6d5ad06a658002618ca2.jpeg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/b391d31c96ac6d5ad06a658002618ca2.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "RedEarth logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_redearth.png"
+    }
+  ]
+}

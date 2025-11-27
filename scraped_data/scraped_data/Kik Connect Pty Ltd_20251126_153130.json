@@ -1,0 +1,116 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/kik-connect-pty-ltd/",
+  "scraped_at": "2025-11-26T15:31:30.533829",
+  "company_info": {
+    "company_name": "Kik Connect Pty Ltd",
+    "contact_phone": "0430 648 283",
+    "website_url": "https://kikconnect.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_d87d0e2068a4188485ce2efcb41d7280.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_d7f6d24e6b5d96ddd7d65346bf6b8998.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_1a8fdf22b05c3f3c63b5fe12199e3844.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_45e8f2be6f63a359a91ec3aacea0cc45.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_3542ea862a9b46fd27d8074beb892867.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_ea0dd2294216c05218cf2dce53823c3d.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_2fda6a664cdc06c346b6ceaaeb272982.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_20466f4dce91ef7b2fbe41cca38b4ec3.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_f774bc3f9efe90166ca3a04842a2d64e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_ab2f1e5c6ccb5347b548fad2e0702857.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_53c8263741731eaae4e74105a6d6822a.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_2c1f6f66b9a9af55475e31247580b1e2.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_4117fe090231b809f3165c7ad4515051.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_119db29dceb740e6b5c4fec5c2e48248.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_650b3ce3fef2bd48a55103a8f41cca10.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_6ff8c50e6521a7db7824c075f64d00fc.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_dde52da5beea1229ab3da15561e747d3.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_7a2dcb22f05dbd93339a5fa03f5d90eb.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13330_212becdff807971cb4c6bd8a672d5e24.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "92435",
+      "reviewer_name": "Mitchell",
+      "reviewer_location": "NSW - 2573",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2573",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Ben from KiK connect was exactly what you want from a tradesman, from quote to installation and after hand over he was informative and detailed with explaining the system and our requirements. he showed up ontime and gave comprehensive quote that at no point felt like a sales pitch.He takes pride in his work and it shows in the details of the quote and how he tackles each job on its own requirements.for the installation he took it upon himself to take a harder approach to achieve a better end result, this kind of workmanship is hard to come by.His team are just as professional and respectful onsite. they ensured all rubbish was removed and areas left clean and safe at the end of the day.Ben also ensured he updated me at the start/end of each day keeping me well informed of progress.I am normally not one to leave reviews but this company is well deserving.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "92098",
+      "reviewer_name": "Stan",
+      "reviewer_location": "NSW - 2578",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2578",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kik Connect appears to be a high quality business focused on quality and high standards in all aspects of Design, Procurement, Installation, Testing and Commissioning of Solar Systems.Ben and his crew completed a residential SPV system in late April 2021. The installation and customer service were excellent in every respect.The \"Value for Money\" and \"Quality of the System\" criteria can only be judged after a period of use; at lease one year.My recommendations:(i) Avoid the \"special offers\" from the multitude of low quality operators in the industry, especially those who use sports personalities to promote their businesses. e.g. Sunboost. Quality businesses do not need or gimmick marketing.(ii) Become reasonably educated in the main aspects of any solar system. Fin Peacock at Solar Quotes is one of the best sources or unbiased information.(iii) Ask questions off all potential providers. Low quality operators generally do not respond to questions. Once they fail or resist answering clear and reasonable questions, drop them immediately.(iv) Enjoy the experience. Solar is the way to go.Stan.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hyundai Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

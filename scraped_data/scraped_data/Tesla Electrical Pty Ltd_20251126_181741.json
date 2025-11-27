@@ -1,0 +1,38 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tesla-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T18:17:41.150502",
+  "company_info": {
+    "company_name": "Tesla Electrical Pty Ltd",
+    "contact_phone": "0438 112 286",
+    "website_url": "https://www.teslaelectrician.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_1326e190e3873a022ceb5429abdc5950.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_21a5316ceb025dfac27fc3ebcffe6934.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_c95d853e0d4dac55fa67d2faa67cd898.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_16ed581551be4de302cbefaed6015daf.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_0c015a8da38006d62ca13c34b9c6a5bf.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_30c9ec15286a28235a5fdcb12c7ebf1d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_933ce7b517faf61b40717cf0903c33b8.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_cfa430f6f39cbcf1f1f95cbdfddc5b36.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_0074b6dd2b85bc5bc645d66edda68468.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_9dae873037beb8ef5adad1068def06c2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_407c09fe31e5d63c0b8b9abf201a071e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_e8e66d921314e7411a4e0d0556de767f.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11046_7d7f47d82aa49ca7b1f37111ed83744f.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

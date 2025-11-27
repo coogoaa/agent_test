@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-service-centre/",
+  "scraped_at": "2025-11-26T17:21:18.878633",
+  "company_info": {
+    "company_name": "Solar Service Centre",
+    "contact_address": "Morpeth, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "61235",
+      "reviewer_name": "Cary",
+      "reviewer_location": "NSW - 2283",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2283",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-03-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "As a smaller business the Owner was the installer and was approachable and knowledgeable. The most important differentiation was that he actually spoke about shading (from the trees behind us, that the other companies didn't even want to talk about) and look to install Optimizers.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

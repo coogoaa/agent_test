@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/young-electrics-and-renewables/",
+  "scraped_at": "2025-11-26T19:04:32.014086",
+  "company_info": {
+    "company_name": "Young Electrics and Renewables",
+    "contact_phone": "0425 857 286",
+    "website_url": "https://www.youngelectrics.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "73536",
+      "reviewer_name": "Dimitrios",
+      "reviewer_location": "VIC - 3266",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3266",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Was looking for a local installer, rather than a mainstream one and found them on facebook. Someone who would not sub contract the work out, but would install himself.John didn't try to upsell, answered all my questions, was very easy to talk to , and not pushy, like some other companies i had dealt with. This was what convinced me to pick them.John and his team were punctual, friendly and very neat and tidy. I really cant fault them at all. The process and customer service right through to installation was excellent.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "HT-SAAE (Other)",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/c5be9328d52cb1b030890db9dfb81ba8.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/c5be9328d52cb1b030890db9dfb81ba8.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

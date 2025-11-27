@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/steel-city-solar-and-electrical/",
+  "scraped_at": "2025-11-26T18:25:08.582571",
+  "company_info": {
+    "company_name": "Steel City Solar and Electrical",
+    "contact_phone": "0432 555 042",
+    "website_url": "https://www.steelcitysolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14488_943359f44dc87f6a1679c987280e8dc7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14488_b5e7d988cfdb78bc3be1a9c221a8f744.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14488_7a56a3dd23cee77684a91e83e49f1bbb.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14488_8c3fa8196ef3e2c81e88d4c24d6b7c06.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

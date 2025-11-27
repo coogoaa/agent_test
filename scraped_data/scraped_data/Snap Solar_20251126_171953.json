@@ -1,0 +1,179 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/snap-solar/",
+  "scraped_at": "2025-11-26T17:19:53.706712",
+  "company_info": {
+    "company_name": "Snap Solar",
+    "abn_number": "87626515786",
+    "acn_number": "626515786",
+    "contact_phone": "1300 628 097",
+    "website_url": "https://www.snapsolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13758_3306e711e2358e37a25ea4937961b617.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13758_2c5a61ab2a6a97085951999616b340f6.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13758_33d403be0dbcdf98c97ab681bc8df58d.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13758_ab77a090eba176dcb98b53b2db34ae4e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13758_bb8d20e9a5d9e1bccd449c259e568710.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13758_9e5417dea65c78a4a8d6a8e21a5efdfb.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13758_6fe469018150054e16e6ca1454b79709.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13758_3f621a46305cb64ffc459c907a1aac50.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "31 May 2018Wyer Group Pty Ltd",
+      "abn_company_name": "Wyer Group Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "31 May 2018Wyer Group Pty Ltd",
+      "acn_company_name": "Wyer Group Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.25,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "140337",
+      "reviewer_name": "David",
+      "reviewer_location": "QLD - 4740",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4740",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Most knowledgeable about the product",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Tesla battery (Other)",
+      "battery_brand": "Tesla Powerwall 3",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "132755",
+      "reviewer_name": "Michael",
+      "reviewer_location": "QLD - 4740",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4740",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Process was smoothInstalled while I was away workingGrid connection still has not been approved by Ergon but organised for me.Instructions were sent by e-mail as I was not home.Company had to return to fix a few things off another day.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "131230",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "QLD - 4753",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4753",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process was easy and professionalInstallation was quality & professionalCustomer service was great no issues, Snap organised everything and delivered the training for the App to monitor the charger.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "122491",
+      "reviewer_name": "Casey",
+      "reviewer_location": "QLD - 4740",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4740",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales and quoting process was simple and where I could I compared apples with apples.The installation was great with speedy setting up and connection to the grid all in the same day.Customer service was good, with any questions I had answered and the App works great.Very happy with the solar I chose.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 3 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ballarat-solar-and-electrical/",
+  "scraped_at": "2025-11-26T12:29:30.922053",
+  "company_info": {
+    "company_name": "Ballarat Solar and Electrical",
+    "contact_address": "Ballarat, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.4,
+    "system_quality_rating": 4.6,
+    "installation_rating": 4.8,
+    "customer_service_rating": 4.6,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "137386",
+      "reviewer_name": "Roger",
+      "reviewer_location": "VIC - 3350",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3350",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Matt from Ballarat Solar was prompt in his quote, easy to talk to and very knowledgeable. Service was great in the installers were fast and cleaned up.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "87138",
+      "reviewer_name": "Rose",
+      "reviewer_location": "VIC - 3356",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3356",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I  got a prompt response to my quote request and the chap came the next day to talk to us.Rain delayed the work but only for one day. Very prompt and polite workers who kept us informed of what  was happening.Customer service was friendly, not pushy at all.Because of Covid lockdown the inspection was held up a couple of days, but it is all working extremely well now and I am  so happy that we will be saving on our electrcity bills.I used to do my main usage at night for off peak rates. It seems strange to change to daylight hours but I am certain I will get used to it.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "82876",
+      "reviewer_name": "Owen",
+      "reviewer_location": "VIC - 3340",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3340",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-10-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "They installed a solar system for me (LG solar panels, ABB inverter). They responded quickly with a detailed quote which was very reasonably priced, and the office and tradesman were all helpful and polite. I liked that they didn't try to up-sell me to a bigger system than I thought I needed like most other places I contacted. The install is very neat and they put the inverter in my garage (unlike the place that installed my dad's system). It's been a few months now and I'm getting good solar output and am very happy with it overall. Would recommend them to anyone",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    },
+    {
+      "review_id": "74084",
+      "reviewer_name": "John",
+      "reviewer_location": "VIC - 3355",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3355",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Overall the service was OK.  The installation was much slower and delayed tan I thought but that is mainly due to the min-bending government paperwork",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "cannot remember (Other)",
+      "inverter_brand": "Fronius",
+      "battery_brand": "no battery (Other)",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "72676",
+      "reviewer_name": "Des",
+      "reviewer_location": "VIC - 3465",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3465",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

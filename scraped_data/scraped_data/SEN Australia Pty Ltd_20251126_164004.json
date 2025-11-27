@@ -1,0 +1,202 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sen-australia-pty-ltd/",
+  "scraped_at": "2025-11-26T16:40:03.932032",
+  "company_info": {
+    "company_name": "SEN Australia Pty Ltd",
+    "abn_number": "32639236552",
+    "acn_number": "639236552",
+    "contact_phone": "0431 715 492",
+    "website_url": "https://senaustralia.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13752_3546a3ef4e16c3bb44ff97212a608c67.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13752_8f02bd717b00ebbad0cf593f174215e1.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13752_76506fc9d6b6d6af5dca8ff46c87f600.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13752_7ae829848b40b0950569a615da801eef.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13752_feee3a7ca0c60673ae0cc7ae0ad73123.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13752_550828e1425bd1f3e12234238243bcbe.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cf8b77557d1049a1a2d717a0bae903680.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/138052dfd11acfdc22687784349bfb681.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/943ac0d380b6af528cdd17358df1ae3a0.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "19 Feb 2020Sen Australia Pty Ltd",
+      "abn_company_name": "Sen Australia Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "19 Feb 2020Sen Australia Pty Ltd",
+      "acn_company_name": "Sen Australia Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "137631",
+      "reviewer_name": "Simon",
+      "reviewer_location": "VIC - 3040",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3040",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "AK and his guys (big shout out to Kayden) were great from the get-go. Very transparent with their offerings and AK was happy to listen to my dumb questions and provide alternate solutions if necessary. When it came to the install I'm very happy, everything is really neat and professionally done. Even the inspector commented on it when he came over to approve everything and asked who'd installed it.Very happy overall and if I need any electrical work done in the future I'll definitely be giving them a call.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "DAS Solar (Other)",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Goodwe",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_goodwe-battery.png"
+      ]
+    },
+    {
+      "review_id": "127748",
+      "reviewer_name": "Michael",
+      "reviewer_location": "VIC - 3030",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great overall experience dealing with AK from SEN Australia to have a 5.28kW, 12-panel Solar system installed at my Melbourne home. The price for my system was also very reasonable - $4,800 in total, including replacement of my ageing switchboard.The entire process - from his visit to my house, to receiving the initial quote - right through to the installation has been straightforward and I've been kept well-informed at every step along the way.The installation itself was handled professionally and occurred on time as scheduled, by an experienced team who directly work for him. SEN Australia is currently organising my system to be connected to the grid (installation was done just 4 days ago) and I have every confidence in their processes and outstanding customer service to date!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cf8b77557d1049a1a2d717a0bae903680.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/138052dfd11acfdc22687784349bfb681.jpg"
+      ]
+    },
+    {
+      "review_id": "134020",
+      "reviewer_name": "Laurent",
+      "reviewer_location": "VIC - 3193",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3193",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Responsive, smooth process, took care of everything and went above and beyond.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    },
+    {
+      "review_id": "99937",
+      "reviewer_name": "Luke",
+      "reviewer_location": "VIC - 3046",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3046",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-03-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Cold called this local company due to dissatisfaction with other quotes received - too many companies are price focused, not quality focused. Spent an hour on the phone with AK from SEN Australia before I even committed to anything - he walked me through all the options and provided well justified recommendations to make sure I was properly informed. I can tell that he is genuinely passionate about solar, and top-tier installations.Answered any and all of my curly questions leading up to the install, including going above and beyond to source some less common monitoring gear.Install was completed within a month of first contact, to an amazing standard. He even deliberately works with a strict inspector to ensure that his work is up to scratch and done properly.If you're located in northern Melbourne and are after a local who really knows his stuff and isn't just in it for a quick buck, AK from SEN Australia is your guy.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/943ac0d380b6af528cdd17358df1ae3a0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/943ac0d380b6af528cdd17358df1ae3a0.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/22256b038df1d814cdda78458426e1f3.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/22256b038df1d814cdda78458426e1f3.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/959413128b0aa949a8786ce2c15a5580.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/959413128b0aa949a8786ce2c15a5580.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/79f0ac506195e46ec6011f079d2b332e.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/79f0ac506195e46ec6011f079d2b332e.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/a93868f683b14568dad9a4fcb9bd5dc2.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/a93868f683b14568dad9a4fcb9bd5dc2.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_goodwe-battery.png"
+    }
+  ]
+}

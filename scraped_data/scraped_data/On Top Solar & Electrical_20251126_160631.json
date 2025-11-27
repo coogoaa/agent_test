@@ -1,0 +1,118 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/on-top-solar--electrical/",
+  "scraped_at": "2025-11-26T16:06:31.555283",
+  "company_info": {
+    "company_name": "On Top Solar & Electrical",
+    "contact_address": "Dora Creek, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "112135",
+      "reviewer_name": "Luke",
+      "reviewer_location": "QLD - 4815",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4815",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-07-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "AE Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_ae-solar.png"
+      ]
+    },
+    {
+      "review_id": "82938",
+      "reviewer_name": "Ivan",
+      "reviewer_location": "NSW - 2265",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2265",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-10-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting was great, they came out and physically measured on the roof how many panels can fit and gave me a few options and pricing on various sized systems.The installation team were punctual and hard working and didn't leave any rubbish.Customer service was excellent. Came back to install the wifi module and set it up on our mobile phone and to the server.Everything was done with no fuss and even set up with my electricity provider to reprogram the smart meter.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "30kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    },
+    {
+      "review_id": "69075",
+      "reviewer_name": "Barbara",
+      "reviewer_location": "NSW - 2265",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2265",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-10-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installation went really well. Itâ€™s the energy provider that has been the problem. Red energy told me I had to revert to time of use metering. There was no choice. Iâ€™ve switched to origin. Much better deal.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim (Other)",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "AE Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_ae-solar.png"
+    }
+  ]
+}

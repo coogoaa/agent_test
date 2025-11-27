@@ -1,0 +1,71 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rjp-electrical-and-solar/",
+  "scraped_at": "2025-11-26T16:00:12.458852",
+  "company_info": {
+    "company_name": "RJP Electrical and Solar",
+    "contact_phone": "0409 952 547",
+    "website_url": "https://www.rjpelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12654_97e664c7d07c28b1becd54cbedb651ad.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12654_ba067beb0708c85c68c0b4c50f2669c7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12654_0f8de2ed0f889132d0e2decf3c3c8572.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12654_ed7b44450f23fdb7d09e176a6cfd276f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12654_a22e00f8b5a2f01f065080bf5877395c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12654_6c79adba7daadc29664ceb6b71dc112d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12654_052913e220051a5413320adefa30c675.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "128280",
+      "reviewer_name": "Matt",
+      "reviewer_location": "VIC - 3953",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3953",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I'm in Leongatha and had these guys from Phillip island install my solar, the panels looks really good, everything works really well and there has been no troubles at any point in the process. Would recommend them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/infinity-energy-solutions/",
+  "scraped_at": "2025-11-26T14:16:58.553298",
+  "company_info": {
+    "company_name": "Infinity Energy Solutions",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "135122",
+      "reviewer_name": "Ian",
+      "reviewer_location": "NSW - 2526",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2526",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After getting several quotes for a home solar system, Infinity Energy Solutions stood out immediately — and for all the right reasons. They were the only company that physically got up on my roof to properly measure the available space and assess the best system for where it would be installed. Every other company relied solely on aerial photos and satellite imagery, which just doesn’t compare to someone actually inspecting the roof in person. That attention to detail gave me confidence that I was dealing with a team that genuinely cared about doing the job right.Sales and Quoting Process:The quoting experience was excellent from start to finish. No question was ever too difficult, even after I sent through dozens of emails. Every response was professional, thorough, and helpful. They took the time to explain every option clearly and tailored their recommendations to suit my needs, rather than pushing a cookie-cutter solution.Installation:Installation hasn't taken place yet, but Infinity Energy Solutions has already gone above and beyond by agreeing to a flexible two-stage install. This allows me time to complete roof restoration work first — their willingness to work around my timeline has been fantastic.Customer Service:Customer service so far has been outstanding. They’ve made it clear they’ll assist at every stage of the process, from grid connection to helping me understand how to get the most out of the system (including using the charger). They’ve even committed to following up a few months after installation to ensure everything is running efficiently — something that really sets them apart.So far, I couldn’t be happier with my experience, and I’m genuinely looking forward to the final result. If you want a solar provider that takes the time to do things right and puts customer care front and centre, I highly recommend Infinity Energy Solutions.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "REA Power Fusion 2 (Other)",
+      "inverter_brand": "Enphase",
+      "battery_brand": "REA Powerbank (Other)",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    }
+  ]
+}

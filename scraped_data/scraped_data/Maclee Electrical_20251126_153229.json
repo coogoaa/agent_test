@@ -1,0 +1,90 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/maclee-electrical/",
+  "scraped_at": "2025-11-26T15:32:29.924331",
+  "company_info": {
+    "company_name": "Maclee Electrical",
+    "contact_address": "Warana, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.1,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 3.5,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "82031",
+      "reviewer_name": "Brendan",
+      "reviewer_location": "QLD - 4650",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4650",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Lg pannles and a sungrow inverter. Happy with the panels very unhappy with Sungrows inverter all I've had is consistent problems with it .",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 2.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "79855",
+      "reviewer_name": "Robert",
+      "reviewer_location": "QLD - 4551",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4551",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-07-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After lots of quotes with multiple companies, they were the most helpful and took the time to come measure the roof straight away. They didnâ€™t push any particular product or system type. They listened and we came up with the solution most tailored to my needs. They were competitive on price and did a great job of the install.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

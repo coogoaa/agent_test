@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/decarby-solar/",
+  "scraped_at": "2025-11-26T13:34:10.324966",
+  "company_info": {
+    "company_name": "Decarby Solar",
+    "contact_phone": "02 5115 1110",
+    "website_url": "https://www.decarbysolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14492_37693cfc748049e45d87b8c7d8b9aacd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14492_cf583a318d0ee8e008f33c56ed260536.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14492_c4ca4238a0b923820dcc509a6f75849b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14492_6105457ed49616b54ad9dda7fb3c5bd6.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

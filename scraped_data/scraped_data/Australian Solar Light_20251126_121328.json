@@ -1,0 +1,119 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/australian-solar-light/",
+  "scraped_at": "2025-11-26T12:13:28.620778",
+  "company_info": {
+    "company_name": "Australian Solar Light",
+    "contact_address": "Campbellfield, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.0,
+    "value_for_money_rating": 2.33,
+    "system_quality_rating": 2.33,
+    "installation_rating": 2.0,
+    "customer_service_rating": 1.33,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "97060",
+      "reviewer_name": "Erik",
+      "reviewer_location": "VIC - 3139",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3139",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-01-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Avoid at all cost. Take your money and run. No after sales support at ALL. The inverter has NEVER been connected to our phones, iPhones etc as we do not have the password etc to set up. Was told they would set up inverter but when we went to see them they had packed up and FLED. Stay well away from this company.",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "SolarWatt",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "panel_rating": 1.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solarwatt.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "56738",
+      "reviewer_name": "Amarjit",
+      "reviewer_location": "VIC - 3148",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3148",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-12-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My calls were only answered once and after knowing my complaints they stopped answering my calls. Bad after sales service.",
+      "value_for_money_rating": 2.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.0,
+      "quality_of_system_rating": 2.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "32080",
+      "reviewer_name": "Daniel",
+      "reviewer_location": "VIC - 3350",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3350",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-10-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "While there customer service was reasonable & they offered a decent price, the company that they had do the installation did a terrible job requiring ESV & CEC investigations, including water leaking into the isolators meaning I had to have the system turned off until it was fixed, plus multiple other efficiency & aesthetic issues that are still yet to be fully resolved after ~ 4 months. It was also installed without any warranty paperwork for the Trina panels, & the inverter was meant to be installed with WiFi but came with a difficult to understand digital display instead. Emails & phone calls requesting the paperwork & WiFi are yet to be responded to after 4 weeks. I would not recommend them.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 2.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarWatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solarwatt.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

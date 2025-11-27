@@ -1,0 +1,41 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-fraser-coast/",
+  "scraped_at": "2025-11-26T17:34:55.456737",
+  "company_info": {
+    "company_name": "Solahart Fraser Coast",
+    "abn_number": "34676281986",
+    "acn_number": "676281986",
+    "electrical_contractor_license": "QLD: 92647, QLD: QBCC 15458431",
+    "contact_phone": "07 4124 2522",
+    "website_url": "https://www.solahartherveybay.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14293_0fb4488f03b847325ef27313c617a029.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14293_344bd54399ff28fd80048824ddc7a480.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14293_db53f6112895eb7ad564f8119533c1c5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14293_027ebac43cd045652dfd4e860698b23c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14293_a01c97d899cfbc478569c3645d38cd3f.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "03 Apr 2024Smr Partners Pty Ltd",
+      "abn_company_name": "Smr Partners Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "03 Apr 2024Smr Partners Pty Ltd",
+      "acn_company_name": "Smr Partners Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,109 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/amg-electrical-solutions/",
+  "scraped_at": "2025-11-26T12:10:49.372048",
+  "company_info": {
+    "company_name": "AMG Electrical Solutions",
+    "contact_phone": "07 4179 0104",
+    "website_url": "https://amgelectricalsolutions.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_8dc5204f73a6c1619c096cafbbfed177.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_911af7aa209e00b49f3d6fd2afa92564.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_80a6386f81d05fd47bf01b135c9d981d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_5993f21e5cf1581c724d56839b8cdf1d.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_ff5a66887c75a0ba4ffbd6e7b4747586.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_273f69180a9e7d9099402b6782284b91.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_1ace5f1a1aa8dc8015fb6376c030709a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_015656901653d568ae335f61e382e392.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_d3a2959f366e6f82e999f7067fa32dad.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_df2917707a77bfb3b735c34687b49eda.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_4af52202f77beb11ba59ce2056aa7878.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_4af52202f77beb11ba59ce2056aa7878.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13254_3586a7d2846e370097386ca31335b2ef.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "91214",
+      "reviewer_name": "Glen",
+      "reviewer_location": "QLD - 4615",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4615",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Tom and his team were on time , got the solar installed quickly and efficiently. They showed how to connect to iSolarCloud so I can monitor the system from the app. A hassle free experience, I would not hesitate in recommending AMG Electrical",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "87892",
+      "reviewer_name": "Bill",
+      "reviewer_location": "QLD - 4314",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4314",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Our Club had an Exorbitant Quarterly Electricity bill and Mitch and his team installed a 10kw Grid System and a 13kw Off Grid System using the latest technology that has reduced our Electricity bill drasticly with extra allowance to add aditional batteries in the future. We highly recommend AMG Electrical Solution for  any type of Solar Installations.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

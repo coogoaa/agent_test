@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/premium-electrical-hunter-valley/",
+  "scraped_at": "2025-11-26T16:30:07.558091",
+  "company_info": {
+    "company_name": "Premium Electrical Hunter Valley",
+    "abn_number": "46663426444",
+    "acn_number": "663426444",
+    "contact_phone": "0457 843 917",
+    "website_url": "https://www.premiumelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14430_3afb3474ec152a96a46ca9b17d322dd7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14430_2926d393a5309fdba821fbb016e956ce.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14430_136626f22ee5ab8e9590000e1923372e.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14430_114749540f231cdded0f25ab280350a0.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "27 Oct 2022Premium Electrical",
+      "abn_company_name": "Premium Electrical & Appliances Pty Limited"
+    },
+    "acn_details": {
+      "acn_active_since": "27 Oct 2022Premium Electrical",
+      "acn_company_name": "Premium Electrical & Appliances Pty Limited"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

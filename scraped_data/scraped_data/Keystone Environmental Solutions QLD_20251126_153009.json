@@ -1,0 +1,66 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/keystone-environmental-solutions-qld/",
+  "scraped_at": "2025-11-26T15:30:09.057989",
+  "company_info": {
+    "company_name": "Keystone Environmental Solutions QLD",
+    "contact_address": "Brisbane, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "104757",
+      "reviewer_name": "Penny",
+      "reviewer_location": "QLD - 4562",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4562",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-10-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The business's that came through solar quotes all turned up & were all super knowledgeable (as they should be). All had a different piece of info that I didn't know about. The business I ended up going through went that extra step & sent out their sparky who was the only person that asked to see my electricity bill to see what my usage was & confirmed the set I'm getting will be more than enough. This was great piece of mind when he went through all the calculations with me.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Redearth BlackMax (Other)",
+      "battery_brand": "RedEarth",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_redearth.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "RedEarth logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_redearth.png"
+    }
+  ]
+}

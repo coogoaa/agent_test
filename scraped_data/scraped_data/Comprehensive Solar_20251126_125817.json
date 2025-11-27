@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/comprehensive-solar/",
+  "scraped_at": "2025-11-26T12:58:17.781795",
+  "company_info": {
+    "company_name": "Comprehensive Solar",
+    "contact_address": "Dungog, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.7,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "36501",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2420",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2420",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-07-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Waiting for installation. Inverter on order and supplier  behind  due to wet weather. Small local company with a lot of experience in rural installations and  dealing with Essential Energy.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 3.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

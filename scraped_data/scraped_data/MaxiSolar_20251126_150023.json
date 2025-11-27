@@ -1,0 +1,152 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/maxisolar/",
+  "scraped_at": "2025-11-26T15:00:23.765434",
+  "company_info": {
+    "company_name": "MaxiSolar",
+    "contact_address": "Forest Glen, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 3.75,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.5,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "106915",
+      "reviewer_name": "Lyn",
+      "reviewer_location": "WA - 6280",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6280",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "MaxisolarLocal business ownerExcellent customer serviceInstallation quick efficient and work site left clean.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "87287",
+      "reviewer_name": "Tracy",
+      "reviewer_location": "WA - 6014",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6014",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "MAXSOLAR was recommended to us by friends who have taken the solar plunge.  We were not disappointed.  In a sea of dodgy so called \"professional installers\" and salesmen, Matthew (owner & installer) was in another league altogether.Matthew was efficient, professional, easy to get along with, didn’t take shortcuts, excelled at problem solving and didn't stock any rubbish products.We are delighted with our solar installation (Seraphim panels, Fronius inverter, Fronius smart meter) all efficiently put into place on our two storey house at a fair price.  MAXSOLAR website www.maxsolar.com.au  will provide more information.   Highly recommended.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "11836",
+      "reviewer_name": "Lesley",
+      "reviewer_location": "QLD - 4570",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4570",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Unable to comment on system really as have had no results yet.  Currently waiting the 30 days that energex get to update my meters.  Nothing but rain and cloud since the system installed.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "I don't know and can't find any paperwork relating to the panels (Other)",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "panel_rating": 3.0,
+      "inverter_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "22754",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2406",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2406",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    }
+  ]
+}

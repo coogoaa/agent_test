@@ -1,0 +1,123 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/andreazza-electrical/",
+  "scraped_at": "2025-11-26T12:15:39.353203",
+  "company_info": {
+    "company_name": "Andreazza Electrical",
+    "contact_address": "Griffith, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "105096",
+      "reviewer_name": "Simon",
+      "reviewer_location": "NSW - 2680",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2680",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-11-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Obtained 6 quotes, 3 local, 1 supplier and 2 national providers settled with Andreazza as a local business, with a track record and local backup.Quotes were easy, got an excellent deal on some older stick being cleared putt that allowed top quality equipment on a mid/low range budget.Site meeting was easy, with panel layouts being discussed with me, and my preferred option being selected.On install day the crew arrived, they were efficient, polite and left the premises clean, no problems at all, Dylan returned a few days later to connect the fronius smart meter, where he ran us through the app.Once the provider switched the meter over everything is working as expected.Couldn’t be happier with the installer.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "92669",
+      "reviewer_name": "Vicki",
+      "reviewer_location": "NSW - 2680",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2680",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process was very simple. The supplier made it all very easy and organized everything.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "57402",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2705",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2705",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-12-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.33,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sun-brilliance/",
+  "scraped_at": "2025-11-26T18:34:56.663239",
+  "company_info": {
+    "company_name": "Sun Brilliance",
+    "contact_address": "Parramatta, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "9584",
+      "reviewer_name": "Lyn",
+      "reviewer_location": "NSW - 2194",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2194",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Although our original enquiry and agreement was on 29/3/11, panels were not put on roof until 17/6/11.  Then there was holdup supplying meter, which occurred yesterday (28/7/11).  They warned us we might have to pay another fee to the electrician for a circuitbreaker, which seems to be missing on the original meter.  All the workmen were very friendly and efficient, so we're hoping the sun will do its bit from now on.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "Solar Photovoltaic System or Solar PV System (Other)",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mk-solar/",
+  "scraped_at": "2025-11-26T15:24:26.152039",
+  "company_info": {
+    "company_name": "MK Solar",
+    "contact_address": "Gordon, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.8,
+    "value_for_money_rating": 2.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 1.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "96613",
+      "reviewer_name": "Louis",
+      "reviewer_location": "NSW - 2076",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2076",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I got three quotes with the main technical issue being significant shade that was only picked up by much more extensive satellite images from a 4th company (not recommended by solar quotes). Also, warranty was not a significant consideration for me, as its likely that i'll try to upgrade my panels in 5 years.If the three solar quotes companies :-sungen acknowledged the shade issues the best but the overly aggressive salesman left me unable to trust their quote. I lack technical expertise but when a salesman is so anxious for me not to consult with competitors, I become suspicious.One thing that I did learn was that a larger system was not ideal for my setup, and I opted instead for a smaller system that avoided the worst of the shade, with a plan to potentially upgrade in 5 years as panel tech improved. I ended up going with an external company, MK solar. They were much more detailed in their quote and, although they set up a lower capacity system than quoted by the mk solar companies I was more confident of what returns to expect.I found the online articles from solar quotes good for gaining a consumer level knowledge of what a solar system was. However I did not find the question lists as useful for separating competing quotes. They all had adequate answers to the questions in the list (as did the external company I eventually went with) but when it came to actual quotes I was very dependent on what they chose to tell me, or not tell me. As a result I judged it partly based on the impression I had of the salesman I was talking to that included levels of honesty, respectful behaviour and ability to respond reasonably to new information/questions/shade issues. Actually I've had to take this approach when dealing with competing quotes for other aspects of home renovations in the last year; I've been told massive furphies by companies telling me I need stuff that I didn't need at thrice the actual cost of what I should expect.It was an informative experience, and I'm grateful that solar quotes has lots of material to learn about solar. But ultimately I didn't find any of the solar quotes companies to measure up adequately. Note that I would've gladly spent twice the money I ended up spending if I felt it was worth it; I have large power bills and plan to get an electric car.",
+      "value_for_money_rating": 2.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 3.0,
+      "system_size": "7kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

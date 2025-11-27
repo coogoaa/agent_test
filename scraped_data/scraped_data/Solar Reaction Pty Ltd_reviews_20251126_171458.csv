@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+14724,Siew,NSW - 2209,NSW,2209,True,2012-07-15,15 July 2012,4.5,,Liam is good in explaining and know the products he is selling.,4.0,4.0,5.0,5.0,2kW,Under $3000,,,,False,[],0,0

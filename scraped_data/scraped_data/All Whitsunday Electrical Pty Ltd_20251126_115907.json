@@ -1,0 +1,134 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/all-whitsunday-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T11:59:06.950456",
+  "company_info": {
+    "company_name": "All Whitsunday Electrical Pty Ltd",
+    "contact_phone": "07 4858 1212",
+    "website_url": "https://allwhitsundayelectrical.com.au/services/solar/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_8c7901c8d5fc897b4803e4fcb08b8bc7.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_9d1065b671f00bb35d084992d7264480.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_f7a1b0f2f0ae76dd68d0ae173aba1358.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_98379716d7e86a203c9f1ffb0904c28c.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_928cfffa16d23cd66fbe7c17292ca165.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_602bd899b931c90b1f0d08c0ae2098c0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_19e24e1abd92925ed0b8fffb13e8b785.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_f2c1bdd5c50d786f63fc73e071252d07.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13730_3a70e28c445e17498cf5ab16297c381d.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.33,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "124124",
+      "reviewer_name": "Graham",
+      "reviewer_location": "QLD - 4805",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recommended the same company to install his solar the same size",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "13kW",
+      "system_cost": "",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    },
+    {
+      "review_id": "123722",
+      "reviewer_name": "Scott",
+      "reviewer_location": "QLD - 4802",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4802",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quick and easy to do business with, installation happened just 1 business hour after I accepted the quote.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "122239",
+      "reviewer_name": "Graham",
+      "reviewer_location": "QLD - 4805",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4805",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Totally satisfied with whole process and was a pleasure to deal with All Whitsunday Electrical and their workers",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    }
+  ]
+}

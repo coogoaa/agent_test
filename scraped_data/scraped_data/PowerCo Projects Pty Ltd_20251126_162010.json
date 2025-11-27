@@ -1,0 +1,32 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/powerco-projects-pty-ltd/",
+  "scraped_at": "2025-11-26T16:20:10.608844",
+  "company_info": {
+    "company_name": "PowerCo Projects Pty Ltd",
+    "contact_phone": "0481 212 447",
+    "website_url": "https://powercoprojects.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14288_c953b7d1eb874559f883e5ec75e746bd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14288_51a0b711314e706328234452afacabec.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14288_cb1bdf09c5ad77e11d69a8998a2913d9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14288_7f2ae9553f1fbbf9312eec71e55d1aa6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14288_b59ed4c4b1ad8cc1b78c74bd069d6c7b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14288_06df2d3314d01c6da94156fa41082ce2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14288_c94ee812d6d87b2bb7cefd867131db8f.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

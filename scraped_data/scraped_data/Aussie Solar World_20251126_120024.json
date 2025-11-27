@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/aussie-solar-world/",
+  "scraped_at": "2025-11-26T12:00:24.574033",
+  "company_info": {
+    "company_name": "Aussie Solar World",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.3,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 2.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "24940",
+      "reviewer_name": "Robert",
+      "reviewer_location": "NSW - 2000",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2000",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-01-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The System was good , but the guy did not know anything about his own system , still waiting after 6 months for him to answer a simple question, i would hate to imagine if i had a warranty issue . it would never get resolved. Cannot recommend this company , stay away it will only create trouble ..i will be buying from a different company in future.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.25,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

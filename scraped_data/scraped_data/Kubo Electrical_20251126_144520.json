@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/kubo-electrical/",
+  "scraped_at": "2025-11-26T14:45:20.151473",
+  "company_info": {
+    "company_name": "Kubo Electrical",
+    "contact_phone": "0438 625 900",
+    "website_url": "https://kuboelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11434_62422f218d5589734aa3eb06930706c4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11434_782ec9e95dbddd5fa918a07c479c10cd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11434_a70836452ed2dc4673551766314eb839.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11434_2ab40a0c93d1c8a9df0e8db0cb32e709.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11434_aa59fc0516e929338594108820034213.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11434_22f23c3575580aa57e0a6a5134467af3.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11434_22e8e40a37519f279ae11abd055c3ce2.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

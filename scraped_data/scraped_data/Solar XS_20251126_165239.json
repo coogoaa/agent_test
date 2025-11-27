@@ -1,0 +1,90 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-xs/",
+  "scraped_at": "2025-11-26T16:52:39.727093",
+  "company_info": {
+    "company_name": "Solar XS",
+    "contact_address": "Port Macquarie, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "91203",
+      "reviewer_name": "Phil",
+      "reviewer_location": "NSW - 2445",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2445",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great company to deal with. Fastidious installers & friendly after sales service & support.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    },
+    {
+      "review_id": "81422",
+      "reviewer_name": "Sharon",
+      "reviewer_location": "NSW - 2446",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2446",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The overall experience from start to finish was stress free. Our Sales rep Gary was very knowledgeable about our specific site which led us to make an informed choice to the size system we purchased.The installation went smoothly and all staff were friendly, punctual and explained the operation of the system in great detail.The customer service has been terrific and everything ran seamlessly. They arranged all of the paperwork and communication with our energy supplier and it was up and running quickly.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    }
+  ]
+}

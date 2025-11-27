@@ -1,0 +1,98 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/tradepro/",
+  "scraped_at": "2025-11-26T18:02:39.481378",
+  "company_info": {
+    "company_name": "TradePro",
+    "contact_address": "ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.4,
+    "value_for_money_rating": 2.5,
+    "system_quality_rating": 2.5,
+    "installation_rating": 3.0,
+    "customer_service_rating": 1.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "69925",
+      "reviewer_name": "Peter",
+      "reviewer_location": "NSW - 2420",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2420",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Extremely poor customer relations. Will not return calls. Lots of promises with no action. Happy to take the money but not happy to return service. Work still incomplete after nearly 12 months. Also now we have found that they are not licensed!!!",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Chint Solar Zhejiang",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "panel_rating": 2.0,
+      "inverter_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_chint-solar-zhejiang.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "38752",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2324",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2324",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-06-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I've only had the panels for 2 days and they seem to be working very well.  The installers did a great job (although one put his knee through the ceiling near the manhole and subsequently covered it with a metal plate.  I have insisted that the plaster and gyprock be replaced instead).  The installers worked quickly and with a minimum of inconvenience to me.The salesman's customer was excellent up to the point where I signed on the dotted line and paid the deposit.  After that I had a bit of trouble contacting seeking verification of dates of installation etc.  However, he did provide me with comprehensive information which allowed me to make my decision quickly and easily.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 2.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Chint Solar Zhejiang logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_chint-solar-zhejiang.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

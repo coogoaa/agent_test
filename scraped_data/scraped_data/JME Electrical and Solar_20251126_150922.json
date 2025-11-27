@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/jme-electrical-and-solar/",
+  "scraped_at": "2025-11-26T15:09:22.048548",
+  "company_info": {
+    "company_name": "JME Electrical and Solar",
+    "contact_address": "Dubbo, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.2,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "85346",
+      "reviewer_name": "Paul",
+      "reviewer_location": "NSW - 2830",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2830",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-09-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote was very detailed and full of helpful information. The installation was done excellent with all mess cleaned up and taken awayThe supplier has done all the work needed for grid installation and any other paper workAfter installation I was set up with a app and shown how to get the most out of my system",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "54267",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2830",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2830",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-10-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was only contacted one supplier coming out of your service, and no one from that supplier phoned me even though they indicated they would do slo in a email I received from them.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.67,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

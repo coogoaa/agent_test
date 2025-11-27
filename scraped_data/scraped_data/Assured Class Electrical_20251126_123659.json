@@ -1,0 +1,84 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/assured-class-electrical/",
+  "scraped_at": "2025-11-26T12:36:59.264212",
+  "company_info": {
+    "company_name": "Assured Class Electrical",
+    "contact_address": "Tanunda, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "41974",
+      "reviewer_name": "Alan silby",
+      "reviewer_location": "SA - 5355",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5355",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-12-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "THANK YOU FOR YOUR HELP BUT AFTER MUCH CONSIDERATION DECIDED TO KEEP LOCAL",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "7016",
+      "reviewer_name": "Ramon",
+      "reviewer_location": "SA - 5352",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5352",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "There are some dodgy operators selling solar systems.  One company said that panels that were built in Germany and Sweden wouldn't work in the hot weather as they were only tested at 25 degrees and  tried to confuse me with comparisons of data from various panel and inverter manufacturers.  Because the inverter  they used was rated to ( I think ) 1000volt the ones that had lower ratings, including 'Sunny Boy' would not produce enough electricity! The powerpoint presentation went for nearly one hour cumulating in telling me we could get free installation for the 2000w system for only 21,000.00 dollars after the rebate. A bit cheaper if we agreed to signage for several months.When I queried some of the data he said he was not an electrician and couldn't answer.I didn't ask how he could justify such an exorbitant price.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "REC",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

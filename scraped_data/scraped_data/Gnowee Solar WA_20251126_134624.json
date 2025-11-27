@@ -1,0 +1,86 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/gnowee-solar-wa/",
+  "scraped_at": "2025-11-26T13:46:24.623147",
+  "company_info": {
+    "company_name": "Gnowee Solar WA",
+    "contact_address": "Perth, WA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d82a9dc0bc470f3beed8e4e7cb3cea3b0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b4b6eabad9b0bc3addde5d442fcf6e151.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d82a9dc0bc470f3beed8e4e7cb3cea3b0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b4b6eabad9b0bc3addde5d442fcf6e151.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "128385",
+      "reviewer_name": "Sam",
+      "reviewer_location": "WA - 6638",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6638",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very smooth process even for us in the bush... Cheers for the fellas install the system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "30kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d82a9dc0bc470f3beed8e4e7cb3cea3b0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d82a9dc0bc470f3beed8e4e7cb3cea3b0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b4b6eabad9b0bc3addde5d442fcf6e151.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b4b6eabad9b0bc3addde5d442fcf6e151.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

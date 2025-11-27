@@ -1,0 +1,198 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/simon-lienesch-electrical--solar/",
+  "scraped_at": "2025-11-26T16:56:13.456201",
+  "company_info": {
+    "company_name": "Simon Lienesch Electrical & Solar",
+    "contact_address": "Cootamundra, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8d45e997e5652d28fa27b47a2460b9b90.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/04ffc02e03cfd7ddaa74180bafeaff571.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/bc5ba0ff203bcbf02efaca67f4654f170.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8d45e997e5652d28fa27b47a2460b9b90.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/04ffc02e03cfd7ddaa74180bafeaff571.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/bc5ba0ff203bcbf02efaca67f4654f170.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.6,
+    "system_quality_rating": 4.75,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "131018",
+      "reviewer_name": "Justin",
+      "reviewer_location": "NSW - 2650",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2650",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-02-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Did install of system provided by Green.A few hiccups with timing, weather and new equipment, but an excellent team and great to deal with",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Tesla (Other)",
+      "battery_brand": "Tesla Powerwall 3",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "128356",
+      "reviewer_name": "John",
+      "reviewer_location": "NSW - 2590",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2590",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Consultant Nicholas guided me through the process, explained the new government subsidy scheme, and answered all questions clearly and in full.Organisation of the installer and equipment to site was done seamlessly in the background.Installer attended on the agreed day, consulted on best equipment location and had the job done in a couple of hours.Grid connection was done in the background by installer and app was explained by installer who left the work site neat and tidy.Installer is local and invited me to contact him any time if I have questions about the system’s operation.Overall very straightforward guided process from quote to operational system with minimal input required on my part.“Value for Money” is rated only average because the system will need to be in operation for a while before I can make a judgement on that aspect.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "127690",
+      "reviewer_name": "Michael",
+      "reviewer_location": "NSW - 2658",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2658",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting process was very good never felt hassled or pressured with good explanations in response to my queries.Would recommend Simon Lienesch Electrical & Solar to anyone, very punctual, polite and happy to explain the workings of the battery and app also at the completion of the job left the place very tidy including removal of old system and packaging etc.At the completion of the installation Simon was very happy to make sure I was connected to the grid and showing me how to read and understand the battery readings.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Risun Technology",
+      "inverter_brand": "Alpha Technologies",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "119621",
+      "reviewer_name": "Graham",
+      "reviewer_location": "NSW - 2651",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2651",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Simon and team arrived early as planned with everything organised to fit my solar.  They were all well organised and very efficient.  In and out in a few hours before it got hot, smart.  Simon ran me thru the app and explained the inverter.  Great effort.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8d45e997e5652d28fa27b47a2460b9b90.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/04ffc02e03cfd7ddaa74180bafeaff571.jpg"
+      ]
+    },
+    {
+      "review_id": "109819",
+      "reviewer_name": "Phill",
+      "reviewer_location": "NSW - 2590",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2590",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had an existing system installed in 2015 with the inverter located inside (IP20). The old inverter had always been noisy. When it started to misbehave, I asked Simon Lienesch for options to replace it with a new one installed outside directly behind where the old inverter had been - the idea being the existing cabling could just be routed through the brick instead of inside through the gyprock. Simon recommended the Sungrow SG5.0RS. In the end there were some challenges caused by the original installation having left zero slack in the DC cables so I wound up with some extra DC isolators that would not have been needed had this been a green-fields installation. But a DC isolator per string is what I'm used to so I like it that way. The whole process took less than three weeks - from first contact to job done. The whole process was calm, assured, factual, consultative and professional.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/bc5ba0ff203bcbf02efaca67f4654f170.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/bc5ba0ff203bcbf02efaca67f4654f170.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 3 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

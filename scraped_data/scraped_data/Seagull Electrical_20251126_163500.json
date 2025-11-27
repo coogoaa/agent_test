@@ -1,0 +1,96 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/seagull-electrical/",
+  "scraped_at": "2025-11-26T16:35:00.841836",
+  "company_info": {
+    "company_name": "Seagull Electrical",
+    "contact_address": "Cairns, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "96198",
+      "reviewer_name": "Ben",
+      "reviewer_location": "QLD - 4852",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4852",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Greg has been really engaging and helpful. The system is great, meets our expectations and his workers have done a great job.Very impressed",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Astronergy",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_astronergy.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "92064",
+      "reviewer_name": "Danielle  David",
+      "reviewer_location": "QLD - 4873",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4873",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Ours whole sales enquiry and process was great. Able to discuss various options to meet our needs and wants. On installation the crew arrived when they said were going to. They were polite and went about their work in a timely manner and cleaned up after themselves. The customer service since installation has been very helpful - only to happy to assist with any questions and working hard to get the electricity provider to install new solar compatible meter. Highly recommend.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Astronergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_astronergy.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/everglow-electrical-solar-and-batteries/",
+  "scraped_at": "2025-11-26T13:24:58.017092",
+  "company_info": {
+    "company_name": "Everglow Electrical Solar and Batteries",
+    "contact_phone": "0420 354 072",
+    "website_url": "https://everglowelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14429_b558ec26185e282d33250bdfeeee26bb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14429_3eb0c93593795d1bc2d4cf84a23a928a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14429_d0d644c4561536e2eff0385f362cb85a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14429_e41c569c869ed38df473e72e9a77615d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14429_75592d30902cac15289f46a16e239033.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

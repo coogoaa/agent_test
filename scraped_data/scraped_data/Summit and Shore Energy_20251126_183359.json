@@ -1,0 +1,75 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/summit-and-shore-energy/",
+  "scraped_at": "2025-11-26T18:33:59.631321",
+  "company_info": {
+    "company_name": "Summit and Shore Energy",
+    "contact_phone": "1300 714 714",
+    "website_url": "https://summitandshore.com",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14414_d4f856ac92e6a77c9ed64f55434327d8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14414_c5f160f9c65887ee7e79c60954897e04.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14414_9f750b3dc87b3bc4708a4ddda5ef76f5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14414_b0999caf7d43a30396c1cd8a6b213cfe.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "137992",
+      "reviewer_name": "Annabelle",
+      "reviewer_location": "ACT - 2615",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2615",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I've wanted a solar battery for some time but didn't know how to go about it, or what I needed to do to get the government rebate. I sent an enquiry to the Summit and Shore team on their website and they got it touch to get some more details about my usage and current solar panel set up. They also came to do a site visit and made sure I understood the process, understood where it would be installed and what I could expect post installation.With that information they created a proposal with two options outlined in detail, including projections of the cost savings over a 20 year period. It was incredibly helpful to see the options side by side and then also be called by one of the team who walked me through the pros and cons and helped me make a decision based on the features and price I was happy with. They also provided me with several financing options and answered my questions about the conditions and costs associated with these.The team reached out to me to set up an install day that suited me and confirmed beforehand. They arrived on time and worked efficiently to get the job done in good time. Even when there were some very tight corners in my house to run cabling through they made sure it was done properly, even installing an additional access point in my garage which wasn't initially part of the plan! When they left my garage and garden was cleaner than before they came!They checked in with me during the install, including giving me lots of notice for when the power would be off and getting it back on much quicker than I had expected. They showed me what had been done for the install, helped me to set up the app for tracking the power usage and generation on my phone and walked me through how to disconnect it in case of an emergency. They even provided remote oversight following the install to ensure the everything was working as it should.At all times throughout the process the whole team was professional, polite and clearly well informed. They patiently answered all my many questions and explained everything in terminology I could understand. They handled all the paperwork including applications, rebate and financing for me so it felt easy. The only paperwork I had to spend time on was actually applying for the finance, which is to be expected. Even then, they set it up so the rest of the process was sorted.I'm absolutely thrilled with my battery, it's incredibly satisfying to see how much energy I'm saving on my app. I'm even more thrilled at what great value it worked out to be with the team helping to get the best out of the government rebate and giving me an amazing value deal on top of that.I highly recommend Summit and Shore Energy, I would use them again without a moment's hesitation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "ESY Sunhome",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_esy-sunhome-batteries.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "ESY Sunhome logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_esy-sunhome-batteries.png"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/enviro-saver-solar/",
+  "scraped_at": "2025-11-26T13:03:14.968124",
+  "company_info": {
+    "company_name": "Enviro Saver Solar",
+    "contact_address": "Morisset, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "16699",
+      "reviewer_name": "Raymond",
+      "reviewer_location": "VIC - 3305",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3305",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-12-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Enviro Solar were fast, they had someone out within a week and helped me through the routine of having a solar system being installed and connecting up to the grid.I would like to thank you for your help as living in the southwest of the state some of the solar installers don't come out this way.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

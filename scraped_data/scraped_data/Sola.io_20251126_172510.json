@@ -1,0 +1,133 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solaio/",
+  "scraped_at": "2025-11-26T17:25:10.015196",
+  "company_info": {
+    "company_name": "Sola.io",
+    "contact_address": "NSW and, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/702739216a88a00cfaba8f57d3723cae0.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/702739216a88a00cfaba8f57d3723cae0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "87522",
+      "reviewer_name": "Shirley",
+      "reviewer_location": "VIC - 3215",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3215",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Definitely recommend Sola.io.  From first call to make enquiries till post-installation, the team has been very responsive and a pleasure to deal with.  Made the whole process quite painless - thank you Kate, Rory & Lockie!",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "75686",
+      "reviewer_name": "Teri",
+      "reviewer_location": "VIC - 3977",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3977",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sola.io made it so easy to make our solar goals a reality. They were incredibly responsive, provided the best price and equipment out of quotes we had gathered from more than 4 retailers. Support was provided for everything from the rebates process to tailoring the design to our rooftop and budget needs. Once we decided to go with Sola.io we had a working system up and running by the end of the week. Can't fault them. Thanks Ty, Gabriel and the installation team.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/702739216a88a00cfaba8f57d3723cae0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/702739216a88a00cfaba8f57d3723cae0.jpg"
+      ]
+    },
+    {
+      "review_id": "74808",
+      "reviewer_name": "Sue",
+      "reviewer_location": "VIC - 3934",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3934",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All communication with company was polite informative patient and helpful. The installers came on time, worked solidly then cleaned up and left.Customer service has been terrific and the checker came when he was meant to. I have had a helpful follow up call to get the app working. I am very happy with the whole process but now they need to make electricity to make it all worthwhile. Still need to wait another month for us to know properly. No worries about recommending this company.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

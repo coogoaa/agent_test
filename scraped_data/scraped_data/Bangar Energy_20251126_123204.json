@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bangar-energy/",
+  "scraped_at": "2025-11-26T12:32:04.650662",
+  "company_info": {
+    "company_name": "Bangar Energy",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14181_3bfa569280f763df385e8ba9b5502dd4.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14181_44e002fceac5b190cb8a6e95aefcd5fd.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14181_06502cae73f3c50507665afddb73b92c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14181_943359f44dc87f6a1679c987280e8dc7.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/josh-sheppard-electrical/",
+  "scraped_at": "2025-11-26T15:13:17.220971",
+  "company_info": {
+    "company_name": "Josh Sheppard Electrical",
+    "abn_number": "98722515303",
+    "contact_phone": "0407 791 425",
+    "website_url": "https://www.facebook.com/JoshSheppardElectrical/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_668a49f17c6aa77635c3661c07034e92.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_b78d9ea50795f975c42a3b5be3fda07d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_f65a1f0cbba07d6787f090c40844914d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_5f37b5a7c5612be6a9a4c292fb685546.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_ab4211a7022cff26a93f5f7367d2efdc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_c4a505ccea8ccdb3787209c3aff5210c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_68b0e4cdf8bb43d02a5e5d969a16b89a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_35e6f09dd6701e8e72a7c864a79c467c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_07b0db15b3a4f2b1c9de88723fe99c5b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_58726165e9e1fc3fe73e2ded7f083f25.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_32dd98ec3f97cc4b1cf508454349dfc5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_461d0d461e7bf08319c0d40490de777f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_3ac3ffa0a8e7bbaa5ebc223a853f28a0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_3fee551c83d61a7b520ebd2456355fb5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_39ee2df83345c2bf7062b24083c97fdf.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_2891ff44ad6e76fa248a1d51d8533442.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_d77b59f2870a0ef7f6990cd57398d291.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13769_e8c58c2e0d01be12c014970ad2d6f579.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "27 Sep 2009Josh Sheppard Electrical",
+      "abn_company_name": "Josh Sheppard Electrical"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "130070",
+      "reviewer_name": "Kenneth",
+      "reviewer_location": "SA - 5223",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5223",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Josh did an excellent job.High quality system, neatly and punctually installed.Excellent technical knowledge and the system was tailored to our needs",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Winaico",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Winaico logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/unplugged-energy/",
+  "scraped_at": "2025-11-26T18:28:56.233816",
+  "company_info": {
+    "company_name": "Unplugged Energy",
+    "contact_email": "sales@unpluggedenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14245_51adf347f5f19a0e37fb3d23a0fdc3b2.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14245_651bfcd244464b31a08080a77d2c1d81.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14245_73215deee79c1ebd82b7b51ebc95dc31.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14245_ce4012a721c87a0f1d11da94813ee3eb.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14245_339b48cc5f6dc2693a423785c0f983a9.png"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/97a6d46c380d2465e937bfd17bf13d190.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d9069ecb087ec89aba5a1b805269e2ab0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f22e34ef8aa164ca598edb7780b6ad151.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9d49620ce8436e9a820fbeb7e97890432.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "139692",
+      "reviewer_name": "David",
+      "reviewer_location": "WA - 6112",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6112",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Bronson was fantastic during the sales and quoting for our panels and battery. He explained everything clearly and answered some follow up questions I had promptly and made it easy to understand the system and expected outcomes. He organised the paperwork for the rebates and for Synergy which was a great help.  The guys doing the install were on time, efficient, polite and cleaned up any mess before leaving. They assisted with the app and how to best use the system. The new system is working great. I would highly recommend Unplugged Energy for anyone looking for solar panels and a battery.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "SAJ",
+      "battery_brand": "SAJ",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_saj.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/97a6d46c380d2465e937bfd17bf13d190.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/97a6d46c380d2465e937bfd17bf13d190.jpeg"
+      ]
+    },
+    {
+      "review_id": "137781",
+      "reviewer_name": "David",
+      "reviewer_location": "WA - 6112",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6112",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent service from Unplugged Energy. All my questions were answered very promptly, and they provided recommendations based on exactly what I was looking for. I especially appreciated that they even offered cheaper alternatives that would still meet my needs.The installation was exceptional. The unit looks fantastic, and the entire work area was left spotless, thanks Justin, Dylan and Matt. Justin walked me through the system's operation, showed me the switchboard, and even asked me which parts of the house I wanted connected to the backup battery in case of a power outage.All in all, this was a fantastic experience, and I highly recommend Unplugged Energy.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "SAJ",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_saj.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d9069ecb087ec89aba5a1b805269e2ab0.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f22e34ef8aa164ca598edb7780b6ad151.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9d49620ce8436e9a820fbeb7e97890432.jpg"
+      ]
+    },
+    {
+      "review_id": "136047",
+      "reviewer_name": "Matt",
+      "reviewer_location": "WA - 6052",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6052",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar and battery system installed with Unplugged Energy. The whole process, including navigating the rebates and the communication around it was very easy. The installing crew was very thorough, efficient and cleaned up after themselves.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "DAS Solar (Other)",
+      "inverter_brand": "SAJ",
+      "battery_brand": "SAJ",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_saj.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_earth-ev.png"
+      ]
+    },
+    {
+      "review_id": "135911",
+      "reviewer_name": "Catherine",
+      "reviewer_location": "WA - 6150",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6150",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I recently had Unpugged Energy quoted and install a solar battery, rewire my old circuit board, replace the inverter, and test the entire system - and I couldn’t be happier! My house had an outdated electrical setup, requiring them to rearrange and upgrade everything, but JT, Tuong, and Nick handled it with expertise and patience.They were hands-on, professional, and friendly, answering all my questions thoroughly. Despite working in cold, windy conditions, they never cut corners and even went above and beyond by fixing a tile leakage on my roof and giving a gutter clean - something I truly appreciate!Big credit to this hardworking, skilled team—they made the entire process smooth and stress-free. Highly recommended for anyone needing solar or electrical work. Thanks again, Nick, Tuong and JT!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Goodwe",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_goodwe-battery.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SAJ logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+    },
+    {
+      "brand_name": "SAJ logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_saj.png"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mastercraft/",
+  "scraped_at": "2025-11-26T14:53:49.978912",
+  "company_info": {
+    "company_name": "Mastercraft",
+    "contact_address": "Salisbury, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "85172",
+      "reviewer_name": "Geoff",
+      "reviewer_location": "QLD - 4061",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4061",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales quoting process was drawn out while the contractor assessed the roof and then negotiated the scope & costs for the different portions of the overall roofing & solar project. The process was not made easier by me being 3,000Km away from my home for the entire negotiation and installation period, as the sales team appear more geared to conducting their sales and site interaction on a face-to-face basis.Installation was timely but appeared rushed on the day, with the final clean-up and power board entry detail being disappointing and letting down an otherwise neat job.Customer service was OK, and there was some assistance provided in finalising the connection paperwork after the install was completed.I found the information from SolarQuotes website was most useful, and the knowledge I gained with respect to the connection process allowed me to manage the connection process without relying entirely upon the solar contractor.The contractor did adjust their operating method to enable them to keep me informed of progress while I could not be on site, and they kept me updated with drone films and photos of the roof & solar works as they progressed.The solar outcome has been most satisfactory and the solar is exceeding my estimated average power generation figures.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "8kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "No battery fitted as yet (Other)",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

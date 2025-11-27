@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dan-the-sparky-man/",
+  "scraped_at": "2025-11-26T13:26:07.586833",
+  "company_info": {
+    "company_name": "Dan The Sparky Man",
+    "contact_address": "Nerang, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "26142",
+      "reviewer_name": "Cameron",
+      "reviewer_location": "QLD - 4213",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4213",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-01-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It took me 3 to 5 weeks of organising quotes from at least 6 companies to really get my head around panels, inverters and the hundreds of models, brands and bucket loads of information out there to get through. The first 3 were face to face and by that stage I knew what system I required and then organised quotes via email. Thankfully this research and the headaches paid off as I realised I did not need to pay top dollar for good quality panels and inverter etc. With Finns website/service this process was made much easier and I was eventually confident to make an informed decision. In the end I went with a local company who provided top quality products and service with warranties for much cheaper than some of the better known groups. I am glad I took my time as there were two solar groups who I was considering which if I decided to go with would have cost me $2000+ more than what I eventually paid. Very happy with my choice and very appreciative of Finns service.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

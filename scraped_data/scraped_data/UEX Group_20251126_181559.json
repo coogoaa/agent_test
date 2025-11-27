@@ -1,0 +1,157 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/uex-group/",
+  "scraped_at": "2025-11-26T18:15:59.090089",
+  "company_info": {
+    "company_name": "UEX Group",
+    "contact_phone": "0416 713 822",
+    "website_url": "https://www.uexgroup.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/51df106b81a5a4e5fb3d972f582bdd540.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8c1230dfc0e99167cc6926a7716f80071.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e03b94e4aed06c4fdc52262abceca80b0.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/51df106b81a5a4e5fb3d972f582bdd540.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8c1230dfc0e99167cc6926a7716f80071.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e03b94e4aed06c4fdc52262abceca80b0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "126714",
+      "reviewer_name": "Megan",
+      "reviewer_location": "NSW - 2251",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2251",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Dain and Kimbalee from UEX Group were brilliant with my Solar experience.  After spending months doing my research and going down rabbit holes, UEX was the only company that offered a real audit of my home to help me work out how to optimise solar properly at my residence.   They took the time to understand both short term and long-term goals and this changed my solar plan.   I believe I am future-proofed and has resulted in a better return on investment for me.The quoting process was clear and was improved due to the inputs I was asked (vs a guy on the phone that just gave me what a single-phase roof could do).   Installation was brilliant.  Dain kept me up to date with texts.  His team was on time and very tidy.   My only hold up was with the grid connection after install and Kimbalee with her customer service chased my energy provider to get it resolved quickly.   I’m very happy with what I’m now producing, and I love the app that shows me exactly what I’m doing also.  I could not recommend UEX group higher.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/51df106b81a5a4e5fb3d972f582bdd540.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8c1230dfc0e99167cc6926a7716f80071.jpg"
+      ]
+    },
+    {
+      "review_id": "121545",
+      "reviewer_name": "Nathan",
+      "reviewer_location": "NSW - 2256",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2256",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-04-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From the very first contact, Dain and the team at UEX have been amazing. Fast response, high-quality products, fit-for-purpose recommendations, at a good price.The process started with a site visit, which is very rare in this industry, but allowed the quote and recommendations to be exactly what we needed with no surprises on install day.  Speaking of which, the boys on his install team are first class - efficient, respectful, and great communicators themselves.I am left with a great system, doing great things on my roof, and have been very happy with the whole process from start to finish, to aftercare.Do yourself a favour and include UEX in your consideration for solar - you will not be disappointed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Winaico",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "92735",
+      "reviewer_name": "J.",
+      "reviewer_location": "NSW - 2251",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2251",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Dain Drinan of UEX Group knows solar technology very well and suggested a high-quality system that met our needs, no more, no less. His team carefully installed a 10kw system over the course of one day that looks great and runs well. Total pros, highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e03b94e4aed06c4fdc52262abceca80b0.jpg"
+      ]
+    },
+    {
+      "review_id": "92701",
+      "reviewer_name": "Jo",
+      "reviewer_location": "NSW - 2257",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2257",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Dain helped me to understand what I needed. The company did an inspection of my roof and my power board before quoting. As it turns out I did need to do some roof repairs prior to commencement. They explained why I needed my electrics updgraded on my 1950s house, and that work was also completed. They gave me a good quote and I accepted and the work was completed efficiently. I would recommend UEX.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Qcells",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

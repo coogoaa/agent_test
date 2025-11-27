@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-coast-power-pty-ltd/",
+  "scraped_at": "2025-11-26T14:11:52.513132",
+  "company_info": {
+    "company_name": "Green Coast Power Pty Ltd",
+    "contact_phone": "0403 678 022",
+    "website_url": "https://www.facebook.com/profile.php?id=100091670914039",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14479_a0f6d08e7aee0d4fe12d424e68edac39.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14479_fd9547b9fcd8e3d4728b8f6ab1dcde67.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14479_82d1a2717178f50f828278198bd2e3a9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14479_0c27721b1d9d6f9b94a2916fbbe1a035.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

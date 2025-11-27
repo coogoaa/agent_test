@@ -1,0 +1,79 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/soventix-australia/",
+  "scraped_at": "2025-11-26T18:01:58.491382",
+  "company_info": {
+    "company_name": "Soventix Australia",
+    "contact_address": "Wynnum North, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "14163",
+      "reviewer_name": "Peter",
+      "reviewer_location": "QLD - 4019",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4019",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-06-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had four quotes in total.It was obvious Soventix knew exactly what they were on about. I would recommend them to anybody.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "10198",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4060",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4060",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-09-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Souventic  was the cheapest of five quotes that I obtained.  The panels and inverter are all top quality German manufactured and a work colleague of mine has very recently had a system installed by Souventix.It really wasn't a difficult decision to make.  The installation starts TOMORROW.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

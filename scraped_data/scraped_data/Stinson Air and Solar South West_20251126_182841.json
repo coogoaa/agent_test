@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/stinson-air-and-solar-south-west/",
+  "scraped_at": "2025-11-26T18:28:41.495931",
+  "company_info": {
+    "company_name": "Stinson Air and Solar South West",
+    "contact_phone": "08 9755 0003",
+    "website_url": "https://stinsonair.com.au/stinson-air-south-west/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14473_825197edf17d312486cc9c85be972509.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14473_1ee13896e08e41ec46198a19cbb8d7ad.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14473_3cd1204505a0136ba54c6f1b94f909fd.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14473_dd24298da4b9844a44f4980596874988.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/electralink/",
+  "scraped_at": "2025-11-26T13:07:07.717409",
+  "company_info": {
+    "company_name": "Electralink",
+    "contact_phone": "0437 374 383",
+    "website_url": "https://electralinksolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14322_749651e992e7ae2613294ca3ef17e03d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14322_0cf521ac075e5b0e958ff9a836905b29.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14322_45510462d14d5ea266f0d187e872c2bf.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14322_e2e79a9318790db67a4ec9a3898928db.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "139450",
+      "reviewer_name": "Geoffrey Harcourt",
+      "reviewer_location": "WA - 6166",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6166",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales and quoting process was very professional with onsite visit before quote. Installation was completed on time in half a day and was totally professional with expert advice on operation of online app. I would recommend Electralink to anyone wishing to acquire a solar system.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

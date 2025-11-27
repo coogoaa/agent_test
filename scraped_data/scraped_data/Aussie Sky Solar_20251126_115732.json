@@ -1,0 +1,35 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/aussie-sky-solar/",
+  "scraped_at": "2025-11-26T11:57:32.868788",
+  "company_info": {
+    "company_name": "Aussie Sky Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14255_6489ef12ef51422afcd821b06e334cf2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14255_a33049afd7e7f4fb4063364fd87d2823.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14255_f376ef9db180a609d3f00b27fe035d0f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14255_b7af5269a16f4d2cd65918340b922de1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14255_6de5f5bfcc0e8122de941c1b66c7bdf4.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,134 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dnx-energy/",
+  "scraped_at": "2025-11-26T12:56:11.176872",
+  "company_info": {
+    "company_name": "DNX Energy",
+    "contact_address": "Nedlands, WA",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "77886",
+      "reviewer_name": "Peter",
+      "reviewer_location": "WA - 6025",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6025",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "DNX Energy was recommended to me by a friend who had used DNX several times. He told me that they are not the cheapest but they do a very good job. They only use premium quality equipment (panels and inverters) and the staff that I dealt with were very knowledgeable. My system has been in for a full year now and has worked perfectly. The system is in a remote location and is close to the coast. I wanted good quality equipment that would not cause any problems and would last in a harsh environment. I was happy to pay a bit of a premium to get this. I have been very happy with the system and the service from DNX.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "REC",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "66710",
+      "reviewer_name": "Anon",
+      "reviewer_location": "WA - 6007",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6007",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-07-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "REC",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.67,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "31674",
+      "reviewer_name": "Graeme",
+      "reviewer_location": "WA - 6014",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6014",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-05-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "It will be installed next week (its a new house under construction). Very high quality frame (Schletter) and very high quality panels (SolarWorld Sunmodule+ 290W Mono; by going for the extra-efficient panels we could one panel less, conserving roof space for the future); chose the Enphase 'ecosystem' because we like the idea of AC wiring despite the small losses in efficiency. The Enphase batteries are also attractive because they are modular. The software monitoring package is good too so we can measure our usage for a few months before deciding how many batteries to go for.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Solarworld",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.67,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_solarworld.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

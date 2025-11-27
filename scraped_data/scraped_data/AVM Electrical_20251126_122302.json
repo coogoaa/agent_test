@@ -1,0 +1,222 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/avm-electrical/",
+  "scraped_at": "2025-11-26T12:23:02.642362",
+  "company_info": {
+    "company_name": "AVM Electrical",
+    "contact_phone": "0401 037 566",
+    "website_url": "https://www.avmelectrical.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.83,
+    "system_quality_rating": 4.17,
+    "installation_rating": 4.17,
+    "customer_service_rating": 4.17,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "113452",
+      "reviewer_name": "Borhan",
+      "reviewer_location": "VIC - 3356",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3356",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "AVM were very helpful and supportive all throughout the process and made my life so much easier.They're very professional and friendly and installed my solar with no hassle and no problems.10/10 would recommend!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "73874",
+      "reviewer_name": "Peter",
+      "reviewer_location": "VIC - 3136",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3136",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Provided all the information necessary to make an informed decision and answered any queries I had about the installation.They only damaged two tiles, which they replaced and left the house and yard clean as they found it.Could not fault their assistance in chasing up the rebates and grid connection",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "77424",
+      "reviewer_name": "Ananth",
+      "reviewer_location": "VIC - 3044",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3044",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Got a very good price. Were on time, installation was smooth and offered optimal solution.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "74239",
+      "reviewer_name": "Susan",
+      "reviewer_location": "VIC - 3088",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3088",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales /quoting precess was fine 4 stars.Installation was sheduled for Sat 29th Feb but they failed to show or notify me.I called them and resheduled for Wed 18th March",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 1.75,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "73770",
+      "reviewer_name": "Deepak",
+      "reviewer_location": "VIC - 3140",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3140",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Azahâ€™s from AVM Electrical came home to inspected the property before discussing the quote. His quote was much lower than the other installer.On the day of the installation, everything went smoothly and Azah did a very clean and neat job.I have called Azah a few times since installation and each time he has been helpful and very easy to deal with.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "73533",
+      "reviewer_name": "Bruce",
+      "reviewer_location": "VIC - 3133",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3133",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "A couple of small errors in the initial quote, however the lady quoting advised me at the start that it was her first time quoting on her own and was very apologetic when I pointed out an error in additions (she stated she would ensure she used a calculator in future).Installation went well, a little longer than they initially anticipated (I did notice that while connecting to the switchboard that the installer was explaining the process to his apprentices(?) which slowed him down as he was answering questions), good communication throughout and they cleaned up well.Currently they are organising the grid connection.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "LG",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

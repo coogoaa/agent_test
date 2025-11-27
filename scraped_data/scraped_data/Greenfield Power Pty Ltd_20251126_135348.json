@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/greenfield-power-pty-ltd/",
+  "scraped_at": "2025-11-26T13:53:47.951527",
+  "company_info": {
+    "company_name": "Greenfield Power Pty Ltd",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "50371",
+      "reviewer_name": "Amthony",
+      "reviewer_location": "QLD - 4304",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4304",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-07-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The experience varied between the three companies provided by Solar Quotes. I appreciate that this is not a reflection on Solar Quotes, but more broadly of the solar industry. It's at absolute jungle out there and I've tread my path carefully ????????",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

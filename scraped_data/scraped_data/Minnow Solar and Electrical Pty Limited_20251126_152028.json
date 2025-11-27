@@ -1,0 +1,35 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/minnow-solar-and-electrical-pty-limited/",
+  "scraped_at": "2025-11-26T15:20:28.395332",
+  "company_info": {
+    "company_name": "Minnow Solar and Electrical Pty Limited",
+    "contact_phone": "0434 092 871",
+    "website_url": "https://www.facebook.com/MinnowSolar?mibextid=ZbWKwL",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_6f301106f84f967fae095b17ca7f7b1a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_8c583713715fbe6714fa67de7b4599a7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_072225ef11c1a86f193413d211ed811e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_4826d89cd663c5c02ef1aa8158a44d66.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_abfe52303d63b3e802d6d7aeb5f9f1cf.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_8125765841bced76645b0b103ec557d6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_ab993cedb5923b07f95b342869c549dd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_5583c467e86769c2ba8c934779d3b6a9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_e86c584cc36ab9ee3bfeb4ae933a4016.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13948_49369747de32370c16e8b21699285523.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

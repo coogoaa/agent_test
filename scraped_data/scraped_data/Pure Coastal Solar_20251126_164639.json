@@ -1,0 +1,203 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pure-coastal-solar/",
+  "scraped_at": "2025-11-26T16:46:39.180617",
+  "company_info": {
+    "company_name": "Pure Coastal Solar",
+    "contact_address": "NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2b4be6cdc76c5f6340dec8e3b531ad7f0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/877bdf778cb10a66b19c39c3aaa387592.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2b4be6cdc76c5f6340dec8e3b531ad7f0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/877bdf778cb10a66b19c39c3aaa387592.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 3.8,
+    "system_quality_rating": 3.8,
+    "installation_rating": 3.6,
+    "customer_service_rating": 3.8,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "75411",
+      "reviewer_name": "Spud",
+      "reviewer_location": "NSW - 2429",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2429",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had been looking for an installer for a while did a lot of my own research but at the end of the day talking face to face was important to me.We had a time line that needed to be met, Luke Wakefield from Pure Coastal Solar came out onsite we discussed an off grid system he designed it then installed.He has since rang and visited to check the system is working very happy.We installed a 3.96kw system with a SMA Sunny boy inverter at the panels with a Sunny Island inverter at the 15:4 kWh BYD b box pro battery bank.I would not hesitate to recommend Luke and Pure Coastal Solar for a great local alternative in the Midcoast area.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "SMA",
+      "battery_brand": "BYD",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "battery_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2b4be6cdc76c5f6340dec8e3b531ad7f0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/877bdf778cb10a66b19c39c3aaa387592.jpeg"
+      ]
+    },
+    {
+      "review_id": "46545",
+      "reviewer_name": "Roger",
+      "reviewer_location": "NSW - 2428",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2428",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-04-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I chose Pure Coastal Solar as I was looking for a local company in the Forster / Tuncurry region with a proven track record. I was able to meet with the company owner (Luke Wakefield) onsite and discuss the installation approach, choice of inverter (Fronius) and panels(Jinko) and expected return on the investment. I was also able to reference check LukeWakefield as a supplier and installer. We were very happy with Lukeâ€™s proposal in terms of quality and cost. Installation and commissioning was very smooth and system after one month has been performing to expectations. Happy to recommend Pure Coastal Solar.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "27611",
+      "reviewer_name": "Graeme",
+      "reviewer_location": "NSW - 2428",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2428",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-05-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very quick response to my enquiry, owner is a local chap and has completed many installations in the area. His quotation was straightforward and a no nonsense presentation. I enquired about the method of fixing and other details I wanted clarified and he responded in terms I could understand.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Renesola",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_renesola.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/74dd7d1fbad2414ed4d411ad31a50c62.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/3bd314df2db846eb3a3ec73b3a02624e.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/103b21d6668919518ebf5c4eda73e9d5.JPG"
+      ]
+    },
+    {
+      "review_id": "29521",
+      "reviewer_name": "Craig",
+      "reviewer_location": "NSW - 2428",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2428",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-02-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Installer will not come out and fix a problem with workmanship even though they provided 10 yr warranty on workmanship. Have to take him to DFT this is the second time, the first was because he did not supply the correct size inverter!And the Inverter was installed just 200mm off the ground!",
+      "value_for_money_rating": 2.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.75,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "24294",
+      "reviewer_name": "Allan",
+      "reviewer_location": "NSW - 2428",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2428",
+      "reviewer_postcode_valid": true,
+      "review_date": "2015-07-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "There seem to be snakeoil salesmen, Honest John salesmen, Take-it-or-leave-it salesmen in this business and I found myself distrusting everything and everyone. Everyone uses the best quality components and can honestly tell you that they've never had a failure !!!!.I decided in the end that it was pointless listening to the rhetoric so did a lot of research online and concluded that even the best quality panels and inverters have failures and downtime, so I might as well buy through the local guy (I live in a somewhat rural/remote area) and demand (hopefully) fast response if a failure occurs.His price wasnt the cheapest but it was certainly very competitive and he did a quick and professional installation.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Renesola",
+      "inverter_brand": "JFY",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 3.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_renesola.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_jfy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Qcells logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    },
+    {
+      "brand_name": "BYD logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/srec/",
+  "scraped_at": "2025-11-26T18:16:26.572012",
+  "company_info": {
+    "company_name": "SREC",
+    "contact_address": "Melbourne, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "426",
+      "reviewer_name": "Russell",
+      "reviewer_location": "VIC - 3078",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3078",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-06-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "No thanks,  I had a saga with BBE in Byron Bay over promise and under deliver.   Major hassle to even get my deposit back.  Threats of small claim tribunal brought them to the table at the end.  SREC MD lives nearby so I managed to get a 3kw inverter + 2kw system at mates rates.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

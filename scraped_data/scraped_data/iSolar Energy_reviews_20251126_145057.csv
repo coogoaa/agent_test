@@ -1,0 +1,3 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,panel_rating,inverter_rating,has_images,image_urls,overall_rating,quality_rating
+28736,Steve,WA - 6020,WA,6020,True,2015-12-14,14 December 2015,4.75,,,5.0,4.0,5.0,5.0,5kW,"$3,000 to $6,000",,,,,,False,[],0,0
+25771,Shaun,WA - 6112,WA,6112,True,2015-12-06,06 December 2015,4.25,,,4.0,4.0,4.0,5.0,5kW,"$6,000 to $10,000",Jiangyin Guangye PV-Tech,SMA,,4.0,5.0,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png'],0,0

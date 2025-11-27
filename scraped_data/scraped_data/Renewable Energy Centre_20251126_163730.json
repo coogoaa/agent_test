@@ -1,0 +1,152 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/renewable-energy-centre/",
+  "scraped_at": "2025-11-26T16:37:30.295466",
+  "company_info": {
+    "company_name": "Renewable Energy Centre",
+    "contact_address": "SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.1,
+    "value_for_money_rating": 4.25,
+    "system_quality_rating": 4.75,
+    "installation_rating": 3.5,
+    "customer_service_rating": 3.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "137167",
+      "reviewer_name": "Graham",
+      "reviewer_location": "VIC - 3182",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3182",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Polite, tidy and punctual installation removing all of the existing system.Installed all the elements I wanted.Excellent customer service and a good review by the electrical inspector.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "REC",
+      "inverter_brand": "",
+      "battery_brand": "Tesla Powerwall 3",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "86055",
+      "reviewer_name": "Bev",
+      "reviewer_location": "SA - 5238",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5238",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The initial process was quick, received a visit from a salesperson.  Waiting for the system was an ongoing delay.  Was meant to be installed in December 2019.  Was finally installed February 2020. Dont try calling their office number - no-one ever answers the call - it is diverted to an answering machine and no-one bother to get back to you.Their office shows as being in hindmarsh, but the phone number is a Sydney number. I contacted them numerous times (via a mobile number that I had kept) to complete installing a piece of equipment in the meter box. This took approx 4 calls before they came back out and completed the install. I tried to call another 10 times and believe me I have kept the records for someone to come out and make sure the system was working as it should, since our power bill was still in the $800 area. The installer said he was close by - 30 mins was completing a job and would come after. Received a call from him later to say he had been held up on the job and would speak with his higher ups as to when he could come back to check. I also need help understanding the APP, bloody useless, no help - no-one has come back as PROMISED.  Don't waste your money.  I made the mistake of paying for the whole system before it was completely finished to my satisfaction.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "80827",
+      "reviewer_name": "Baljinder",
+      "reviewer_location": "SA - 5158",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5158",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Installation took 3-4 weeks. Person promised to Install witin a week But finished around four weeks. Thanks",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "68480",
+      "reviewer_name": "Trevoir",
+      "reviewer_location": "SA - 5120",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5120",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-05-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Friendly and very informative, maintained contact throughout the process, grid connection has now been applied for today also by them.  18kW system installed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 3 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

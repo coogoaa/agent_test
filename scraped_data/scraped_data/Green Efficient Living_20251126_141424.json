@@ -1,0 +1,149 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/green-efficient-living/",
+  "scraped_at": "2025-11-26T14:14:23.879407",
+  "company_info": {
+    "company_name": "Green Efficient Living",
+    "contact_phone": "08 8297 3422",
+    "website_url": "https://www.greenefficientliving.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_ac12182cdb6d502bd75e2df08a1d7ba0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_13fbf7e3531579db64adceed4a3fa9eb.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_d5895c8b773c295e4cbb5cf75226219e.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_077541f2f25efb6f33e7918f3b252bd5.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_72c7f07d6965d395d73b57e3277b9511.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_3bfa3b370ae46d80188fd1b560406f2f.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_2dc82af97e6861e60eda8c9f3158e368.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_f964fe6bbf7c6ecf4ad8721d469d6edb.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12429_ca701d6262c9d9aadcb591ad8ab29d4f.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9175d501f8eb3849b489760652ad14100.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "119510",
+      "reviewer_name": "Daniel",
+      "reviewer_location": "SA - 5075",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5075",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-02-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I engaged Green Efficient Living (GEL) for solar package at home. Dealt with Mitch who listened to what I wanted, gave me thoughtful options and recommendations for my install based on orientation and shading of my house. Excellent communication. Caleb ran the install. Was prompt both days, very neat job, left minimal mess (found only 1-2 wire clippings) which is rare from trades these days, and was very informative at handover.19.8kW panels with 10kW hybrid and 5kW standard inverters (3 phase).Will definitely engage GEL again if/when I install a battery or EV charger.I would definitely recommend to anyone in Adelaide seeking solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9175d501f8eb3849b489760652ad14100.png"
+      ]
+    },
+    {
+      "review_id": "82076",
+      "reviewer_name": "Julie",
+      "reviewer_location": "SA - 5016",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5016",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "GEL made the whole process very seemless.  They were on time, very friendly, very tidy and communicated well through the whole process.They also arranged for the installation of my new metre with my service provider and an extension to a warranty for my inverter.  Could'nt fault them.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "69104",
+      "reviewer_name": "Paul",
+      "reviewer_location": "SA - 5061",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5061",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-10-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Personalised and tailored solution - attended home, assessed installation and measured roof. Others quoted without attending home and understanding site issues",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

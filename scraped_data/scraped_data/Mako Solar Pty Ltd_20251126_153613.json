@@ -1,0 +1,165 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mako-solar-pty-ltd/",
+  "scraped_at": "2025-11-26T15:36:13.038229",
+  "company_info": {
+    "company_name": "Mako Solar Pty Ltd",
+    "contact_phone": "0423 409 212",
+    "website_url": "https://makosolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13287_99ade450b1a68a76ee0dc6e0c804a1e9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13287_0f84a538aa7f0da857f770e6a472ac65.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13287_2d5875ac40948c9e6315a25b85e97b3c.png"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8c660873ac0f348ce602a5ba66ad99220.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "93081",
+      "reviewer_name": "Alistair",
+      "reviewer_location": "NSW - 2233",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2233",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-09-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The whole process dealing with Grant from Mako Solar has been great, we have been kept informed at all stages, and are very happy with the installation and quality of the finished product.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "SolarEdge",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "92937",
+      "reviewer_name": "Greg",
+      "reviewer_location": "NSW - 2234",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2234",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-09-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Grant and his team at Mako offered a great solution and system to suit our needs. Very happy with the system provided and the professional and tidy installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Qcells",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/8c660873ac0f348ce602a5ba66ad99220.jpg"
+      ]
+    },
+    {
+      "review_id": "92656",
+      "reviewer_name": "Shawn",
+      "reviewer_location": "NSW - 2233",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2233",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Grant took the time to attend site and talk me through the technical restrictions of the install, the depth of planning he showed was not addressed by the other companies that quoted the job.In addition I also chose Mako because they were the ‘smaller company’ of the three. There are obviously risks from doing so but I will always support the smaller business first.The install was as agreed and looked as good as any solar system I have seen.Mako arranged arranged for the new smart meter to be installed.There were some teething issues relating to the commissioning of the system but this was due to the Fronius components not communicating with the online portal. However Grant was committed to resolving the issue until completed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "91261",
+      "reviewer_name": "Neil",
+      "reviewer_location": "NSW - 2230",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2230",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Grant from Mako Solar provided a compeditive quote, with all the relevant details that we required of the job. They were prompt in getting the job underway and carried out a high quality installation, considering the difficult logistics of connecting the system to a remote meterboard. The result was esthetically pleasing with regard to hidden ducting and inverter location. They left the job site clean.Once the installation was complete, Grant came over to run through the particulars of the Solaredge app and gave good advice on solar feed in tariffs. He also upgraded the system to allow remote individual panel monitoring at no extra cost. Grid connection was done promptly.Overall, we found their installation excellent.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "9kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Qcells",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

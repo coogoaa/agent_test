@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dci-industries-pty-ltd/",
+  "scraped_at": "2025-11-26T13:32:37.620281",
+  "company_info": {
+    "company_name": "DCI Industries Pty Ltd",
+    "electrical_contractor_license": "NSW: 480912C, VIC: REC 31407",
+    "contact_phone": "02 4315 3890",
+    "website_url": "https://dciindustries.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14337_8bfe424aca8c456cecf4ce378c17fefc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14337_9ac7dd22d4c60c78a07a6a2c1fbc750b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14337_906e0e871e45ec1279d56196cfc1d66a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14337_6516b3682df158c51e9e3ca16722a3b2.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": true,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

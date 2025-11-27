@@ -1,0 +1,234 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/island-energy-qld-pty-ltd/",
+  "scraped_at": "2025-11-26T14:50:32.565794",
+  "company_info": {
+    "company_name": "Island Energy Qld Pty Ltd",
+    "abn_number": "14623099203",
+    "acn_number": "623099203",
+    "contact_phone": "1300 534 110",
+    "website_url": "https://www.islandenergy.com.au/locations/qld-noosa-solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14399_1c1fd71ab5a09af8e8afdc0f660d19bd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14399_dc240c732d61ccc13441ec5641f1174c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14399_71e927f837e416c83c866d179b37fcb1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14399_6991cfa17ffd9d477ac0920a89f2544c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14399_23dd884af39f10435006e8b4b4270617.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "27 Nov 2017Island Energy Qld Pty Ltd",
+      "abn_company_name": "Island Energy Qld Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "27 Nov 2017Island Energy Qld Pty Ltd",
+      "acn_company_name": "Island Energy Qld Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.83,
+    "customer_service_rating": 4.83,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "96240",
+      "reviewer_name": "Janice",
+      "reviewer_location": "QLD - 4600",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4600",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I found the whole experience really good. From Julie visiting the following day after my inquiry through to getting the quote and follow up phone call, then the installation which was finished very quickly, the guys cleaned up as they were going and they were really helpful and friendly. Well done everyone.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "75430",
+      "reviewer_name": "Tony",
+      "reviewer_location": "QLD - 4567",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4567",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "quoting process OK.   installation Polite, Tidy, Punctual.   CS. Connection OK.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "72695",
+      "reviewer_name": "David",
+      "reviewer_location": "QLD - 4570",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4570",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales quote  was very punctual, they arrived the day after the initial contact call was made, viewed the power bill and were very informative on what we would save and the total cost of the system. The sales person was well versed in all details regarding solar.Because they were to busy to do the install in december  they kept the price at 2019 level with the rebate at 2019 level.The install was done as their first job for 2020, they arrived at 0800 and it was completed by their own staff by 3pm all up and working.The installers were polite ,informative and very tidy there was no mess left behind.I was very impressed with the customer service,the staff knew what they were doing and nothing was too much trouble. They organised the grid connection and informed us of all that was required to get connected to the grid.I very impressed with the service and would recomend this company to anyone wishing to have Solar installed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LG",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "61849",
+      "reviewer_name": "John",
+      "reviewer_location": "QLD - 4563",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4563",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-11-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "56699",
+      "reviewer_name": "Marnix",
+      "reviewer_location": "QLD - 4573",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4573",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Island Energy went through different options, looked at our usage and offered a high end system that perfectly matched our needs at a competitive price.Install was fairly painless, with great communication about progress and alterations during the job.They were the only ones that mentioned grinding of roof tiles for mounting the panels.We now have a 8.2 KW Fronius inverter with 27 Longi 300 W panels. Including smart metering.At peak, we are generating 7.5 KWI can highly recommend Island Energy - Noosa!",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "61694",
+      "reviewer_name": "Jason",
+      "reviewer_location": "QLD - 4565",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4565",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-03-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great company, did everything they said they would. Excellent installers, polite, professional and on time. System has been producing around 23kw per day since we installed it. Very happy.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "Under $3000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Qcells logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/grow-energy/",
+  "scraped_at": "2025-11-26T14:04:49.691467",
+  "company_info": {
+    "company_name": "Grow Energy",
+    "contact_address": "Cheltenham, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.4,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.33,
+    "installation_rating": 2.33,
+    "customer_service_rating": 3.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "92856",
+      "reviewer_name": "Dave",
+      "reviewer_location": "VIC - 3806",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3806",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After spending a lot of time researching I selected Grow Energy to supply and install my system, as I had some shading issues I insisted on optimisers and ended up with a 6.6kW SolarEdge system with 20x JASolar JAM60S10 panelsThe sales experience was excellent, they really seemed to know his stuff and answered all of my questions clearly and to the point, he actually wanted me to spend less than I ended up spendingOn installation day all went very well and the electrician that did the install actually did a very good job from what I can see, they fixed some previous issues with wire sizes in the fuse box and cared about the look and positioning of the components as expected.My only issue ended up being from a couple of the labourers he used when they broke some tiles and did not tell me opting instead to attempt to silicone many of the cracks, this ended up creating issues with water leaks.They did do the right thing and ultimately had all of the panels lifted while the roof was inspected and repaired by a tiler, we have had no issues since.My only ongoing point of dissatisfaction is that the SolarEdge system includes monitoring and for some reason the installer does not seem to be able to get the physical layout to represent properly s if I end up with a poorly performing panel I will not know which one it is.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    },
+    {
+      "review_id": "63027",
+      "reviewer_name": "Bruce",
+      "reviewer_location": "VIC - 3193",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3193",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-04-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I specifically asked for monitoring that did not go off-site but the Enphase system supplied uploaded all data to the Enphase servers. The installer, DT electrical, also retained login details to our system.After installation, the monitoring figures made no sense. It took 2 months and a phone call to Enphase to get an installer back. They still got it wrong so the Enphase monitoring is useless. They installed a neighbourâ€™s system at the same time and put the consumption and panel output meters on the same wire, so they are always identical.The installer claimed the system monitoring was very secure but then read out his installer login and password over a phone on loudspeaker so now I have access to over 50 other systems.In the end, I blocked access from our system to the internet to protect our privacy.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "61867",
+      "reviewer_name": "Anon",
+      "reviewer_location": "VIC - 3381",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3381",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-03-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 4.0,
+      "system_size": "More than 6kW",
+      "system_cost": "more than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

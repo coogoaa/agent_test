@@ -1,0 +1,231 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/geelong-coast-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T14:17:11.482073",
+  "company_info": {
+    "company_name": "Geelong Coast Electrical Pty Ltd",
+    "abn_number": "22685523531",
+    "acn_number": "685523531",
+    "contact_phone": "0493 146 872",
+    "website_url": "https://sunnysolar.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13912_a2ef406e2c2351e0b9e80029c909242d.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13912_e45ee7ce7e88149af8dd32b27f9512ce.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13912_7d0665438e81d8eceb98c1e31fca80c1.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13912_751d31dd6b56b26b29dac2c0e1839e34.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13912_aea64d5f10db9c16263da352b3437186.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13912_c8fc9862e3cf836d23dcf56d7595a658.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13912_74678e587606735b047a1c01b4f1c58f.png"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e3b20150b353cc8c3566caa425aaf5680.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "20 Mar 2025Geelong Coast Electrical Pty Ltd",
+      "abn_company_name": "Geelong Coast Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "20 Mar 2025Geelong Coast Electrical Pty Ltd",
+      "acn_company_name": "Geelong Coast Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.83,
+    "installation_rating": 4.83,
+    "customer_service_rating": 5.0,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "135046",
+      "reviewer_name": "Adrienne",
+      "reviewer_location": "VIC - 3226",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3226",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mat was super responsive but friendly and didn’t pressure us. He came to meet us on a Sunday and made it all really easy to understand.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "I don't know",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "134376",
+      "reviewer_name": "PAUL",
+      "reviewer_location": "VIC - 3223",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3223",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Matt was very prompt and easy to deal with. He explained everything in full detail, his quote was very professional and extremely detailed. When the team installed the new system they were very polite, obviously very knowledgeable and they even cleaned the whole site inside and out when the job was finished. Can't recommend them highly enough.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "129311",
+      "reviewer_name": "Sandra",
+      "reviewer_location": "VIC - 3227",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3227",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Wonderful working with Sunny Solar, a local company that has met all my needs. From the visit by Rick who runs the team that installed the system to the administration team who completed all the paperwork required after the install. The company worked with me to arrange installation of the system in conjunction with having a new roof istalled prior to the solar. They attended to decommission my old system and then reattened once the roof was installed without any additional cost.  A piece of the ridging was damaged during the install. However, I was impressed with the honesty of Sunny Solar who contacted the roofer and advised this needed to be repaired and reduced the cost of the repair from my overall cost. The Powercore inspector quickly signed off on the install and commented on the quality of the work completed by Sunny Solar compared to other installations he has seen. Is reassuring to know I have dealt with and supported a local company and electricians.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "129184",
+      "reviewer_name": "Jacobus",
+      "reviewer_location": "VIC - 3222",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3222",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great quoting process, came out and checked out our crazy roof. Clear quoting process and answered all my questions. Installation crew were really great, polite, happy and follow up after installation was great",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/e3b20150b353cc8c3566caa425aaf5680.jpeg"
+      ]
+    },
+    {
+      "review_id": "126747",
+      "reviewer_name": "Gary",
+      "reviewer_location": "VIC - 3223",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3223",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Rick and the team were fantastic from the first meeting and quote to the several other requests and quotes nothing was a problem. To the final install on the day as promised great job by Sunny solar thanks guys.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "123222",
+      "reviewer_name": "Gavan",
+      "reviewer_location": "VIC - 3226",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3226",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-06-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All three installation companies sent reps on site to quote for our 6.6kw system. After receiving the quotes I created a spreadsheet to compare like for like system quotes. I contacted all three again before selecting Sunny Solar for the job. They weren’t the cheapest but felt they had my long term needs in mind and were the only ones to offer a new switchboard, instead of an add-on, which made the decision easier. We chose their recommended Trina solar panels and Sungrow inverter. Sales rep Mark was also most helpful assisting with black framed panels and rails to give us a matching finish on our black tiled roof. Kirsten contacted me several times to confirm dates and times, as did Rick and his team of installers re arrival time on the day and I was aware of every step of the installation Rick showed me how to i use the iSolar app which gives live info of energy being generated and used. The job was completed safely with no mess left behind. Overall the whole team at Sunny Solar were a pleasure to deal with and I have no hesitation recommending them to anyone on the Bellarine looking to install a solar panel system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,105 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/gecko-solar-energy/",
+  "scraped_at": "2025-11-26T14:16:17.341059",
+  "company_info": {
+    "company_name": "Gecko Solar Energy",
+    "abn_number": "82340098581",
+    "acn_number": "670774848",
+    "contact_phone": "1300 443 256",
+    "website_url": "https://www.geckosolarenergy.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7a412497a717496992f96da447d699fe0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4719700ca1fe26fe2843b235551ee94d1.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7a412497a717496992f96da447d699fe0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4719700ca1fe26fe2843b235551ee94d1.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "24 Aug 2023The Trustee For Mata Family Trust",
+      "abn_company_name": "The Trustee For Mata Family Trust"
+    },
+    "acn_details": {
+      "acn_active_since": "24 Aug 2023Gecko Solar Energy Pty Ltd",
+      "acn_company_name": "Gecko Solar Energy Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "131313",
+      "reviewer_name": "Cathy",
+      "reviewer_location": "VIC - 3977",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3977",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mark from Gecko listened carefully to what I was requesting and provided great advice and recommendations to give me what I wanted.  Their quote was very competitive and they were very responsive to my questions and requests.  We installed an upgrade to our solar panels, a Sungrow inverter and a Sungrow battery.  We also installed a Schneider EV charger.  It took only 4 weeks from the time we accepted the quote to our installation date.The installation was done by Magma Electrical and they were on time, friendly and helpful.  The work was done to a very high standard with minimal disruption to our power supply.  They had all the system elements installed in a few hours and had finished all the connections and setup within 8 hours.  They helped me set up the apps for the battery/inverter and the EV charger and demonstrated how to use them.  They also went through the installation with me and explained how to disconnect power to the various element and to the house when needed.Everything is working as expected and I couldn't be happier with the result.  Great work Gecko and Magma",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_schneider.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7a412497a717496992f96da447d699fe0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7a412497a717496992f96da447d699fe0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4719700ca1fe26fe2843b235551ee94d1.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4719700ca1fe26fe2843b235551ee94d1.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Schneider logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_schneider.png"
+    }
+  ]
+}

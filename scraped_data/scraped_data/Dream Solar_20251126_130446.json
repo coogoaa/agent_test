@@ -1,0 +1,147 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dream-solar/",
+  "scraped_at": "2025-11-26T13:04:46.691060",
+  "company_info": {
+    "company_name": "Dream Solar",
+    "contact_address": "Milton, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7ce36119f6bca9689975ee1068a142f70.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2f78007a956127f57b68535ba4d8cc081.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9e74702df5aba1f351db077139cc106c2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/072a253b6b2030adc133d138cf24c6263.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/33a6415cd9fb919be8982f791d2e972a4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/445271217f1f30062073f97cd69356715.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7ce36119f6bca9689975ee1068a142f70.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2f78007a956127f57b68535ba4d8cc081.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9e74702df5aba1f351db077139cc106c2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/072a253b6b2030adc133d138cf24c6263.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/33a6415cd9fb919be8982f791d2e972a4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/445271217f1f30062073f97cd69356715.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "83522",
+      "reviewer_name": "Lisa",
+      "reviewer_location": "QLD - 4165",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4165",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We found Dream Solar very professional...Sam was very helpful, knowledgable about the products, customer followup and service was excellent.  Highly recommend",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "71557",
+      "reviewer_name": "Jessica",
+      "reviewer_location": "QLD - 4034",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4034",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had a great experience with Dream Solar and would highly recommend them.Working for an electricity distributor I have seen first hand the effects of dodgy workmanship and \"pop up\" solar companies. I was a little cautious using this company given it seemed fairly new. However the salesman was very experienced and worked very hard to give me a high quality system at a reasonable price. He was very knowledgeable and offered advice on the pros and cons on all of the different options. He was very patient with me as I asked a thousand questions about the process overall, warranties and the different panel and inverter options. I was very honest with him about my reservations and he was very understanding, considerate and worked hard to alleviate my concerns. The price I received beat 7 of the competitors' quote I had received.The installers were very polite and clean. If I wasn't home I wouldn't have known they had been there. I wish all tradies cleaned up after themselves like these guys did! They were also very helpful and ran me through how to use the inverter once it had been installed.The system has been operating for two and a half months so far without fault. I have installed a 5kW Fronius inverter and Canadian panels. I have been averaging high 30s, low 40s kWh per day. I am extremely happy with the results!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "65231",
+      "reviewer_name": "Gregory",
+      "reviewer_location": "QLD - 4078",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4078",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-06-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had a great experience working with Dream Solar. Wonderful sales support, excellent installers. I couldn't fault anything with their quotation and quality control in terms of installation.All standards adhered to. Dream Solar quoted a better, more affordable solution than a competitor I was on the point of signing up with.Now I have an 11kW 3 phase system with 315W KuPower Canadian Solar panels producing power from low-light dawn till dusk. The installation team left no mess behind and were polite and courteous.Happy to give Dream Solar a 5 from 5 and thoroughly recommend them to residential and commercial customers in the greater Brisbane area.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7ce36119f6bca9689975ee1068a142f70.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/7ce36119f6bca9689975ee1068a142f70.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2f78007a956127f57b68535ba4d8cc081.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2f78007a956127f57b68535ba4d8cc081.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9e74702df5aba1f351db077139cc106c2.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9e74702df5aba1f351db077139cc106c2.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/072a253b6b2030adc133d138cf24c6263.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/072a253b6b2030adc133d138cf24c6263.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/33a6415cd9fb919be8982f791d2e972a4.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/33a6415cd9fb919be8982f791d2e972a4.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/445271217f1f30062073f97cd69356715.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

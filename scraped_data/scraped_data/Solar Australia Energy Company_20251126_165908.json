@@ -1,0 +1,160 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-australia-energy-company/",
+  "scraped_at": "2025-11-26T16:59:08.284721",
+  "company_info": {
+    "company_name": "Solar Australia Energy Company",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cbb23c13dedae0f41a395f4c51fa66b70.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cbb23c13dedae0f41a395f4c51fa66b70.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "107248",
+      "reviewer_name": "Tyson",
+      "reviewer_location": "VIC - 3216",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3216",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had our system installed around 12 months ago with these guys. While they were ok to deal with in the lead-up, when it came time to install there were several changes made at the last minute. They weren’t able to install as many panels as they initially said, they failed to pass on to the installers that there should be optimisers on our panels, and the brand of inverter had to be changed due to their own stock issues. If we had known all of these changes would be made, we would have gone with another provider instead.Most frustratingly though, the sales guy also promised a consumption monitor would be included in our package. Apparently he didn’t have authorisation for this but the manager agreed to honour it. However, despite over a dozen attempts to follow up on this and contact the manager, they stopped answering my calls, emails and texts and ultimately didn’t provide it which was really disappointing.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "95450",
+      "reviewer_name": "Duke",
+      "reviewer_location": "VIC - 3228",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3228",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-11-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Don was extremely helpful with all my questions.Fast installationTidy installationGreat installation teamFantastic customer serviceCurrently sorting grid connection papers and inspection of installationFast text response to queries",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Tindo Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "Hybrid",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "90226",
+      "reviewer_name": "Joy McCallum",
+      "reviewer_location": "VIC - 3555",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3555",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting process was fast, pleasant and reliable.Installation only took 1 day to fully complete with friendly staff, always polite, neat and tidy.Customer service -Such a pleasure to deal with! Professional, Puts their customers first & very helpful. Goes above and beyond. Helps & does everything for you.Couldn't have asked for an easier better experience",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3.3kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cbb23c13dedae0f41a395f4c51fa66b70.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/cbb23c13dedae0f41a395f4c51fa66b70.jpg"
+      ]
+    },
+    {
+      "review_id": "90224",
+      "reviewer_name": "Vaughan",
+      "reviewer_location": "VIC - 3555",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3555",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-05-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar Australia Energy Company have installed a 6.6kw east and west facing system, with 5kw goodwe inverter, and it has been great.Have had no problems in the first three months, and the service and communication, and guidance through the process has been good, including checking in to see that the system is operating as expected.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

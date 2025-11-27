@@ -1,0 +1,162 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ivyndi-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T14:53:03.741437",
+  "company_info": {
+    "company_name": "Ivyndi Energy Pty Ltd",
+    "contact_phone": "0419 332 068",
+    "website_url": "https://www.facebook.com/people/Ivyndi-Energy/100069568105998/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13777_575ee7217c090cd7864b66f11fe8f040.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13777_8ec4a3e542d09796339234617fafdaab.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13777_418188d483b14b7ae9079588e75947c7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13777_f4830d0dfc016e90c9c7259afd672eb0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13777_401b6699f78951dc765c9c16c0e69605.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13777_1bbb7aa7da91621e64daed5d85f0bbae.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13777_e9420720f82a6982697ce1646af55ae6.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/31d8a8dd8475b5e8d7d167f7340190d20.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f9d39321dfbd89fa0863f383cdf15b5c5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f45a6d03a6c9364a54cb52c995b249d57.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "122758",
+      "reviewer_name": "RICHARD",
+      "reviewer_location": "VIC - 3840",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3840",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-06-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The first 2 quotes were basically identical & supplied the same outcome. Sam arrived on site with a new option which met exactly what we needed & for less outlay. He & his team arrived onsite on time & everyone obviously had a clear plan. All works completed in under 8 hours & whole area cleaned up. Couldn't be more impressed-Professionals. Received a quote on the 16/4 & system fully installed on the 3/05",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/31d8a8dd8475b5e8d7d167f7340190d20.JPG"
+      ]
+    },
+    {
+      "review_id": "114053",
+      "reviewer_name": "Carlo",
+      "reviewer_location": "VIC - 3844",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3844",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sam came to the house and went through the process of installing a Solar System.Easy install and professional. Installed as per Victorian Regulation. On time and clean.Great customer service didn't have to anything but install app on phone.2 weeks later solar conected to grid. Very friendly system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f9d39321dfbd89fa0863f383cdf15b5c5.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f45a6d03a6c9364a54cb52c995b249d57.jpg"
+      ]
+    },
+    {
+      "review_id": "113098",
+      "reviewer_name": "Paul",
+      "reviewer_location": "VIC - 3840",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3840",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sam and the team were friendly and easy to deal with.  Good communication throughout the quoting process and always happy to answer any questions we had.  All the paper work was taken care of which also made the process easy.Installation was done on time and to an excellent standard, with faultless workmanship leaving a professional and clean system.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

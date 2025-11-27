@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/cool-and-comfy/",
+  "scraped_at": "2025-11-26T13:05:59.473581",
+  "company_info": {
+    "company_name": "Cool and Comfy",
+    "contact_address": "SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.3,
+    "value_for_money_rating": 2.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "56131",
+      "reviewer_name": "Anony",
+      "reviewer_location": "SA - 5021",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5021",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Being a non Adelaide customer, service is pathetic. One of our inverters has failed twice within 4 years and we have to wait until there is enough reason for them to come(ie: plenty of work) and replace it (still in warranty period). I imagine most Adelaide companies would treat country customers the same. If you live in the country, be warned!",
+      "value_for_money_rating": 2.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.25,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

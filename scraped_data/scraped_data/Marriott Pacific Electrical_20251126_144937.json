@@ -1,0 +1,112 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/marriott-pacific-electrical/",
+  "scraped_at": "2025-11-26T14:49:37.719671",
+  "company_info": {
+    "company_name": "Marriott Pacific Electrical",
+    "contact_phone": "0432 271 305",
+    "website_url": "https://marriottpacificelectrical.com",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_0a7279748b22d9af87aefe6f252d290a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_3537949092d8c7b80aef11b52f79ac88.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_9f18245e85303b8b3304dbaf0f43cc79.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_1c2070f22b65fd5b57eccde377d4d086.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_0a7dec78c1e3fd54959a29998e21e5ac.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_7b66c26d2aee3ff8587e3562ff9d73fa.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_596f9a93737ca277b49e030976ffc7a6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_2f31309f1ccf2472cbe7977f52cff397.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_8b2eef148fedf051e7e075d5a0f217ce.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_5aaa1a744d015258af74ef49b80d30e2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12515_0f3dc693f272708900ad1f17669ceed5.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "76949",
+      "reviewer_name": "Martin",
+      "reviewer_location": "NSW - 2519",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2519",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-05-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The sales and quotation process was conducted via a separate company (Era Gaia) who were extremely helpful throughout the whole process.The installation went really well; Scott and his small team were fantastic! Those boys certainly graft!They were punctual, polite,affable, tidy, and kept me informed throughout the whole installation process, can't recommend them highly enough!They removed the entirety of the old solar system and installed a totally new system in a day.The grid connection was organised by Era Gaia, with Origin due to visit next week to check my current Smart meter.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "SolarWatt",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solarwatt.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "71028",
+      "reviewer_name": "Michael",
+      "reviewer_location": "NSW - 2260",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2260",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From start to fini this process which I thought was going to be stressful was not one bit because of Scott's time he took to listen and answer any questions I had. His work was 5stars. I could not recommend highly enough.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Delta",
+      "battery_brand": "Aquion",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "battery_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_aquion.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarWatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solarwatt.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

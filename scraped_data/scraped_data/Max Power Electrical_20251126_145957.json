@@ -1,0 +1,121 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/max-power-electrical/",
+  "scraped_at": "2025-11-26T14:59:57.039878",
+  "company_info": {
+    "company_name": "Max Power Electrical",
+    "contact_address": "Mill Park, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/eb159382d6530608476cd8a94545bd9a0.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0d88484cd9b93072733893b1605c11dd1.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5bed3282855c266c3f502d1bafb0dfbc2.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/eb159382d6530608476cd8a94545bd9a0.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0d88484cd9b93072733893b1605c11dd1.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5bed3282855c266c3f502d1bafb0dfbc2.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "140012",
+      "reviewer_name": "Ross",
+      "reviewer_location": "VIC - 3752",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3752",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Selecting the correct system was the hardest part of the whole operation however through this with the assistance of MaxPower it was smooth sailing.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "128850",
+      "reviewer_name": "Hugh",
+      "reviewer_location": "VIC - 3156",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3156",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Michael went the extra mile to include monitoring and inclusion of our previous 16 year old system in this install, something that was too difficult for others. While the cost of this system was higher, he was able to clearly explain it’s advantages. He was present and in charge on the days of install. The installation was done neatly and is functioning very well. The only glitch is that some ceiling insulation was disturbed and not refitted.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "Enphase Energy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_enphase-energy.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/eb159382d6530608476cd8a94545bd9a0.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/eb159382d6530608476cd8a94545bd9a0.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0d88484cd9b93072733893b1605c11dd1.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/0d88484cd9b93072733893b1605c11dd1.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5bed3282855c266c3f502d1bafb0dfbc2.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5bed3282855c266c3f502d1bafb0dfbc2.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

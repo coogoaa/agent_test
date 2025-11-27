@@ -1,0 +1,163 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solarmaxx/",
+  "scraped_at": "2025-11-26T17:18:18.572791",
+  "company_info": {
+    "company_name": "Solarmaxx",
+    "contact_address": "Kings Park, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.2,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.75,
+    "installation_rating": 3.75,
+    "customer_service_rating": 3.5,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "138655",
+      "reviewer_name": "James",
+      "reviewer_location": "NSW - 2750",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2750",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Previously used Solarmaxx to install solar panels and couldn't fault them, so when it was time to add a battery I went back to them, a lot more screwing you around this time, seems they have changed for the worse in the past 12 months.My issue is I was told in house installer but they sent sub contractor after multiple times telling me it's their guy coming.After this post installation had minor issue and was directed to their support person Jacob who tells me no there is no problem, I had to follow up with the sub contractor myself as he completely ignored my problem, turns out was minor calibration issue but I had to fix it myself over phone with sub contractor.Now few months later I discover they made an error in the installation, once again support guy Jacob tells me no it's not a problem, after researching it myself with no help from them I can confirm installer made a mistake, was told I need to pay $350 to fix this mistake and I should have told the contractor at time of install to do it differently, I'm not qualified to know about this issue and the installer never asked me.Jacob their support guy tells me give him remainder of the week he will sort something out, I wait 1.5 weeks and he never gets back to me. Contact him and I get no reply, he is just ignoring me.These guys were a good company but have become to difficult to work with and I could not recommend them to anyone, also pricing was far more competitive in the past.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Solis",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 2.5,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "battery_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "134687",
+      "reviewer_name": "Phil",
+      "reviewer_location": "WA - 6036",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6036",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting was great, they were happy to change the specified panels to one's I preferred for only and additional $100.Installation went smoothly after being rained off on the first date booked, was a little unhappy at being asked to pay an additional $200 for installing a 63amp MCB, a part which can be bought for less than $20, but we agreed on $100They arranged everything to do with the grid connection all in all very happy with the whole experience.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    },
+    {
+      "review_id": "130776",
+      "reviewer_name": "Denis",
+      "reviewer_location": "QLD - 4655",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4655",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-02-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "could not fault any of there processes, scheduling perfect, installation well organised 3 man team, completion and connection seamlessly completed energy provider exceptional.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "30kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "111738",
+      "reviewer_name": "Peter",
+      "reviewer_location": "NSW - 2290",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Overall happy with the installation but there's is a problem with the Solis monitoring app which is being worked on",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Solis logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+    },
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

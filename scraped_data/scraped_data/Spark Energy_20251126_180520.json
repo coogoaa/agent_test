@@ -1,0 +1,38 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/spark-energy/",
+  "scraped_at": "2025-11-26T18:05:20.465271",
+  "company_info": {
+    "company_name": "Spark Energy",
+    "contact_phone": "1300 785 525",
+    "website_url": "https://sparkenergyaustralia.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14489_ba4a93a46ffc721caba3e69f3e74b771.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14489_16f6f5a6800aad465577d11926f9b62a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14489_525fe9c8f24e4c526af6bfd074a8c724.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14489_f52c6c42e3770a45085a9222c8bdd9db.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14489_b15083a8487065dfd872f763addf14fb.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14489_66c265fb4e261aeb59086db337a10242.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

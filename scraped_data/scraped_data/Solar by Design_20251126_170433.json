@@ -1,0 +1,125 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-by-design/",
+  "scraped_at": "2025-11-26T17:04:33.675927",
+  "company_info": {
+    "company_name": "Solar by Design",
+    "contact_address": "Salisbury Plain, SA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11833_b2bf20565e3b6d5489932a4685035ae4.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11833_5719d3dad4bab734a7f7bfe42b0d9e95.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11833_fa455cbfe596137f75b7467680c9eb04.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11833_bd750dbb2a06fb3a7e566925161670db.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.2,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.33,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.33,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "56994",
+      "reviewer_name": "Adrian",
+      "reviewer_location": "SA - 5254",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5254",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Zeversolar",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_zeversolar.png"
+      ]
+    },
+    {
+      "review_id": "55446",
+      "reviewer_name": "Phil",
+      "reviewer_location": "SA - 5092",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5092",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-11-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "50831",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5091",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5091",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-08-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "Zeversolar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_zeversolar.png"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV样本测试</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-8">
+    <div class="max-w-6xl mx-auto">
+        <h1 class="text-3xl font-bold mb-6">CSV样本数据测试</h1>
+        
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-bold mb-4">上传CSV文件</h2>
+            <input type="file" id="csvFile" accept=".csv" class="mb-4">
+            <button id="loadBtn" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                加载并测试
+            </button>
+        </div>
+        
+        <div id="results" class="space-y-4"></div>
+    </div>
+
+    <script>
+        function parseCSV(text) {
+            const lines = text.trim().split('\n');
+            const houses = {};
+            
+            for (let i = 1; i < lines.length; i++) {
+                const parts = lines[i].split(',');
+                if (parts.length < 4) continue;
+                
+                const houseId = parts[0].trim();
+                const slopeId = parts[1].trim();
+                const aspect = parseFloat(parts[2]);
+                const nums = parseInt(parts[3]);
+                
+                if (!houses[houseId]) houses[houseId] = [];
+                
+                houses[houseId].push({
+                    id: slopeId,
+                    aspect: aspect,
+                    max: nums,
+                    score: calculateScore(aspect)
+                });
+            }
+            
+            return houses;
+        }
+
+        function calculateScore(aspect) {
+            let diff = Math.abs(aspect - 0);
+            if (diff > 180) diff = 360 - diff;
+            return Math.max(0, 100 - (diff / 180) * 100);
+        }
+
+        document.getElementById('loadBtn').addEventListener('click', async () => {
+            const fileInput = document.getElementById('csvFile');
+            if (!fileInput.files[0]) {
+                alert('请先选择CSV文件');
+                return;
+            }
+            
+            const text = await fileInput.files[0].text();
+            const houses = parseCSV(text);
+            const houseIds = Object.keys(houses).slice(0, 10); // 只测试前10个
+            
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            
+            houseIds.forEach(houseId => {
+                const slopes = houses[houseId];
+                const totalPanels = slopes.reduce((sum, s) => sum + s.max, 0);
+                const totalKw = (totalPanels * 0.44).toFixed(2);
+                const validSlopes = slopes.filter(s => s.max > 0);
+                
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-lg shadow p-6';
+                card.innerHTML = `
+                    <h3 class="text-lg font-bold mb-2">房屋 ID: ${houseId}</h3>
+                    <div class="grid grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <p class="text-sm text-gray-600">总坡面数: <span class="font-bold">${slopes.length}</span></p>
+                            <p class="text-sm text-gray-600">可用坡面: <span class="font-bold">${validSlopes.length}</span></p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600">总面板数: <span class="font-bold">${totalPanels}</span></p>
+                            <p class="text-sm text-gray-600">总容量: <span class="font-bold">${totalKw} kW</span></p>
+                        </div>
+                    </div>
+                    <details>
+                        <summary class="cursor-pointer text-blue-600 hover:text-blue-800 text-sm">查看坡面详情</summary>
+                        <div class="mt-2 overflow-x-auto">
+                            <table class="min-w-full text-xs">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="px-2 py-1 text-left">坡面ID</th>
+                                        <th class="px-2 py-1 text-left">方位角</th>
+                                        <th class="px-2 py-1 text-left">面板数</th>
+                                        <th class="px-2 py-1 text-left">评分</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${slopes.map(s => `
+                                        <tr class="${s.max > 0 ? 'bg-green-50' : 'bg-gray-50'}">
+                                            <td class="px-2 py-1">${s.id}</td>
+                                            <td class="px-2 py-1">${s.aspect.toFixed(2)}°</td>
+                                            <td class="px-2 py-1 font-bold">${s.max}</td>
+                                            <td class="px-2 py-1">${s.score.toFixed(1)}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </details>
+                `;
+                resultsDiv.appendChild(card);
+            });
+        });
+    </script>
+</body>
+</html>

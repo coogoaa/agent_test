@@ -1,0 +1,117 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/panel-review-supplier-name-withheld/",
+  "scraped_at": "2025-11-26T16:29:44.406220",
+  "company_info": {
+    "company_name": "Panel Review Supplier Name Withheld",
+    "contact_address": "ACT",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.6,
+    "value_for_money_rating": 2.67,
+    "system_quality_rating": 2.67,
+    "installation_rating": 2.67,
+    "customer_service_rating": 2.33,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "39070",
+      "reviewer_name": "Simon",
+      "reviewer_location": "VIC - 3551",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3551",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-10-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Installer went bust and i have had 3 inverters - so many cowboys out there - won't make the same mistake again",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "Shanghai Solar Energy S and T",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.25,
+      "quality_of_system_rating": 2.0,
+      "panel_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_shanghai-solar-energy-s-and-t.png"
+      ]
+    },
+    {
+      "review_id": "38699",
+      "reviewer_name": "Erosh",
+      "reviewer_location": "VIC - 3810",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3810",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-09-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+      ]
+    },
+    {
+      "review_id": "34102",
+      "reviewer_name": "David",
+      "reviewer_location": "QLD - 4207",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4207",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-03-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everyone who has had solar panels installed need to check all their panels as they may have a BIG PROBLEM with SNAIL TRAILS AND MICRO CRACKS, and DO NOT cover this under their WARRANTY. I have 24 panels and 16 of them have this PROBLEM. BE CAREFUL USING RENESOLA.",
+      "value_for_money_rating": 2.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Renesola",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.5,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_renesola.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Shanghai Solar Energy S and T logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_shanghai-solar-energy-s-and-t.png"
+    }
+  ]
+}

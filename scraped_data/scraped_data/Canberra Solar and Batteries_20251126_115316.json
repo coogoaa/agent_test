@@ -1,0 +1,31 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/canberra-solar-and-batteries/",
+  "scraped_at": "2025-11-26T11:53:16.274600",
+  "company_info": {
+    "company_name": "Canberra Solar and Batteries",
+    "contact_phone": "0407 337 478",
+    "website_url": "http://www.canberrasb.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13698_27a6b4f864643d68fb7c21f6327c9fbe.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13698_7ff38884b19dd00c1236ff3926fbe01f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13698_cb73ae8ebc35a171445518f84a5be554.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13698_cde40a80d25b568af98e82f9751953e4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13698_93909fd525a2007878745a785f727f14.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13698_20d48da59ce988cc41669c476a369792.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

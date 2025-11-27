@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/hughes-electrical-group/",
+  "scraped_at": "2025-11-26T13:54:37.658276",
+  "company_info": {
+    "company_name": "Hughes Electrical Group",
+    "contact_phone": "0437 206 869",
+    "website_url": "https://www.hugheselectrical.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14365_df8bbe205cedaa66a39b95f4ae58b6a9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14365_f26618e2073ad2b5445e8105443cf180.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14365_094bb9396f95d2d182f0b19fd8c158f1.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14365_7a8fec55c2f5bbf7658fdee8a69c9e63.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

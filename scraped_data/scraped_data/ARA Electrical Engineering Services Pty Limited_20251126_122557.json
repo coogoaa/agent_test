@@ -1,0 +1,62 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ara-electrical-engineering-services-pty-limited/",
+  "scraped_at": "2025-11-26T12:25:57.804468",
+  "company_info": {
+    "company_name": "ARA Electrical Engineering Services Pty Limited",
+    "contact_address": "Minto DC, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "1074",
+      "reviewer_name": "Christine",
+      "reviewer_location": "NSW - 2530",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2530",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-10-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The service and installation was excellent. Once I made the decision it took 7 days to install and another 7 days to get connected to the grid. Many of my neighbors have waited more than 4 months and nothing.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Sorry don't know (Other)",
+      "inverter_brand": "Conergy",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_conergy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Conergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_conergy.png"
+    }
+  ]
+}

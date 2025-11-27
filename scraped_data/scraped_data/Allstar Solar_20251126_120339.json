@@ -1,0 +1,123 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/allstar-solar/",
+  "scraped_at": "2025-11-26T12:03:39.161893",
+  "company_info": {
+    "company_name": "Allstar Solar",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": null
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 3.67,
+    "installation_rating": 3.33,
+    "customer_service_rating": 3.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "107873",
+      "reviewer_name": "Jo",
+      "reviewer_location": "VIC - 3030",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Original installer not answering phone and sungrow are no help at all",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 1.5,
+      "quality_of_system_rating": 1.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "86028",
+      "reviewer_name": "Alina",
+      "reviewer_location": "NSW - 2170",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2170",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-01-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was quoted on the 5/1 and paid a deposit on the 8th I was well informed about the processed and Adrian the sales guy answered my questions clearly and was well informed. I was given a week notice on when the installation was to take place and the system was installed within the day. The system is producing more than the daily average I was told however it's been very hot the last few days.Im happy with the outcome and cant wait to see the savings.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "72863",
+      "reviewer_name": "John",
+      "reviewer_location": "SA - 5251",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5251",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Really professional team. It took a while to get it installed but that was due to South Australia Power Networks taking about 6 weeks to approve it so entirely out of All States hands. Really happy with the system and the team couldnt be easier to work with.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Huawei",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

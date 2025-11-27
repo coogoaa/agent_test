@@ -1,0 +1,85 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solarterra/",
+  "scraped_at": "2025-11-26T17:26:43.790791",
+  "company_info": {
+    "company_name": "Solarterra",
+    "contact_address": "Perth, WA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d5dd09c29a6093ddabc1e3ec40ceb8c50.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f5fb1df6191989175798c4a65abfd8581.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/775495d026969f9bba35c38f0c8b523e2.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d5dd09c29a6093ddabc1e3ec40ceb8c50.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f5fb1df6191989175798c4a65abfd8581.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/775495d026969f9bba35c38f0c8b523e2.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "102702",
+      "reviewer_name": "Chris",
+      "reviewer_location": "WA - 6209",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6209",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-08-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Pretty straight forward install, but done well nonetheless.  Had a large team on the job.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d5dd09c29a6093ddabc1e3ec40ceb8c50.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/f5fb1df6191989175798c4a65abfd8581.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/775495d026969f9bba35c38f0c8b523e2.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 2 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/connect-energy-group/",
+  "scraped_at": "2025-11-26T13:01:41.013121",
+  "company_info": {
+    "company_name": "Connect Energy Group",
+    "contact_address": "QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b10e15bb1516d1c01493bda1a76467c60.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b10e15bb1516d1c01493bda1a76467c60.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "83976",
+      "reviewer_name": "Sabrina",
+      "reviewer_location": "QLD - 4075",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4075",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quoting of the system was informative they explained everything. The installation Team were very polite and efficient to repositioning the actual fit of panels on my roof so as they can't be seen from the road. Totally cleaned up the site after.There was a slight issue after install at night were some of my electricity to house had not come on?, after a phone the fellow came straight back out that night.Then when all done re internet they came back out twice to make sure all was up and running.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "87597",
+      "reviewer_name": "Sam",
+      "reviewer_location": "NSW - 2136",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2136",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From the first interaction with this company I felt at ease as I already did my homework in what I wanted to achieve and they hit the mark every time in answering very promptly and accurately with every process whether it was technical or just a silly question.In the end decided to go with a 3 phase 10kw Inverter (SE10K-AUB) with 36 x 370W Trina panels with 36 x P370 Optimisers due to shading issuesCome time for installation, Justin and his crew of merry men were polite and accommodating, punctual and thorough throughout the whole thing from start to finish.No mess left onsite to the point I noticed all cable tie clippings were never dropped off the roof to the ground but instead picked up and placed in garbage bags while they were working on the roof and all waste thrown out at the end of both days.Once meter was installed and able to be turned on, the system was programmed and setup and any issue was tackled immediately with SolorEdge tech support able to remotely assist and rectify right on the spot.Also must note that as a technical service technician I found it re-assuring that help and the wealth of knowledge and accurate diagnosis from SolarEdge at any point in time was very impressive and did I mention FAST!This attention to detail of Justin and his crew gave me the sense that they care and can honestly recommend Connect Group Solar for anyone to use them and to be assured that you'll truely get the best and also value for money that you could possibly want",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b10e15bb1516d1c01493bda1a76467c60.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

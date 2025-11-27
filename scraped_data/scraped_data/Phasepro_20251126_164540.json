@@ -1,0 +1,37 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/phasepro/",
+  "scraped_at": "2025-11-26T16:45:40.657377",
+  "company_info": {
+    "company_name": "Phasepro",
+    "contact_phone": "0414 202 010",
+    "website_url": "https://www.phasepro.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14352_40dc60dfb3eb791e3eb742d5d91bcb9c.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14352_90b6e4d568bdf914e29f83d20157d387.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14352_27b6efa2cec9adf2b2dd13a8acf4b0b3.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14352_966b431931b1d31f173041e19e483a21.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14352_8796695869e8c979223cced9d7f26144.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

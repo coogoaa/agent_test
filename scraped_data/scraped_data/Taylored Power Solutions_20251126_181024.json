@@ -1,0 +1,82 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/taylored-power-solutions/",
+  "scraped_at": "2025-11-26T18:10:24.296403",
+  "company_info": {
+    "company_name": "Taylored Power Solutions",
+    "contact_address": "Chinchilla, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b937cfd346af90f34a6cefa4ffe1207c0.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b937cfd346af90f34a6cefa4ffe1207c0.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "94771",
+      "reviewer_name": "Paul",
+      "reviewer_location": "QLD - 4413",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4413",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I got exactly what I wanted, they worked with me on all the details for a neat and efficient system. They were friendly, honest and knowledgeable, helping me work through the options of what was possible and within my budget. I also liked that I wasn’t dealing with a salesman - the person who quoted was there on the day. Highly recommend",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b937cfd346af90f34a6cefa4ffe1207c0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b937cfd346af90f34a6cefa4ffe1207c0.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hyundai Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

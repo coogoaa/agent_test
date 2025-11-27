@@ -1,0 +1,98 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/blackline-solar-and-electrical/",
+  "scraped_at": "2025-11-26T12:02:52.253188",
+  "company_info": {
+    "company_name": "Blackline Solar and Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14174_1bf6c9248b96bbe5b9e786e370f8db44.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14174_473600474a9a53600adffa6517013c34.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14174_3ab15038decafb6701bd9a13b66f1c89.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14174_419e75ba1fa0ccdca1e646260abc5fdb.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "127646",
+      "reviewer_name": "Sam",
+      "reviewer_location": "NSW - 2469",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2469",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-11-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Installation was done within the week and Josh and his team were very professional.The system was optimized to reduce my power bill.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Aiko Solar (Other)",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "127514",
+      "reviewer_name": "Paul",
+      "reviewer_location": "NSW - 2484",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2484",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I found Josh at Blackline Solar to be prompt, on time and professional in all aspects of the solar installation.Josh took the time to thoroughly explain the detailed quote and  kept in mind the aesthetics of my property.Josh and his team were a pleasure to do business with and I would highly recommend Blackline Solar to anyone considering a new solar install or upgrade",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/msa-electrical-services-pty-ltd/",
+  "scraped_at": "2025-11-26T15:39:38.500983",
+  "company_info": {
+    "company_name": "MSA Electrical Services Pty Ltd",
+    "contact_phone": "0421 644 475",
+    "website_url": "https://www.facebook.com/MSAElectricalServices",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "134540",
+      "reviewer_name": "Dennis",
+      "reviewer_location": "VIC - 3030",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-06-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Michael and the team at MSA Electrical installed a 7.48 kW LONGi solar array, an Alpha-ESS SMILE 5 hybrid inverter, and a 13.3 kWh battery at our place in Point Cook. The whole job was seamless: the panels are perfectly aligned, the cabling is tidy, and we were generating our own power by that first afternoon—the battery easily covered the evening load.A few weeks later an Alpha-ESS recall cropped up. Michael dealt with the paperwork, chased the supplier, and organised the replacement before we even had time to worry. He was tougher on the manufacturer than I would have been.Bottom line? MSA treat your roof like their own, still answer the phone after the invoice is paid, and check in later to make sure everything’s humming. If that sounds good to you, give them a call.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Alpha Technologies",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "126538",
+      "reviewer_name": "Roy",
+      "reviewer_location": "VIC - 3063",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3063",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "These guys were great, prices were fantastic and quality was perfect.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Alpha Technologies logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png"
+    },
+    {
+      "brand_name": "Alpha-ESS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+    }
+  ]
+}

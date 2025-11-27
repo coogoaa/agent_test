@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/clean-green-energy-solutions-pty-ltd/",
+  "scraped_at": "2025-11-26T12:28:56.306075",
+  "company_info": {
+    "company_name": "Clean Green Energy Solutions Pty Ltd",
+    "contact_phone": "0411 529 757",
+    "website_url": "https://cleangreen.energy/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13575_6cbef937e21954476e070d3933588905.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13575_7cb1f731f48160b6389b4b155290cbc1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13575_41bf580027775491dd34b8c027ff4dd6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13575_e63a389aa573af4dfdae009b75bcd916.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

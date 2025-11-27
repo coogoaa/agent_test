@@ -1,0 +1,5 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,panel_rating,inverter_rating,has_images,image_urls,overall_rating,quality_rating
+2252,Neil,SA - 5268,SA,5268,True,2012-09-04,04 September 2012,4.25,,,4.0,4.0,5.0,4.0,4kW,"$15,000 to $20,000",Not sure (Other),Fronius,,4.0,5.0,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png'],0,0
+4058,Reg,SA - 5291,SA,5291,True,2010-12-01,01 December 2010,4.0,,,4.0,4.0,0,4.0,3kW,"$6,000 to $10,000",,,,,,False,[],0,0
+3455,Russell,SA - 5357,SA,5357,True,2010-11-01,01 November 2010,4.0,,,4.0,4.0,0,4.0,3kW,"$6,000 to $10,000",,,,,,False,[],0,0
+2446,David,SA - 5271,SA,5271,True,2010-08-31,31 August 2010,4.25,,,4.0,4.0,4.0,5.0,3kW,"$6,000 to $10,000",,,,,,False,[],0,0

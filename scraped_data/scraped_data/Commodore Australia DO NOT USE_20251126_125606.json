@@ -1,0 +1,35 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/commodore-australia-do-not-use/",
+  "scraped_at": "2025-11-26T12:56:06.833372",
+  "company_info": {
+    "company_name": "Commodore Australia DO NOT USE",
+    "contact_address": "Shepparton, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11180_2dcfd83b1c914cece9da5fc531daa293.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11180_e4f53339fe2d8296f30e66b73e1520bb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11180_fc63f2c1347f332770fa9ed710bde204.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11180_d49b2a8f2267fa15962b3066c7f3c3ff.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

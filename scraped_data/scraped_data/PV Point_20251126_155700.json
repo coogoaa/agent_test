@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pv-point/",
+  "scraped_at": "2025-11-26T15:57:00.346653",
+  "company_info": {
+    "company_name": "PV Point",
+    "contact_phone": "08 6377 7487",
+    "website_url": "https://pvpoint.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14468_4341aebec1c5c23359ffba649aaffaf8.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14468_984bd5e3475a8d410bdde1faca3e3565.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14468_b3da395eea7542c23e5f01d647dd38f6.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14468_290a3358a2e10bf17f8904e2ccb790cd.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

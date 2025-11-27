@@ -1,0 +1,119 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/paragon-solar-power/",
+  "scraped_at": "2025-11-26T16:30:10.320645",
+  "company_info": {
+    "company_name": "Paragon Solar Power",
+    "contact_address": "Milton, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/905864a58306fc263d04218bd183b6a60.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/905864a58306fc263d04218bd183b6a60.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "137942",
+      "reviewer_name": "Ernest",
+      "reviewer_location": "VIC - 3216",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3216",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I am very pleased with my experience with Paragon Solar Power and Kay - the person I liaised closely with on my purchase. He took the time to understand my requirements and recommended the most suitable panels, inverter, and battery. The system has performed exceptionally well and has exceeded my expectations. While the reporting does take a little time to become familiar with, once understood it provides clear and valuable insights. Overall, a highly professional service that I would confidently recommend.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Bytewatt Neovolt",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_bytewatt.png"
+      ]
+    },
+    {
+      "review_id": "125146",
+      "reviewer_name": "Barry",
+      "reviewer_location": "VIC - 3152",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-08-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "No pressure from installer after quote and answered any concerns promptly.Installation completed with no fuss - clean and tidy.Included some additional electrical work at no cost.They organised all paperwork including Vic government rebate.Explained Sungrow app.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/905864a58306fc263d04218bd183b6a60.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/905864a58306fc263d04218bd183b6a60.jpeg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    },
+    {
+      "brand_name": "Bytewatt Neovolt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_bytewatt.png"
+    }
+  ]
+}

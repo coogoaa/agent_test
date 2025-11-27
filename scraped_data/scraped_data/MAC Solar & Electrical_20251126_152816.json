@@ -1,0 +1,220 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mac-solar--electrical/",
+  "scraped_at": "2025-11-26T15:28:16.528615",
+  "company_info": {
+    "company_name": "MAC Solar & Electrical",
+    "abn_number": "36627559237",
+    "acn_number": "627559237",
+    "contact_phone": "0424 937 746",
+    "website_url": "https://www.macsolarelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14236_46fe6b16201640df3bebb6d35d52d98e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14236_e87a82b39ea38a74661390de1984e755.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14236_ec898c790deb10ba0e5fe13c3aa06ed9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14236_ef5953b812a6462002ecf563d3a852d4.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4e1c46b6c1a4c486c3fb781aa1d4bc6e0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14c35bda688d376d52f7a0771f34dbea0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "17 Jul 2018Mac Solar",
+      "abn_company_name": "Mac Solar & Electrical Pty Limited"
+    },
+    "acn_details": {
+      "acn_active_since": "17 Jul 2018Mac Solar",
+      "acn_company_name": "Mac Solar & Electrical Pty Limited"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 4.8,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "138604",
+      "reviewer_name": "Lorraine",
+      "reviewer_location": "NSW - 2486",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2486",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I asked MAC to quote, based solely on the glowing reviews on a local community FB forum. I was not disappointed.Compared to the other quotes, I found his approach very refreshing. No slimy sales pitch. No over-promising ... it was going to be him personally delivering what we agreed. AND, he was cheaper!From start to finish, Michael was wonderful. For me, it was a big financial commitment, so, before signing, I asked LOTS of questions, which he answered patiently and diligently.The job was done promptly, and without incident. I am not easily pleased, but am 100% satisfied with MAC Solar.I cannot recommend Michael highly enough.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4e1c46b6c1a4c486c3fb781aa1d4bc6e0.jpg"
+      ]
+    },
+    {
+      "review_id": "131969",
+      "reviewer_name": "Brooke",
+      "reviewer_location": "QLD - 4225",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4225",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Michael made the process super easy and simplified the solar jargon. He understood what we wanted,  provided a couple of options, we decided to proceed and he delivered.The experience Michael had, he liaised with the Energy companies to get it all sorted which made the process easy. He is a super friendly, reliable electrician.Michael followed up after the installation to make sure it was all working and that we understood the app to optimise the solar.I recommend MAC Solar and Electrical and trust you will get quality service and product.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14c35bda688d376d52f7a0771f34dbea0.jpg"
+      ]
+    },
+    {
+      "review_id": "131744",
+      "reviewer_name": "Chris",
+      "reviewer_location": "NSW - 2094",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2094",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Michael helped us from the beginning to review our site for suitability and then advise us as to what size system we needed and where it could be placed to minimise cable length. He then explained different options that could work for us. We were very happy with his pricing and once we agreed to go ahead the process was seamless . Installation was done in a day , very neat and tidy and the system has been working brilliantly ever since. Happy to recommend him.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "131626",
+      "reviewer_name": "Emy",
+      "reviewer_location": "QLD - 4225",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4225",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "MAC Solar & Electrical did a great job installing our 20+ solar panels on our roof. The panels have been placed keeping aesthetics in mind and have been functioning well, saving us money since.Highly recommend.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "7kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "131619",
+      "reviewer_name": "Janet",
+      "reviewer_location": "QLD - 4213",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4213",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After meeting  MAC Solar and Electrical through  mutual  connections I enquired about review our existing panels which had been installed over 15 years ago .I supplied copies of current electricity bills , they visited site and inspected and provided advice and quotes within days . So easy !We agreed with which option and all installed when we were actually away on holidays .Communication was amazing during and upon completion .In our return another meeting to explain system and how to monitor usage .We could not have been more pleased with the service  , the look of panels and the after sales support . Strongly recommend them .",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

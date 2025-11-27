@@ -1,0 +1,27 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/naked-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T14:52:17.753541",
+  "company_info": {
+    "company_name": "Naked Energy PTY LTD",
+    "contact_address": "Maddington, WA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13278_6511efb4d1ad26a46a002ea4feccc406.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13278_a0a22d847334c9f56fdd6c233a2a5b3d.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13278_a4b2ee825ffcea1f31c9ab93befa856b.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

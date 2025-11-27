@@ -1,0 +1,23 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/incite-solutions/",
+  "scraped_at": "2025-11-26T14:13:15.723808",
+  "company_info": {
+    "company_name": "Incite Solutions",
+    "contact_phone": "0427 149 924",
+    "website_url": "https://www.facebook.com/incitesolutionsnsw/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

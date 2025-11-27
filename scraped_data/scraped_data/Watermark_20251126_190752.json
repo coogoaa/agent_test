@@ -1,0 +1,55 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/watermark/",
+  "scraped_at": "2025-11-26T19:07:52.924547",
+  "company_info": {
+    "company_name": "Watermark",
+    "contact_address": "Tamworth, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "2089",
+      "reviewer_name": "Mike",
+      "reviewer_location": "NSW - 2353",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2353",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Appreciate the insight you gave on your seven day info sheet.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "don't know (Other)",
+      "inverter_brand": "Xantrex / Enerdrive Pty Ltd",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

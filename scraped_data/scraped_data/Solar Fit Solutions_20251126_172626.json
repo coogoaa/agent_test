@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-fit-solutions/",
+  "scraped_at": "2025-11-26T17:26:26.329969",
+  "company_info": {
+    "company_name": "Solar Fit Solutions",
+    "contact_phone": "0419 960 738",
+    "website_url": "https://www.solarfitsolutions.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14385_eca13163122693c5d2392c91843d235d.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14385_f0bd9be9264d7d5a671bf95c2ebad32f.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14385_0471f9ec2cd2c2d7511072745e2c8b18.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14385_b6856715106fa095e955d092acd60f35.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14385_911af7aa209e00b49f3d6fd2afa92564.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

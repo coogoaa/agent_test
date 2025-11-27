@@ -1,0 +1,69 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-dubbo/",
+  "scraped_at": "2025-11-26T17:32:16.705142",
+  "company_info": {
+    "company_name": "Solahart Dubbo",
+    "contact_address": "Dubbo, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.0,
+    "value_for_money_rating": 2.0,
+    "system_quality_rating": 2.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "98254",
+      "reviewer_name": "Danny",
+      "reviewer_location": "NSW - 2818",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2818",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-03-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I insisted on buying a solar system from what was supposed to be the best. We paid considerably more than from a \"lesser\" company. The sales team was great, but tried to persuade my that I didn't need as large a system as I wanted.We've never seen that sales guy since. The promises have not been met. We 'invested' in the Solaredge system so that we could monitor the system. It has spent more time NOT working than working. Solarhart do not care. They did send out one of their electricians one time: he couldn't get any assistance from the dealer either. Our electricity bills are a similar level to what they were before we installed a 5.5kW Solarhart system. Thanks Solarhart...for nothing.",
+      "value_for_money_rating": 2.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "I don't know",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 2.0,
+      "quality_of_system_rating": 2.0,
+      "panel_rating": 3.0,
+      "inverter_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

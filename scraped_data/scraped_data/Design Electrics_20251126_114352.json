@@ -1,0 +1,103 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/design-electrics/",
+  "scraped_at": "2025-11-26T11:43:52.284215",
+  "company_info": {
+    "company_name": "Design Electrics",
+    "contact_address": "Berwick, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "126910",
+      "reviewer_name": "Ryan",
+      "reviewer_location": "VIC - 3802",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3802",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I spent weeks getting 10 quotes from a range of installers. Decided on Dan and the Design Electrics crew - glad I did. Dan was patient and very quick to respond to my 50+ questions. I received quality and pragmatic advice along the way. It was quickly evident through the quality of the install why some installers charge that little bit extra. The entire crew were awesome - punctual, clean and gave updates throughout the day. Dan gave a ball-park cost on the initial phone call but did say he wanted a site-visit to ensure the costs provided were accurate - other installers did not do the same, making me suspect that we'd see bill-shock during installation. After lots of back-and-forth, we realised an upgrade was required to our switch board to accommodate the electrification of our home. Dan matched the price of another quote as a gesture of good faith. The last piece was to see some of his other reviews and work, to which I was then sold. I had personal referrals from people I trust and know suggesting he is the best they have seen. To which I now agree and understand. Totally recommend, you won't be disappointed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "71559",
+      "reviewer_name": "Samantha",
+      "reviewer_location": "VIC - 3809",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3809",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Process was so easy start to finish,Dan worked around me and what I was after.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/chux-electrical/",
+  "scraped_at": "2025-11-26T12:17:42.428382",
+  "company_info": {
+    "company_name": "Chux Electrical",
+    "abn_number": "28614731145",
+    "acn_number": "614731145",
+    "contact_phone": "0409 503 073",
+    "website_url": "https://chuxelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14200_9a01c59534a29358b2caa814ffb89930.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14200_1f34efbd37ecef0e7e2f6128a96ccd6c.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14200_e010d990925a6b10e47b09f8defba38f.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14200_e750118478277d5491fb6e3c87194252.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "07 Mar 2025Chux Electrical Services Pty Ltd",
+      "abn_company_name": "Chux Electrical Services Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "09 Sep 2016Chux Electrical Services Pty Ltd",
+      "acn_company_name": "Chux Electrical Services Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "128159",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "VIC - 3220",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3220",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Person quoting was also the electrician leading the installation crew. His ideas for placing panels and for integrating the new system into our ageing house switchboard, etc. were excellent, and not just the cheapest way. Appropriate options were offered, and everything was clearly and patiently explained.He and the crew were all great to work with, and all work was completed on time.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

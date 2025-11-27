@@ -1,0 +1,37 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunvista-energy/",
+  "scraped_at": "2025-11-26T18:34:18.649730",
+  "company_info": {
+    "company_name": "Sunvista Energy",
+    "contact_phone": "1300 507 797",
+    "website_url": "https://sunvista.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14466_ee743ab93cf44f43ed340e090b549cf4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14466_c5b273090827bf7061dca346b1b080a5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14466_35fbe2ce5fd7ac56992039f7eebcd93b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14466_3bdbddbfebd6c8d3325f4874c781e647.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14466_d0ae2b5958f2f86f7b5212cd87bdc690.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

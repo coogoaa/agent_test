@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/volts-electrics-pty-ltd/",
+  "scraped_at": "2025-11-26T18:59:59.267180",
+  "company_info": {
+    "company_name": "Volts Electrics Pty Ltd",
+    "contact_phone": "0424 941 744",
+    "website_url": "https://voltselectrics.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14470_1db90ba3b7a1d96537cd3d54fc6cb32c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14470_a3dba2b09840012cafe2b83bd8d33e07.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14470_793c6d8d1de87b8076748482c8d87a97.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14470_3bec8543d9e8dfb306ce2dde5b1d791c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14470_069c9fd99a6cf851434fbc172d5bd598.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14470_21fe2509c4617ae9d77b0b0d066c4096.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14470_21fa4ac8dec5f5817685f35ab9c11a22.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

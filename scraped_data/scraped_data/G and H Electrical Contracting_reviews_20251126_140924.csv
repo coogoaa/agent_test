@@ -1,0 +1,3 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+41275,Therese,QLD - 4750,QLD,4750,True,2017-12-04,04 December 2017,3.5,,Very early in the process so not much to share at this time,3.0,3.0,4.0,4.0,5kW,"$6,000 to $10,000",,,,False,[],0,0
+40374,Paul,QLD - 4740,QLD,4740,True,2017-11-13,13 November 2017,5.0,,,5.0,5.0,5.0,5.0,5kW,"$6,000 to $10,000",,,,False,[],0,0

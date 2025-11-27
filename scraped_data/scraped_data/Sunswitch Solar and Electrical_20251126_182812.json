@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunswitch-solar-and-electrical/",
+  "scraped_at": "2025-11-26T18:28:12.571664",
+  "company_info": {
+    "company_name": "Sunswitch Solar and Electrical",
+    "contact_phone": "0426 957 833",
+    "website_url": "https://www.sunswitchsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14421_d7a80bfb933536dea7562d01ac8afe50.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14421_5752bbdea11b3d5537a47a099b0ad2dc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14421_dabce01a246dd7bd93290ca69f98106a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14421_05edd3809a623b63072e81d0880705b4.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

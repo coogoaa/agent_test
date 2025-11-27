@@ -1,0 +1,120 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/supreme-solar-power/",
+  "scraped_at": "2025-11-26T18:41:31.463235",
+  "company_info": {
+    "company_name": "Supreme Solar Power",
+    "contact_address": "Bundall, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d05303b39d4fa8131fe40772a0157c280.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29ec86367332b9c54d99117519a82d6b1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ef12c99e52b90b58ab728e10e84552542.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d05303b39d4fa8131fe40772a0157c280.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29ec86367332b9c54d99117519a82d6b1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ef12c99e52b90b58ab728e10e84552542.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "128617",
+      "reviewer_name": "Philip",
+      "reviewer_location": "QLD - 4346",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4346",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-12-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales person was very helpful and informative and not in the least pushy. Installers were prompt tidy and polite. Would highly recommend this company as our research on other providers led us to Supreme Solar. Everything from start to finish went smoothly. Excellent company",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "110414",
+      "reviewer_name": "Gary",
+      "reviewer_location": "QLD - 4208",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4208",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We obtained 8 Solar installation companies and found Supreme Solar to be the best when it came to price warranty and install. We were met with the owner of the company who took his time with the whole process from start to finish. Supreme Solar were further obtained through our neighbours who also had their install by supreme Solar and found them to be the best.The installation was fantastic they guys were amazing and punctual and the installation of the grid connection went without a hitch.We went with a 13.28 kw system. A 10 kw sungrow inverter with 32 Longi 415M solar panels along with smart metre.Thank you Supreme Solar we are now generating heaps of free power especially when it comes to running a pool.The other thing is we will look at adding additional devices in the future.If you're thinking of solar I have no hesitation in recommending Supreme Solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d05303b39d4fa8131fe40772a0157c280.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/d05303b39d4fa8131fe40772a0157c280.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29ec86367332b9c54d99117519a82d6b1.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/29ec86367332b9c54d99117519a82d6b1.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ef12c99e52b90b58ab728e10e84552542.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ef12c99e52b90b58ab728e10e84552542.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

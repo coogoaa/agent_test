@@ -1,0 +1,98 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/eco-ease/",
+  "scraped_at": "2025-11-26T13:23:45.367857",
+  "company_info": {
+    "company_name": "Eco Ease",
+    "abn_number": "94618793294",
+    "acn_number": "618793294",
+    "contact_phone": "1300 793 901",
+    "website_url": "https://www.ecoease.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1418_222c3870f68d328f21363eebec5d7fdc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1418_26b0069e9910f24221e12e07332bd400.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1418_61a08afe7b2d3ae0927c8516fd59fd65.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1418_2cec74e585cbdfe8eb096b6c3c0cdf26.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1418_36047ea21675d26cc8051eaeb642a13e.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "28 Apr 2017Eco Ease Services Pty Ltd",
+      "abn_company_name": "Eco Ease Services Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "28 Apr 2017Eco Ease Services Pty Ltd",
+      "acn_company_name": "Eco Ease Services Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "136262",
+      "reviewer_name": "Michael",
+      "reviewer_location": "NSW - 2500",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2500",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Responded promptly to request for a quote. Offered several options with the install giving advice on each option. Once accepted install was carried out very quickly and efficiently. Removing one set of my oldest old panels and adding 18 new panels, battery, Gateway took two days despite illness with part of their team. System was commissioned on morning of day three and it has performed flawlessly since.Installers were friendly and helpful and always had time for any questions. Explained the system and app very well.They were very neat in their work and helped me choose the optimum locations. Nothing seemed a problem for them.They left my property as clean as it was before they came.No hesitation in recommending them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

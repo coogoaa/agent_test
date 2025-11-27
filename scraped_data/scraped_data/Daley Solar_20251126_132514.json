@@ -1,0 +1,124 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/daley-solar/",
+  "scraped_at": "2025-11-26T13:25:14.549925",
+  "company_info": {
+    "company_name": "Daley Solar",
+    "contact_address": "Kyogle, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.33,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "123774",
+      "reviewer_name": "Ian",
+      "reviewer_location": "QLD - 4601",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4601",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Raffin elecrical's, Daley Raffin, met with us at the nominated time at our home base, listened to my requirements then prepared a comprehensive quotation based on those criteri - although more costly than your recommended folk. Daley  Raffin, a local identity, is neat and tidy, presented as a professional who knows the ins and outs of P V solar, and spoke as an equal with me (many thanks for your coaching over the many years i have known you Finn ! ! ! !) This also he gave my wife, Christine, confidence in his business and operations - this was not the impression of your contacts SORRY !Daley undertook all the legwork with Ergon (our energy supplier) so that aspect was without hiccupNote : we met with, and obtained several quotations from P V solar companies who provided supply and install costings from the low $5000's to high $13000's and believe this suits our needs best.The Daley install team were on time, took care, are neat and left the job clean and tidy = a professional outcome = Thank you",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "101201",
+      "reviewer_name": "Lee",
+      "reviewer_location": "NSW - 2474",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2474",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I applied for 3 quotes through SolarQuotes and none of the suggestions were within 100k of my roof. I searched by location as I realised the default filter was Number of Good reviews or such, and also found Daleys Solar the local Sloar installers who would not have to travel 100+km per day.It was a risk I am glad I took.Their quote was in my inbox early next morning, was itemised as to what they were installing and met my budget and solar needs. The only extra was a Hot Water timer they also neatly fitted  in the power box and advised me of this cost on the first day. Happily, there were no surprise extras/costs from them.Time from quote to Installation complete was 25 days. Daleys Solar told me exactly when they would be at my house and what was going to be done down to the hour and stuck to that. Installation was very tidy and efficient. No loose wires, no conduit visible and panels and inverter are fixed squarely, and they left no mess. They rearranged their schedule to fit in with our schedule which was much appreciated.Daley Solar have organised for grid connection and so far that is moving along with Origin and their sub contractors.I hope that experience is as good as the one with Daley Solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Axitec",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_axitec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "83820",
+      "reviewer_name": "Simon",
+      "reviewer_location": "NSW - 2470",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2470",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quote was easy and direct. Installation is impeccable, and customer service after installation, questions and explanations about monitoring quick and helpful.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

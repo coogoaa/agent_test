@@ -1,0 +1,185 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/eco-choice-solar/",
+  "scraped_at": "2025-11-26T13:22:30.848000",
+  "company_info": {
+    "company_name": "Eco Choice Solar",
+    "contact_address": "Drysdale, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 4.8,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "138236",
+      "reviewer_name": "Robbie",
+      "reviewer_location": "VIC - 3223",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3223",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From quoting the job, asking many, many questions and installation, these guys did a great job. Courteous and professional they tick every box on top of being competitively priced.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Tesla Powerwall 3",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "124706",
+      "reviewer_name": "Neville",
+      "reviewer_location": "VIC - 3224",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3224",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-08-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Have used this company before for Air Conditioning systems, always professional, locally based, started as electricians and developed from there, not set up to sell solar or battery systems.Sales quoting straight forward.Installation: Punctual, tidy and polite.Customer Service : Excellent helped with grant application, organised grid connection.Would thoroughly recommend them to anyone on the Bellarine Peninsula.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "114568",
+      "reviewer_name": "Mara",
+      "reviewer_location": "VIC - 3222",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3222",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Cant fault these tradies or businesshelpful, informative and really good quality workthey dont take short cutsthey really know their stuff and work efficentlywell done ecoAs a single lady I felt listened to and informed",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Q cells (Other)",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "I don't know",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "93094",
+      "reviewer_name": "Trish",
+      "reviewer_location": "VIC - 3222",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3222",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-09-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "An extremely professional solar business, from the initial contact of requesting a quote through to the day of installation. With limited knowledge of solar, Brenton made the whole process very easy to understand and provided a very comprehensive proposal explaining all aspects of solar, and they even did all the paper work associated with the job. Installation day was a breeze, with the installers arriving on time. They were a very polite and respectful crew and cleaned up after themselves better than I expected. I highly recommend Eco Choice for all solar installations.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "83468",
+      "reviewer_name": "Ernie",
+      "reviewer_location": "VIC - 3222",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3222",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-11-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Initially i was not impressed, because they only emailed a generic quote without asking the type of system i wanted. However a lot of people in the local area were recommending them, so i asked for a meeting and discussed more quality options and am very happy with the q cells panels  and Fronius inverter. They were very professional with a quality team and cannot fault the after sales service.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Tesla Powerwall 3 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+738,Alex,NSW - 2527,NSW,2527,True,2010-06-07,07 June 2010,4.0,,,4.0,4.0,0,4.0,5kW,"More than $20,000",,,,False,[],0,0

@@ -1,0 +1,151 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunday-solar/",
+  "scraped_at": "2025-11-26T17:58:20.379563",
+  "company_info": {
+    "company_name": "Sunday Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/71965c93e130e79eb4d60215a8f301f80.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e4c36debb4ba31c4fc93e81c6cdab21.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/71965c93e130e79eb4d60215a8f301f80.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e4c36debb4ba31c4fc93e81c6cdab21.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "102024",
+      "reviewer_name": "Jay",
+      "reviewer_location": "NSW - 2126",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2126",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-08-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had a seamless and absolutely fantastic support dealing with Sunday Solar. From quote to final installation they were prompt and very professional. Workmanship was excellent and every care was taken to install it well. Highly recommend their services to anyone interested in Solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "8kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/71965c93e130e79eb4d60215a8f301f80.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e4c36debb4ba31c4fc93e81c6cdab21.jpg"
+      ]
+    },
+    {
+      "review_id": "94569",
+      "reviewer_name": "Charles",
+      "reviewer_location": "QLD - 4500",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4500",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The guys at Sunday Solar help me feel at ease thoughout every stage of the process.They are not only extremely knowledgeable about their product they arrived on time, clean up after themselves and most of all they had a laugh with me while being professional.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "94567",
+      "reviewer_name": "Micah",
+      "reviewer_location": "QLD - 4208",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4208",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "If you're looking for a new solar system I recommend using Sunday Solar as you'll receive great customer service, easy sales process with great prices and hassle free installation.I dealt with Alex who tended to all my needs and was very friendly and easy to deal with. On top of that he quoted us a good price of $3,995 for a 6.6kw system. I also had great communication with the installation team who also did a great job.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "94524",
+      "reviewer_name": "John",
+      "reviewer_location": "QLD - 4510",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4510",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quoting and sale process was made so easy by Alex at Sunday Solar. He listened to want I wanted then tailored a package suited to my needs.The communication to organise the proposed installation date clear and made it easy for me. I was called by the installation team a few days before the to ensure that everything was good to go.On the day the installation team arrived a few minutes early to organise everything around the house and discuss anything I wanted.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

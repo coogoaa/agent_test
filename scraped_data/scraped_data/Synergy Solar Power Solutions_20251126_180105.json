@@ -1,0 +1,114 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/synergy-solar-power-solutions/",
+  "scraped_at": "2025-11-26T18:01:05.726779",
+  "company_info": {
+    "company_name": "Synergy Solar Power Solutions",
+    "contact_address": "Wollongong, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "1952",
+      "reviewer_name": "David",
+      "reviewer_location": "NSW - 2560",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2560",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I received courteous and practical response from Victoria at Synergy, culminating in a number of quotes for various sized systems, and elected to go for a 4 kW system. I paid a deposit of $750 on 6/6/10, and received technical stuff from Integral Energy requiring my feedback on 21/6/10. I contacted Victoria on 23/6/10, and she told me everything was in hand and being followed up by them, that I need not do anything, and should treat Integral's letter as advice only. She also advised that the panels were on a boat waiting to dock and be unloaded, and she would contact me regarding installation. I have heard nothing since, and am a little unimpressed that there has been no contact or follow up since then.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Solon SE",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "15048",
+      "reviewer_name": "Sherrill",
+      "reviewer_location": "WA - 6149",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6149",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-07-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We found that the salespersons from a couple of the higher end companies were rather pushy and got upset when we wouldn't make up our minds on the spot.  One company said that he couldn't hold open the extra 'benefits' offered if we didn't say yes right there and then.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "1834",
+      "reviewer_name": "Robert",
+      "reviewer_location": "NSW - 2528",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2528",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-07-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "They were the only ones to actually visit and talk to me.  The system was installed within two weeks.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/oz-grid-solar-solutions/",
+  "scraped_at": "2025-11-26T16:20:44.644443",
+  "company_info": {
+    "company_name": "Oz Grid Solar Solutions",
+    "contact_address": "Bardia, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "118311",
+      "reviewer_name": "Rachel",
+      "reviewer_location": "NSW - 2650",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2650",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "A salesman approached my front door late one friday afternoon, I was not in the mood, however this salesman seemed to know this, and was extremely friendly, not pushy, and gave me quick snippets of information as i asked him various quick fire questions. He then said to go and explore, investigate and research all there is about solar and he will come back the following week. I researched and researched, and rang companies and got information and was told all about different offers. The salesman returned, and I was armed with all my questions: width of panels, how many panels, efficiency of capacity over certain temperatures, material the panel is made of, how to sell to the grid, how to get support if need be. He answered all of these questions with explanations, which, lets remember, I also had the answers from a variety of companies, and he was right. At the end of the visit, I said I still need to think about it. He said not a problem, left his card and invited me to call at any time. I spoke to more people and family and rang him late one night, he answered, and I sealed the deal with him. He kept me updated every step of the way - from when the installers were coming, what I would need to do, and how long. The installers came, very friendly, very professional, they clearly knew their stuff, worked very hard, nothing was an issue and were polite, punctual and trustworthy. I didn't have to do a thing, it was all done for me. I was extremely happy, even after giving the salesman a hard run for his money, I don't regret it.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/eco-sparky/",
+  "scraped_at": "2025-11-26T13:30:33.397683",
+  "company_info": {
+    "company_name": "Eco Sparky",
+    "contact_address": "Tuggerah, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "135089",
+      "reviewer_name": "Angel",
+      "reviewer_location": "NSW - 2261",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2261",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Extremely happy and satisfied with the whole process of using Eco Sparky to select panels and battery system, the installation and services after install and commissioningVery professional throughout process of site visit to discuss possible systems and the actual quoteThe quote was very detailed and included solar generation, payback and mockup photos of my roof installationThe installation team were very polite and left the job in a clean state taking away all the components wrapping and any other left over itemsAll work done in safe manner including use of roof edge protection and safety harnesses when neededInterruption to our home power was negligibleVery professional throughout process and very easy to deal with and they managed all power authority dealings and obtaining all available pricing rebatesGood communication throughout processVery fair competitive price and with the phone app can see the immediate savings on powerHighly recommend to get a quote and visit if your considering panels and battery",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "",
+      "battery_brand": "Tesla Powerwall 3",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "101490",
+      "reviewer_name": "Martin",
+      "reviewer_location": "NSW - 2261",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2261",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Took a little longer to decide between MJJ Solar and Eco Sparky. Mainly as I was not aware of Eco Sparky at the time.MJJ Solar only missed this job due toMy relationship with Eco Sparky otherwise they were very professional.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 3 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

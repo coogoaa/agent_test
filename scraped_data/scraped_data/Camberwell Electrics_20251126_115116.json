@@ -1,0 +1,124 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/camberwell-electrics/",
+  "scraped_at": "2025-11-26T11:51:16.664124",
+  "company_info": {
+    "company_name": "Camberwell Electrics",
+    "contact_address": "Camberwell, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.9,
+    "value_for_money_rating": 3.67,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.5,
+    "customer_service_rating": 4.33,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "6925",
+      "reviewer_name": "Elmar",
+      "reviewer_location": "VIC - 3440",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3440",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "1594",
+      "reviewer_name": "Dale",
+      "reviewer_location": "VIC - 3163",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3163",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-08-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The salesperson was very thorough and spent a long time discussing the system and its installation. The system we purchased (Sunpower, monocrystalline, 300w panels) is outperforming is specifications, producing in excess of 10 kwh on sunny days and in full sun easily hits 1.4-1.5 kw.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "SunPower",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "7780",
+      "reviewer_name": "Ian",
+      "reviewer_location": "VIC - 3011",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3011",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-05-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SunPower logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

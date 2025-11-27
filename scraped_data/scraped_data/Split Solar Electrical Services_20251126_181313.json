@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/split-solar-electrical-services/",
+  "scraped_at": "2025-11-26T18:13:13.201690",
+  "company_info": {
+    "company_name": "Split Solar Electrical Services",
+    "contact_phone": "0432 109 375",
+    "website_url": "https://www.splitsolarelectrical.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14213_c6d03a0fda0365e31860cf4ca3680a32.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14213_7800f0eac94655445fe23de4cef16860.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14213_7dc462585f94f40430e0ade4254bcad3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14213_7c7139bb977c563700f8c2e637b6c33d.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

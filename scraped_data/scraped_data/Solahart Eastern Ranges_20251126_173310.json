@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-eastern-ranges/",
+  "scraped_at": "2025-11-26T17:33:10.798978",
+  "company_info": {
+    "company_name": "Solahart Eastern Ranges",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_ca8372bcb6410336bdb7684780ca0189.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_a73bd91aba4301d7ffd99decb5a1b786.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_8f3182163857c5463c883017ff1cd3cc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_f629f1a4d06d116e0cc1c4ca308c9e6e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_6992272b71041f83e022a8a49484f5d9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_a72d7f9ec74c7bdb4e0a9b3eccfa523c.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_082ce89cfc1c11d14c65453fcdf5fe4c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_6e798956bc652c1db0be7f1901c81678.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_47d951881eb21af758cac2120a272808.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_6fd23d2bcc2e3fb64642172393124b44.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_e162870acd2ec0900db73ad958c54e54.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_f19e75a68eab92710708654cd6d5ccb1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_ffd2ba52e6271b919de432b1e8981ab1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_e5e6f8650d93d6ee55a15d789d7a4e94.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_6255acce2b6a7e250877fc2cde9443af.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_154929e2521581ef2df7d94469fbb3cb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_047e87ad9d5b91451f48ad8e7a8ea08b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_5d1052c22813834ede8ac24bbf358dc1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_d45cb548d34b3835caf05646704e3054.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13949_abd47ae948771cf574e25cc7702e1a03.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.3,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "121829",
+      "reviewer_name": "Ken",
+      "reviewer_location": "VIC - 3152",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-05-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Halfway through installation, 6 or 7 friendly staff arrived early and helpful, start date changed a bit, inverter delayed, areas left a little untidy, but so far so good. Back for completion hopefully, a week after initial works.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 3.0,
+      "system_size": "8kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

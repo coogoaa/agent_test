@@ -1,0 +1,23 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/waters-electrical-and-solar/",
+  "scraped_at": "2025-11-26T19:08:39.923167",
+  "company_info": {
+    "company_name": "Waters Electrical and Solar",
+    "contact_phone": "0431 894 327",
+    "website_url": "https://waterselectricalandsolar.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

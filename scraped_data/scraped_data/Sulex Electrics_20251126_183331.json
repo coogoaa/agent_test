@@ -1,0 +1,145 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sulex-electrics/",
+  "scraped_at": "2025-11-26T18:33:31.841858",
+  "company_info": {
+    "company_name": "Sulex Electrics",
+    "contact_phone": "0400 594 109",
+    "website_url": "http://www.sulex.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13567_8780f5beef0c44fa03a13db9c34a1571.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13567_7cf2dcf6dbaa3b0e0d7c92c278d45ec1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13567_56f912fcf8b0d69b6d532dbba23e8c2a.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ecf6a121d445e1b8809bb0ed5056edb11.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2640f32e052e257485966465ebe952822.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c665cb734d7878fe1cdcc88b01abe7e0.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "110639",
+      "reviewer_name": "Glenn",
+      "reviewer_location": "VIC - 3215",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3215",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quotes were very easy to get along with the other two suppliers weren’t much chop Installation went quite well tidy respectful Dave organise the grid Maybe back tomorrow to commission it and test Alex organise the grid connection so everything went well.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Tindo Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ecf6a121d445e1b8809bb0ed5056edb11.jpeg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2640f32e052e257485966465ebe952822.jpeg"
+      ]
+    },
+    {
+      "review_id": "108744",
+      "reviewer_name": "Mark",
+      "reviewer_location": "VIC - 3180",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3180",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-03-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Alex and team were great! On time, clean, and easy to deal with. They did a great job on my solar installation, helping to set it up to my device and helping with the Vic Solar application process. Would definitely be using Sulex for any electrical works in future.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Risen",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "107714",
+      "reviewer_name": "Blake",
+      "reviewer_location": "VIC - 3218",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3218",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I need to give a shout out to Alex for his commitment to customer service. With so many solar installers out there, I feel like I got lucky landing Sulex to handle our little 5kW PV system. He is incredibly thorough and made sure I was informed at every step of the way - from hardware selection, the rebate process, grid tie-in all the way thru to setting up our monitoring software. Pretty soon after locking Alex in for the install, I felt comfortable having him do our mains power and switchboard upgrades too - at a very reasonable cost. Our solar works were done as part of a whole house renovation and Alex was by far the most reliable tradie we had. Highly recommend.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Hanwha Q CELLS",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c665cb734d7878fe1cdcc88b01abe7e0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c665cb734d7878fe1cdcc88b01abe7e0.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Tindo Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

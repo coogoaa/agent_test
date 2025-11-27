@@ -1,0 +1,169 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/greencomau-qld/",
+  "scraped_at": "2025-11-26T13:49:00.853852",
+  "company_info": {
+    "company_name": "Green.com.au QLD",
+    "contact_address": "North Sydney, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "139659",
+      "reviewer_name": "Caz",
+      "reviewer_location": "QLD - 4506",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4506",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-10",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The entire process from first phone call to installation was made easier by their communication. They are prompt and reply in a timely manner to any queries - even if they are dumb. You will never speak to an overseas call center, which we appreciate. We were kept up to date at all stages and felt we were a valued customer. The installation team (same as last time) we just as professional, easy to deal with, polite and respectful. We highly recommend the Green tean for all of your solar power requirements",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "",
+      "panel_brand": "REC",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "139594",
+      "reviewer_name": "John",
+      "reviewer_location": "QLD - 4053",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4053",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Recently Jack Meens from Green.com.au provided excellent advice and a quote for expanding our Sungrow battery.We accepted the very competitive quote from Green, and the installer (Nexus Electrix) in Brisbane completed the job very professionally.  I would highly recommend Green.com.au and Nexus Electrix.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "138000",
+      "reviewer_name": "Alan",
+      "reviewer_location": "QLD - 4215",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4215",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everything went as smooth as silk from Order through to Installation.  The electrician arrived on time and on the day promised with the Battery in tow. Installation was pretty complex as I have my main switchboard in the laundy internal to the house, so much faffing to thread cables via the various downlight holes etc.  I was expecting ugly holes in numerous places, ended up with the 1 x 100mm square 'hole' to patch in the laundry.One connector was faulty as supplied by the battery make (Apha ESS), so the electrician had to make a return visit next morning to replace/refit it and fully test the blackout capabilities.Shown how to use the app, piece of cake.Cleaned up all their mess when finished.You couldn't ask for a more seamless experience.  Many Thanks.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    },
+    {
+      "review_id": "137735",
+      "reviewer_name": "Patrick",
+      "reviewer_location": "QLD - 4121",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4121",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The process was straight forward and final price was exactly what I'd been quoted. All I had to do was send some photos of the house and copies of a recent electricity invoice to Dominic and Ryan at Green and they started the process. The team kept me informed throughout the entire process and answered all my questions. I felt confident throughout the entire process, and I didn't have to deal with the installer or my current service provider. Green did it all!The installation happened quickly. The installer Matt, from Nexus Electrix Pty Ltd, managed the installation and had the job completed in 4 or 5 hours. Matt left the place clean and tidy after giving a fairly comprehensive handover.The entire process was seamless and hassle free. Great work!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Risen",
+      "inverter_brand": "Alpha Technologies",
+      "battery_brand": "Alpha-ESS",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_risen.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_alpha-technologies.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_alpha-ess.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+94750,Mark,SA - 5070,SA,5070,True,2021-10-29,29 October 2021,4.5,,,4.0,4.0,5.0,5.0,5kW,"$4,000 to $6,000",,Growatt,,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png'],0,0
+37797,Anon,SA - 5556,SA,5556,True,2017-08-27,27 August 2017,4.0,,,4.0,4.0,4.0,4.0,5kW,"$3,000 to $6,000",,,,False,[],0,0
+32510,Rod,SA - 5631,SA,5631,True,2016-11-28,28 November 2016,4.25,,,4.0,4.0,4.0,5.0,5kW,"$3,000 to $6,000",,,,False,[],0,0

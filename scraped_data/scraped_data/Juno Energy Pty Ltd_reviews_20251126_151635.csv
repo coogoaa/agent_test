@@ -1,0 +1,8 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+87642,Henry,NSW - 2478,NSW,2478,True,2021-03-11,11 March 2021,5.0,,,0,5.0,5.0,5.0,5kW,"$6,000 to $10,000",,SolarEdge,,True,['https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png'],0,0
+70938,Nick,NSW - 2481,NSW,2481,True,2019-12-02,02 December 2019,4.67,,Can't post a review yet as have paid deposit but solar hasn't yet been installed which is why it's only rated one star,4.0,5.0,0,5.0,10kW,"$10,000 to $12,500",SunPower,Solaredge,,True,"['https://www.solarquotes.com.au/img/panelmanufacturers/P_sunpower.png', 'https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png']",0,0
+43009,Henry,NSW - 2478,NSW,2478,True,2018-01-16,16 January 2018,4.0,,,4.0,4.0,0,4.0,5kW,"$6,000 to $10,000",,,,False,[],0,0
+19193,John,NSW - 2482,NSW,2482,True,2013-07-01,01 July 2013,4.0,,,4.0,4.0,4.0,4.0,3kW,"$6,000 to $10,000",,,,False,[],0,0
+14974,Glen,NSW - 2477,NSW,2477,True,2012-07-26,26 July 2012,4.25,,,4.0,4.0,5.0,4.0,2kW,"$3,000 to $6,000",,,,False,[],0,0
+5430,Chris,NSW - 2480,NSW,2480,True,2011-03-03,03 March 2011,4.0,,,4.0,4.0,0,4.0,1.5kW,"$3,000 to $6,000",,,,False,[],0,0
+4107,Anon,NSW - 2480,NSW,2480,True,2010-12-03,03 December 2010,4.0,,"I have paid my deposit and have been placed in a queue, for the beginning of Jan, so I have not had the system instulled yet.",4.0,4.0,0,4.0,1.5kW,"$3,000 to $6,000",,,,False,[],0,0

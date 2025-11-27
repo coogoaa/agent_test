@@ -1,0 +1,103 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sun-max/",
+  "scraped_at": "2025-11-26T18:40:51.475759",
+  "company_info": {
+    "company_name": "Sun Max",
+    "contact_address": "Adelaide, SA",
+    "website_url": "https://www.sunmaxsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13390_49e276b32d2daad42aa45b88eaca6627.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13390_c892276efa95ccd45d9586a9e4570e72.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13390_f15d9ab641af89c2c776eeed155bcb87.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13390_fd8d187350f6bc7547e02e64c79abeda.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "99295",
+      "reviewer_name": "Chayan",
+      "reviewer_location": "NSW - 2114",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2114",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great value for money. The quality of the system was superb. and the installation was a breeze. Only problem I had was the delay due to the China/Australia trade ware and the administrative side between the company and my energy provider.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "HT-SAAE",
+      "inverter_brand": "SAJ",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_shanghai-aerospace-automobile-electromechanical.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+      ]
+    },
+    {
+      "review_id": "94685",
+      "reviewer_name": "Nafizul",
+      "reviewer_location": "NSW - 2557",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2557",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From quote to installation took under 2 weeks. Customer-friendly team, they respond to all enquiries. I was very impressed by their after-sale support, with some issues noticed and addressed with them and they sent their installer the next day to rectify the issue. Highly recommended.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Zhongli Talesun Solar",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_zhongli-talesun-solar.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "HT-SAAE logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_shanghai-aerospace-automobile-electromechanical.png"
+    },
+    {
+      "brand_name": "SAJ logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_guangzhou-sanjing-electric.png"
+    }
+  ]
+}

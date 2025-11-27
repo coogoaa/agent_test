@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/hypalyte-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T14:00:38.722930",
+  "company_info": {
+    "company_name": "Hypalyte Electrical Pty Ltd",
+    "electrical_contractor_license": "NSW: 366279C, VIC: REC 24928",
+    "contact_phone": "0400 504 614",
+    "website_url": "https://www.facebook.com/hypalyteelectrical/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13109_344530bb28d7296307daa8f1aae65de6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13109_8fa5756c1234ea49b627cb6141dfa99c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13109_ec7c0bbe98afb2b06dd21d71e118fefa.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13109_a3642097f85dd5c7d86c532d8a070fc7.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13109_7fe88222445bebbec314976b4a199993.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13109_d11aa477593c2c12f8cddcae42da4fef.png"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,129 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mate-solar-services-and-electrical/",
+  "scraped_at": "2025-11-26T14:54:20.982478",
+  "company_info": {
+    "company_name": "MATE Solar Services and Electrical",
+    "contact_phone": "0424 343 595",
+    "website_url": "https://www.facebook.com/mate.solar.electrical/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13580_4b7d8a8ed685e1af28d09a44c99f3f3e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13580_8663017da4ea6d2c1f99cbeb62d48037.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13580_6c65406cac0d8b1eb1753147801379e3.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13580_028b596a8d05171f513149e4254e173b.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13580_06cb76434aa95c73dd3442646688747b.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13580_0a953793c9762430f1e56e712cf31fcb.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "114840",
+      "reviewer_name": "Robert",
+      "reviewer_location": "NSW - 2326",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2326",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I agreed to the installation on the Monday and it was installed on Friday of the same week. The team was very helpful and explained what they were doing. The site was left exactly as they found it. They also arranged for iSolarCloud to be registered in my name so I can track what input my solar is giving. During the installation we were shown what a system of the same size in our area was producing on the same day.  We are waiting for our electricity company to install the smart meter, then Mate Solar will come back and commission the system. To date I can highly recommend this company.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3.3kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "106709",
+      "reviewer_name": "Tony",
+      "reviewer_location": "NSW - 2315",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2315",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-12-22",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "MATE led me through the process so I understood what was happening, the team where friendly efficient and the installation went without a hitch.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "103958",
+      "reviewer_name": "Elizabeth",
+      "reviewer_location": "NSW - 2285",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2285",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-09-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We have used MATE Solar Services and Electrical numerous times. So when it came to choosing Solar we put our trust in Matt. He is genuine and knowledgable. We went with his suggestion on the amount of panels we would benefit from with no pushy sales.Install and connection to the grid went smoothly. Matt and his team were punctual, friendly, efficient and courteous and tidying up after the job was complete.We are blown away with the $’s we are saving on our power bill.I would highly recommend MATE Solar Services and Electric and can’t speak highly enough of the quality of service Matt and his team always provide.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/voltage-kings/",
+  "scraped_at": "2025-11-26T18:57:06.784308",
+  "company_info": {
+    "company_name": "Voltage Kings",
+    "contact_phone": "0499 881 602",
+    "website_url": "https://voltagekings.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_36fee7f4497fa8bf0d797182dbaf94b7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_f7c9e3db0b5e3d9b18760ed56b357f5a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_a4cb578773a6b826a6bcfe2a66810c0c.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_ba9ba37d65d5a7d55f449f7b8c718dff.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_76d303271010168e629f44c4e5ed98fb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_7c6d8eb4f349915a72c70a9d0b2529eb.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_dc4aba102b627126d9da427988ff8e39.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_21bf0e0c947693bae70b830b7956417d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13275_9418b2c78abcb46e700879d9132ea1d4.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b727313fc7ca342be95926f0f786a3db0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/60bcef8bb1247795fa9fe817ee7852be1.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/05e3a9659ba766ed358b9caf6e7a96942.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "89148",
+      "reviewer_name": "Ryu",
+      "reviewer_location": "QLD - 4825",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4825",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-04-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quote, install, gear and customer service top knotch. Ned is very knowledgeable about the gear. Installation done within the day and a thorough run through with the solar app.Very happy with the workmanship. Highly recommend Ned to anyone who is thinking about getting solar put in.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "88903",
+      "reviewer_name": "John",
+      "reviewer_location": "QLD - 4556",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4556",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-04-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This install was to replace/upgrade our original 15 year old system and we had the best experience with Voltage Kings. Ned was very professional and thorough. His knowledge, honesty and experience were obvious throughout the entire process and he was always prompt in answering questions in relation to the solar hardware and installation. The install was excellent no mess, no stress and A-class workmanship. I would highly recommend Ned and his team at Voltage Kings to any person considering a solar installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/b727313fc7ca342be95926f0f786a3db0.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/60bcef8bb1247795fa9fe817ee7852be1.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/05e3a9659ba766ed358b9caf6e7a96942.JPG"
+      ]
+    },
+    {
+      "review_id": "88852",
+      "reviewer_name": "Lee",
+      "reviewer_location": "QLD - 4825",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4825",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-04-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "They had great knowledge and understanding of the best product suited for all needs,The installation was excellent and it was great to see there are still company’s that take pride in there work,Voltage King made the process nice and easy when coming to dealt with all the paperwork required.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "JA Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

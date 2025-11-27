@@ -1,0 +1,82 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/crystal-solar-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T13:19:35.059215",
+  "company_info": {
+    "company_name": "Crystal Solar Energy Pty Ltd",
+    "contact_address": "Keysborough, VIC",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "56695",
+      "reviewer_name": "Narsimhan",
+      "reviewer_location": "VIC - 3198",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3198",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installation consists of 18 Longi 315 W Solar Panels.One Goodwe GW5048D-ES Hybrid Inverter.3 X Pylontech Batteries (7.2 KW)",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "Pylontech",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 3.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/1ef2f335a21c1f40942e92c659a2e7f5.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/1ef2f335a21c1f40942e92c659a2e7f5.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    },
+    {
+      "brand_name": "Pylontech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+    }
+  ]
+}

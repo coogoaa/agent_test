@@ -1,0 +1,89 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/austral-energy-solutions/",
+  "scraped_at": "2025-11-26T12:05:23.357523",
+  "company_info": {
+    "company_name": "Austral Energy Solutions",
+    "abn_number": "64655471579",
+    "acn_number": "655471579",
+    "contact_phone": "08 9725 8932",
+    "website_url": "https://australenergysolutions.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/359_d5cd7fc52fd4c9432faefc5a917b04f3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/359_5e0612418352c42519886816f65620d9.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/359_4c73bffba0584ab3bac4b727ba784926.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/359_34897e6d3fa9d562173aa444025bb4f4.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "23 Nov 2021Kinkella Group Pty Ltd",
+      "abn_company_name": "Kinkella Group Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "19 Nov 2021Kinkella Group Pty Ltd",
+      "acn_company_name": "Kinkella Group Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "133753",
+      "reviewer_name": "Bryan",
+      "reviewer_location": "WA - 6230",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6230",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Josh and his team were very professional and obviously strive to achieve a high quality installation",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "BYD",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    },
+    {
+      "brand_name": "BYD logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_byd.png"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ges-energy/",
+  "scraped_at": "2025-11-26T14:26:38.731296",
+  "company_info": {
+    "company_name": "GES Energy",
+    "contact_phone": "1300 811 031",
+    "website_url": "https://www.gesenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14357_c235269accfeccb332a80b768987101f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14357_c705b215dd7d51a5083b2d02ee505a23.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14357_a3e39713372dadb89263c6b4ef378df3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14357_ba122f455cc3f896a55fe5d06e409b05.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14357_48c8cf5dda7eac70f15ef637d95fae25.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14357_766216d02bcbc04771e0736d1cc93288.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

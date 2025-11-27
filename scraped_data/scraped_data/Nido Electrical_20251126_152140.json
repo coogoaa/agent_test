@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/nido-electrical/",
+  "scraped_at": "2025-11-26T15:21:40.746255",
+  "company_info": {
+    "company_name": "Nido Electrical",
+    "contact_address": "Chittering, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "36292",
+      "reviewer_name": "John",
+      "reviewer_location": "WA - 6065",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6065",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-06-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I got 3 quotes from this site, all quoting similar prices for the same products.. only met one of the sales guys has he only lived round the corner from me..I would have gone with any of them but before I had chance to decide I met someone else.Information I got from this site was very helpful in deciding which inverter and panels I wanted...Then I met a friends friend who actually installs solar, he offered a better package: fronius inverter and jinko panels. He would of been more expensive than the others but he did it at cost, mates rates...The piece of mind knowing/seeing that he had this system in his own house, and he wasn't a salesman, he agreed with all I learnt from this website so easy decision in the end",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

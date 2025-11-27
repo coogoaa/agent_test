@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/brisbane-solar-repairs/",
+  "scraped_at": "2025-11-26T12:25:49.811787",
+  "company_info": {
+    "company_name": "Brisbane Solar Repairs",
+    "contact_address": "QLD, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "113286",
+      "reviewer_name": "Steve",
+      "reviewer_location": "QLD - 4520",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4520",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-06-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Following an inverter failure on my 13-year-old 3Kw solar system I contacted Julian from Brisbane Solar Repairs following a Facebook recommendation and was not disappointed!Julian’s industry and technical knowledge as both an installer and a repairer identified that the most economical and easiest way forward was for us to replace it with a new system rather than try and patch up the old.Julian provided prompt answers to all my technical and commercial questions with full transparency and provided numerous links to backup information supporting his advice.He also contacted Energex on my behalf and provided a transcript of the conversation guaranteeing that the upgrades proposed would not affect our Solar Rebate.I checked Julian’s quote with other ‘local’ suppliers (who turned out not to be local at all) and his quote was competitive.Installation went exactly as planned and a professional finish. The panels and all the redundant and broken parts of the old system were taken away and the site left clean.We are now proud owners of a professionally installed 4.1Kw solar system which is currently generating 40% more than the 3kw system it replaced (based on July 2023 and compared with previous July generations since 2010)!Thank you to Julian and team!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

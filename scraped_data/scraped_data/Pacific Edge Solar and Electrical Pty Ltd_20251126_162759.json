@@ -1,0 +1,102 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pacific-edge-solar-and-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T16:27:59.811693",
+  "company_info": {
+    "company_name": "Pacific Edge Solar and Electrical Pty Ltd",
+    "contact_phone": "0466 415 783",
+    "website_url": "https://pacificedge.online/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "124016",
+      "reviewer_name": "Glenn",
+      "reviewer_location": "NSW - 2234",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2234",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Logan was really thorough during the quoting process and answered all our questions. He offered great quality components at a competitive price and his recommendations were spot on for our situation. Installation was completed in a day and the system was up and running that afternoon. I then contacted Logan 2 months later to install a Tesla Gen 3 wall charger which was again competitively priced and works seamlessly. Overall, we're really happy with Pacific Edge Solar and would highly recommend them!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "REC",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+      ]
+    },
+    {
+      "review_id": "120204",
+      "reviewer_name": "Ken",
+      "reviewer_location": "NSW - 2230",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2230",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-03-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Best combination of quality panels and price. Prompt installation and great follow up on a few issues. Thank you.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "REC",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Tesla logo",
+      "logo_url": "https://www.solarquotes.com.au/img/evchargermanufacturers/I_tesla.png"
+    }
+  ]
+}

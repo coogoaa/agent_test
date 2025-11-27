@@ -1,0 +1,39 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lagoon-electrical/",
+  "scraped_at": "2025-11-26T14:47:24.140136",
+  "company_info": {
+    "company_name": "Lagoon Electrical",
+    "abn_number": "21674821428",
+    "acn_number": "674821428",
+    "contact_phone": "0409 562 441",
+    "website_url": "https://lagoonelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14379_f60f013e9dc1d0685b5881bc947ab4c3.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14379_d2c553c83efddd90d17040f74067a1be.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14379_ae4d2698c5ab2eabce1fdfd3f8a19d1d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14379_77e94d73913dbcb41d1f4eb49480ab42.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "05 Feb 2024Lagoon Electrical Pty Ltd",
+      "abn_company_name": "Lagoon Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "07 Feb 2024Lagoon Electrical Pty Ltd",
+      "acn_company_name": "Lagoon Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

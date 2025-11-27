@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pb-electrical-and-fire-pty-ltd/",
+  "scraped_at": "2025-11-26T16:33:02.078017",
+  "company_info": {
+    "company_name": "PB Electrical and Fire Pty Ltd",
+    "contact_address": "Blacksmiths, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "79757",
+      "reviewer_name": "Jane",
+      "reviewer_location": "NSW - 2335",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2335",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-07-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Shane and Brett were fantastic throughout the process.  Never pushy but followed up and answered all our questions.  Were always prompt and on time and worked very hard to get the system installed.  I would recommend them to anyone.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "9kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

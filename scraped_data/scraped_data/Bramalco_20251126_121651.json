@@ -1,0 +1,50 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/bramalco/",
+  "scraped_at": "2025-11-26T12:16:51.573797",
+  "company_info": {
+    "company_name": "Bramalco",
+    "contact_address": "Dry Creek, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "5453",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5165",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5165",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-03-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After agreeing to get solar and having it installed I find it rather frustrating that you have to wait for at least six weeks to get the meter box installed.  I think that should be able to be done prior to having solar installed so that you can get it up and running.",
+      "value_for_money_rating": 0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

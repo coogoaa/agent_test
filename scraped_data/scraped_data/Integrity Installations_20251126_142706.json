@@ -1,0 +1,65 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/integrity-installations/",
+  "scraped_at": "2025-11-26T14:27:06.682304",
+  "company_info": {
+    "company_name": "Integrity Installations",
+    "contact_address": "Perth, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "71096",
+      "reviewer_name": "Michael",
+      "reviewer_location": "WA - 6054",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6054",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-12-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting was very simple and straight forward. They took care of the entire grid connection/smart meter application process, it was very hands off. On install day the installers were punctual, and even tackled the wasps in our roof without charging a dime more. The install went smoothly and they took the time to explain when the power would be out some some basic inverter functions and gave some info on getting it WiFi connected. The install looks very professional and tidy, the panels are neatly lined up and follow the guidelines for a schmick install very well. Same for the inverter, it's in a permanently shaded spot with some airflow.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "ET Solar",
+      "inverter_brand": "Solis",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_et-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "ET Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_et-solar.png"
+    },
+    {
+      "brand_name": "Solis logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solis-%28ningbo-ginlong%29.png"
+    }
+  ]
+}

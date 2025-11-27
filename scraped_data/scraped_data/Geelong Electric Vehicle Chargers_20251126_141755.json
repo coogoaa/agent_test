@@ -1,0 +1,37 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/geelong-electric-vehicle-chargers/",
+  "scraped_at": "2025-11-26T14:17:55.945801",
+  "company_info": {
+    "company_name": "Geelong Electric Vehicle Chargers",
+    "contact_phone": "0493 513 543",
+    "website_url": "https://www.gevc.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13635_093faf368811398fd0e70f8d6b89bb6f.JPEG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13635_46b83ce18db8b81cf1e52068cf693b70.JPEG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13635_d432ee38d61da527e8e5f542d64cd43d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13635_397ccde3e47fdd3fbe88399c0458a71a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13635_b6fb53fa0bedb9b840e3c86445832c2a.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

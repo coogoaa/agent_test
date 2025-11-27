@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/adsl-solar/",
+  "scraped_at": "2025-11-26T12:25:05.012795",
+  "company_info": {
+    "company_name": "ADSL Solar",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.8,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 1.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "43201",
+      "reviewer_name": "Patrik",
+      "reviewer_location": "NSW - 2567",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2567",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-01-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I asked for a smart meter to installed and were told by consultant it was extra charge.I am ok with that and a second contract came that now was 600 more and there was a net meter in this quote. I paid it all got installed and after installation I questioned the meter did not look like a smart meter I was told we donâ€™t install smart meters only energy provider can install that. You got installed according to contract see you later. So now I was charged an extra 600 for something I had to change a month later when a real smart meter was installed for free by EnergyAustralia.Be aware off this company and what they say they do compare with contract they give you. DO NOT USE THEM IS MY RECOMMENDATION",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 2.75,
+      "quality_of_system_rating": 3.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

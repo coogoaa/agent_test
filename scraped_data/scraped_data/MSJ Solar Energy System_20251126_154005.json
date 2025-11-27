@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/msj-solar-energy-system/",
+  "scraped_at": "2025-11-26T15:40:05.702937",
+  "company_info": {
+    "company_name": "MSJ Solar Energy System",
+    "contact_address": "Springvale, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "12287",
+      "reviewer_name": "David",
+      "reviewer_location": "VIC - 3984",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3984",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-04-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Started knowing very little about solar but with your help and my background as a project manager in the electronic industry I gradually picked up a reasonable knowledge. I was even able to point out to the sales guy, who worked hard for his money, things such as the solar charts calculating sun angles at different days and times during the day. As my house roof has a step on it, I even set up an expirement in the backyard with a garden stake and a tape measure and by taking measurement every 10 mins from before sunrise to 11:30 to get a reasonable accurate shadow on the roof and I specified the distance that the last panels (2x7,190 watts)had to be away from the step, to give the best result.As a result of my background, I probably ended up with fewer problems and the sales rep was out about 6 or 7 times to go over questions, doubts I had and he worked fairly hard for his money. I got 3 quotes for the system from SolarMyHome,TRU solar and MSJ Solar. SolarMyHome came out, measured up the site and gave me a quote on a detailed contract pre-printed form which I presume that when a customer agreed with the quote the original would become the sales contract. TRU solar simply sat at their computer with a photograph of my site taken from a satellite and worked out from there what I needed as a system and quoted $5000. They phoned me up twice and reluctantly offered to visit the site to ease my doubts but in the end they didn't. MSJ Solar (I saw their advert in our local newspaper), visited the site, then proceded to calculate the quantity of panels, the size of the inverter, where the inverter would be mounted. All this was done on both sides of an A4 scrap pad. No identification simply a calculation as to output that the system would produce and how that compared with my typical electricity bills. I managed to get more detailed information, out of him by asking as you advised on panel brands and inverters used. Thy are wholesalers of inverters as well as offering full systems. Eventually after about 5 phone calls and 4 visits we reached an agreement (he had produced a pre-printed contract by this time). As to what the final system would be and when it would be installed. The installation staff were on site for about 5 hours and apart from having to change physically the mounting position of the inverter, everything seemed to go off ok.There appears to be a large number of opportunities for \"cowboys\" to operate in the industry and I have no doubts that there are plenty of them taking advantage of unsuspecting customers. Thanks for your assistance, knowledge and support. Thanks!",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

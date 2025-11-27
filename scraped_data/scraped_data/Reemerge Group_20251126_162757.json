@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/reemerge-group/",
+  "scraped_at": "2025-11-26T16:27:57.371100",
+  "company_info": {
+    "company_name": "Reemerge Group",
+    "contact_address": "Dandenong, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "10663",
+      "reviewer_name": "Jenny",
+      "reviewer_location": "VIC - 3551",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3551",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-05-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Everyone from the company rep to the office assistants did everything they could to get us on to the system within the specified time frame. The work was done efficiently, and clean and tidy. We have just been checked by PowerCore so I guess we will be seeing the difference in our power bills pretty soon.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "Qcells",
+      "inverter_brand": "Smart Power Technology",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_smart-power-technology.png"
+      ]
+    },
+    {
+      "review_id": "13946",
+      "reviewer_name": "Viv",
+      "reviewer_location": "VIC - 3919",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3919",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-06-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was very disappointed at the lack of response from your recommended suppliers.  I was astounded at the lack of professionalism from the one who finally responded and I could not believe how hard it was to get them to come and give me a quote.  I did however appreciate the information you sent me on Solar Power and read it and felt it gave me the ability to ask pertinent questions.  Unfortunately, though I will not be recommending using your supplier recommendation service to others that have been following my solar journey.  However, I now await actual connection and it will be interesting to see how long I have to wait.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "1.5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Qcells logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hanwha-q-cells.png"
+    },
+    {
+      "brand_name": "Smart Power Technology logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_smart-power-technology.png"
+    }
+  ]
+}

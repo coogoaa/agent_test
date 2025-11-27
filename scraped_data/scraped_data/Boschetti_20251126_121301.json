@@ -1,0 +1,93 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/boschetti/",
+  "scraped_at": "2025-11-26T12:13:01.035451",
+  "company_info": {
+    "company_name": "Boschetti",
+    "electrical_contractor_license": "NSW: 267047C, VIC: REC 23504",
+    "contact_phone": "02 6022 4003",
+    "website_url": "https://boschetti.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_b1179f6f5736400f38d9f56dd264d165.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_17a781d7adbc38c523e1a75edaea61dc.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_36515331fa15d9a570f2b1966c2cf3ef.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_536dd44d047dbd37efa6f9fbc4cf323c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_c6dbfe481774bd4ed00eec355f5d8154.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_e7a28e2220606ce7773200630d1b1d0f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_95856d6f455ebd84bc8ed5a85fb3de93.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_5ece6dcaf6c37acab701f15f1652dc99.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13299_0e30e8d69c8702aab1ef1d2084fc2a06.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "105251",
+      "reviewer_name": "Terry",
+      "reviewer_location": "NSW - 2640",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2640",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All of the above was excellent and they organized everything. Job not completed yet ,waiting on new mertre install. System is working at the moment and I am more than happy with output,I would highly recommend Platiniun Electricians to install your Solar System",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Axitec",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_axitec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/b93f540c58c078b323fbd67530f43277.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/b93f540c58c078b323fbd67530f43277.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/7740cd30ced13441ecef2a6716dbc3ca.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/7740cd30ced13441ecef2a6716dbc3ca.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/82d6b4793c35af86e5d48569f7177853.jpg",
+        "https://www.solarquotes.com.au/img/oneyear/thumbnailsx83/82d6b4793c35af86e5d48569f7177853.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Axitec logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_axitec.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/cents-solar/",
+  "scraped_at": "2025-11-26T12:11:27.280434",
+  "company_info": {
+    "company_name": "Cents Solar",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 1.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "41880",
+      "reviewer_name": "Anon",
+      "reviewer_location": "NSW - 2469",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2469",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-12-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This was a new installer for Cents Solar, not one of their regulars. The job was finished at 9 pm. The system kept shutting down when there was sunlight. Installer came back a few days later to rectify faults. Again he finished at 9 pm. System still has problems of AC over voltage. I have christened the installer \"The Moonlight Solar Installer\". Cents Solar assure me the problems will be rectified",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

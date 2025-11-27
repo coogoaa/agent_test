@@ -1,0 +1,86 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/stanalec-pty-ltd/",
+  "scraped_at": "2025-11-26T18:19:17.151577",
+  "company_info": {
+    "company_name": "Stanalec Pty Ltd",
+    "contact_phone": "03 5498 8156",
+    "website_url": "http://www.stanalec.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12982_2f06830dfeccd73bb0f50ae1e8ed9037.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12982_e4f55c8a28b190cbb707b7403cd20045.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12982_fd6eacde7f93e75524b2b247a2bb68fd.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12982_52e6575f4a66f795dc516e859cc01082.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12982_0bc72732db0ca383894ec16fc11514de.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12982_e2cf1817f9bb7713307949ada414cb68.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/264e37fc32a5f0ebc4d2baf827666f9d0.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "101495",
+      "reviewer_name": "John",
+      "reviewer_location": "VIC - 3551",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3551",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-19",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Stanalec were prompt to visit and discuss Solar installation onsite.  They checked panel arrangement, shading, switchboard and inverter placement. Answered questions to my satisfaction as this was new territory for me.Several options quoted and with info from Solar Quotes we settled on a system size and quality that we are comfortable with. Any doubts I had about panel/inverter placement were listened to and concerns dispelled.  Most impressed with the professional manner in which all Sales and electrical personnel handled our Solar  Installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/264e37fc32a5f0ebc4d2baf827666f9d0.JPG",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/264e37fc32a5f0ebc4d2baf827666f9d0.JPG"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

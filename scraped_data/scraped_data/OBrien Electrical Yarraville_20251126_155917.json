@@ -1,0 +1,136 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/obrien-electrical-yarraville/",
+  "scraped_at": "2025-11-26T15:59:17.301065",
+  "company_info": {
+    "company_name": "OBrien Electrical Yarraville",
+    "contact_address": "Yarraville, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c6cfbb47c3817db907b9fbd547c11e690.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2b11f0b34a274ed485bc51dae1384dc40.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c6cfbb47c3817db907b9fbd547c11e690.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2b11f0b34a274ed485bc51dae1384dc40.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.67,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "90727",
+      "reviewer_name": "Shane",
+      "reviewer_location": "VIC - 3802",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3802",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-02-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I tried to do as much research and educate myself as much as I could using the information supplied by the Solar Quotes pages.  To be honest the 3 companies supplied by Solar Quotes were all very good.  The quotes were received quickly and the customer service was very good.  At no point was there any pressure to buy and all companies were happy to fully explain the process.  I made contact with O'Brien Electrical prior to getting my 3 quotes from Solar Quotes.  I think I changed the configuration of the system numerous times as I learnt more about solar generated electricity  I went for a more expensive system in the end.  I got a 6.6kw system consisting of 17 x 390w Jinko Tiger Series All Black panels coupled with a 5kW Sungrow Premium wifi inverter with consumption monitoring.  The All Black panels look amazing.  It was installed just over a week after I gave the go ahead, and completed in one day.  The installation process was quick and efficient and now we are just waiting for the final inspection before it is activated.  They kindly replaced a few broken tiles and the clean up at the end left the place spotless.  I also elected to go with a full switchboard upgrade, as the original one was 37 years old.  All in all, I was very with O'Brien Electrical Rowville and now I am just waiting to reap the benefits.  At this point in time I couldn't fault O'Brien Electrical Rowville.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/c6cfbb47c3817db907b9fbd547c11e690.jpg"
+      ]
+    },
+    {
+      "review_id": "81729",
+      "reviewer_name": "PAT",
+      "reviewer_location": "NSW - 2577",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2577",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I was very pleased with all the quotes received and the response I received I would recommend anyone interested in Solar to go through with your quotes. The quotes and information given make you think about everything before you decide. It is not cheap so you need to make the right decision.After receiving the quotes they all followed up asking if they could be of help to me. I did advise all of them that I had found a supplier and installer.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "JA Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_ja-solar.jpg",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "77617",
+      "reviewer_name": "Dave",
+      "reviewer_location": "VIC - 3122",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3122",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-06-11",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My electrician identified the power from the street was excessive and my connection to the house needed upgrades to make safe. The system is standard single phase but my wiring was outdated after many years of incremental additions.The installation was done in a day however, i am still waiting for the wholesale supplier to drop the voltage below 254v so we can test and certify its integrity. Although this is not ideal and added a few thousand buck to the job, i can appreciate the 130yo house needs to be safe and the reason i chose the supplier was because they could deal with my home wiring issues and offer a competitive price.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2b11f0b34a274ed485bc51dae1384dc40.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

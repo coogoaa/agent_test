@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/national-heating--cooling/",
+  "scraped_at": "2025-11-26T14:54:51.925809",
+  "company_info": {
+    "company_name": "National Heating & Cooling",
+    "contact_address": "Bendigo, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "87815",
+      "reviewer_name": "Judith",
+      "reviewer_location": "VIC - 3550",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3550",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Having a local company & just a few kilometres away I’m sure had a big difference.The rep was here the day after contact, & spent a couple of hours explaining how it all came together, it was all installed & ready for inspection within ten day’s.  They did all the paperwork & all the government ( stuff ) I received all the $$$ that were available to me & I am very pleased with the result.  It was all done with a minimum of fuss & at my age that means a lot. This company also installed my cooling system & I would recommend to anyone.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

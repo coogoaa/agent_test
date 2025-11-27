@@ -1,0 +1,86 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ghe-electrical-and-solar/",
+  "scraped_at": "2025-11-26T14:29:28.166320",
+  "company_info": {
+    "company_name": "GHE Electrical and Solar",
+    "electrical_contractor_license": "NSW: 280888C, VIC: REC-27214",
+    "contact_phone": "0423 479 011",
+    "website_url": "https://www.ghesolar.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_bd060a7c4d481e09e45a5f57e15b33a1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_564877f603aee5f0341941b2d120231f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_b87cd5fe212abae068af18353365f09e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_a69d4e56cb463a94cbc8beb37431fa68.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_d793a26a3481043ba280acf69f0411f1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_e9a362ecb2a60c410ba680ec003838c4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_11a6b3ecb73b65345787272fe6e6e7a2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_43e5fc223bb08615d5c88d88ee668a63.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_7f95b891ddeb9fbfac7d9d0644e766f8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14081_75e2cb9432569eec38008a1396e30e1d.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "109509",
+      "reviewer_name": "Fiona",
+      "reviewer_location": "NSW - 2640",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2640",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Geof didn't try to push into more expensive options and provided useful information to make the best decision for me.The installation was done as agreed and the roof and yard were left tidy and they avoided damaging the garden even though they had to work in it.A few days after installation I called Geof and he answered promptly, knew my name and was happy to give me the information I needed.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Seraphim logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

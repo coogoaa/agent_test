@@ -1,0 +1,30 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/cool-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T13:06:55.152623",
+  "company_info": {
+    "company_name": "Cool Energy Pty Ltd",
+    "electrical_contractor_license": "NSW: 342871C, QLD: 83858",
+    "contact_phone": "0434 906 363",
+    "website_url": "https://www.facebook.com/people/Cool-Energy/100051068592804/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13851_98bce616195205bc9d4246a2af63784b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13851_f071077bbb1e9462b3a0eb8d320f9d5e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13851_fe2649d5f390cf5f558a551c16819a07.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13851_be5c7b5fa4230ce175dc4c9a644afdae.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

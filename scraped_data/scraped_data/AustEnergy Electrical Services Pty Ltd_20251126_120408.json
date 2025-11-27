@@ -1,0 +1,182 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/austenergy-electrical-services-pty-ltd/",
+  "scraped_at": "2025-11-26T12:04:08.144867",
+  "company_info": {
+    "company_name": "AustEnergy Electrical Services Pty Ltd",
+    "contact_phone": "0405 475 385",
+    "website_url": "https://www.facebook.com/AustEnergy/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/baaab84b6f954eb1ce3fdcb86d8e2c440.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4a0ef1ef645882fea212eaa87603262b1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/955c7e6c96547995117fee358189f93a2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2d8c26e9ad360fd8361ae742f53d4a6d3.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/baaab84b6f954eb1ce3fdcb86d8e2c440.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4a0ef1ef645882fea212eaa87603262b1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/955c7e6c96547995117fee358189f93a2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2d8c26e9ad360fd8361ae742f53d4a6d3.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.75,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "117356",
+      "reviewer_name": "Paul",
+      "reviewer_location": "WA - 6020",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6020",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-12-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Austen and team were great!Solar Quotes recommended AustEnergey and they responded quickly.System was well priced and the installation was excellent.They did a great job installing on a 2 storet home... very professional and tidy.Very reliable and communicated well.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/baaab84b6f954eb1ce3fdcb86d8e2c440.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4a0ef1ef645882fea212eaa87603262b1.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/955c7e6c96547995117fee358189f93a2.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2d8c26e9ad360fd8361ae742f53d4a6d3.jpg"
+      ]
+    },
+    {
+      "review_id": "116590",
+      "reviewer_name": "Travis",
+      "reviewer_location": "WA - 6028",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6028",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-11-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had AustEnergy install solar and battery. Austen come out and did a couple of sites visit's, explained the install process, and ran through the pros and cons of the products. Austen also answered any questions I had regarding the products and the install process.The team was very professional and easy to work with.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 3.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "113784",
+      "reviewer_name": "Helen",
+      "reviewer_location": "WA - 6026",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6026",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-08-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Initial meeting impressed us both, Austin was very informative, helpful, courteous,  pleasant to deal with. Written quote was prompt, detailed, good value for a high quality system. Installation was as scheduled, team was punctual, tidy, well-mannered and cooperative. Any queries during or after the install were handled quickly and politely, even after hours. Grid connection organised without any problems. Outstanding service, very pleasant experience from start to finish - huge thanks to Austin and his professional team, we would certainly recommend AustEnergy to family and friends.Thank you very much Finn for your recommendation and support throughout this process, so glad we contacted Solarquotes!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "104519",
+      "reviewer_name": "Michael",
+      "reviewer_location": "WA - 6025",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6025",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-10-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Jesse and the team at Austenergy were great, they answered all my questions and really helped me to understand the whole process and design a system that was right for our home.He came out for a site visit prior to the installation to do a physical walk-around, check access and make suggestions to suit the layout of our roof.I would have no hesitation in recommending them to anyone considering installing solar power.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

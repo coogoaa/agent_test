@@ -1,0 +1,84 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/alpex-electrical/",
+  "scraped_at": "2025-11-26T12:04:28.528485",
+  "company_info": {
+    "company_name": "Alpex Electrical",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14388_a069285cbadd3c455c8e9a08b098d852.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14388_6c2826e0a99b7e2cc9d040ede4f6234a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14388_ffab0979723c0f3c06fc39ae88197ca7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14388_e2316ee2968115dbf2554ecd6ab951f1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14388_26158b0fdf1b54f8754203268ab39140.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c12cb8c8d337bfa2227e0726885248f0.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "136188",
+      "reviewer_name": "Scott",
+      "reviewer_location": "VIC - 3898",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3898",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I'm in Dinner Plain which is the highest freehold town in Australia.  Alpex is based in Bright, about 1.5 hrs down the mountain.Alpex were very responsive during the sales process but I didn't need much technical explanation (I'm an electronics engineer.)  The system offered was sized and designed approriately for my site: east and west facing pitches with no shading hence a Fronius string inverter with two MPPT inputs was the correct choice.  Panels offered were Jinko and a mounting system that is rated for the high winds we see up here.Alpex also did the electrical for our heat pump hot water that went separately.Install went smoothly over two days (on the date specified) but the local mains voltage was found to exceed the 230v+10% tolerance.  Alpex worked with AusNet to get the local transformer retapped to lower the voltage but this took over 2 months.  At this point we also got hung up on the AusNet Solar Backstop testing.  Alpex kept on AusNet's back until it was all resolved and our smart meter finally reprogrammed so we can get a feed in tariff.Would I recommend Alpex?  Absolutely.The picture below shows the inverter and the east facing panels are visible on the roof.  They're not white panels and they do generate power when they're not covered in snow :-)  You can also see the heat pump.  Yes, I do get hot water even when it is cold.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c12cb8c8d337bfa2227e0726885248f0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/9c12cb8c8d337bfa2227e0726885248f0.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

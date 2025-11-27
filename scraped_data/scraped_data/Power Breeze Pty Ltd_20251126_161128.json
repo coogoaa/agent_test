@@ -1,0 +1,97 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/power-breeze-pty-ltd/",
+  "scraped_at": "2025-11-26T16:11:28.262615",
+  "company_info": {
+    "company_name": "Power Breeze Pty Ltd",
+    "contact_phone": "08 9497 1290",
+    "website_url": "http://www.powerbreezeptyltd.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "86744",
+      "reviewer_name": "Antonie",
+      "reviewer_location": "WA - 6152",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6152",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-02-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Power Breeze, an installer in Perth was knowledgeable about solar panels and was very patient in answering my questions prior to me selecting a system.  They demonstrated clarity in quoting by providing a quote in tabular form, with a table of panel options for each inverter, so that I could confidently choose where I wanted to position myself in the tradeoff between price and quality.  Their installers arrived on time and they were courteous.  The pre-install inspection revealed a better (more shaded & sheltered) location for the inverter than I had in mind.  The installation although noisy was quicker than I anticipated, done by 3pm, they worked like a well-oiled machine.  They did not appear to cut corners:  one installer expressed frustration to his colleague at inadvertent damage to a cable, and the entire cable was replaced without hesitation.  I was guided through the operation of the inverter, connecting the inverter to my wifi and installing the inverter's app.  I was also shown the location of the isolator switches.  Changes to the switchboard and isolator switches were all neatly labelled, making for a very professional installation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "81448",
+      "reviewer_name": "Barend",
+      "reviewer_location": "WA - 6122",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6122",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The team at PowerBreeze instlled my system with me giving them only a moment's notice. They did a real good job, awesome work by knowledgeable people.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

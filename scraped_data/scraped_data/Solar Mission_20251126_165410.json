@@ -1,0 +1,125 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-mission/",
+  "scraped_at": "2025-11-26T16:54:10.393910",
+  "company_info": {
+    "company_name": "Solar Mission",
+    "contact_address": "Liverpool, NSW",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.67,
+    "system_quality_rating": 4.67,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "82177",
+      "reviewer_name": "Nowal",
+      "reviewer_location": "NSW - 2568",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2568",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-10-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The salesperson sat down and explained how solar worked in its entirety, went through the different brands and price points. Followed through with phone calls after the quote was sent through to further negotiate against other quotes provided to me from other companies and helped me understand the differences. Once chosen to go ahead, they looked after everything, the whole process was seamless and helped me with after sales support. Great company to do business with, effortless!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "HTsae (Other)",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "75792",
+      "reviewer_name": "BRUCE",
+      "reviewer_location": "NSW - 2233",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2233",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From the first contact everything was simple and easy. Onsite inspection done and then salesman explained all available options and answered any questions on available/best panels. Customer service (Sana) was even easier to deal with and was patient and informative, even arranging contact with other power supplier to obtain best deal. Completed and lodged grid connection form.Installation was on time / no mess / no fuss and no issues post installation either.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$N/A",
+      "panel_brand": "ZNShine PV-Tech",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "72360",
+      "reviewer_name": "Norm",
+      "reviewer_location": "NSW - 2560",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2560",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Was able to choose any panel brand and inverter - read up prior to purchase using SolarQuotes information and went to minimum of 3 suppliers.Solar Mission was easy to deal with, no pushy sales.Installation was done on time and were very helpful.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SolaX Power",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

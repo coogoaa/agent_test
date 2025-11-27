@@ -1,0 +1,72 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/industry-electrical-and-solar/",
+  "scraped_at": "2025-11-26T14:14:14.508740",
+  "company_info": {
+    "company_name": "Industry Electrical and Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14117_b8c0eca21984ce6fba3856657da7b4dc.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14117_ceedf9f21663b636558624f5be05d98d.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14117_0fc9c39c163fe81f4975dd59b38e8c0b.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14117_332f839f2120e1939c6500f57fad86e1.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "132851",
+      "reviewer_name": "Marc",
+      "reviewer_location": "QLD - 4017",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4017",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-04-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Tommy and Cooper at Induatry Solar were outstanding with communication, customer service and speed of installation. Very glad to have linked up with them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

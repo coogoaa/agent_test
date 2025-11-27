@@ -1,0 +1,63 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/lifetime-renewable-energy/",
+  "scraped_at": "2025-11-26T15:03:51.164897",
+  "company_info": {
+    "company_name": "Lifetime Renewable Energy",
+    "contact_address": "Brunswick, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "111564",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "VIC - 3223",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3223",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Still hasn't been checked off by inspector! Quote was mid range. Some confusion on what 'battery ready' meant!Somebody later said it would still cost another $1000 to accept batteries?Otherwise install was prompt, tidy and polite.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/the-future-energy-company/",
+  "scraped_at": "2025-11-26T18:22:21.697928",
+  "company_info": {
+    "company_name": "The Future Energy Company",
+    "contact_phone": "0411 055 070",
+    "website_url": "https://www.tfec.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12808_eee7103954194dd3d6719c3fcdd67d57.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12808_f0e82690f21e3fa1655112a12af017a4.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12808_8336e105bde1dee0993c93ffbee502e1.png"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

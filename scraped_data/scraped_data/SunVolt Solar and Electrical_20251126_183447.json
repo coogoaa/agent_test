@@ -1,0 +1,99 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunvolt-solar-and-electrical/",
+  "scraped_at": "2025-11-26T18:34:47.114244",
+  "company_info": {
+    "company_name": "SunVolt Solar and Electrical",
+    "contact_address": "Central Coast, NSW",
+    "website_url": "https://www.sunvoltsolarandelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11917_3bf6f032bb76199386166c74428c3ea4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11917_598c77a442e3d007480773f9a6b91aa5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11917_3bf9f3ebd63da5da3c9ab7a1e23dc6de.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.3,
+    "value_for_money_rating": 3.5,
+    "system_quality_rating": 4.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 2.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "73665",
+      "reviewer_name": "Sharon",
+      "reviewer_location": "NSW - 2251",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2251",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-02-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "My system was installed in September. As part of the contract, a 3 month check and clean was due in December. The owner emailed me in December and said he would undertake this work in January after the holidays. Repeated attempts to contact the owner by email, text, voice mail over the last 5 weeks have been completely ignored, which is really disappointing. Now I'm worried who will I follow up with in the event of any future service or warranty requirements. I would have recommended them highly, if they had followed up as agreed.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 1.0,
+      "system_size": "5kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 2.5,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "57234",
+      "reviewer_name": "Trevor",
+      "reviewer_location": "NSW - 2262",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2262",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-12-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Best response by far, a local installer and helpful in followup to get things sorted with the electricity retailer.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

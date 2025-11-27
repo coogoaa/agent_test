@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/full-house-energy/",
+  "scraped_at": "2025-11-26T14:01:45.249750",
+  "company_info": {
+    "company_name": "Full House Energy",
+    "contact_phone": "0400 476 782",
+    "website_url": "https://fullhouseenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14411_a84f5358cf967013cf367c27ba181356.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14411_e34fbb517af71120effc91d60e90d4c2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14411_2be65720c4e7d1ee933f86b8cebc7a49.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14411_959314a94e49e47366dec30ac7f0a263.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

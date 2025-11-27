@@ -1,0 +1,59 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ev-charge-australia/",
+  "scraped_at": "2025-11-26T13:21:57.734765",
+  "company_info": {
+    "company_name": "EV Charge Australia",
+    "abn_number": "72519319482",
+    "contact_phone": "08 7089 8900",
+    "website_url": "https://evchargeaustralia.com.au/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "12 Mar 2021The Trustee For Ev Charge Aus Unit Trust",
+      "abn_company_name": "The Trustee For Ev Charge Aus Unit Trust"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "123759",
+      "reviewer_name": "Mickey",
+      "reviewer_location": "SA - 5021",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5021",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-07-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote from EV Australia was prompt and complete, details are confirmed over the phone. Email questions are followed up promptly, too. The installation date was set within a week.The electrician was courteous, helpful in explaining how the EV charger works. Beautiful workmanship. The wiring works are hidden in between the double brick wall. All clean up after works have been completed. It takes about 4 hours.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

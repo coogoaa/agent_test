@@ -1,0 +1,31 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/symmetry-solar/",
+  "scraped_at": "2025-11-26T18:00:05.889017",
+  "company_info": {
+    "company_name": "Symmetry Solar",
+    "electrical_contractor_license": "ACT: 2019377, NSW: 338114C, VIC: REC 28201",
+    "contact_phone": "1300 845 438",
+    "website_url": "https://symmetrysolar.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

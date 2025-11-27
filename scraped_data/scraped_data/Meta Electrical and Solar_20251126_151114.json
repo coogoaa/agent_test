@@ -1,0 +1,113 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/meta-electrical-and-solar/",
+  "scraped_at": "2025-11-26T15:11:14.648726",
+  "company_info": {
+    "company_name": "Meta Electrical and Solar",
+    "electrical_contractor_license": "ACT: 2022156, NSW: 398086C",
+    "contact_phone": "0499 071 378",
+    "website_url": "https://www.metaelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13796_ab2b5b3dad6de8046b9349d165b98721.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13796_0e45106b0c0882ac333f616ecbcb9dda.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13796_7f7ea74a5b57ba1b99be94b10ac130e7.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13796_e7434710096f639b052b642596a83843.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13796_77be3138f3b0d76fcf48a6159023768a.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13796_4b88eb226e32fb97a9c35a0af2ced8e1.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f7a041346d7acd5e54750d427b728050.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "135601",
+      "reviewer_name": "Russell",
+      "reviewer_location": "ACT - 2902",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2902",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-25",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Meta Electrical & SolarJust wanted to reach out and say thanks for yesterday Meta Electrical and Solar you have restored my faith in solar & battery installers.Josh and the team made it a very pleasant setup of installing our battery yesterday very impressed with how Josh explained everything that they were doing . Also the follow up the next day was very professional.will be recommendingMeta Electrical and solar to family and friends.Thanks again .",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "111472",
+      "reviewer_name": "Norma",
+      "reviewer_location": "ACT - 2905",
+      "reviewer_state": "ACT",
+      "reviewer_postcode": "2905",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-06-13",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Josh was really easy to deal with from the get-go. I found him to be very reliable and honest about his pricing.Thanks for the install team,Norma",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f7a041346d7acd5e54750d427b728050.JPG",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/5f7a041346d7acd5e54750d427b728050.JPG"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/yarra-solar/",
+  "scraped_at": "2025-11-26T18:59:36.262078",
+  "company_info": {
+    "company_name": "Yarra Solar",
+    "contact_phone": "0405 124 098",
+    "website_url": "http://www.yarrasolar.com.au/",
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.75,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "105203",
+      "reviewer_name": "Pamela",
+      "reviewer_location": "VIC - 3113",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3113",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-09-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quotes went well. Had 3 quotes: CBR quote from Brenton went very well, efficient, helpful. Had another quote from local recommendation. The 3 Quotes were quite similar. Chose YarraSolar as is very local and had friends’ recommendations.Installation and grid connection all went smoothly.The chosen quote/installation included Switchboard Upgrade.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "92995",
+      "reviewer_name": "Roger",
+      "reviewer_location": "VIC - 3113",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3113",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-03-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Having just commenced the Solar journey, we had lots of questions and queries for Michael before we signed off on the final design. We live in a power hungry home - pool / spa, water feature, large ducted air con, multiple fridges etc so we took the Solar Quotes advice to install a large panel system to provide options for the future i.e. Battery installation, Electric Vehicle option etc. Panel choice was Hyundai and we installed 55 panels for a 22kW system. The roof is essentially unshaded and we positioned 33 panels to face North and 22 panels to face East / West. In late August we were solar self sufficient by around 9:30am on a sunny day. A Fronius 20kW inverter was installed in the garage. Michael was very patient as we worked through the options and very helpful in identifying value for money products. The installation was done quickly and everything was left neat and tidy. Michael completed all the paperwork for the grid connection and Certificate of Electrical Safety, as well as assisting with the Fronius registration and downloading computer and phone software.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "20kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "96462",
+      "reviewer_name": "Giles",
+      "reviewer_location": "VIC - 3095",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3095",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We had a technical problem with lightning that blew up a number of modems along our street and the solar installation also stopped working.  Michael Stewart from Yarra Solar installed our micro-inverter system in October last year, he has now revised the system to install additional surge protection and worked with Enphase to replace failed components.  We're now back up on line.  Michael's response has been rapid and has fully solved the problem, leaving us with an upgraded system too.  Couldn't be happier with his service.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "",
+      "panel_brand": "",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "84048",
+      "reviewer_name": "Douglas",
+      "reviewer_location": "VIC - 3764",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3764",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-07-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Solar quotes gave one option for me. This company did not call me. After a weeks, I called the giving them the requirements of the installation of the job.The on the phone quote was close to (in fact a little less) Yarra Solar. Even though it was a little more expensive, I had used this person (Michael Stewart) with an existing system and new the job he would do. For this reason, I went with Yarra Solar.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Winaico",
+      "inverter_brand": "SMA",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_winaico.gif",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

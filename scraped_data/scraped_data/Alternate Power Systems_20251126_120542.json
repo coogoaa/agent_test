@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/alternate-power-systems/",
+  "scraped_at": "2025-11-26T12:05:42.521616",
+  "company_info": {
+    "company_name": "Alternate Power Systems",
+    "contact_address": "Kinglake, VIC",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "1476",
+      "reviewer_name": "Anon",
+      "reviewer_location": "VIC - 3616",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3616",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-08-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "under the solar valley goes solar program based around shepparton campaspe shire there is a far greater awareness of solar and thousand of systems have been installed by the program .(as well as hot water services )I also had huge difficulty getting anybody to either give me a quote or even look at installing a pre heater solar system for a 1600 lt dairy hot water service . lots of people wanting to sell hws systems but couldn't find anyone to quote or install a preheat only (no storage needed ) and ended up buying 3 30 evacuated tube heating which I installed myself without difficulty Best result so far 1600 lt at 75 degrees worst day only give about 8 degrees temperature rise . Pay back without selling the recs is about 2 years",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "BP Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_bp-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "BP Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_bp-solar.png"
+    },
+    {
+      "brand_name": "SMA logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+    }
+  ]
+}

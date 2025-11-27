@@ -1,0 +1,159 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/yates-electrical-services/",
+  "scraped_at": "2025-11-26T19:00:55.230339",
+  "company_info": {
+    "company_name": "Yates Electrical Services",
+    "contact_phone": "08 8119 0777",
+    "website_url": "https://www.yessolar.net",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12039_b6a5567a86b2156ffe4ad03a70739b34.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12039_8aaf438fc92841dd2ce3621c2f5e0c3e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12039_0d713082ac42d9f0da6935b8bf257afd.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12039_45d256af643df33eac015ff295c7f5ff.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.75,
+    "installation_rating": 4.75,
+    "customer_service_rating": 4.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "106958",
+      "reviewer_name": "Vivek",
+      "reviewer_location": "SA - 5341",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5341",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-01-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Prompt reply and affordable quote for the quality of the system",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "99396",
+      "reviewer_name": "Jeffrey and deidre",
+      "reviewer_location": "SA - 5344",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5344",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very streamlined process all taken care of. All polite and respectful.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "SMA",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sma.png"
+      ]
+    },
+    {
+      "review_id": "69648",
+      "reviewer_name": "Matthew",
+      "reviewer_location": "SA - 5341",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5341",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-10-24",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting process was easy.Install was very Profesional and on time.Customer service was outstanding.Overall, it was a delight dealing with the team and the after-sales service was great.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "more than 20kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Fimer",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fimer.png"
+      ]
+    },
+    {
+      "review_id": "63793",
+      "reviewer_name": "Brian",
+      "reviewer_location": "SA - 5345",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5345",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-05-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thank you for your help and advice. I found your book very helpful.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

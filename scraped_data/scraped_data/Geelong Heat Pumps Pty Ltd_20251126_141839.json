@@ -1,0 +1,38 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/geelong-heat-pumps-pty-ltd/",
+  "scraped_at": "2025-11-26T14:18:39.145950",
+  "company_info": {
+    "company_name": "Geelong Heat Pumps Pty Ltd",
+    "abn_number": "19663999095",
+    "acn_number": "663999095",
+    "contact_phone": "0411 375 484",
+    "website_url": "https://www.geelongheatpumps.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14271_872c52e5fbc1278a0bba9ac3e1746650.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14271_2b73f004571f57d13e4890b14871b281.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14271_d3419f8ff3103f08ab1aad8cc44bf3d1.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "01 Dec 2022Geelong Heat Pumps Pty Ltd",
+      "abn_company_name": "Geelong Heat Pumps Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "22 Nov 2022Geelong Heat Pumps Pty Ltd",
+      "acn_company_name": "Geelong Heat Pumps Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

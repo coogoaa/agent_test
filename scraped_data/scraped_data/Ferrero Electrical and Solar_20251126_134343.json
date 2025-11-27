@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ferrero-electrical-and-solar/",
+  "scraped_at": "2025-11-26T13:43:43.047716",
+  "company_info": {
+    "company_name": "Ferrero Electrical and Solar",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "23207",
+      "reviewer_name": "Garry",
+      "reviewer_location": "QLD - 4884",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4884",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-07-23",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Checked numerous suppliers other than those suggested by Solar Quotes and insisted on a \"premium\" system (well known, excellent performer and trustworthy panels and inverter) that my budget would allow. Agonising but worth it. The system I chose was able to be expanded by adding further panels at a future date without increasing the inverter size. The supplier was able to give me excellent feedback on the expected performance of the PV panels as I was installing them on an East and West direction. Installers arrived at the expected time and the system was installed with minimal disruption to the power. Installers were knowledgeable efficient and fast. The Clean Energy Council website helped me in gathering information so I could chose the right system and supplier.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

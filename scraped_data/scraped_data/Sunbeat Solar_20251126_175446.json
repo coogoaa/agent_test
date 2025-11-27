@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sunbeat-solar/",
+  "scraped_at": "2025-11-26T17:54:46.747096",
+  "company_info": {
+    "company_name": "Sunbeat Solar",
+    "contact_phone": "03 7047 9599",
+    "website_url": "https://www.sunbeatsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14477_62bd31c87bbd49b1760efcf516b72a4c.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14477_35c6e3629450269d6346d4a9864a6f51.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14477_f155fa66f02865139ddde8f8de93b65c.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14477_4508c330d6176960d295adc9ac928d8e.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

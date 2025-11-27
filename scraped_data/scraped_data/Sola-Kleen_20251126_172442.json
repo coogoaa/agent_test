@@ -1,0 +1,62 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/sola-kleen/",
+  "scraped_at": "2025-11-26T17:24:42.814787",
+  "company_info": {
+    "company_name": "Sola-Kleen",
+    "contact_address": "Bayswater, WA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "5372",
+      "reviewer_name": "Ken",
+      "reviewer_location": "WA - 6018",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6018",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "They instal Solar HWS as well. Their HWS's have a good reputation in WA.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "4kW",
+      "system_cost": "$10,000 to $15,000",
+      "panel_brand": "Motech Americas LLC",
+      "inverter_brand": "Motech Industries",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_motech-industries-inc.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Motech Industries logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_motech-industries-inc.png"
+    }
+  ]
+}

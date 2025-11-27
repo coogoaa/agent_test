@@ -1,0 +1,186 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-partners/",
+  "scraped_at": "2025-11-26T17:03:31.543951",
+  "company_info": {
+    "company_name": "Solar Partners",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.6,
+    "system_quality_rating": 4.8,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "136497",
+      "reviewer_name": "Bernie",
+      "reviewer_location": "NSW - 2777",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2777",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Shane from Solar Partners attended promptly and had up to date aerial maps of our roof which others did not have as we had recently renovated. He advised us gently and was happy to answer a range of questions resulting from different advice given by other installers who attended. He clearly explained the reasons for his suggestions based on our shading, budget and current power bills. We are still waiting for the actual install, and will be able to provide a more comprehensive review later.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "99597",
+      "reviewer_name": "Noel",
+      "reviewer_location": "NSW - 2750",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2750",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-02-27",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Both installers are company owners and were happy to negotiate final pricing.Installation went like clockwork : Both  work as a team which was my preferred option.I am in the midst of discussion with 'Origin' energy ( current supplier) as am not happy with their  processes of the smart metre.Apart from this issue, all is well.Will re. use supplier as thinking about either more panels or batteries and family are also very keen to proceed after seeing op in action.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Trina",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "95869",
+      "reviewer_name": "Ian",
+      "reviewer_location": "NSW - 2780",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2780",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-12-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Firstly the quote process was the best I experienced.  Shane visited the property and saw first hand what system would be best, and quoted quite differently to others who only used satellite pictures.  Not just the default 6.6 system.Installation went exactly as planned - despite some rain on that day.  All done in one day, overseen by an experienced team leader who inspired confidence.  Everything was cleaned up at the end of the day.My energy provider was contacted after the installation as promised.All round a stress free experience.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "81648",
+      "reviewer_name": "Allan",
+      "reviewer_location": "NSW - 2777",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2777",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quote process was informative and reviewed various options with benefits and disadvantages of each; no pressure to choose other than my informed preferences.The installation was prompt, on time, skillful and untroubled. No damage and clean and tidy after the install.Grid connection (meter exchange) was arranged with my energy provider on the day as soon as install was complete.(Energy Provider was slower than necessary to do the meter swap but that is not the solar installers fault)I could have bought a much cheaper system but this one will outperform any other, long term it will offer good value.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Tindo Solar",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+      ]
+    },
+    {
+      "review_id": "60752",
+      "reviewer_name": "Ian",
+      "reviewer_location": "NSW - 2777",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2777",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-03-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The installation was done when they said it would. They worked professionally and efficiently and completed the installation the same day.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Aiko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png"
+    },
+    {
+      "brand_name": "Enphase logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

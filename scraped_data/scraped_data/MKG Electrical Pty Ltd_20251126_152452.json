@@ -1,0 +1,187 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/mkg-electrical-pty-ltd/",
+  "scraped_at": "2025-11-26T15:24:52.003051",
+  "company_info": {
+    "company_name": "MKG Electrical Pty Ltd",
+    "abn_number": "71620251461",
+    "acn_number": "620251461",
+    "contact_phone": "02 8630 2754",
+    "website_url": "https://www.mkgelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14333_cecbac8296e64579b1023469a7506bfe.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14333_8de897a68f7286050674d9e393f2d23c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14333_b2f2b620b690d881fedf50e8a66255b1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14333_c5f9594e991ea3702053acf9842e810d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14333_fe400e1c8873b9757ce63ecd3ca47c7f.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/37cb9d834ec316cd6e8ff9768673616a0.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "05 Jul 2017Mkg Electrical Pty Ltd",
+      "abn_company_name": "Mkg Electrical Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "05 Jul 2017Mkg Electrical Pty Ltd",
+      "acn_company_name": "Mkg Electrical Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "139795",
+      "reviewer_name": "Colin",
+      "reviewer_location": "NSW - 2234",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2234",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-11-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The best price by far. Excellent sales and installation service. Kept me informed every step of the way and backed it up with after sales service. highly recommended. Battery only installed by MKG Electrical",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "SolarEdge",
+      "inverter_brand": "",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "138747",
+      "reviewer_name": "Nathan",
+      "reviewer_location": "NSW - 2777",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2777",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-10-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "MKG Electrical was amazing to deal with, we got a quote from them during out second round of quotes through solar quotes online. I thought I had my mind made up on my system but they were able to share other products and their experience. We ended up going with Aiko Panels and Sigenergy battery and inverter.They were so patient with me when I kept asking to vary the design for maximum panels and batteries.They also did the paperwork to get me a 12Kw inverter.Their price was incredible.Install only took a day and a half.10/10 would recommend them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Aiko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_aiko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "136108",
+      "reviewer_name": "Anthony",
+      "reviewer_location": "NSW - 2220",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2220",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-08-14",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Brittany was very responsive to questions I had on potential battery options that would suit our needs.The team visited the site before quoting and were very competitively priced.Team was punctual, didn’t rush and took the time to walkthrough the system, and even fixed some sloppy workmanship from a previous crew.Highly recommended",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "15kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/37cb9d834ec316cd6e8ff9768673616a0.jpeg"
+      ]
+    },
+    {
+      "review_id": "133571",
+      "reviewer_name": "Ebony",
+      "reviewer_location": "NSW - 2148",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2148",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I’m incredibly impressed and happy with the solar and overall electrical work provided by MKG Electrical for our new home. The quality of their service exceeded expectations. I’ll definitely be recommending them to my friends and family!",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solaredge.png"
+    },
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+    }
+  ]
+}

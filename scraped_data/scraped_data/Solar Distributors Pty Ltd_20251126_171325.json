@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-distributors-pty-ltd/",
+  "scraped_at": "2025-11-26T17:13:25.055019",
+  "company_info": {
+    "company_name": "Solar Distributors Pty Ltd",
+    "contact_address": "Toowoomba, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "7261",
+      "reviewer_name": "Penny",
+      "reviewer_location": "QLD - 4405",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4405",
+      "reviewer_postcode_valid": true,
+      "review_date": "2012-09-12",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The manager came out to Dalby and checked the installation and to see if we were satisfied with everything. Excellent customer service. Could not fault them.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "4kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "Tianwei New Energy Holdings (Other)",
+      "inverter_brand": "CMS",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 2.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_cms.png"
+      ]
+    },
+    {
+      "review_id": "8647",
+      "reviewer_name": "DAVID",
+      "reviewer_location": "QLD - 4380",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4380",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-06-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "CMS logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_cms.png"
+    }
+  ]
+}

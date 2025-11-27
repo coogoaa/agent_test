@@ -1,0 +1,79 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solahart-port-macquarie/",
+  "scraped_at": "2025-11-26T17:42:42.461414",
+  "company_info": {
+    "company_name": "Solahart Port Macquarie",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13294_7321d0b5fa4a23862a8889f67d703e15.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13294_536becb38c8b3aa00bce501b647534ab.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13294_6966cfa836f26f8169ded0fb1f77c3b0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13294_8db2cb4357ab381ee82e8d31c016e6b5.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "96596",
+      "reviewer_name": "John",
+      "reviewer_location": "NSW - 2444",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2444",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-09-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The Solahart Port Macquarie were courteous, professional and the installation went without a hitch. The sales process was informative and the agent took his time to explain pros and cons of each offering.We were quoted a 6.6KW and 10.7KW system and decided to go for the 10.7KW system (filled up the roof with PV)  using the top of the range components listed on the right hand side of your recommendation diagrams.The installation took a day and everything is working as advertised. The installers were courteous and professional. They also organised the grid paperwork.We are super happy and hope to be for the next 20 years or so.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "SolaHart",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolaHart logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_solahart.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    }
+  ]
+}

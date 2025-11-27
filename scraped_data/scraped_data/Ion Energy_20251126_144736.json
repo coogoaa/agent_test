@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ion-energy/",
+  "scraped_at": "2025-11-26T14:47:36.582211",
+  "company_info": {
+    "company_name": "Ion Energy",
+    "contact_address": "QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "24383",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4210",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4210",
+      "reviewer_postcode_valid": true,
+      "review_date": "2014-11-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Mark Group was prepared to visit my premise, however one of the other two suppliers submitted a quote without a visit to my home.  Mark Group was very help full.I have already paid much towards solar having installed a system 6 years ago, so I was determined to upgrade as cost effective as possible and was prepared to buy my own panels and claim back STC's.The installer Ion Energy impressed me, because he did visit my home and was prepared to talk to me about alternatives.Because mine is a special case (install only) it would not make sense to put on your website.I would like to thank you for all the information on you web page, which ultimately led to a good outcome for me.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "3kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

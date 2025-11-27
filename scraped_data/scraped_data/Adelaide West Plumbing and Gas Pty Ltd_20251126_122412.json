@@ -1,0 +1,40 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/adelaide-west-plumbing-and-gas-pty-ltd/",
+  "scraped_at": "2025-11-26T12:24:12.487677",
+  "company_info": {
+    "company_name": "Adelaide West Plumbing and Gas Pty Ltd",
+    "abn_number": "75655774137",
+    "acn_number": "655774137",
+    "contact_phone": "0433 394 352",
+    "website_url": "https://adelaidewestplumbing.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14323_b0ef71f0091b9dedf5aa4acdef944041.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14323_d354e8b51eeabbf41a7f61e0f4b90819.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14323_0bc8eefcbdff9f6f968313f500ca8ea1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14323_dce2376c0583b6e2e0521ce164e61c7d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14323_508706ed953db8ce50180e89094672bd.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "02 Dec 2021Adelaide West Plumbing",
+      "abn_company_name": "Adelaide West Plumbing & Gas Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "02 Dec 2021Adelaide West Plumbing",
+      "acn_company_name": "Adelaide West Plumbing & Gas Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

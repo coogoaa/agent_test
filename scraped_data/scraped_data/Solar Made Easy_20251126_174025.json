@@ -1,0 +1,52 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-made-easy/",
+  "scraped_at": "2025-11-26T17:40:25.872838",
+  "company_info": {
+    "company_name": "Solar Made Easy",
+    "contact_address": "Pitt Town, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.0,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "3424",
+      "reviewer_name": "Vic",
+      "reviewer_location": "NSW - 2756",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2756",
+      "reviewer_postcode_valid": true,
+      "review_date": "2010-10-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The two installers you gave me from your site were disappointing. One didn't bother to get in touch with me at all and the other rung me to ask me a few questions. Then I never heard from them again. I waited for 4 weeks and got in touch with a few other installers in my area and went with Solar Made Easy. Within a week I had the solar hot water on which is working great. And the solar power will be installed within the next few weeks. Thank you for your 7 days of information it was a big help to me showed me a lot of things I didn't know.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/solar-and-bamboo-direct/",
+  "scraped_at": "2025-11-26T16:57:02.620790",
+  "company_info": {
+    "company_name": "Solar and Bamboo Direct",
+    "contact_address": "Coffs Harbour, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.5,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "10825",
+      "reviewer_name": "David",
+      "reviewer_location": "NSW - 2455",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2455",
+      "reviewer_postcode_valid": true,
+      "review_date": "2011-12-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We gained a lot of information through websites and visiting a lot of solar power distributors. It came down to price which varied a lot, comparing solar panels for quality and the helpfulness of staff. We didn't have to wait long after signing the contract and all applications were sorted by the company. A few weeks later our panels arrived and the electricians were also organised to connect to the grid on the same day, thanks to the very efficient staff back at the showroom... Very friendly and efficient installers and we were generating power the same afternoon. All up a very good experience and if needed an invitation to contact Solar and Bamboo Direct with any questions. Would recommend this company without hesitation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "2kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

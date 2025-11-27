@@ -1,0 +1,147 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/reliance-solar/",
+  "scraped_at": "2025-11-26T16:32:58.989721",
+  "company_info": {
+    "company_name": "Reliance Solar",
+    "contact_address": "Milton, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.1,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.25,
+    "customer_service_rating": 3.75,
+    "total_review_count": 4
+  },
+  "reviews": [
+    {
+      "review_id": "91925",
+      "reviewer_name": "Selvakumar",
+      "reviewer_location": "QLD - 4070",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4070",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-08-01",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales/Quoting process was quick.Installed by RAM'S ELECTRICAL CONTRACTOR PTY LTDInstallation started morning 8 AM and finished at 3 PM.Clean work.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "10kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Growatt",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+      ]
+    },
+    {
+      "review_id": "87403",
+      "reviewer_name": "Chris",
+      "reviewer_location": "QLD - 4223",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4223",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-03-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quoting was easy worked to suit our needs. There was an issue around panel configuration but it was sorted out. One of the installers was a bit heavy handed, but nothing was broken during the install. The electrician was knowledgeable and offered great advice to make most of system. The invertor did have some configuration issues but these were related to the WiFi remote access service from the manufacturer. Price was half some of the quotes we received. System has worked flawlessly for last 3 months.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "9kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Seraphim",
+      "inverter_brand": "Sofar (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_seraphim.png"
+      ]
+    },
+    {
+      "review_id": "64513",
+      "reviewer_name": "Cheryl",
+      "reviewer_location": "QLD - 4017",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4017",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-05-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "58585",
+      "reviewer_name": "Anon",
+      "reviewer_location": "QLD - 4301",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4301",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-01-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Canadian Solar Inc logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png"
+    },
+    {
+      "brand_name": "Growatt logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_growatt.png"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/gippsland-renewable-energy-and-technologies/",
+  "scraped_at": "2025-11-26T14:31:36.982825",
+  "company_info": {
+    "company_name": "Gippsland Renewable Energy and Technologies",
+    "contact_address": "Loch, VIC",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/be6a2b8db81443243cc22fe3564a3e1c0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1af4007ac0662aa5681cb54deb558be31.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2e91bfa29b71456a84acc3ed8b2813792.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/be6a2b8db81443243cc22fe3564a3e1c0.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1af4007ac0662aa5681cb54deb558be31.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2e91bfa29b71456a84acc3ed8b2813792.JPG"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 2.9,
+    "value_for_money_rating": 2.5,
+    "system_quality_rating": 3.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "64212",
+      "reviewer_name": "Dominik",
+      "reviewer_location": "VIC - 3953",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3953",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-05-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "- Upgrade of existing 3kW system to 6.2kW system (the original 3kW system was previously installed by gREat)- Upgrade resulted in solar panels overhanging roof structure, at multiple orientation and pitch, overlapping and shadowing existing and new panels.- Upgrade retained single Charge Controller (rated at Max 1.5kW input) resulting in bottleneck in output performance, operation at four times manufacturer maximum specification and ultimate failure.- Use of multiple orientations and pitch with single Charge Controller (i.e. single MPPT) resulted in bottleneck in output performance.- Installer would not provide system performance estimates, string diagrams, electrical safety certificate- Installer would not assist with system remediation requiring separate review (at own cost) and additional $12k of remediation- Installer opposed cost recovery resulting in VCAT legal action (at additional cost incurred to employ independent expert) with monetary order against the installer- Installer did not challenge independent expert views on the installation limitations and issues",
+      "value_for_money_rating": 1.0,
+      "quality_rating": 0,
+      "installation_rating": 1.0,
+      "customer_service_rating": 1.0,
+      "system_size": "6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 1.0,
+      "quality_of_system_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/be6a2b8db81443243cc22fe3564a3e1c0.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1af4007ac0662aa5681cb54deb558be31.JPG",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/2e91bfa29b71456a84acc3ed8b2813792.JPG"
+      ]
+    },
+    {
+      "review_id": "30934",
+      "reviewer_name": "Fiona",
+      "reviewer_location": "VIC - 3971",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3971",
+      "reviewer_postcode_valid": true,
+      "review_date": "2016-07-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Being off the grid, it was really informative to have access to the knowledge & experience of someone who has lived that lifestyle for some time & was willing to pass on their advice.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "more than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

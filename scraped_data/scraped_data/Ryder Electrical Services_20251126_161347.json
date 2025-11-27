@@ -1,0 +1,198 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ryder-electrical-services/",
+  "scraped_at": "2025-11-26T16:13:47.317188",
+  "company_info": {
+    "company_name": "Ryder Electrical Services",
+    "abn_number": "24268296044",
+    "contact_phone": "0429 391 505",
+    "website_url": "https://resaus.com/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14177_b7fe28879bcf79fe899f8c4871df4739.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14177_c2f4cb86a113134ed3ea6dfc4a421f0d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14177_1b236e463766ab869faa17449604483b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14177_07faf0ab117d3768eae277121a3474e4.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14177_585447fa7704e7fbb876903f491c9494.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    },
+    "abn_details": {
+      "abn_active_since": "27 Apr 2024Ryder Electrical Services",
+      "abn_company_name": "Ryder Electrical Services"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.9,
+    "value_for_money_rating": 4.8,
+    "system_quality_rating": 4.8,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 5
+  },
+  "reviews": [
+    {
+      "review_id": "137234",
+      "reviewer_name": "Paul",
+      "reviewer_location": "QLD - 4007",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4007",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-09-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent all-round. Recommended. Great service and price. Very efficient and left the site very clean.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "more than 30kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "135723",
+      "reviewer_name": "Lennert",
+      "reviewer_location": "QLD - 4214",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4214",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-07-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "The quoting process was smooth - via phone and email but with sufficient detail and answers to my questions. The installation was postponed by a week due to the surge in demand for the SigenStor systems (the subsidy just kicking in), which was communicated a few days in advance after an advance warning about two weeks out. On the day, the battery, new inverter, and additional solar panels were all put in place and by the evening the system was fully functional. Protective bollards were installed 2 days later. Smooth process, all functioning without issue for >2 weeks now.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sigenergy",
+      "battery_brand": "Sigenergy",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sigenergy.png"
+      ]
+    },
+    {
+      "review_id": "131990",
+      "reviewer_name": "Terry",
+      "reviewer_location": "QLD - 4212",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4212",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Sales and quoting process was very simple and prompt. Installation and Connection to the grid was simple once the app was installed on my phone. Alex and his team where very professional, tidy and politeWould highly recommend Ryder Electrical Team",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "I don't know",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "131637",
+      "reviewer_name": "Leigh",
+      "reviewer_location": "QLD - 4127",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4127",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Ryder Electrical supplied a very competitive quote and outlined all work needed to be completed. They answered my many queries and kept me updated of all bookings.Job was completed in 1 day and were quick and very tidy.Ryder Electrical Services were very polite and courteous and on time.They suppled information on how to use and troubleshooted with us as needed.Great team, would highly recommend to others.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "131625",
+      "reviewer_name": "Lisa",
+      "reviewer_location": "QLD - 4211",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4211",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-03-17",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Alex was fantastic to work with from start to finish.  Professional, courteous, efficient and tidy.  His instructions were clear and informative, he took the time to answer any of my queries.  The system has been operating fabulously, I am very happy and have no hesitation in recommending Ryder Electrical Services.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Sigenergy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sigenergy.png"
+    }
+  ]
+}

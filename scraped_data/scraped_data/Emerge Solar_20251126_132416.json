@@ -1,0 +1,72 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/emerge-solar/",
+  "scraped_at": "2025-11-26T13:24:16.043913",
+  "company_info": {
+    "company_name": "Emerge Solar",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13741_f88d3e3e4b2fb3cf61713761e2bcd8d8.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13741_fff2c137bdd4bea1b380dbf358f8f47b.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13741_8361be40b32f04e33ff44e12037041ab.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13741_57f37e2d3f3763f3328be8badcb383c3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13741_d652ac766978f0c7ccb92f97af67e39c.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": false,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "108906",
+      "reviewer_name": "Desiree",
+      "reviewer_location": "WA - 6171",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6171",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-03-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Found the supplier on Facebook and traced a few goodle reviews.Received a quote within 2 days of initial contact with required details such as electrical supply, roof layout, floorplan and current electricity usage.Installation proceeded within 2 weeks of accepting quote and deposit of $99.I opted for a higher spec system instead of what was advertised on Facebook and paid a total of $3799.Solar Panel: 14 x Tier-1 JINKO 475W Tiger Neo N-type Mono-facial Half-Cut Cell Technology Black Frame Panels (25-year product warranty & 30-year performance warranty)Solar Inverter: 1 x 5kVA SUNGROW SG5K-D Single Phase Inverter (10-year warranty)Monitoring: Sungrow WiFi Monitoring SystemSungrow CT MeterContact person was Dave and he was very professional and responsive.Installers came on time and kept the place clean and tidy. Only broke 1 roof tile which they replaced with our spare.Installation was completed within about 3 hours.It's been 1 month now and so far so good.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

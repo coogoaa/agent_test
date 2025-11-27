@@ -1,0 +1,88 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/narooma-electrical/",
+  "scraped_at": "2025-11-26T14:52:43.010158",
+  "company_info": {
+    "company_name": "Narooma Electrical",
+    "contact_address": "NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.6,
+    "value_for_money_rating": 4.5,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "110057",
+      "reviewer_name": "Sally",
+      "reviewer_location": "NSW - 2546",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2546",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-04-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $8,000",
+      "panel_brand": "",
+      "inverter_brand": "Delta",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+      ]
+    },
+    {
+      "review_id": "67432",
+      "reviewer_name": "Brett",
+      "reviewer_location": "NSW - 2537",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2537",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-08-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$6,000 to $10,000",
+      "panel_brand": "LG",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Delta logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_delta.jpg"
+    }
+  ]
+}

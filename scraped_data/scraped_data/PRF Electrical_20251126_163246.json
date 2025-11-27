@@ -1,0 +1,271 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/prf-electrical/",
+  "scraped_at": "2025-11-26T16:32:46.763572",
+  "company_info": {
+    "company_name": "PRF Electrical",
+    "contact_phone": "08 9330 2505",
+    "website_url": "https://www.prfelectrical.com.au/solar-installation-perth/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90818afe4ab9787b393b240cc2830ac90.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/558d4efc6e583a75046884dcf75e10561.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90818afe4ab9787b393b240cc2830ac90.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/558d4efc6e583a75046884dcf75e10561.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.86,
+    "system_quality_rating": 4.71,
+    "installation_rating": 4.71,
+    "customer_service_rating": 4.71,
+    "total_review_count": 7
+  },
+  "reviews": [
+    {
+      "review_id": "101218",
+      "reviewer_name": "Helen",
+      "reviewer_location": "WA - 6163",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6163",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-05-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "PRF were punctual, polite, considerate of my needs, left everything clean and tidy and worked consistently and hard to get the job done in the one day.The service provided by PRF was exceptional and way beyond what I would have expected.Also there were no pressures to buy but plenty of information supplied to make the whole process easier to understand and make informed decisions.I would give PRF the highest recommendation.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "99608",
+      "reviewer_name": "Ian",
+      "reviewer_location": "WA - 6102",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6102",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-05-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "This recent installation was the second by PRF Electrical. A previous installation of a 3.5 kW system was performed by PRF in June 2011and this was later upgraded by PRF to 5.4 kW as prices for solar panels came down.The recent installation of a completely new system was undertaken to overcome a developing tree shading problem, overcome by only needing half as many panels due to increased power output per panel over the ten years.The quote was requested directly from PRF, with no alternative quotes requested, due to our complete satisfaction with their previous work. This included a previous complete replacement of the electrical wiring and outlets in our 1956 house some 15 years ago.Phil re-evaluated all appropriate parameters associated with the job, including recalculating the optimum panel facing direction and angle, taking into consideration future growth of the 'offending' shade trees. This included estimated output for each month of the year. (Over the past six months, since the system was installed, the output has exceeded the calculated figures we were provided, which is very satisfying.) After discussing and confirming with us our requirements the quote quickly followed and was approved by us.There was a small delay for the installation to commence, caused by the now normal \"covid related supply chain issues\", as we had been warned there would be. Installers arrived on the day and at the time advised to commence the installation. We were continually advised of the job status as it progressed. The job was, as expected, completed to a high standard by PRF's competent, polite, friendly and customer focussed staff, who were happy to answer any questions we had. The job was thoroughly checked by Phil as a final confirmation that we were satisfied with the work done.On Phil's recommendation we also have had both this and our previous systems connected to Solar Analytic's monitoring and reporting system which we find to be extremely useful and beneficial.Final thought. The fact that we didn't even bother obtaining alternative quotes should indicate our ongoing satisfaction with the quality of work undertaken by PRF Electrical.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "99538",
+      "reviewer_name": "Lisa",
+      "reviewer_location": "WA - 6157",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6157",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "We received a quote for a superior system which matched our request, almost the same day.When the team arrived on time, they were very neat and tidy, well presented in their nice blue uniforms. The install was completed on the same day, and Josh programmed the inverter so as we could see performance on the phone app.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90818afe4ab9787b393b240cc2830ac90.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90818afe4ab9787b393b240cc2830ac90.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/558d4efc6e583a75046884dcf75e10561.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/558d4efc6e583a75046884dcf75e10561.jpeg"
+      ]
+    },
+    {
+      "review_id": "99536",
+      "reviewer_name": "Russell",
+      "reviewer_location": "WA - 6123",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6123",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-29",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Fantastic installer, very satisfied with the fronius inverter and the jinko solar panels",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "99498",
+      "reviewer_name": "Joe",
+      "reviewer_location": "WA - 6173",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6173",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Great solar installer, easy to understand quote, then only 2 weeks lead time. Called day before and came on time. All very easy and straightforward.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "98932",
+      "reviewer_name": "Matt",
+      "reviewer_location": "WA - 6160",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6160",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-04-06",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "All round a good experience, out of all the companies the only one not to pester me with lots of phone calls, just a simple email and confirmation text. Good price, good value, all set up and the guys cleaned up after themselves.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "72075",
+      "reviewer_name": "Annette",
+      "reviewer_location": "WA - 6157",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6157",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-01-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Owner first gave a price over the phone as it was the same system as a friend but than followed up with a site visit.Installation was with a very quick turnaround time. Installers were tidy and punctual.Grid connection was done but help with the app was not provided without asking for it.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 3.0,
+      "customer_service_rating": 3.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "LONGi Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 3.25,
+      "quality_of_system_rating": 3.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "LONGi Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_longi-solar.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

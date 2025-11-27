@@ -1,0 +1,87 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/real-home-improvements/",
+  "scraped_at": "2025-11-26T16:19:47.923212",
+  "company_info": {
+    "company_name": "Real Home Improvements",
+    "contact_address": "Lonsdale, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.1,
+    "value_for_money_rating": 3.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 3.0,
+    "customer_service_rating": 3.5,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "52715",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5115",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5115",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-09-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 2.0,
+      "quality_rating": 0,
+      "installation_rating": 2.0,
+      "customer_service_rating": 3.0,
+      "system_size": "6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "SolaX Power",
+      "battery_brand": "",
+      "overall_review_rating": 2.25,
+      "quality_of_system_rating": 2.0,
+      "inverter_rating": 1.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+      ]
+    },
+    {
+      "review_id": "39367",
+      "reviewer_name": "Anon",
+      "reviewer_location": "SA - 5095",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5095",
+      "reviewer_postcode_valid": true,
+      "review_date": "2017-10-21",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 4.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "SolaX Power logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solax-power.png"
+    }
+  ]
+}

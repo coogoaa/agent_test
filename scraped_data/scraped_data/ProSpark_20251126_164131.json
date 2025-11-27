@@ -1,0 +1,96 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/prospark/",
+  "scraped_at": "2025-11-26T16:41:31.737074",
+  "company_info": {
+    "company_name": "ProSpark",
+    "contact_address": "Windaroo, QLD",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 4.5,
+    "customer_service_rating": 4.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "118192",
+      "reviewer_name": "Ian",
+      "reviewer_location": "QLD - 4280",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4280",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-01-09",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very professional and turned up when they said they would. Gave me a few opotions and lifetime warranty on workmanship. Obvious that they knew their stuff and cleaned up everything when finished. They even helped out in resetting hot water service. Extremely satisfied and highly recommend.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "Phono",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    },
+    {
+      "review_id": "109158",
+      "reviewer_name": "Nick",
+      "reviewer_location": "QLD - 4017",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4017",
+      "reviewer_postcode_valid": true,
+      "review_date": "2023-03-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "After quite a few quotes due to the wide price and product mixture, and extensive research, I settled with this company. They weren't the cheapest but offered what looked like good products and they had good reviews.  But once I agreed they had some internal issues that almost caused me to cancel. The owner contacted me and visited to discuss the installation which gave me some confidence they would do a good job. They came the next week and installed the system and looks OK and works well. The sales person said they would reinstall our mesh from the old system, but it wasn't because that promise shouldn't have been made according to the owner. Bit disappointed with that, but overall the job was done well. Since we replaced an existing solar system they submitted the paperwork and all went smoothly.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Phono logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_phono.png"
+    },
+    {
+      "brand_name": "Goodwe logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/pv-spark/",
+  "scraped_at": "2025-11-26T16:27:04.967926",
+  "company_info": {
+    "company_name": "P.V Spark",
+    "contact_address": "Malaga, WA",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/78539300f5f1ab3a79c78490a54269ea0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4d0a63f17509205046694a604fe04a1f2.jpg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/78539300f5f1ab3a79c78490a54269ea0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4d0a63f17509205046694a604fe04a1f2.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.8,
+    "value_for_money_rating": 4.83,
+    "system_quality_rating": 4.83,
+    "installation_rating": 4.83,
+    "customer_service_rating": 4.67,
+    "total_review_count": 6
+  },
+  "reviews": [
+    {
+      "review_id": "101812",
+      "reviewer_name": "Mark",
+      "reviewer_location": "WA - 6207",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6207",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-07-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I contacted Kewai after receiving many other quotes. He suggested a Sungrow Inverter and 9.6 kwh battery system paired with 11 kw of 440W Jinko panels. His pricing was very competitive and installation was carried out in a timely manner with a quality finish.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "Sungrow",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/78539300f5f1ab3a79c78490a54269ea0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/78539300f5f1ab3a79c78490a54269ea0.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4d0a63f17509205046694a604fe04a1f2.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/4d0a63f17509205046694a604fe04a1f2.jpg"
+      ]
+    },
+    {
+      "review_id": "80975",
+      "reviewer_name": "David",
+      "reviewer_location": "WA - 6025",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6025",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Thank you Kewal and team at PV Spark for your professional and prompt installation in 6 different members of our family homes in York, Kalamunda, Padbury, Maddington and Hillarys. The team came on time and were very polite and efficient and installed the panels very fast. It was very easy to organise and all households were very happy with the end result. Thank you we recommend your excellent service. D. & N. Moorfield",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "Fronius",
+      "battery_brand": "Fronius",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "80885",
+      "reviewer_name": "David",
+      "reviewer_location": "WA - 6056",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6056",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-28",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very pleased with whole processSalesperson politely fullfilled after hours appointment at our house and provided all info neededMitch the installer arrived as scheduled and efficiently installed systemI am very pleased with this instalThe company provided a seemless process which has satisfied us completely",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Leapton",
+      "inverter_brand": "Zeversolar",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_leapton.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_zeversolar.png"
+      ]
+    },
+    {
+      "review_id": "80623",
+      "reviewer_name": "John",
+      "reviewer_location": "WA - 6155",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6155",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-08-20",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Excellent installation. Completed in 3 hours.  Payment only after fully satisfied with the work.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "5kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Ceraphim (Other)",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "75365",
+      "reviewer_name": "Len",
+      "reviewer_location": "WA - 6061",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6061",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-04-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Very friendly and professional from the meet and greet with Kewal, right through to the installation.Len Russell.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6kW",
+      "system_cost": "$2,000 to $4,000",
+      "panel_brand": "Jinko Solar",
+      "inverter_brand": "Zeversolar",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_zeversolar.png"
+      ]
+    },
+    {
+      "review_id": "74028",
+      "reviewer_name": "Ken",
+      "reviewer_location": "WA - 6609",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6609",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-03-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "On completion,  charged amount was as quoted.Job was completed on time and where system was to be put was appropriately discussed prior to fitment.Grid connection was all done on completion.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "LG",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_lg.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Jinko Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_jinko-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_sungrow.png"
+    }
+  ]
+}

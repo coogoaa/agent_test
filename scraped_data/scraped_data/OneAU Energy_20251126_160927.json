@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/oneau-energy/",
+  "scraped_at": "2025-11-26T16:09:27.608061",
+  "company_info": {
+    "company_name": "OneAU Energy",
+    "contact_phone": "07 5442 3715",
+    "website_url": "https://oneauenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14345_0e7c55cfa88ddd2d65ba1c3197f5978d.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14345_0454236a66b299894fc9ee3f5e8fc6b6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14345_dec68e427b05200d788b005c330e1db2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14345_3e0d11930ea51916a99f23f29a9f6492.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

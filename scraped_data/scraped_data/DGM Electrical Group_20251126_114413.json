@@ -1,0 +1,54 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/dgm-electrical-group/",
+  "scraped_at": "2025-11-26T11:44:12.843526",
+  "company_info": {
+    "company_name": "DGM Electrical Group",
+    "contact_address": "The Rocks, NSW",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 3.8,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 3.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 3.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "96782",
+      "reviewer_name": "Elizabeth",
+      "reviewer_location": "NSW - 2175",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2175",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-01-07",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Quote was quickInstallation was quickInstaller allowed me to order/pay for all the parts myself to ensure there was no mark-up. So I paid only for installation time and shared the rebate.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 3.0,
+      "system_size": "10kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "",
+      "inverter_brand": "SMA STP (Other)",
+      "battery_brand": "",
+      "overall_review_rating": 3.75,
+      "quality_of_system_rating": 3.0,
+      "inverter_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

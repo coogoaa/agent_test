@@ -1,0 +1,113 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/energie-group-power-pty-ltd/",
+  "scraped_at": "2025-11-26T13:29:47.600089",
+  "company_info": {
+    "company_name": "Energie Group Power Pty Ltd",
+    "contact_phone": "08 9203 2011",
+    "website_url": "https://energiegrouppower.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_24511d26267f64b5f6f81df25676a610.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_8c0d39874f7284349b7a1ba8e5063e84.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_c1826a40dec61f76d67d495a866566b2.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_c06f8c6aaea9769ba7054122e326b7ce.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_e5f3c11b9692e5934fe9ec592b51733f.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_53a8d556ccd6e9c2e344325b27a6275e.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_5b2f201b6f3af6f1f3910ae37c2213f1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_8e6ceddc6140d76a5ef9125d22c33a39.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_b06e3235b1be73810be5e52d696737c3.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_fa55d7f1478ea59d13135737bd905f3a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_f0a0e0efd8a5763a6feede91f2f62890.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_c5457c5f3cfb4da8638ce7190f8e5152.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_c65d198d32f79469b9edd386750a43b0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_6ee95bcf52928e64a0f60777dad04ff1.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/12857_d959faf6c59c4d85a5f3f5c980b43c6e.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "100358",
+      "reviewer_name": "Tim",
+      "reviewer_location": "NSW - 2250",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2250",
+      "reviewer_postcode_valid": true,
+      "review_date": "2022-06-04",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "From first meeting Mitch I felt confident in the service he and his team offered. He talked me through many options and recommended a system and explained why. The installation time, from ordering to installed was only a few weeks. We had some weather delays during install, and so his team even got a few other electrical jobs done for us while they were there. The team was polite and tidy and happy to work around our large and busy family!They got us set up, with the monitoring app and sorted the grid connection for us as well. All in all, very happy with Energie Electrical and Solar!",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$8,000 to $10,000",
+      "panel_brand": "Hyundai Solar",
+      "inverter_brand": "Sungrow",
+      "battery_brand": "",
+      "overall_review_rating": 4.5,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+      ]
+    },
+    {
+      "review_id": "95709",
+      "reviewer_name": "Peter",
+      "reviewer_location": "WA - 6056",
+      "reviewer_state": "WA",
+      "reviewer_postcode": "6056",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-11-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Approached three other suppliers who would only replace the entire system, all claiming different legal problems.  Vlad at Energie diagnosed the problem in a five minute discussion and organised a replacement at a good price.  Took a while to get the new inverter to WA but went in flawlessly in a couple of hours.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 3.0,
+      "system_size": "2kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Hyundai Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_hyundai-solar.png"
+    },
+    {
+      "brand_name": "Sungrow logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_sungrow.png"
+    }
+  ]
+}

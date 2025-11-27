@@ -1,0 +1,94 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/concept-electrical-and-solar/",
+  "scraped_at": "2025-11-26T12:58:43.730208",
+  "company_info": {
+    "company_name": "Concept Electrical and Solar",
+    "contact_phone": "02 9061 7062",
+    "website_url": "http://www.conceptelectrical.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13187_0a30fe44da96944bf78d03ff1d53b98e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13187_08a99729cb54440afa116844c36a885a.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13187_e1ff3509651511e72f8dbde7274eb3a1.PNG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13187_e822ac55e1c5ea93fb81b42b711986e2.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13187_744f3a2b1ed7f6dbcd0af5afa1a46d1f.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13187_66f8a60be893607a396f7d71d300ba4c.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/13187_7fcd05b305d55c43fde569597017e429.JPG"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/70e4129178448742a992073097b6d12d0.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/def563781971be5224d66fa45f4871e91.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/6c1cae70762fe9545c46c35880c609ee2.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "92958",
+      "reviewer_name": "Jeremy",
+      "reviewer_location": "NSW - 2087",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2087",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-09-02",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I went for these guys on a recommendation and wasn't unhappy that I did. They are from my local area, effortless to work with and very professional install. The team was very polite and helped me all the way through the process. I got a solar system with a battery. I would highly recommend Concept Electrical and Solar.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$15,000 to $20,000",
+      "panel_brand": "Tindo Solar",
+      "inverter_brand": "Huawei",
+      "battery_brand": "Huawei",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_huawei.png",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/70e4129178448742a992073097b6d12d0.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/def563781971be5224d66fa45f4871e91.jpg",
+        "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/6c1cae70762fe9545c46c35880c609ee2.jpg"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Tindo Solar logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/I_tindo-solar.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_huawei.png"
+    },
+    {
+      "brand_name": "Huawei logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_huawei.png"
+    }
+  ]
+}

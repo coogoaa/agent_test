@@ -1,0 +1,24 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ja-electrical-and-solar-pty-ltd/",
+  "scraped_at": "2025-11-26T14:55:03.894242",
+  "company_info": {
+    "company_name": "JA Electrical and Solar Pty Ltd",
+    "electrical_contractor_license": "NSW: 389488C, QLD: 89968",
+    "contact_phone": "0426 483 502",
+    "website_url": "http://www.jaelectricalandsolar.com/",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

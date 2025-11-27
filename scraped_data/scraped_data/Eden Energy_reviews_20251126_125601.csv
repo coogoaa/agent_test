@@ -1,0 +1,3 @@
+review_id,reviewer_name,reviewer_location,reviewer_state,reviewer_postcode,reviewer_postcode_valid,review_date,review_date_formatted,overall_review_rating,review_title,review_description,value_for_money_rating,quality_of_system_rating,installation_rating,customer_service_rating,system_size,system_cost,panel_brand,inverter_brand,battery_brand,has_images,image_urls,overall_rating,quality_rating
+26449,Alan,VIC - 3804,VIC,3804,True,2015-06-12,12 June 2015,4.0,,honest reliable service based on facts at a good price  did not try to oversell with a bigger system we cannot benefit from,4.0,4.0,0,4.0,2kW,Under $3000,,,,False,[],0,0
+22960,Keith,VIC - 3140,VIC,3140,True,2014-06-03,03 June 2014,4.0,,,4.0,4.0,4.0,4.0,3kW,"$3,000 to $6,000",,,,False,[],0,0

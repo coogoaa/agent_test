@@ -1,0 +1,70 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/rice-electrical-contractors-pty-ltd/",
+  "scraped_at": "2025-11-26T15:55:00.657887",
+  "company_info": {
+    "company_name": "Rice Electrical Contractors Pty Ltd",
+    "contact_address": "Jamestown, SA",
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.3,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.0,
+    "installation_rating": 4.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "127043",
+      "reviewer_name": "Jimmy",
+      "reviewer_location": "SA - 5483",
+      "reviewer_state": "SA",
+      "reviewer_postcode": "5483",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-18",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "First quote came in July which I compared favourably to several other quotes. I queried the choice of panels after doing my own research and was happy with Suntech. Initial installation was delayed due to strong winds and yes, the two installers were polite tidy and punctual and stayed late in the day to complete the installation - 13 panels and a weatherproof cabinet for the off-grid system. System was fitted to a 6 X 9m shed.So far all is good and I've had no reason to contact them since installation - however they welcomed me to should I require any further assistance.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Suntech",
+      "inverter_brand": "Victron Energy",
+      "battery_brand": "Pylontech",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_victron-energy.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Suntech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_suntech.png"
+    },
+    {
+      "brand_name": "Victron Energy logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_victron-energy.png"
+    },
+    {
+      "brand_name": "Pylontech logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_pylon-technologies.png"
+    }
+  ]
+}

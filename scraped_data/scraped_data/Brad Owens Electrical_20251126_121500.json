@@ -1,0 +1,95 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/brad-owens-electrical/",
+  "scraped_at": "2025-11-26T12:15:00.132851",
+  "company_info": {
+    "company_name": "Brad Owens Electrical",
+    "contact_address": "Mareeba, QLD",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ab691e480eada090fb7302ee5350d39f0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dd738e2359c9937fca10153c1e95d7931.jpeg"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ab691e480eada090fb7302ee5350d39f0.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dd738e2359c9937fca10153c1e95d7931.jpeg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.4,
+    "value_for_money_rating": 4.0,
+    "system_quality_rating": 4.5,
+    "installation_rating": 5.0,
+    "customer_service_rating": 4.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "82090",
+      "reviewer_name": "Chriss",
+      "reviewer_location": "QLD - 4880",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4880",
+      "reviewer_postcode_valid": true,
+      "review_date": "2020-09-30",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Decided to go for ground mounted because of the shade on house roof.",
+      "value_for_money_rating": 3.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 3.0,
+      "system_size": "13kW",
+      "system_cost": "$10,000 to $12,500",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/ab691e480eada090fb7302ee5350d39f0.jpeg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/dd738e2359c9937fca10153c1e95d7931.jpeg"
+      ]
+    },
+    {
+      "review_id": "42578",
+      "reviewer_name": "Maree",
+      "reviewer_location": "QLD - 4880",
+      "reviewer_state": "QLD",
+      "reviewer_postcode": "4880",
+      "reviewer_postcode_valid": true,
+      "review_date": "2018-06-15",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Service, support and Brad's explanations have been exceptional and the estimated power generation in the 4 weeks since installation has exceeded the estimation provided by Brad.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "5kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "Canadian Solar Inc",
+      "inverter_brand": "Goodwe",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 4.0,
+      "panel_rating": 4.0,
+      "inverter_rating": 4.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_canadian-solar.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_goodwe.png"
+      ]
+    }
+  ],
+  "partner_brands": []
+}

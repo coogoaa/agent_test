@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/neo-energy/",
+  "scraped_at": "2025-11-26T15:04:13.910759",
+  "company_info": {
+    "company_name": "Neo Energy",
+    "contact_phone": "02 8091 8020",
+    "website_url": "https://neoenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14359_3f2ade695f0f7310086cc3d766723b72.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14359_429a616c0dccb2f79d9f498c19884af1.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14359_8271d3c506d555b48e1dcef088f983da.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14359_01f94413f3efcdc57c5d6320dbad9db3.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

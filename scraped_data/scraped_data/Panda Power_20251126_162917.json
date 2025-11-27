@@ -1,0 +1,25 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/panda-power/",
+  "scraped_at": "2025-11-26T16:29:16.994686",
+  "company_info": {
+    "company_name": "Panda Power",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14232_39b3c9758ee4b2e966151182dcc94356.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14232_f30ed8077947900d0fceb7fb6a545210.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": true,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/optimised-electrics-pty-ltd/",
+  "scraped_at": "2025-11-26T16:12:33.288331",
+  "company_info": {
+    "company_name": "Optimised Electrics Pty Ltd",
+    "contact_phone": "0449 579 823",
+    "website_url": "https://www.optimisedelectrics.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14128_43a139a58d89ddfd9e302c8e5576f77e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14128_32c4ea05470977ff01c220efb3d4213e.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14128_93b0958fba4e7ce9c83f77880f721321.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14128_1c6ce9a88a44f15f238f1c9724490fee.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

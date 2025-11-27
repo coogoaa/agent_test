@@ -1,0 +1,122 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/electrified-industries/",
+  "scraped_at": "2025-11-26T13:13:12.111712",
+  "company_info": {
+    "company_name": "Electrified Industries",
+    "contact_address": "Newcastle, NSW",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14076_768ae31305fc75fa4b33c64a4fa1ea0e.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14076_f8f04e788210489bc1f64d055e39be9f.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14076_18e4e3ee2f9722929209c796cc8b450f.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14076_801619abe4a5111afa336df2ebf22c4e.png",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14076_1905fdaabe0e8c02546898476513deca.png"
+    ],
+    "reviewer_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a629247219bd0cda5a60573caf1b8305.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a2a50ddddc1982f64216b242014965d66.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e04b54ac636d23e40907f333040edb8.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/60d7adc4b53e7661fc824d971897143f9.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": null,
+      "Hybrid Solar": null,
+      "Micro Inverters or Power Optimisers": null,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 2
+  },
+  "reviews": [
+    {
+      "review_id": "127465",
+      "reviewer_name": "Paul",
+      "reviewer_location": "NSW - 2290",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2290",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-10-31",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Matt is a very clear communicator, he offered options for my budget and household energy needs. On the day, Matt and his team were super efficient, they all knew their roles, and got to work, installing 30 panels, 2 x inverters, the Tesla control box and Tesla Battery within 2 days.Not only did they turn up on time, they were constantly tidying up as they went. They advised us how long power would be offline for and offered the use of a portable generator to keep our fridge running throughout the installation - awesome touch!The results were nothing short of incredible! our previous quarter bill was over $1500, and the following quarter was less than $150!We will see a return on investment within 6 years (conservatively - could be 5! and there will still be plenty of life left in the panels and battery).At the completion of the installation, Matt went through the apps, mySolarEdge and Tesla and explained how to read and interpret the information that is presented, he suggested to contact my energy provider to find out their best offer for solar feed-in tariffs etc and also recommended a provider or two.We were initially with Origin Energy, and have since switched over to Amber Electric.We are SUPER happy with the system and would HIGHLY recommend Matt and his team to others if considering solar / battery options.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "13kW",
+      "system_cost": "More than $20,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "SolarEdge",
+      "battery_brand": "Tesla Powerwall 2",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "battery_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png",
+        "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/1a629247219bd0cda5a60573caf1b8305.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/a2a50ddddc1982f64216b242014965d66.jpg",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/90e04b54ac636d23e40907f333040edb8.JPG",
+        "https://www.solarquotes.com.au/img/installation/thumbnailsx83/60d7adc4b53e7661fc824d971897143f9.jpg"
+      ]
+    },
+    {
+      "review_id": "124785",
+      "reviewer_name": "Andrew",
+      "reviewer_location": "NSW - 2289",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2289",
+      "reviewer_postcode_valid": true,
+      "review_date": "2024-08-08",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Matt the owner was professional, on time and courteous throughout the entire process. His quote came back very competitive with multiple options based on what we were looking for.This professionalism extended to the install - Matt and his staff were professional and when they left you would not know they had been there as there wasn't a skerrick of waste left behind - just a very clean solar install.After the install Matt was helpful in showing me how the app worked and how to get the most out of our system. He checked in regularly both remotely and in person in the following weeks to make sure the system was operating as expected.All in all incredibly happy with the whole process, we highly recommend Matt and his staff.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$12,500 to $15,000",
+      "panel_brand": "Trina",
+      "inverter_brand": "Enphase",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "panel_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_enphase.png",
+        "https://www.solarquotes.com.au/img/evchargermanufacturers/I_walbox.png"
+      ]
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "Trina logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_trina.png"
+    },
+    {
+      "brand_name": "SolarEdge logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_solaredge.png"
+    },
+    {
+      "brand_name": "Tesla Powerwall 2 logo",
+      "logo_url": "https://www.solarquotes.com.au/img/batterymanufacturers/I_tesla.png"
+    }
+  ]
+}

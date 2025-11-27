@@ -1,0 +1,78 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/aaa-electrical-and-solar/",
+  "scraped_at": "2025-11-26T12:06:11.324576",
+  "company_info": {
+    "company_name": "AAA Electrical and Solar",
+    "abn_number": "79669611321",
+    "acn_number": "669611321",
+    "contact_phone": "1300 222 367",
+    "website_url": "https://aaaelectricalsolar.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14347_31d904a07a81d8e42be5d2534c58c7ed.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14347_0548e4b6f3835ccca5a6a5db862c96a7.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14347_ca2ee968062c3d121b4dcc53a2a88ede.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14347_3cd29d8e8e926bacc94ea20a121f7c2c.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14347_e469e2fe4c2ec2c8b9fa8d491b1a4fcd.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": true
+    },
+    "abn_details": {
+      "abn_active_since": "11 Jul 2023Aaa Electrical",
+      "abn_company_name": "Aaa Electrical & Solar Pty Ltd"
+    },
+    "acn_details": {
+      "acn_active_since": "11 Jul 2023Aaa Electrical",
+      "acn_company_name": "Aaa Electrical & Solar Pty Ltd"
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 5.0,
+    "value_for_money_rating": 5.0,
+    "system_quality_rating": 5.0,
+    "installation_rating": 5.0,
+    "customer_service_rating": 5.0,
+    "total_review_count": 1
+  },
+  "reviews": [
+    {
+      "review_id": "133511",
+      "reviewer_name": "Shadi",
+      "reviewer_location": "VIC - 3030",
+      "reviewer_state": "VIC",
+      "reviewer_postcode": "3030",
+      "reviewer_postcode_valid": true,
+      "review_date": "2025-05-16",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "I had an amazing experience with this company. The customer service was outstanding, and the product was exactly what I was looking for. I was so pleased with the service I received from this business. They went above and beyond to help me find the perfect item.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "10kW",
+      "system_cost": "$0 to $2,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": []
+}

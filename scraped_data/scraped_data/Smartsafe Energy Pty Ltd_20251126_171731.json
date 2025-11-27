@@ -1,0 +1,141 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/smartsafe-energy-pty-ltd/",
+  "scraped_at": "2025-11-26T17:17:31.549283",
+  "company_info": {
+    "company_name": "Smartsafe Energy Pty Ltd",
+    "contact_address": "serves parts of NSW &, QLD",
+    "website_url": "https://www.smartsafeenergy.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_3e24c02080d945447f263e45f8ac6d8f.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_f576eb14d2736aad6ce4c0f8f1250e33.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_8d622aa11cec394ea76e594f01d30c61.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_86f1705759e4576a5da5e0c818887aee.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_6f53b762ecf6a0411e20359cb2cbf42b.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_44ace613c63a2c86d86ae1ba3a8d6da7.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_dc5df6390a5ccce83600ab350cd5d5e9.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_0d97c598c6493e3cd820405b8a939f4f.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_210467387a4555e82f80296aa03c48f7.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_2e7631d6f3f304247b2fa08571b07871.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_09509719f6d4fa5a4921f8ee2d44c1e7.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_d756a67fb43af3573c317f73f283d7b1.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/11910_6a6e5e094fed30d0f97e12771ad36d29.JPG"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": null,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 4.7,
+    "value_for_money_rating": 4.33,
+    "system_quality_rating": 4.67,
+    "installation_rating": 4.67,
+    "customer_service_rating": 5.0,
+    "total_review_count": 3
+  },
+  "reviews": [
+    {
+      "review_id": "94681",
+      "reviewer_name": "Valerie",
+      "reviewer_location": "NSW - 2480",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2480",
+      "reviewer_postcode_valid": true,
+      "review_date": "2021-10-26",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Kaleb from Smart Safe Energy was very friendly and helpful in helping us choose the right Solar System for our needs. We asked many question and if he was not sure he investigated the queries and got back to in very quick time with the answer. He actually listened to what our requirements were and did not try to oversell us a product. He attention to detail was wonderful and gave us confidence that we had chosen a very good installer. Installation was done on time by a great team of installers. Kaleb made sure we understood the function of our new system and has followed up on the few queries we have had since installation. He is very knowledgeable in this industry, its pleasing to know such dedicated trades person exists now days. I highly recommend Smart Safe Energy for a competitive quote and quality workmanship.Thank you Kaleb and your team for a great result.",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "6.6kW",
+      "system_cost": "$4,000 to $6,000",
+      "panel_brand": "REC",
+      "inverter_brand": "Fronius",
+      "battery_brand": "",
+      "overall_review_rating": 4.75,
+      "quality_of_system_rating": 5.0,
+      "inverter_rating": 5.0,
+      "has_images": true,
+      "image_urls": [
+        "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png",
+        "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+      ]
+    },
+    {
+      "review_id": "58078",
+      "reviewer_name": "Geoffrey",
+      "reviewer_location": "NSW - 2450",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2450",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-01-05",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "Fronius 5kw inverter and Fronius Smart Meter 6.6kw 20 x Jinko 330w panels (10 north & 10 West), system performs well, electrical work was very neat and tidy, They provided different options and they were not pushy which was good. System is performing well producing 43+ Kwh on good days, which is above their quoted output estimation which is impressive.",
+      "value_for_money_rating": 5.0,
+      "quality_rating": 0,
+      "installation_rating": 5.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 5.0,
+      "quality_of_system_rating": 5.0,
+      "has_images": false,
+      "image_urls": []
+    },
+    {
+      "review_id": "57992",
+      "reviewer_name": "Stephen",
+      "reviewer_location": "NSW - 2369",
+      "reviewer_state": "NSW",
+      "reviewer_postcode": "2369",
+      "reviewer_postcode_valid": true,
+      "review_date": "2019-01-03",
+      "review_date_formatted": "",
+      "overall_rating": 0,
+      "review_title": "",
+      "review_description": "",
+      "value_for_money_rating": 4.0,
+      "quality_rating": 0,
+      "installation_rating": 4.0,
+      "customer_service_rating": 5.0,
+      "system_size": "More than 6kW",
+      "system_cost": "$3,000 to $6,000",
+      "panel_brand": "",
+      "inverter_brand": "",
+      "battery_brand": "",
+      "overall_review_rating": 4.25,
+      "quality_of_system_rating": 4.0,
+      "has_images": false,
+      "image_urls": []
+    }
+  ],
+  "partner_brands": [
+    {
+      "brand_name": "REC logo",
+      "logo_url": "https://www.solarquotes.com.au/img/panelmanufacturers/P_rec.png"
+    },
+    {
+      "brand_name": "Fronius logo",
+      "logo_url": "https://www.solarquotes.com.au/img/invertermanufacturers/I_fronius.png"
+    }
+  ]
+}

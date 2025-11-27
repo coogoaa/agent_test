@@ -1,0 +1,29 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/better-home-technology/",
+  "scraped_at": "2025-11-26T11:56:40.973244",
+  "company_info": {
+    "company_name": "Better Home Technology",
+    "contact_phone": "0424 843 889",
+    "website_url": "https://bhtechnology.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14419_1a8dfc386d14df3003b24af35b8f93f5.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14419_09e267f82cdc2535fcb51f717d7dd7c6.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14419_2e5e29a42dd9b0c1eb9655b27f825244.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14419_d6aeca556979104100e6e2ba088d19be.jpg"
+    ],
+    "capabilities": {
+      "Grid Connect Solar": false,
+      "Off Grid Solar": false,
+      "Hybrid Solar": false,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

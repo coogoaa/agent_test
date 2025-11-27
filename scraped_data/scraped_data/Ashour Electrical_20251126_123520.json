@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/ashour-electrical/",
+  "scraped_at": "2025-11-26T12:35:20.167176",
+  "company_info": {
+    "company_name": "Ashour Electrical",
+    "contact_phone": "0432 069 082",
+    "website_url": "https://ashourelectrical.com.au",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14441_c2d3c364114d526e580f250d0cd54d45.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14441_b177a1b9e0afe2b369b28654a8e67dd6.jpeg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14441_29859a23e571072c984adabc93c4a110.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14441_1b157f4f48426d79d62130b3a1209f78.jpeg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": false,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}

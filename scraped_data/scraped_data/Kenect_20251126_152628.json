@@ -1,0 +1,36 @@
+{
+  "url": "https://www.solarquotes.com.au/installer-review/kenect/",
+  "scraped_at": "2025-11-26T15:26:28.083363",
+  "company_info": {
+    "company_name": "Kenect",
+    "contact_phone": "0401 358 971",
+    "website_url": "https://www.kenect.com.au/",
+    "company_images": [
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14130_1eb60fb3ee99ab957486d42bef1be830.jpg",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14130_927fb90a3e2224718a17d65c2813e9f2.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14130_94dc76587e04d0c789b9c4830a8b1442.JPG",
+      "https://www.solarquotes.com.au/img/installation/thumbnailsx83/14130_040924379b9a68ddf77540d51ee4a9ad.jpg"
+    ],
+    "award_badges": [
+      {
+        "badge_url": "https://www.solarquotes.com.au/wp-content/themes/focus_2020/custom-pages/assets/images/installer_reviews/net-approved-seller.jpg",
+        "badge_name": "NETCC",
+        "badge_link": "https://www.solarquotes.com.au/installers/netcc-explained/"
+      }
+    ],
+    "capabilities": {
+      "Grid Connect Solar": true,
+      "Off Grid Solar": false,
+      "Hybrid Solar": true,
+      "Micro Inverters or Power Optimisers": true,
+      "EV Chargers": true,
+      "Hot Water Heat Pumps": false
+    }
+  },
+  "overall_ratings": {
+    "overall_rating": 0.0,
+    "total_review_count": 0
+  },
+  "reviews": [],
+  "partner_brands": []
+}
