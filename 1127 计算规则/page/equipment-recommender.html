@@ -194,6 +194,7 @@
                                 <div class="ml-2 flex-grow">
                                     <p class="font-medium text-gray-900">逆变器</p>
                                     <p class="text-gray-600" id="propA-inv">...</p>
+                                    <p class="text-xs text-gray-500" id="propA-invDetail"></p>
                                     <p class="text-xs text-gray-500">容配比: <span id="propA-ratio" class="font-semibold">0%</span></p>
                                 </div>
                             </div>
@@ -250,6 +251,7 @@
                                 <div class="ml-2 flex-grow">
                                     <p class="font-medium text-gray-900">混合逆变器</p>
                                     <p class="text-gray-600" id="propB-inv">...</p>
+                                    <p class="text-xs text-gray-500" id="propB-invDetail"></p>
                                     <p class="text-xs text-gray-500">容配比: <span id="propB-ratio" class="font-semibold">0%</span> (允许超配)</p>
                                 </div>
                             </div>
@@ -305,6 +307,7 @@
                                 <div class="ml-2 flex-grow">
                                     <p class="font-medium text-gray-900">高性能逆变器</p>
                                     <p class="text-gray-600" id="propC-inv">...</p>
+                                    <p class="text-xs text-gray-500" id="propC-invDetail"></p>
                                     <p class="text-xs text-gray-500">容配比: <span id="propC-ratio" class="font-semibold">0%</span></p>
                                 </div>
                             </div>
@@ -453,6 +456,115 @@ id_0	slope	aspect	nums
         
         // 逆变器规格配置 - 从配置加载
         const INVERTER_CONFIG = CONFIG.inverter;
+        const TARGET_RATIO = INVERTER_CONFIG.targetRatio / 100;
+        const MAX_RATIO = INVERTER_CONFIG.maxRatio / 100;
+
+        function getPhaseMaxLimit(phaseType) {
+            if (phaseType === 'single') {
+                return INVERTER_CONFIG.singleMaxKw ?? 10;
+            }
+            return INVERTER_CONFIG.threeMaxKw ?? 30;
+        }
+
+        function getInverterOptions(planKey, phaseType) {
+            const baseOptions = phaseType === 'single' 
+                ? (INVERTER_CONFIG.single[planKey] || [])
+                : (INVERTER_CONFIG.three[planKey] || []);
+            const phaseMax = getPhaseMaxLimit(phaseType);
+            const filtered = baseOptions.filter(size => size <= phaseMax);
+            let options = filtered;
+            let injectedLimit = false;
+            if (options.length === 0) {
+                if (baseOptions.length > 0) {
+                    options = [Math.min(phaseMax, baseOptions[baseOptions.length - 1])];
+                } else {
+                    options = [phaseMax];
+                }
+                injectedLimit = true;
+            }
+            return {
+                options,
+                baseOptions,
+                phaseMax,
+                limitInjected: injectedLimit,
+                limitedByConfig: baseOptions.some(size => size > phaseMax)
+            };
+        }
+
+        function formatKwValue(value) {
+            if (value === undefined || value === null || isNaN(value)) return '0';
+            return Number.isInteger(value) ? value.toString() : value.toFixed(1);
+        }
+
+        function describeInverterConfig(phaseLabel, optionsInfo) {
+            const listSource = optionsInfo.baseOptions && optionsInfo.baseOptions.length
+                ? optionsInfo.baseOptions
+                : optionsInfo.options;
+            const configList = listSource && listSource.length ? listSource.join(', ') : '未配置';
+            return `电网类型: ${phaseLabel} → Hybrid逆变器配置: ${configList} (受≤${optionsInfo.phaseMax}kW 限制)`;
+        }
+
+        function buildInverterDetail(meta) {
+            if (!meta) return '';
+            const parts = [`原始推导 ${formatKwValue(meta.rawKw)}kW`];
+            if (meta.limitedByPhase) {
+                parts.push(`受${meta.phaseLabel}上限 ${meta.phaseMax}kW 限制`);
+            } else if (meta.limitedByConfig) {
+                parts.push(`受可选规格上限 ${meta.availableMax}kW 限制`);
+            }
+
+            if (meta.adjustmentReason === 'inverterUpgrade') {
+                parts.push('为满足容配比要求提升逆变器规格');
+            } else if (meta.adjustmentReason === 'panelReduction') {
+                parts.push('为满足容配比要求已减少组件数量');
+            } else if (!meta.limitedByPhase && !meta.limitedByConfig && meta.finalKw !== meta.rawKw) {
+                if (meta.finalKw > meta.rawKw) {
+                    parts.push('按标准规格向上取整');
+                } else {
+                    parts.push('调整后功率低于初始推导');
+                }
+            }
+
+            parts.push(`最终采用 ${formatKwValue(meta.finalKw)}kW`);
+            return parts.join('，');
+        }
+
+        function selectInverterForPlan(planKey, phaseType, requiredKw, rawKw = requiredKw) {
+            const optionsInfo = getInverterOptions(planKey, phaseType);
+            const options = optionsInfo.options;
+            const availableMax = options[options.length - 1];
+            const selected = options.find(s => s >= requiredKw) || availableMax;
+            const baseMax = optionsInfo.baseOptions && optionsInfo.baseOptions.length
+                ? optionsInfo.baseOptions[optionsInfo.baseOptions.length - 1]
+                : availableMax;
+            const meta = {
+                rawKw,
+                requiredKw,
+                finalKw: selected,
+                phaseMax: optionsInfo.phaseMax,
+                phaseLabel: phaseType === 'single' ? '单相' : '三相',
+                availableMax,
+                baseMax,
+                limitedByPhase: rawKw > optionsInfo.phaseMax,
+                limitedByConfig: rawKw <= optionsInfo.phaseMax && rawKw > availableMax,
+                limitInjected: optionsInfo.limitInjected,
+                adjustmentReason: null
+            };
+            return { kw: selected, meta, optionsInfo };
+        }
+
+        function populatePlanData(result, inverter, inverterMeta, planKey, planLabel, battery) {
+            return {
+                ...result,
+                inv: `${inverter}kW Hybrid`,
+                ratio: (result.totalKw / inverter * 100).toFixed(0),
+                inverterDetail: buildInverterDetail(inverterMeta),
+                inverterMeta,
+                planKey,
+                planLabel,
+                battery
+            };
+        }
 
         // 各州各时段用电比例 (%)
         const STATE_HOURLY_PROFILE = {
@@ -661,6 +773,7 @@ id_0	slope	aspect	nums
             
             const roofPlanes = JSON.parse(JSON.stringify(AppData.houses[houseId]));
             const PV_WATT = AppData.pv.pmax;
+            const phaseLabel = phaseType === 'single' ? '单相' : '三相';
             
             // Step 1: 评分与排序
             derivationLog.push({
@@ -735,67 +848,58 @@ id_0	slope	aspect	nums
             // 方案A逆变器选型（高端型配储能，允许更高容配比）
             derivationLog[stepAIndex].details.push({ text: `方案类型: 高端型 (含储能) → 允许容配比 150%-200%` });
             
-            // 使用配置的目标容配比（Hybrid系统的合理范围）
-            let invA_size = Math.ceil(resultA.totalKw / (INVERTER_CONFIG.targetRatio / 100));
-            let stdSizesA;
-            if (phaseType === 'single') {
-                stdSizesA = INVERTER_CONFIG.single.a;  // 从配置读取
-                derivationLog[stepAIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器限制 ≤${Math.max(...stdSizesA)}kW (配置: ${stdSizesA.join(', ')})` });
-            } else {
-                stdSizesA = INVERTER_CONFIG.three.a;  // 从配置读取
-                derivationLog[stepAIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器可选 ≤${Math.max(...stdSizesA)}kW (配置: ${stdSizesA.join(', ')})` });
-            }
-            let invA = stdSizesA.find(s => s >= invA_size) || stdSizesA[stdSizesA.length - 1];
-            
-            const ratioAActual = (resultA.totalKw / invA * 100).toFixed(0);
+            const rawInvARequirement = resultA.totalKw / TARGET_RATIO;
+            const invASelection = selectInverterForPlan('a', phaseType, Math.ceil(rawInvARequirement), rawInvARequirement);
+            let invA = invASelection.kw;
+            let invAMeta = invASelection.meta;
+            let invAOptionsInfo = invASelection.optionsInfo;
+            derivationLog[stepAIndex].details.push({ text: describeInverterConfig(phaseLabel, invAOptionsInfo) });
             
             derivationLog[stepAIndex].details.push({ 
-                text: `逆变器选型: 目标容配比180% → 需要 ${invA_size.toFixed(1)}kW → 选择 ${invA}kW Hybrid`,
+                text: `逆变器选型: 目标容配比180% → 需要 ${formatKwValue(rawInvARequirement)}kW → 选择 ${invA}kW Hybrid`,
                 highlight: true
             });
             
+            let ratioAActual = (resultA.totalKw / invA * 100);
             derivationLog[stepAIndex].details.push({ 
-                text: `实际容配比: ${resultA.totalKw.toFixed(2)}kW / ${invA}kW = ${ratioAActual}%`
+                text: `实际容配比: ${resultA.totalKw.toFixed(2)}kW / ${invA}kW = ${ratioAActual.toFixed(0)}%`
             });
             
-            // 检查容配比是否超标
-            if (parseInt(ratioAActual) > 200) {
+            if (ratioAActual > INVERTER_CONFIG.maxRatio) {
                 derivationLog[stepAIndex].details.push({ 
-                    text: `⚠️ 容配比 ${ratioAActual}% 超过 200%，违反澳洲Hybrid系统规则！`,
+                    text: `⚠️ 容配比 ${ratioAActual.toFixed(0)}% 超过 ${INVERTER_CONFIG.maxRatio}% 上限，需调整！`,
                     warning: true
                 });
                 
-                // 尝试增大逆变器
-                const minInvForCompliance = Math.ceil(resultA.totalKw / 2.0);
-                const compliantInv = stdSizesA.find(s => s >= minInvForCompliance);
-                
-                if (compliantInv && compliantInv > invA) {
-                    // 可以通过增大逆变器解决
-                    invA = compliantInv;
-                    const newRatio = (resultA.totalKw / invA * 100).toFixed(0);
+                const minInvForCompliance = Math.ceil(resultA.totalKw / MAX_RATIO);
+                const upgradedSelection = selectInverterForPlan('a', phaseType, minInvForCompliance, invAMeta.rawKw);
+                if (upgradedSelection.kw > invA) {
+                    invA = upgradedSelection.kw;
+                    invAMeta = upgradedSelection.meta;
+                    invAOptionsInfo = upgradedSelection.optionsInfo;
+                    invAMeta.adjustmentReason = 'inverterUpgrade';
+                    ratioAActual = (resultA.totalKw / invA * 100);
                     derivationLog[stepAIndex].details.push({ 
-                        text: `✓ 调整为 ${invA}kW 逆变器 → 容配比 ${newRatio}% (符合规则)`,
+                        text: `✓ 调整为 ${invA}kW 逆变器 → 容配比 ${ratioAActual.toFixed(0)}% (符合规则)`,
                         highlight: true
                     });
                 } else {
-                    // 逆变器已达上限，需要减少面板
-                    const maxInv = stdSizesA[stdSizesA.length - 1];
-                    const maxAllowedKw = maxInv * 2.0;  // 200%容配比
+                    const maxInv = invAOptionsInfo.options[invAOptionsInfo.options.length - 1];
+                    const maxAllowedKw = maxInv * MAX_RATIO;
                     const excessKw = resultA.totalKw - maxAllowedKw;
                     const panelsToRemove = Math.ceil((excessKw * 1000) / PV_WATT);
                     
                     derivationLog[stepAIndex].details.push({ 
-                        text: `逆变器已达${phaseType === 'single' ? '单相' : '三相'}最大 ${maxInv}kW，需减少面板`,
+                        text: `逆变器已达${phaseLabel}最大 ${maxInv}kW，需减少面板`,
                         warning: true
                     });
                     derivationLog[stepAIndex].details.push({ 
-                        text: `最大允许: ${maxInv}kW × 200% = ${maxAllowedKw.toFixed(2)}kW`
+                        text: `最大允许: ${maxInv}kW × ${INVERTER_CONFIG.maxRatio}% = ${maxAllowedKw.toFixed(2)}kW`
                     });
                     derivationLog[stepAIndex].details.push({ 
                         text: `超出: ${excessKw.toFixed(2)}kW → 需减少 ${panelsToRemove} 片面板`
                     });
                     
-                    // 从低分坡面开始减板子
                     let removedCount = 0;
                     const sortedByScore = [...roofPlanes].sort((a, b) => a.score - b.score);
                     
@@ -812,31 +916,33 @@ id_0	slope	aspect	nums
                         });
                     }
                     
-                    // 重新计算
                     resultA.count -= removedCount;
                     resultA.totalKw = resultA.count * PV_WATT / 1000;
                     invA = maxInv;
+                    ratioAActual = (resultA.totalKw / invA * 100);
+                    invAMeta.adjustmentReason = 'panelReduction';
                     
-                    const finalRatio = (resultA.totalKw / invA * 100).toFixed(0);
                     derivationLog[stepAIndex].details.push({ 
                         text: `✓ 调整后: ${resultA.count}片 × ${PV_WATT}W = ${resultA.totalKw.toFixed(2)}kW`,
                         highlight: true
                     });
                     derivationLog[stepAIndex].details.push({ 
-                        text: `✓ 最终容配比: ${resultA.totalKw.toFixed(2)}kW / ${invA}kW = ${finalRatio}% (符合规则)`,
+                        text: `✓ 最终容配比: ${resultA.totalKw.toFixed(2)}kW / ${invA}kW = ${ratioAActual.toFixed(0)}% (符合规则)`,
                         highlight: true
                     });
                 }
-            } else if (parseInt(ratioAActual) < 150) {
+            } else if (ratioAActual < 150) {
                 derivationLog[stepAIndex].details.push({ 
-                    text: `💡 容配比 ${ratioAActual}% 偏低，可考虑减小逆变器以提高经济性`
+                    text: `💡 容配比 ${ratioAActual.toFixed(0)}% 偏低，可考虑减小逆变器以提高经济性`
                 });
             } else {
                 derivationLog[stepAIndex].details.push({ 
-                    text: `✓ 容配比 ${ratioAActual}% 在合理范围 (150%-200%)`,
+                    text: `✓ 容配比 ${ratioAActual.toFixed(0)}% 在合理范围 (150%-200%)`,
                     success: true
                 });
             }
+            invAMeta.finalKw = invA;
+            derivationLog[stepAIndex].details.push({ text: buildInverterDetail(invAMeta) });
             
             // 电池容量动态计算
             const batteryA = calculateBatteryCapacity(resultA.totalKw, state, 'premium');
@@ -864,70 +970,58 @@ id_0	slope	aspect	nums
             // 方案B逆变器选型（Hybrid，目标容配比180%）
             derivationLog[stepBIndex].details.push({ text: `方案类型: 平衡型 (含储能) → 允许容配比 150%-200%` });
             
-            // 使用配置的目标容配比
-            const targetInvB = Math.ceil(resultB.totalKw / (INVERTER_CONFIG.targetRatio / 100));
-            
-            let invB;
-            if (phaseType === 'single') {
-                const singleOptions = INVERTER_CONFIG.single.b;  // 从配置读取
-                invB = singleOptions.find(s => s >= targetInvB) || singleOptions[singleOptions.length - 1];
-                derivationLog[stepBIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器 ≤${Math.max(...singleOptions)}kW (配置: ${singleOptions.join(', ')})` });
-            } else {
-                const threeOptions = INVERTER_CONFIG.three.b;  // 从配置读取
-                invB = threeOptions.find(s => s >= targetInvB) || threeOptions[threeOptions.length - 1];
-                derivationLog[stepBIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器 ≤${Math.max(...threeOptions)}kW (配置: ${threeOptions.join(', ')})` });
-            }
-            
-            const ratioB = (resultB.totalKw / invB * 100).toFixed(0);
+            const rawInvBRequirement = resultB.totalKw / TARGET_RATIO;
+            const invBSelection = selectInverterForPlan('b', phaseType, Math.ceil(rawInvBRequirement), rawInvBRequirement);
+            let invB = invBSelection.kw;
+            let invBMeta = invBSelection.meta;
+            let invBOptionsInfo = invBSelection.optionsInfo;
+            derivationLog[stepBIndex].details.push({ text: describeInverterConfig(phaseLabel, invBOptionsInfo) });
             
             derivationLog[stepBIndex].details.push({ 
-                text: `逆变器选型: 目标容配比180% → 需要 ${targetInvB.toFixed(1)}kW → 选择 ${invB}kW Hybrid`,
+                text: `逆变器选型: 目标容配比180% → 需要 ${formatKwValue(rawInvBRequirement)}kW → 选择 ${invB}kW Hybrid`,
                 highlight: true
             });
             
+            let ratioB = (resultB.totalKw / invB * 100);
             derivationLog[stepBIndex].details.push({ 
-                text: `实际容配比: ${resultB.totalKw.toFixed(2)}kW / ${invB}kW = ${ratioB}%`
+                text: `实际容配比: ${resultB.totalKw.toFixed(2)}kW / ${invB}kW = ${ratioB.toFixed(0)}%`
             });
             
-            // 检查容配比是否超标
-            if (parseInt(ratioB) > 200) {
+            if (ratioB > INVERTER_CONFIG.maxRatio) {
                 derivationLog[stepBIndex].details.push({ 
-                    text: `⚠️ 容配比 ${ratioB}% 超过 200%，违反澳洲Hybrid系统规则！`,
+                    text: `⚠️ 容配比 ${ratioB.toFixed(0)}% 超过 ${INVERTER_CONFIG.maxRatio}% 上限，需调整！`,
                     warning: true
                 });
                 
-                // 尝试增大逆变器
-                const minInvForCompliance = Math.ceil(resultB.totalKw / 2.0);
-                const threeOptions = phaseType === 'single' ? INVERTER_CONFIG.single.b : INVERTER_CONFIG.three.b;
-                const compliantInv = threeOptions.find(s => s >= minInvForCompliance);
-                
-                if (compliantInv && compliantInv > invB) {
-                    // 可以通过增大逆变器解决
-                    invB = compliantInv;
-                    const newRatio = (resultB.totalKw / invB * 100).toFixed(0);
+                const minInvForCompliance = Math.ceil(resultB.totalKw / MAX_RATIO);
+                const upgradedSelection = selectInverterForPlan('b', phaseType, minInvForCompliance, invBMeta.rawKw);
+                if (upgradedSelection.kw > invB) {
+                    invB = upgradedSelection.kw;
+                    invBMeta = upgradedSelection.meta;
+                    invBOptionsInfo = upgradedSelection.optionsInfo;
+                    invBMeta.adjustmentReason = 'inverterUpgrade';
+                    ratioB = (resultB.totalKw / invB * 100);
                     derivationLog[stepBIndex].details.push({ 
-                        text: `✓ 调整为 ${invB}kW 逆变器 → 容配比 ${newRatio}% (符合规则)`,
+                        text: `✓ 调整为 ${invB}kW 逆变器 → 容配比 ${ratioB.toFixed(0)}% (符合规则)`,
                         highlight: true
                     });
                 } else {
-                    // 逆变器已达上限，需要减少面板
-                    const maxInv = threeOptions[threeOptions.length - 1];
-                    const maxAllowedKw = maxInv * 2.0;  // 200%容配比
+                    const maxInv = invBOptionsInfo.options[invBOptionsInfo.options.length - 1];
+                    const maxAllowedKw = maxInv * MAX_RATIO;
                     const excessKw = resultB.totalKw - maxAllowedKw;
                     const panelsToRemove = Math.ceil((excessKw * 1000) / PV_WATT);
                     
                     derivationLog[stepBIndex].details.push({ 
-                        text: `逆变器已达${phaseType === 'single' ? '单相' : '三相'}最大 ${maxInv}kW，需减少面板`,
+                        text: `逆变器已达${phaseLabel}最大 ${maxInv}kW，需减少面板`,
                         warning: true
                     });
                     derivationLog[stepBIndex].details.push({ 
-                        text: `最大允许: ${maxInv}kW × 200% = ${maxAllowedKw.toFixed(2)}kW`
+                        text: `最大允许: ${maxInv}kW × ${INVERTER_CONFIG.maxRatio}% = ${maxAllowedKw.toFixed(2)}kW`
                     });
                     derivationLog[stepBIndex].details.push({ 
                         text: `超出: ${excessKw.toFixed(2)}kW → 需减少 ${panelsToRemove} 片面板`
                     });
                     
-                    // 从低分坡面开始减板子
                     let removedCount = 0;
                     const sortedByScore = [...roofPlanes].sort((a, b) => a.score - b.score);
                     
@@ -944,28 +1038,33 @@ id_0	slope	aspect	nums
                         });
                     }
                     
-                    // 重新计算
                     resultB.count -= removedCount;
                     resultB.totalKw = (resultB.count * PV_WATT / 1000);
                     invB = maxInv;
-                    const finalRatio = (resultB.totalKw / invB * 100).toFixed(0);
+                    ratioB = (resultB.totalKw / invB * 100);
+                    invBMeta.adjustmentReason = 'panelReduction';
                     
                     derivationLog[stepBIndex].details.push({ 
-                        text: `✓ 调整后: ${resultB.count}片 × ${PV_WATT}W = ${resultB.totalKw.toFixed(2)}kW / ${invB}kW = ${finalRatio}%`,
-                        highlight: true,
-                        success: true
+                        text: `✓ 调整后: ${resultB.count}片 × ${PV_WATT}W = ${resultB.totalKw.toFixed(2)}kW`,
+                        highlight: true
+                    });
+                    derivationLog[stepBIndex].details.push({ 
+                        text: `✓ 最终容配比: ${resultB.totalKw.toFixed(2)}kW / ${invB}kW = ${ratioB.toFixed(0)}% (符合规则)`,
+                        highlight: true
                     });
                 }
-            } else if (parseInt(ratioB) < 150) {
+            } else if (ratioB < 150) {
                 derivationLog[stepBIndex].details.push({ 
-                    text: `💡 容配比 ${ratioB}% 偏低，可考虑减小逆变器`
+                    text: `💡 容配比 ${ratioB.toFixed(0)}% 偏低，可考虑减小逆变器`
                 });
             } else {
                 derivationLog[stepBIndex].details.push({ 
-                    text: `✓ 容配比 ${ratioB}% 在合理范围 (150%-200%)`,
+                    text: `✓ 容配比 ${ratioB.toFixed(0)}% 在合理范围 (150%-200%)`,
                     success: true
                 });
             }
+            invBMeta.finalKw = invB;
+            derivationLog[stepBIndex].details.push({ text: buildInverterDetail(invBMeta) });
             
             // 电池容量动态计算
             const batteryB = calculateBatteryCapacity(resultB.totalKw, state, 'balanced');
@@ -994,70 +1093,58 @@ id_0	slope	aspect	nums
             // 方案C逆变器选型（经济型也配储能，目标容配比180%）
             derivationLog[stepCIndex].details.push({ text: `方案类型: 经济型 (含储能) → 允许容配比 150%-200%` });
             
-            // 使用配置的目标容配比
-            const targetInvC = Math.ceil(resultC.totalKw / (INVERTER_CONFIG.targetRatio / 100));
-            
-            let invC;
-            if (phaseType === 'single') {
-                const singleOptions = INVERTER_CONFIG.single.c;  // 从配置读取
-                invC = singleOptions.find(s => s >= targetInvC) || singleOptions[0];
-                derivationLog[stepCIndex].details.push({ text: `电网类型: 单相 → Hybrid逆变器 ≤${Math.max(...singleOptions)}kW (配置: ${singleOptions.join(', ')})` });
-            } else {
-                const threeOptions = INVERTER_CONFIG.three.c;  // 从配置读取
-                invC = threeOptions.find(s => s >= targetInvC) || threeOptions[threeOptions.length - 1];
-                derivationLog[stepCIndex].details.push({ text: `电网类型: 三相 → Hybrid逆变器 ≤${Math.max(...threeOptions)}kW (配置: ${threeOptions.join(', ')})` });
-            }
-            
-            const ratioC = (resultC.totalKw / invC * 100).toFixed(0);
+            const rawInvCRequirement = resultC.totalKw / TARGET_RATIO;
+            const invCSelection = selectInverterForPlan('c', phaseType, Math.ceil(rawInvCRequirement), rawInvCRequirement);
+            let invC = invCSelection.kw;
+            let invCMeta = invCSelection.meta;
+            let invCOptionsInfo = invCSelection.optionsInfo;
+            derivationLog[stepCIndex].details.push({ text: describeInverterConfig(phaseLabel, invCOptionsInfo) });
             
             derivationLog[stepCIndex].details.push({ 
-                text: `逆变器选型: 目标容配比180% → 需要 ${targetInvC.toFixed(1)}kW → 选择 ${invC}kW Hybrid`,
+                text: `逆变器选型: 目标容配比180% → 需要 ${formatKwValue(rawInvCRequirement)}kW → 选择 ${invC}kW Hybrid`,
                 highlight: true
             });
             
+            let ratioC = (resultC.totalKw / invC * 100);
             derivationLog[stepCIndex].details.push({ 
-                text: `实际容配比: ${resultC.totalKw.toFixed(2)}kW / ${invC}kW = ${ratioC}%`
+                text: `实际容配比: ${resultC.totalKw.toFixed(2)}kW / ${invC}kW = ${ratioC.toFixed(0)}%`
             });
             
-            // 检查容配比是否超标
-            if (parseInt(ratioC) > 200) {
+            if (ratioC > INVERTER_CONFIG.maxRatio) {
                 derivationLog[stepCIndex].details.push({ 
-                    text: `⚠️ 容配比 ${ratioC}% 超过 200%，违反澳洲Hybrid系统规则！`,
+                    text: `⚠️ 容配比 ${ratioC.toFixed(0)}% 超过 ${INVERTER_CONFIG.maxRatio}% 上限，需调整！`,
                     warning: true
                 });
                 
-                // 尝试增大逆变器
-                const minInvForCompliance = Math.ceil(resultC.totalKw / 2.0);
-                const threeOptions = phaseType === 'single' ? INVERTER_CONFIG.single.c : INVERTER_CONFIG.three.c;
-                const compliantInv = threeOptions.find(s => s >= minInvForCompliance);
-                
-                if (compliantInv && compliantInv > invC) {
-                    // 可以通过增大逆变器解决
-                    invC = compliantInv;
-                    const newRatio = (resultC.totalKw / invC * 100).toFixed(0);
+                const minInvForCompliance = Math.ceil(resultC.totalKw / MAX_RATIO);
+                const upgradedSelection = selectInverterForPlan('c', phaseType, minInvForCompliance, invCMeta.rawKw);
+                if (upgradedSelection.kw > invC) {
+                    invC = upgradedSelection.kw;
+                    invCMeta = upgradedSelection.meta;
+                    invCOptionsInfo = upgradedSelection.optionsInfo;
+                    invCMeta.adjustmentReason = 'inverterUpgrade';
+                    ratioC = (resultC.totalKw / invC * 100);
                     derivationLog[stepCIndex].details.push({ 
-                        text: `✓ 调整为 ${invC}kW 逆变器 → 容配比 ${newRatio}% (符合规则)`,
+                        text: `✓ 调整为 ${invC}kW 逆变器 → 容配比 ${ratioC.toFixed(0)}% (符合规则)`,
                         highlight: true
                     });
                 } else {
-                    // 逆变器已达上限，需要减少面板
-                    const maxInv = threeOptions[threeOptions.length - 1];
-                    const maxAllowedKw = maxInv * 2.0;  // 200%容配比
+                    const maxInv = invCOptionsInfo.options[invCOptionsInfo.options.length - 1];
+                    const maxAllowedKw = maxInv * MAX_RATIO;
                     const excessKw = resultC.totalKw - maxAllowedKw;
                     const panelsToRemove = Math.ceil((excessKw * 1000) / PV_WATT);
                     
                     derivationLog[stepCIndex].details.push({ 
-                        text: `逆变器已达${phaseType === 'single' ? '单相' : '三相'}最大 ${maxInv}kW，需减少面板`,
+                        text: `逆变器已达${phaseLabel}最大 ${maxInv}kW，需减少面板`,
                         warning: true
                     });
                     derivationLog[stepCIndex].details.push({ 
-                        text: `最大允许: ${maxInv}kW × 200% = ${maxAllowedKw.toFixed(2)}kW`
+                        text: `最大允许: ${maxInv}kW × ${INVERTER_CONFIG.maxRatio}% = ${maxAllowedKw.toFixed(2)}kW`
                     });
                     derivationLog[stepCIndex].details.push({ 
                         text: `超出: ${excessKw.toFixed(2)}kW → 需减少 ${panelsToRemove} 片面板`
                     });
                     
-                    // 从低分坡面开始减板子
                     let removedCount = 0;
                     const sortedByScore = [...roofPlanes].sort((a, b) => a.score - b.score);
                     
@@ -1074,28 +1161,33 @@ id_0	slope	aspect	nums
                         });
                     }
                     
-                    // 重新计算
                     resultC.count -= removedCount;
                     resultC.totalKw = (resultC.count * PV_WATT / 1000);
                     invC = maxInv;
-                    const finalRatio = (resultC.totalKw / invC * 100).toFixed(0);
+                    ratioC = (resultC.totalKw / invC * 100);
+                    invCMeta.adjustmentReason = 'panelReduction';
                     
                     derivationLog[stepCIndex].details.push({ 
-                        text: `✓ 调整后: ${resultC.count}片 × ${PV_WATT}W = ${resultC.totalKw.toFixed(2)}kW / ${invC}kW = ${finalRatio}%`,
-                        highlight: true,
-                        success: true
+                        text: `✓ 调整后: ${resultC.count}片 × ${PV_WATT}W = ${resultC.totalKw.toFixed(2)}kW`,
+                        highlight: true
+                    });
+                    derivationLog[stepCIndex].details.push({ 
+                        text: `✓ 最终容配比: ${resultC.totalKw.toFixed(2)}kW / ${invC}kW = ${ratioC.toFixed(0)}% (符合规则)`,
+                        highlight: true
                     });
                 }
-            } else if (parseInt(ratioC) < 150) {
+            } else if (ratioC < 150) {
                 derivationLog[stepCIndex].details.push({ 
-                    text: `💡 容配比 ${ratioC}% 偏低，可考虑减小逆变器`
+                    text: `💡 容配比 ${ratioC.toFixed(0)}% 偏低，可考虑减小逆变器`
                 });
             } else {
                 derivationLog[stepCIndex].details.push({ 
-                    text: `✓ 容配比 ${ratioC}% 在合理范围 (150%-200%)`,
+                    text: `✓ 容配比 ${ratioC.toFixed(0)}% 在合理范围 (150%-200%)`,
                     success: true
                 });
             }
+            invCMeta.finalKw = invC;
+            derivationLog[stepCIndex].details.push({ text: buildInverterDetail(invCMeta) });
             
             // 电池容量动态计算（经济型用economy方法，系数更低）
             const batteryC = calculateBatteryCapacity(resultC.totalKw, state, 'economy');
@@ -1111,9 +1203,9 @@ id_0	slope	aspect	nums
                 totalMaxPanels,
                 derivationLog,
                 plans: {
-                    A: { ...resultA, inv: `${invA}kW Hybrid`, ratio: (resultA.totalKw / invA * 100).toFixed(0), battery: batteryA },
-                    B: { ...resultB, inv: `${invB}kW Hybrid`, ratio: (resultB.totalKw / invB * 100).toFixed(0), battery: batteryB },
-                    C: { ...resultC, inv: `${invC}kW Hybrid`, ratio: (resultC.totalKw / invC * 100).toFixed(0), battery: batteryC }
+                    A: populatePlanData(resultA, invA, invAMeta, 'a', '高端型', batteryA),
+                    B: populatePlanData(resultB, invB, invBMeta, 'b', '平衡型', batteryB),
+                    C: populatePlanData(resultC, invC, invCMeta, 'c', '经济型', batteryC)
                 }
             };
         }
@@ -1453,6 +1545,10 @@ id_0	slope	aspect	nums
             document.getElementById(`${prefix}-kw`).textContent = planData.totalKw.toFixed(2);
             document.getElementById(`${prefix}-count`).textContent = planData.count;
             document.getElementById(`${prefix}-inv`).textContent = planData.inv;
+            if (planData.inverterDetail) {
+                const detailEl = document.getElementById(`${prefix}-invDetail`);
+                if (detailEl) detailEl.textContent = planData.inverterDetail;
+            }
             document.getElementById(`${prefix}-ratio`).textContent = planData.ratio + '%';
             document.getElementById(`${prefix}-layout`).textContent = planData.layoutStr || "无可用空间";
             

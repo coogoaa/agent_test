@@ -227,6 +227,19 @@
                                 <p class="text-xs text-gray-500 mt-1">澳洲Hybrid系统上限</p>
                             </div>
                         </div>
+
+                        <div class="grid grid-cols-2 gap-4 mt-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">单相逆变器最大功率 (kW)</label>
+                                <input type="number" id="inv-single-max" class="w-full border rounded p-2" value="10">
+                                <p class="text-xs text-gray-500 mt-1">通常受配电网规则限制，默认≤10kW</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">三相逆变器最大功率 (kW)</label>
+                                <input type="number" id="inv-three-max" class="w-full border rounded p-2" value="30">
+                                <p class="text-xs text-gray-500 mt-1">默认≤30kW，可根据电网要求调整</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -536,6 +549,8 @@
                         b: document.getElementById('inv-three-b').value.split(',').map(s => parseFloat(s.trim())),
                         c: document.getElementById('inv-three-c').value.split(',').map(s => parseFloat(s.trim()))
                     },
+                    singleMaxKw: parseFloat(document.getElementById('inv-single-max').value),
+                    threeMaxKw: parseFloat(document.getElementById('inv-three-max').value),
                     targetRatio: parseFloat(document.getElementById('inv-target-ratio').value),
                     maxRatio: parseFloat(document.getElementById('inv-max-ratio').value)
                 },

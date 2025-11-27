@@ -103,6 +103,8 @@
         const PV_WATT = CONFIG.pv.pmax;
         const STATE_CONSUMPTION = CONFIG.consumption;
         const INVERTER_CONFIG = CONFIG.inverter;
+        const TARGET_RATIO = INVERTER_CONFIG.targetRatio / 100;
+        const MAX_RATIO = INVERTER_CONFIG.maxRatio / 100;
         
         const HOURLY_PROFILE = {
             'TAS': [0.0238, 0.0221, 0.0205, 0.0193, 0.0189, 0.0205, 0.0267, 0.0357, 0.0402, 0.0398, 0.0390, 0.0398, 0.0414, 0.0422, 0.0426, 0.0430, 0.0471, 0.0586, 0.0614, 0.0586, 0.0520, 0.0455, 0.0373, 0.0295],
@@ -133,6 +135,146 @@
             if (diff > 180) diff = 360 - diff;
             const score = Math.max(0, 100 - (diff / 180) * 100);
             return score;
+        }
+
+        function formatKwValue(value) {
+            if (value === undefined || value === null || isNaN(value)) return '0';
+            return Number.isInteger(value) ? value.toString() : value.toFixed(1);
+        }
+
+        function getPhaseLabel(phaseType) {
+            return phaseType === 'single' ? '单相' : '三相';
+        }
+
+        function getPhaseMaxLimit(phaseType) {
+            return phaseType === 'single' ? (INVERTER_CONFIG.singleMaxKw ?? 10) : (INVERTER_CONFIG.threeMaxKw ?? 30);
+        }
+
+        function getInverterOptions(planKey, phaseType) {
+            const baseOptions = phaseType === 'single'
+                ? (INVERTER_CONFIG.single[planKey] || [])
+                : (INVERTER_CONFIG.three[planKey] || []);
+            const phaseMax = getPhaseMaxLimit(phaseType);
+            const filtered = baseOptions.filter(size => size <= phaseMax);
+            let options = filtered;
+            let injectedLimit = false;
+            if (options.length === 0) {
+                if (baseOptions.length > 0) {
+                    options = [Math.min(phaseMax, baseOptions[baseOptions.length - 1])];
+                } else {
+                    options = [phaseMax];
+                }
+                injectedLimit = true;
+            }
+            return {
+                options,
+                baseOptions,
+                phaseMax,
+                limitInjected: injectedLimit,
+                limitedByConfig: baseOptions.some(size => size > phaseMax)
+            };
+        }
+
+        function buildInverterDetail(meta) {
+            if (!meta) return '';
+            const parts = [`原始推导 ${formatKwValue(meta.rawKw)}kW`];
+            if (meta.limitedByPhase) {
+                parts.push(`受${meta.phaseLabel}上限 ${meta.phaseMax}kW 限制`);
+            } else if (meta.limitedByConfig) {
+                parts.push(`受可选规格上限 ${meta.availableMax}kW 限制`);
+            }
+
+            if (meta.adjustmentReason === 'inverterUpgrade') {
+                parts.push('为满足容配比要求已提升逆变器规格');
+            } else if (meta.adjustmentReason === 'panelReduction') {
+                parts.push('为满足容配比要求已限制光伏功率');
+            } else if (!meta.limitedByPhase && !meta.limitedByConfig && meta.finalKw !== meta.rawKw) {
+                if (meta.finalKw > meta.rawKw) parts.push('按规格向上取整');
+            }
+
+            parts.push(`最终采用 ${formatKwValue(meta.finalKw)}kW`);
+            return parts.join('，');
+        }
+
+        function selectInverterForPlan(planKey, phaseType, requiredKw, rawKw = requiredKw) {
+            const optionsInfo = getInverterOptions(planKey, phaseType);
+            const options = optionsInfo.options;
+            const availableMax = options[options.length - 1];
+            const selected = options.find(s => s >= requiredKw) || availableMax;
+            const baseMax = optionsInfo.baseOptions && optionsInfo.baseOptions.length
+                ? optionsInfo.baseOptions[optionsInfo.baseOptions.length - 1]
+                : availableMax;
+            const meta = {
+                rawKw,
+                requiredKw,
+                finalKw: selected,
+                phaseMax: optionsInfo.phaseMax,
+                phaseLabel: getPhaseLabel(phaseType),
+                availableMax,
+                baseMax,
+                limitedByPhase: rawKw > optionsInfo.phaseMax,
+                limitedByConfig: rawKw <= optionsInfo.phaseMax && rawKw > availableMax,
+                limitInjected: optionsInfo.limitInjected,
+                adjustmentReason: null
+            };
+            return { kw: selected, meta, optionsInfo };
+        }
+
+        function applyInverterRules(result, planKey, phaseType) {
+            const rawRequirement = result.totalKw / TARGET_RATIO;
+            let { kw, meta, optionsInfo } = selectInverterForPlan(planKey, phaseType, Math.ceil(rawRequirement), rawRequirement);
+            let ratio = (result.totalKw / kw) * 100;
+
+            if (ratio > INVERTER_CONFIG.maxRatio) {
+                const minInvForCompliance = Math.ceil(result.totalKw / MAX_RATIO);
+                const upgradedSelection = selectInverterForPlan(planKey, phaseType, minInvForCompliance, meta.rawKw);
+                if (upgradedSelection.kw > kw) {
+                    kw = upgradedSelection.kw;
+                    meta = upgradedSelection.meta;
+                    optionsInfo = upgradedSelection.optionsInfo;
+                    meta.adjustmentReason = 'inverterUpgrade';
+                    ratio = (result.totalKw / kw) * 100;
+                } else {
+                    const maxInv = optionsInfo.options[optionsInfo.options.length - 1];
+                    const maxAllowedKw = maxInv * MAX_RATIO;
+                    if (result.totalKw > maxAllowedKw) {
+                        result.totalKw = maxAllowedKw;
+                        result.count = Math.floor((maxAllowedKw * 1000) / PV_WATT);
+                    }
+                    kw = maxInv;
+                    meta.adjustmentReason = 'panelReduction';
+                    ratio = (result.totalKw / kw) * 100;
+                }
+            }
+
+            meta.finalKw = kw;
+            meta.detail = buildInverterDetail(meta);
+            return { kw, meta, ratio: ratio.toFixed(0) };
+        }
+
+        function createPlanResult(typeLabel, result, inverterInfo, battery, cost, subsidy, finalPrice) {
+            return {
+                type: typeLabel,
+                pvKw_value: result.totalKw,
+                pvKw_unit: 'kW',
+                panels: result.count,
+                inverter_raw_value: inverterInfo.meta.rawKw,
+                inverter_value: inverterInfo.kw,
+                inverter_unit: 'kW',
+                inverter_detail: inverterInfo.meta.detail,
+                ratio_value: parseInt(inverterInfo.ratio, 10),
+                ratio_unit: '%',
+                battery_value: battery.standard,
+                battery_unit: 'kWh',
+                battery_method: battery.methodDesc,
+                taxTotal_value: Math.round(cost.taxTotal),
+                taxTotal_unit: 'AUD',
+                subsidy_value: Math.round(subsidy.subsidyAmount),
+                subsidy_unit: 'AUD',
+                finalPrice_value: Math.round(finalPrice),
+                finalPrice_unit: 'AUD',
+                usedPlanes: result.usedPlanes ? result.usedPlanes.length : 0
+            };
         }
 
         function parseCSV(text) {

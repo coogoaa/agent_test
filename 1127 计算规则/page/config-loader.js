@@ -29,6 +29,8 @@ const DEFAULT_CONFIG = {
             b: [5, 8, 10, 15],
             c: [5, 8, 10]
         },
+        singleMaxKw: 10,   // 单相Hybrid逆变器最大功率
+        threeMaxKw: 30,    // 三相Hybrid逆变器最大功率
         targetRatio: 180,  // 目标容配比 180%
         maxRatio: 200      // 最大容配比 200%
     },
