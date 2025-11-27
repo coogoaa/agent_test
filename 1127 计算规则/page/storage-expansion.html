@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新建系统 - 光伏设备智能推荐系统</title>
+    <title>储能扩容 - 光伏设备智能推荐系统</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="config-loader.js"></script>
     <style>
@@ -47,13 +47,13 @@
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
                     <span class="text-xl font-bold text-blue-600">☀️ SolarFit Pro</span>
-                    <span class="ml-2 text-sm text-gray-500">新建系统</span>
+                    <span class="ml-2 text-sm text-gray-500">储能扩容</span>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md">
+                    <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
                         📊 新建系统
                     </a>
-                    <a href="storage-expansion.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                    <a href="storage-expansion.html" class="px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md">
                         🔋 储能扩容
                     </a>
                     <a href="batch-processor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
@@ -68,6 +68,32 @@
     </nav>
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+        <!-- 储能扩容说明 -->
+        <div class="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg shadow-md p-6 mb-6 border-l-4 border-purple-500">
+            <h2 class="text-xl font-bold text-purple-900 mb-3 flex items-center">
+                <span class="text-2xl mr-2">🔋</span>
+                储能扩容模式说明
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
+                <div class="bg-white rounded p-3">
+                    <h3 class="font-semibold text-purple-700 mb-2">适用场景</h3>
+                    <p>已有光伏系统的用户，希望增加储能容量或扩展光伏装机</p>
+                </div>
+                <div class="bg-white rounded p-3">
+                    <h3 class="font-semibold text-purple-700 mb-2">计算逻辑</h3>
+                    <p>可用屋顶空间 = GIS分析潜力 × 容量系数 (默认0.7)</p>
+                </div>
+                <div class="bg-white rounded p-3">
+                    <h3 class="font-semibold text-purple-700 mb-2">逆变器处理</h3>
+                    <p id="inverterModeInfo">默认更换为新的混合逆变器（可在配置中修改）</p>
+                </div>
+                <div class="bg-white rounded p-3">
+                    <h3 class="font-semibold text-purple-700 mb-2">方案生成</h3>
+                    <p>基于可用容量生成三套差异化扩容方案</p>
+                </div>
+            </div>
+        </div>
         
         <!-- 1. 输入控制区 -->
         <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-blue-500">
@@ -814,17 +840,29 @@ id_0	slope	aspect	nums
 
             const totalMaxPanels = roofPlanes.reduce((sum, p) => sum + p.max, 0);
             const totalMaxKw = (totalMaxPanels * PV_WATT) / 1000;
+            
+            // 储能扩容模式：应用屋顶容量系数
+            const roofCapacityFactor = CONFIG.expansion?.roofCapacityFactor || 0.7;
+            const expansionMaxPanels = Math.floor(totalMaxPanels * roofCapacityFactor);
+            const expansionMaxKw = (expansionMaxPanels * PV_WATT) / 1000;
 
-            // Step 2: 物理限制分析
+            // Step 2: 物理限制分析（储能扩容模式）
             derivationLog.push({
                 step: 2,
-                title: '物理限制分析',
-                desc: '统计该房屋屋顶的总体安装潜力',
+                title: '物理限制分析（储能扩容模式）',
+                desc: '考虑已有系统占用，计算可用扩容空间',
                 details: [
                     { text: `有效坡面数量: ${roofPlanes.filter(p => p.max > 0).length} 个` },
-                    { text: `物理最大容量: ${totalMaxPanels} 片组件` },
-                    { text: `对应总功率: ${totalMaxKw.toFixed(2)} kW`, highlight: true }
+                    { text: `GIS分析最大容量: ${totalMaxPanels} 片组件 (${totalMaxKw.toFixed(2)} kW)` },
+                    { text: `屋顶容量系数: ${(roofCapacityFactor * 100).toFixed(0)}%` },
+                    { text: `扩容可用容量: ${expansionMaxPanels} 片组件`, highlight: true },
+                    { text: `对应扩容功率: ${expansionMaxKw.toFixed(2)} kW`, highlight: true }
                 ]
+            });
+            
+            // 应用容量系数到每个坡面
+            roofPlanes.forEach(p => {
+                p.max = Math.floor(p.max * roofCapacityFactor);
             });
 
             // Step 2.5: 用电数据分析 (新增)
@@ -1411,11 +1449,21 @@ id_0	slope	aspect	nums
             });
             
             updateStateInfo();
+            updateExpansionModeInfo();
             
             if (selector.options.length > 1) {
                 selector.selectedIndex = 1;
                 updateUI();
             }
+        }
+
+        function updateExpansionModeInfo() {
+            const roofFactor = CONFIG.expansion?.roofCapacityFactor || 0.7;
+            const replaceInverter = CONFIG.expansion?.replaceInverter !== false;
+            const inverterModeText = replaceInverter 
+                ? '默认更换为新的混合逆变器（可在配置中修改）' 
+                : '保留原有逆变器配置（可在配置中修改）';
+            document.getElementById('inverterModeInfo').textContent = inverterModeText;
         }
 
         function updateStateInfo() {
