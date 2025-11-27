@@ -47,7 +47,15 @@
         <!-- 参数设置 -->
         <div class="bg-white rounded-lg shadow p-6 mb-6">
             <h2 class="text-xl font-bold mb-4">2. 设置参数</h2>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-3 gap-4">
+                <div>
+                    <label class="block text-sm font-medium mb-1">计算模式</label>
+                    <select id="calcMode" class="w-full border rounded p-2">
+                        <option value="new">新建系统</option>
+                        <option value="expansion">储能扩容</option>
+                    </select>
+                    <p class="text-xs text-gray-500 mt-1" id="calcModeHint">新建系统：使用全部屋顶容量</p>
+                </div>
                 <div>
                     <label class="block text-sm font-medium mb-1">州/领地</label>
                     <select id="state" class="w-full border rounded p-2">
@@ -426,8 +434,16 @@
             };
         }
 
-        function generateProposals(houseId, roofData, state, phaseType) {
+        function generateProposals(houseId, roofData, state, phaseType, calcMode = 'new') {
             const roofPlanes = roofData.map(p => ({...p})).sort((a, b) => b.score - a.score);
+            
+            // 储能扩容模式：应用屋顶容量系数
+            if (calcMode === 'expansion') {
+                const roofCapacityFactor = CONFIG.expansion?.roofCapacityFactor || 0.7;
+                roofPlanes.forEach(p => {
+                    p.max = Math.floor(p.max * roofCapacityFactor);
+                });
+            }
             
             // 检查是否有可用空间
             const totalMaxPanels = roofPlanes.reduce((sum, p) => sum + p.max, 0);
@@ -500,6 +516,18 @@
         // UI事件处理
         let allResults = [];
         
+        // 计算模式切换
+        document.getElementById('calcMode').addEventListener('change', (e) => {
+            const mode = e.target.value;
+            const hint = document.getElementById('calcModeHint');
+            const roofFactor = CONFIG.expansion?.roofCapacityFactor || 0.7;
+            if (mode === 'expansion') {
+                hint.textContent = `储能扩容：使用${(roofFactor * 100).toFixed(0)}%屋顶容量（可在配置中修改）`;
+            } else {
+                hint.textContent = '新建系统：使用全部屋顶容量';
+            }
+        });
+        
         document.getElementById('processBtn').addEventListener('click', async () => {
             const fileInput = document.getElementById('csvFile');
             if (!fileInput.files[0]) {
@@ -509,6 +537,7 @@
             
             const state = document.getElementById('state').value;
             const phase = document.getElementById('phase').value;
+            const calcMode = document.getElementById('calcMode').value;
             
             const text = await fileInput.files[0].text();
             const houses = parseCSV(text);
@@ -519,7 +548,7 @@
             
             for (let i = 0; i < houseIds.length; i++) {
                 const houseId = houseIds[i];
-                const result = generateProposals(houseId, houses[houseId], state, phase);
+                const result = generateProposals(houseId, houses[houseId], state, phase, calcMode);
                 allResults.push(result);
                 
                 const progress = ((i + 1) / houseIds.length * 100).toFixed(0);
