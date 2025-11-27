@@ -651,8 +651,8 @@
             document.getElementById('inv-three-a').value = config.inverter.three.a.join(', ');
             document.getElementById('inv-three-b').value = config.inverter.three.b.join(', ');
             document.getElementById('inv-three-c').value = config.inverter.three.c.join(', ');
-            document.getElementById('inv-single-enable').checked = config.inverter.enableSingleOptions !== false;
-            document.getElementById('inv-three-enable').checked = config.inverter.enableThreeOptions !== false;
+            document.getElementById('inv-single-enable').checked = !!config.inverter.enableSingleOptions;
+            document.getElementById('inv-three-enable').checked = !!config.inverter.enableThreeOptions;
             document.getElementById('inv-target-ratio').value = config.inverter.targetRatio;
             document.getElementById('inv-max-ratio').value = config.inverter.maxRatio;
             

@@ -29,8 +29,8 @@ const DEFAULT_CONFIG = {
             b: [5, 8, 10, 15],
             c: [5, 8, 10]
         },
-        enableSingleOptions: true, // 是否强制使用单相可用规格列表
-        enableThreeOptions: true,  // 是否强制使用三相可用规格列表
+        enableSingleOptions: false, // 是否强制使用单相可用规格列表
+        enableThreeOptions: false,  // 是否强制使用三相可用规格列表
         singleMaxKw: 10,   // 单相Hybrid逆变器最大功率
         threeMaxKw: 30,    // 三相Hybrid逆变器最大功率
         targetRatio: 180,  // 目标容配比 180%

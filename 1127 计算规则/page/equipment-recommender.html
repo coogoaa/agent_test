@@ -468,8 +468,8 @@ id_0	slope	aspect	nums
 
         function getInverterOptions(planKey, phaseType) {
             const useOptions = phaseType === 'single'
-                ? (INVERTER_CONFIG.enableSingleOptions !== false)
-                : (INVERTER_CONFIG.enableThreeOptions !== false);
+                ? !!INVERTER_CONFIG.enableSingleOptions
+                : !!INVERTER_CONFIG.enableThreeOptions;
             const baseOptions = phaseType === 'single' 
                 ? (INVERTER_CONFIG.single[planKey] || [])
                 : (INVERTER_CONFIG.three[planKey] || []);
@@ -490,7 +490,8 @@ id_0	slope	aspect	nums
                 baseOptions,
                 phaseMax,
                 limitInjected: injectedLimit,
-                limitedByConfig: useOptions && baseOptions.some(size => size > phaseMax)
+                limitedByConfig: useOptions && baseOptions.some(size => size > phaseMax),
+                enforceList: useOptions
             };
         }
 
@@ -535,8 +536,15 @@ id_0	slope	aspect	nums
         function selectInverterForPlan(planKey, phaseType, requiredKw, rawKw = requiredKw) {
             const optionsInfo = getInverterOptions(planKey, phaseType);
             const options = optionsInfo.options;
-            const availableMax = options[options.length - 1];
-            const selected = options.find(s => s >= requiredKw) || availableMax;
+            const availableMax = optionsInfo.enforceList && options.length
+                ? options[options.length - 1]
+                : optionsInfo.phaseMax;
+            let selected;
+            if (optionsInfo.enforceList && options.length) {
+                selected = options.find(s => s >= requiredKw) || availableMax;
+            } else {
+                selected = Math.min(Math.max(Math.ceil(requiredKw), 1), optionsInfo.phaseMax);
+            }
             const baseMax = optionsInfo.baseOptions && optionsInfo.baseOptions.length
                 ? optionsInfo.baseOptions[optionsInfo.baseOptions.length - 1]
                 : availableMax;
@@ -549,7 +557,7 @@ id_0	slope	aspect	nums
                 availableMax,
                 baseMax,
                 limitedByPhase: rawKw > optionsInfo.phaseMax,
-                limitedByConfig: rawKw <= optionsInfo.phaseMax && rawKw > availableMax,
+                limitedByConfig: optionsInfo.enforceList && rawKw <= optionsInfo.phaseMax && rawKw > availableMax,
                 limitInjected: optionsInfo.limitInjected,
                 adjustmentReason: null
             };
