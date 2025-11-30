@@ -352,6 +352,9 @@
                     <button class="derivation-tab active px-6 py-3 text-sm font-medium border-b-2 border-green-500 text-green-600" data-tab="pv-derivation">
                         ☀️ 光伏系统推导
                     </button>
+                    <button class="derivation-tab px-6 py-3 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="battery-logic">
+                        🔋 储能容量计算逻辑
+                    </button>
                     <button class="derivation-tab px-6 py-3 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="cost-derivation">
                         💰 成本计算推导
                     </button>
@@ -362,6 +365,268 @@
             <div id="pv-derivation" class="derivation-content">
                 <div class="space-y-6" id="derivationSteps">
                     <!-- JS 动态填充推导步骤 -->
+                </div>
+            </div>
+
+            <!-- 储能容量计算逻辑 -->
+            <div id="battery-logic" class="derivation-content hidden">
+                <div class="space-y-6">
+                    <!-- 计算公式说明 -->
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                        <h3 class="text-lg font-bold text-blue-900 mb-4 flex items-center">
+                            <span class="text-2xl mr-2">📐</span>
+                            储能容量计算公式
+                        </h3>
+                        <div class="bg-white p-4 rounded border border-blue-200 font-mono text-sm mb-4">
+                            <div class="text-center text-lg font-bold text-blue-800">
+                                储能容量 = max(方法1, 方法2, 方法3)
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="bg-white p-4 rounded-lg border-2 border-green-300">
+                                <div class="font-bold text-green-800 mb-2">方法1: 日用电维度</div>
+                                <div class="text-sm text-gray-700 mb-2">日用电量 × 日用电系数</div>
+                                <div class="text-xs text-gray-600 bg-green-50 p-2 rounded">
+                                    确保储能系统能够支撑家庭的基本用电需求
+                                </div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg border-2 border-orange-300">
+                                <div class="font-bold text-orange-800 mb-2">方法2: 傍晚峰值维度</div>
+                                <div class="text-sm text-gray-700 mb-2">傍晚高峰用电 × 傍晚峰系数</div>
+                                <div class="text-xs text-gray-600 bg-orange-50 p-2 rounded">
+                                    确保在太阳下山后，用白天储存的电力支撑晚间用电高峰(17:00-21:00)
+                                </div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg border-2 border-purple-300">
+                                <div class="font-bold text-purple-800 mb-2">方法3: 光伏容量维度</div>
+                                <div class="text-sm text-gray-700 mb-2">PV系统容量 × PV容量系数</div>
+                                <div class="text-xs text-gray-600 bg-purple-50 p-2 rounded">
+                                    确保储能系统能够有效吸收光伏系统的发电量
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 三种方案的系数对比 -->
+                    <div class="bg-white border border-gray-200 rounded-lg p-6">
+                        <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center">
+                            <span class="text-2xl mr-2">📊</span>
+                            三种方案的系数配置
+                        </h3>
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full divide-y divide-gray-300">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-900">方案</th>
+                                        <th class="px-6 py-3 text-center text-sm font-semibold text-gray-900">日用电系数</th>
+                                        <th class="px-6 py-3 text-center text-sm font-semibold text-gray-900">傍晚峰系数</th>
+                                        <th class="px-6 py-3 text-center text-sm font-semibold text-gray-900">PV容量系数</th>
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-900">定位</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-200 bg-white">
+                                    <tr class="hover:bg-green-50">
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <div class="font-semibold text-green-800">方案C - 经济型</div>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                                                0.2 (20%)
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                                                1.0倍
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                                                0.8倍
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-sm text-gray-600">基础配置，快速回本</td>
+                                    </tr>
+                                    <tr class="hover:bg-blue-50">
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <div class="font-semibold text-blue-800">方案B - 平衡型</div>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                                                0.3 (30%)
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                                                1.5倍
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                                                1.0倍
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-sm text-gray-600">标准配置，光储一体</td>
+                                    </tr>
+                                    <tr class="hover:bg-purple-50">
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            <div class="font-semibold text-purple-800">方案A - 高端型</div>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+                                                0.5 (50%)
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+                                                2.0倍
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
+                                                1.5倍
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-sm text-gray-600">大容量，能源独立</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- PV容量系数详解 -->
+                    <div class="bg-gradient-to-r from-amber-50 to-yellow-50 border-l-4 border-amber-500 p-6 rounded-lg">
+                        <h3 class="text-lg font-bold text-amber-900 mb-4 flex items-center">
+                            <span class="text-2xl mr-2">💡</span>
+                            为什么 PV 容量系数不是 1.0 倍？
+                        </h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="bg-white p-4 rounded-lg border border-amber-200">
+                                <div class="font-semibold text-amber-900 mb-2 flex items-center">
+                                    <span class="mr-2">⚡</span>光伏实际发电特性
+                                </div>
+                                <div class="text-sm text-gray-700">
+                                    光伏系统的额定功率是在标准测试条件(STC)下的峰值功率。实际运行中，由于天气、温度、角度等因素，
+                                    <strong class="text-amber-800">平均发电功率通常只有额定功率的 60%-80%</strong>
+                                </div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg border border-amber-200">
+                                <div class="font-semibold text-amber-900 mb-2 flex items-center">
+                                    <span class="mr-2">⏰</span>充电时间窗口限制
+                                </div>
+                                <div class="text-sm text-gray-700">
+                                    光伏系统主要在白天发电，<strong class="text-amber-800">有效发电时间约 6-8 小时</strong>。
+                                    如果储能容量太大(如1.5倍PV容量)，在有限的白天时间内可能充不满，导致容量浪费
+                                </div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg border border-amber-200">
+                                <div class="font-semibold text-amber-900 mb-2 flex items-center">
+                                    <span class="mr-2">💰</span>经济性考虑
+                                </div>
+                                <div class="text-sm text-gray-700">
+                                    储能系统成本很高，通常是 <strong class="text-amber-800">$1000-1500/kWh</strong>。
+                                    配置过大的储能容量会导致初始投资过高、回本周期延长、部分容量利用率低
+                                </div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg border border-amber-200">
+                                <div class="font-semibold text-amber-900 mb-2 flex items-center">
+                                    <span class="mr-2">🎯</span>系数设计策略
+                                </div>
+                                <div class="text-sm text-gray-700">
+                                    <div class="space-y-1">
+                                        <div><span class="inline-block bg-green-100 px-2 py-0.5 rounded text-green-800 font-semibold">经济型 0.8倍</span> - 确保能在晴天充满</div>
+                                        <div><span class="inline-block bg-blue-100 px-2 py-0.5 rounded text-blue-800 font-semibold">平衡型 1.0倍</span> - 充分利用发电能力</div>
+                                        <div><span class="inline-block bg-purple-100 px-2 py-0.5 rounded text-purple-800 font-semibold">高端型 1.5倍</span> - 追求能源独立</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 为什么取最大值 -->
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 border-l-4 border-green-500 p-6 rounded-lg">
+                        <h3 class="text-lg font-bold text-green-900 mb-4 flex items-center">
+                            <span class="text-2xl mr-2">🎯</span>
+                            为什么取三者的最大值？
+                        </h3>
+                        <div class="bg-white p-4 rounded-lg border border-green-200">
+                            <p class="text-sm text-gray-700 mb-3">
+                                这是一种<strong class="text-green-800">保守且全面的设计策略</strong>，确保储能系统能够<strong class="text-green-800">同时满足</strong>以下三个维度的需求：
+                            </p>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                                <div class="flex items-start space-x-2 bg-green-50 p-3 rounded">
+                                    <span class="text-green-600 font-bold">✓</span>
+                                    <div class="text-sm">
+                                        <div class="font-semibold text-green-800">日常用电需求</div>
+                                        <div class="text-gray-600">覆盖家庭基本用电</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-2 bg-green-50 p-3 rounded">
+                                    <span class="text-green-600 font-bold">✓</span>
+                                    <div class="text-sm">
+                                        <div class="font-semibold text-green-800">晚间高峰用电</div>
+                                        <div class="text-gray-600">支撑傍晚用电高峰</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-2 bg-green-50 p-3 rounded">
+                                    <span class="text-green-600 font-bold">✓</span>
+                                    <div class="text-sm">
+                                        <div class="font-semibold text-green-800">光伏发电吸收</div>
+                                        <div class="text-gray-600">避免发电浪费</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-4 border-t border-green-200 text-sm text-gray-700">
+                                <strong class="text-green-800">避免的问题：</strong>
+                                储能容量不足 → 晚间用电不够 → 光伏发电无法储存浪费 → 用户体验不佳
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 计算示例 -->
+                    <div class="bg-white border-2 border-blue-300 rounded-lg p-6">
+                        <h3 class="text-lg font-bold text-blue-900 mb-4 flex items-center">
+                            <span class="text-2xl mr-2">📝</span>
+                            计算示例 (经济型方案)
+                        </h3>
+                        <div class="bg-blue-50 p-4 rounded-lg mb-4">
+                            <div class="text-sm text-gray-700 space-y-1">
+                                <div><strong>假设条件：</strong></div>
+                                <div>• 用户所在州：NSW</div>
+                                <div>• 年用电量：7,300 kWh → 日用电量：20 kWh</div>
+                                <div>• 傍晚高峰用电(17:00-21:00)：5 kWh</div>
+                                <div>• 光伏系统容量：10 kW</div>
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="bg-white border border-green-300 p-4 rounded">
+                                <div class="font-semibold text-green-800 mb-2">方法1 - 日用电维度</div>
+                                <div class="text-sm font-mono text-gray-700">
+                                    20 kWh × 0.2 = <strong class="text-green-800">4 kWh</strong>
+                                </div>
+                            </div>
+                            <div class="bg-white border border-orange-300 p-4 rounded">
+                                <div class="font-semibold text-orange-800 mb-2">方法2 - 傍晚峰值维度</div>
+                                <div class="text-sm font-mono text-gray-700">
+                                    5 kWh × 1.0 = <strong class="text-orange-800">5 kWh</strong>
+                                </div>
+                            </div>
+                            <div class="bg-white border border-purple-300 p-4 rounded">
+                                <div class="font-semibold text-purple-800 mb-2">方法3 - 光伏容量维度</div>
+                                <div class="text-sm font-mono text-gray-700">
+                                    10 kW × 0.8 = <strong class="text-purple-800">8 kWh</strong>
+                                </div>
+                            </div>
+                            <div class="bg-gradient-to-r from-blue-100 to-blue-200 p-4 rounded-lg border-2 border-blue-400">
+                                <div class="font-bold text-blue-900 mb-2">最终推荐容量</div>
+                                <div class="text-lg font-mono text-blue-900">
+                                    max(4, 5, 8) = <strong class="text-2xl">8 kWh</strong>
+                                </div>
+                                <div class="text-xs text-blue-800 mt-2">
+                                    在这个案例中，方法3(PV容量维度)成为决定因素，确保储能系统能够充分吸收10kW光伏系统的发电量
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

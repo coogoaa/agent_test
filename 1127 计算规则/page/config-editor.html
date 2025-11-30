@@ -87,6 +87,49 @@
                 <div id="tab-battery" class="tab-content hidden">
                     <h2 class="text-xl font-bold mb-4">电池容量计算系数</h2>
                     
+                    <!-- 计算逻辑说明 -->
+                    <div class="mb-6 bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+                        <h3 class="font-semibold text-blue-900 mb-2 flex items-center">
+                            <span class="text-xl mr-2">💡</span>
+                            储能容量计算逻辑说明
+                        </h3>
+                        <div class="text-sm text-blue-800 space-y-2">
+                            <p><strong>计算公式：</strong>储能容量 = max(方法1, 方法2, 方法3)</p>
+                            <ul class="list-disc ml-5 space-y-1">
+                                <li><strong>方法1 - 日用电维度：</strong>日用电量 × 日用电系数<br>
+                                    <span class="text-xs text-blue-700">→ 确保储能系统能够支撑家庭的基本用电需求</span>
+                                </li>
+                                <li><strong>方法2 - 傍晚峰值维度：</strong>傍晚高峰用电(17:00-21:00) × 傍晚峰系数<br>
+                                    <span class="text-xs text-blue-700">→ 确保在太阳下山后，用白天储存的电力支撑晚间用电高峰</span>
+                                </li>
+                                <li><strong>方法3 - 光伏容量维度：</strong>PV系统容量(kW) × PV容量系数<br>
+                                    <span class="text-xs text-blue-700">→ 确保储能系统能够有效吸收光伏系统的发电量</span>
+                                </li>
+                            </ul>
+                            <p class="mt-2 pt-2 border-t border-blue-300"><strong>为什么取最大值？</strong>保守策略，确保储能容量能同时满足：日常用电需求、晚间高峰用电、光伏发电吸收能力</p>
+                        </div>
+                    </div>
+
+                    <!-- PV容量系数详解 -->
+                    <div class="mb-6 bg-amber-50 border-l-4 border-amber-500 p-4 rounded">
+                        <h3 class="font-semibold text-amber-900 mb-2 flex items-center">
+                            <span class="text-xl mr-2">🔋</span>
+                            为什么 PV 容量系数不是 1.0 倍？
+                        </h3>
+                        <div class="text-sm text-amber-800 space-y-2">
+                            <ul class="list-disc ml-5 space-y-1">
+                                <li><strong>光伏实际发电特性：</strong>实际运行中，平均发电功率通常只有额定功率的 60%-80%</li>
+                                <li><strong>充电时间窗口：</strong>白天有效发电时间约 6-8 小时，储能容量太大可能充不满</li>
+                                <li><strong>经济性考虑：</strong>储能成本高($1000-1500/kWh)，过大容量会导致初始投资高、回本周期长</li>
+                                <li><strong>系数设计：</strong>
+                                    <span class="inline-block bg-green-100 px-2 py-0.5 rounded text-green-800 ml-1">经济型 0.8倍</span>
+                                    <span class="inline-block bg-blue-100 px-2 py-0.5 rounded text-blue-800 ml-1">平衡型 1.0倍</span>
+                                    <span class="inline-block bg-purple-100 px-2 py-0.5 rounded text-purple-800 ml-1">高端型 1.5倍</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                     <div class="mb-6">
                         <h3 class="text-lg font-semibold mb-3 text-purple-700">方案A - 高端型 (Premium)</h3>
                         <div class="grid grid-cols-3 gap-4">
