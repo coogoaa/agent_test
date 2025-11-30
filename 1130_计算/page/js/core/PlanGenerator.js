@@ -310,26 +310,64 @@ class PlanGenerator {
         const requiredInv = Math.ceil(pvRatedKw / maxRatio);
         
         // 从配置中获取可选规格
-        const catalog = phaseType === 'single' 
-            ? [5, 6, 8, 10]
-            : [5, 8, 10, 15, 20, 30];
+        let catalog;
+        let modelName = null;
         
-        let selectedInv = catalog.find(kw => kw >= requiredInv) || phaseMax;
-        
-        // 检查是否需要裁剪
-        const maxAllowedKw = selectedInv * maxRatio;
-        const needsTrim = pvRatedKw > maxAllowedKw;
-        
-        const dcacRatio = pvRatedKw / selectedInv;
-        
-        return {
-            selected_model: `${selectedInv}kW Hybrid`,
-            inverter_kw: selectedInv,
-            dcac_ratio: dcacRatio,
-            needsTrim,
-            maxAllowedKw,
-            notes: needsTrim ? [`需要裁剪至${maxAllowedKw.toFixed(1)}kW`] : []
-        };
+        if (this.config.inverters && this.config.inverters.enabled) {
+            // 启用规格库：从配置中提取容量和型号
+            const specs = phaseType === 'single' 
+                ? this.config.inverters.singlePhase 
+                : this.config.inverters.threePhase;
+            
+            // 解析规格库数组 [name1, kw1, name2, kw2, ...]
+            catalog = [];
+            const models = {};
+            for (let i = 0; i < specs.length; i += 2) {
+                const name = specs[i];
+                const kw = specs[i + 1];
+                catalog.push(kw);
+                models[kw] = name;
+            }
+            
+            // 选择合适的逆变器
+            let selectedInv = catalog.find(kw => kw >= requiredInv) || phaseMax;
+            modelName = models[selectedInv] || `${selectedInv}kW Hybrid`;
+            
+            // 检查是否需要裁剪
+            const maxAllowedKw = selectedInv * maxRatio;
+            const needsTrim = pvRatedKw > maxAllowedKw;
+            const dcacRatio = pvRatedKw / selectedInv;
+            
+            return {
+                selected_model: modelName,
+                inverter_kw: selectedInv,
+                dcac_ratio: dcacRatio,
+                needsTrim,
+                maxAllowedKw,
+                notes: needsTrim ? [`需要裁剪至${maxAllowedKw.toFixed(1)}kW`] : []
+            };
+        } else {
+            // 未启用规格库：使用简化的通用规格
+            catalog = phaseType === 'single' 
+                ? [5, 6, 8, 10]
+                : [5, 8, 10, 15, 20, 30];
+            
+            let selectedInv = catalog.find(kw => kw >= requiredInv) || phaseMax;
+            
+            // 检查是否需要裁剪
+            const maxAllowedKw = selectedInv * maxRatio;
+            const needsTrim = pvRatedKw > maxAllowedKw;
+            const dcacRatio = pvRatedKw / selectedInv;
+            
+            return {
+                selected_model: `${selectedInv}kW Hybrid`,
+                inverter_kw: selectedInv,
+                dcac_ratio: dcacRatio,
+                needsTrim,
+                maxAllowedKw,
+                notes: needsTrim ? [`需要裁剪至${maxAllowedKw.toFixed(1)}kW`] : []
+            };
+        }
     }
 
     /**
