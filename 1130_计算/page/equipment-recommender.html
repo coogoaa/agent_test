@@ -1267,10 +1267,65 @@
             const annualKwh = results.metadata.annualKwh;
             const phaseType = results.metadata.phaseType;
             
+            // 计算初始容量和裁剪信息
+            const totalPanels = plan.panels.total;
+            const initialPanels = results.metadata.totalMaxPanels;
+            const initialKw = results.metadata.totalMaxKw;
+            const wasTrimmed = initialPanels > totalPanels;
+            const trimmedPanels = initialPanels - totalPanels;
+            
             container.innerHTML = `
                 <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
                     <h3 class="text-lg font-bold text-blue-900 mb-2">📊 方案${planKey} - ${plan.name} 详细推算过程</h3>
                     <p class="text-sm text-blue-800">以下展示完整的计算步骤和公式推导</p>
+                </div>
+
+                <!-- 步骤0: 初始容量计算 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3 flex items-center">
+                        <span class="bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-2">0</span>
+                        初始PV容量计算
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-gray-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">屋顶信息:</p>
+                            <div class="grid grid-cols-2 gap-2 text-xs">
+                                <div>坡面数量: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.panels.per_slope.length} 个</code></div>
+                                <div>总面板数: <code class="bg-gray-200 px-1 py-0.5 rounded">${initialPanels} 片</code></div>
+                                <div>单板功率: <code class="bg-gray-200 px-1 py-0.5 rounded">0.44 kW</code></div>
+                                <div>初始容量: <code class="bg-gray-200 px-1 py-0.5 rounded">${initialKw.toFixed(2)} kW</code></div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">📐 计算公式:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p><strong>初始PV容量:</strong></p>
+                                <p class="ml-4 text-gray-700">PV_initial = Σ(N_panels_i) × P_panel</p>
+                                <p class="ml-4 text-gray-700">= ${initialPanels} × 0.44</p>
+                                <p class="ml-4 text-green-600">= ${initialKw.toFixed(2)} kW</p>
+                            </div>
+                        </div>
+                        
+                        ${wasTrimmed ? `
+                        <div class="bg-orange-50 p-3 rounded border border-orange-200">
+                            <p class="font-semibold text-orange-800 mb-2">⚠️ 需要裁剪:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p class="text-gray-700"><strong>原因:</strong> 初始容量超过逆变器约束</p>
+                                <p class="text-gray-700 mt-2"><strong>裁剪详情:</strong></p>
+                                <p class="ml-4">初始: ${initialPanels}片 (${initialKw.toFixed(2)} kW)</p>
+                                <p class="ml-4">最终: ${totalPanels}片 (${plan.pv_rated_kw.toFixed(2)} kW)</p>
+                                <p class="ml-4 text-orange-700 font-bold">裁剪: ${trimmedPanels}片 (${(initialKw - plan.pv_rated_kw).toFixed(2)} kW)</p>
+                                <p class="text-gray-600 mt-2 text-xs">详见步骤2.5的裁剪逻辑</p>
+                            </div>
+                        </div>
+                        ` : `
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-semibold text-green-800 mb-2">✅ 无需裁剪:</p>
+                            <p class="text-gray-600 text-xs">初始容量符合逆变器约束，使用全部${totalPanels}片面板</p>
+                        </div>
+                        `}
+                    </div>
                 </div>
 
                 <!-- 步骤1: 负荷曲线生成 -->
@@ -1359,6 +1414,59 @@
                         </div>
                     </div>
                 </div>
+
+                ${wasTrimmed ? `
+                <!-- 步骤2.5: PV容量裁剪 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4 border-l-4 border-orange-500">
+                    <h4 class="text-md font-bold text-gray-800 mb-3 flex items-center">
+                        <span class="bg-orange-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-2">2.5</span>
+                        PV容量裁剪 (DC/AC约束)
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-orange-50 p-3 rounded border border-orange-200">
+                            <p class="font-semibold text-orange-800 mb-2">⚠️ 裁剪原因:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p class="text-gray-700">初始PV容量 ${initialKw.toFixed(2)} kW 超过逆变器约束</p>
+                                <p class="text-gray-700">需要满足: DC/AC ≤ 2.0 (200%)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">📐 裁剪逻辑:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p><strong>步骤1:</strong> 初步选择逆变器</p>
+                                <p class="ml-4 text-gray-700">所需最小 = ${initialKw.toFixed(2)} / 2.0 = ${(initialKw / 2.0).toFixed(2)} kW</p>
+                                <p class="ml-4 text-gray-700">选择逆变器 = ${plan.inverter.inverter_kw} kW</p>
+                                
+                                <p class="mt-2"><strong>步骤2:</strong> 计算最大允许PV</p>
+                                <p class="ml-4 text-gray-700">PV_max = 逆变器容量 × 2.0</p>
+                                <p class="ml-4 text-gray-700">= ${plan.inverter.inverter_kw} × 2.0</p>
+                                <p class="ml-4 text-green-600">= ${(plan.inverter.inverter_kw * 2.0).toFixed(1)} kW</p>
+                                
+                                <p class="mt-2"><strong>步骤3:</strong> 计算需要裁剪的面板数</p>
+                                <p class="ml-4 text-gray-700">最大面板数 = floor(${(plan.inverter.inverter_kw * 2.0).toFixed(1)} / 0.44)</p>
+                                <p class="ml-4 text-gray-700">= ${Math.floor(plan.inverter.inverter_kw * 2.0 / 0.44)} 片</p>
+                                <p class="ml-4 text-gray-700">需要裁剪 = ${initialPanels} - ${Math.floor(plan.inverter.inverter_kw * 2.0 / 0.44)}</p>
+                                <p class="ml-4 text-orange-600">= ${trimmedPanels} 片</p>
+                                
+                                <p class="mt-2"><strong>步骤4:</strong> 从低效坡面开始裁剪</p>
+                                <p class="ml-4 text-gray-700">按评分排序，优先裁剪低分坡面</p>
+                                <p class="ml-4 text-gray-700">保留高效坡面的面板</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">✅ 裁剪结果:</p>
+                            <div class="grid grid-cols-2 gap-2 text-xs">
+                                <div>裁剪前: <code class="bg-gray-200 px-1 py-0.5 rounded">${initialPanels}片 (${initialKw.toFixed(2)} kW)</code></div>
+                                <div>裁剪后: <code class="bg-gray-200 px-1 py-0.5 rounded">${totalPanels}片 (${plan.pv_rated_kw.toFixed(2)} kW)</code></div>
+                                <div>裁剪量: <code class="bg-orange-200 px-1 py-0.5 rounded">${trimmedPanels}片 (${(initialKw - plan.pv_rated_kw).toFixed(2)} kW)</code></div>
+                                <div>DC/AC比: <code class="bg-green-200 px-1 py-0.5 rounded">${(plan.inverter.dcac_ratio * 100).toFixed(1)}%</code> ✅</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                ` : ''}
 
                 <!-- 步骤3: 逆变器选型 -->
                 <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
