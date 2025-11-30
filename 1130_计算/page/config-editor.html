@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统配置 - 小时级仿真版 (1130)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+        .config-section { transition: all 0.3s ease; }
+        .config-section:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen text-gray-800">
+
+    <!-- 顶部导航 -->
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-blue-600">☀️ SolarFit Pro</span>
+                    <span class="ml-2 text-sm text-gray-500">系统配置</span>
+                    <span class="ml-2 px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full font-semibold">v1130</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="config-editor.html" class="px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md">
+                        ⚙️ 系统配置
+                    </a>
+                    <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        📊 新建系统
+                    </a>
+                    <a href="../../../1127 计算规则/page/batch-processor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        📦 批量处理
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+        <!-- 页面标题 -->
+        <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg shadow-md p-6 mb-6 border-l-4 border-purple-500">
+            <h1 class="text-2xl font-bold text-purple-900 mb-2 flex items-center">
+                <span class="text-3xl mr-3">⚙️</span>
+                系统配置管理
+            </h1>
+            <p class="text-sm text-purple-700">配置小时级仿真系统的核心参数和规格库</p>
+        </div>
+
+        <!-- 配置保存提示 -->
+        <div id="saveNotification" class="hidden bg-green-50 border-l-4 border-green-500 p-4 mb-6 rounded">
+            <div class="flex items-center">
+                <span class="text-green-600 text-xl mr-3">✅</span>
+                <p class="text-green-800 font-medium">配置已保存到浏览器本地存储</p>
+            </div>
+        </div>
+
+        <!-- 1. 仿真参数配置 -->
+        <div class="config-section bg-white rounded-lg shadow-lg p-6 mb-6 border-t-4 border-blue-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">🔧</span>
+                仿真参数配置
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- 电池参数 -->
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="font-semibold text-gray-800 mb-3 flex items-center">
+                        <span class="mr-2">🔋</span>
+                        电池参数
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">往返效率 (RTE)</label>
+                            <input type="number" id="batteryRTE" step="0.01" min="0.7" max="1.0" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 0.90 (90%)</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">放电深度 (DOD)</label>
+                            <input type="number" id="batteryDOD" step="0.01" min="0.7" max="1.0" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 0.90 (90%)</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">最大充电功率倍率</label>
+                            <input type="number" id="batteryChargeRate" step="0.1" min="0.3" max="2.0" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 0.5 (0.5C)</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">最大放电功率倍率</label>
+                            <input type="number" id="batteryDischargeRate" step="0.1" min="0.3" max="2.0" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 0.6 (0.6C)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 电网参数 -->
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="font-semibold text-gray-800 mb-3 flex items-center">
+                        <span class="mr-2">⚡</span>
+                        电网参数
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">导出限制 (kW)</label>
+                            <input type="number" id="exportLimit" step="0.5" min="0" max="20" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 5.0 kW</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">进口限制 (kW)</label>
+                            <input type="number" id="importLimit" step="0.5" min="0" max="50" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 无限制 (输入0表示无限制)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PV参数 -->
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="font-semibold text-gray-800 mb-3 flex items-center">
+                        <span class="mr-2">☀️</span>
+                        光伏参数
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">单板功率 (kW)</label>
+                            <input type="number" id="panelPower" step="0.01" min="0.3" max="0.6" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 0.44 kW (440W)</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">季节性调整幅度</label>
+                            <input type="number" id="seasonalFactor" step="0.05" min="0" max="0.5" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 0.2 (±20%)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 优化参数 -->
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="font-semibold text-gray-800 mb-3 flex items-center">
+                        <span class="mr-2">🎯</span>
+                        优化参数
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">二分法收敛阈值 (kWh)</label>
+                            <input type="number" id="binarySearchThreshold" step="0.1" min="0.1" max="2.0" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 0.5 kWh</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">最大迭代次数</label>
+                            <input type="number" id="maxIterations" step="1" min="5" max="20" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 10 次</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. 方案目标配置 -->
+        <div class="config-section bg-white rounded-lg shadow-lg p-6 mb-6 border-t-4 border-green-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">🎯</span>
+                方案优化目标
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- 方案A -->
+                <div class="bg-purple-50 p-4 rounded-lg border-2 border-purple-200">
+                    <h3 class="font-semibold text-purple-800 mb-3 flex items-center">
+                        <span class="mr-2">🏆</span>
+                        方案A - 高端型
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">夜间覆盖率目标 (%)</label>
+                            <input type="number" id="planANightTarget" step="1" min="50" max="100" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 90%</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">自给率目标 (%)</label>
+                            <input type="number" id="planAAutarkyTarget" step="1" min="50" max="100" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 70%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 方案B -->
+                <div class="bg-blue-50 p-4 rounded-lg border-2 border-blue-200">
+                    <h3 class="font-semibold text-blue-800 mb-3 flex items-center">
+                        <span class="mr-2">⚖️</span>
+                        方案B - 平衡型
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">夜间覆盖率目标 (%)</label>
+                            <input type="number" id="planBNightTarget" step="1" min="50" max="100" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 80%</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">自耗率目标 (%)</label>
+                            <input type="number" id="planBSelfConsumptionTarget" step="1" min="30" max="100" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 40%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 方案C -->
+                <div class="bg-green-50 p-4 rounded-lg border-2 border-green-200">
+                    <h3 class="font-semibold text-green-800 mb-3 flex items-center">
+                        <span class="mr-2">💰</span>
+                        方案C - 经济型
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">夜间覆盖率目标 (%)</label>
+                            <input type="number" id="planCNightTarget" step="1" min="30" max="100" 
+                                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                            <p class="text-xs text-gray-500 mt-1">默认: 50%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. 逆变器规格库配置 -->
+        <div class="config-section bg-white rounded-lg shadow-lg p-6 mb-6 border-t-4 border-orange-500">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-xl font-bold text-gray-800 flex items-center">
+                    <span class="text-2xl mr-2">⚡</span>
+                    逆变器规格库
+                </h2>
+                <label class="flex items-center cursor-pointer">
+                    <span class="mr-3 text-sm font-medium text-gray-700">启用规格库</span>
+                    <div class="relative">
+                        <input type="checkbox" id="enableInverterCatalog" class="sr-only" checked>
+                        <div class="block bg-gray-300 w-14 h-8 rounded-full"></div>
+                        <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                    </div>
+                </label>
+            </div>
+
+            <div id="inverterCatalogContent">
+                <p class="text-sm text-gray-600 mb-4">
+                    配置单相和三相逆变器的规格库。关闭后将使用简化的逆变器选型逻辑。
+                </p>
+
+                <!-- 单相逆变器 -->
+                <div class="mb-6">
+                    <h3 class="font-semibold text-gray-800 mb-3 flex items-center">
+                        <span class="mr-2">🔌</span>
+                        单相逆变器 (最大10kW)
+                    </h3>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <textarea id="singlePhaseInverters" rows="6" 
+                                  class="w-full px-3 py-2 border border-gray-300 rounded-md font-mono text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                                  placeholder='格式: ["型号1", 容量1, "型号2", 容量2, ...]'></textarea>
+                        <p class="text-xs text-gray-500 mt-2">
+                            示例: ["Sungrow SH5.0RS", 5.0, "Sungrow SH6.0RS", 6.0, "Sungrow SH8.0RS", 8.0, "Sungrow SH10RT", 10.0]
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 三相逆变器 -->
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-3 flex items-center">
+                        <span class="mr-2">🔌</span>
+                        三相逆变器 (10-30kW)
+                    </h3>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <textarea id="threePhaseInverters" rows="6" 
+                                  class="w-full px-3 py-2 border border-gray-300 rounded-md font-mono text-sm focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                                  placeholder='格式: ["型号1", 容量1, "型号2", 容量2, ...]'></textarea>
+                        <p class="text-xs text-gray-500 mt-2">
+                            示例: ["Sungrow SH10RT", 10.0, "Sungrow SH15T", 15.0, "Sungrow SH20T", 20.0, "Sungrow SH25T", 25.0, "Sungrow SH30T", 30.0]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. 电池规格库配置 -->
+        <div class="config-section bg-white rounded-lg shadow-lg p-6 mb-6 border-t-4 border-indigo-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">🔋</span>
+                电池规格库
+            </h2>
+            
+            <div class="bg-gray-50 p-4 rounded-lg">
+                <label class="block text-sm font-medium text-gray-700 mb-2">标准电池容量 (kWh)</label>
+                <textarea id="batteryCapacities" rows="3" 
+                          class="w-full px-3 py-2 border border-gray-300 rounded-md font-mono text-sm focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                          placeholder='格式: [5, 6.5, 9.6, 10, 13.5, 16, 20]'></textarea>
+                <p class="text-xs text-gray-500 mt-2">
+                    默认: [5, 6.5, 9.6, 10, 13.5, 16, 20] - 优化后会从这些标准值中选择最接近的
+                </p>
+            </div>
+        </div>
+
+        <!-- 操作按钮 -->
+        <div class="flex justify-between items-center bg-white rounded-lg shadow-lg p-6 border-t-4 border-gray-500">
+            <button onclick="resetToDefaults()" 
+                    class="px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors font-medium">
+                🔄 恢复默认值
+            </button>
+            <div class="space-x-4">
+                <button onclick="exportConfig()" 
+                        class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors font-medium">
+                    📥 导出配置
+                </button>
+                <button onclick="saveConfig()" 
+                        class="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors font-medium">
+                    💾 保存配置
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        // 默认配置
+        const DEFAULT_CONFIG = {
+            simulation: {
+                batteryRTE: 0.90,
+                batteryDOD: 0.90,
+                batteryChargeRate: 0.5,
+                batteryDischargeRate: 0.6,
+                exportLimit: 5.0,
+                importLimit: 0,
+                panelPower: 0.44,
+                seasonalFactor: 0.2,
+                binarySearchThreshold: 0.5,
+                maxIterations: 10
+            },
+            planTargets: {
+                planA: { nightCoverage: 90, autarky: 70 },
+                planB: { nightCoverage: 80, selfConsumption: 40 },
+                planC: { nightCoverage: 50 }
+            },
+            inverters: {
+                enabled: false,  // 默认关闭
+                singlePhase: ["Sungrow SH5.0RS", 5.0, "Sungrow SH6.0RS", 6.0, "Sungrow SH8.0RS", 8.0, "Sungrow SH10RT", 10.0],
+                threePhase: ["Sungrow SH10RT", 10.0, "Sungrow SH15T", 15.0, "Sungrow SH20T", 20.0, "Sungrow SH25T", 25.0, "Sungrow SH30T", 30.0]
+            },
+            batteries: {
+                capacities: [5, 6.5, 9.6, 10, 13.5, 16, 20, 30, 40, 50]
+            }
+        };
+
+        // 页面加载时初始化
+        function init() {
+            loadConfig();
+            setupToggle();
+        }
+
+        // 加载配置
+        function loadConfig() {
+            const savedConfig = localStorage.getItem('solarfit_config');
+            const config = savedConfig ? JSON.parse(savedConfig) : DEFAULT_CONFIG;
+
+            // 仿真参数
+            document.getElementById('batteryRTE').value = config.simulation.batteryRTE;
+            document.getElementById('batteryDOD').value = config.simulation.batteryDOD;
+            document.getElementById('batteryChargeRate').value = config.simulation.batteryChargeRate;
+            document.getElementById('batteryDischargeRate').value = config.simulation.batteryDischargeRate;
+            document.getElementById('exportLimit').value = config.simulation.exportLimit;
+            document.getElementById('importLimit').value = config.simulation.importLimit;
+            document.getElementById('panelPower').value = config.simulation.panelPower;
+            document.getElementById('seasonalFactor').value = config.simulation.seasonalFactor;
+            document.getElementById('binarySearchThreshold').value = config.simulation.binarySearchThreshold;
+            document.getElementById('maxIterations').value = config.simulation.maxIterations;
+
+            // 方案目标
+            document.getElementById('planANightTarget').value = config.planTargets.planA.nightCoverage;
+            document.getElementById('planAAutarkyTarget').value = config.planTargets.planA.autarky;
+            document.getElementById('planBNightTarget').value = config.planTargets.planB.nightCoverage;
+            document.getElementById('planBSelfConsumptionTarget').value = config.planTargets.planB.selfConsumption;
+            document.getElementById('planCNightTarget').value = config.planTargets.planC.nightCoverage;
+
+            // 逆变器规格库
+            document.getElementById('enableInverterCatalog').checked = config.inverters.enabled;
+            document.getElementById('singlePhaseInverters').value = JSON.stringify(config.inverters.singlePhase);
+            document.getElementById('threePhaseInverters').value = JSON.stringify(config.inverters.threePhase);
+            updateInverterCatalogVisibility();
+
+            // 电池规格库
+            document.getElementById('batteryCapacities').value = JSON.stringify(config.batteries.capacities);
+        }
+
+        // 保存配置
+        function saveConfig() {
+            try {
+                const config = {
+                    simulation: {
+                        batteryRTE: parseFloat(document.getElementById('batteryRTE').value),
+                        batteryDOD: parseFloat(document.getElementById('batteryDOD').value),
+                        batteryChargeRate: parseFloat(document.getElementById('batteryChargeRate').value),
+                        batteryDischargeRate: parseFloat(document.getElementById('batteryDischargeRate').value),
+                        exportLimit: parseFloat(document.getElementById('exportLimit').value),
+                        importLimit: parseFloat(document.getElementById('importLimit').value),
+                        panelPower: parseFloat(document.getElementById('panelPower').value),
+                        seasonalFactor: parseFloat(document.getElementById('seasonalFactor').value),
+                        binarySearchThreshold: parseFloat(document.getElementById('binarySearchThreshold').value),
+                        maxIterations: parseInt(document.getElementById('maxIterations').value)
+                    },
+                    planTargets: {
+                        planA: {
+                            nightCoverage: parseInt(document.getElementById('planANightTarget').value),
+                            autarky: parseInt(document.getElementById('planAAutarkyTarget').value)
+                        },
+                        planB: {
+                            nightCoverage: parseInt(document.getElementById('planBNightTarget').value),
+                            selfConsumption: parseInt(document.getElementById('planBSelfConsumptionTarget').value)
+                        },
+                        planC: {
+                            nightCoverage: parseInt(document.getElementById('planCNightTarget').value)
+                        }
+                    },
+                    inverters: {
+                        enabled: document.getElementById('enableInverterCatalog').checked,
+                        singlePhase: JSON.parse(document.getElementById('singlePhaseInverters').value),
+                        threePhase: JSON.parse(document.getElementById('threePhaseInverters').value)
+                    },
+                    batteries: {
+                        capacities: JSON.parse(document.getElementById('batteryCapacities').value)
+                    }
+                };
+
+                localStorage.setItem('solarfit_config', JSON.stringify(config));
+                
+                // 显示保存成功提示
+                const notification = document.getElementById('saveNotification');
+                notification.classList.remove('hidden');
+                setTimeout(() => {
+                    notification.classList.add('hidden');
+                }, 3000);
+
+            } catch (error) {
+                alert('配置保存失败: ' + error.message);
+            }
+        }
+
+        // 恢复默认值
+        function resetToDefaults() {
+            if (confirm('确定要恢复所有默认配置吗？')) {
+                localStorage.removeItem('solarfit_config');
+                loadConfig();
+                alert('已恢复默认配置');
+            }
+        }
+
+        // 导出配置
+        function exportConfig() {
+            const savedConfig = localStorage.getItem('solarfit_config');
+            const config = savedConfig ? JSON.parse(savedConfig) : DEFAULT_CONFIG;
+            
+            const dataStr = JSON.stringify(config, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'solarfit_config.json';
+            link.click();
+            
+            URL.revokeObjectURL(url);
+        }
+
+        // 设置开关切换
+        function setupToggle() {
+            const checkbox = document.getElementById('enableInverterCatalog');
+            const toggle = checkbox.parentElement;
+            
+            checkbox.addEventListener('change', function() {
+                updateInverterCatalogVisibility();
+            });
+
+            // 样式更新
+            const updateToggleStyle = () => {
+                const dot = toggle.querySelector('.dot');
+                const bg = toggle.querySelector('.block');
+                if (checkbox.checked) {
+                    dot.style.transform = 'translateX(24px)';
+                    bg.style.backgroundColor = '#10b981';
+                } else {
+                    dot.style.transform = 'translateX(0)';
+                    bg.style.backgroundColor = '#d1d5db';
+                }
+            };
+
+            checkbox.addEventListener('change', updateToggleStyle);
+            updateToggleStyle();
+        }
+
+        // 更新逆变器规格库可见性
+        function updateInverterCatalogVisibility() {
+            const enabled = document.getElementById('enableInverterCatalog').checked;
+            const content = document.getElementById('inverterCatalogContent');
+            content.style.opacity = enabled ? '1' : '0.5';
+            content.style.pointerEvents = enabled ? 'auto' : 'none';
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

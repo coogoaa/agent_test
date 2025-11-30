@@ -1,0 +1,192 @@
+{
+  "roofAnalysis": {
+    "totalMaxPanels": 2,
+    "totalMaxKw": 0.88,
+    "planes": [
+      {
+        "id": "slope 1",
+        "aspect": 359.8,
+        "max": 1,
+        "score": 99.95555555555556,
+        "direction": "北 (N)"
+      },
+      {
+        "id": "slope 2",
+        "aspect": 269.8,
+        "max": 0,
+        "score": 79.95555555555556,
+        "direction": "西 (W)"
+      },
+      {
+        "id": "slope 3",
+        "aspect": 179.8,
+        "max": 1,
+        "score": 40,
+        "direction": "南 (S)"
+      }
+    ]
+  },
+  "state": "TAS",
+  "phaseType": "single",
+  "proposals": {
+    "A": {
+      "name": "方案 A: 高端型",
+      "strategy": "物理极限满铺",
+      "panels": 2,
+      "pvKw": 0.88,
+      "inverterKw": 5,
+      "ratio": 17.6,
+      "battery": {
+        "calculated": 13.9,
+        "standard": 16,
+        "methodDesc": "max(日用电×50%=13.9, 傍晚峰×2.0=13.1, PV×1.5=1.3)",
+        "dailyConsumption": 27.8,
+        "eveningPeak": 6.55
+      },
+      "cost": {
+        "pvCost": 475.2,
+        "inverterCost": 1400,
+        "batteryCost": 13840,
+        "preTaxTotal": 15715.2,
+        "taxTotal": 17286.72
+      },
+      "subsidy": {
+        "deemingPeriod": 6,
+        "zoneRating": 1.382,
+        "pvStc": 7,
+        "batteryStc": 133,
+        "totalStc": 140,
+        "subsidyAmount": 5460,
+        "usableCapacity": 14.4
+      },
+      "finalPrice": 11826.72,
+      "layout": [
+        {
+          "id": "slope 1",
+          "aspect": 359.8,
+          "direction": "北 (N)",
+          "score": 99.95555555555556,
+          "used": 1,
+          "max": 1
+        },
+        {
+          "id": "slope 3",
+          "aspect": 179.8,
+          "direction": "南 (S)",
+          "score": 40,
+          "used": 1,
+          "max": 1
+        }
+      ],
+      "adjustment": {
+        "adjusted": false
+      }
+    },
+    "B": {
+      "name": "方案 B: 平衡型",
+      "strategy": "目标10.0kW",
+      "panels": 2,
+      "pvKw": 0.88,
+      "inverterKw": 5,
+      "ratio": 17.6,
+      "battery": {
+        "calculated": 9.83,
+        "standard": 10,
+        "methodDesc": "max(日用电×30%=8.3, 傍晚峰×1.5=9.8, PV×1.0=0.9)",
+        "dailyConsumption": 27.8,
+        "eveningPeak": 6.55
+      },
+      "cost": {
+        "pvCost": 475.2,
+        "inverterCost": 1400,
+        "batteryCost": 8650,
+        "preTaxTotal": 10525.2,
+        "taxTotal": 11577.72
+      },
+      "subsidy": {
+        "deemingPeriod": 6,
+        "zoneRating": 1.382,
+        "pvStc": 7,
+        "batteryStc": 83,
+        "totalStc": 90,
+        "subsidyAmount": 3510,
+        "usableCapacity": 9.0
+      },
+      "finalPrice": 8067.72,
+      "layout": [
+        {
+          "id": "slope 1",
+          "aspect": 359.8,
+          "direction": "北 (N)",
+          "score": 99.95555555555556,
+          "used": 1,
+          "max": 1
+        },
+        {
+          "id": "slope 3",
+          "aspect": 179.8,
+          "direction": "南 (S)",
+          "score": 40,
+          "used": 1,
+          "max": 1
+        }
+      ],
+      "adjustment": {
+        "adjusted": false
+      }
+    },
+    "C": {
+      "name": "方案 C: 经济型",
+      "strategy": "目标6.6kW",
+      "panels": 2,
+      "pvKw": 0.88,
+      "inverterKw": 5,
+      "ratio": 17.6,
+      "battery": {
+        "calculated": 6.55,
+        "standard": 9.6,
+        "methodDesc": "max(日用电×20%=5.6, 傍晚峰×1.0=6.6, PV×0.8=0.7)",
+        "dailyConsumption": 27.8,
+        "eveningPeak": 6.55
+      },
+      "cost": {
+        "pvCost": 475.2,
+        "inverterCost": 1400,
+        "batteryCost": 8304.0,
+        "preTaxTotal": 10179.2,
+        "taxTotal": 11197.12
+      },
+      "subsidy": {
+        "deemingPeriod": 6,
+        "zoneRating": 1.382,
+        "pvStc": 7,
+        "batteryStc": 80,
+        "totalStc": 87,
+        "subsidyAmount": 3393,
+        "usableCapacity": 8.64
+      },
+      "finalPrice": 7804.12,
+      "layout": [
+        {
+          "id": "slope 1",
+          "aspect": 359.8,
+          "direction": "北 (N)",
+          "score": 99.95555555555556,
+          "used": 1,
+          "max": 1
+        },
+        {
+          "id": "slope 3",
+          "aspect": 179.8,
+          "direction": "南 (S)",
+          "score": 40,
+          "used": 1,
+          "max": 1
+        }
+      ],
+      "adjustment": {
+        "adjusted": false
+      }
+    }
+  }
+}

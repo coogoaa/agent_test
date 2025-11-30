@@ -1,0 +1,169 @@
+{
+  "roofAnalysis": {
+    "totalMaxPanels": 46,
+    "totalMaxKw": 20.24,
+    "planes": [
+      {
+        "id": "slope 1",
+        "aspect": 359.8,
+        "max": 30,
+        "score": 99.95555555555556,
+        "direction": "北 (N)"
+      },
+      {
+        "id": "slope 2",
+        "aspect": 269.8,
+        "max": 16,
+        "score": 79.95555555555556,
+        "direction": "西 (W)"
+      }
+    ]
+  },
+  "state": "VIC",
+  "phaseType": "three",
+  "proposals": {
+    "A": {
+      "name": "方案 A: 高端型",
+      "strategy": "物理极限满铺",
+      "panels": 46,
+      "pvKw": 20.24,
+      "inverterKw": 15,
+      "ratio": 134.9,
+      "battery": {
+        "calculated": 30.36,
+        "standard": 30.36,
+        "methodDesc": "max(日用电×50%=9.3, 傍晚峰×2.0=8.8, PV×1.5=30.4)",
+        "dailyConsumption": 18.57,
+        "eveningPeak": 4.38
+      },
+      "cost": {
+        "pvCost": 10929.6,
+        "inverterCost": 4200,
+        "batteryCost": 26261.4,
+        "preTaxTotal": 41391.0,
+        "taxTotal": 45530.1
+      },
+      "subsidy": {
+        "deemingPeriod": 6,
+        "zoneRating": 1.382,
+        "pvStc": 167,
+        "batteryStc": 254,
+        "totalStc": 421,
+        "subsidyAmount": 16419,
+        "usableCapacity": 27.32
+      },
+      "finalPrice": 29111.1,
+      "layout": [
+        {
+          "id": "slope 1",
+          "aspect": 359.8,
+          "direction": "北 (N)",
+          "score": 99.95555555555556,
+          "used": 30,
+          "max": 30
+        },
+        {
+          "id": "slope 2",
+          "aspect": 269.8,
+          "direction": "西 (W)",
+          "score": 79.95555555555556,
+          "used": 16,
+          "max": 16
+        }
+      ],
+      "adjustment": {
+        "adjusted": false
+      }
+    },
+    "B": {
+      "name": "方案 B: 平衡型",
+      "strategy": "目标13.2kW",
+      "panels": 30,
+      "pvKw": 13.2,
+      "inverterKw": 8,
+      "ratio": 165.0,
+      "battery": {
+        "calculated": 13.2,
+        "standard": 13.5,
+        "methodDesc": "max(日用电×30%=5.6, 傍晚峰×1.5=6.6, PV×1.0=13.2)",
+        "dailyConsumption": 18.57,
+        "eveningPeak": 4.38
+      },
+      "cost": {
+        "pvCost": 7128.0,
+        "inverterCost": 2240,
+        "batteryCost": 11677.5,
+        "preTaxTotal": 21045.5,
+        "taxTotal": 23150.05
+      },
+      "subsidy": {
+        "deemingPeriod": 6,
+        "zoneRating": 1.382,
+        "pvStc": 109,
+        "batteryStc": 112,
+        "totalStc": 221,
+        "subsidyAmount": 8619,
+        "usableCapacity": 12.15
+      },
+      "finalPrice": 14531.05,
+      "layout": [
+        {
+          "id": "slope 1",
+          "aspect": 359.8,
+          "direction": "北 (N)",
+          "score": 99.95555555555556,
+          "used": 30,
+          "max": 30
+        }
+      ],
+      "adjustment": {
+        "adjusted": false
+      }
+    },
+    "C": {
+      "name": "方案 C: 经济型",
+      "strategy": "目标6.6kW",
+      "panels": 15,
+      "pvKw": 6.6,
+      "inverterKw": 5,
+      "ratio": 132.0,
+      "battery": {
+        "calculated": 5.28,
+        "standard": 6.5,
+        "methodDesc": "max(日用电×20%=3.7, 傍晚峰×1.0=4.4, PV×0.8=5.3)",
+        "dailyConsumption": 18.57,
+        "eveningPeak": 4.38
+      },
+      "cost": {
+        "pvCost": 3564.0,
+        "inverterCost": 1400,
+        "batteryCost": 5622.5,
+        "preTaxTotal": 10586.5,
+        "taxTotal": 11645.15
+      },
+      "subsidy": {
+        "deemingPeriod": 6,
+        "zoneRating": 1.382,
+        "pvStc": 54,
+        "batteryStc": 54,
+        "totalStc": 108,
+        "subsidyAmount": 4212,
+        "usableCapacity": 5.85
+      },
+      "finalPrice": 7433.15,
+      "layout": [
+        {
+          "id": "slope 1",
+          "aspect": 359.8,
+          "direction": "北 (N)",
+          "score": 99.95555555555556,
+          "used": 15,
+          "max": 30
+        }
+      ],
+      "adjustment": {
+        "adjusted": false
+      }
+    }
+  }
+}

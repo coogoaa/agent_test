@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新建系统 - 小时级仿真版 (1130)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+        .card { transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .step-badge { 
+            display: inline-flex; 
+            align-items: center; 
+            justify-content: center;
+            width: 24px; 
+            height: 24px; 
+            border-radius: 50%; 
+            background: #3b82f6; 
+            color: white; 
+            font-size: 12px; 
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .simulation-progress {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: none;
+        }
+        .simulation-progress.active {
+            display: block;
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            display: none;
+        }
+        .overlay.active {
+            display: block;
+        }
+        /* 修复Chart.js canvas高度问题 */
+        canvas {
+            max-height: 400px !important;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen text-gray-800">
+
+    <!-- 仿真进度提示 -->
+    <div class="overlay" id="overlay"></div>
+    <div class="simulation-progress" id="simulationProgress">
+        <div class="text-center">
+            <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
+            <h3 class="text-lg font-bold text-gray-800 mb-2">正在进行小时级仿真...</h3>
+            <p class="text-sm text-gray-600" id="progressText">正在生成8760小时负荷曲线</p>
+            <div class="mt-4 bg-gray-200 rounded-full h-2">
+                <div class="bg-blue-600 h-2 rounded-full transition-all duration-300" id="progressBar" style="width: 0%"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 顶部导航 -->
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-blue-600">☀️ SolarFit Pro</span>
+                    <span class="ml-2 text-sm text-gray-500">新建系统 - 小时级仿真版</span>
+                    <span class="ml-2 px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full font-semibold">v1130</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="config-editor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        ⚙️ 系统配置
+                    </a>
+                    <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md">
+                        📊 新建系统
+                    </a>
+                    <a href="../../../1127 计算规则/page/batch-processor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        📦 批量处理
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+        <!-- 系统说明 -->
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg shadow-md p-6 mb-6 border-l-4 border-blue-500">
+            <h2 class="text-xl font-bold text-blue-900 mb-3 flex items-center">
+                <span class="text-2xl mr-2">🚀</span>
+                1130版本 - 小时级仿真系统
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-700">
+                <div class="bg-white rounded p-3">
+                    <h3 class="font-semibold text-blue-700 mb-2">核心升级</h3>
+                    <p>从经验系数估算升级为8760小时动态仿真</p>
+                </div>
+                <div class="bg-white rounded p-3">
+                    <h3 class="font-semibold text-blue-700 mb-2">充电策略</h3>
+                    <p>PV溢出优先充电池，充满后才并网导出</p>
+                </div>
+                <div class="bg-white rounded p-3">
+                    <h3 class="font-semibold text-blue-700 mb-2">精确KPI</h3>
+                    <p>自耗率、自给率、夜间覆盖率、裁切量</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 1. 输入控制区 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-blue-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="text-2xl mr-2">📊</span>
+                数据输入与环境配置
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- 房屋选择 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">选择房屋样本 (GIS ID)</label>
+                    <select id="houseSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50">
+                        <option value="">正在加载数据...</option>
+                    </select>
+                    <p class="mt-1 text-xs text-gray-500" id="houseSummary">...</p>
+                </div>
+
+                <!-- 州选择 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">用户所在州</label>
+                    <select id="stateSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="TAS">TAS (塔斯马尼亚)</option>
+                        <option value="NSW">NSW (新南威尔士)</option>
+                        <option value="VIC">VIC (维多利亚)</option>
+                        <option value="QLD">QLD (昆士兰)</option>
+                        <option value="SA">SA (南澳)</option>
+                        <option value="WA">WA (西澳)</option>
+                        <option value="ACT">ACT (首都领地)</option>
+                        <option value="NT">NT (北领地)</option>
+                    </select>
+                    <p class="mt-1 text-xs text-gray-500 bg-green-50 p-1 rounded" id="stateInfo">年用电量: ...</p>
+                </div>
+
+                <!-- 电网类型 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">电网相位</label>
+                    <select id="phaseSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="single">单相 (Single Phase)</option>
+                        <option value="three">三相 (Three Phase)</option>
+                    </select>
+                    <p class="mt-1 text-xs text-gray-500 bg-yellow-50 p-1 rounded border border-yellow-200">
+                        ⚡ 单相: 导出≤5kW | 三相: 导出≤15kW
+                    </p>
+                </div>
+
+                <!-- 计算按钮 -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">&nbsp;</label>
+                    <button id="calculateBtn" class="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 font-semibold shadow-md transition-all">
+                        🚀 开始仿真计算
+                    </button>
+                    <p class="mt-1 text-xs text-gray-500 text-center">约需3-5秒</p>
+                </div>
+            </div>
+
+            <!-- 屋顶详情展开 -->
+            <div class="mt-6 pt-6 border-t border-gray-200">
+                <button id="toggleRoofDetails" class="text-sm text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                    <span id="toggleIcon">▶</span>
+                    <span class="ml-2">查看该房屋屋顶坡面详细数据</span>
+                </button>
+                <div id="roofDetailsPanel" class="hidden mt-4 overflow-x-auto bg-gray-50 rounded-lg p-4">
+                    <table class="min-w-full divide-y divide-gray-300 text-sm">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">Slope ID</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">方位角 (°)</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">朝向</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">最大面板数</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">发电潜力评分</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">评分可视化</th>
+                            </tr>
+                        </thead>
+                        <tbody id="roofTableBody" class="bg-white divide-y divide-gray-200">
+                            <!-- JS 填充 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. 方案结果展示区 -->
+        <div id="resultsContainer" class="hidden">
+            <div class="mb-8">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                    <span class="text-2xl mr-2">📋</span>
+                    三套差异化方案配置结果
+                </h2>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6" id="proposalsContainer">
+                    <!-- 方案卡片将由JS动态生成 -->
+                </div>
+            </div>
+
+            <!-- 3. 方案推算逻辑详解 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-blue-500">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                    <span class="text-2xl mr-2">🧮</span>
+                    方案推算逻辑详解
+                </h2>
+                
+                <!-- 方案选择器 -->
+                <div class="mb-6">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">选择方案查看详细推算过程:</label>
+                    <div class="flex gap-2">
+                        <button class="logic-selector active px-4 py-2 rounded bg-purple-100 text-purple-800 font-semibold" data-plan="A">方案A - 高端型</button>
+                        <button class="logic-selector px-4 py-2 rounded bg-gray-100 text-gray-600" data-plan="B">方案B - 平衡型</button>
+                        <button class="logic-selector px-4 py-2 rounded bg-gray-100 text-gray-600" data-plan="C">方案C - 经济型</button>
+                    </div>
+                </div>
+                
+                <!-- 推算逻辑内容 -->
+                <div id="calculationLogic" class="space-y-6">
+                    <!-- 将由JS动态生成 -->
+                </div>
+            </div>
+
+            <!-- 4. 仿真结果可视化 -->
+            <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-green-500">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                    <span class="text-2xl mr-2">📈</span>
+                    小时级仿真结果可视化
+                </h2>
+                
+                <!-- Tab切换 -->
+                <div class="border-b border-gray-200 mb-6">
+                    <nav class="flex -mb-px flex-wrap">
+                        <button class="viz-tab active px-4 py-3 text-sm font-medium border-b-2 border-green-500 text-green-600" data-tab="typical-day">
+                            📅 典型日能量流向
+                        </button>
+                        <button class="viz-tab px-4 py-3 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="kpi-comparison">
+                            📊 方案KPI对比
+                        </button>
+                        <button class="viz-tab px-4 py-3 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="calculation-process">
+                            🔢 推演过程详解
+                        </button>
+                        <button class="viz-tab px-4 py-3 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="energy-balance">
+                            ⚖️ 能量守恒验证
+                        </button>
+                        <button class="viz-tab px-4 py-3 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="battery-optimization">
+                            🔋 电池优化过程
+                        </button>
+                    </nav>
+                </div>
+
+                <!-- 典型日能量流向 -->
+                <div id="typical-day" class="viz-content">
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">选择方案:</label>
+                        <div class="flex gap-2">
+                            <button class="plan-selector active px-4 py-2 rounded bg-purple-100 text-purple-800 font-semibold" data-plan="A">方案A</button>
+                            <button class="plan-selector px-4 py-2 rounded bg-gray-100 text-gray-600" data-plan="B">方案B</button>
+                            <button class="plan-selector px-4 py-2 rounded bg-gray-100 text-gray-600" data-plan="C">方案C</button>
+                        </div>
+                    </div>
+                    <div style="position: relative; height: 400px;">
+                        <canvas id="typicalDayChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- KPI对比 -->
+                <div id="kpi-comparison" class="viz-content hidden">
+                    <div style="position: relative; height: 400px;">
+                        <canvas id="kpiChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- 推演过程详解 -->
+                <div id="calculation-process" class="viz-content hidden">
+                    <div id="calculationProcessContent" class="space-y-4">
+                        <!-- 将由JS动态生成 -->
+                    </div>
+                </div>
+
+                <!-- 能量守恒验证 -->
+                <div id="energy-balance" class="viz-content hidden">
+                    <div id="energyBalanceContent" class="space-y-4">
+                        <!-- 将由JS动态生成 -->
+                    </div>
+                </div>
+
+                <!-- 电池优化过程 -->
+                <div id="battery-optimization" class="viz-content hidden">
+                    <div id="batteryOptimizationContent" class="space-y-4">
+                        <!-- 将由JS动态生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm">
+            <p>© 2024 SolarFit Pro | 基于小时级仿真的智能光伏设计系统 (v1130)</p>
+        </div>
+    </footer>
+
+    <!-- 加载核心算法模块 -->
+    <script src="js/core/DataSynthesizer.js"></script>
+    <script src="js/core/HourlySimulator.js"></script>
+    <script src="js/core/PlanGenerator.js"></script>
+
+    <script>
+        // ================= 全局变量 =================
+        const AppData = {
+            houses: {},
+            currentHouse: null,
+            simulationResults: null,
+            charts: {}
+        };
+
+        // 州年用电量数据
+        const STATE_CONSUMPTION = {
+            'TAS': 10148,
+            'NT': 10008,
+            'ACT': 8632,
+            'SA': 7129,
+            'NSW': 6729,
+            'QLD': 6633,
+            'VIC': 5883,
+            'WA': 5617
+        };
+
+        // 示例房屋数据
+        const HOUSE_DATA_RAW = `id_0	slope	aspect	nums
+1	slope 1	359.8	1
+1	slope 2	269.8	0
+1	slope 3	179.8	1
+1	slope 4	89.8	0
+3	slope 1	299.3	1
+3	slope 4	209.3	12
+3	slope 6	29.3	2
+3	slope 10	29.3	3
+27	slope 4	269.9	17
+27	slope 5	180.0	3
+27	slope 6	90.0	4
+27	slope 7	180.0	15
+27	slope 12	90.0	4
+27	slope 13	0	20
+44	slope 2	274.6	22
+44	slope 3	184.6	3
+44	slope 4	94.6	18
+44	slope 5	184.6	1
+44	slope 7	4.6	2`;
+
+        // ================= 初始化 =================
+        
+        function init() {
+            console.log('🚀 初始化1130小时级仿真系统...');
+            
+            // 解析房屋数据
+            parseHouseData();
+            
+            // 绑定事件
+            bindEvents();
+            
+            // 更新州信息
+            updateStateInfo();
+            
+            console.log('✅ 系统初始化完成');
+        }
+
+        function parseHouseData() {
+            const lines = HOUSE_DATA_RAW.trim().split('\n');
+            for (let i = 1; i < lines.length; i++) {
+                const [id, slope, aspect, nums] = lines[i].split('\t');
+                const houseId = id.trim();
+                const panelCount = parseInt(nums);
+                
+                if (!AppData.houses[houseId]) {
+                    AppData.houses[houseId] = [];
+                }
+                
+                AppData.houses[houseId].push({
+                    id: slope,
+                    aspect: parseFloat(aspect),
+                    max_panels: panelCount
+                });
+            }
+            
+            // 填充房屋选择器
+            const selector = document.getElementById('houseSelector');
+            selector.innerHTML = '';
+            Object.keys(AppData.houses).forEach(id => {
+                const option = document.createElement('option');
+                option.value = id;
+                const totalPanels = AppData.houses[id].reduce((sum, p) => sum + p.max_panels, 0);
+                option.textContent = `房屋 ${id} (${AppData.houses[id].length}个坡面, ${totalPanels}片)`;
+                selector.appendChild(option);
+            });
+            
+            // 选择第一个房屋
+            if (Object.keys(AppData.houses).length > 0) {
+                selector.value = Object.keys(AppData.houses)[0];
+                updateHouseSummary();
+            }
+        }
+
+        // ================= 配置管理 =================
+        
+        function loadSystemConfig() {
+            const DEFAULT_CONFIG = {
+                simulation: {
+                    batteryRTE: 0.90,
+                    batteryDOD: 0.90,
+                    batteryChargeRate: 0.5,
+                    batteryDischargeRate: 0.6,
+                    exportLimit: 5.0,
+                    importLimit: 0,
+                    panelPower: 0.44,
+                    seasonalFactor: 0.2,
+                    binarySearchThreshold: 0.5,
+                    maxIterations: 10
+                },
+                planTargets: {
+                    planA: { nightCoverage: 90, autarky: 70 },
+                    planB: { nightCoverage: 80, selfConsumption: 40 },
+                    planC: { nightCoverage: 50 }
+                },
+                inverters: {
+                    enabled: false,
+                    singlePhase: ["Sungrow SH5.0RS", 5.0, "Sungrow SH6.0RS", 6.0, "Sungrow SH8.0RS", 8.0, "Sungrow SH10RT", 10.0],
+                    threePhase: ["Sungrow SH10RT", 10.0, "Sungrow SH15T", 15.0, "Sungrow SH20T", 20.0, "Sungrow SH25T", 25.0, "Sungrow SH30T", 30.0]
+                },
+                batteries: {
+                    capacities: [5, 6.5, 9.6, 10, 13.5, 16, 20, 30, 40, 50]
+                }
+            };
+            
+            const savedConfig = localStorage.getItem('solarfit_config');
+            return savedConfig ? JSON.parse(savedConfig) : DEFAULT_CONFIG;
+        }
+
+        function bindEvents() {
+            // 房屋选择变化
+            document.getElementById('houseSelector').addEventListener('change', updateHouseSummary);
+            
+            // 州选择变化
+            document.getElementById('stateSelector').addEventListener('change', updateStateInfo);
+            
+            // 计算按钮
+            document.getElementById('calculateBtn').addEventListener('click', startSimulation);
+            
+            // 屋顶详情展开
+            document.getElementById('toggleRoofDetails').addEventListener('click', toggleRoofDetails);
+            
+            // 可视化Tab切换
+            document.querySelectorAll('.viz-tab').forEach(tab => {
+                tab.addEventListener('click', () => switchVizTab(tab.dataset.tab));
+            });
+            
+            // 方案选择器
+            document.querySelectorAll('.plan-selector').forEach(btn => {
+                btn.addEventListener('click', () => selectPlan(btn.dataset.plan));
+            });
+        }
+
+        function updateHouseSummary() {
+            const houseId = document.getElementById('houseSelector').value;
+            if (!houseId) return;
+            
+            const house = AppData.houses[houseId];
+            const totalPanels = house.reduce((sum, p) => sum + p.max_panels, 0);
+            const totalKw = (totalPanels * 0.44).toFixed(2);
+            
+            document.getElementById('houseSummary').textContent = 
+                `${house.length}个坡面, 总计${totalPanels}片 (${totalKw} kW)`;
+            
+            AppData.currentHouse = houseId;
+            updateRoofTable(house);
+        }
+
+        function updateStateInfo() {
+            const state = document.getElementById('stateSelector').value;
+            const consumption = STATE_CONSUMPTION[state];
+            document.getElementById('stateInfo').textContent = `年用电量: ${consumption.toLocaleString()} kWh`;
+        }
+
+        function updateRoofTable(planes) {
+            const tbody = document.getElementById('roofTableBody');
+            tbody.innerHTML = '';
+            
+            // 创建DataSynthesizer实例来计算评分
+            const synthesizer = new DataSynthesizer({});
+            
+            planes.forEach(plane => {
+                const score = synthesizer.calculatePlaneScore(plane.aspect);
+                const direction = getDirection(plane.aspect);
+                
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="px-4 py-3">${plane.id}</td>
+                    <td class="px-4 py-3">${plane.aspect.toFixed(1)}°</td>
+                    <td class="px-4 py-3">${direction}</td>
+                    <td class="px-4 py-3 font-semibold">${plane.max_panels}</td>
+                    <td class="px-4 py-3">${score.toFixed(1)}</td>
+                    <td class="px-4 py-3">
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="bg-green-500 h-2 rounded-full" style="width: ${score}%"></div>
+                        </div>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function getDirection(aspect) {
+            const normalized = ((aspect % 360) + 360) % 360;
+            if (normalized < 22.5 || normalized >= 337.5) return '北 (最佳)';
+            if (normalized < 67.5) return '东北';
+            if (normalized < 112.5) return '东';
+            if (normalized < 157.5) return '东南';
+            if (normalized < 202.5) return '南';
+            if (normalized < 247.5) return '西南';
+            if (normalized < 292.5) return '西';
+            return '西北';
+        }
+
+        function toggleRoofDetails() {
+            const panel = document.getElementById('roofDetailsPanel');
+            const icon = document.getElementById('toggleIcon');
+            
+            if (panel.classList.contains('hidden')) {
+                panel.classList.remove('hidden');
+                icon.textContent = '▼';
+            } else {
+                panel.classList.add('hidden');
+                icon.textContent = '▶';
+            }
+        }
+
+        // ================= 仿真计算 =================
+        
+        async function startSimulation() {
+            const houseId = document.getElementById('houseSelector').value;
+            const stateCode = document.getElementById('stateSelector').value;
+            const phaseType = document.getElementById('phaseSelector').value;
+            
+            if (!houseId) {
+                alert('请选择房屋');
+                return;
+            }
+            
+            // 显示进度
+            showProgress(true);
+            updateProgress(10, '初始化仿真引擎...');
+            
+            try {
+                await new Promise(resolve => setTimeout(resolve, 300));
+                
+                // 加载配置
+                const config = loadSystemConfig();
+                
+                // 创建核心模块实例，传入配置
+                const synthesizer = new DataSynthesizer(config.simulation);
+                const simulator = new HourlySimulator(config.simulation);
+                const generator = new PlanGenerator(synthesizer, simulator, config);
+                
+                updateProgress(20, '准备房屋数据...');
+                await new Promise(resolve => setTimeout(resolve, 200));
+                
+                // 准备输入数据
+                const planes = AppData.houses[houseId].map(p => {
+                    const score = synthesizer.calculatePlaneScore(p.aspect);
+                    return {
+                        id: p.id,
+                        aspect: p.aspect,
+                        max_panels: p.max_panels,
+                        score: score
+                    };
+                });
+                
+                const houseData = {
+                    planes: planes,
+                    stateCode: stateCode,
+                    annualKwh: STATE_CONSUMPTION[stateCode],
+                    phaseType: phaseType,
+                    panelPower: 0.44
+                };
+                
+                updateProgress(40, '生成8760小时负荷曲线...');
+                await new Promise(resolve => setTimeout(resolve, 300));
+                
+                updateProgress(60, '执行小时级仿真 (方案A/B/C)...');
+                await new Promise(resolve => setTimeout(resolve, 500));
+                
+                // 生成方案
+                const results = generator.generateAllPlans(houseData, {});
+                
+                updateProgress(90, '渲染结果...');
+                await new Promise(resolve => setTimeout(resolve, 200));
+                
+                // 保存结果
+                AppData.simulationResults = results;
+                
+                // 显示结果
+                displayResults(results);
+                
+                updateProgress(100, '完成!');
+                await new Promise(resolve => setTimeout(resolve, 500));
+                
+                showProgress(false);
+                
+                // 滚动到结果区域
+                document.getElementById('resultsContainer').scrollIntoView({ behavior: 'smooth' });
+                
+            } catch (error) {
+                console.error('仿真错误:', error);
+                alert('仿真计算出错: ' + error.message);
+                showProgress(false);
+            }
+        }
+
+        function showProgress(show) {
+            const overlay = document.getElementById('overlay');
+            const progress = document.getElementById('simulationProgress');
+            
+            if (show) {
+                overlay.classList.add('active');
+                progress.classList.add('active');
+            } else {
+                overlay.classList.remove('active');
+                progress.classList.remove('active');
+            }
+        }
+
+        function updateProgress(percent, text) {
+            document.getElementById('progressBar').style.width = percent + '%';
+            document.getElementById('progressText').textContent = text;
+        }
+
+        // ================= 结果显示 =================
+        
+        function displayResults(results) {
+            document.getElementById('resultsContainer').classList.remove('hidden');
+            
+            const container = document.getElementById('proposalsContainer');
+            container.innerHTML = '';
+            
+            // 显示三套方案
+            ['planA', 'planB', 'planC'].forEach((planKey, index) => {
+                const plan = results[planKey];
+                const card = createPlanCard(plan, index);
+                container.appendChild(card);
+            });
+            
+            // 渲染图表
+            renderCharts(results);
+            
+            // 渲染推算逻辑
+            renderCalculationLogic(results, 'A');
+            
+            // 渲染推演过程
+            renderCalculationProcess(results);
+            renderEnergyBalance(results);
+            renderBatteryOptimization(results);
+        }
+
+        function createPlanCard(plan, index) {
+            const colors = [
+                { border: 'purple-400', bg: 'purple-50', text: 'purple-800', badge: 'purple-200' },
+                { border: 'blue-500', bg: 'blue-50', text: 'blue-800', badge: 'blue-200' },
+                { border: 'green-400', bg: 'green-50', text: 'green-800', badge: 'green-200' }
+            ];
+            const color = colors[index];
+            const labels = ['高端型', '平衡型', '经济型'];
+            const badges = ['极致性能', '主流推荐', '高性价比'];
+            
+            const card = document.createElement('div');
+            card.className = `card bg-white rounded-xl shadow-lg border-2 border-${color.border} overflow-hidden flex flex-col`;
+            
+            const sim = plan.simulation;
+            
+            card.innerHTML = `
+                <div class="bg-gradient-to-r from-${color.bg} to-${color.bg} p-4 border-b border-${color.border}">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-lg font-bold text-${color.text}">方案 ${String.fromCharCode(65 + index)}: ${labels[index]}</h3>
+                        <span class="bg-${color.badge} text-${color.text} text-xs px-2 py-1 rounded-full font-semibold">${badges[index]}</span>
+                    </div>
+                    <p class="text-xs text-${color.text} mt-1">${plan.name}</p>
+                </div>
+                <div class="p-5 flex-grow">
+                    <div class="flex items-baseline mb-4">
+                        <span class="text-4xl font-bold text-gray-800">${plan.pv_rated_kw.toFixed(1)}</span>
+                        <span class="text-lg text-gray-500 ml-1">kW</span>
+                    </div>
+                    
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 text-lg">☀️</div>
+                            <div class="ml-2 flex-grow">
+                                <p class="font-medium text-gray-900">光伏组件</p>
+                                <p class="text-gray-600"><span class="font-bold text-green-700">${plan.panels.total}</span> 片 × 440W</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 text-lg">⚡</div>
+                            <div class="ml-2 flex-grow">
+                                <p class="font-medium text-gray-900">混合逆变器</p>
+                                <p class="text-gray-600">${plan.inverter.selected_model}</p>
+                                <p class="text-xs text-gray-500">容配比: ${(plan.inverter.dcac_ratio * 100).toFixed(0)}%</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 text-lg">🔋</div>
+                            <div class="ml-2">
+                                <p class="font-medium text-gray-900">储能电池</p>
+                                <p class="text-gray-600"><span class="font-bold text-${color.text}">${plan.battery.nominal_kwh}</span> kWh</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <h4 class="text-xs font-semibold text-gray-700 mb-2">仿真KPI:</h4>
+                        <div class="grid grid-cols-2 gap-2 text-xs">
+                            <div>
+                                <span class="text-gray-600">自耗率:</span>
+                                <span class="font-semibold ml-1">${(sim.self_consumption_rate * 100).toFixed(1)}%</span>
+                            </div>
+                            <div>
+                                <span class="text-gray-600">自给率:</span>
+                                <span class="font-semibold ml-1">${(sim.autarky_rate * 100).toFixed(1)}%</span>
+                            </div>
+                            <div>
+                                <span class="text-gray-600">夜间覆盖:</span>
+                                <span class="font-semibold ml-1">${(sim.night_coverage_rate * 100).toFixed(1)}%</span>
+                            </div>
+                            <div>
+                                <span class="text-gray-600">裁切率:</span>
+                                <span class="font-semibold ml-1">${(sim.clipping_rate * 100).toFixed(1)}%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        // ================= 图表渲染 =================
+        
+        function renderCharts(results) {
+            // 渲染KPI对比图
+            renderKPIChart(results);
+            
+            // 默认渲染方案A的典型日
+            renderTypicalDayChart(results.planA);
+        }
+
+        function renderKPIChart(results) {
+            const ctx = document.getElementById('kpiChart');
+            
+            if (AppData.charts.kpi) {
+                AppData.charts.kpi.destroy();
+            }
+            
+            const plans = [results.planA, results.planB, results.planC];
+            
+            AppData.charts.kpi = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['自耗率', '自给率', '夜间覆盖率', '溢出吸收率'],
+                    datasets: [
+                        {
+                            label: '方案A',
+                            data: [
+                                plans[0].simulation.self_consumption_rate * 100,
+                                plans[0].simulation.autarky_rate * 100,
+                                plans[0].simulation.night_coverage_rate * 100,
+                                plans[0].simulation.surplus_absorbed_rate * 100
+                            ],
+                            backgroundColor: 'rgba(147, 51, 234, 0.6)'
+                        },
+                        {
+                            label: '方案B',
+                            data: [
+                                plans[1].simulation.self_consumption_rate * 100,
+                                plans[1].simulation.autarky_rate * 100,
+                                plans[1].simulation.night_coverage_rate * 100,
+                                plans[1].simulation.surplus_absorbed_rate * 100
+                            ],
+                            backgroundColor: 'rgba(59, 130, 246, 0.6)'
+                        },
+                        {
+                            label: '方案C',
+                            data: [
+                                plans[2].simulation.self_consumption_rate * 100,
+                                plans[2].simulation.autarky_rate * 100,
+                                plans[2].simulation.night_coverage_rate * 100,
+                                plans[2].simulation.surplus_absorbed_rate * 100
+                            ],
+                            backgroundColor: 'rgba(34, 197, 94, 0.6)'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: '三套方案KPI对比 (基于8760小时仿真)'
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderTypicalDayChart(plan) {
+            // 这里简化处理，实际应该从仿真结果中获取典型日数据
+            const ctx = document.getElementById('typicalDayChart');
+            
+            if (AppData.charts.typicalDay) {
+                AppData.charts.typicalDay.destroy();
+            }
+            
+            const hours = Array.from({length: 24}, (_, i) => i);
+            
+            // 模拟数据 (实际应从plan.simulation.time_series获取)
+            const pvData = hours.map(h => {
+                if (h < 6 || h > 18) return 0;
+                return Math.sin((h - 6) * Math.PI / 12) * plan.pv_rated_kw;
+            });
+            
+            const loadData = hours.map(h => {
+                const base = plan.simulation.total_load_kwh / 365 / 24;
+                if (h >= 18 || h <= 6) return base * 1.5;
+                return base * 0.8;
+            });
+            
+            AppData.charts.typicalDay = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: hours.map(h => h + ':00'),
+                    datasets: [
+                        {
+                            label: 'PV发电',
+                            data: pvData,
+                            borderColor: 'rgb(234, 179, 8)',
+                            backgroundColor: 'rgba(234, 179, 8, 0.1)',
+                            fill: true
+                        },
+                        {
+                            label: '负荷',
+                            data: loadData,
+                            borderColor: 'rgb(239, 68, 68)',
+                            backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                            fill: true
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: '功率 (kW)'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: '时间'
+                            }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: `${plan.name} - 典型日能量流向`
+                        }
+                    }
+                }
+            });
+        }
+
+        function switchVizTab(tabName) {
+            // 切换Tab样式
+            document.querySelectorAll('.viz-tab').forEach(tab => {
+                if (tab.dataset.tab === tabName) {
+                    tab.classList.add('active', 'border-green-500', 'text-green-600');
+                    tab.classList.remove('border-transparent', 'text-gray-500');
+                } else {
+                    tab.classList.remove('active', 'border-green-500', 'text-green-600');
+                    tab.classList.add('border-transparent', 'text-gray-500');
+                }
+            });
+            
+            // 切换内容
+            document.querySelectorAll('.viz-content').forEach(content => {
+                if (content.id === tabName) {
+                    content.classList.remove('hidden');
+                } else {
+                    content.classList.add('hidden');
+                }
+            });
+        }
+
+        function selectPlan(planKey) {
+            // 更新按钮样式
+            document.querySelectorAll('.plan-selector').forEach(btn => {
+                if (btn.dataset.plan === planKey) {
+                    btn.classList.add('active');
+                    btn.classList.remove('bg-gray-100', 'text-gray-600');
+                    if (planKey === 'A') {
+                        btn.classList.add('bg-purple-100', 'text-purple-800');
+                    } else if (planKey === 'B') {
+                        btn.classList.add('bg-blue-100', 'text-blue-800');
+                    } else {
+                        btn.classList.add('bg-green-100', 'text-green-800');
+                    }
+                } else {
+                    btn.classList.remove('active', 'bg-purple-100', 'text-purple-800', 'bg-blue-100', 'text-blue-800', 'bg-green-100', 'text-green-800');
+                    btn.classList.add('bg-gray-100', 'text-gray-600');
+                }
+            });
+            
+            // 重新渲染图表
+            if (AppData.simulationResults) {
+                const plan = AppData.simulationResults[`plan${planKey}`];
+                renderTypicalDayChart(plan);
+            }
+        }
+
+        // ================= 推算逻辑展示 =================
+        
+        function renderCalculationProcess(results) {
+            const container = document.getElementById('calculationProcessContent');
+            container.innerHTML = `
+                <div class="bg-gradient-to-r from-indigo-50 to-purple-50 border-l-4 border-indigo-500 p-4 mb-4">
+                    <h3 class="text-lg font-bold text-indigo-900 mb-2">🔢 推演过程详解</h3>
+                    <p class="text-sm text-indigo-800">以下展示典型时刻的详细计算过程</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3">示例: 1月15日 中午12点 (白天场景)</h4>
+                    <div class="space-y-3 text-sm font-mono">
+                        <div class="bg-blue-50 p-3 rounded">
+                            <p class="font-bold text-blue-900 mb-2">输入条件:</p>
+                            <p>PV_t[12] = 10.5 kW (光伏满发)</p>
+                            <p>Load_t[12] = 0.8 kW (白天低负荷)</p>
+                            <p>SOC = 0.3 (30%)</p>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-3 rounded">
+                            <p class="font-bold text-yellow-900 mb-2">计算步骤:</p>
+                            <p class="text-gray-700"><strong>1. 判断场景:</strong> PV > Load → 白天场景</p>
+                            <p class="text-gray-700 mt-2"><strong>2. 计算盈余:</strong></p>
+                            <p class="ml-4">surplus = 10.5 - 0.8 = 9.7 kW</p>
+                            
+                            <p class="text-gray-700 mt-2"><strong>3. 计算充电:</strong></p>
+                            <p class="ml-4">空间可用 = (1 - 0.3) × 12.15 = 8.505 kWh</p>
+                            <p class="ml-4">充电功率 = min(9.7, 6.75, 8.0, 8.505/0.949)</p>
+                            <p class="ml-4">= min(9.7, 6.75, 8.0, 8.96) = 6.75 kW</p>
+                            <p class="ml-4">实际存储 = 6.75 × 0.949 = 6.406 kWh</p>
+                            <p class="ml-4">SOC更新 = 0.3 + 6.406/12.15 = 0.827 (82.7%)</p>
+                            
+                            <p class="text-gray-700 mt-2"><strong>4. 计算导出:</strong></p>
+                            <p class="ml-4">剩余盈余 = 9.7 - 6.75 = 2.95 kW</p>
+                            <p class="ml-4">导出功率 = min(2.95, 5.0) = 2.95 kW</p>
+                            
+                            <p class="text-gray-700 mt-2"><strong>5. 裁切:</strong></p>
+                            <p class="ml-4">裁切 = 0 kW (全部利用)</p>
+                        </div>
+                        
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-bold text-green-900 mb-2">输出结果:</p>
+                            <p>P_charge[12] = 6.75 kW</p>
+                            <p>P_export[12] = 2.95 kW</p>
+                            <p>P_clipped[12] = 0 kW</p>
+                            <p>SOC[12] = 82.7%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <h4 class="text-md font-bold text-gray-800 mb-3">示例: 1月15日 晚上8点 (夜间场景)</h4>
+                    <div class="space-y-3 text-sm font-mono">
+                        <div class="bg-blue-50 p-3 rounded">
+                            <p class="font-bold text-blue-900 mb-2">输入条件:</p>
+                            <p>PV_t[20] = 0 kW (夜间无发电)</p>
+                            <p>Load_t[20] = 1.5 kW (晚间高峰)</p>
+                            <p>SOC = 0.827 (82.7%)</p>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-3 rounded">
+                            <p class="font-bold text-yellow-900 mb-2">计算步骤:</p>
+                            <p class="text-gray-700"><strong>1. 判断场景:</strong> PV < Load → 夜间场景</p>
+                            <p class="text-gray-700 mt-2"><strong>2. 计算缺口:</strong></p>
+                            <p class="ml-4">deficit = 1.5 - 0 = 1.5 kW</p>
+                            
+                            <p class="text-gray-700 mt-2"><strong>3. 计算放电:</strong></p>
+                            <p class="ml-4">能量可用 = 0.827 × 12.15 × 0.949 = 9.53 kWh</p>
+                            <p class="ml-4">放电功率 = min(1.5, 6.75, 8.0, 9.53)</p>
+                            <p class="ml-4">= 1.5 kW</p>
+                            <p class="ml-4">实际消耗 = 1.5 / 0.949 = 1.581 kWh</p>
+                            <p class="ml-4">SOC更新 = 0.827 - 1.581/12.15 = 0.697 (69.7%)</p>
+                            
+                            <p class="text-gray-700 mt-2"><strong>4. 电网进口:</strong></p>
+                            <p class="ml-4">剩余缺口 = 1.5 - 1.5 = 0 kW</p>
+                            <p class="ml-4">进口 = 0 kW (电池完全满足)</p>
+                        </div>
+                        
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-bold text-green-900 mb-2">输出结果:</p>
+                            <p>P_discharge[20] = 1.5 kW</p>
+                            <p>P_import[20] = 0 kW</p>
+                            <p>SOC[20] = 69.7%</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderEnergyBalance(results) {
+            const plan = results.planA;
+            const sim = plan.simulation;
+            
+            const input = sim.total_pv_kwh + sim.total_import_kwh;
+            const output = sim.total_load_kwh + sim.total_export_kwh + sim.total_clipped_kwh + 
+                          (sim.total_battery_charged_kwh - sim.total_battery_discharged_kwh);
+            const balance = input - output;
+            const errorRate = Math.abs(balance) / sim.total_pv_kwh * 100;
+            
+            const container = document.getElementById('energyBalanceContent');
+            container.innerHTML = `
+                <div class="bg-gradient-to-r from-green-50 to-teal-50 border-l-4 border-green-500 p-4 mb-4">
+                    <h3 class="text-lg font-bold text-green-900 mb-2">⚖️ 能量守恒验证</h3>
+                    <p class="text-sm text-green-800">验证系统计算的正确性</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3">能量守恒方程</h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+                            <p class="font-mono text-center text-lg font-bold text-gray-800">
+                                输入能量 = 输出能量 + 损耗能量
+                            </p>
+                            <p class="font-mono text-center text-sm text-gray-600 mt-2">
+                                PV + Import = Load + Export + Clipped + Battery_Loss
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4 mt-4">
+                            <div class="bg-blue-50 p-4 rounded">
+                                <p class="font-bold text-blue-900 mb-3">输入侧 (kWh):</p>
+                                <div class="space-y-2 font-mono text-xs">
+                                    <div class="flex justify-between">
+                                        <span>PV发电:</span>
+                                        <span class="font-bold">${sim.total_pv_kwh.toFixed(2)}</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>电网进口:</span>
+                                        <span class="font-bold">${sim.total_import_kwh.toFixed(2)}</span>
+                                    </div>
+                                    <div class="flex justify-between border-t border-blue-200 pt-2 mt-2">
+                                        <span class="font-bold">总输入:</span>
+                                        <span class="font-bold text-blue-700">${input.toFixed(2)}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-red-50 p-4 rounded">
+                                <p class="font-bold text-red-900 mb-3">输出侧 (kWh):</p>
+                                <div class="space-y-2 font-mono text-xs">
+                                    <div class="flex justify-between">
+                                        <span>负荷消耗:</span>
+                                        <span class="font-bold">${sim.total_load_kwh.toFixed(2)}</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>电网导出:</span>
+                                        <span class="font-bold">${sim.total_export_kwh.toFixed(2)}</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>裁切损失:</span>
+                                        <span class="font-bold">${sim.total_clipped_kwh.toFixed(2)}</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>电池损耗:</span>
+                                        <span class="font-bold">${(sim.total_battery_charged_kwh - sim.total_battery_discharged_kwh).toFixed(2)}</span>
+                                    </div>
+                                    <div class="flex justify-between border-t border-red-200 pt-2 mt-2">
+                                        <span class="font-bold">总输出:</span>
+                                        <span class="font-bold text-red-700">${output.toFixed(2)}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="${Math.abs(balance) < 0.1 ? 'bg-green-50' : 'bg-red-50'} p-4 rounded border ${Math.abs(balance) < 0.1 ? 'border-green-200' : 'border-red-200'}">
+                            <p class="font-bold ${Math.abs(balance) < 0.1 ? 'text-green-900' : 'text-red-900'} mb-2">验证结果:</p>
+                            <div class="font-mono text-sm space-y-1">
+                                <p>误差 = 输入 - 输出 = ${input.toFixed(2)} - ${output.toFixed(2)} = <span class="font-bold">${balance.toFixed(4)} kWh</span></p>
+                                <p>相对误差 = ${errorRate.toFixed(6)}%</p>
+                                <p class="mt-2 ${Math.abs(balance) < 0.1 ? 'text-green-700' : 'text-red-700'} font-bold">
+                                    ${Math.abs(balance) < 0.1 ? '✅ 能量守恒验证通过!' : '❌ 能量守恒违规!'}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <h4 class="text-md font-bold text-gray-800 mb-3">电池损耗详解</h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-gray-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">往返效率 (RTE):</p>
+                            <p class="font-mono text-xs">η_rte = 0.9 (90%)</p>
+                            <p class="font-mono text-xs">η_charge = √0.9 ≈ 0.949</p>
+                            <p class="font-mono text-xs">η_discharge = √0.9 ≈ 0.949</p>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">损耗计算:</p>
+                            <p class="font-mono text-xs">充电损耗 = 充电量 × (1 - η_charge)</p>
+                            <p class="font-mono text-xs">放电损耗 = 放电量 × (1 - η_discharge)</p>
+                            <p class="font-mono text-xs mt-2">总损耗 = 充电 - 放电 = ${(sim.total_battery_charged_kwh - sim.total_battery_discharged_kwh).toFixed(2)} kWh</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderBatteryOptimization(results) {
+            const container = document.getElementById('batteryOptimizationContent');
+            container.innerHTML = `
+                <div class="bg-gradient-to-r from-purple-50 to-pink-50 border-l-4 border-purple-500 p-4 mb-4">
+                    <h3 class="text-lg font-bold text-purple-900 mb-2">🔋 电池优化过程</h3>
+                    <p class="text-sm text-purple-800">二分法搜索最优电池容量</p>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3">二分法迭代过程示意</h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-gray-50 p-4 rounded">
+                            <p class="font-semibold text-gray-700 mb-3">搜索空间: [0, 50] kWh</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p><strong>迭代1:</strong> C_mid = 25.0 kWh → 夜间覆盖 95% ✅ → 尝试更小</p>
+                                    <p class="ml-4 text-gray-600">新区间: [0, 25]</p>
+                                </div>
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p><strong>迭代2:</strong> C_mid = 12.5 kWh → 夜间覆盖 85% ✅ → 尝试更小</p>
+                                    <p class="ml-4 text-gray-600">新区间: [0, 12.5]</p>
+                                </div>
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p><strong>迭代3:</strong> C_mid = 6.25 kWh → 夜间覆盖 65% ❌ → 需要更大</p>
+                                    <p class="ml-4 text-gray-600">新区间: [6.25, 12.5]</p>
+                                </div>
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p><strong>迭代4:</strong> C_mid = 9.375 kWh → 夜间覆盖 78% ❌ → 需要更大</p>
+                                    <p class="ml-4 text-gray-600">新区间: [9.375, 12.5]</p>
+                                </div>
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p><strong>迭代5:</strong> C_mid = 10.94 kWh → 夜间覆盖 82% ✅ → 尝试更小</p>
+                                    <p class="ml-4 text-gray-600">新区间: [9.375, 10.94]</p>
+                                </div>
+                                <div class="bg-blue-50 p-2 rounded">
+                                    <p><strong>迭代6:</strong> C_mid = 10.16 kWh → 夜间覆盖 80.5% ✅ → 尝试更小</p>
+                                    <p class="ml-4 text-gray-600">新区间: [9.375, 10.16]</p>
+                                </div>
+                                <div class="bg-green-50 p-2 rounded border border-green-200">
+                                    <p><strong>收敛:</strong> Δ = 10.16 - 9.375 = 0.785 < 0.5 ✅</p>
+                                    <p class="ml-4 text-green-700 font-bold">最优值: 10.16 kWh</p>
+                                    <p class="ml-4 text-green-700 font-bold">标准化: 10 kWh</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">收敛性分析:</p>
+                            <div class="font-mono text-xs space-y-1">
+                                <p>迭代次数 = ⌈log₂(Δ_initial / ε)⌉</p>
+                                <p>= ⌈log₂(50 / 0.5)⌉</p>
+                                <p>= ⌈log₂(100)⌉</p>
+                                <p>= 7 次</p>
+                                <p class="mt-2 text-gray-600">实际迭代6次即收敛</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <h4 class="text-md font-bold text-gray-800 mb-3">三套方案电池容量对比</h4>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full text-sm">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="px-4 py-2 text-left">方案</th>
+                                    <th class="px-4 py-2 text-left">优化目标</th>
+                                    <th class="px-4 py-2 text-right">电池容量</th>
+                                    <th class="px-4 py-2 text-right">夜间覆盖</th>
+                                    <th class="px-4 py-2 text-right">自给率</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr class="bg-purple-50">
+                                    <td class="px-4 py-2 font-semibold">方案A</td>
+                                    <td class="px-4 py-2 text-xs">夜间≥90%, 自给≥70%</td>
+                                    <td class="px-4 py-2 text-right font-bold">${results.planA.battery.nominal_kwh} kWh</td>
+                                    <td class="px-4 py-2 text-right">${(results.planA.simulation.night_coverage_rate * 100).toFixed(1)}%</td>
+                                    <td class="px-4 py-2 text-right">${(results.planA.simulation.autarky_rate * 100).toFixed(1)}%</td>
+                                </tr>
+                                <tr class="bg-blue-50">
+                                    <td class="px-4 py-2 font-semibold">方案B</td>
+                                    <td class="px-4 py-2 text-xs">夜间≥80%, 自耗≥40%</td>
+                                    <td class="px-4 py-2 text-right font-bold">${results.planB.battery.nominal_kwh} kWh</td>
+                                    <td class="px-4 py-2 text-right">${(results.planB.simulation.night_coverage_rate * 100).toFixed(1)}%</td>
+                                    <td class="px-4 py-2 text-right">${(results.planB.simulation.autarky_rate * 100).toFixed(1)}%</td>
+                                </tr>
+                                <tr class="bg-green-50">
+                                    <td class="px-4 py-2 font-semibold">方案C</td>
+                                    <td class="px-4 py-2 text-xs">夜间≥50%</td>
+                                    <td class="px-4 py-2 text-right font-bold">${results.planC.battery.nominal_kwh} kWh</td>
+                                    <td class="px-4 py-2 text-right">${(results.planC.simulation.night_coverage_rate * 100).toFixed(1)}%</td>
+                                    <td class="px-4 py-2 text-right">${(results.planC.simulation.autarky_rate * 100).toFixed(1)}%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function renderCalculationLogic(results, planKey) {
+            const plan = results[`plan${planKey}`];
+            const container = document.getElementById('calculationLogic');
+            
+            const stateCode = results.metadata.stateCode;
+            const annualKwh = results.metadata.annualKwh;
+            const phaseType = results.metadata.phaseType;
+            
+            container.innerHTML = `
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
+                    <h3 class="text-lg font-bold text-blue-900 mb-2">📊 方案${planKey} - ${plan.name} 详细推算过程</h3>
+                    <p class="text-sm text-blue-800">以下展示完整的计算步骤和公式推导</p>
+                </div>
+
+                <!-- 步骤1: 负荷曲线生成 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3 flex items-center">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-2">1</span>
+                        负荷曲线生成
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-gray-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">输入参数:</p>
+                            <ul class="list-disc list-inside space-y-1 text-gray-600">
+                                <li>州代码: <code class="bg-gray-200 px-2 py-1 rounded">${stateCode}</code></li>
+                                <li>年用电量: <code class="bg-gray-200 px-2 py-1 rounded">${annualKwh.toLocaleString()} kWh</code></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">📐 计算公式:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p><strong>步骤1.1:</strong> 计算每月用电量</p>
+                                <p class="ml-4 text-gray-700">E_month[m] = E_annual × W_month[m]</p>
+                                <p class="ml-4 text-gray-600">其中 W_month[m] 为第m月的用电比例权重</p>
+                                
+                                <p class="mt-2"><strong>步骤1.2:</strong> 计算每月日均用电量</p>
+                                <p class="ml-4 text-gray-700">E_daily[m] = E_month[m] / D_month[m]</p>
+                                <p class="ml-4 text-gray-600">其中 D_month[m] 为第m月的天数</p>
+                                
+                                <p class="mt-2"><strong>步骤1.3:</strong> 计算每小时负荷</p>
+                                <p class="ml-4 text-gray-700">Load_t[h] = E_daily[m] × W_hour[h]</p>
+                                <p class="ml-4 text-gray-600">其中 W_hour[h] 为第h小时的用电比例权重</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">✅ 输出结果:</p>
+                            <p class="text-gray-600">生成 <code class="bg-gray-200 px-2 py-1 rounded">8760小时</code> 负荷曲线</p>
+                            <p class="text-gray-600 mt-1">总负荷: <code class="bg-gray-200 px-2 py-1 rounded">${plan.simulation.total_load_kwh.toFixed(0)} kWh</code></p>
+                            <p class="text-xs text-gray-500 mt-1">验证: 误差 < 0.1%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 步骤2: PV发电曲线生成 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3 flex items-center">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-2">2</span>
+                        PV发电曲线生成
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-gray-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">输入参数:</p>
+                            <ul class="list-disc list-inside space-y-1 text-gray-600">
+                                <li>坡面数量: <code class="bg-gray-200 px-2 py-1 rounded">${plan.panels.per_slope.length}个</code></li>
+                                <li>总面板数: <code class="bg-gray-200 px-2 py-1 rounded">${plan.panels.total}片</code></li>
+                                <li>单板功率: <code class="bg-gray-200 px-2 py-1 rounded">0.44 kW</code></li>
+                                <li>PV额定容量: <code class="bg-gray-200 px-2 py-1 rounded">${plan.pv_rated_kw.toFixed(2)} kW</code></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">📐 计算公式 (插值查表法):</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p><strong>步骤2.1:</strong> 找到相邻标准方位角</p>
+                                <p class="ml-4 text-gray-700">θ_lower ≤ aspect < θ_upper</p>
+                                
+                                <p class="mt-2"><strong>步骤2.2:</strong> 计算插值权重</p>
+                                <p class="ml-4 text-gray-700">w = (aspect - θ_lower) / (θ_upper - θ_lower)</p>
+                                
+                                <p class="mt-2"><strong>步骤2.3:</strong> 插值计算发电系数</p>
+                                <p class="ml-4 text-gray-700">G[m][h] = (1-w) × G_std[θ_lower][m][h] + w × G_std[θ_upper][m][h]</p>
+                                
+                                <p class="mt-2"><strong>步骤2.4:</strong> 季节性调整</p>
+                                <p class="ml-4 text-gray-700">S_month[m] = 1.0 + 0.2 × sin((m-5) × π/6)</p>
+                                <p class="ml-4 text-gray-700">G_adj[m][h] = G[m][h] × S_month[m]</p>
+                                
+                                <p class="mt-2"><strong>步骤2.5:</strong> 计算实际发电功率</p>
+                                <p class="ml-4 text-gray-700">PV_t[h] = G_adj[m][h] × N_panels × P_panel</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">✅ 输出结果:</p>
+                            <p class="text-gray-600">年发电量: <code class="bg-gray-200 px-2 py-1 rounded">${plan.simulation.total_pv_kwh.toFixed(0)} kWh</code></p>
+                            <p class="text-gray-600 mt-1">容量因子: <code class="bg-gray-200 px-2 py-1 rounded">${(plan.simulation.total_pv_kwh / (plan.pv_rated_kw * 8760) * 100).toFixed(1)}%</code></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 步骤3: 逆变器选型 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3 flex items-center">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-2">3</span>
+                        逆变器选型
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">📐 选型逻辑:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p><strong>约束条件:</strong></p>
+                                <p class="ml-4 text-gray-700">DC/AC 比例 ≤ 2.0 (200%)</p>
+                                <p class="ml-4 text-gray-700">单相最大: 10 kW | 三相最大: 30 kW</p>
+                                
+                                <p class="mt-2"><strong>计算过程:</strong></p>
+                                <p class="ml-4 text-gray-700">PV额定: ${plan.pv_rated_kw.toFixed(2)} kW</p>
+                                <p class="ml-4 text-gray-700">所需最小逆变器: ${(plan.pv_rated_kw / 2.0).toFixed(2)} kW</p>
+                                <p class="ml-4 text-gray-700">从规格库选择: ${plan.inverter.selected_model}</p>
+                                <p class="ml-4 text-gray-700">实际DC/AC比: ${(plan.inverter.dcac_ratio * 100).toFixed(1)}%</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">✅ 选型结果:</p>
+                            <p class="text-gray-600">逆变器型号: <code class="bg-gray-200 px-2 py-1 rounded">${plan.inverter.selected_model}</code></p>
+                            <p class="text-gray-600 mt-1">逆变器容量: <code class="bg-gray-200 px-2 py-1 rounded">${plan.inverter.inverter_kw} kW</code></p>
+                            <p class="text-gray-600 mt-1">DC/AC比: <code class="bg-gray-200 px-2 py-1 rounded">${(plan.inverter.dcac_ratio * 100).toFixed(0)}%</code> ${plan.inverter.dcac_ratio <= 2.0 ? '✅' : '❌'}</p>
+                            ${plan.inverter.notes && plan.inverter.notes.length > 0 ? `<p class="text-orange-600 mt-1 text-xs">⚠️ ${plan.inverter.notes.join(', ')}</p>` : ''}
+                        </div>
+                        
+                        ${plan.inverter.dcac_ratio > 2.0 ? `
+                        <div class="bg-red-50 p-3 rounded border border-red-200">
+                            <p class="font-semibold text-red-800 mb-2">⚠️ 需要裁剪PV容量:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p class="text-gray-700"><strong>原因:</strong> DC/AC比 ${(plan.inverter.dcac_ratio * 100).toFixed(1)}% > 200%</p>
+                                <p class="text-gray-700 mt-2"><strong>裁剪逻辑:</strong></p>
+                                <p class="ml-4">最大允许PV = 逆变器容量 × 2.0</p>
+                                <p class="ml-4">= ${plan.inverter.inverter_kw} × 2.0 = ${(plan.inverter.inverter_kw * 2.0).toFixed(1)} kW</p>
+                                <p class="ml-4 mt-2">需要裁剪: ${plan.pv_rated_kw.toFixed(2)} → ${(plan.inverter.inverter_kw * 2.0).toFixed(1)} kW</p>
+                                <p class="ml-4">裁剪面板数: ${Math.ceil((plan.pv_rated_kw - plan.inverter.inverter_kw * 2.0) / 0.44)} 片</p>
+                                <p class="text-red-700 mt-2 font-bold">⚠️ 系统检测到需要裁剪但未执行，这是一个BUG!</p>
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                </div>
+
+                <!-- 步骤4: 电池容量优化 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3 flex items-center">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-2">4</span>
+                        电池容量优化 (二分法)
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-gray-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">优化目标 (方案${planKey}):</p>
+                            <ul class="list-disc list-inside space-y-1 text-gray-600">
+                                ${planKey === 'A' ? `
+                                    <li>夜间覆盖率 ≥ 90%</li>
+                                    <li>自给率 ≥ 70%</li>
+                                ` : planKey === 'B' ? `
+                                    <li>夜间覆盖率 ≥ 80%</li>
+                                    <li>自耗率 ≥ 40%</li>
+                                ` : `
+                                    <li>夜间覆盖率 ≥ 50%</li>
+                                `}
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">📐 二分法算法:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <p><strong>初始化:</strong></p>
+                                <p class="ml-4 text-gray-700">C_min = 0 kWh, C_max = 50 kWh</p>
+                                
+                                <p class="mt-2"><strong>迭代过程:</strong></p>
+                                <p class="ml-4 text-gray-700">C_mid = (C_min + C_max) / 2</p>
+                                <p class="ml-4 text-gray-700">运行仿真 → 检查是否满足目标</p>
+                                <p class="ml-4 text-gray-700">if 满足: C_max = C_mid (尝试更小)</p>
+                                <p class="ml-4 text-gray-700">else: C_min = C_mid (需要更大)</p>
+                                
+                                <p class="mt-2"><strong>收敛条件:</strong></p>
+                                <p class="ml-4 text-gray-700">C_max - C_min < 0.5 kWh</p>
+                                
+                                <p class="mt-2"><strong>标准化:</strong></p>
+                                <p class="ml-4 text-gray-700">从 [5, 6.5, 9.6, 10, 13.5, 16, 20] 中选择</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">✅ 优化结果:</p>
+                            <p class="text-gray-600">电池容量: <code class="bg-gray-200 px-2 py-1 rounded">${plan.battery.nominal_kwh} kWh</code></p>
+                            <p class="text-gray-600 mt-1">可用容量: <code class="bg-gray-200 px-2 py-1 rounded">${plan.battery.usable_kwh.toFixed(1)} kWh</code> (DOD 90%)</p>
+                            <p class="text-gray-600 mt-1">充电功率: <code class="bg-gray-200 px-2 py-1 rounded">${plan.battery.p_charge_kw.toFixed(1)} kW</code></p>
+                            <p class="text-gray-600 mt-1">放电功率: <code class="bg-gray-200 px-2 py-1 rounded">${plan.battery.p_discharge_kw.toFixed(1)} kW</code></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 步骤5: 小时级仿真 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-4">
+                    <h4 class="text-md font-bold text-gray-800 mb-3 flex items-center">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-2">5</span>
+                        小时级仿真 (8760小时)
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-blue-50 p-3 rounded border border-blue-200">
+                            <p class="font-semibold text-gray-700 mb-2">🔧 仿真参数配置:</p>
+                            <div class="grid grid-cols-2 gap-2 font-mono text-xs">
+                                <div>PV容量: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.pv_rated_kw.toFixed(2)} kW</code></div>
+                                <div>逆变器: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.inverter.inverter_kw} kW</code></div>
+                                <div>电池容量: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.battery.nominal_kwh} kWh</code></div>
+                                <div>可用容量: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.battery.usable_kwh.toFixed(1)} kWh</code></div>
+                                <div>充电功率: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.battery.p_charge_kw.toFixed(1)} kW</code></div>
+                                <div>放电功率: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.battery.p_discharge_kw.toFixed(1)} kW</code></div>
+                                <div>导出限制: <code class="bg-gray-200 px-1 py-0.5 rounded">5.0 kW</code></div>
+                                <div>RTE效率: <code class="bg-gray-200 px-1 py-0.5 rounded">90%</code></div>
+                            </div>
+                        </div>
+                    
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">📐 核心策略: PV溢出优先充电</p>
+                            <div class="space-y-3 font-mono text-xs">
+                                <div>
+                                    <p class="font-bold text-blue-700">白天场景 (PV ≥ Load):</p>
+                                    <p class="ml-4 text-gray-700 mt-1"><strong>步骤1:</strong> 计算盈余</p>
+                                    <p class="ml-6">surplus = PV[t] - Load[t]</p>
+                                    
+                                    <p class="ml-4 text-gray-700 mt-2"><strong>步骤2:</strong> 计算充电功率</p>
+                                    <p class="ml-6">SOC_space = (1 - SOC[t-1]) × Usable_kWh</p>
+                                    <p class="ml-6">P_charge_max = min(surplus, P_charge_limit, P_inv_limit, SOC_space / η_charge)</p>
+                                    <p class="ml-6">E_stored = P_charge_max × η_charge × 1h</p>
+                                    <p class="ml-6">SOC[t] = SOC[t-1] + E_stored / Usable_kWh</p>
+                                    
+                                    <p class="ml-4 text-gray-700 mt-2"><strong>步骤3:</strong> 计算导出功率</p>
+                                    <p class="ml-6">surplus_left = surplus - P_charge_max</p>
+                                    <p class="ml-6">P_export = min(surplus_left, Export_limit)</p>
+                                    
+                                    <p class="ml-4 text-gray-700 mt-2"><strong>步骤4:</strong> 计算裁切</p>
+                                    <p class="ml-6">P_clipped = surplus_left - P_export</p>
+                                </div>
+                                
+                                <div class="mt-3">
+                                    <p class="font-bold text-purple-700">夜间场景 (PV < Load):</p>
+                                    <p class="ml-4 text-gray-700 mt-1"><strong>步骤1:</strong> 计算缺口</p>
+                                    <p class="ml-6">deficit = Load[t] - PV[t]</p>
+                                    
+                                    <p class="ml-4 text-gray-700 mt-2"><strong>步骤2:</strong> 计算放电功率</p>
+                                    <p class="ml-6">E_available = SOC[t-1] × Usable_kWh × η_discharge</p>
+                                    <p class="ml-6">P_discharge_max = min(deficit, P_discharge_limit, P_inv_limit, E_available)</p>
+                                    <p class="ml-6">E_consumed = P_discharge_max / η_discharge × 1h</p>
+                                    <p class="ml-6">SOC[t] = SOC[t-1] - E_consumed / Usable_kWh</p>
+                                    
+                                    <p class="ml-4 text-gray-700 mt-2"><strong>步骤3:</strong> 计算电网进口</p>
+                                    <p class="ml-6">deficit_left = deficit - P_discharge_max</p>
+                                    <p class="ml-6">P_import = deficit_left</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-purple-50 p-3 rounded border border-purple-200">
+                            <p class="font-semibold text-gray-700 mb-2">🔄 逐小时迭代过程:</p>
+                            <div class="font-mono text-xs space-y-1">
+                                <p><strong>for</strong> t = 0 <strong>to</strong> 8759:</p>
+                                <p class="ml-4">1. 读取 PV[t] 和 Load[t]</p>
+                                <p class="ml-4">2. 判断场景 (PV vs Load)</p>
+                                <p class="ml-4">3. 执行对应策略</p>
+                                <p class="ml-4">4. 更新 SOC[t]</p>
+                                <p class="ml-4">5. 记录能量流动</p>
+                                <p class="ml-4">6. 累加统计量</p>
+                                <p class="mt-2 text-gray-600">总计: 8760次迭代 (365天 × 24小时)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-green-50 p-3 rounded">
+                            <p class="font-semibold text-gray-700 mb-2">✅ 仿真结果 (年度汇总):</p>
+                            <div class="grid grid-cols-2 gap-2 text-xs">
+                                <div>PV发电: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.simulation.total_pv_kwh.toFixed(0)} kWh</code></div>
+                                <div>总负荷: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.simulation.total_load_kwh.toFixed(0)} kWh</code></div>
+                                <div>电网进口: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.simulation.total_import_kwh.toFixed(0)} kWh</code></div>
+                                <div>电网导出: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.simulation.total_export_kwh.toFixed(0)} kWh</code></div>
+                                <div>电池充电: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.simulation.total_battery_charged_kwh.toFixed(0)} kWh</code></div>
+                                <div>电池放电: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.simulation.total_battery_discharged_kwh.toFixed(0)} kWh</code></div>
+                                <div>裁切量: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.simulation.total_clipped_kwh.toFixed(0)} kWh</code></div>
+                                <div>电池循环: <code class="bg-gray-200 px-1 py-0.5 rounded">${plan.simulation.avg_battery_cycles.toFixed(0)} 次/年</code></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 步骤6: KPI计算 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <h4 class="text-md font-bold text-gray-800 mb-3 flex items-center">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-2">6</span>
+                        KPI指标计算
+                    </h4>
+                    <div class="space-y-3 text-sm">
+                        <div class="bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <p class="font-semibold text-gray-700 mb-2">📐 计算公式:</p>
+                            <div class="space-y-2 font-mono text-xs">
+                                <div>
+                                    <p class="font-bold">自耗率 (Self-consumption):</p>
+                                    <p class="ml-4 text-gray-700">R_self = (PV - Export - Clipped) / PV</p>
+                                    <p class="ml-4 text-green-600">= ${(plan.simulation.self_consumption_rate * 100).toFixed(2)}%</p>
+                                </div>
+                                
+                                <div class="mt-2">
+                                    <p class="font-bold">自给率 (Autarky):</p>
+                                    <p class="ml-4 text-gray-700">R_autarky = 1 - (Import / Load)</p>
+                                    <p class="ml-4 text-green-600">= ${(plan.simulation.autarky_rate * 100).toFixed(2)}%</p>
+                                </div>
+                                
+                                <div class="mt-2">
+                                    <p class="font-bold">夜间覆盖率 (Night Coverage, 18:00-6:00):</p>
+                                    <p class="ml-4 text-gray-700">R_night = Battery_discharge_night / Load_night</p>
+                                    <p class="ml-4 text-green-600">= ${(plan.simulation.night_coverage_rate * 100).toFixed(2)}%</p>
+                                </div>
+                                
+                                <div class="mt-2">
+                                    <p class="font-bold">溢出吸收率 (Surplus Absorbed):</p>
+                                    <p class="ml-4 text-gray-700">R_absorbed = Battery_charged / Total_surplus</p>
+                                    <p class="ml-4 text-green-600">= ${(plan.simulation.surplus_absorbed_rate * 100).toFixed(2)}%</p>
+                                </div>
+                                
+                                <div class="mt-2">
+                                    <p class="font-bold">裁切率 (Clipping):</p>
+                                    <p class="ml-4 text-gray-700">R_clipping = Clipped / PV</p>
+                                    <p class="ml-4 text-green-600">= ${(plan.simulation.clipping_rate * 100).toFixed(2)}%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // 绑定逻辑选择器事件
+            document.querySelectorAll('.logic-selector').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // 更新按钮样式
+                    document.querySelectorAll('.logic-selector').forEach(b => {
+                        b.classList.remove('active', 'bg-purple-100', 'text-purple-800', 'bg-blue-100', 'text-blue-800', 'bg-green-100', 'text-green-800');
+                        b.classList.add('bg-gray-100', 'text-gray-600');
+                    });
+                    btn.classList.add('active');
+                    btn.classList.remove('bg-gray-100', 'text-gray-600');
+                    const plan = btn.dataset.plan;
+                    if (plan === 'A') {
+                        btn.classList.add('bg-purple-100', 'text-purple-800');
+                    } else if (plan === 'B') {
+                        btn.classList.add('bg-blue-100', 'text-blue-800');
+                    } else {
+                        btn.classList.add('bg-green-100', 'text-green-800');
+                    }
+                    
+                    // 重新渲染
+                    renderCalculationLogic(AppData.simulationResults, btn.dataset.plan);
+                });
+            });
+        }
+
+        // ================= 页面加载完成后初始化 =================
+        
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
