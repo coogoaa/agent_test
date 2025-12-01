@@ -326,7 +326,7 @@
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 text-lg">☀️</div>
                                 <div class="ml-2 flex-grow">
-                                    <p class="font-medium text-gray-900">光伏组件 (满铺)</p>
+                                    <p class="font-medium text-gray-900">光伏组件</p>
                                     <p class="text-gray-600"><span id="propC-count" class="font-bold text-purple-700">0</span> 片 × 440W</p>
                                     <p class="text-xs text-gray-500 mt-1 bg-gray-50 p-1 rounded" id="propC-layout">...</p>
                                 </div>
@@ -819,7 +819,7 @@ id_0	slope	aspect	nums
             derivationLog.push({
                 step: 1,
                 title: '屋顶坡面评分与排序',
-                desc: '根据方位角计算每个坡面的发电潜力评分（南半球规则：正北最优）',
+                desc: '仅供测试示意，以实际的发电量计算为准。\n根据方位角计算每个坡面的发电潜力评分（南半球规则：正北最优）',
                 details: []
             });
             
@@ -888,7 +888,7 @@ id_0	slope	aspect	nums
             derivationLog.push({
                 step: 3,
                 title: '方案 A (高端型) 推导',
-                desc: '目标: 物理极限满铺，追求最大发电量',
+                desc: '仅供测试示意，以实际的发电量计算为准。\n目标: 物理极限满铺，追求最大发电量',
                 details: []
             });
 
@@ -1009,7 +1009,7 @@ id_0	slope	aspect	nums
             derivationLog.push({
                 step: 4,
                 title: '方案 B (平衡型) 推导',
-                desc: '目标: 10-13kW，匹配混合逆变器，允许150%-200%超配',
+                desc: '仅供测试示意，以实际的发电量计算为准。\n目标: 10-13kW，匹配混合逆变器，允许150%-200%超配',
                 details: []
             });
 
@@ -1131,7 +1131,7 @@ id_0	slope	aspect	nums
             derivationLog.push({
                 step: 5,
                 title: '方案 C (经济型) 推导',
-                desc: '目标: 6.6kW，高性价比入门配置',
+                desc: '仅供测试示意，以实际的发电量计算为准。\n目标: 6.6kW，高性价比入门配置',
                 details: []
             });
 
@@ -1408,6 +1408,7 @@ id_0	slope	aspect	nums
             parseHouseData();
             
             const selector = document.getElementById('houseSelector');
+            const defaultHouseId = '27';
             Object.keys(AppData.houses).forEach(id => {
                 const opt = document.createElement('option');
                 opt.value = id;
@@ -1416,6 +1417,10 @@ id_0	slope	aspect	nums
                 opt.textContent = `房屋 ID: ${id} (${planeCount} 个坡面, ${validCount} 个可用)`;
                 selector.appendChild(opt);
             });
+            const hasDefaultHouse = Array.from(selector.options).some(opt => opt.value === defaultHouseId);
+            if (hasDefaultHouse) {
+                selector.value = defaultHouseId;
+            }
 
             selector.addEventListener('change', updateUI);
             document.getElementById('phaseSelector').addEventListener('change', updateUI);
@@ -1451,7 +1456,9 @@ id_0	slope	aspect	nums
             updateStateInfo();
             updateExpansionModeInfo();
             
-            if (selector.options.length > 1) {
+            if (hasDefaultHouse) {
+                updateUI();
+            } else if (selector.options.length > 1) {
                 selector.selectedIndex = 1;
                 updateUI();
             }
