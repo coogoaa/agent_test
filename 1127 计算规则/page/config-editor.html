@@ -47,6 +47,7 @@
                     <button class="tab-btn" data-tab="battery">电池计算系数</button>
                     <button class="tab-btn" data-tab="inverter">逆变器规格</button>
                     <button class="tab-btn" data-tab="expansion">储能扩容</button>
+                    <button class="tab-btn" data-tab="proposals">方案目标容量</button>
                     <button class="tab-btn" data-tab="consumption">州用电数据</button>
                     <button class="tab-btn" data-tab="cost">成本参数</button>
                     <button class="tab-btn" data-tab="subsidy">补贴参数</button>
@@ -339,6 +340,84 @@
                             <p>• 屋顶容量系数 = 0.7</p>
                             <p>• 扩容可用 = 30 × 0.7 = 21片 (9.24kW)</p>
                             <p>• 系统将基于9.24kW进行三套方案推导</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 方案目标容量 -->
+                <div id="tab-proposals" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">方案目标容量配置</h2>
+                    <p class="text-gray-600 mb-4">配置三个推荐方案的目标光伏容量</p>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+                        <h3 class="font-semibold text-blue-900 mb-2">方案目标容量说明</h3>
+                        <div class="text-sm text-blue-800 space-y-1">
+                            <p>系统会根据目标容量，使用贪心算法从最优坡面开始填充，直到达到目标或屋顶空间用尽。</p>
+                            <p>• <strong>方案A (高端型)</strong>：默认满铺所有可用屋顶，追求最大发电量</p>
+                            <p>• <strong>方案B (平衡型)</strong>：根据屋顶规模动态选择 10kW 或 13kW 目标</p>
+                            <p>• <strong>方案C (经济型)</strong>：固定 6.6kW，高性价比入门配置</p>
+                        </div>
+                    </div>
+
+                    <!-- 方案A -->
+                    <div class="mb-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
+                        <h3 class="text-lg font-semibold mb-3 text-purple-700">方案A - 高端型 (Premium)</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">目标功率 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-premium-target" class="w-full border rounded p-2" value="999">
+                                <p class="text-xs text-gray-500 mt-1">设为 999 表示满铺策略（无上限）</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 方案B -->
+                    <div class="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                        <h3 class="text-lg font-semibold mb-3 text-blue-700">方案B - 平衡型 (Balanced)</h3>
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mb-4">
+                            <p class="text-sm text-yellow-800">
+                                <strong>动态选择逻辑：</strong>如果屋顶最大容量 > 阈值，则使用"大屋顶目标"，否则使用"小屋顶目标"
+                            </p>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">小屋顶目标功率 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-balanced-small" class="w-full border rounded p-2" value="10.0">
+                                <p class="text-xs text-gray-500 mt-1">屋顶容量 ≤ 阈值时使用</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">大屋顶目标功率 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-balanced-large" class="w-full border rounded p-2" value="13.0">
+                                <p class="text-xs text-gray-500 mt-1">屋顶容量 > 阈值时使用</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">屋顶容量阈值 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-balanced-threshold" class="w-full border rounded p-2" value="15">
+                                <p class="text-xs text-gray-500 mt-1">用于判断大/小屋顶</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 方案C -->
+                    <div class="mb-6 p-4 bg-green-50 rounded-lg border border-green-200">
+                        <h3 class="text-lg font-semibold mb-3 text-green-700">方案C - 经济型 (Economy)</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">目标功率 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-economy-target" class="w-full border rounded p-2" value="6.6">
+                                <p class="text-xs text-gray-500 mt-1">固定目标功率，适合入门用户</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-4 rounded">
+                        <h3 class="font-semibold mb-2">市场数据参考 (2025年)</h3>
+                        <div class="text-sm text-gray-700 space-y-1">
+                            <p>根据 SolarQuotes 评论数据统计，最热门的系统规格：</p>
+                            <p>• <strong>6.6kW</strong> → 23.2% (最热门)</p>
+                            <p>• <strong>10.0kW</strong> → 19.4%</p>
+                            <p>• <strong>13.0kW</strong> → 17.4%</p>
+                            <p class="mt-2 text-xs text-gray-500">数据来源: scraped_data/analysis_output/2025年区间统计.md</p>
                         </div>
                     </div>
                 </div>
@@ -660,6 +739,19 @@
                     roofCapacityFactor: parseFloat(document.getElementById('expansion-roof-factor').value),
                     replaceInverter: document.getElementById('expansion-replace-inverter').checked
                 },
+                proposals: {
+                    premium: { 
+                        targetKw: parseFloat(document.getElementById('proposal-premium-target').value) 
+                    },
+                    balanced: { 
+                        targetKwSmall: parseFloat(document.getElementById('proposal-balanced-small').value),
+                        targetKwLarge: parseFloat(document.getElementById('proposal-balanced-large').value),
+                        roofThreshold: parseFloat(document.getElementById('proposal-balanced-threshold').value)
+                    },
+                    economy: { 
+                        targetKw: parseFloat(document.getElementById('proposal-economy-target').value) 
+                    }
+                },
                 consumption: {
                     TAS: parseInt(document.getElementById('consumption-TAS').value),
                     NT: parseInt(document.getElementById('consumption-NT').value),
@@ -752,6 +844,21 @@
             if (config.expansion) {
                 document.getElementById('expansion-roof-factor').value = config.expansion.roofCapacityFactor || 0.7;
                 document.getElementById('expansion-replace-inverter').checked = config.expansion.replaceInverter !== false;
+            }
+            
+            // 方案目标容量配置
+            if (config.proposals) {
+                if (config.proposals.premium) {
+                    document.getElementById('proposal-premium-target').value = config.proposals.premium.targetKw || 999;
+                }
+                if (config.proposals.balanced) {
+                    document.getElementById('proposal-balanced-small').value = config.proposals.balanced.targetKwSmall || 10.0;
+                    document.getElementById('proposal-balanced-large').value = config.proposals.balanced.targetKwLarge || 13.0;
+                    document.getElementById('proposal-balanced-threshold').value = config.proposals.balanced.roofThreshold || 15;
+                }
+                if (config.proposals.economy) {
+                    document.getElementById('proposal-economy-target').value = config.proposals.economy.targetKw || 6.6;
+                }
             }
             
             // 用电量配置

@@ -40,6 +40,18 @@ const DEFAULT_CONFIG = {
         roofCapacityFactor: 0.7,  // 储能扩容屋顶容量系数
         replaceInverter: true      // 储能扩容是否更换逆变器
     },
+    proposals: {
+        // 方案A (高端型): 满铺策略，999表示无上限
+        premium: { targetKw: 999 },
+        // 方案B (平衡型): 根据屋顶容量动态选择目标功率
+        balanced: { 
+            targetKwSmall: 10.0,   // 小屋顶目标功率 (屋顶容量 <= roofThreshold)
+            targetKwLarge: 13.0,   // 大屋顶目标功率 (屋顶容量 > roofThreshold)
+            roofThreshold: 15      // 屋顶容量阈值 (kW)，用于判断选择哪个目标功率
+        },
+        // 方案C (经济型): 固定目标功率
+        economy: { targetKw: 6.6 }
+    },
     consumption: {
         TAS: 10148,
         NT: 10008,

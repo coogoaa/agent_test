@@ -727,6 +727,13 @@ id_0	slope	aspect	nums
         const TARGET_RATIO = INVERTER_CONFIG.targetRatio / 100;
         const MAX_RATIO = INVERTER_CONFIG.maxRatio / 100;
 
+        // 方案目标容量配置 - 从配置加载
+        const PROPOSALS_CONFIG = CONFIG.proposals || {
+            premium: { targetKw: 999 },
+            balanced: { targetKwSmall: 10.0, targetKwLarge: 13.0, roofThreshold: 15 },
+            economy: { targetKw: 6.6 }
+        };
+
         function getPhaseMaxLimit(phaseType) {
             if (phaseType === 'single') {
                 return INVERTER_CONFIG.singleMaxKw ?? 10;
@@ -1120,9 +1127,10 @@ id_0	slope	aspect	nums
             });
 
             const stepAIndex = derivationLog.length - 1;
-            derivationLog[stepAIndex].details.push({ text: `策略: 使用所有 nums > 0 的坡面` });
+            const targetKwA = PROPOSALS_CONFIG.premium?.targetKw || 999;
+            derivationLog[stepAIndex].details.push({ text: `策略: 使用所有 nums > 0 的坡面 (目标: ${targetKwA === 999 ? '满铺' : targetKwA + 'kW'})` });
             
-            const resultA = fillRoofWithLog(roofPlanes, 999, PV_WATT, derivationLog[stepAIndex].details);
+            const resultA = fillRoofWithLog(roofPlanes, targetKwA, PV_WATT, derivationLog[stepAIndex].details);
             
             // 方案A逆变器选型（高端型配储能，允许更高容配比）
             derivationLog[stepAIndex].details.push({ text: `方案类型: 高端型 (含储能) → 允许容配比 150%-200%` });
@@ -1241,8 +1249,9 @@ id_0	slope	aspect	nums
             });
 
             const stepBIndex = derivationLog.length - 1;
-            let targetKwB = totalMaxKw > 15 ? 13.2 : 10.0;
-            derivationLog[stepBIndex].details.push({ text: `目标功率: ${targetKwB} kW (根据屋顶规模动态调整)` });
+            const balancedConfig = PROPOSALS_CONFIG.balanced || { targetKwSmall: 10.0, targetKwLarge: 13.0, roofThreshold: 15 };
+            let targetKwB = totalMaxKw > balancedConfig.roofThreshold ? balancedConfig.targetKwLarge : balancedConfig.targetKwSmall;
+            derivationLog[stepBIndex].details.push({ text: `目标功率: ${targetKwB} kW (屋顶${totalMaxKw.toFixed(1)}kW ${totalMaxKw > balancedConfig.roofThreshold ? '>' : '≤'} 阈值${balancedConfig.roofThreshold}kW)` });
             
             const resultB = fillRoofWithLog(roofPlanes, targetKwB, PV_WATT, derivationLog[stepBIndex].details);
             
@@ -1363,7 +1372,7 @@ id_0	slope	aspect	nums
             });
 
             const stepCIndex = derivationLog.length - 1;
-            const targetKwC = 6.6;
+            const targetKwC = PROPOSALS_CONFIG.economy?.targetKw || 6.6;
             const targetPanelsC = Math.ceil((targetKwC * 1000) / PV_WATT);
             derivationLog[stepCIndex].details.push({ text: `目标功率: ${targetKwC} kW → 需要 ${targetPanelsC} 片组件` });
             
