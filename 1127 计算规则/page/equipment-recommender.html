@@ -212,25 +212,35 @@
                         </div>
                     </div>
                     <div class="bg-purple-50 p-4 border-t border-purple-200">
-                        <div class="text-center mb-2">
-                            <p class="text-xs text-gray-600 mb-2">最终报价</p>
-                            <div class="flex items-baseline justify-center">
-                                <span class="text-2xl font-bold text-purple-700" id="propA-finalPrice">$0</span>
-                                <span class="text-sm text-gray-500 ml-1">AUD</span>
+                        <!-- 双方案定价展示 -->
+                        <div class="grid grid-cols-2 gap-2 mb-3">
+                            <!-- 方案A定价 (线性) -->
+                            <div class="bg-blue-50 rounded-lg p-2 border border-blue-200">
+                                <p class="text-xs text-blue-600 font-semibold mb-1 text-center">定价A (线性)</p>
+                                <div class="text-center">
+                                    <span class="text-lg font-bold text-blue-700" id="propA-finalPrice-schemeA">$0</span>
+                                </div>
+                                <p class="text-xs text-gray-500 text-center">含税 <span id="propA-taxPrice-schemeA">$0</span></p>
+                                <div class="mt-1 pt-1 border-t border-blue-100 text-xs text-center">
+                                    <span class="text-gray-500">kW单价:</span>
+                                    <span class="font-semibold text-blue-600" id="propA-pricePerKw-schemeA">$0</span>
+                                </div>
                             </div>
-                            <p class="text-xs text-gray-500 mt-1">含税价 <span id="propA-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propA-subsidy" class="font-semibold">$0</span></p>
+                            <!-- 方案B定价 (基准+增量) -->
+                            <div class="bg-green-50 rounded-lg p-2 border border-green-200">
+                                <p class="text-xs text-green-600 font-semibold mb-1 text-center">定价B (套餐)</p>
+                                <div class="text-center">
+                                    <span class="text-lg font-bold text-green-700" id="propA-finalPrice-schemeB">$0</span>
+                                </div>
+                                <p class="text-xs text-gray-500 text-center">含税 <span id="propA-taxPrice-schemeB">$0</span></p>
+                                <div class="mt-1 pt-1 border-t border-green-100 text-xs text-center">
+                                    <span class="text-gray-500">kW单价:</span>
+                                    <span class="font-semibold text-green-600" id="propA-pricePerKw-schemeB">$0</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mt-3 pt-3 border-t border-purple-200 grid grid-cols-2 gap-2 text-center">
-                            <div class="bg-white rounded p-2">
-                                <p class="text-xs text-gray-500">系统 kW 单价</p>
-                                <p class="text-sm font-bold text-purple-700" id="propA-pricePerKw">$0/kW</p>
-                            </div>
-                            <div class="bg-white rounded p-2">
-                                <p class="text-xs text-gray-500">去电池 kW 单价</p>
-                                <p class="text-sm font-bold text-purple-600" id="propA-pricePerKwNoBattery">$0/kW</p>
-                            </div>
-                        </div>
-                        <p class="text-xs text-gray-600 text-center pt-2 mt-2 border-t border-purple-200">策略：物理极限满铺，追求能源独立</p>
+                        <p class="text-xs text-gray-500 text-center mb-2">补贴: <span id="propA-subsidy" class="font-semibold">$0</span></p>
+                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-purple-200">策略：物理极限满铺，追求能源独立</p>
                     </div>
                 </div>
 
@@ -279,25 +289,35 @@
                         </div>
                     </div>
                     <div class="bg-blue-50 p-4 border-t border-blue-200">
-                        <div class="text-center mb-2">
-                            <p class="text-xs text-gray-600 mb-2">最终报价</p>
-                            <div class="flex items-baseline justify-center">
-                                <span class="text-2xl font-bold text-blue-700" id="propB-finalPrice">$0</span>
-                                <span class="text-sm text-gray-500 ml-1">AUD</span>
+                        <!-- 双方案定价展示 -->
+                        <div class="grid grid-cols-2 gap-2 mb-3">
+                            <!-- 方案A定价 (线性) -->
+                            <div class="bg-blue-100 rounded-lg p-2 border border-blue-300">
+                                <p class="text-xs text-blue-600 font-semibold mb-1 text-center">定价A (线性)</p>
+                                <div class="text-center">
+                                    <span class="text-lg font-bold text-blue-700" id="propB-finalPrice-schemeA">$0</span>
+                                </div>
+                                <p class="text-xs text-gray-500 text-center">含税 <span id="propB-taxPrice-schemeA">$0</span></p>
+                                <div class="mt-1 pt-1 border-t border-blue-200 text-xs text-center">
+                                    <span class="text-gray-500">kW单价:</span>
+                                    <span class="font-semibold text-blue-600" id="propB-pricePerKw-schemeA">$0</span>
+                                </div>
                             </div>
-                            <p class="text-xs text-gray-500 mt-1">含税价 <span id="propB-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propB-subsidy" class="font-semibold">$0</span></p>
+                            <!-- 方案B定价 (基准+增量) -->
+                            <div class="bg-green-50 rounded-lg p-2 border border-green-200">
+                                <p class="text-xs text-green-600 font-semibold mb-1 text-center">定价B (套餐)</p>
+                                <div class="text-center">
+                                    <span class="text-lg font-bold text-green-700" id="propB-finalPrice-schemeB">$0</span>
+                                </div>
+                                <p class="text-xs text-gray-500 text-center">含税 <span id="propB-taxPrice-schemeB">$0</span></p>
+                                <div class="mt-1 pt-1 border-t border-green-100 text-xs text-center">
+                                    <span class="text-gray-500">kW单价:</span>
+                                    <span class="font-semibold text-green-600" id="propB-pricePerKw-schemeB">$0</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mt-3 pt-3 border-t border-blue-200 grid grid-cols-2 gap-2 text-center">
-                            <div class="bg-white rounded p-2">
-                                <p class="text-xs text-gray-500">系统 kW 单价</p>
-                                <p class="text-sm font-bold text-blue-700" id="propB-pricePerKw">$0/kW</p>
-                            </div>
-                            <div class="bg-white rounded p-2">
-                                <p class="text-xs text-gray-500">去电池 kW 单价</p>
-                                <p class="text-sm font-bold text-blue-600" id="propB-pricePerKwNoBattery">$0/kW</p>
-                            </div>
-                        </div>
-                        <p class="text-xs text-gray-600 text-center pt-2 mt-2 border-t border-blue-200">策略：Hybrid 超配 (150%-200%)，电池吸收削峰</p>
+                        <p class="text-xs text-gray-500 text-center mb-2">补贴: <span id="propB-subsidy" class="font-semibold">$0</span></p>
+                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-blue-200">策略：Hybrid 超配 (150%-200%)，电池吸收削峰</p>
                     </div>
                 </div>
 
@@ -345,25 +365,35 @@
                         </div>
                     </div>
                     <div class="bg-green-50 p-4 border-t border-green-200">
-                        <div class="text-center mb-2">
-                            <p class="text-xs text-gray-600 mb-2">最终报价</p>
-                            <div class="flex items-baseline justify-center">
-                                <span class="text-2xl font-bold text-green-700" id="propC-finalPrice">$0</span>
-                                <span class="text-sm text-gray-500 ml-1">AUD</span>
+                        <!-- 双方案定价展示 -->
+                        <div class="grid grid-cols-2 gap-2 mb-3">
+                            <!-- 方案A定价 (线性) -->
+                            <div class="bg-blue-50 rounded-lg p-2 border border-blue-200">
+                                <p class="text-xs text-blue-600 font-semibold mb-1 text-center">定价A (线性)</p>
+                                <div class="text-center">
+                                    <span class="text-lg font-bold text-blue-700" id="propC-finalPrice-schemeA">$0</span>
+                                </div>
+                                <p class="text-xs text-gray-500 text-center">含税 <span id="propC-taxPrice-schemeA">$0</span></p>
+                                <div class="mt-1 pt-1 border-t border-blue-100 text-xs text-center">
+                                    <span class="text-gray-500">kW单价:</span>
+                                    <span class="font-semibold text-blue-600" id="propC-pricePerKw-schemeA">$0</span>
+                                </div>
                             </div>
-                            <p class="text-xs text-gray-500 mt-1">含税价 <span id="propC-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propC-subsidy" class="font-semibold">$0</span></p>
+                            <!-- 方案B定价 (基准+增量) -->
+                            <div class="bg-green-100 rounded-lg p-2 border border-green-300">
+                                <p class="text-xs text-green-600 font-semibold mb-1 text-center">定价B (套餐)</p>
+                                <div class="text-center">
+                                    <span class="text-lg font-bold text-green-700" id="propC-finalPrice-schemeB">$0</span>
+                                </div>
+                                <p class="text-xs text-gray-500 text-center">含税 <span id="propC-taxPrice-schemeB">$0</span></p>
+                                <div class="mt-1 pt-1 border-t border-green-200 text-xs text-center">
+                                    <span class="text-gray-500">kW单价:</span>
+                                    <span class="font-semibold text-green-600" id="propC-pricePerKw-schemeB">$0</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mt-3 pt-3 border-t border-green-200 grid grid-cols-2 gap-2 text-center">
-                            <div class="bg-white rounded p-2">
-                                <p class="text-xs text-gray-500">系统 kW 单价</p>
-                                <p class="text-sm font-bold text-green-700" id="propC-pricePerKw">$0/kW</p>
-                            </div>
-                            <div class="bg-white rounded p-2">
-                                <p class="text-xs text-gray-500">去电池 kW 单价</p>
-                                <p class="text-sm font-bold text-green-600" id="propC-pricePerKwNoBattery">$0/kW</p>
-                            </div>
-                        </div>
-                        <p class="text-xs text-gray-600 text-center pt-2 mt-2 border-t border-green-200">策略：6.6kW入门配置，基础储能，快速回本</p>
+                        <p class="text-xs text-gray-500 text-center mb-2">补贴: <span id="propC-subsidy" class="font-semibold">$0</span></p>
+                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-green-200">策略：6.6kW入门配置，基础储能，快速回本</p>
                     </div>
                 </div>
             </div>
@@ -1055,14 +1085,14 @@ id_0	slope	aspect	nums
             };
         }
 
-        // 成本计算函数 - 支持方案A和方案B
-        function calculateCost(pvKw, inverterKw, batteryKwh) {
-            const { scheme, params } = getCostSchemeParams();
-            
+        // 成本计算函数 - 计算指定方案的成本
+        function calculateCostByScheme(pvKw, inverterKw, batteryKwh, schemeType) {
             let pvCost, inverterCost, batteryCost, systemCost;
+            const gstRate = COST_CONFIG.gstRate;
             
-            if (scheme === 'B') {
+            if (schemeType === 'B') {
                 // 方案B: 基准+增量定价
+                const params = COST_CONFIG.schemeB || {};
                 const baseKw = params.baseKw || 6.6;
                 const basePrice = params.basePrice || 4500;
                 const adderPrice = params.adderPricePerKw || 500;
@@ -1085,11 +1115,16 @@ id_0	slope	aspect	nums
                 }
                 
                 // 方案B中，pvCost和inverterCost合并为systemCost，这里按比例拆分用于显示
-                pvCost = systemCost * 0.7;  // 假设70%为面板成本
-                inverterCost = systemCost * 0.3;  // 假设30%为逆变器成本
+                pvCost = systemCost * 0.7;
+                inverterCost = systemCost * 0.3;
                 
             } else {
-                // 方案A: 线性定价 (原有逻辑)
+                // 方案A: 线性定价
+                const params = COST_CONFIG.schemeA || {
+                    pvPerKw: COST_CONFIG.pvPerKw || 540,
+                    inverterPerKw: COST_CONFIG.inverterPerKw || 280,
+                    batteryPerKwh: COST_CONFIG.batteryPerKwh || 865
+                };
                 pvCost = pvKw * params.pvPerKw;
                 inverterCost = inverterKw * params.inverterPerKw;
                 batteryCost = batteryKwh * params.batteryPerKwh;
@@ -1097,7 +1132,7 @@ id_0	slope	aspect	nums
             }
             
             const preTaxTotal = systemCost + batteryCost;
-            const taxTotal = preTaxTotal * (1 + COST_CONFIG.gstRate);
+            const taxTotal = preTaxTotal * (1 + gstRate);
             
             return {
                 pvCost,
@@ -1106,8 +1141,22 @@ id_0	slope	aspect	nums
                 systemCost,
                 preTaxTotal,
                 taxTotal,
-                scheme
+                scheme: schemeType
             };
+        }
+        
+        // 同时计算两套方案的成本
+        function calculateCostBothSchemes(pvKw, inverterKw, batteryKwh) {
+            return {
+                schemeA: calculateCostByScheme(pvKw, inverterKw, batteryKwh, 'A'),
+                schemeB: calculateCostByScheme(pvKw, inverterKw, batteryKwh, 'B')
+            };
+        }
+        
+        // 兼容旧接口 - 根据配置选择的方案计算
+        function calculateCost(pvKw, inverterKw, batteryKwh) {
+            const scheme = COST_CONFIG.scheme || 'A';
+            return calculateCostByScheme(pvKw, inverterKw, batteryKwh, scheme);
         }
 
         // 补贴计算函数
@@ -1586,17 +1635,23 @@ id_0	slope	aspect	nums
             };
         }
 
-        // 成本推导生成函数
+        // 成本推导生成函数 - 同时展示两套定价方案
         function generateCostDerivation(planA, planB, planC, state) {
             const steps = [];
             
-            // Step 1: 成本计算
-            steps.push({
-                step: 1,
-                title: '系统成本计算',
-                desc: '根据配置计算各组件成本 (PV: $540/kW, 逆变器: $280/kW, 电池: $865/kWh)',
-                details: []
-            });
+            // 获取两套方案的参数
+            const schemeAParams = COST_CONFIG.schemeA || {
+                pvPerKw: COST_CONFIG.pvPerKw || 540,
+                inverterPerKw: COST_CONFIG.inverterPerKw || 280,
+                batteryPerKwh: COST_CONFIG.batteryPerKwh || 865
+            };
+            const schemeBParams = COST_CONFIG.schemeB || {
+                baseKw: 6.6,
+                basePrice: 4500,
+                adderPricePerKw: 500,
+                batteryInstallFee: 1500,
+                batteryPerKwh: 700
+            };
             
             const plans = [
                 { name: 'A (高端型)', data: planA, color: 'purple' },
@@ -1604,39 +1659,91 @@ id_0	slope	aspect	nums
                 { name: 'C (经济型)', data: planC, color: 'green' }
             ];
             
+            // Step 1: 定价方案A - 线性定价
+            steps.push({
+                step: 1,
+                title: '💰 定价方案A: 线性定价',
+                desc: `按组件单价计算 (PV: $${schemeAParams.pvPerKw}/kW, 逆变器: $${schemeAParams.inverterPerKw}/kW, 电池: $${schemeAParams.batteryPerKwh}/kWh)`,
+                details: []
+            });
+            
             plans.forEach(({ name, data }) => {
                 const inverterKw = parseFloat(data.inv.replace('kW Hybrid', ''));
-                const cost = calculateCost(data.totalKw, inverterKw, data.battery.standard);
+                const costA = calculateCostByScheme(data.totalKw, inverterKw, data.battery.standard, 'A');
                 
                 steps[0].details.push({
                     text: `方案${name}:`,
                     highlight: true
                 });
                 steps[0].details.push({
-                    text: `  PV: ${data.totalKw.toFixed(2)}kW × $540 = $${cost.pvCost.toFixed(2)}`
+                    text: `  PV: ${data.totalKw.toFixed(2)}kW × $${schemeAParams.pvPerKw} = $${costA.pvCost.toFixed(2)}`
                 });
                 steps[0].details.push({
-                    text: `  逆变器: ${inverterKw}kW × $280 = $${cost.inverterCost.toFixed(2)}`
+                    text: `  逆变器: ${inverterKw}kW × $${schemeAParams.inverterPerKw} = $${costA.inverterCost.toFixed(2)}`
                 });
                 steps[0].details.push({
-                    text: `  电池: ${data.battery.standard}kWh × $865 = $${cost.batteryCost.toFixed(2)}`
+                    text: `  电池: ${data.battery.standard}kWh × $${schemeAParams.batteryPerKwh} = $${costA.batteryCost.toFixed(2)}`
                 });
                 steps[0].details.push({
-                    text: `  税前总价: $${cost.preTaxTotal.toFixed(2)}`
-                });
-                steps[0].details.push({
-                    text: `  含税总价 (GST 10%): $${cost.taxTotal.toFixed(2)}`,
+                    text: `  税前总价: $${costA.preTaxTotal.toFixed(2)}, 含税 (GST 10%): $${costA.taxTotal.toFixed(2)}`,
                     success: true
                 });
             });
             
-            // Step 2: 补贴计算
+            // Step 2: 定价方案B - 基准+增量定价
+            steps.push({
+                step: 2,
+                title: '💰 定价方案B: 基准+增量定价',
+                desc: `套餐模式 (基准${schemeBParams.baseKw}kW: $${schemeBParams.basePrice}, 超额: $${schemeBParams.adderPricePerKw}/kW, 电池安装费: $${schemeBParams.batteryInstallFee}, 电池: $${schemeBParams.batteryPerKwh}/kWh)`,
+                details: []
+            });
+            
+            plans.forEach(({ name, data }) => {
+                const inverterKw = parseFloat(data.inv.replace('kW Hybrid', ''));
+                const costB = calculateCostByScheme(data.totalKw, inverterKw, data.battery.standard, 'B');
+                const pvKw = data.totalKw;
+                const baseKw = schemeBParams.baseKw;
+                
+                steps[1].details.push({
+                    text: `方案${name}:`,
+                    highlight: true
+                });
+                
+                // 光伏系统计算
+                if (pvKw <= baseKw) {
+                    const pvSystemCost = (pvKw / baseKw) * schemeBParams.basePrice;
+                    steps[1].details.push({
+                        text: `  光伏系统: (${pvKw.toFixed(2)}kW ÷ ${baseKw}kW) × $${schemeBParams.basePrice} = $${pvSystemCost.toFixed(2)}`
+                    });
+                } else {
+                    const extraKw = pvKw - baseKw;
+                    const pvSystemCost = schemeBParams.basePrice + (extraKw * schemeBParams.adderPricePerKw);
+                    steps[1].details.push({
+                        text: `  光伏系统: $${schemeBParams.basePrice} + (${extraKw.toFixed(2)}kW × $${schemeBParams.adderPricePerKw}) = $${pvSystemCost.toFixed(2)}`
+                    });
+                }
+                
+                // 电池计算
+                if (data.battery.standard > 0) {
+                    const batterySystemCost = schemeBParams.batteryInstallFee + (data.battery.standard * schemeBParams.batteryPerKwh);
+                    steps[1].details.push({
+                        text: `  储能系统: $${schemeBParams.batteryInstallFee} + (${data.battery.standard}kWh × $${schemeBParams.batteryPerKwh}) = $${batterySystemCost.toFixed(2)}`
+                    });
+                }
+                
+                steps[1].details.push({
+                    text: `  税前总价: $${costB.preTaxTotal.toFixed(2)}, 含税 (GST 10%): $${costB.taxTotal.toFixed(2)}`,
+                    success: true
+                });
+            });
+            
+            // Step 3: 补贴计算 (两套方案共用)
             const deemingPeriod = SUBSIDY_CONFIG.deemingEndYear - SUBSIDY_CONFIG.installYear + 1;
             const zoneRating = SUBSIDY_CONFIG.zoneRating[state];
             
             steps.push({
-                step: 2,
-                title: 'STC补贴计算',
+                step: 3,
+                title: '🎁 STC补贴计算 (两套方案共用)',
                 desc: `Deeming Period: ${deemingPeriod}年 (${SUBSIDY_CONFIG.installYear}-${SUBSIDY_CONFIG.deemingEndYear}), Zone Rating (${state}): ${zoneRating}, DoD: ${BATTERY_PARAMS.dod}`,
                 details: []
             });
@@ -1644,97 +1751,93 @@ id_0	slope	aspect	nums
             plans.forEach(({ name, data }) => {
                 const subsidy = calculateSubsidy(data.totalKw, data.battery.standard, state);
                 
-                steps[1].details.push({
+                steps[2].details.push({
                     text: `方案${name}:`,
                     highlight: true
                 });
-                steps[1].details.push({
+                steps[2].details.push({
                     text: `  PV STC = FLOOR(${data.totalKw.toFixed(2)} × ${zoneRating} × ${deemingPeriod}) = ${subsidy.pvStc} STC`
                 });
-                steps[1].details.push({
+                steps[2].details.push({
                     text: `  电池可用容量 = ${data.battery.standard}kWh × ${BATTERY_PARAMS.dod} = ${subsidy.usableCapacity}kWh`
                 });
-                steps[1].details.push({
+                steps[2].details.push({
                     text: `  Battery STC = FLOOR(${subsidy.usableCapacity} × ${SUBSIDY_CONFIG.batteryStcFactor}) = ${subsidy.batteryStc} STC`
                 });
-                steps[1].details.push({
-                    text: `  总STC = ${subsidy.pvStc} + ${subsidy.batteryStc} = ${subsidy.totalStc} STC`
-                });
-                steps[1].details.push({
-                    text: `  补贴金额 = ${subsidy.totalStc} × $${SUBSIDY_CONFIG.stcPrice} = $${subsidy.subsidyAmount.toFixed(2)}`,
+                steps[2].details.push({
+                    text: `  总补贴 = ${subsidy.totalStc} STC × $${SUBSIDY_CONFIG.stcPrice} = $${subsidy.subsidyAmount.toFixed(2)}`,
                     success: true
                 });
             });
             
-            // Step 3: 最终报价
+            // Step 4: 最终报价对比
             steps.push({
-                step: 3,
-                title: '最终客户报价',
-                desc: '含税价 - STC补贴 = 客户实付',
+                step: 4,
+                title: '📊 最终报价对比 (含税价 - 补贴)',
+                desc: '两套定价方案的最终客户报价对比',
                 details: []
             });
             
             plans.forEach(({ name, data }) => {
                 const inverterKw = parseFloat(data.inv.replace('kW Hybrid', ''));
-                const cost = calculateCost(data.totalKw, inverterKw, data.battery.standard);
+                const costA = calculateCostByScheme(data.totalKw, inverterKw, data.battery.standard, 'A');
+                const costB = calculateCostByScheme(data.totalKw, inverterKw, data.battery.standard, 'B');
                 const subsidy = calculateSubsidy(data.totalKw, data.battery.standard, state);
-                const finalPrice = cost.taxTotal - subsidy.subsidyAmount;
-                
-                steps[2].details.push({
-                    text: `方案${name}: $${cost.taxTotal.toFixed(2)} - $${subsidy.subsidyAmount.toFixed(2)} = $${finalPrice.toFixed(2)}`,
-                    highlight: true,
-                    success: true
-                });
-            });
-            
-            // Step 4: kW 单价计算
-            steps.push({
-                step: 4,
-                title: 'kW 单价计算',
-                desc: '以光伏容量(kW)为基准，计算系统单价和去电池单价',
-                details: []
-            });
-            
-            plans.forEach(({ name, data, color }) => {
-                const inverterKw = parseFloat(data.inv.replace('kW Hybrid', ''));
-                const cost = calculateCost(data.totalKw, inverterKw, data.battery.standard);
-                const subsidy = calculateSubsidy(data.totalKw, data.battery.standard, state);
-                const finalPrice = cost.taxTotal - subsidy.subsidyAmount;
-                const pvKw = data.totalKw;
+                const finalPriceA = costA.taxTotal - subsidy.subsidyAmount;
+                const finalPriceB = costB.taxTotal - subsidy.subsidyAmount;
+                const diff = finalPriceA - finalPriceB;
                 
                 steps[3].details.push({
                     text: `方案${name}:`,
                     highlight: true
                 });
+                steps[3].details.push({
+                    text: `  定价A (线性): $${costA.taxTotal.toFixed(2)} - $${subsidy.subsidyAmount.toFixed(2)} = $${finalPriceA.toFixed(2)}`
+                });
+                steps[3].details.push({
+                    text: `  定价B (套餐): $${costB.taxTotal.toFixed(2)} - $${subsidy.subsidyAmount.toFixed(2)} = $${finalPriceB.toFixed(2)}`
+                });
+                steps[3].details.push({
+                    text: `  差异: ${diff > 0 ? '定价B便宜 $' + diff.toFixed(2) : diff < 0 ? '定价A便宜 $' + Math.abs(diff).toFixed(2) : '价格相同'}`,
+                    success: true
+                });
+            });
+            
+            // Step 5: kW 单价对比
+            steps.push({
+                step: 5,
+                title: '📈 kW 单价对比',
+                desc: '以光伏容量(kW)为基准，计算两套方案的系统单价',
+                details: []
+            });
+            
+            plans.forEach(({ name, data }) => {
+                const inverterKw = parseFloat(data.inv.replace('kW Hybrid', ''));
+                const costA = calculateCostByScheme(data.totalKw, inverterKw, data.battery.standard, 'A');
+                const costB = calculateCostByScheme(data.totalKw, inverterKw, data.battery.standard, 'B');
+                const subsidy = calculateSubsidy(data.totalKw, data.battery.standard, state);
+                const finalPriceA = costA.taxTotal - subsidy.subsidyAmount;
+                const finalPriceB = costB.taxTotal - subsidy.subsidyAmount;
+                const pvKw = data.totalKw;
+                
+                steps[4].details.push({
+                    text: `方案${name} (${pvKw.toFixed(2)}kW):`,
+                    highlight: true
+                });
                 
                 if (pvKw > 0) {
-                    // 系统 kW 单价
-                    const pricePerKw = finalPrice / pvKw;
-                    steps[3].details.push({
-                        text: `  系统 kW 单价 = $${finalPrice.toFixed(2)} ÷ ${pvKw.toFixed(2)}kW = $${pricePerKw.toFixed(2)}/kW`
-                    });
+                    const pricePerKwA = finalPriceA / pvKw;
+                    const pricePerKwB = finalPriceB / pvKw;
                     
-                    // 去电池 kW 单价计算过程
-                    const costNoBattery = (cost.pvCost + cost.inverterCost) * (1 + COST_CONFIG.gstRate);
-                    const subsidyNoBattery = subsidy.pvStc * SUBSIDY_CONFIG.stcPrice;
-                    const finalPriceNoBattery = costNoBattery - subsidyNoBattery;
-                    const pricePerKwNoBattery = finalPriceNoBattery / pvKw;
-                    
-                    steps[3].details.push({
-                        text: `  去电池成本 = (PV $${cost.pvCost.toFixed(2)} + 逆变器 $${cost.inverterCost.toFixed(2)}) × 1.1 = $${costNoBattery.toFixed(2)}`
+                    steps[4].details.push({
+                        text: `  定价A kW单价: $${finalPriceA.toFixed(2)} ÷ ${pvKw.toFixed(2)}kW = $${pricePerKwA.toFixed(2)}/kW`
                     });
-                    steps[3].details.push({
-                        text: `  去电池补贴 = ${subsidy.pvStc} STC × $${SUBSIDY_CONFIG.stcPrice} = $${subsidyNoBattery.toFixed(2)}`
-                    });
-                    steps[3].details.push({
-                        text: `  去电池最终价 = $${costNoBattery.toFixed(2)} - $${subsidyNoBattery.toFixed(2)} = $${finalPriceNoBattery.toFixed(2)}`
-                    });
-                    steps[3].details.push({
-                        text: `  去电池 kW 单价 = $${finalPriceNoBattery.toFixed(2)} ÷ ${pvKw.toFixed(2)}kW = $${pricePerKwNoBattery.toFixed(2)}/kW`,
+                    steps[4].details.push({
+                        text: `  定价B kW单价: $${finalPriceB.toFixed(2)} ÷ ${pvKw.toFixed(2)}kW = $${pricePerKwB.toFixed(2)}/kW`,
                         success: true
                     });
                 } else {
-                    steps[3].details.push({
+                    steps[4].details.push({
                         text: `  无可用光伏容量，无法计算单价`,
                         warning: true
                     });
@@ -2008,38 +2111,44 @@ id_0	slope	aspect	nums
             else if (r < 110) ratioSpan.className = "font-semibold text-gray-500";
             else ratioSpan.className = "font-semibold text-green-600";
             
-            // 计算并更新价格信息
+            // 计算并更新价格信息 - 同时计算两套方案
             const state = AppData.currentState;
             const inverterKw = parseFloat(planData.inv.replace('kW Hybrid', ''));
-            const cost = calculateCost(planData.totalKw, inverterKw, planData.battery.standard);
-            const subsidy = calculateSubsidy(planData.totalKw, planData.battery.standard, state);
-            const finalPrice = cost.taxTotal - subsidy.subsidyAmount;
+            const pvKw = planData.totalKw;
+            const batteryKwh = planData.battery.standard;
+            
+            // 同时计算两套成本方案
+            const costs = calculateCostBothSchemes(pvKw, inverterKw, batteryKwh);
+            const subsidy = calculateSubsidy(pvKw, batteryKwh, state);
             
             // 格式化价格（添加千位分隔符）
             const formatPrice = (price) => '$' + Math.round(price).toLocaleString('en-US');
             
-            document.getElementById(`${prefix}-finalPrice`).textContent = formatPrice(finalPrice);
-            document.getElementById(`${prefix}-taxPrice`).textContent = formatPrice(cost.taxTotal);
+            // 更新补贴（两套方案共用）
             document.getElementById(`${prefix}-subsidy`).textContent = formatPrice(subsidy.subsidyAmount);
             
+            // 更新方案A定价 (线性)
+            const finalPriceA = costs.schemeA.taxTotal - subsidy.subsidyAmount;
+            document.getElementById(`${prefix}-finalPrice-schemeA`).textContent = formatPrice(finalPriceA);
+            document.getElementById(`${prefix}-taxPrice-schemeA`).textContent = formatPrice(costs.schemeA.taxTotal);
+            
+            // 更新方案B定价 (基准+增量)
+            const finalPriceB = costs.schemeB.taxTotal - subsidy.subsidyAmount;
+            document.getElementById(`${prefix}-finalPrice-schemeB`).textContent = formatPrice(finalPriceB);
+            document.getElementById(`${prefix}-taxPrice-schemeB`).textContent = formatPrice(costs.schemeB.taxTotal);
+            
             // 计算 kW 单价
-            const pvKw = planData.totalKw;
             if (pvKw > 0) {
-                // 系统最终报价的 kW 单价（以光伏容量为基准）
-                const pricePerKw = finalPrice / pvKw;
-                document.getElementById(`${prefix}-pricePerKw`).textContent = formatPrice(pricePerKw) + '/kW';
+                // 方案A kW单价
+                const pricePerKwA = finalPriceA / pvKw;
+                document.getElementById(`${prefix}-pricePerKw-schemeA`).textContent = formatPrice(pricePerKwA);
                 
-                // 去除电池后的 kW 单价（不考虑电池成本和电池补贴）
-                // 计算去电池成本：税前总价 - 电池成本，然后加税
-                const costNoBattery = (cost.pvCost + cost.inverterCost) * (1 + COST_CONFIG.gstRate);
-                // 计算去电池补贴：只有 PV STC
-                const subsidyNoBattery = subsidy.pvStc * SUBSIDY_CONFIG.stcPrice;
-                const finalPriceNoBattery = costNoBattery - subsidyNoBattery;
-                const pricePerKwNoBattery = finalPriceNoBattery / pvKw;
-                document.getElementById(`${prefix}-pricePerKwNoBattery`).textContent = formatPrice(pricePerKwNoBattery) + '/kW';
+                // 方案B kW单价
+                const pricePerKwB = finalPriceB / pvKw;
+                document.getElementById(`${prefix}-pricePerKw-schemeB`).textContent = formatPrice(pricePerKwB);
             } else {
-                document.getElementById(`${prefix}-pricePerKw`).textContent = 'N/A';
-                document.getElementById(`${prefix}-pricePerKwNoBattery`).textContent = 'N/A';
+                document.getElementById(`${prefix}-pricePerKw-schemeA`).textContent = 'N/A';
+                document.getElementById(`${prefix}-pricePerKw-schemeB`).textContent = 'N/A';
             }
         }
 
