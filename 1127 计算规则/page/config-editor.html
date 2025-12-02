@@ -442,43 +442,137 @@
                     <h2 class="text-xl font-bold mb-4">成本计算参数</h2>
                     <p class="text-gray-600 mb-4">配置系统各组件的单价和税率</p>
                     
-                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
-                        <h3 class="font-semibold text-blue-900 mb-2">成本计算公式</h3>
-                        <div class="text-sm text-blue-800 space-y-1">
-                            <p><strong>税前报价</strong> = PV容量(kW) × 每kW面板报价 + 逆变器功率(kW) × 每kW逆变器报价 + 电池容量(kWh) × 每kWh电池报价</p>
-                            <p><strong>含税报价</strong> = 税前报价 × (1 + GST税率)</p>
+                    <!-- 方案选择 -->
+                    <div class="mb-6 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-200">
+                        <h3 class="font-semibold text-blue-900 mb-3 flex items-center">
+                            <span class="text-xl mr-2">💰</span>
+                            成本计算方案选择
+                        </h3>
+                        <div class="flex items-center space-x-6">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="cost-scheme" id="cost-scheme-a" value="A" checked class="w-4 h-4 text-blue-600">
+                                <span class="ml-2 font-medium">方案 A: 线性定价</span>
+                                <span class="ml-2 text-xs text-gray-500">(原有方案，按组件单价计算)</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="cost-scheme" id="cost-scheme-b" value="B" class="w-4 h-4 text-blue-600">
+                                <span class="ml-2 font-medium">方案 B: 基准+增量定价</span>
+                                <span class="ml-2 text-xs text-gray-500">(新方案，边际成本递减)</span>
+                            </label>
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-6">
-                        <div>
-                            <label class="block text-sm font-medium mb-1">每kW面板税前报价 (AUD/kW)</label>
-                            <input type="number" id="cost-pv-per-kw" class="w-full border rounded p-2" value="540">
-                            <p class="text-xs text-gray-500 mt-1">PV系统单价（包含组件、支架、安装）</p>
+                    <!-- 方案A: 线性定价 -->
+                    <div id="cost-scheme-a-panel" class="mb-6 p-4 bg-white rounded-lg border-2 border-blue-300">
+                        <h3 class="text-lg font-semibold mb-3 text-blue-700 flex items-center">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">方案 A</span>
+                            线性定价模式
+                        </h3>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 mb-4 text-sm">
+                            <p class="text-blue-800"><strong>计算公式：</strong>税前报价 = PV容量×面板单价 + 逆变器功率×逆变器单价 + 电池容量×电池单价</p>
                         </div>
-                        <div>
-                            <label class="block text-sm font-medium mb-1">每kW逆变器报价 (AUD/kW)</label>
-                            <input type="number" id="cost-inverter-per-kw" class="w-full border rounded p-2" value="280">
-                            <p class="text-xs text-gray-500 mt-1">逆变器单价（包含设备、安装）</p>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">每kW面板税前报价 (AUD/kW)</label>
+                                <input type="number" id="cost-pv-per-kw" class="w-full border rounded p-2" value="540">
+                                <p class="text-xs text-gray-500 mt-1">PV系统单价（包含组件、支架、安装）</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">每kW逆变器报价 (AUD/kW)</label>
+                                <input type="number" id="cost-inverter-per-kw" class="w-full border rounded p-2" value="280">
+                                <p class="text-xs text-gray-500 mt-1">逆变器单价（包含设备、安装）</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">每kWh电池报价 (AUD/kWh)</label>
+                                <input type="number" id="cost-battery-per-kwh" class="w-full border rounded p-2" value="865">
+                                <p class="text-xs text-gray-500 mt-1">电池储能单价（基于标称容量）</p>
+                            </div>
                         </div>
-                        <div>
-                            <label class="block text-sm font-medium mb-1">每kWh电池报价 (AUD/kWh)</label>
-                            <input type="number" id="cost-battery-per-kwh" class="w-full border rounded p-2" value="865">
-                            <p class="text-xs text-gray-500 mt-1">电池储能单价（基于标称容量）</p>
+                        <div class="mt-4 bg-gray-50 p-3 rounded text-sm">
+                            <p class="font-medium mb-1">示例: 6.6kW PV + 5kW逆变器 + 6.5kWh电池</p>
+                            <p class="text-gray-600">税前 = 6.6×540 + 5×280 + 6.5×865 = <strong>10,586.5 AUD</strong></p>
                         </div>
-                        <div>
+                    </div>
+
+                    <!-- 方案B: 基准+增量定价 -->
+                    <div id="cost-scheme-b-panel" class="mb-6 p-4 bg-white rounded-lg border-2 border-green-300 hidden">
+                        <h3 class="text-lg font-semibold mb-3 text-green-700 flex items-center">
+                            <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">方案 B</span>
+                            基准+增量定价模式
+                        </h3>
+                        <div class="bg-green-50 border-l-4 border-green-500 p-3 mb-4 text-sm">
+                            <p class="text-green-800 mb-1"><strong>核心思路：</strong>从"零件组装"转变为"套餐扩展"，边际成本递减</p>
+                            <p class="text-green-700">光伏系统 = 基准价 + (超额kW × 增量单价) | 储能系统 = 安装费 + (容量 × 单价)</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-6">
+                            <!-- 光伏系统配置 -->
+                            <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                                <h4 class="font-semibold text-yellow-800 mb-3">☀️ 光伏系统配置</h4>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">基准系统容量 (kW)</label>
+                                        <input type="number" step="0.1" id="cost-b-base-kw" class="w-full border rounded p-2" value="6.6">
+                                        <p class="text-xs text-gray-500 mt-1">标准套餐容量，通常为6.6kW</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">基准系统售价 (AUD)</label>
+                                        <input type="number" id="cost-b-base-price" class="w-full border rounded p-2" value="4500">
+                                        <p class="text-xs text-gray-500 mt-1">6.6kW系统总价（含面板+逆变器+安装）不含GST</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">超额每kW单价 (AUD/kW)</label>
+                                        <input type="number" id="cost-b-adder-price" class="w-full border rounded p-2" value="500">
+                                        <p class="text-xs text-gray-500 mt-1">超过基准容量后，每增加1kW的费用</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 储能系统配置 -->
+                            <div class="bg-purple-50 p-4 rounded-lg border border-purple-200">
+                                <h4 class="font-semibold text-purple-800 mb-3">🔋 储能系统配置</h4>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">储能基础安装费 (AUD)</label>
+                                        <input type="number" id="cost-b-battery-install" class="w-full border rounded p-2" value="1500">
+                                        <p class="text-xs text-gray-500 mt-1">一次性安装费（人工、配电箱改造）</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">电池容量单价 (AUD/kWh)</label>
+                                        <input type="number" id="cost-b-battery-per-kwh" class="w-full border rounded p-2" value="700">
+                                        <p class="text-xs text-gray-500 mt-1">电池硬件本身的单价</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-gray-50 p-3 rounded text-sm">
+                            <p class="font-medium mb-2">方案B计算示例对比:</p>
+                            <table class="w-full text-xs">
+                                <thead class="bg-gray-200">
+                                    <tr>
+                                        <th class="p-1 text-left">系统容量</th>
+                                        <th class="p-1 text-right">方案A (线性)</th>
+                                        <th class="p-1 text-right">方案B (基准+增量)</th>
+                                        <th class="p-1 text-right">差异</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="p-1">6.6 kW</td><td class="p-1 text-right">$5,412</td><td class="p-1 text-right">$4,500</td><td class="p-1 text-right text-green-600">-$912</td></tr>
+                                    <tr><td class="p-1">10 kW</td><td class="p-1 text-right">$8,200</td><td class="p-1 text-right">$6,200</td><td class="p-1 text-right text-green-600">-$2,000</td></tr>
+                                    <tr><td class="p-1">13.2 kW</td><td class="p-1 text-right">$10,824</td><td class="p-1 text-right">$7,800</td><td class="p-1 text-right text-green-600">-$3,024</td></tr>
+                                </tbody>
+                            </table>
+                            <p class="text-gray-500 mt-2 italic">* 以上仅为光伏系统价格对比，不含电池和GST</p>
+                        </div>
+                    </div>
+
+                    <!-- GST税率 (两个方案共用) -->
+                    <div class="p-4 bg-gray-100 rounded-lg">
+                        <div class="w-1/3">
                             <label class="block text-sm font-medium mb-1">GST税率</label>
                             <input type="number" step="0.01" id="cost-gst-rate" class="w-full border rounded p-2" value="0.1">
                             <p class="text-xs text-gray-500 mt-1">澳洲商品及服务税（默认10%）</p>
-                        </div>
-                    </div>
-
-                    <div class="mt-6 bg-gray-50 p-4 rounded">
-                        <h3 class="font-semibold mb-2">示例计算</h3>
-                        <div class="text-sm text-gray-700 space-y-1">
-                            <p>假设: 6.6kW PV + 5kW逆变器 + 6.5kWh电池</p>
-                            <p>税前 = 6.6×540 + 5×280 + 6.5×865 = 3,564 + 1,400 + 5,622.5 = <strong>10,586.5 AUD</strong></p>
-                            <p>含税 = 10,586.5 × 1.1 = <strong>11,645.15 AUD</strong></p>
                         </div>
                     </div>
                 </div>
@@ -686,6 +780,23 @@
             });
         });
 
+        // 成本方案切换
+        document.querySelectorAll('input[name="cost-scheme"]').forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                const scheme = e.target.value;
+                const panelA = document.getElementById('cost-scheme-a-panel');
+                const panelB = document.getElementById('cost-scheme-b-panel');
+                
+                if (scheme === 'A') {
+                    panelA.classList.remove('hidden');
+                    panelB.classList.add('hidden');
+                } else {
+                    panelA.classList.add('hidden');
+                    panelB.classList.remove('hidden');
+                }
+            });
+        });
+
         // 收集配置
         function collectConfig() {
             return {
@@ -763,9 +874,19 @@
                     WA: parseInt(document.getElementById('consumption-WA').value)
                 },
                 cost: {
-                    pvPerKw: parseFloat(document.getElementById('cost-pv-per-kw').value),
-                    inverterPerKw: parseFloat(document.getElementById('cost-inverter-per-kw').value),
-                    batteryPerKwh: parseFloat(document.getElementById('cost-battery-per-kwh').value),
+                    scheme: document.querySelector('input[name="cost-scheme"]:checked').value,
+                    schemeA: {
+                        pvPerKw: parseFloat(document.getElementById('cost-pv-per-kw').value),
+                        inverterPerKw: parseFloat(document.getElementById('cost-inverter-per-kw').value),
+                        batteryPerKwh: parseFloat(document.getElementById('cost-battery-per-kwh').value)
+                    },
+                    schemeB: {
+                        baseKw: parseFloat(document.getElementById('cost-b-base-kw').value),
+                        basePrice: parseFloat(document.getElementById('cost-b-base-price').value),
+                        adderPricePerKw: parseFloat(document.getElementById('cost-b-adder-price').value),
+                        batteryInstallFee: parseFloat(document.getElementById('cost-b-battery-install').value),
+                        batteryPerKwh: parseFloat(document.getElementById('cost-b-battery-per-kwh').value)
+                    },
                     gstRate: parseFloat(document.getElementById('cost-gst-rate').value)
                 },
                 subsidy: {
@@ -867,9 +988,42 @@
             });
             
             // 成本配置
-            document.getElementById('cost-pv-per-kw').value = config.cost.pvPerKw;
-            document.getElementById('cost-inverter-per-kw').value = config.cost.inverterPerKw;
-            document.getElementById('cost-battery-per-kwh').value = config.cost.batteryPerKwh;
+            // 方案选择
+            const scheme = config.cost.scheme || 'A';
+            document.getElementById('cost-scheme-a').checked = (scheme === 'A');
+            document.getElementById('cost-scheme-b').checked = (scheme === 'B');
+            // 切换面板显示
+            const panelA = document.getElementById('cost-scheme-a-panel');
+            const panelB = document.getElementById('cost-scheme-b-panel');
+            if (scheme === 'A') {
+                panelA.classList.remove('hidden');
+                panelB.classList.add('hidden');
+            } else {
+                panelA.classList.add('hidden');
+                panelB.classList.remove('hidden');
+            }
+            
+            // 方案A配置 (兼容旧格式)
+            if (config.cost.schemeA) {
+                document.getElementById('cost-pv-per-kw').value = config.cost.schemeA.pvPerKw;
+                document.getElementById('cost-inverter-per-kw').value = config.cost.schemeA.inverterPerKw;
+                document.getElementById('cost-battery-per-kwh').value = config.cost.schemeA.batteryPerKwh;
+            } else if (config.cost.pvPerKw !== undefined) {
+                // 兼容旧格式
+                document.getElementById('cost-pv-per-kw').value = config.cost.pvPerKw;
+                document.getElementById('cost-inverter-per-kw').value = config.cost.inverterPerKw;
+                document.getElementById('cost-battery-per-kwh').value = config.cost.batteryPerKwh;
+            }
+            
+            // 方案B配置
+            if (config.cost.schemeB) {
+                document.getElementById('cost-b-base-kw').value = config.cost.schemeB.baseKw || 6.6;
+                document.getElementById('cost-b-base-price').value = config.cost.schemeB.basePrice || 4500;
+                document.getElementById('cost-b-adder-price').value = config.cost.schemeB.adderPricePerKw || 500;
+                document.getElementById('cost-b-battery-install').value = config.cost.schemeB.batteryInstallFee || 1500;
+                document.getElementById('cost-b-battery-per-kwh').value = config.cost.schemeB.batteryPerKwh || 700;
+            }
+            
             document.getElementById('cost-gst-rate').value = config.cost.gstRate;
             
             // 补贴配置

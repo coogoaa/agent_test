@@ -63,9 +63,24 @@ const DEFAULT_CONFIG = {
         VIC: 6778
     },
     cost: {
-        pvPerKw: 540,
-        inverterPerKw: 280,
-        batteryPerKwh: 865,
+        // 成本计算方案选择: 'A' = 线性方案, 'B' = 基准+增量方案
+        scheme: 'A',
+        // 方案A: 线性定价 (原有方案)
+        schemeA: {
+            pvPerKw: 540,
+            inverterPerKw: 280,
+            batteryPerKwh: 865
+        },
+        // 方案B: 基准+增量定价 (新方案)
+        schemeB: {
+            // 光伏系统配置
+            baseKw: 6.6,              // 基准系统容量 (kW)
+            basePrice: 4500,          // 6.6kW基准系统售价 (不含GST)
+            adderPricePerKw: 500,     // 超额每kW单价
+            // 储能系统配置
+            batteryInstallFee: 1500,  // 储能基础安装费
+            batteryPerKwh: 700        // 电池容量单价 (每kWh)
+        },
         gstRate: 0.1
     },
     subsidy: {

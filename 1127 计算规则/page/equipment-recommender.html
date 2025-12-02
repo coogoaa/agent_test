@@ -742,6 +742,27 @@ id_0	slope	aspect	nums
 
         // 成本参数配置 - 从配置加载
         const COST_CONFIG = CONFIG.cost;
+        
+        // 获取当前成本方案的参数
+        function getCostSchemeParams() {
+            const scheme = COST_CONFIG.scheme || 'A';
+            if (scheme === 'B' && COST_CONFIG.schemeB) {
+                return { scheme: 'B', params: COST_CONFIG.schemeB };
+            }
+            // 方案A或兼容旧格式
+            if (COST_CONFIG.schemeA) {
+                return { scheme: 'A', params: COST_CONFIG.schemeA };
+            }
+            // 兼容旧格式
+            return { 
+                scheme: 'A', 
+                params: {
+                    pvPerKw: COST_CONFIG.pvPerKw,
+                    inverterPerKw: COST_CONFIG.inverterPerKw,
+                    batteryPerKwh: COST_CONFIG.batteryPerKwh
+                }
+            };
+        }
 
         // 电池硬件参数 - 从配置加载
         const BATTERY_PARAMS = {
@@ -1034,21 +1055,58 @@ id_0	slope	aspect	nums
             };
         }
 
-        // 成本计算函数
+        // 成本计算函数 - 支持方案A和方案B
         function calculateCost(pvKw, inverterKw, batteryKwh) {
-            const pvCost = pvKw * COST_CONFIG.pvPerKw;
-            const inverterCost = inverterKw * COST_CONFIG.inverterPerKw;
-            const batteryCost = batteryKwh * COST_CONFIG.batteryPerKwh;
+            const { scheme, params } = getCostSchemeParams();
             
-            const preTaxTotal = pvCost + inverterCost + batteryCost;
+            let pvCost, inverterCost, batteryCost, systemCost;
+            
+            if (scheme === 'B') {
+                // 方案B: 基准+增量定价
+                const baseKw = params.baseKw || 6.6;
+                const basePrice = params.basePrice || 4500;
+                const adderPrice = params.adderPricePerKw || 500;
+                const batteryInstallFee = params.batteryInstallFee || 1500;
+                const batteryUnitCost = params.batteryPerKwh || 700;
+                
+                // 光伏系统价格 (包含逆变器)
+                if (pvKw <= baseKw) {
+                    systemCost = (pvKw / baseKw) * basePrice;
+                } else {
+                    const extraKw = pvKw - baseKw;
+                    systemCost = basePrice + (extraKw * adderPrice);
+                }
+                
+                // 电池价格
+                if (batteryKwh > 0) {
+                    batteryCost = batteryInstallFee + (batteryKwh * batteryUnitCost);
+                } else {
+                    batteryCost = 0;
+                }
+                
+                // 方案B中，pvCost和inverterCost合并为systemCost，这里按比例拆分用于显示
+                pvCost = systemCost * 0.7;  // 假设70%为面板成本
+                inverterCost = systemCost * 0.3;  // 假设30%为逆变器成本
+                
+            } else {
+                // 方案A: 线性定价 (原有逻辑)
+                pvCost = pvKw * params.pvPerKw;
+                inverterCost = inverterKw * params.inverterPerKw;
+                batteryCost = batteryKwh * params.batteryPerKwh;
+                systemCost = pvCost + inverterCost;
+            }
+            
+            const preTaxTotal = systemCost + batteryCost;
             const taxTotal = preTaxTotal * (1 + COST_CONFIG.gstRate);
             
             return {
                 pvCost,
                 inverterCost,
                 batteryCost,
+                systemCost,
                 preTaxTotal,
-                taxTotal
+                taxTotal,
+                scheme
             };
         }
 
