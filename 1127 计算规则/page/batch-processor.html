@@ -275,6 +275,17 @@
         }
 
         function createPlanResult(typeLabel, result, inverterInfo, battery, cost, subsidy, finalPrice) {
+            const pvKw = result.totalKw;
+            
+            // 计算系统 kW 单价
+            const pricePerKw = pvKw > 0 ? finalPrice / pvKw : 0;
+            
+            // 计算去电池 kW 单价
+            const costNoBattery = (cost.pvCost + cost.inverterCost) * (1 + COST_CONFIG.gstRate);
+            const subsidyNoBattery = subsidy.pvStc * SUBSIDY_CONFIG.stcPrice;
+            const finalPriceNoBattery = costNoBattery - subsidyNoBattery;
+            const pricePerKwNoBattery = pvKw > 0 ? finalPriceNoBattery / pvKw : 0;
+            
             return {
                 type: typeLabel,
                 pvKw_value: result.totalKw,
@@ -295,6 +306,10 @@
                 subsidy_unit: 'AUD',
                 finalPrice_value: Math.round(finalPrice),
                 finalPrice_unit: 'AUD',
+                pricePerKw_value: Math.round(pricePerKw),
+                pricePerKw_unit: 'AUD/kW',
+                pricePerKwNoBattery_value: Math.round(pricePerKwNoBattery),
+                pricePerKwNoBattery_unit: 'AUD/kW',
                 usedPlanes: result.usedPlanes ? result.usedPlanes.length : 0
             };
         }
@@ -578,6 +593,8 @@
             html += '<th class="border p-2 bg-blue-100">含税价</th>';
             html += '<th class="border p-2 bg-green-100">补贴</th>';
             html += '<th class="border p-2 bg-yellow-100">最终报价</th>';
+            html += '<th class="border p-2 bg-purple-100">系统kW单价</th>';
+            html += '<th class="border p-2 bg-orange-100">去电池kW单价</th>';
             html += '</tr></thead><tbody>';
             
             allResults.forEach(r => {
@@ -596,6 +613,8 @@
                     html += `<td class="border p-2 bg-blue-50">$${p.taxTotal_value ? p.taxTotal_value.toLocaleString() : '0'}</td>`;
                     html += `<td class="border p-2 bg-green-50">$${p.subsidy_value ? p.subsidy_value.toLocaleString() : '0'}</td>`;
                     html += `<td class="border p-2 bg-yellow-50 font-bold">$${p.finalPrice_value ? p.finalPrice_value.toLocaleString() : '0'}</td>`;
+                    html += `<td class="border p-2 bg-purple-50">$${p.pricePerKw_value ? p.pricePerKw_value.toLocaleString() : '0'}/kW</td>`;
+                    html += `<td class="border p-2 bg-orange-50">$${p.pricePerKwNoBattery_value ? p.pricePerKwNoBattery_value.toLocaleString() : '0'}/kW</td>`;
                     html += `</tr>`;
                 });
             });
@@ -620,6 +639,7 @@
             csv += '逆变器原始功率(数值),逆变器最终功率(数值),逆变器单位,逆变器说明,容配比(数值),容配比单位,';
             csv += '电池容量(数值),电池单位,';
             csv += '含税价(数值),含税价单位,补贴(数值),补贴单位,最终报价(数值),最终报价单位,';
+            csv += '系统kW单价(数值),系统kW单价单位,去电池kW单价(数值),去电池kW单价单位,';
             csv += '使用坡面数\n';
             
             allResults.forEach(r => {
@@ -630,6 +650,7 @@
                     csv += `${p.inverter_raw_value ?? 'N/A'},${p.inverter_value ?? 'N/A'},${p.inverter_unit || 'kW'},"${(p.inverter_detail || '').replace(/"/g, '""')}",${p.ratio_value || 0},${p.ratio_unit || '%'},`;
                     csv += `${p.battery_value ? p.battery_value.toFixed(1) : '0.0'},${p.battery_unit || 'kWh'},`;
                     csv += `${p.taxTotal_value || 0},${p.taxTotal_unit || 'AUD'},${p.subsidy_value || 0},${p.subsidy_unit || 'AUD'},${p.finalPrice_value || 0},${p.finalPrice_unit || 'AUD'},`;
+                    csv += `${p.pricePerKw_value || 0},${p.pricePerKw_unit || 'AUD/kW'},${p.pricePerKwNoBattery_value || 0},${p.pricePerKwNoBattery_unit || 'AUD/kW'},`;
                     csv += `${p.usedPlanes || 0}\n`;
                 });
             });

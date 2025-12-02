@@ -16,7 +16,7 @@ const DEFAULT_CONFIG = {
         standards: [5, 6.5, 9.6, 10, 13.5, 16, 20],
         useStandards: true,  // 是否使用标准电池规格标准化
         dod: 0.9,    // Depth of Discharge (放电深度)
-        rte: 0.9     // Round Trip Efficiency (往返效率)
+        rte: 0.95    // Round Trip Efficiency (往返效率)
     },
     inverter: {
         single: {

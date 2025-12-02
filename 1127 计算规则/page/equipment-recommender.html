@@ -220,7 +220,17 @@
                             </div>
                             <p class="text-xs text-gray-500 mt-1">含税价 <span id="propA-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propA-subsidy" class="font-semibold">$0</span></p>
                         </div>
-                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-purple-200">策略：物理极限满铺，追求能源独立</p>
+                        <div class="mt-3 pt-3 border-t border-purple-200 grid grid-cols-2 gap-2 text-center">
+                            <div class="bg-white rounded p-2">
+                                <p class="text-xs text-gray-500">系统 kW 单价</p>
+                                <p class="text-sm font-bold text-purple-700" id="propA-pricePerKw">$0/kW</p>
+                            </div>
+                            <div class="bg-white rounded p-2">
+                                <p class="text-xs text-gray-500">去电池 kW 单价</p>
+                                <p class="text-sm font-bold text-purple-600" id="propA-pricePerKwNoBattery">$0/kW</p>
+                            </div>
+                        </div>
+                        <p class="text-xs text-gray-600 text-center pt-2 mt-2 border-t border-purple-200">策略：物理极限满铺，追求能源独立</p>
                     </div>
                 </div>
 
@@ -277,7 +287,17 @@
                             </div>
                             <p class="text-xs text-gray-500 mt-1">含税价 <span id="propB-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propB-subsidy" class="font-semibold">$0</span></p>
                         </div>
-                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-blue-200">策略：Hybrid 超配 (150%-200%)，电池吸收削峰</p>
+                        <div class="mt-3 pt-3 border-t border-blue-200 grid grid-cols-2 gap-2 text-center">
+                            <div class="bg-white rounded p-2">
+                                <p class="text-xs text-gray-500">系统 kW 单价</p>
+                                <p class="text-sm font-bold text-blue-700" id="propB-pricePerKw">$0/kW</p>
+                            </div>
+                            <div class="bg-white rounded p-2">
+                                <p class="text-xs text-gray-500">去电池 kW 单价</p>
+                                <p class="text-sm font-bold text-blue-600" id="propB-pricePerKwNoBattery">$0/kW</p>
+                            </div>
+                        </div>
+                        <p class="text-xs text-gray-600 text-center pt-2 mt-2 border-t border-blue-200">策略：Hybrid 超配 (150%-200%)，电池吸收削峰</p>
                     </div>
                 </div>
 
@@ -333,7 +353,17 @@
                             </div>
                             <p class="text-xs text-gray-500 mt-1">含税价 <span id="propC-taxPrice" class="font-semibold">$0</span> - 补贴 <span id="propC-subsidy" class="font-semibold">$0</span></p>
                         </div>
-                        <p class="text-xs text-gray-600 text-center pt-2 border-t border-green-200">策略：6.6kW入门配置，基础储能，快速回本</p>
+                        <div class="mt-3 pt-3 border-t border-green-200 grid grid-cols-2 gap-2 text-center">
+                            <div class="bg-white rounded p-2">
+                                <p class="text-xs text-gray-500">系统 kW 单价</p>
+                                <p class="text-sm font-bold text-green-700" id="propC-pricePerKw">$0/kW</p>
+                            </div>
+                            <div class="bg-white rounded p-2">
+                                <p class="text-xs text-gray-500">去电池 kW 单价</p>
+                                <p class="text-sm font-bold text-green-600" id="propC-pricePerKwNoBattery">$0/kW</p>
+                            </div>
+                        </div>
+                        <p class="text-xs text-gray-600 text-center pt-2 mt-2 border-t border-green-200">策略：6.6kW入门配置，基础储能，快速回本</p>
                     </div>
                 </div>
             </div>
@@ -1599,6 +1629,60 @@ id_0	slope	aspect	nums
                 });
             });
             
+            // Step 4: kW 单价计算
+            steps.push({
+                step: 4,
+                title: 'kW 单价计算',
+                desc: '以光伏容量(kW)为基准，计算系统单价和去电池单价',
+                details: []
+            });
+            
+            plans.forEach(({ name, data, color }) => {
+                const inverterKw = parseFloat(data.inv.replace('kW Hybrid', ''));
+                const cost = calculateCost(data.totalKw, inverterKw, data.battery.standard);
+                const subsidy = calculateSubsidy(data.totalKw, data.battery.standard, state);
+                const finalPrice = cost.taxTotal - subsidy.subsidyAmount;
+                const pvKw = data.totalKw;
+                
+                steps[3].details.push({
+                    text: `方案${name}:`,
+                    highlight: true
+                });
+                
+                if (pvKw > 0) {
+                    // 系统 kW 单价
+                    const pricePerKw = finalPrice / pvKw;
+                    steps[3].details.push({
+                        text: `  系统 kW 单价 = $${finalPrice.toFixed(2)} ÷ ${pvKw.toFixed(2)}kW = $${pricePerKw.toFixed(2)}/kW`
+                    });
+                    
+                    // 去电池 kW 单价计算过程
+                    const costNoBattery = (cost.pvCost + cost.inverterCost) * (1 + COST_CONFIG.gstRate);
+                    const subsidyNoBattery = subsidy.pvStc * SUBSIDY_CONFIG.stcPrice;
+                    const finalPriceNoBattery = costNoBattery - subsidyNoBattery;
+                    const pricePerKwNoBattery = finalPriceNoBattery / pvKw;
+                    
+                    steps[3].details.push({
+                        text: `  去电池成本 = (PV $${cost.pvCost.toFixed(2)} + 逆变器 $${cost.inverterCost.toFixed(2)}) × 1.1 = $${costNoBattery.toFixed(2)}`
+                    });
+                    steps[3].details.push({
+                        text: `  去电池补贴 = ${subsidy.pvStc} STC × $${SUBSIDY_CONFIG.stcPrice} = $${subsidyNoBattery.toFixed(2)}`
+                    });
+                    steps[3].details.push({
+                        text: `  去电池最终价 = $${costNoBattery.toFixed(2)} - $${subsidyNoBattery.toFixed(2)} = $${finalPriceNoBattery.toFixed(2)}`
+                    });
+                    steps[3].details.push({
+                        text: `  去电池 kW 单价 = $${finalPriceNoBattery.toFixed(2)} ÷ ${pvKw.toFixed(2)}kW = $${pricePerKwNoBattery.toFixed(2)}/kW`,
+                        success: true
+                    });
+                } else {
+                    steps[3].details.push({
+                        text: `  无可用光伏容量，无法计算单价`,
+                        warning: true
+                    });
+                }
+            });
+            
             return steps;
         }
 
@@ -1879,6 +1963,26 @@ id_0	slope	aspect	nums
             document.getElementById(`${prefix}-finalPrice`).textContent = formatPrice(finalPrice);
             document.getElementById(`${prefix}-taxPrice`).textContent = formatPrice(cost.taxTotal);
             document.getElementById(`${prefix}-subsidy`).textContent = formatPrice(subsidy.subsidyAmount);
+            
+            // 计算 kW 单价
+            const pvKw = planData.totalKw;
+            if (pvKw > 0) {
+                // 系统最终报价的 kW 单价（以光伏容量为基准）
+                const pricePerKw = finalPrice / pvKw;
+                document.getElementById(`${prefix}-pricePerKw`).textContent = formatPrice(pricePerKw) + '/kW';
+                
+                // 去除电池后的 kW 单价（不考虑电池成本和电池补贴）
+                // 计算去电池成本：税前总价 - 电池成本，然后加税
+                const costNoBattery = (cost.pvCost + cost.inverterCost) * (1 + COST_CONFIG.gstRate);
+                // 计算去电池补贴：只有 PV STC
+                const subsidyNoBattery = subsidy.pvStc * SUBSIDY_CONFIG.stcPrice;
+                const finalPriceNoBattery = costNoBattery - subsidyNoBattery;
+                const pricePerKwNoBattery = finalPriceNoBattery / pvKw;
+                document.getElementById(`${prefix}-pricePerKwNoBattery`).textContent = formatPrice(pricePerKwNoBattery) + '/kW';
+            } else {
+                document.getElementById(`${prefix}-pricePerKw`).textContent = 'N/A';
+                document.getElementById(`${prefix}-pricePerKwNoBattery`).textContent = 'N/A';
+            }
         }
 
         init();
