@@ -288,7 +288,42 @@ price_year_n = price_year_0 × (1 + inflation)^n
 
 ---
 
-## 4. 默认参数（VIC）
+## 4. 配电商出口限制 (shared_calc.js)
+
+```javascript
+const exportLimitRates = {
+    'Essential Energy': { single: 5, three: 5 },
+    'Ausgrid': { single: 10, three: 30 },
+    'Endeavour Energy': { single: 5, three: 30 },
+    'Energex': { single: 5, three: 15 },
+    'Ergon Energy': { single: 5, three: 15 },
+    'Evoenergy': { single: 5, three: 15 },
+    'CitiPower': { single: 5, three: 15 },
+    'PowerCor': { single: 5, three: 15 },
+    'Jemena': { single: 5, three: 15 },
+    'AusNet Services': { single: 5, three: 15 },
+    'United Energy': { single: 5, three: 15 },
+    'TasNetworks': { single: 10, three: 30 },
+    'SA Power Networks': { single: 10, three: 30 },
+    'Western Power': { single: 5, three: 30 },
+    'Horizon Power': { single: 5, three: 15 },
+    'PowerWater': { single: 5, three: 7 }
+};
+```
+
+| 配电商 | 单相限制(kW) | 三相限制(kW) |
+|--------|------------|------------|
+| Ausgrid | 10 | 30 |
+| TasNetworks | 10 | 30 |
+| SA Power Networks | 10 | 30 |
+| Western Power | 5 | 30 |
+| Endeavour Energy | 5 | 30 |
+| 其他大多数 | 5 | 15 |
+| PowerWater | 5 | 7 |
+
+---
+
+## 5. 默认参数（VIC）
 
 | 参数 | 值 | 说明 |
 |------|-----|------|
@@ -305,7 +340,50 @@ price_year_n = price_year_0 × (1 + inflation)^n
 
 ---
 
-## 5. 前端成本计算逻辑 (custom.js)
+## 6. 邮编信息获取 `getPostcodeInfo()` (shared_calc.js)
+
+```javascript
+sCalc.getPostcodeInfo = function(elem, updateStateDefaults, options = {}) {
+    $.ajax({
+        url: '/solar-calculator/postcodeInformation/',
+        data: { postcode: elem.val() },
+        success: function(result) {
+            // 1. 设置经纬度
+            $('#postcode-lat').val(result.response.lat);
+            $('#postcode-lon').val(result.response.lon);
+            
+            // 2. 设置州
+            $('#postcode-state').val(result.response.state);
+            
+            // 3. 更新州默认值
+            updateStateDefaults(result.response.isEnergex ? 'Energex' : result.response.state);
+            
+            // 4. 设置配电商和出口限制
+            const distributors = result.response.solarDistributors;
+            // ... 根据配电商设置出口限制
+            const isThreePhase = $('#three_phase').is(':checked');
+            const phaseKey = isThreePhase ? 'three' : 'single';
+            const exportLimit = exportLimitRates[distributorName][phaseKey];
+            $('#export-limit').val(exportLimit);
+        }
+    });
+}
+```
+
+**返回数据结构：**
+```javascript
+result.response = {
+    lat: -37.8136,           // 纬度
+    lon: 144.9631,           // 经度
+    state: 'VIC',            // 州
+    isEnergex: false,        // 是否Energex区域
+    solarDistributors: ['CitiPower', 'Jemena']  // 可用配电商
+}
+```
+
+---
+
+## 7. 前端成本计算逻辑 (custom.js)
 
 ### 5.1 系统总成本计算 `Calcs.cost()`
 
@@ -408,7 +486,7 @@ Calcs.stateDefaults = function(state){
 
 ---
 
-## 6. 结果页面计算逻辑 (result_debug.js)
+## 8. 结果页面计算逻辑 (result_debug.js)
 
 ### 6.1 初始化流程
 
@@ -567,7 +645,7 @@ for(var i=0; i<=hourly.length; i++){
 
 ---
 
-## 7. 完整数据流
+## 9. 完整数据流
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -608,7 +686,7 @@ for(var i=0; i<=hourly.length; i++){
 
 ---
 
-## 8. 关键变量说明
+## 10. 关键变量说明
 
 ### 8.1 全局变量 (result_debug.js)
 
@@ -656,7 +734,7 @@ var values = {
 
 ---
 
-## 9. Python 实现示例
+## 11. Python 实现示例
 
 ```python
 def calculate_season_savings(
@@ -724,9 +802,9 @@ def calculate_season_savings(
 
 ---
 
-## 10. 总结
+## 12. 总结
 
-### 10.1 已找到的核心计算逻辑
+### 12.1 已找到的核心计算逻辑
 
 | 功能 | 文件 | 函数/对象 | 状态 |
 |------|------|----------|------|
@@ -743,28 +821,43 @@ def calculate_season_savings(
 | 电池单独回收期 | result_debug.js | `refreshCalc()` | ✅ 完整 |
 | 图表绑定 | result_debug.js | `graphs.*` | ✅ 完整 |
 
-### 10.2 计算逻辑位置汇总
+### 12.2 计算逻辑位置汇总
 
 ```
 /js/calc/
-├── shared_calc.js      # 核心计算逻辑（季节节省、电池、回收期）
-├── custom.js           # 前端成本计算（系统成本、电池成本、州默认值）
-├── result_debug.js     # 结果页面逻辑（刷新计算、图表、滑块绑定）
+├── shared_calc.js      # 核心计算逻辑（季节节省、电池、回收期） ✅ 已完整分析
+├── custom.js           # 前端成本计算（系统成本、电池成本、州默认值） ✅ 已完整分析
+├── result_debug.js     # 结果页面逻辑（刷新计算、图表、滑块绑定） ✅ 已完整分析
 ├── scripts.js          # 通用UI脚本
-└── electricity_plan_selection.js  # 能源计划选择逻辑
+├── tooltip.js          # 提示框逻辑
+└── electricity_plan_selection.js  # 能源计划选择UI逻辑（非核心计算）
 ```
 
-### 10.3 仍需补充的内容
+### 12.3 关于 `electricity_plan_selection.js`
+
+该文件主要处理能源计划选择的 **UI 交互逻辑**，而非核心计算：
+- 能源计划下拉菜单的显示/隐藏
+- 电价计划的加载和切换
+- TOU（分时电价）的 UI 展示
+
+**TOU 的实际计算逻辑已在 `shared_calc.js` 中：**
+```javascript
+// 在 calculateYearlyValues 中处理 energyPlan
+if(_energyPlan !== undefined) {
+    let usageValues = _energyPlan.usageCharge;
+    // ... 根据电价计划计算实际电价
+}
+```
+
+### 12.4 仍需补充的内容
 
 要完全复现计算逻辑，还需要：
 
-1. **`shared_calc.js` 完整源码** - 当前只有部分函数，需要完整文件
-2. **TOU（分时电价）计算逻辑** - 在 `electricity_plan_selection.js` 中
-3. **NEM12 数据处理** - 后端处理智能电表数据的逻辑
-4. **PVWatts API 调用** - 后端获取发电量数据的逻辑
-5. **`production_info` 数据结构** - 后端返回的发电量数据格式
+1. **NEM12 数据处理** - 后端处理智能电表数据的逻辑
+2. **PVWatts API 调用** - 后端获取发电量数据的逻辑
+3. **`production_info` 数据结构** - 后端返回的发电量数据格式示例
 
-### 10.4 核心公式速查
+### 12.5 核心公式速查
 
 ```
 # 系统成本
