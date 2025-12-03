@@ -694,15 +694,21 @@
 269.8, 0
 179.8, 16
 
-格式2（两行一组）：
+格式2（空格/Tab分隔）：
+296.565  3
+26.565   0
+116.565  5
+
+格式3（两行一组）：
 299.35
 1
 209.35
 12"></textarea>
                         <p class="text-xs text-gray-500 mt-1">
-                            支持两种格式：<br>
-                            • <strong>格式1</strong>: 方位角, 最大面板数（每行一个坡面）<br>
-                            • <strong>格式2</strong>: 每两行一组（第一行方位角，第二行面板数）
+                            支持三种格式：<br>
+                            • <strong>格式1</strong>: 方位角, 最大面板数（逗号分隔，每行一个坡面）<br>
+                            • <strong>格式2</strong>: 方位角 最大面板数（空格或Tab分隔，每行一个坡面）<br>
+                            • <strong>格式3</strong>: 每两行一组（第一行方位角，第二行面板数）
                         </p>
                     </div>
                     
@@ -1098,14 +1104,17 @@
             }
         });
 
-        // 解析坡面数据 - 支持三种格式
-        // 格式1: 方位角, 最大面板数
+        // 解析坡面数据 - 支持四种格式
+        // 格式1: 方位角, 最大面板数（逗号分隔）
         //   299.35, 3
         //   209.35, 0
-        // 格式2: 每两行一组（第一行方位角，第二行面板数）
+        // 格式2: 方位角 最大面板数（空格或Tab分隔）
+        //   296.565  3
+        //   26.565   0
+        // 格式3: 每两行一组（第一行方位角，第二行面板数）
         //   299.35
         //   3
-        // 格式3: 每三行一组（第一行 slope 名称，第二行方位角，第三行面板数）
+        // 格式4: 每三行一组（第一行 slope 名称，第二行方位角，第三行面板数）
         //   slope 1
         //   285.94
         //   3
@@ -1120,11 +1129,28 @@
             const first = lines[0].trim();
             const hasComma = first.includes(',');
             const isSlopeName = /^slope\s+/i.test(first); // 形如 "slope 1"
+            // 检测是否为空格/Tab分隔格式：一行包含两个数字，用空格或Tab分隔
+            const hasSpaceSeparator = !hasComma && /^[\d.]+[\s\t]+[\d.]+$/.test(first);
             
             if (hasComma) {
-                // 格式1: 方位角, 最大面板数
+                // 格式1: 方位角, 最大面板数（逗号分隔）
                 lines.forEach((line, idx) => {
                     const parts = line.split(',').map(s => s.trim());
+                    if (parts.length >= 2) {
+                        const aspect = parseFloat(parts[0]);
+                        const max = Math.round(parseFloat(parts[1])) || 0;
+                        slopes.push({
+                            id: `slope ${idx + 1}`,
+                            aspect: aspect,
+                            max: max,
+                            score: calculateScore(aspect)
+                        });
+                    }
+                });
+            } else if (hasSpaceSeparator) {
+                // 格式2: 方位角 最大面板数（空格或Tab分隔）
+                lines.forEach((line, idx) => {
+                    const parts = line.trim().split(/[\s\t]+/).filter(s => s);
                     if (parts.length >= 2) {
                         const aspect = parseFloat(parts[0]);
                         const max = Math.round(parseFloat(parts[1])) || 0;
@@ -1154,7 +1180,7 @@
                     });
                 }
             } else {
-                // 格式2: 每两行一组（第一行方位角，第二行面板数）
+                // 格式4: 每两行一组（第一行方位角，第二行面板数）
                 for (let i = 0; i + 1 < lines.length; i += 2) {
                     const aspectStr = lines[i].trim();
                     const maxStr = lines[i + 1].trim();

@@ -1,0 +1,1448 @@
+2025-12-03 23:03:59,768 [INFO] ============================================================
+2025-12-03 23:03:59,768 [INFO] 澳洲电力供应商费率数据采集
+2025-12-03 23:03:59,768 [INFO] ============================================================
+2025-12-03 23:03:59,768 [INFO] 日志文件: ./output/logs/fetch_log_20251203_230359.log
+2025-12-03 23:03:59,768 [INFO] 采集范围: 州/领地=8个, 邮编=40个, 计划类型=2种
+2025-12-03 23:03:59,768 [INFO] 预估请求: ~2160次, 预估时间: ~180分钟
+2025-12-03 23:03:59,768 [INFO] 开始采集...
+2025-12-03 23:03:59,768 [INFO] ========================================
+2025-12-03 23:03:59,768 [INFO] 开始采集州: VIC
+2025-12-03 23:03:59,768 [INFO] ========================================
+2025-12-03 23:03:59,768 [INFO] 处理邮编: 3000
+2025-12-03 23:04:01,718 [INFO] Postcode 3000: 找到 27 个零售商
+2025-12-03 23:04:09,309 [INFO] [1] ✅ VIC/3000/1st Energy/Single Rate
+2025-12-03 23:04:15,942 [INFO] [2] ✅ VIC/3000/1st Energy/Time of Use
+2025-12-03 23:04:23,126 [INFO] [3] ✅ VIC/3000/AGL/Single Rate
+2025-12-03 23:04:30,174 [INFO] [4] ✅ VIC/3000/AGL/Time of Use
+2025-12-03 23:04:35,508 [INFO] 批次完成，休息 33 秒...
+2025-12-03 23:05:10,355 [INFO] [5] ✅ VIC/3000/Alinta Energy/Single Rate
+2025-12-03 23:05:16,249 [INFO] [6] ✅ VIC/3000/Alinta Energy/Time of Use
+2025-12-03 23:05:24,309 [INFO] [7] ✅ VIC/3000/Amber Electric/Single Rate
+2025-12-03 23:05:33,558 [WARNING] [8] ❌ VIC/3000/Amber Electric/Time of Use: 无计划
+2025-12-03 23:05:46,400 [INFO] [9] ✅ VIC/3000/Arcline by RACV - Energy/Single Rate
+2025-12-03 23:05:49,489 [INFO] 批次完成，休息 33 秒...
+2025-12-03 23:06:24,929 [INFO] [10] ✅ VIC/3000/Arcline by RACV - Energy/Time of Use
+2025-12-03 23:06:34,688 [INFO] [11] ✅ VIC/3000/Blue NRG Pty Ltd/Single Rate
+2025-12-03 23:06:43,405 [INFO] [12] ✅ VIC/3000/Blue NRG Pty Ltd/Time of Use
+2025-12-03 23:06:50,662 [INFO] [13] ✅ VIC/3000/CovaU/Single Rate
+2025-12-03 23:06:59,499 [INFO] [14] ✅ VIC/3000/CovaU/Time of Use
+2025-12-03 23:07:05,169 [INFO] 批次完成，休息 40 秒...
+2025-12-03 23:07:47,599 [INFO] [15] ✅ VIC/3000/Diamond Energy Pty Ltd/Single Rate
+2025-12-03 23:07:57,017 [INFO] [16] ✅ VIC/3000/Diamond Energy Pty Ltd/Time of Use
+2025-12-03 23:08:08,780 [INFO] [17] ✅ VIC/3000/Dodo Power & Gas/Single Rate
+2025-12-03 23:08:17,826 [INFO] [18] ✅ VIC/3000/Dodo Power & Gas/Time of Use
+2025-12-03 23:08:26,545 [INFO] [19] ✅ VIC/3000/ENGIE/Single Rate
+2025-12-03 23:08:32,394 [INFO] 批次完成，休息 36 秒...
+2025-12-03 23:09:10,683 [INFO] [20] ✅ VIC/3000/ENGIE/Time of Use
+2025-12-03 23:09:20,913 [INFO] [21] ✅ VIC/3000/Energy Locals/Single Rate
+2025-12-03 23:09:29,962 [INFO] [22] ✅ VIC/3000/Energy Locals/Time of Use
+2025-12-03 23:09:36,553 [INFO] [23] ✅ VIC/3000/EnergyAustralia/Single Rate
+2025-12-03 23:09:44,528 [INFO] [24] ✅ VIC/3000/EnergyAustralia/Time of Use
+2025-12-03 23:09:47,535 [INFO] 批次完成，休息 37 秒...
+2025-12-03 23:10:27,344 [INFO] [25] ✅ VIC/3000/Flow Power/Single Rate
+2025-12-03 23:10:34,349 [INFO] [26] ✅ VIC/3000/Flow Power/Time of Use
+2025-12-03 23:10:43,340 [INFO] [27] ✅ VIC/3000/GloBird Energy/Single Rate
+2025-12-03 23:10:52,431 [INFO] [28] ✅ VIC/3000/GloBird Energy/Time of Use
+2025-12-03 23:11:02,340 [INFO] [29] ✅ VIC/3000/Indigo Power/Single Rate
+2025-12-03 23:11:08,018 [INFO] 批次完成，休息 40 秒...
+2025-12-03 23:11:49,572 [INFO] [30] ✅ VIC/3000/Indigo Power/Time of Use
+2025-12-03 23:11:59,929 [INFO] [31] ✅ VIC/3000/Kogan Energy/Single Rate
+2025-12-03 23:12:07,593 [INFO] [32] ✅ VIC/3000/Kogan Energy/Time of Use
+2025-12-03 23:12:17,937 [INFO] [33] ✅ VIC/3000/Lumo Energy/Single Rate
+2025-12-03 23:12:25,067 [INFO] [34] ✅ VIC/3000/Lumo Energy/Time of Use
+2025-12-03 23:12:31,482 [INFO] 批次完成，休息 33 秒...
+2025-12-03 23:13:06,777 [INFO] [35] ✅ VIC/3000/Momentum Energy/Single Rate
+2025-12-03 23:13:14,525 [INFO] [36] ✅ VIC/3000/Momentum Energy/Time of Use
+2025-12-03 23:13:22,337 [INFO] [37] ✅ VIC/3000/Nectr/Single Rate
+2025-12-03 23:13:32,722 [INFO] [38] ✅ VIC/3000/Nectr/Time of Use
+2025-12-03 23:13:38,167 [INFO] [39] ✅ VIC/3000/Next Business Energy Pty Ltd/Single Rate
+2025-12-03 23:13:44,153 [INFO] 批次完成，休息 36 秒...
+2025-12-03 23:14:22,750 [INFO] [40] ✅ VIC/3000/Next Business Energy Pty Ltd/Time of Use
+2025-12-03 23:14:34,594 [INFO] [41] ✅ VIC/3000/OVO Energy/Single Rate
+2025-12-03 23:14:45,552 [INFO] [42] ✅ VIC/3000/OVO Energy/Time of Use
+2025-12-03 23:14:52,905 [INFO] [43] ✅ VIC/3000/Origin Energy/Single Rate
+2025-12-03 23:15:04,497 [INFO] [44] ✅ VIC/3000/Origin Energy/Time of Use
+2025-12-03 23:15:08,216 [INFO] 批次完成，休息 39 秒...
+2025-12-03 23:15:50,763 [INFO] [45] ✅ VIC/3000/Pacific Blue Retail/Single Rate
+2025-12-03 23:15:56,494 [INFO] [46] ✅ VIC/3000/Pacific Blue Retail/Time of Use
+2025-12-03 23:16:08,195 [INFO] [47] ✅ VIC/3000/Powershop Australia/Single Rate
+2025-12-03 23:16:17,373 [INFO] [48] ✅ VIC/3000/Powershop Australia/Time of Use
+2025-12-03 23:16:25,354 [INFO] [49] ✅ VIC/3000/Red Energy/Single Rate
+2025-12-03 23:16:30,635 [INFO] 批次完成，休息 40 秒...
+2025-12-03 23:17:15,618 [INFO] [50] ✅ VIC/3000/Red Energy/Time of Use
+2025-12-03 23:17:21,046 [INFO] [51] ✅ VIC/3000/Sumo/Single Rate
+2025-12-03 23:17:28,231 [INFO] [52] ✅ VIC/3000/Sumo/Time of Use
+2025-12-03 23:17:36,921 [INFO] [53] ✅ VIC/3000/Tango Energy/Single Rate
+2025-12-03 23:17:45,828 [INFO] [54] ✅ VIC/3000/Tango Energy/Time of Use
+2025-12-03 23:17:52,073 [INFO] 处理邮编: 3121
+2025-12-03 23:17:54,882 [INFO] Postcode 3121: 找到 27 个零售商
+2025-12-03 23:18:02,144 [INFO] 批次完成，休息 31 秒...
+2025-12-03 23:18:36,755 [INFO] [55] ✅ VIC/3121/1st Energy/Single Rate
+2025-12-03 23:18:49,149 [INFO] [56] ✅ VIC/3121/1st Energy/Time of Use
+2025-12-03 23:18:54,718 [INFO] [57] ✅ VIC/3121/AGL/Single Rate
+2025-12-03 23:19:02,804 [INFO] [58] ✅ VIC/3121/AGL/Time of Use
+2025-12-03 23:19:08,041 [INFO] [59] ✅ VIC/3121/Alinta Energy/Single Rate
+2025-12-03 23:19:11,340 [INFO] 批次完成，休息 38 秒...
+2025-12-03 23:19:52,689 [INFO] [60] ✅ VIC/3121/Alinta Energy/Time of Use
+2025-12-03 23:20:06,410 [INFO] [61] ✅ VIC/3121/Amber Electric/Single Rate
+2025-12-03 23:20:13,071 [WARNING] [62] ❌ VIC/3121/Amber Electric/Time of Use: 无计划
+2025-12-03 23:20:21,598 [INFO] [63] ✅ VIC/3121/Arcline by RACV - Energy/Single Rate
+2025-12-03 23:20:32,474 [INFO] [64] ✅ VIC/3121/Arcline by RACV - Energy/Time of Use
+2025-12-03 23:20:40,053 [INFO] 批次完成，休息 33 秒...
+2025-12-03 23:21:14,887 [INFO] [65] ✅ VIC/3121/Blue NRG Pty Ltd/Single Rate
+2025-12-03 23:21:22,179 [INFO] [66] ✅ VIC/3121/Blue NRG Pty Ltd/Time of Use
+2025-12-03 23:21:32,467 [INFO] [67] ✅ VIC/3121/CovaU/Single Rate
+2025-12-03 23:21:40,947 [INFO] [68] ✅ VIC/3121/CovaU/Time of Use
+2025-12-03 23:21:46,314 [INFO] [69] ✅ VIC/3121/Diamond Energy Pty Ltd/Single Rate
+2025-12-03 23:21:49,828 [INFO] 批次完成，休息 34 秒...
+2025-12-03 23:22:27,215 [INFO] [70] ✅ VIC/3121/Diamond Energy Pty Ltd/Time of Use
+2025-12-03 23:22:35,891 [INFO] [71] ✅ VIC/3121/Dodo Power & Gas/Single Rate
+2025-12-03 23:22:43,283 [INFO] [72] ✅ VIC/3121/Dodo Power & Gas/Time of Use
+2025-12-03 23:22:52,948 [INFO] [73] ✅ VIC/3121/ENGIE/Single Rate
+2025-12-03 23:23:02,092 [ERROR] VIC/3121/ENGIE/Time of Use: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-03 23:23:02,093 [WARNING] [74] ❌ VIC/3121/ENGIE/Time of Use: 无计划
+2025-12-03 23:23:09,478 [INFO] 批次完成，休息 40 秒...
+2025-12-03 23:23:51,263 [INFO] [75] ✅ VIC/3121/Energy Locals/Single Rate
+2025-12-03 23:23:59,971 [INFO] [76] ✅ VIC/3121/Energy Locals/Time of Use
+2025-12-03 23:24:09,142 [INFO] [77] ✅ VIC/3121/EnergyAustralia/Single Rate
+2025-12-03 23:24:17,209 [INFO] [78] ✅ VIC/3121/EnergyAustralia/Time of Use
+2025-12-03 23:24:27,345 [INFO] [79] ✅ VIC/3121/Flow Power/Single Rate
+2025-12-03 23:24:34,014 [INFO] 批次完成，休息 39 秒...
+2025-12-03 23:25:18,153 [INFO] [80] ✅ VIC/3121/Flow Power/Time of Use
+2025-12-03 23:25:23,885 [INFO] [81] ✅ VIC/3121/GloBird Energy/Single Rate
+2025-12-03 23:25:34,178 [INFO] [82] ✅ VIC/3121/GloBird Energy/Time of Use
+2025-12-03 23:25:39,569 [INFO] [83] ✅ VIC/3121/Indigo Power/Single Rate
+2025-12-03 23:25:48,534 [INFO] [84] ✅ VIC/3121/Indigo Power/Time of Use
+2025-12-03 23:25:52,705 [INFO] 批次完成，休息 35 秒...
+2025-12-03 23:26:29,537 [INFO] [85] ✅ VIC/3121/Kogan Energy/Single Rate
+2025-12-03 23:26:34,615 [INFO] [86] ✅ VIC/3121/Kogan Energy/Time of Use
+2025-12-03 23:26:40,771 [INFO] [87] ✅ VIC/3121/Lumo Energy/Single Rate
+2025-12-03 23:26:51,149 [INFO] [88] ✅ VIC/3121/Lumo Energy/Time of Use
+2025-12-03 23:27:01,205 [INFO] [89] ✅ VIC/3121/Momentum Energy/Single Rate
+2025-12-03 23:27:07,923 [INFO] 批次完成，休息 38 秒...
+2025-12-03 23:27:47,801 [INFO] [90] ✅ VIC/3121/Momentum Energy/Time of Use
+2025-12-03 23:27:54,433 [INFO] [91] ✅ VIC/3121/Nectr/Single Rate
+2025-12-03 23:28:02,517 [INFO] [92] ✅ VIC/3121/Nectr/Time of Use
+2025-12-03 23:28:08,826 [INFO] [93] ✅ VIC/3121/Next Business Energy Pty Ltd/Single Rate
+2025-12-03 23:28:17,541 [INFO] [94] ✅ VIC/3121/Next Business Energy Pty Ltd/Time of Use
+2025-12-03 23:28:25,238 [INFO] 批次完成，休息 34 秒...
+2025-12-03 23:29:02,187 [INFO] [95] ✅ VIC/3121/OVO Energy/Single Rate
+2025-12-03 23:29:12,519 [INFO] [96] ✅ VIC/3121/OVO Energy/Time of Use
+2025-12-03 23:29:22,054 [INFO] [97] ✅ VIC/3121/Origin Energy/Single Rate
+2025-12-03 23:29:31,917 [INFO] [98] ✅ VIC/3121/Origin Energy/Time of Use
+2025-12-03 23:29:38,518 [INFO] [99] ✅ VIC/3121/Pacific Blue Retail/Single Rate
+2025-12-03 23:29:42,896 [INFO] 批次完成，休息 37 秒...
+2025-12-03 23:30:23,973 [INFO] [100] ✅ VIC/3121/Pacific Blue Retail/Time of Use
+2025-12-03 23:30:30,315 [INFO] [101] ✅ VIC/3121/Powershop Australia/Single Rate
+2025-12-03 23:30:37,951 [INFO] [102] ✅ VIC/3121/Powershop Australia/Time of Use
+2025-12-03 23:30:46,033 [INFO] [103] ✅ VIC/3121/Red Energy/Single Rate
+2025-12-03 23:30:54,155 [INFO] [104] ✅ VIC/3121/Red Energy/Time of Use
+2025-12-03 23:31:01,113 [INFO] 批次完成，休息 36 秒...
+2025-12-03 23:31:38,495 [INFO] [105] ✅ VIC/3121/Sumo/Single Rate
+2025-12-03 23:31:43,530 [INFO] [106] ✅ VIC/3121/Sumo/Time of Use
+2025-12-03 23:31:48,995 [INFO] [107] ✅ VIC/3121/Tango Energy/Single Rate
+2025-12-03 23:31:56,482 [INFO] [108] ✅ VIC/3121/Tango Energy/Time of Use
+2025-12-03 23:32:01,145 [INFO] 处理邮编: 3150
+2025-12-03 23:32:03,137 [INFO] Postcode 3150: 找到 27 个零售商
+2025-12-03 23:32:08,881 [INFO] [109] ✅ VIC/3150/1st Energy/Single Rate
+2025-12-03 23:32:16,538 [INFO] 批次完成，休息 35 秒...
+2025-12-03 23:32:55,182 [INFO] [110] ✅ VIC/3150/1st Energy/Time of Use
+2025-12-03 23:33:03,809 [INFO] [111] ✅ VIC/3150/AGL/Single Rate
+2025-12-03 23:33:13,634 [INFO] [112] ✅ VIC/3150/AGL/Time of Use
+2025-12-03 23:33:23,650 [INFO] [113] ✅ VIC/3150/Alinta Energy/Single Rate
+2025-12-03 23:33:33,186 [INFO] [114] ✅ VIC/3150/Alinta Energy/Time of Use
+2025-12-03 23:33:39,660 [INFO] 批次完成，休息 33 秒...
+2025-12-03 23:34:15,130 [INFO] [115] ✅ VIC/3150/Amber Electric/Single Rate
+2025-12-03 23:34:25,410 [WARNING] [116] ❌ VIC/3150/Amber Electric/Time of Use: 无计划
+2025-12-03 23:34:30,605 [INFO] [117] ✅ VIC/3150/Arcline by RACV - Energy/Single Rate
+2025-12-03 23:34:39,119 [INFO] [118] ✅ VIC/3150/Arcline by RACV - Energy/Time of Use
+2025-12-03 23:34:52,954 [INFO] [119] ✅ VIC/3150/Blue NRG Pty Ltd/Single Rate
+2025-12-03 23:34:59,071 [INFO] 批次完成，休息 37 秒...
+2025-12-03 23:35:38,701 [INFO] [120] ✅ VIC/3150/Blue NRG Pty Ltd/Time of Use
+2025-12-03 23:35:43,746 [INFO] [121] ✅ VIC/3150/CovaU/Single Rate
+2025-12-03 23:35:51,127 [INFO] [122] ✅ VIC/3150/CovaU/Time of Use
+2025-12-03 23:35:59,711 [INFO] [123] ✅ VIC/3150/Diamond Energy Pty Ltd/Single Rate
+2025-12-03 23:36:05,742 [INFO] [124] ✅ VIC/3150/Diamond Energy Pty Ltd/Time of Use
+2025-12-03 23:36:13,725 [INFO] 批次完成，休息 34 秒...
+2025-12-03 23:36:51,932 [INFO] [125] ✅ VIC/3150/Dodo Power & Gas/Single Rate
+2025-12-03 23:37:03,044 [INFO] [126] ✅ VIC/3150/Dodo Power & Gas/Time of Use
+2025-12-03 23:37:12,570 [WARNING] [127] ❌ VIC/3150/ENGIE/Single Rate: 无计划
+2025-12-03 23:37:17,409 [INFO] [128] ✅ VIC/3150/ENGIE/Time of Use
+2025-12-03 23:37:28,381 [INFO] [129] ✅ VIC/3150/Energy Locals/Single Rate
+2025-12-03 23:37:35,078 [INFO] 批次完成，休息 31 秒...
+2025-12-03 23:38:07,896 [INFO] [130] ✅ VIC/3150/Energy Locals/Time of Use
+2025-12-03 23:38:17,968 [INFO] [131] ✅ VIC/3150/EnergyAustralia/Single Rate
+2025-12-03 23:38:23,975 [INFO] [132] ✅ VIC/3150/EnergyAustralia/Time of Use
+2025-12-03 23:38:32,011 [INFO] [133] ✅ VIC/3150/Flow Power/Single Rate
+2025-12-03 23:38:38,212 [INFO] [134] ✅ VIC/3150/Flow Power/Time of Use
+2025-12-03 23:38:43,089 [INFO] 批次完成，休息 33 秒...
+2025-12-03 23:39:17,963 [INFO] [135] ✅ VIC/3150/GloBird Energy/Single Rate
+2025-12-03 23:39:25,629 [INFO] [136] ✅ VIC/3150/GloBird Energy/Time of Use
+2025-12-03 23:39:36,476 [INFO] [137] ✅ VIC/3150/Indigo Power/Single Rate
+2025-12-03 23:39:44,245 [INFO] [138] ✅ VIC/3150/Indigo Power/Time of Use
+2025-12-03 23:39:51,014 [INFO] [139] ✅ VIC/3150/Kogan Energy/Single Rate
+2025-12-03 23:39:57,285 [INFO] 批次完成，休息 35 秒...
+2025-12-03 23:40:33,561 [INFO] [140] ✅ VIC/3150/Kogan Energy/Time of Use
+2025-12-03 23:40:39,989 [INFO] [141] ✅ VIC/3150/Lumo Energy/Single Rate
+2025-12-03 23:40:50,814 [INFO] [142] ✅ VIC/3150/Lumo Energy/Time of Use
+2025-12-03 23:40:59,219 [INFO] [143] ✅ VIC/3150/Momentum Energy/Single Rate
+2025-12-03 23:41:05,875 [INFO] [144] ✅ VIC/3150/Momentum Energy/Time of Use
+2025-12-03 23:41:10,302 [INFO] 批次完成，休息 30 秒...
+2025-12-03 23:41:44,060 [INFO] [145] ✅ VIC/3150/Nectr/Single Rate
+2025-12-03 23:41:52,247 [INFO] [146] ✅ VIC/3150/Nectr/Time of Use
+2025-12-03 23:41:59,610 [INFO] [147] ✅ VIC/3150/Next Business Energy Pty Ltd/Single Rate
+2025-12-03 23:42:13,144 [INFO] [148] ✅ VIC/3150/Next Business Energy Pty Ltd/Time of Use
+2025-12-03 23:42:19,327 [INFO] [149] ✅ VIC/3150/OVO Energy/Single Rate
+2025-12-03 23:42:22,422 [INFO] 批次完成，休息 31 秒...
+2025-12-03 23:42:56,461 [INFO] [150] ✅ VIC/3150/OVO Energy/Time of Use
+2025-12-03 23:43:05,015 [INFO] [151] ✅ VIC/3150/Origin Energy/Single Rate
+2025-12-03 23:43:11,154 [INFO] [152] ✅ VIC/3150/Origin Energy/Time of Use
+2025-12-03 23:43:16,218 [INFO] [153] ✅ VIC/3150/Pacific Blue Retail/Single Rate
+2025-12-03 23:43:25,292 [INFO] [154] ✅ VIC/3150/Pacific Blue Retail/Time of Use
+2025-12-03 23:43:32,351 [INFO] 批次完成，休息 30 秒...
+2025-12-03 23:44:08,753 [INFO] [155] ✅ VIC/3150/Powershop Australia/Single Rate
+2025-12-03 23:44:19,756 [INFO] [156] ✅ VIC/3150/Powershop Australia/Time of Use
+2025-12-03 23:44:29,854 [INFO] [157] ✅ VIC/3150/Red Energy/Single Rate
+2025-12-03 23:44:36,164 [INFO] [158] ✅ VIC/3150/Red Energy/Time of Use
+2025-12-03 23:44:42,688 [INFO] [159] ✅ VIC/3150/Sumo/Single Rate
+2025-12-03 23:44:50,077 [INFO] 批次完成，休息 32 秒...
+2025-12-03 23:45:26,535 [INFO] [160] ✅ VIC/3150/Sumo/Time of Use
+2025-12-03 23:45:35,085 [INFO] [161] ✅ VIC/3150/Tango Energy/Single Rate
+2025-12-03 23:45:45,677 [INFO] [162] ✅ VIC/3150/Tango Energy/Time of Use
+2025-12-03 23:45:51,083 [INFO] 处理邮编: 3350
+2025-12-03 23:45:52,807 [INFO] Postcode 3350: 找到 27 个零售商
+2025-12-03 23:46:01,371 [ERROR] VIC/3350/1st Energy/Single Rate: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-03 23:46:01,371 [WARNING] [163] ❌ VIC/3350/1st Energy/Single Rate: 无计划
+2025-12-03 23:46:11,428 [INFO] [164] ✅ VIC/3350/1st Energy/Time of Use
+2025-12-03 23:46:16,824 [INFO] 批次完成，休息 38 秒...
+2025-12-03 23:46:57,796 [INFO] [165] ✅ VIC/3350/AGL/Single Rate
+2025-12-03 23:47:03,576 [INFO] [166] ✅ VIC/3350/AGL/Time of Use
+2025-12-03 23:47:15,219 [INFO] [167] ✅ VIC/3350/Alinta Energy/Single Rate
+2025-12-03 23:47:22,223 [INFO] [168] ✅ VIC/3350/Alinta Energy/Time of Use
+2025-12-03 23:47:28,456 [INFO] [169] ✅ VIC/3350/Amber Electric/Single Rate
+2025-12-03 23:47:33,082 [INFO] 批次完成，休息 38 秒...
+2025-12-03 23:48:12,663 [WARNING] [170] ❌ VIC/3350/Amber Electric/Time of Use: 无计划
+2025-12-03 23:48:20,068 [INFO] [171] ✅ VIC/3350/Arcline by RACV - Energy/Single Rate
+2025-12-03 23:48:27,401 [INFO] [172] ✅ VIC/3350/Arcline by RACV - Energy/Time of Use
+2025-12-03 23:48:35,391 [INFO] [173] ✅ VIC/3350/Blue NRG Pty Ltd/Single Rate
+2025-12-03 23:48:44,949 [INFO] [174] ✅ VIC/3350/Blue NRG Pty Ltd/Time of Use
+2025-12-03 23:48:52,013 [INFO] 批次完成，休息 34 秒...
+2025-12-03 23:49:28,435 [INFO] [175] ✅ VIC/3350/CovaU/Single Rate
+2025-12-03 23:49:37,416 [INFO] [176] ✅ VIC/3350/CovaU/Time of Use
+2025-12-03 23:49:44,617 [INFO] [177] ✅ VIC/3350/Diamond Energy Pty Ltd/Single Rate
+2025-12-03 23:50:00,899 [INFO] [178] ✅ VIC/3350/Diamond Energy Pty Ltd/Time of Use
+2025-12-03 23:50:12,650 [INFO] [179] ✅ VIC/3350/Dodo Power & Gas/Single Rate
+2025-12-03 23:50:16,368 [INFO] 批次完成，休息 35 秒...
+2025-12-03 23:50:53,655 [INFO] [180] ✅ VIC/3350/Dodo Power & Gas/Time of Use
+2025-12-03 23:51:03,271 [INFO] [181] ✅ VIC/3350/ENGIE/Single Rate
+2025-12-03 23:51:08,913 [INFO] [182] ✅ VIC/3350/ENGIE/Time of Use
+2025-12-03 23:51:19,252 [INFO] [183] ✅ VIC/3350/Energy Locals/Single Rate
+2025-12-03 23:51:27,281 [INFO] [184] ✅ VIC/3350/Energy Locals/Time of Use
+2025-12-03 23:51:33,356 [INFO] 批次完成，休息 32 秒...
+2025-12-03 23:52:07,533 [INFO] [185] ✅ VIC/3350/EnergyAustralia/Single Rate
+2025-12-03 23:52:17,435 [INFO] [186] ✅ VIC/3350/EnergyAustralia/Time of Use
+2025-12-03 23:52:23,599 [INFO] [187] ✅ VIC/3350/Flow Power/Single Rate
+2025-12-03 23:52:31,958 [INFO] [188] ✅ VIC/3350/Flow Power/Time of Use
+2025-12-03 23:52:43,789 [INFO] [189] ✅ VIC/3350/GloBird Energy/Single Rate
+2025-12-03 23:52:50,057 [INFO] 批次完成，休息 34 秒...
+2025-12-03 23:53:29,404 [INFO] [190] ✅ VIC/3350/GloBird Energy/Time of Use
+2025-12-03 23:53:36,900 [INFO] [191] ✅ VIC/3350/Indigo Power/Single Rate
+2025-12-03 23:53:44,534 [INFO] [192] ✅ VIC/3350/Indigo Power/Time of Use
+2025-12-03 23:53:52,007 [INFO] [193] ✅ VIC/3350/Kogan Energy/Single Rate
+2025-12-03 23:54:04,404 [INFO] [194] ✅ VIC/3350/Kogan Energy/Time of Use
+2025-12-03 23:54:08,168 [INFO] 批次完成，休息 39 秒...
+2025-12-03 23:54:51,684 [INFO] [195] ✅ VIC/3350/Lumo Energy/Single Rate
+2025-12-03 23:55:02,178 [INFO] [196] ✅ VIC/3350/Lumo Energy/Time of Use
+2025-12-03 23:55:10,842 [INFO] [197] ✅ VIC/3350/Momentum Energy/Single Rate
+2025-12-03 23:55:20,362 [INFO] [198] ✅ VIC/3350/Momentum Energy/Time of Use
+2025-12-03 23:55:28,613 [INFO] [199] ✅ VIC/3350/Nectr/Single Rate
+2025-12-03 23:55:31,702 [INFO] 批次完成，休息 38 秒...
+2025-12-03 23:56:11,537 [INFO] [200] ✅ VIC/3350/Nectr/Time of Use
+2025-12-03 23:56:18,067 [INFO] [201] ✅ VIC/3350/Next Business Energy Pty Ltd/Single Rate
+2025-12-03 23:56:30,132 [INFO] [202] ✅ VIC/3350/Next Business Energy Pty Ltd/Time of Use
+2025-12-03 23:56:40,803 [INFO] [203] ✅ VIC/3350/OVO Energy/Single Rate
+2025-12-03 23:56:50,824 [INFO] [204] ✅ VIC/3350/OVO Energy/Time of Use
+2025-12-03 23:56:58,410 [INFO] 批次完成，休息 30 秒...
+2025-12-03 23:57:31,830 [INFO] [205] ✅ VIC/3350/Origin Energy/Single Rate
+2025-12-03 23:57:42,143 [INFO] [206] ✅ VIC/3350/Origin Energy/Time of Use
+2025-12-03 23:57:50,524 [INFO] [207] ✅ VIC/3350/Pacific Blue Retail/Single Rate
+2025-12-03 23:57:56,326 [INFO] [208] ✅ VIC/3350/Pacific Blue Retail/Time of Use
+2025-12-03 23:58:04,347 [INFO] [209] ✅ VIC/3350/Powershop Australia/Single Rate
+2025-12-03 23:58:11,604 [INFO] 批次完成，休息 31 秒...
+2025-12-03 23:58:45,256 [INFO] [210] ✅ VIC/3350/Powershop Australia/Time of Use
+2025-12-03 23:58:53,982 [INFO] [211] ✅ VIC/3350/Red Energy/Single Rate
+2025-12-03 23:58:59,846 [INFO] [212] ✅ VIC/3350/Red Energy/Time of Use
+2025-12-03 23:59:09,827 [INFO] [213] ✅ VIC/3350/Sumo/Single Rate
+2025-12-03 23:59:16,462 [INFO] [214] ✅ VIC/3350/Sumo/Time of Use
+2025-12-03 23:59:23,858 [INFO] 批次完成，休息 33 秒...
+2025-12-04 00:00:01,084 [INFO] [215] ✅ VIC/3350/Tango Energy/Single Rate
+2025-12-04 00:00:12,764 [INFO] [216] ✅ VIC/3350/Tango Energy/Time of Use
+2025-12-04 00:00:18,175 [INFO] 处理邮编: 3550
+2025-12-04 00:00:20,203 [INFO] Postcode 3550: 找到 27 个零售商
+2025-12-04 00:00:31,613 [INFO] [217] ✅ VIC/3550/1st Energy/Single Rate
+2025-12-04 00:00:41,669 [INFO] [218] ✅ VIC/3550/1st Energy/Time of Use
+2025-12-04 00:00:49,090 [INFO] [219] ✅ VIC/3550/AGL/Single Rate
+2025-12-04 00:00:52,537 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:01:33,422 [INFO] [220] ✅ VIC/3550/AGL/Time of Use
+2025-12-04 00:01:40,176 [INFO] [221] ✅ VIC/3550/Alinta Energy/Single Rate
+2025-12-04 00:01:45,989 [INFO] [222] ✅ VIC/3550/Alinta Energy/Time of Use
+2025-12-04 00:01:55,444 [INFO] [223] ✅ VIC/3550/Amber Electric/Single Rate
+2025-12-04 00:02:05,171 [WARNING] [224] ❌ VIC/3550/Amber Electric/Time of Use: 无计划
+2025-12-04 00:02:11,177 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:02:50,633 [INFO] [225] ✅ VIC/3550/Arcline by RACV - Energy/Single Rate
+2025-12-04 00:02:57,939 [INFO] [226] ✅ VIC/3550/Arcline by RACV - Energy/Time of Use
+2025-12-04 00:03:05,879 [INFO] [227] ✅ VIC/3550/Blue NRG Pty Ltd/Single Rate
+2025-12-04 00:03:15,215 [INFO] [228] ✅ VIC/3550/Blue NRG Pty Ltd/Time of Use
+2025-12-04 00:03:25,920 [INFO] [229] ✅ VIC/3550/CovaU/Single Rate
+2025-12-04 00:03:29,545 [INFO] 批次完成，休息 36 秒...
+2025-12-04 00:04:08,156 [INFO] [230] ✅ VIC/3550/CovaU/Time of Use
+2025-12-04 00:04:21,420 [INFO] [231] ✅ VIC/3550/Diamond Energy Pty Ltd/Single Rate
+2025-12-04 00:04:30,334 [INFO] [232] ✅ VIC/3550/Diamond Energy Pty Ltd/Time of Use
+2025-12-04 00:04:38,586 [INFO] [233] ✅ VIC/3550/Dodo Power & Gas/Single Rate
+2025-12-04 00:04:47,033 [INFO] [234] ✅ VIC/3550/Dodo Power & Gas/Time of Use
+2025-12-04 00:04:50,999 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:05:31,591 [INFO] [235] ✅ VIC/3550/ENGIE/Single Rate
+2025-12-04 00:05:39,681 [INFO] [236] ✅ VIC/3550/ENGIE/Time of Use
+2025-12-04 00:05:50,054 [INFO] [237] ✅ VIC/3550/Energy Locals/Single Rate
+2025-12-04 00:05:58,143 [INFO] [238] ✅ VIC/3550/Energy Locals/Time of Use
+2025-12-04 00:06:11,214 [INFO] [239] ✅ VIC/3550/EnergyAustralia/Single Rate
+2025-12-04 00:06:15,726 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:06:54,717 [INFO] [240] ✅ VIC/3550/EnergyAustralia/Time of Use
+2025-12-04 00:07:02,636 [INFO] [241] ✅ VIC/3550/Flow Power/Single Rate
+2025-12-04 00:07:12,805 [INFO] [242] ✅ VIC/3550/Flow Power/Time of Use
+2025-12-04 00:07:26,690 [INFO] [243] ✅ VIC/3550/GloBird Energy/Single Rate
+2025-12-04 00:07:33,631 [INFO] [244] ✅ VIC/3550/GloBird Energy/Time of Use
+2025-12-04 00:07:37,206 [INFO] 批次完成，休息 32 秒...
+2025-12-04 00:08:12,913 [INFO] [245] ✅ VIC/3550/Indigo Power/Single Rate
+2025-12-04 00:08:19,718 [INFO] [246] ✅ VIC/3550/Indigo Power/Time of Use
+2025-12-04 00:08:29,148 [INFO] [247] ✅ VIC/3550/Kogan Energy/Single Rate
+2025-12-04 00:08:36,118 [INFO] [248] ✅ VIC/3550/Kogan Energy/Time of Use
+2025-12-04 00:08:46,147 [INFO] [249] ✅ VIC/3550/Lumo Energy/Single Rate
+2025-12-04 00:08:51,151 [INFO] 批次完成，休息 35 秒...
+2025-12-04 00:09:29,413 [INFO] [250] ✅ VIC/3550/Lumo Energy/Time of Use
+2025-12-04 00:09:38,980 [INFO] [251] ✅ VIC/3550/Momentum Energy/Single Rate
+2025-12-04 00:09:45,421 [INFO] [252] ✅ VIC/3550/Momentum Energy/Time of Use
+2025-12-04 00:09:52,080 [INFO] [253] ✅ VIC/3550/Nectr/Single Rate
+2025-12-04 00:09:59,813 [INFO] [254] ✅ VIC/3550/Nectr/Time of Use
+2025-12-04 00:10:03,981 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:10:43,166 [INFO] [255] ✅ VIC/3550/Next Business Energy Pty Ltd/Single Rate
+2025-12-04 00:10:51,471 [INFO] [256] ✅ VIC/3550/Next Business Energy Pty Ltd/Time of Use
+2025-12-04 00:10:58,232 [INFO] [257] ✅ VIC/3550/OVO Energy/Single Rate
+2025-12-04 00:11:07,866 [INFO] [258] ✅ VIC/3550/OVO Energy/Time of Use
+2025-12-04 00:11:15,018 [INFO] [259] ✅ VIC/3550/Origin Energy/Single Rate
+2025-12-04 00:11:20,788 [INFO] 批次完成，休息 40 秒...
+2025-12-04 00:12:04,293 [INFO] [260] ✅ VIC/3550/Origin Energy/Time of Use
+2025-12-04 00:12:09,912 [INFO] [261] ✅ VIC/3550/Pacific Blue Retail/Single Rate
+2025-12-04 00:12:15,777 [INFO] [262] ✅ VIC/3550/Pacific Blue Retail/Time of Use
+2025-12-04 00:12:28,426 [INFO] [263] ✅ VIC/3550/Powershop Australia/Single Rate
+2025-12-04 00:12:35,608 [INFO] [264] ✅ VIC/3550/Powershop Australia/Time of Use
+2025-12-04 00:12:39,911 [INFO] 批次完成，休息 35 秒...
+2025-12-04 00:13:17,071 [INFO] [265] ✅ VIC/3550/Red Energy/Single Rate
+2025-12-04 00:13:24,788 [INFO] [266] ✅ VIC/3550/Red Energy/Time of Use
+2025-12-04 00:13:34,432 [INFO] [267] ✅ VIC/3550/Sumo/Single Rate
+2025-12-04 00:13:45,624 [INFO] [268] ✅ VIC/3550/Sumo/Time of Use
+2025-12-04 00:13:56,195 [INFO] [269] ✅ VIC/3550/Tango Energy/Single Rate
+2025-12-04 00:14:01,471 [INFO] 批次完成，休息 33 秒...
+2025-12-04 00:14:37,060 [INFO] [270] ✅ VIC/3550/Tango Energy/Time of Use
+2025-12-04 00:14:40,455 [INFO] ========================================
+2025-12-04 00:14:40,455 [INFO] 开始采集州: NSW
+2025-12-04 00:14:40,455 [INFO] ========================================
+2025-12-04 00:14:40,455 [INFO] 处理邮编: 2000
+2025-12-04 00:14:42,164 [INFO] Postcode 2000: 找到 24 个零售商
+2025-12-04 00:14:50,126 [INFO] [271] ✅ NSW/2000/1st Energy/Single Rate
+2025-12-04 00:14:57,667 [INFO] [272] ✅ NSW/2000/1st Energy/Time of Use
+2025-12-04 00:15:05,399 [INFO] [273] ✅ NSW/2000/AGL/Single Rate
+2025-12-04 00:15:15,138 [INFO] [274] ✅ NSW/2000/AGL/Time of Use
+2025-12-04 00:15:23,127 [INFO] 批次完成，休息 40 秒...
+2025-12-04 00:16:06,106 [INFO] [275] ✅ NSW/2000/Alinta Energy/Single Rate
+2025-12-04 00:16:14,979 [INFO] [276] ✅ NSW/2000/Alinta Energy/Time of Use
+2025-12-04 00:16:22,104 [INFO] [277] ✅ NSW/2000/Amber Electric/Single Rate
+2025-12-04 00:16:29,076 [WARNING] [278] ❌ NSW/2000/Amber Electric/Time of Use: 无计划
+2025-12-04 00:16:37,010 [INFO] [279] ✅ NSW/2000/CovaU/Single Rate
+2025-12-04 00:16:44,756 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:17:24,576 [INFO] [280] ✅ NSW/2000/CovaU/Time of Use
+2025-12-04 00:17:31,002 [INFO] [281] ✅ NSW/2000/Diamond Energy/Single Rate
+2025-12-04 00:17:40,657 [INFO] [282] ✅ NSW/2000/Diamond Energy/Time of Use
+2025-12-04 00:17:49,818 [INFO] [283] ✅ NSW/2000/Dodo/Single Rate
+2025-12-04 00:17:56,986 [INFO] [284] ✅ NSW/2000/Dodo/Time of Use
+2025-12-04 00:18:03,569 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:18:46,251 [INFO] [285] ✅ NSW/2000/ENGIE/Single Rate
+2025-12-04 00:18:55,360 [WARNING] [286] ❌ NSW/2000/ENGIE/Time of Use: 无计划
+2025-12-04 00:19:04,521 [INFO] [287] ✅ NSW/2000/Energy Locals/Single Rate
+2025-12-04 00:19:13,791 [WARNING] [288] ❌ NSW/2000/Energy Locals/Time of Use: 无计划
+2025-12-04 00:19:22,490 [WARNING] [289] ❌ NSW/2000/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 00:19:26,887 [INFO] 批次完成，休息 35 秒...
+2025-12-04 00:20:03,940 [WARNING] [290] ❌ NSW/2000/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 00:20:09,841 [INFO] [291] ✅ NSW/2000/EnergyAustralia/Single Rate
+2025-12-04 00:20:20,676 [WARNING] [292] ❌ NSW/2000/EnergyAustralia/Time of Use: 无计划
+2025-12-04 00:20:26,580 [INFO] [293] ✅ NSW/2000/Flipped Energy/Single Rate
+2025-12-04 00:20:33,295 [INFO] [294] ✅ NSW/2000/Flipped Energy/Time of Use
+2025-12-04 00:20:36,365 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:21:19,700 [WARNING] [295] ❌ NSW/2000/Flow Power/Single Rate: 无计划
+2025-12-04 00:21:25,316 [INFO] [296] ✅ NSW/2000/Flow Power/Time of Use
+2025-12-04 00:21:34,040 [INFO] [297] ✅ NSW/2000/Future X Power/Single Rate
+2025-12-04 00:21:41,997 [WARNING] [298] ❌ NSW/2000/Future X Power/Time of Use: 无计划
+2025-12-04 00:21:51,732 [INFO] [299] ✅ NSW/2000/Globird Energy/Single Rate
+2025-12-04 00:21:55,205 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:22:36,367 [INFO] [300] ✅ NSW/2000/Globird Energy/Time of Use
+2025-12-04 00:22:45,626 [INFO] [301] ✅ NSW/2000/Kogan Energy/Single Rate
+2025-12-04 00:22:51,441 [WARNING] [302] ❌ NSW/2000/Kogan Energy/Time of Use: 无计划
+2025-12-04 00:22:59,741 [INFO] [303] ✅ NSW/2000/Momentum Energy/Single Rate
+2025-12-04 00:23:09,839 [WARNING] [304] ❌ NSW/2000/Momentum Energy/Time of Use: 无计划
+2025-12-04 00:23:16,538 [INFO] 批次完成，休息 34 秒...
+2025-12-04 00:23:52,478 [WARNING] [305] ❌ NSW/2000/Nectr/Single Rate: 无计划
+2025-12-04 00:23:58,855 [WARNING] [306] ❌ NSW/2000/Nectr/Time of Use: 无计划
+2025-12-04 00:24:05,227 [INFO] [307] ✅ NSW/2000/OVO Energy/Single Rate
+2025-12-04 00:24:15,654 [WARNING] [308] ❌ NSW/2000/OVO Energy/Time of Use: 无计划
+2025-12-04 00:24:24,802 [INFO] [309] ✅ NSW/2000/Origin Energy/Single Rate
+2025-12-04 00:24:32,454 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:25:13,492 [INFO] [310] ✅ NSW/2000/Origin Energy/Time of Use
+2025-12-04 00:25:21,539 [INFO] [311] ✅ NSW/2000/Powershop/Single Rate
+2025-12-04 00:25:29,327 [WARNING] [312] ❌ NSW/2000/Powershop/Time of Use: 无计划
+2025-12-04 00:25:40,651 [INFO] [313] ✅ NSW/2000/Red Energy/Single Rate
+2025-12-04 00:25:47,759 [INFO] [314] ✅ NSW/2000/Red Energy/Time of Use
+2025-12-04 00:25:52,232 [INFO] 批次完成，休息 34 秒...
+2025-12-04 00:26:30,477 [INFO] [315] ✅ NSW/2000/Sumo/Single Rate
+2025-12-04 00:26:38,979 [WARNING] [316] ❌ NSW/2000/Sumo/Time of Use: 无计划
+2025-12-04 00:26:46,329 [WARNING] [317] ❌ NSW/2000/Tango Energy/Single Rate: 无计划
+2025-12-04 00:26:53,122 [WARNING] [318] ❌ NSW/2000/Tango Energy/Time of Use: 无计划
+2025-12-04 00:26:58,004 [INFO] 处理邮编: 2150
+2025-12-04 00:27:08,983 [INFO] Postcode 2150: 找到 24 个零售商
+2025-12-04 00:27:18,084 [INFO] [319] ✅ NSW/2150/1st Energy/Single Rate
+2025-12-04 00:27:23,421 [INFO] 批次完成，休息 31 秒...
+2025-12-04 00:27:56,429 [INFO] [320] ✅ NSW/2150/1st Energy/Time of Use
+2025-12-04 00:28:03,218 [INFO] [321] ✅ NSW/2150/AGL/Single Rate
+2025-12-04 00:28:12,369 [INFO] [322] ✅ NSW/2150/AGL/Time of Use
+2025-12-04 00:28:21,443 [INFO] [323] ✅ NSW/2150/Alinta Energy/Single Rate
+2025-12-04 00:28:30,699 [INFO] [324] ✅ NSW/2150/Alinta Energy/Time of Use
+2025-12-04 00:28:34,398 [INFO] 批次完成，休息 40 秒...
+2025-12-04 00:29:17,418 [INFO] [325] ✅ NSW/2150/Amber Electric/Single Rate
+2025-12-04 00:29:22,971 [WARNING] [326] ❌ NSW/2150/Amber Electric/Time of Use: 无计划
+2025-12-04 00:29:30,276 [INFO] [327] ✅ NSW/2150/CovaU/Single Rate
+2025-12-04 00:29:35,281 [WARNING] [328] ❌ NSW/2150/CovaU/Time of Use: 无计划
+2025-12-04 00:29:46,531 [INFO] [329] ✅ NSW/2150/Diamond Energy/Single Rate
+2025-12-04 00:29:51,260 [INFO] 批次完成，休息 36 秒...
+2025-12-04 00:30:29,444 [INFO] [330] ✅ NSW/2150/Diamond Energy/Time of Use
+2025-12-04 00:30:38,750 [INFO] [331] ✅ NSW/2150/Dodo/Single Rate
+2025-12-04 00:30:44,434 [INFO] [332] ✅ NSW/2150/Dodo/Time of Use
+2025-12-04 00:30:54,535 [INFO] [333] ✅ NSW/2150/ENGIE/Single Rate
+2025-12-04 00:31:05,638 [INFO] [334] ✅ NSW/2150/ENGIE/Time of Use
+2025-12-04 00:31:10,837 [INFO] 批次完成，休息 30 秒...
+2025-12-04 00:31:43,251 [INFO] [335] ✅ NSW/2150/Energy Locals/Single Rate
+2025-12-04 00:31:48,785 [INFO] [336] ✅ NSW/2150/Energy Locals/Time of Use
+2025-12-04 00:31:57,963 [WARNING] [337] ❌ NSW/2150/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 00:32:04,253 [WARNING] [338] ❌ NSW/2150/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 00:32:12,395 [INFO] [339] ✅ NSW/2150/EnergyAustralia/Single Rate
+2025-12-04 00:32:19,502 [INFO] 批次完成，休息 35 秒...
+2025-12-04 00:32:57,445 [WARNING] [340] ❌ NSW/2150/EnergyAustralia/Time of Use: 无计划
+2025-12-04 00:33:06,701 [INFO] [341] ✅ NSW/2150/Flipped Energy/Single Rate
+2025-12-04 00:33:16,456 [INFO] [342] ✅ NSW/2150/Flipped Energy/Time of Use
+2025-12-04 00:33:26,711 [WARNING] [343] ❌ NSW/2150/Flow Power/Single Rate: 无计划
+2025-12-04 00:33:35,179 [INFO] [344] ✅ NSW/2150/Flow Power/Time of Use
+2025-12-04 00:33:41,672 [INFO] 批次完成，休息 36 秒...
+2025-12-04 00:34:20,964 [INFO] [345] ✅ NSW/2150/Future X Power/Single Rate
+2025-12-04 00:34:28,044 [WARNING] [346] ❌ NSW/2150/Future X Power/Time of Use: 无计划
+2025-12-04 00:34:36,126 [INFO] [347] ✅ NSW/2150/Globird Energy/Single Rate
+2025-12-04 00:34:45,421 [INFO] [348] ✅ NSW/2150/Globird Energy/Time of Use
+2025-12-04 00:34:54,830 [INFO] [349] ✅ NSW/2150/Kogan Energy/Single Rate
+2025-12-04 00:35:00,141 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:35:38,848 [WARNING] [350] ❌ NSW/2150/Kogan Energy/Time of Use: 无计划
+2025-12-04 00:35:46,448 [INFO] [351] ✅ NSW/2150/Momentum Energy/Single Rate
+2025-12-04 00:35:57,282 [INFO] [352] ✅ NSW/2150/Momentum Energy/Time of Use
+2025-12-04 00:36:06,636 [WARNING] [353] ❌ NSW/2150/Nectr/Single Rate: 无计划
+2025-12-04 00:36:13,756 [WARNING] [354] ❌ NSW/2150/Nectr/Time of Use: 无计划
+2025-12-04 00:36:17,647 [INFO] 批次完成，休息 39 秒...
+2025-12-04 00:36:59,116 [INFO] [355] ✅ NSW/2150/OVO Energy/Single Rate
+2025-12-04 00:37:07,778 [INFO] [356] ✅ NSW/2150/OVO Energy/Time of Use
+2025-12-04 00:37:14,607 [INFO] [357] ✅ NSW/2150/Origin Energy/Single Rate
+2025-12-04 00:37:25,888 [INFO] [358] ✅ NSW/2150/Origin Energy/Time of Use
+2025-12-04 00:37:31,219 [INFO] [359] ✅ NSW/2150/Powershop/Single Rate
+2025-12-04 00:37:37,805 [INFO] 批次完成，休息 32 秒...
+2025-12-04 00:38:11,948 [WARNING] [360] ❌ NSW/2150/Powershop/Time of Use: 无计划
+2025-12-04 00:38:21,113 [INFO] [361] ✅ NSW/2150/Red Energy/Single Rate
+2025-12-04 00:38:29,152 [INFO] [362] ✅ NSW/2150/Red Energy/Time of Use
+2025-12-04 00:38:36,408 [INFO] [363] ✅ NSW/2150/Sumo/Single Rate
+2025-12-04 00:38:46,337 [INFO] [364] ✅ NSW/2150/Sumo/Time of Use
+2025-12-04 00:38:52,469 [INFO] 批次完成，休息 32 秒...
+2025-12-04 00:39:26,822 [WARNING] [365] ❌ NSW/2150/Tango Energy/Single Rate: 无计划
+2025-12-04 00:39:34,362 [WARNING] [366] ❌ NSW/2150/Tango Energy/Time of Use: 无计划
+2025-12-04 00:39:40,723 [INFO] 处理邮编: 2500
+2025-12-04 00:39:54,114 [INFO] Postcode 2500: 找到 24 个零售商
+2025-12-04 00:40:02,944 [INFO] [367] ✅ NSW/2500/1st Energy/Single Rate
+2025-12-04 00:40:13,008 [INFO] [368] ✅ NSW/2500/1st Energy/Time of Use
+2025-12-04 00:40:20,140 [INFO] [369] ✅ NSW/2500/AGL/Single Rate
+2025-12-04 00:40:27,421 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:41:07,901 [INFO] [370] ✅ NSW/2500/AGL/Time of Use
+2025-12-04 00:41:16,562 [INFO] [371] ✅ NSW/2500/Alinta Energy/Single Rate
+2025-12-04 00:41:23,758 [INFO] [372] ✅ NSW/2500/Alinta Energy/Time of Use
+2025-12-04 00:41:32,622 [INFO] [373] ✅ NSW/2500/Amber Electric/Single Rate
+2025-12-04 00:41:40,191 [WARNING] [374] ❌ NSW/2500/Amber Electric/Time of Use: 无计划
+2025-12-04 00:41:46,379 [INFO] 批次完成，休息 30 秒...
+2025-12-04 00:42:18,884 [INFO] [375] ✅ NSW/2500/CovaU/Single Rate
+2025-12-04 00:42:25,474 [WARNING] [376] ❌ NSW/2500/CovaU/Time of Use: 无计划
+2025-12-04 00:42:32,252 [INFO] [377] ✅ NSW/2500/Diamond Energy/Single Rate
+2025-12-04 00:42:40,012 [INFO] [378] ✅ NSW/2500/Diamond Energy/Time of Use
+2025-12-04 00:42:47,564 [INFO] [379] ✅ NSW/2500/Dodo/Single Rate
+2025-12-04 00:42:52,359 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:43:33,427 [INFO] [380] ✅ NSW/2500/Dodo/Time of Use
+2025-12-04 00:43:40,512 [INFO] [381] ✅ NSW/2500/ENGIE/Single Rate
+2025-12-04 00:43:46,573 [INFO] [382] ✅ NSW/2500/ENGIE/Time of Use
+2025-12-04 00:43:54,270 [INFO] [383] ✅ NSW/2500/Energy Locals/Single Rate
+2025-12-04 00:44:03,616 [INFO] [384] ✅ NSW/2500/Energy Locals/Time of Use
+2025-12-04 00:44:08,908 [INFO] 批次完成，休息 35 秒...
+2025-12-04 00:44:47,507 [WARNING] [385] ❌ NSW/2500/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 00:44:53,351 [WARNING] [386] ❌ NSW/2500/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 00:45:00,742 [INFO] [387] ✅ NSW/2500/EnergyAustralia/Single Rate
+2025-12-04 00:45:10,538 [WARNING] [388] ❌ NSW/2500/EnergyAustralia/Time of Use: 无计划
+2025-12-04 00:45:15,755 [INFO] [389] ✅ NSW/2500/Flipped Energy/Single Rate
+2025-12-04 00:45:23,519 [INFO] 批次完成，休息 36 秒...
+2025-12-04 00:46:01,137 [INFO] [390] ✅ NSW/2500/Flipped Energy/Time of Use
+2025-12-04 00:46:09,772 [WARNING] [391] ❌ NSW/2500/Flow Power/Single Rate: 无计划
+2025-12-04 00:46:17,450 [INFO] [392] ✅ NSW/2500/Flow Power/Time of Use
+2025-12-04 00:46:25,422 [INFO] [393] ✅ NSW/2500/Future X Power/Single Rate
+2025-12-04 00:46:35,264 [WARNING] [394] ❌ NSW/2500/Future X Power/Time of Use: 无计划
+2025-12-04 00:46:42,529 [INFO] 批次完成，休息 35 秒...
+2025-12-04 00:47:19,020 [INFO] [395] ✅ NSW/2500/Globird Energy/Single Rate
+2025-12-04 00:47:25,124 [INFO] [396] ✅ NSW/2500/Globird Energy/Time of Use
+2025-12-04 00:47:35,421 [INFO] [397] ✅ NSW/2500/Kogan Energy/Single Rate
+2025-12-04 00:47:42,971 [WARNING] [398] ❌ NSW/2500/Kogan Energy/Time of Use: 无计划
+2025-12-04 00:47:50,699 [INFO] [399] ✅ NSW/2500/Momentum Energy/Single Rate
+2025-12-04 00:47:56,193 [INFO] 批次完成，休息 34 秒...
+2025-12-04 00:48:34,740 [ERROR] NSW/2500/Momentum Energy/Time of Use: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 00:48:34,741 [WARNING] [400] ❌ NSW/2500/Momentum Energy/Time of Use: 无计划
+2025-12-04 00:48:40,468 [ERROR] NSW/2500/Nectr/Single Rate: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 00:48:40,468 [WARNING] [401] ❌ NSW/2500/Nectr/Single Rate: 无计划
+2025-12-04 00:48:45,621 [WARNING] [402] ❌ NSW/2500/Nectr/Time of Use: 无计划
+2025-12-04 00:48:51,259 [INFO] [403] ✅ NSW/2500/OVO Energy/Single Rate
+2025-12-04 00:48:58,419 [INFO] [404] ✅ NSW/2500/OVO Energy/Time of Use
+2025-12-04 00:49:02,304 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:49:42,658 [INFO] [405] ✅ NSW/2500/Origin Energy/Single Rate
+2025-12-04 00:49:53,210 [INFO] [406] ✅ NSW/2500/Origin Energy/Time of Use
+2025-12-04 00:50:00,004 [INFO] [407] ✅ NSW/2500/Powershop/Single Rate
+2025-12-04 00:50:07,199 [WARNING] [408] ❌ NSW/2500/Powershop/Time of Use: 无计划
+2025-12-04 00:50:13,630 [INFO] [409] ✅ NSW/2500/Red Energy/Single Rate
+2025-12-04 00:50:21,325 [INFO] 批次完成，休息 37 秒...
+2025-12-04 00:51:00,998 [INFO] [410] ✅ NSW/2500/Red Energy/Time of Use
+2025-12-04 00:51:06,998 [INFO] [411] ✅ NSW/2500/Sumo/Single Rate
+2025-12-04 00:51:16,743 [INFO] [412] ✅ NSW/2500/Sumo/Time of Use
+2025-12-04 00:51:23,306 [WARNING] [413] ❌ NSW/2500/Tango Energy/Single Rate: 无计划
+2025-12-04 00:51:30,210 [WARNING] [414] ❌ NSW/2500/Tango Energy/Time of Use: 无计划
+2025-12-04 00:51:37,254 [INFO] 处理邮编: 2770
+2025-12-04 00:51:49,497 [INFO] Postcode 2770: 找到 24 个零售商
+2025-12-04 00:51:55,099 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:52:35,266 [INFO] [415] ✅ NSW/2770/1st Energy/Single Rate
+2025-12-04 00:52:40,596 [INFO] [416] ✅ NSW/2770/1st Energy/Time of Use
+2025-12-04 00:52:45,639 [INFO] [417] ✅ NSW/2770/AGL/Single Rate
+2025-12-04 00:52:53,549 [INFO] [418] ✅ NSW/2770/AGL/Time of Use
+2025-12-04 00:53:02,038 [INFO] [419] ✅ NSW/2770/Alinta Energy/Single Rate
+2025-12-04 00:53:08,342 [INFO] 批次完成，休息 36 秒...
+2025-12-04 00:53:45,657 [INFO] [420] ✅ NSW/2770/Alinta Energy/Time of Use
+2025-12-04 00:53:54,838 [INFO] [421] ✅ NSW/2770/Amber Electric/Single Rate
+2025-12-04 00:54:01,304 [WARNING] [422] ❌ NSW/2770/Amber Electric/Time of Use: 无计划
+2025-12-04 00:54:10,725 [INFO] [423] ✅ NSW/2770/CovaU/Single Rate
+2025-12-04 00:54:18,262 [WARNING] [424] ❌ NSW/2770/CovaU/Time of Use: 无计划
+2025-12-04 00:54:22,480 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:55:03,124 [INFO] [425] ✅ NSW/2770/Diamond Energy/Single Rate
+2025-12-04 00:55:10,109 [INFO] [426] ✅ NSW/2770/Diamond Energy/Time of Use
+2025-12-04 00:55:20,110 [INFO] [427] ✅ NSW/2770/Dodo/Single Rate
+2025-12-04 00:55:25,666 [INFO] [428] ✅ NSW/2770/Dodo/Time of Use
+2025-12-04 00:55:35,013 [INFO] [429] ✅ NSW/2770/ENGIE/Single Rate
+2025-12-04 00:55:39,593 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:56:19,436 [INFO] [430] ✅ NSW/2770/ENGIE/Time of Use
+2025-12-04 00:56:28,236 [INFO] [431] ✅ NSW/2770/Energy Locals/Single Rate
+2025-12-04 00:56:36,458 [INFO] [432] ✅ NSW/2770/Energy Locals/Time of Use
+2025-12-04 00:56:43,143 [WARNING] [433] ❌ NSW/2770/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 00:56:54,143 [WARNING] [434] ❌ NSW/2770/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 00:57:01,897 [INFO] 批次完成，休息 36 秒...
+2025-12-04 00:57:40,429 [INFO] [435] ✅ NSW/2770/EnergyAustralia/Single Rate
+2025-12-04 00:57:47,946 [WARNING] [436] ❌ NSW/2770/EnergyAustralia/Time of Use: 无计划
+2025-12-04 00:57:56,800 [INFO] [437] ✅ NSW/2770/Flipped Energy/Single Rate
+2025-12-04 00:58:05,300 [INFO] [438] ✅ NSW/2770/Flipped Energy/Time of Use
+2025-12-04 00:58:10,556 [WARNING] [439] ❌ NSW/2770/Flow Power/Single Rate: 无计划
+2025-12-04 00:58:13,646 [INFO] 批次完成，休息 38 秒...
+2025-12-04 00:58:53,645 [INFO] [440] ✅ NSW/2770/Flow Power/Time of Use
+2025-12-04 00:58:59,475 [INFO] [441] ✅ NSW/2770/Future X Power/Single Rate
+2025-12-04 00:59:05,879 [WARNING] [442] ❌ NSW/2770/Future X Power/Time of Use: 无计划
+2025-12-04 00:59:14,067 [INFO] [443] ✅ NSW/2770/Globird Energy/Single Rate
+2025-12-04 00:59:19,678 [INFO] [444] ✅ NSW/2770/Globird Energy/Time of Use
+2025-12-04 00:59:25,483 [INFO] 批次完成，休息 31 秒...
+2025-12-04 00:59:58,948 [INFO] [445] ✅ NSW/2770/Kogan Energy/Single Rate
+2025-12-04 01:00:08,501 [WARNING] [446] ❌ NSW/2770/Kogan Energy/Time of Use: 无计划
+2025-12-04 01:00:15,426 [INFO] [447] ✅ NSW/2770/Momentum Energy/Single Rate
+2025-12-04 01:00:24,257 [INFO] [448] ✅ NSW/2770/Momentum Energy/Time of Use
+2025-12-04 01:00:32,141 [WARNING] [449] ❌ NSW/2770/Nectr/Single Rate: 无计划
+2025-12-04 01:00:37,072 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:01:10,769 [WARNING] [450] ❌ NSW/2770/Nectr/Time of Use: 无计划
+2025-12-04 01:01:17,825 [INFO] [451] ✅ NSW/2770/OVO Energy/Single Rate
+2025-12-04 01:01:27,435 [INFO] [452] ✅ NSW/2770/OVO Energy/Time of Use
+2025-12-04 01:01:34,540 [INFO] [453] ✅ NSW/2770/Origin Energy/Single Rate
+2025-12-04 01:01:43,432 [INFO] [454] ✅ NSW/2770/Origin Energy/Time of Use
+2025-12-04 01:01:50,743 [INFO] 批次完成，休息 31 秒...
+2025-12-04 01:02:23,981 [INFO] [455] ✅ NSW/2770/Powershop/Single Rate
+2025-12-04 01:02:29,618 [WARNING] [456] ❌ NSW/2770/Powershop/Time of Use: 无计划
+2025-12-04 01:02:35,929 [INFO] [457] ✅ NSW/2770/Red Energy/Single Rate
+2025-12-04 01:02:40,991 [INFO] [458] ✅ NSW/2770/Red Energy/Time of Use
+2025-12-04 01:02:50,347 [INFO] [459] ✅ NSW/2770/Sumo/Single Rate
+2025-12-04 01:02:57,894 [INFO] 批次完成，休息 38 秒...
+2025-12-04 01:03:37,303 [INFO] [460] ✅ NSW/2770/Sumo/Time of Use
+2025-12-04 01:03:44,836 [WARNING] [461] ❌ NSW/2770/Tango Energy/Single Rate: 无计划
+2025-12-04 01:03:51,277 [WARNING] [462] ❌ NSW/2770/Tango Energy/Time of Use: 无计划
+2025-12-04 01:03:58,910 [INFO] 处理邮编: 2800
+2025-12-04 01:04:08,798 [INFO] Postcode 2800: 找到 24 个零售商
+2025-12-04 01:04:15,180 [INFO] [463] ✅ NSW/2800/1st Energy/Single Rate
+2025-12-04 01:04:21,520 [INFO] [464] ✅ NSW/2800/1st Energy/Time of Use
+2025-12-04 01:04:25,781 [INFO] 批次完成，休息 34 秒...
+2025-12-04 01:05:01,510 [INFO] [465] ✅ NSW/2800/AGL/Single Rate
+2025-12-04 01:05:08,981 [INFO] [466] ✅ NSW/2800/AGL/Time of Use
+2025-12-04 01:05:16,850 [INFO] [467] ✅ NSW/2800/Alinta Energy/Single Rate
+2025-12-04 01:05:25,742 [INFO] [468] ✅ NSW/2800/Alinta Energy/Time of Use
+2025-12-04 01:05:35,061 [INFO] [469] ✅ NSW/2800/Amber Electric/Single Rate
+2025-12-04 01:05:38,121 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:06:16,694 [WARNING] [470] ❌ NSW/2800/Amber Electric/Time of Use: 无计划
+2025-12-04 01:06:24,433 [INFO] [471] ✅ NSW/2800/CovaU/Single Rate
+2025-12-04 01:06:30,113 [INFO] [472] ✅ NSW/2800/CovaU/Time of Use
+2025-12-04 01:06:37,062 [INFO] [473] ✅ NSW/2800/Diamond Energy/Single Rate
+2025-12-04 01:06:42,841 [INFO] [474] ✅ NSW/2800/Diamond Energy/Time of Use
+2025-12-04 01:06:48,214 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:07:27,668 [INFO] [475] ✅ NSW/2800/Dodo/Single Rate
+2025-12-04 01:07:36,863 [INFO] [476] ✅ NSW/2800/Dodo/Time of Use
+2025-12-04 01:07:44,497 [INFO] [477] ✅ NSW/2800/ENGIE/Single Rate
+2025-12-04 01:07:52,595 [ERROR] NSW/2800/ENGIE/Time of Use: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 01:07:52,595 [WARNING] [478] ❌ NSW/2800/ENGIE/Time of Use: 无计划
+2025-12-04 01:07:59,782 [INFO] [479] ✅ NSW/2800/Energy Locals/Single Rate
+2025-12-04 01:08:06,936 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:08:46,883 [INFO] [480] ✅ NSW/2800/Energy Locals/Time of Use
+2025-12-04 01:08:52,552 [WARNING] [481] ❌ NSW/2800/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 01:08:59,674 [WARNING] [482] ❌ NSW/2800/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 01:09:06,721 [INFO] [483] ✅ NSW/2800/EnergyAustralia/Single Rate
+2025-12-04 01:09:14,517 [INFO] [484] ✅ NSW/2800/EnergyAustralia/Time of Use
+2025-12-04 01:09:21,568 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:09:55,564 [INFO] [485] ✅ NSW/2800/Flipped Energy/Single Rate
+2025-12-04 01:10:04,979 [INFO] [486] ✅ NSW/2800/Flipped Energy/Time of Use
+2025-12-04 01:10:13,102 [WARNING] [487] ❌ NSW/2800/Flow Power/Single Rate: 无计划
+2025-12-04 01:10:22,355 [INFO] [488] ✅ NSW/2800/Flow Power/Time of Use
+2025-12-04 01:10:28,789 [INFO] [489] ✅ NSW/2800/Future X Power/Single Rate
+2025-12-04 01:10:33,662 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:11:07,234 [WARNING] [490] ❌ NSW/2800/Future X Power/Time of Use: 无计划
+2025-12-04 01:11:14,927 [INFO] [491] ✅ NSW/2800/Globird Energy/Single Rate
+2025-12-04 01:11:23,779 [INFO] [492] ✅ NSW/2800/Globird Energy/Time of Use
+2025-12-04 01:11:32,537 [INFO] [493] ✅ NSW/2800/Kogan Energy/Single Rate
+2025-12-04 01:11:40,221 [INFO] [494] ✅ NSW/2800/Kogan Energy/Time of Use
+2025-12-04 01:11:48,124 [INFO] 批次完成，休息 38 秒...
+2025-12-04 01:12:27,801 [INFO] [495] ✅ NSW/2800/Momentum Energy/Single Rate
+2025-12-04 01:12:35,200 [INFO] [496] ✅ NSW/2800/Momentum Energy/Time of Use
+2025-12-04 01:12:44,262 [WARNING] [497] ❌ NSW/2800/Nectr/Single Rate: 无计划
+2025-12-04 01:12:51,455 [WARNING] [498] ❌ NSW/2800/Nectr/Time of Use: 无计划
+2025-12-04 01:12:59,858 [INFO] [499] ✅ NSW/2800/OVO Energy/Single Rate
+2025-12-04 01:13:05,247 [INFO] 批次完成，休息 30 秒...
+2025-12-04 01:13:38,395 [INFO] [500] ✅ NSW/2800/OVO Energy/Time of Use
+2025-12-04 01:13:44,705 [INFO] [501] ✅ NSW/2800/Origin Energy/Single Rate
+2025-12-04 01:13:53,366 [ERROR] NSW/2800/Origin Energy/Time of Use: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 01:13:53,366 [WARNING] [502] ❌ NSW/2800/Origin Energy/Time of Use: 无计划
+2025-12-04 01:13:58,192 [INFO] [503] ✅ NSW/2800/Powershop/Single Rate
+2025-12-04 01:14:06,667 [INFO] [504] ✅ NSW/2800/Powershop/Time of Use
+2025-12-04 01:14:09,958 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:14:48,982 [INFO] [505] ✅ NSW/2800/Red Energy/Single Rate
+2025-12-04 01:14:58,028 [INFO] [506] ✅ NSW/2800/Red Energy/Time of Use
+2025-12-04 01:15:06,348 [INFO] [507] ✅ NSW/2800/Sumo/Single Rate
+2025-12-04 01:15:15,570 [INFO] [508] ✅ NSW/2800/Sumo/Time of Use
+2025-12-04 01:15:21,158 [WARNING] [509] ❌ NSW/2800/Tango Energy/Single Rate: 无计划
+2025-12-04 01:15:24,375 [INFO] 批次完成，休息 39 秒...
+2025-12-04 01:16:05,813 [WARNING] [510] ❌ NSW/2800/Tango Energy/Time of Use: 无计划
+2025-12-04 01:16:11,314 [INFO] ========================================
+2025-12-04 01:16:11,314 [INFO] 开始采集州: QLD
+2025-12-04 01:16:11,315 [INFO] ========================================
+2025-12-04 01:16:11,315 [INFO] 处理邮编: 4000
+2025-12-04 01:16:14,247 [INFO] Postcode 4000: 找到 23 个零售商
+2025-12-04 01:16:21,925 [INFO] [511] ✅ QLD/4000/1st Energy/Single Rate
+2025-12-04 01:16:30,464 [INFO] [512] ✅ QLD/4000/1st Energy/Time of Use
+2025-12-04 01:16:40,377 [INFO] [513] ✅ QLD/4000/AGL/Single Rate
+2025-12-04 01:16:48,496 [INFO] [514] ✅ QLD/4000/AGL/Time of Use
+2025-12-04 01:16:54,002 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:17:27,959 [INFO] [515] ✅ QLD/4000/Alinta Energy/Single Rate
+2025-12-04 01:17:34,974 [INFO] [516] ✅ QLD/4000/Alinta Energy/Time of Use
+2025-12-04 01:17:43,086 [INFO] [517] ✅ QLD/4000/Amber Electric/Single Rate
+2025-12-04 01:17:51,311 [WARNING] [518] ❌ QLD/4000/Amber Electric/Time of Use: 无计划
+2025-12-04 01:18:01,312 [INFO] [519] ✅ QLD/4000/CovaU/Single Rate
+2025-12-04 01:18:07,613 [INFO] 批次完成，休息 40 秒...
+2025-12-04 01:18:49,279 [INFO] [520] ✅ QLD/4000/CovaU/Time of Use
+2025-12-04 01:18:55,995 [INFO] [521] ✅ QLD/4000/Diamond Energy/Single Rate
+2025-12-04 01:19:01,892 [INFO] [522] ✅ QLD/4000/Diamond Energy/Time of Use
+2025-12-04 01:19:10,091 [INFO] [523] ✅ QLD/4000/Dodo/Single Rate
+2025-12-04 01:19:18,183 [INFO] [524] ✅ QLD/4000/Dodo/Time of Use
+2025-12-04 01:19:25,130 [INFO] 批次完成，休息 31 秒...
+2025-12-04 01:19:58,341 [INFO] [525] ✅ QLD/4000/ENGIE/Single Rate
+2025-12-04 01:20:06,355 [INFO] [526] ✅ QLD/4000/ENGIE/Time of Use
+2025-12-04 01:20:16,214 [INFO] [527] ✅ QLD/4000/Energy Locals/Single Rate
+2025-12-04 01:20:24,628 [INFO] [528] ✅ QLD/4000/Energy Locals/Time of Use
+2025-12-04 01:20:32,598 [WARNING] [529] ❌ QLD/4000/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 01:20:38,861 [INFO] 批次完成，休息 30 秒...
+2025-12-04 01:21:11,260 [WARNING] [530] ❌ QLD/4000/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 01:21:20,603 [INFO] [531] ✅ QLD/4000/EnergyAustralia/Single Rate
+2025-12-04 01:21:28,832 [INFO] [532] ✅ QLD/4000/EnergyAustralia/Time of Use
+2025-12-04 01:21:35,171 [INFO] [533] ✅ QLD/4000/Flipped Energy/Single Rate
+2025-12-04 01:21:44,027 [INFO] [534] ✅ QLD/4000/Flipped Energy/Time of Use
+2025-12-04 01:21:50,895 [INFO] 批次完成，休息 33 秒...
+2025-12-04 01:22:25,747 [WARNING] [535] ❌ QLD/4000/Flow Power/Single Rate: 无计划
+2025-12-04 01:22:32,267 [INFO] [536] ✅ QLD/4000/Flow Power/Time of Use
+2025-12-04 01:22:42,207 [ERROR] QLD/4000/Globird Energy/Single Rate: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 01:22:42,208 [WARNING] [537] ❌ QLD/4000/Globird Energy/Single Rate: 无计划
+2025-12-04 01:22:51,090 [INFO] [538] ✅ QLD/4000/Globird Energy/Time of Use
+2025-12-04 01:22:58,054 [INFO] [539] ✅ QLD/4000/Kogan Energy/Single Rate
+2025-12-04 01:23:04,366 [INFO] 批次完成，休息 36 秒...
+2025-12-04 01:23:42,376 [INFO] [540] ✅ QLD/4000/Kogan Energy/Time of Use
+2025-12-04 01:23:48,435 [INFO] [541] ✅ QLD/4000/Momentum Energy/Single Rate
+2025-12-04 01:23:55,971 [INFO] [542] ✅ QLD/4000/Momentum Energy/Time of Use
+2025-12-04 01:24:02,307 [WARNING] [543] ❌ QLD/4000/Nectr/Single Rate: 无计划
+2025-12-04 01:24:14,261 [ERROR] QLD/4000/Nectr/Time of Use: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 01:24:14,261 [WARNING] [544] ❌ QLD/4000/Nectr/Time of Use: 无计划
+2025-12-04 01:24:20,055 [INFO] 批次完成，休息 34 秒...
+2025-12-04 01:25:17,414 [ERROR] QLD/4000/OVO Energy/Single Rate: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 01:25:17,415 [WARNING] [545] ❌ QLD/4000/OVO Energy/Single Rate: 无计划
+2025-12-04 01:25:27,962 [ERROR] QLD/4000/OVO Energy/Time of Use: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 01:25:27,963 [WARNING] [546] ❌ QLD/4000/OVO Energy/Time of Use: 无计划
+2025-12-04 01:25:37,371 [ERROR] QLD/4000/Origin Energy/Single Rate: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 01:25:37,372 [WARNING] [547] ❌ QLD/4000/Origin Energy/Single Rate: 无计划
+2025-12-04 01:25:45,777 [INFO] [548] ✅ QLD/4000/Origin Energy/Time of Use
+2025-12-04 01:25:55,717 [INFO] [549] ✅ QLD/4000/Powershop/Single Rate
+2025-12-04 01:26:00,685 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:26:41,314 [INFO] [550] ✅ QLD/4000/Powershop/Time of Use
+2025-12-04 01:26:51,919 [INFO] [551] ✅ QLD/4000/Red Energy/Single Rate
+2025-12-04 01:26:59,102 [INFO] [552] ✅ QLD/4000/Red Energy/Time of Use
+2025-12-04 01:27:08,626 [INFO] [553] ✅ QLD/4000/Sumo/Single Rate
+2025-12-04 01:27:17,523 [INFO] [554] ✅ QLD/4000/Sumo/Time of Use
+2025-12-04 01:27:22,633 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:28:01,556 [WARNING] [555] ❌ QLD/4000/Tango Energy/Single Rate: 无计划
+2025-12-04 01:28:07,499 [WARNING] [556] ❌ QLD/4000/Tango Energy/Time of Use: 无计划
+2025-12-04 01:28:11,125 [INFO] 处理邮编: 4101
+2025-12-04 01:28:21,866 [INFO] Postcode 4101: 找到 23 个零售商
+2025-12-04 01:28:28,781 [INFO] [557] ✅ QLD/4101/1st Energy/Single Rate
+2025-12-04 01:28:38,603 [INFO] [558] ✅ QLD/4101/1st Energy/Time of Use
+2025-12-04 01:28:47,219 [INFO] [559] ✅ QLD/4101/AGL/Single Rate
+2025-12-04 01:28:51,926 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:29:55,350 [ERROR] QLD/4101/AGL/Time of Use: 请求超时 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Read timed out. (read timeout=30)
+2025-12-04 01:29:55,351 [WARNING] [560] ❌ QLD/4101/AGL/Time of Use: 无计划
+2025-12-04 01:30:04,709 [INFO] [561] ✅ QLD/4101/Alinta Energy/Single Rate
+2025-12-04 01:30:10,853 [INFO] [562] ✅ QLD/4101/Alinta Energy/Time of Use
+2025-12-04 01:30:17,781 [INFO] [563] ✅ QLD/4101/Amber Electric/Single Rate
+2025-12-04 01:30:27,299 [WARNING] [564] ❌ QLD/4101/Amber Electric/Time of Use: 无计划
+2025-12-04 01:30:34,158 [INFO] 批次完成，休息 34 秒...
+2025-12-04 01:31:12,355 [INFO] [565] ✅ QLD/4101/CovaU/Single Rate
+2025-12-04 01:31:22,497 [INFO] [566] ✅ QLD/4101/CovaU/Time of Use
+2025-12-04 01:31:27,164 [INFO] [567] ✅ QLD/4101/Diamond Energy/Single Rate
+2025-12-04 01:31:35,884 [INFO] [568] ✅ QLD/4101/Diamond Energy/Time of Use
+2025-12-04 01:31:41,927 [INFO] [569] ✅ QLD/4101/Dodo/Single Rate
+2025-12-04 01:31:45,920 [INFO] 批次完成，休息 31 秒...
+2025-12-04 01:32:18,945 [INFO] [570] ✅ QLD/4101/Dodo/Time of Use
+2025-12-04 01:32:25,566 [INFO] [571] ✅ QLD/4101/ENGIE/Single Rate
+2025-12-04 01:32:35,209 [INFO] [572] ✅ QLD/4101/ENGIE/Time of Use
+2025-12-04 01:32:40,526 [INFO] [573] ✅ QLD/4101/Energy Locals/Single Rate
+2025-12-04 01:32:48,844 [INFO] [574] ✅ QLD/4101/Energy Locals/Time of Use
+2025-12-04 01:32:52,360 [INFO] 批次完成，休息 36 秒...
+2025-12-04 01:33:30,126 [WARNING] [575] ❌ QLD/4101/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 01:33:36,537 [WARNING] [576] ❌ QLD/4101/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 01:33:43,097 [INFO] [577] ✅ QLD/4101/EnergyAustralia/Single Rate
+2025-12-04 01:33:51,880 [INFO] [578] ✅ QLD/4101/EnergyAustralia/Time of Use
+2025-12-04 01:33:58,874 [INFO] [579] ✅ QLD/4101/Flipped Energy/Single Rate
+2025-12-04 01:34:06,239 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:34:40,126 [INFO] [580] ✅ QLD/4101/Flipped Energy/Time of Use
+2025-12-04 01:34:49,547 [WARNING] [581] ❌ QLD/4101/Flow Power/Single Rate: 无计划
+2025-12-04 01:34:56,000 [INFO] [582] ✅ QLD/4101/Flow Power/Time of Use
+2025-12-04 01:35:02,535 [INFO] [583] ✅ QLD/4101/Globird Energy/Single Rate
+2025-12-04 01:35:11,878 [INFO] [584] ✅ QLD/4101/Globird Energy/Time of Use
+2025-12-04 01:35:15,526 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:35:49,716 [INFO] [585] ✅ QLD/4101/Kogan Energy/Single Rate
+2025-12-04 01:35:54,623 [INFO] [586] ✅ QLD/4101/Kogan Energy/Time of Use
+2025-12-04 01:36:01,337 [INFO] [587] ✅ QLD/4101/Momentum Energy/Single Rate
+2025-12-04 01:36:09,841 [INFO] [588] ✅ QLD/4101/Momentum Energy/Time of Use
+2025-12-04 01:36:18,959 [WARNING] [589] ❌ QLD/4101/Nectr/Single Rate: 无计划
+2025-12-04 01:36:22,190 [INFO] 批次完成，休息 35 秒...
+2025-12-04 01:36:59,261 [WARNING] [590] ❌ QLD/4101/Nectr/Time of Use: 无计划
+2025-12-04 01:37:07,684 [INFO] [591] ✅ QLD/4101/OVO Energy/Single Rate
+2025-12-04 01:37:16,160 [INFO] [592] ✅ QLD/4101/OVO Energy/Time of Use
+2025-12-04 01:37:23,581 [INFO] [593] ✅ QLD/4101/Origin Energy/Single Rate
+2025-12-04 01:37:31,939 [INFO] [594] ✅ QLD/4101/Origin Energy/Time of Use
+2025-12-04 01:37:36,068 [INFO] 批次完成，休息 38 秒...
+2025-12-04 01:38:16,159 [INFO] [595] ✅ QLD/4101/Powershop/Single Rate
+2025-12-04 01:38:21,469 [INFO] [596] ✅ QLD/4101/Powershop/Time of Use
+2025-12-04 01:38:27,712 [INFO] [597] ✅ QLD/4101/Red Energy/Single Rate
+2025-12-04 01:38:33,896 [INFO] [598] ✅ QLD/4101/Red Energy/Time of Use
+2025-12-04 01:38:42,807 [INFO] [599] ✅ QLD/4101/Sumo/Single Rate
+2025-12-04 01:38:48,181 [INFO] 批次完成，休息 35 秒...
+2025-12-04 01:39:24,679 [INFO] [600] ✅ QLD/4101/Sumo/Time of Use
+2025-12-04 01:39:34,371 [WARNING] [601] ❌ QLD/4101/Tango Energy/Single Rate: 无计划
+2025-12-04 01:39:41,509 [WARNING] [602] ❌ QLD/4101/Tango Energy/Time of Use: 无计划
+2025-12-04 01:39:48,211 [INFO] 处理邮编: 4350
+2025-12-04 01:39:59,859 [INFO] Postcode 4350: 找到 24 个零售商
+2025-12-04 01:40:05,076 [INFO] [603] ✅ QLD/4350/1st Energy/Single Rate
+2025-12-04 01:40:13,926 [INFO] [604] ✅ QLD/4350/1st Energy/Time of Use
+2025-12-04 01:40:17,219 [INFO] 批次完成，休息 39 秒...
+2025-12-04 01:40:58,340 [INFO] [605] ✅ QLD/4350/AGL/Single Rate
+2025-12-04 01:41:04,924 [INFO] [606] ✅ QLD/4350/AGL/Time of Use
+2025-12-04 01:41:11,368 [INFO] [607] ✅ QLD/4350/Alinta Energy/Single Rate
+2025-12-04 01:41:17,908 [INFO] [608] ✅ QLD/4350/Alinta Energy/Time of Use
+2025-12-04 01:41:23,557 [INFO] [609] ✅ QLD/4350/Amber Electric/Single Rate
+2025-12-04 01:41:30,642 [INFO] 批次完成，休息 40 秒...
+2025-12-04 01:42:12,174 [WARNING] [610] ❌ QLD/4350/Amber Electric/Time of Use: 无计划
+2025-12-04 01:42:18,939 [INFO] [611] ✅ QLD/4350/CovaU/Single Rate
+2025-12-04 01:42:27,084 [INFO] [612] ✅ QLD/4350/CovaU/Time of Use
+2025-12-04 01:42:36,492 [INFO] [613] ✅ QLD/4350/Diamond Energy/Single Rate
+2025-12-04 01:42:45,459 [INFO] [614] ✅ QLD/4350/Diamond Energy/Time of Use
+2025-12-04 01:42:50,901 [INFO] 批次完成，休息 31 秒...
+2025-12-04 01:43:23,778 [INFO] [615] ✅ QLD/4350/Dodo/Single Rate
+2025-12-04 01:43:31,235 [INFO] [616] ✅ QLD/4350/Dodo/Time of Use
+2025-12-04 01:43:41,545 [INFO] [617] ✅ QLD/4350/ENGIE/Single Rate
+2025-12-04 01:43:47,767 [INFO] [618] ✅ QLD/4350/ENGIE/Time of Use
+2025-12-04 01:43:52,989 [INFO] [619] ✅ QLD/4350/Energy Locals/Single Rate
+2025-12-04 01:43:59,715 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:44:38,787 [INFO] [620] ✅ QLD/4350/Energy Locals/Time of Use
+2025-12-04 01:44:44,506 [WARNING] [621] ❌ QLD/4350/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 01:44:52,618 [WARNING] [622] ❌ QLD/4350/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 01:44:59,346 [INFO] [623] ✅ QLD/4350/EnergyAustralia/Single Rate
+2025-12-04 01:45:05,761 [INFO] [624] ✅ QLD/4350/EnergyAustralia/Time of Use
+2025-12-04 01:45:11,855 [INFO] 批次完成，休息 35 秒...
+2025-12-04 01:45:49,467 [INFO] [625] ✅ QLD/4350/Ergon Energy/Single Rate
+2025-12-04 01:45:58,766 [INFO] [626] ✅ QLD/4350/Ergon Energy/Time of Use
+2025-12-04 01:46:08,966 [ERROR] QLD/4350/Flipped Energy/Single Rate: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 01:46:08,967 [WARNING] [627] ❌ QLD/4350/Flipped Energy/Single Rate: 无计划
+2025-12-04 01:46:16,540 [INFO] [628] ✅ QLD/4350/Flipped Energy/Time of Use
+2025-12-04 01:46:25,601 [WARNING] [629] ❌ QLD/4350/Flow Power/Single Rate: 无计划
+2025-12-04 01:46:30,314 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:47:09,182 [INFO] [630] ✅ QLD/4350/Flow Power/Time of Use
+2025-12-04 01:47:17,020 [INFO] [631] ✅ QLD/4350/Globird Energy/Single Rate
+2025-12-04 01:47:21,960 [INFO] [632] ✅ QLD/4350/Globird Energy/Time of Use
+2025-12-04 01:47:29,350 [INFO] [633] ✅ QLD/4350/Kogan Energy/Single Rate
+2025-12-04 01:47:36,285 [INFO] [634] ✅ QLD/4350/Kogan Energy/Time of Use
+2025-12-04 01:47:41,341 [INFO] 批次完成，休息 40 秒...
+2025-12-04 01:48:24,038 [INFO] [635] ✅ QLD/4350/Momentum Energy/Single Rate
+2025-12-04 01:48:29,637 [INFO] [636] ✅ QLD/4350/Momentum Energy/Time of Use
+2025-12-04 01:48:36,832 [WARNING] [637] ❌ QLD/4350/Nectr/Single Rate: 无计划
+2025-12-04 01:48:45,757 [WARNING] [638] ❌ QLD/4350/Nectr/Time of Use: 无计划
+2025-12-04 01:48:52,950 [INFO] [639] ✅ QLD/4350/OVO Energy/Single Rate
+2025-12-04 01:48:58,209 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:49:33,210 [INFO] [640] ✅ QLD/4350/OVO Energy/Time of Use
+2025-12-04 01:49:39,045 [INFO] [641] ✅ QLD/4350/Origin Energy/Single Rate
+2025-12-04 01:49:48,063 [INFO] [642] ✅ QLD/4350/Origin Energy/Time of Use
+2025-12-04 01:49:54,580 [INFO] [643] ✅ QLD/4350/Powershop/Single Rate
+2025-12-04 01:50:03,342 [INFO] [644] ✅ QLD/4350/Powershop/Time of Use
+2025-12-04 01:50:08,164 [INFO] 批次完成，休息 33 秒...
+2025-12-04 01:50:43,825 [INFO] [645] ✅ QLD/4350/Red Energy/Single Rate
+2025-12-04 01:50:51,414 [INFO] [646] ✅ QLD/4350/Red Energy/Time of Use
+2025-12-04 01:50:56,804 [INFO] [647] ✅ QLD/4350/Sumo/Single Rate
+2025-12-04 01:51:03,496 [INFO] [648] ✅ QLD/4350/Sumo/Time of Use
+2025-12-04 01:51:12,914 [WARNING] [649] ❌ QLD/4350/Tango Energy/Single Rate: 无计划
+2025-12-04 01:51:16,437 [INFO] 批次完成，休息 31 秒...
+2025-12-04 01:51:49,662 [WARNING] [650] ❌ QLD/4350/Tango Energy/Time of Use: 无计划
+2025-12-04 01:51:57,659 [INFO] 处理邮编: 4670
+2025-12-04 01:51:59,447 [INFO] Postcode 4670: 找到 3 个零售商
+2025-12-04 01:52:07,451 [WARNING] [651] ❌ QLD/4670/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 01:52:16,136 [WARNING] [652] ❌ QLD/4670/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 01:52:22,821 [INFO] [653] ✅ QLD/4670/Ergon Energy/Single Rate
+2025-12-04 01:52:30,442 [INFO] [654] ✅ QLD/4670/Ergon Energy/Time of Use
+2025-12-04 01:52:37,958 [INFO] 批次完成，休息 32 秒...
+2025-12-04 01:53:11,465 [INFO] [655] ✅ QLD/4670/Origin Energy/Single Rate
+2025-12-04 01:53:18,489 [INFO] [656] ✅ QLD/4670/Origin Energy/Time of Use
+2025-12-04 01:53:23,578 [INFO] 处理邮编: 4870
+2025-12-04 01:53:25,313 [INFO] Postcode 4870: 找到 3 个零售商
+2025-12-04 01:53:31,028 [WARNING] [657] ❌ QLD/4870/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 01:53:40,592 [WARNING] [658] ❌ QLD/4870/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 01:53:47,611 [INFO] [659] ✅ QLD/4870/Ergon Energy/Single Rate
+2025-12-04 01:53:53,377 [INFO] 批次完成，休息 37 秒...
+2025-12-04 01:54:32,543 [INFO] [660] ✅ QLD/4870/Ergon Energy/Time of Use
+2025-12-04 01:54:38,847 [INFO] [661] ✅ QLD/4870/Origin Energy/Single Rate
+2025-12-04 01:54:44,855 [INFO] [662] ✅ QLD/4870/Origin Energy/Time of Use
+2025-12-04 01:54:52,482 [INFO] ========================================
+2025-12-04 01:54:52,483 [INFO] 开始采集州: SA
+2025-12-04 01:54:52,483 [INFO] ========================================
+2025-12-04 01:54:52,483 [INFO] 处理邮编: 5000
+2025-12-04 01:54:54,573 [INFO] Postcode 5000: 找到 26 个零售商
+2025-12-04 01:55:01,851 [INFO] [663] ✅ SA/5000/1st Energy/Single Rate
+2025-12-04 01:55:09,028 [INFO] [664] ✅ SA/5000/1st Energy/Time of Use
+2025-12-04 01:55:15,805 [INFO] 批次完成，休息 39 秒...
+2025-12-04 01:55:56,260 [INFO] [665] ✅ SA/5000/AGL/Single Rate
+2025-12-04 01:56:01,715 [INFO] [666] ✅ SA/5000/AGL/Time of Use
+2025-12-04 01:56:09,366 [INFO] [667] ✅ SA/5000/Alinta Energy/Single Rate
+2025-12-04 01:56:14,425 [INFO] [668] ✅ SA/5000/Alinta Energy/Time of Use
+2025-12-04 01:56:23,028 [INFO] [669] ✅ SA/5000/Amber Electric/Single Rate
+2025-12-04 01:56:27,065 [INFO] 批次完成，休息 38 秒...
+2025-12-04 01:57:06,607 [WARNING] [670] ❌ SA/5000/Amber Electric/Time of Use: 无计划
+2025-12-04 01:57:14,026 [INFO] [671] ✅ SA/5000/CovaU/Single Rate
+2025-12-04 01:57:22,766 [INFO] [672] ✅ SA/5000/CovaU/Time of Use
+2025-12-04 01:57:31,395 [INFO] [673] ✅ SA/5000/Diamond Energy/Single Rate
+2025-12-04 01:57:36,364 [INFO] [674] ✅ SA/5000/Diamond Energy/Time of Use
+2025-12-04 01:57:41,198 [INFO] 批次完成，休息 33 秒...
+2025-12-04 01:58:16,236 [INFO] [675] ✅ SA/5000/Dodo/Single Rate
+2025-12-04 01:58:24,941 [INFO] [676] ✅ SA/5000/Dodo/Time of Use
+2025-12-04 01:58:32,523 [INFO] [677] ✅ SA/5000/ENGIE/Single Rate
+2025-12-04 01:58:38,013 [INFO] [678] ✅ SA/5000/ENGIE/Time of Use
+2025-12-04 01:58:47,771 [INFO] [679] ✅ SA/5000/Energy Locals/Single Rate
+2025-12-04 01:58:52,165 [INFO] 批次完成，休息 39 秒...
+2025-12-04 01:59:32,658 [INFO] [680] ✅ SA/5000/Energy Locals/Time of Use
+2025-12-04 01:59:41,576 [WARNING] [681] ❌ SA/5000/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 01:59:46,587 [WARNING] [682] ❌ SA/5000/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 01:59:54,595 [INFO] [683] ✅ SA/5000/EnergyAustralia/Single Rate
+2025-12-04 02:00:03,868 [INFO] [684] ✅ SA/5000/EnergyAustralia/Time of Use
+2025-12-04 02:00:08,626 [INFO] 批次完成，休息 31 秒...
+2025-12-04 02:00:41,411 [WARNING] [685] ❌ SA/5000/Flow Power/Single Rate: 无计划
+2025-12-04 02:00:51,216 [INFO] [686] ✅ SA/5000/Flow Power/Time of Use
+2025-12-04 02:01:00,946 [INFO] [687] ✅ SA/5000/Globird Energy/Single Rate
+2025-12-04 02:01:05,982 [INFO] [688] ✅ SA/5000/Globird Energy/Time of Use
+2025-12-04 02:01:14,762 [WARNING] [689] ❌ SA/5000/Kogan Energy/Single Rate: 无计划
+2025-12-04 02:01:21,434 [INFO] 批次完成，休息 36 秒...
+2025-12-04 02:01:58,835 [WARNING] [690] ❌ SA/5000/Kogan Energy/Time of Use: 无计划
+2025-12-04 02:02:04,494 [INFO] [691] ✅ SA/5000/Lumo Energy (SA)/Single Rate
+2025-12-04 02:02:11,606 [INFO] [692] ✅ SA/5000/Lumo Energy (SA)/Time of Use
+2025-12-04 02:02:19,354 [INFO] [693] ✅ SA/5000/Momentum Energy/Single Rate
+2025-12-04 02:02:24,283 [INFO] [694] ✅ SA/5000/Momentum Energy/Time of Use
+2025-12-04 02:02:30,773 [INFO] 批次完成，休息 33 秒...
+2025-12-04 02:03:06,909 [WARNING] [695] ❌ SA/5000/Nectr/Single Rate: 无计划
+2025-12-04 02:03:12,203 [WARNING] [696] ❌ SA/5000/Nectr/Time of Use: 无计划
+2025-12-04 02:03:19,235 [INFO] [697] ✅ SA/5000/OVO Energy/Single Rate
+2025-12-04 02:03:27,694 [INFO] [698] ✅ SA/5000/OVO Energy/Time of Use
+2025-12-04 02:03:36,747 [INFO] [699] ✅ SA/5000/Origin Energy/Single Rate
+2025-12-04 02:03:43,118 [INFO] 批次完成，休息 38 秒...
+2025-12-04 02:04:23,218 [INFO] [700] ✅ SA/5000/Origin Energy/Time of Use
+2025-12-04 02:04:31,178 [INFO] [701] ✅ SA/5000/Powershop/Single Rate
+2025-12-04 02:04:36,552 [INFO] [702] ✅ SA/5000/Powershop/Time of Use
+2025-12-04 02:04:44,134 [INFO] [703] ✅ SA/5000/RAA Energy/Single Rate
+2025-12-04 02:04:50,015 [INFO] [704] ✅ SA/5000/RAA Energy/Time of Use
+2025-12-04 02:04:55,729 [INFO] 批次完成，休息 31 秒...
+2025-12-04 02:05:28,499 [INFO] [705] ✅ SA/5000/Red Energy/Single Rate
+2025-12-04 02:05:37,996 [INFO] [706] ✅ SA/5000/Red Energy/Time of Use
+2025-12-04 02:05:43,648 [WARNING] [707] ❌ SA/5000/Sumo/Single Rate: 无计划
+2025-12-04 02:05:51,670 [WARNING] [708] ❌ SA/5000/Sumo/Time of Use: 无计划
+2025-12-04 02:05:59,727 [WARNING] [709] ❌ SA/5000/Tango Energy/Single Rate: 无计划
+2025-12-04 02:06:07,251 [INFO] 批次完成，休息 31 秒...
+2025-12-04 02:06:40,272 [WARNING] [710] ❌ SA/5000/Tango Energy/Time of Use: 无计划
+2025-12-04 02:06:49,565 [WARNING] [711] ❌ SA/5000/ZEN Energy/Single Rate: 无计划
+2025-12-04 02:06:59,089 [WARNING] [712] ❌ SA/5000/ZEN Energy/Time of Use: 无计划
+2025-12-04 02:07:07,102 [WARNING] [713] ❌ SA/5000/iO Energy/Single Rate: 无计划
+2025-12-04 02:07:14,771 [INFO] [714] ✅ SA/5000/iO Energy/Time of Use
+2025-12-04 02:07:18,923 [INFO] 处理邮编: 5042
+2025-12-04 02:07:20,653 [INFO] Postcode 5042: 找到 26 个零售商
+2025-12-04 02:07:24,406 [INFO] 批次完成，休息 38 秒...
+2025-12-04 02:08:04,060 [INFO] [715] ✅ SA/5042/1st Energy/Single Rate
+2025-12-04 02:08:10,068 [INFO] [716] ✅ SA/5042/1st Energy/Time of Use
+2025-12-04 02:08:16,854 [INFO] [717] ✅ SA/5042/AGL/Single Rate
+2025-12-04 02:08:25,590 [INFO] [718] ✅ SA/5042/AGL/Time of Use
+2025-12-04 02:08:35,443 [INFO] [719] ✅ SA/5042/Alinta Energy/Single Rate
+2025-12-04 02:08:40,063 [INFO] 批次完成，休息 38 秒...
+2025-12-04 02:09:20,195 [INFO] [720] ✅ SA/5042/Alinta Energy/Time of Use
+2025-12-04 02:09:29,383 [INFO] [721] ✅ SA/5042/Amber Electric/Single Rate
+2025-12-04 02:09:35,900 [WARNING] [722] ❌ SA/5042/Amber Electric/Time of Use: 无计划
+2025-12-04 02:09:41,857 [INFO] [723] ✅ SA/5042/CovaU/Single Rate
+2025-12-04 02:09:46,677 [INFO] [724] ✅ SA/5042/CovaU/Time of Use
+2025-12-04 02:09:52,694 [INFO] 批次完成，休息 36 秒...
+2025-12-04 02:10:30,637 [INFO] [725] ✅ SA/5042/Diamond Energy/Single Rate
+2025-12-04 02:10:35,438 [INFO] [726] ✅ SA/5042/Diamond Energy/Time of Use
+2025-12-04 02:10:42,176 [INFO] [727] ✅ SA/5042/Dodo/Single Rate
+2025-12-04 02:10:48,264 [INFO] [728] ✅ SA/5042/Dodo/Time of Use
+2025-12-04 02:10:57,884 [INFO] [729] ✅ SA/5042/ENGIE/Single Rate
+2025-12-04 02:11:03,962 [INFO] 批次完成，休息 36 秒...
+2025-12-04 02:11:42,229 [INFO] [730] ✅ SA/5042/ENGIE/Time of Use
+2025-12-04 02:11:48,285 [INFO] [731] ✅ SA/5042/Energy Locals/Single Rate
+2025-12-04 02:11:54,506 [INFO] [732] ✅ SA/5042/Energy Locals/Time of Use
+2025-12-04 02:12:00,686 [WARNING] [733] ❌ SA/5042/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 02:12:05,887 [WARNING] [734] ❌ SA/5042/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 02:12:09,347 [INFO] 批次完成，休息 35 秒...
+2025-12-04 02:12:45,992 [INFO] [735] ✅ SA/5042/EnergyAustralia/Single Rate
+2025-12-04 02:12:51,264 [INFO] [736] ✅ SA/5042/EnergyAustralia/Time of Use
+2025-12-04 02:12:56,969 [WARNING] [737] ❌ SA/5042/Flow Power/Single Rate: 无计划
+2025-12-04 02:13:06,003 [INFO] [738] ✅ SA/5042/Flow Power/Time of Use
+2025-12-04 02:13:12,398 [INFO] [739] ✅ SA/5042/Globird Energy/Single Rate
+2025-12-04 02:13:18,974 [INFO] 批次完成，休息 36 秒...
+2025-12-04 02:13:57,069 [INFO] [740] ✅ SA/5042/Globird Energy/Time of Use
+2025-12-04 02:14:02,758 [WARNING] [741] ❌ SA/5042/Kogan Energy/Single Rate: 无计划
+2025-12-04 02:14:11,040 [WARNING] [742] ❌ SA/5042/Kogan Energy/Time of Use: 无计划
+2025-12-04 02:14:17,972 [INFO] [743] ✅ SA/5042/Lumo Energy (SA)/Single Rate
+2025-12-04 02:14:25,136 [INFO] [744] ✅ SA/5042/Lumo Energy (SA)/Time of Use
+2025-12-04 02:14:31,702 [INFO] 批次完成，休息 39 秒...
+2025-12-04 02:15:12,033 [INFO] [745] ✅ SA/5042/Momentum Energy/Single Rate
+2025-12-04 02:15:17,355 [INFO] [746] ✅ SA/5042/Momentum Energy/Time of Use
+2025-12-04 02:15:26,964 [WARNING] [747] ❌ SA/5042/Nectr/Single Rate: 无计划
+2025-12-04 02:15:35,419 [WARNING] [748] ❌ SA/5042/Nectr/Time of Use: 无计划
+2025-12-04 02:15:43,603 [INFO] [749] ✅ SA/5042/OVO Energy/Single Rate
+2025-12-04 02:15:48,601 [INFO] 批次完成，休息 31 秒...
+2025-12-04 02:16:20,992 [INFO] [750] ✅ SA/5042/OVO Energy/Time of Use
+2025-12-04 02:16:28,550 [INFO] [751] ✅ SA/5042/Origin Energy/Single Rate
+2025-12-04 02:16:37,331 [INFO] [752] ✅ SA/5042/Origin Energy/Time of Use
+2025-12-04 02:16:45,151 [INFO] [753] ✅ SA/5042/Powershop/Single Rate
+2025-12-04 02:16:52,311 [INFO] [754] ✅ SA/5042/Powershop/Time of Use
+2025-12-04 02:16:59,029 [INFO] 批次完成，休息 40 秒...
+2025-12-04 02:17:40,695 [INFO] [755] ✅ SA/5042/RAA Energy/Single Rate
+2025-12-04 02:17:49,442 [INFO] [756] ✅ SA/5042/RAA Energy/Time of Use
+2025-12-04 02:17:57,505 [INFO] [757] ✅ SA/5042/Red Energy/Single Rate
+2025-12-04 02:18:05,430 [INFO] [758] ✅ SA/5042/Red Energy/Time of Use
+2025-12-04 02:18:12,233 [WARNING] [759] ❌ SA/5042/Sumo/Single Rate: 无计划
+2025-12-04 02:18:19,725 [INFO] 批次完成，休息 34 秒...
+2025-12-04 02:18:55,833 [WARNING] [760] ❌ SA/5042/Sumo/Time of Use: 无计划
+2025-12-04 02:19:04,859 [WARNING] [761] ❌ SA/5042/Tango Energy/Single Rate: 无计划
+2025-12-04 02:19:13,077 [WARNING] [762] ❌ SA/5042/Tango Energy/Time of Use: 无计划
+2025-12-04 02:19:22,784 [WARNING] [763] ❌ SA/5042/ZEN Energy/Single Rate: 无计划
+2025-12-04 02:19:27,833 [WARNING] [764] ❌ SA/5042/ZEN Energy/Time of Use: 无计划
+2025-12-04 02:19:31,221 [INFO] 批次完成，休息 34 秒...
+2025-12-04 02:20:07,127 [WARNING] [765] ❌ SA/5042/iO Energy/Single Rate: 无计划
+2025-12-04 02:20:16,227 [INFO] [766] ✅ SA/5042/iO Energy/Time of Use
+2025-12-04 02:20:22,674 [INFO] 处理邮编: 5108
+2025-12-04 02:20:24,697 [INFO] Postcode 5108: 找到 26 个零售商
+2025-12-04 02:20:34,077 [INFO] [767] ✅ SA/5108/1st Energy/Single Rate
+2025-12-04 02:20:38,936 [INFO] [768] ✅ SA/5108/1st Energy/Time of Use
+2025-12-04 02:20:48,719 [INFO] [769] ✅ SA/5108/AGL/Single Rate
+2025-12-04 02:20:55,824 [INFO] 批次完成，休息 32 秒...
+2025-12-04 02:21:29,748 [INFO] [770] ✅ SA/5108/AGL/Time of Use
+2025-12-04 02:21:37,261 [INFO] [771] ✅ SA/5108/Alinta Energy/Single Rate
+2025-12-04 02:21:44,917 [INFO] [772] ✅ SA/5108/Alinta Energy/Time of Use
+2025-12-04 02:21:51,299 [INFO] [773] ✅ SA/5108/Amber Electric/Single Rate
+2025-12-04 02:21:59,751 [WARNING] [774] ❌ SA/5108/Amber Electric/Time of Use: 无计划
+2025-12-04 02:22:06,815 [INFO] 批次完成，休息 34 秒...
+2025-12-04 02:22:42,248 [INFO] [775] ✅ SA/5108/CovaU/Single Rate
+2025-12-04 02:22:47,203 [INFO] [776] ✅ SA/5108/CovaU/Time of Use
+2025-12-04 02:22:54,776 [INFO] [777] ✅ SA/5108/Diamond Energy/Single Rate
+2025-12-04 02:23:03,331 [INFO] [778] ✅ SA/5108/Diamond Energy/Time of Use
+2025-12-04 02:23:08,178 [INFO] [779] ✅ SA/5108/Dodo/Single Rate
+2025-12-04 02:23:15,608 [INFO] 批次完成，休息 37 秒...
+2025-12-04 02:23:54,003 [INFO] [780] ✅ SA/5108/Dodo/Time of Use
+2025-12-04 02:24:01,251 [INFO] [781] ✅ SA/5108/ENGIE/Single Rate
+2025-12-04 02:24:06,329 [INFO] [782] ✅ SA/5108/ENGIE/Time of Use
+2025-12-04 02:24:13,567 [INFO] [783] ✅ SA/5108/Energy Locals/Single Rate
+2025-12-04 02:24:21,655 [INFO] [784] ✅ SA/5108/Energy Locals/Time of Use
+2025-12-04 02:24:25,923 [INFO] 批次完成，休息 34 秒...
+2025-12-04 02:25:01,577 [WARNING] [785] ❌ SA/5108/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 02:25:10,346 [WARNING] [786] ❌ SA/5108/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 02:25:18,555 [INFO] [787] ✅ SA/5108/EnergyAustralia/Single Rate
+2025-12-04 02:25:28,160 [INFO] [788] ✅ SA/5108/EnergyAustralia/Time of Use
+2025-12-04 02:25:34,127 [WARNING] [789] ❌ SA/5108/Flow Power/Single Rate: 无计划
+2025-12-04 02:25:38,951 [INFO] 批次完成，休息 36 秒...
+2025-12-04 02:26:16,634 [INFO] [790] ✅ SA/5108/Flow Power/Time of Use
+2025-12-04 02:26:25,232 [INFO] [791] ✅ SA/5108/Globird Energy/Single Rate
+2025-12-04 02:26:32,807 [INFO] [792] ✅ SA/5108/Globird Energy/Time of Use
+2025-12-04 02:26:40,200 [WARNING] [793] ❌ SA/5108/Kogan Energy/Single Rate: 无计划
+2025-12-04 02:26:49,399 [WARNING] [794] ❌ SA/5108/Kogan Energy/Time of Use: 无计划
+2025-12-04 02:26:52,540 [INFO] 批次完成，休息 40 秒...
+2025-12-04 02:27:34,090 [INFO] [795] ✅ SA/5108/Lumo Energy (SA)/Single Rate
+2025-12-04 02:27:42,168 [INFO] [796] ✅ SA/5108/Lumo Energy (SA)/Time of Use
+2025-12-04 02:27:50,332 [INFO] [797] ✅ SA/5108/Momentum Energy/Single Rate
+2025-12-04 02:27:56,948 [INFO] [798] ✅ SA/5108/Momentum Energy/Time of Use
+2025-12-04 02:28:06,193 [WARNING] [799] ❌ SA/5108/Nectr/Single Rate: 无计划
+2025-12-04 02:28:09,464 [INFO] 批次完成，休息 37 秒...
+2025-12-04 02:28:48,158 [WARNING] [800] ❌ SA/5108/Nectr/Time of Use: 无计划
+2025-12-04 02:28:54,908 [INFO] [801] ✅ SA/5108/OVO Energy/Single Rate
+2025-12-04 02:29:04,343 [INFO] [802] ✅ SA/5108/OVO Energy/Time of Use
+2025-12-04 02:29:12,309 [INFO] [803] ✅ SA/5108/Origin Energy/Single Rate
+2025-12-04 02:29:18,889 [INFO] [804] ✅ SA/5108/Origin Energy/Time of Use
+2025-12-04 02:29:26,387 [INFO] 批次完成，休息 35 秒...
+2025-12-04 02:30:03,098 [INFO] [805] ✅ SA/5108/Powershop/Single Rate
+2025-12-04 02:30:10,519 [INFO] [806] ✅ SA/5108/Powershop/Time of Use
+2025-12-04 02:30:18,628 [INFO] [807] ✅ SA/5108/RAA Energy/Single Rate
+2025-12-04 02:30:23,774 [INFO] [808] ✅ SA/5108/RAA Energy/Time of Use
+2025-12-04 02:30:29,251 [INFO] [809] ✅ SA/5108/Red Energy/Single Rate
+2025-12-04 02:30:36,338 [INFO] 批次完成，休息 40 秒...
+2025-12-04 02:31:18,000 [INFO] [810] ✅ SA/5108/Red Energy/Time of Use
+2025-12-04 02:31:24,111 [WARNING] [811] ❌ SA/5108/Sumo/Single Rate: 无计划
+2025-12-04 02:31:32,186 [WARNING] [812] ❌ SA/5108/Sumo/Time of Use: 无计划
+2025-12-04 02:31:40,772 [WARNING] [813] ❌ SA/5108/Tango Energy/Single Rate: 无计划
+2025-12-04 02:31:46,078 [WARNING] [814] ❌ SA/5108/Tango Energy/Time of Use: 无计划
+2025-12-04 02:31:53,047 [INFO] 批次完成，休息 30 秒...
+2025-12-04 02:32:25,123 [WARNING] [815] ❌ SA/5108/ZEN Energy/Single Rate: 无计划
+2025-12-04 02:32:30,179 [WARNING] [816] ❌ SA/5108/ZEN Energy/Time of Use: 无计划
+2025-12-04 02:32:34,856 [WARNING] [817] ❌ SA/5108/iO Energy/Single Rate: 无计划
+2025-12-04 02:32:43,583 [INFO] [818] ✅ SA/5108/iO Energy/Time of Use
+2025-12-04 02:32:49,477 [INFO] 处理邮编: 5290
+2025-12-04 02:32:51,191 [INFO] Postcode 5290: 找到 26 个零售商
+2025-12-04 02:32:57,531 [INFO] [819] ✅ SA/5290/1st Energy/Single Rate
+2025-12-04 02:33:01,533 [INFO] 批次完成，休息 39 秒...
+2025-12-04 02:33:41,697 [INFO] [820] ✅ SA/5290/1st Energy/Time of Use
+2025-12-04 02:33:48,211 [INFO] [821] ✅ SA/5290/AGL/Single Rate
+2025-12-04 02:33:53,851 [INFO] [822] ✅ SA/5290/AGL/Time of Use
+2025-12-04 02:33:59,644 [INFO] [823] ✅ SA/5290/Alinta Energy/Single Rate
+2025-12-04 02:34:08,400 [INFO] [824] ✅ SA/5290/Alinta Energy/Time of Use
+2025-12-04 02:34:14,372 [INFO] 批次完成，休息 37 秒...
+2025-12-04 02:34:53,652 [INFO] [825] ✅ SA/5290/Amber Electric/Single Rate
+2025-12-04 02:35:02,937 [WARNING] [826] ❌ SA/5290/Amber Electric/Time of Use: 无计划
+2025-12-04 02:35:11,404 [INFO] [827] ✅ SA/5290/CovaU/Single Rate
+2025-12-04 02:35:18,303 [INFO] [828] ✅ SA/5290/CovaU/Time of Use
+2025-12-04 02:35:26,830 [INFO] [829] ✅ SA/5290/Diamond Energy/Single Rate
+2025-12-04 02:35:30,624 [INFO] 批次完成，休息 32 秒...
+2025-12-04 02:36:04,223 [INFO] [830] ✅ SA/5290/Diamond Energy/Time of Use
+2025-12-04 02:36:12,871 [INFO] [831] ✅ SA/5290/Dodo/Single Rate
+2025-12-04 02:36:19,223 [INFO] [832] ✅ SA/5290/Dodo/Time of Use
+2025-12-04 02:36:27,146 [INFO] [833] ✅ SA/5290/ENGIE/Single Rate
+2025-12-04 02:36:33,615 [INFO] [834] ✅ SA/5290/ENGIE/Time of Use
+2025-12-04 02:36:37,755 [INFO] 批次完成，休息 39 秒...
+2025-12-04 02:37:18,792 [INFO] [835] ✅ SA/5290/Energy Locals/Single Rate
+2025-12-04 02:37:23,927 [INFO] [836] ✅ SA/5290/Energy Locals/Time of Use
+2025-12-04 02:37:32,218 [WARNING] [837] ❌ SA/5290/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 02:37:41,490 [WARNING] [838] ❌ SA/5290/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 02:37:47,223 [INFO] [839] ✅ SA/5290/EnergyAustralia/Single Rate
+2025-12-04 02:37:52,684 [INFO] 批次完成，休息 36 秒...
+2025-12-04 02:38:30,808 [INFO] [840] ✅ SA/5290/EnergyAustralia/Time of Use
+2025-12-04 02:38:37,775 [WARNING] [841] ❌ SA/5290/Flow Power/Single Rate: 无计划
+2025-12-04 02:38:44,498 [INFO] [842] ✅ SA/5290/Flow Power/Time of Use
+2025-12-04 02:38:53,951 [INFO] [843] ✅ SA/5290/Globird Energy/Single Rate
+2025-12-04 02:38:59,636 [INFO] [844] ✅ SA/5290/Globird Energy/Time of Use
+2025-12-04 02:39:05,470 [INFO] 批次完成，休息 33 秒...
+2025-12-04 02:39:40,044 [WARNING] [845] ❌ SA/5290/Kogan Energy/Single Rate: 无计划
+2025-12-04 02:39:45,408 [WARNING] [846] ❌ SA/5290/Kogan Energy/Time of Use: 无计划
+2025-12-04 02:39:51,436 [INFO] [847] ✅ SA/5290/Lumo Energy (SA)/Single Rate
+2025-12-04 02:39:57,862 [INFO] [848] ✅ SA/5290/Lumo Energy (SA)/Time of Use
+2025-12-04 02:40:04,792 [INFO] [849] ✅ SA/5290/Momentum Energy/Single Rate
+2025-12-04 02:40:11,543 [INFO] 批次完成，休息 33 秒...
+2025-12-04 02:40:46,123 [INFO] [850] ✅ SA/5290/Momentum Energy/Time of Use
+2025-12-04 02:40:52,363 [WARNING] [851] ❌ SA/5290/Nectr/Single Rate: 无计划
+2025-12-04 02:40:59,286 [WARNING] [852] ❌ SA/5290/Nectr/Time of Use: 无计划
+2025-12-04 02:41:08,850 [INFO] [853] ✅ SA/5290/OVO Energy/Single Rate
+2025-12-04 02:41:17,655 [INFO] [854] ✅ SA/5290/OVO Energy/Time of Use
+2025-12-04 02:41:21,805 [INFO] 批次完成，休息 30 秒...
+2025-12-04 02:41:54,172 [INFO] [855] ✅ SA/5290/Origin Energy/Single Rate
+2025-12-04 02:42:03,865 [INFO] [856] ✅ SA/5290/Origin Energy/Time of Use
+2025-12-04 02:42:11,981 [INFO] [857] ✅ SA/5290/Powershop/Single Rate
+2025-12-04 02:42:21,222 [INFO] [858] ✅ SA/5290/Powershop/Time of Use
+2025-12-04 02:42:30,877 [INFO] [859] ✅ SA/5290/RAA Energy/Single Rate
+2025-12-04 02:42:35,614 [INFO] 批次完成，休息 33 秒...
+2025-12-04 02:43:10,527 [INFO] [860] ✅ SA/5290/RAA Energy/Time of Use
+2025-12-04 02:43:19,741 [INFO] [861] ✅ SA/5290/Red Energy/Single Rate
+2025-12-04 02:43:25,422 [INFO] [862] ✅ SA/5290/Red Energy/Time of Use
+2025-12-04 02:43:34,024 [WARNING] [863] ❌ SA/5290/Sumo/Single Rate: 无计划
+2025-12-04 02:43:41,913 [WARNING] [864] ❌ SA/5290/Sumo/Time of Use: 无计划
+2025-12-04 02:43:48,295 [INFO] 批次完成，休息 39 秒...
+2025-12-04 02:44:29,161 [WARNING] [865] ❌ SA/5290/Tango Energy/Single Rate: 无计划
+2025-12-04 02:44:39,026 [WARNING] [866] ❌ SA/5290/Tango Energy/Time of Use: 无计划
+2025-12-04 02:44:48,837 [WARNING] [867] ❌ SA/5290/ZEN Energy/Single Rate: 无计划
+2025-12-04 02:44:53,973 [WARNING] [868] ❌ SA/5290/ZEN Energy/Time of Use: 无计划
+2025-12-04 02:44:59,338 [WARNING] [869] ❌ SA/5290/iO Energy/Single Rate: 无计划
+2025-12-04 02:45:05,486 [INFO] 批次完成，休息 40 秒...
+2025-12-04 02:45:46,877 [INFO] [870] ✅ SA/5290/iO Energy/Time of Use
+2025-12-04 02:45:52,930 [INFO] 处理邮编: 5600
+2025-12-04 02:45:54,527 [INFO] Postcode 5600: 找到 26 个零售商
+2025-12-04 02:45:59,761 [INFO] [871] ✅ SA/5600/1st Energy/Single Rate
+2025-12-04 02:46:07,735 [INFO] [872] ✅ SA/5600/1st Energy/Time of Use
+2025-12-04 02:46:12,792 [INFO] [873] ✅ SA/5600/AGL/Single Rate
+2025-12-04 02:46:21,493 [INFO] [874] ✅ SA/5600/AGL/Time of Use
+2025-12-04 02:46:27,866 [INFO] 批次完成，休息 31 秒...
+2025-12-04 02:47:00,439 [INFO] [875] ✅ SA/5600/Alinta Energy/Single Rate
+2025-12-04 02:47:08,451 [INFO] [876] ✅ SA/5600/Alinta Energy/Time of Use
+2025-12-04 02:47:15,849 [INFO] [877] ✅ SA/5600/Amber Electric/Single Rate
+2025-12-04 02:47:23,916 [WARNING] [878] ❌ SA/5600/Amber Electric/Time of Use: 无计划
+2025-12-04 02:47:28,716 [INFO] [879] ✅ SA/5600/CovaU/Single Rate
+2025-12-04 02:47:34,358 [INFO] 批次完成，休息 35 秒...
+2025-12-04 02:48:10,558 [INFO] [880] ✅ SA/5600/CovaU/Time of Use
+2025-12-04 02:48:19,627 [INFO] [881] ✅ SA/5600/Diamond Energy/Single Rate
+2025-12-04 02:48:24,963 [INFO] [882] ✅ SA/5600/Diamond Energy/Time of Use
+2025-12-04 02:48:31,994 [INFO] [883] ✅ SA/5600/Dodo/Single Rate
+2025-12-04 02:48:37,094 [INFO] [884] ✅ SA/5600/Dodo/Time of Use
+2025-12-04 02:48:40,449 [INFO] 批次完成，休息 31 秒...
+2025-12-04 02:49:13,467 [INFO] [885] ✅ SA/5600/ENGIE/Single Rate
+2025-12-04 02:49:18,823 [INFO] [886] ✅ SA/5600/ENGIE/Time of Use
+2025-12-04 02:49:24,606 [INFO] [887] ✅ SA/5600/Energy Locals/Single Rate
+2025-12-04 02:49:29,570 [INFO] [888] ✅ SA/5600/Energy Locals/Time of Use
+2025-12-04 02:49:36,800 [WARNING] [889] ❌ SA/5600/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 02:49:43,530 [INFO] 批次完成，休息 35 秒...
+2025-12-04 02:50:20,391 [WARNING] [890] ❌ SA/5600/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 02:50:27,028 [INFO] [891] ✅ SA/5600/EnergyAustralia/Single Rate
+2025-12-04 02:50:32,799 [INFO] [892] ✅ SA/5600/EnergyAustralia/Time of Use
+2025-12-04 02:50:41,582 [WARNING] [893] ❌ SA/5600/Flow Power/Single Rate: 无计划
+2025-12-04 02:50:47,044 [INFO] [894] ✅ SA/5600/Flow Power/Time of Use
+2025-12-04 02:50:53,568 [INFO] 批次完成，休息 32 秒...
+2025-12-04 02:51:27,638 [INFO] [895] ✅ SA/5600/Globird Energy/Single Rate
+2025-12-04 02:51:34,698 [INFO] [896] ✅ SA/5600/Globird Energy/Time of Use
+2025-12-04 02:51:41,469 [WARNING] [897] ❌ SA/5600/Kogan Energy/Single Rate: 无计划
+2025-12-04 02:51:50,244 [WARNING] [898] ❌ SA/5600/Kogan Energy/Time of Use: 无计划
+2025-12-04 02:51:56,186 [INFO] [899] ✅ SA/5600/Lumo Energy (SA)/Single Rate
+2025-12-04 02:52:02,417 [INFO] 批次完成，休息 39 秒...
+2025-12-04 02:52:43,353 [INFO] [900] ✅ SA/5600/Lumo Energy (SA)/Time of Use
+2025-12-04 02:52:48,880 [INFO] [901] ✅ SA/5600/Momentum Energy/Single Rate
+2025-12-04 02:52:56,427 [INFO] [902] ✅ SA/5600/Momentum Energy/Time of Use
+2025-12-04 02:53:02,923 [WARNING] [903] ❌ SA/5600/Nectr/Single Rate: 无计划
+2025-12-04 02:53:10,457 [WARNING] [904] ❌ SA/5600/Nectr/Time of Use: 无计划
+2025-12-04 02:53:15,822 [INFO] 批次完成，休息 31 秒...
+2025-12-04 02:53:48,792 [INFO] [905] ✅ SA/5600/OVO Energy/Single Rate
+2025-12-04 02:53:54,652 [INFO] [906] ✅ SA/5600/OVO Energy/Time of Use
+2025-12-04 02:54:00,149 [INFO] [907] ✅ SA/5600/Origin Energy/Single Rate
+2025-12-04 02:54:08,026 [INFO] [908] ✅ SA/5600/Origin Energy/Time of Use
+2025-12-04 02:54:16,259 [INFO] [909] ✅ SA/5600/Powershop/Single Rate
+2025-12-04 02:54:21,931 [INFO] 批次完成，休息 40 秒...
+2025-12-04 02:55:03,259 [INFO] [910] ✅ SA/5600/Powershop/Time of Use
+2025-12-04 02:55:11,223 [INFO] [911] ✅ SA/5600/RAA Energy/Single Rate
+2025-12-04 02:55:16,725 [INFO] [912] ✅ SA/5600/RAA Energy/Time of Use
+2025-12-04 02:55:23,660 [INFO] [913] ✅ SA/5600/Red Energy/Single Rate
+2025-12-04 02:55:29,033 [INFO] [914] ✅ SA/5600/Red Energy/Time of Use
+2025-12-04 02:55:36,093 [INFO] 批次完成，休息 30 秒...
+2025-12-04 02:56:08,349 [WARNING] [915] ❌ SA/5600/Sumo/Single Rate: 无计划
+2025-12-04 02:56:14,105 [WARNING] [916] ❌ SA/5600/Sumo/Time of Use: 无计划
+2025-12-04 02:56:21,420 [WARNING] [917] ❌ SA/5600/Tango Energy/Single Rate: 无计划
+2025-12-04 02:56:29,980 [WARNING] [918] ❌ SA/5600/Tango Energy/Time of Use: 无计划
+2025-12-04 02:56:36,587 [WARNING] [919] ❌ SA/5600/ZEN Energy/Single Rate: 无计划
+2025-12-04 02:56:44,537 [INFO] 批次完成，休息 38 秒...
+2025-12-04 02:57:23,829 [WARNING] [920] ❌ SA/5600/ZEN Energy/Time of Use: 无计划
+2025-12-04 02:57:30,571 [WARNING] [921] ❌ SA/5600/iO Energy/Single Rate: 无计划
+2025-12-04 02:57:39,756 [INFO] [922] ✅ SA/5600/iO Energy/Time of Use
+2025-12-04 02:57:43,071 [INFO] ========================================
+2025-12-04 02:57:43,072 [INFO] 开始采集州: WA
+2025-12-04 02:57:43,072 [INFO] ========================================
+2025-12-04 02:57:43,072 [INFO] 处理邮编: 6000
+2025-12-04 02:57:44,725 [INFO] Postcode 6000: 找到 1 个零售商
+2025-12-04 02:57:49,484 [INFO] [923] ✅ WA/6000/Synergy/Single Rate
+2025-12-04 02:57:55,864 [INFO] [924] ✅ WA/6000/Synergy/Time of Use
+2025-12-04 02:57:59,589 [INFO] 处理邮编: 6100
+2025-12-04 02:58:01,256 [INFO] Postcode 6100: 找到 1 个零售商
+2025-12-04 02:58:04,403 [INFO] 批次完成，休息 35 秒...
+2025-12-04 02:58:40,591 [INFO] [925] ✅ WA/6100/Synergy/Single Rate
+2025-12-04 02:58:49,424 [INFO] [926] ✅ WA/6100/Synergy/Time of Use
+2025-12-04 02:58:55,849 [INFO] 处理邮编: 6210
+2025-12-04 02:58:57,498 [INFO] Postcode 6210: 找到 1 个零售商
+2025-12-04 02:59:03,623 [INFO] [927] ✅ WA/6210/Synergy/Single Rate
+2025-12-04 02:59:13,024 [INFO] [928] ✅ WA/6210/Synergy/Time of Use
+2025-12-04 02:59:19,758 [INFO] 处理邮编: 6430
+2025-12-04 02:59:25,112 [INFO] Postcode 6430: 找到 1 个零售商
+2025-12-04 02:59:33,122 [INFO] [929] ✅ WA/6430/Synergy/Single Rate
+2025-12-04 02:59:36,918 [INFO] 批次完成，休息 31 秒...
+2025-12-04 03:00:09,668 [INFO] [930] ✅ WA/6430/Synergy/Time of Use
+2025-12-04 03:00:15,956 [INFO] 处理邮编: 6530
+2025-12-04 03:00:17,644 [INFO] Postcode 6530: 找到 1 个零售商
+2025-12-04 03:00:23,814 [INFO] [931] ✅ WA/6530/Synergy/Single Rate
+2025-12-04 03:00:31,479 [INFO] [932] ✅ WA/6530/Synergy/Time of Use
+2025-12-04 03:00:37,106 [INFO] ========================================
+2025-12-04 03:00:37,106 [INFO] 开始采集州: TAS
+2025-12-04 03:00:37,106 [INFO] ========================================
+2025-12-04 03:00:37,106 [INFO] 处理邮编: 7000
+2025-12-04 03:00:38,756 [INFO] Postcode 7000: 找到 5 个零售商
+2025-12-04 03:00:46,267 [INFO] [933] ✅ TAS/7000/1st Energy/Single Rate
+2025-12-04 03:00:54,700 [INFO] [934] ✅ TAS/7000/1st Energy/Time of Use
+2025-12-04 03:00:58,038 [INFO] 批次完成，休息 35 秒...
+2025-12-04 03:01:35,191 [INFO] [935] ✅ TAS/7000/Aurora Energy/Single Rate
+2025-12-04 03:01:43,510 [INFO] [936] ✅ TAS/7000/Aurora Energy/Time of Use
+2025-12-04 03:01:52,328 [INFO] [937] ✅ TAS/7000/CovaU/Single Rate
+2025-12-04 03:02:00,827 [INFO] [938] ✅ TAS/7000/CovaU/Time of Use
+2025-12-04 03:02:07,242 [INFO] [939] ✅ TAS/7000/Energy Locals/Single Rate
+2025-12-04 03:02:13,168 [INFO] 批次完成，休息 33 秒...
+2025-12-04 03:02:47,669 [INFO] [940] ✅ TAS/7000/Energy Locals/Time of Use
+2025-12-04 03:02:55,402 [INFO] [941] ✅ TAS/7000/Solstice Energy/Single Rate
+2025-12-04 03:03:00,599 [WARNING] [942] ❌ TAS/7000/Solstice Energy/Time of Use: 无计划
+2025-12-04 03:03:07,173 [INFO] 处理邮编: 7004
+2025-12-04 03:03:08,834 [INFO] Postcode 7004: 找到 5 个零售商
+2025-12-04 03:03:18,114 [INFO] [943] ✅ TAS/7004/1st Energy/Single Rate
+2025-12-04 03:03:26,077 [INFO] [944] ✅ TAS/7004/1st Energy/Time of Use
+2025-12-04 03:03:33,352 [INFO] 批次完成，休息 36 秒...
+2025-12-04 03:04:10,671 [INFO] [945] ✅ TAS/7004/Aurora Energy/Single Rate
+2025-12-04 03:04:15,676 [INFO] [946] ✅ TAS/7004/Aurora Energy/Time of Use
+2025-12-04 03:04:21,134 [INFO] [947] ✅ TAS/7004/CovaU/Single Rate
+2025-12-04 03:04:28,073 [INFO] [948] ✅ TAS/7004/CovaU/Time of Use
+2025-12-04 03:04:35,588 [INFO] [949] ✅ TAS/7004/Energy Locals/Single Rate
+2025-12-04 03:04:43,115 [INFO] 批次完成，休息 37 秒...
+2025-12-04 03:05:21,558 [INFO] [950] ✅ TAS/7004/Energy Locals/Time of Use
+2025-12-04 03:05:30,133 [INFO] [951] ✅ TAS/7004/Solstice Energy/Single Rate
+2025-12-04 03:05:36,859 [WARNING] [952] ❌ TAS/7004/Solstice Energy/Time of Use: 无计划
+2025-12-04 03:05:43,543 [INFO] 处理邮编: 7250
+2025-12-04 03:05:45,161 [INFO] Postcode 7250: 找到 5 个零售商
+2025-12-04 03:05:50,932 [INFO] [953] ✅ TAS/7250/1st Energy/Single Rate
+2025-12-04 03:05:58,687 [INFO] [954] ✅ TAS/7250/1st Energy/Time of Use
+2025-12-04 03:06:05,229 [INFO] 批次完成，休息 35 秒...
+2025-12-04 03:06:41,436 [INFO] [955] ✅ TAS/7250/Aurora Energy/Single Rate
+2025-12-04 03:06:46,547 [INFO] [956] ✅ TAS/7250/Aurora Energy/Time of Use
+2025-12-04 03:06:56,093 [INFO] [957] ✅ TAS/7250/CovaU/Single Rate
+2025-12-04 03:07:01,858 [INFO] [958] ✅ TAS/7250/CovaU/Time of Use
+2025-12-04 03:07:11,545 [INFO] [959] ✅ TAS/7250/Energy Locals/Single Rate
+2025-12-04 03:07:17,432 [INFO] 批次完成，休息 33 秒...
+2025-12-04 03:07:51,993 [INFO] [960] ✅ TAS/7250/Energy Locals/Time of Use
+2025-12-04 03:07:59,311 [INFO] [961] ✅ TAS/7250/Solstice Energy/Single Rate
+2025-12-04 03:08:04,397 [WARNING] [962] ❌ TAS/7250/Solstice Energy/Time of Use: 无计划
+2025-12-04 03:08:11,572 [INFO] 处理邮编: 7310
+2025-12-04 03:08:13,250 [INFO] Postcode 7310: 找到 5 个零售商
+2025-12-04 03:08:19,347 [INFO] [963] ✅ TAS/7310/1st Energy/Single Rate
+2025-12-04 03:08:29,153 [INFO] [964] ✅ TAS/7310/1st Energy/Time of Use
+2025-12-04 03:08:34,153 [INFO] 批次完成，休息 30 秒...
+2025-12-04 03:09:05,999 [INFO] [965] ✅ TAS/7310/Aurora Energy/Single Rate
+2025-12-04 03:09:14,475 [INFO] [966] ✅ TAS/7310/Aurora Energy/Time of Use
+2025-12-04 03:09:21,758 [INFO] [967] ✅ TAS/7310/CovaU/Single Rate
+2025-12-04 03:09:26,851 [INFO] [968] ✅ TAS/7310/CovaU/Time of Use
+2025-12-04 03:09:33,334 [INFO] [969] ✅ TAS/7310/Energy Locals/Single Rate
+2025-12-04 03:09:40,846 [INFO] 批次完成，休息 36 秒...
+2025-12-04 03:10:18,749 [INFO] [970] ✅ TAS/7310/Energy Locals/Time of Use
+2025-12-04 03:10:23,863 [INFO] [971] ✅ TAS/7310/Solstice Energy/Single Rate
+2025-12-04 03:10:33,506 [WARNING] [972] ❌ TAS/7310/Solstice Energy/Time of Use: 无计划
+2025-12-04 03:10:39,066 [INFO] 处理邮编: 7470
+2025-12-04 03:10:41,481 [INFO] Postcode 7470: 找到 5 个零售商
+2025-12-04 03:10:50,492 [INFO] [973] ✅ TAS/7470/1st Energy/Single Rate
+2025-12-04 03:10:56,485 [INFO] [974] ✅ TAS/7470/1st Energy/Time of Use
+2025-12-04 03:11:01,958 [INFO] 批次完成，休息 32 秒...
+2025-12-04 03:11:35,953 [INFO] [975] ✅ TAS/7470/Aurora Energy/Single Rate
+2025-12-04 03:11:45,334 [INFO] [976] ✅ TAS/7470/Aurora Energy/Time of Use
+2025-12-04 03:11:53,765 [INFO] [977] ✅ TAS/7470/CovaU/Single Rate
+2025-12-04 03:12:02,712 [INFO] [978] ✅ TAS/7470/CovaU/Time of Use
+2025-12-04 03:12:08,650 [INFO] [979] ✅ TAS/7470/Energy Locals/Single Rate
+2025-12-04 03:12:12,613 [INFO] 批次完成，休息 37 秒...
+2025-12-04 03:12:50,918 [INFO] [980] ✅ TAS/7470/Energy Locals/Time of Use
+2025-12-04 03:12:56,272 [INFO] [981] ✅ TAS/7470/Solstice Energy/Single Rate
+2025-12-04 03:13:01,283 [WARNING] [982] ❌ TAS/7470/Solstice Energy/Time of Use: 无计划
+2025-12-04 03:13:08,756 [INFO] ========================================
+2025-12-04 03:13:08,757 [INFO] 开始采集州: NT
+2025-12-04 03:13:08,757 [INFO] ========================================
+2025-12-04 03:13:08,757 [INFO] 处理邮编: 800
+2025-12-04 03:13:10,323 [INFO] Postcode 800: 找到 2 个零售商
+2025-12-04 03:13:16,583 [INFO] [983] ✅ NT/800/Jacana Energy/Single Rate
+2025-12-04 03:13:22,927 [INFO] [984] ✅ NT/800/Jacana Energy/Time of Use
+2025-12-04 03:13:27,864 [INFO] 批次完成，休息 39 秒...
+2025-12-04 03:14:08,944 [INFO] [985] ✅ NT/800/Rimfire Energy/Single Rate
+2025-12-04 03:14:16,955 [INFO] [986] ✅ NT/800/Rimfire Energy/Time of Use
+2025-12-04 03:14:23,868 [INFO] 处理邮编: 810
+2025-12-04 03:14:25,512 [INFO] Postcode 810: 找到 2 个零售商
+2025-12-04 03:14:31,922 [INFO] [987] ✅ NT/810/Jacana Energy/Single Rate
+2025-12-04 03:14:41,569 [INFO] [988] ✅ NT/810/Jacana Energy/Time of Use
+2025-12-04 03:14:47,281 [INFO] [989] ✅ NT/810/Rimfire Energy/Single Rate
+2025-12-04 03:14:53,769 [INFO] 批次完成，休息 39 秒...
+2025-12-04 03:15:34,435 [INFO] [990] ✅ NT/810/Rimfire Energy/Time of Use
+2025-12-04 03:15:38,769 [INFO] 处理邮编: 820
+2025-12-04 03:15:40,366 [INFO] Postcode 820: 找到 2 个零售商
+2025-12-04 03:15:49,392 [INFO] [991] ✅ NT/820/Jacana Energy/Single Rate
+2025-12-04 03:15:57,224 [INFO] [992] ✅ NT/820/Jacana Energy/Time of Use
+2025-12-04 03:16:04,249 [INFO] [993] ✅ NT/820/Rimfire Energy/Single Rate
+2025-12-04 03:16:12,287 [INFO] [994] ✅ NT/820/Rimfire Energy/Time of Use
+2025-12-04 03:16:15,715 [INFO] 处理邮编: 830
+2025-12-04 03:16:17,333 [INFO] Postcode 830: 找到 2 个零售商
+2025-12-04 03:16:23,422 [INFO] 批次完成，休息 35 秒...
+2025-12-04 03:16:59,822 [INFO] [995] ✅ NT/830/Jacana Energy/Single Rate
+2025-12-04 03:17:07,737 [INFO] [996] ✅ NT/830/Jacana Energy/Time of Use
+2025-12-04 03:17:14,436 [INFO] [997] ✅ NT/830/Rimfire Energy/Single Rate
+2025-12-04 03:17:22,459 [INFO] [998] ✅ NT/830/Rimfire Energy/Time of Use
+2025-12-04 03:17:29,082 [INFO] 处理邮编: 850
+2025-12-04 03:17:31,103 [INFO] Postcode 850: 找到 2 个零售商
+2025-12-04 03:17:37,436 [INFO] [999] ✅ NT/850/Jacana Energy/Single Rate
+2025-12-04 03:17:43,917 [INFO] 批次完成，休息 30 秒...
+2025-12-04 03:18:15,666 [INFO] [1000] ✅ NT/850/Jacana Energy/Time of Use
+2025-12-04 03:18:21,729 [INFO] [1001] ✅ NT/850/Rimfire Energy/Single Rate
+2025-12-04 03:18:27,043 [INFO] [1002] ✅ NT/850/Rimfire Energy/Time of Use
+2025-12-04 03:18:33,576 [INFO] ========================================
+2025-12-04 03:18:33,576 [INFO] 开始采集州: ACT
+2025-12-04 03:18:33,576 [INFO] ========================================
+2025-12-04 03:18:33,576 [INFO] 处理邮编: 2600
+2025-12-04 03:18:35,338 [INFO] Postcode 2600: 找到 9 个零售商
+2025-12-04 03:18:42,387 [INFO] [1003] ✅ ACT/2600/ActewAGL/Single Rate
+2025-12-04 03:18:48,921 [INFO] [1004] ✅ ACT/2600/ActewAGL/Time of Use
+2025-12-04 03:18:55,722 [INFO] 批次完成，休息 35 秒...
+2025-12-04 03:19:33,349 [INFO] [1005] ✅ ACT/2600/Amber Electric/Single Rate
+2025-12-04 03:19:42,594 [WARNING] [1006] ❌ ACT/2600/Amber Electric/Time of Use: 无计划
+2025-12-04 03:19:49,678 [INFO] [1007] ✅ ACT/2600/CovaU/Single Rate
+2025-12-04 03:19:57,172 [INFO] [1008] ✅ ACT/2600/CovaU/Time of Use
+2025-12-04 03:20:03,451 [INFO] [1009] ✅ ACT/2600/Energy Locals/Single Rate
+2025-12-04 03:20:09,848 [INFO] 批次完成，休息 38 秒...
+2025-12-04 03:20:49,765 [INFO] [1010] ✅ ACT/2600/Energy Locals/Time of Use
+2025-12-04 03:20:59,713 [WARNING] [1011] ❌ ACT/2600/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 03:21:04,999 [WARNING] [1012] ❌ ACT/2600/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 03:21:10,269 [INFO] [1013] ✅ ACT/2600/EnergyAustralia/Single Rate
+2025-12-04 03:21:18,392 [INFO] [1014] ✅ ACT/2600/EnergyAustralia/Time of Use
+2025-12-04 03:21:23,670 [INFO] 批次完成，休息 32 秒...
+2025-12-04 03:21:57,301 [WARNING] [1015] ❌ ACT/2600/Nectr/Single Rate: 无计划
+2025-12-04 03:22:06,134 [WARNING] [1016] ❌ ACT/2600/Nectr/Time of Use: 无计划
+2025-12-04 03:22:15,700 [INFO] [1017] ✅ ACT/2600/Origin Energy/Single Rate
+2025-12-04 03:22:22,335 [INFO] [1018] ✅ ACT/2600/Origin Energy/Time of Use
+2025-12-04 03:22:29,658 [INFO] [1019] ✅ ACT/2600/Red Energy/Single Rate
+2025-12-04 03:22:33,991 [INFO] 批次完成，休息 39 秒...
+2025-12-04 03:23:14,939 [INFO] [1020] ✅ ACT/2600/Red Energy/Time of Use
+2025-12-04 03:23:18,037 [INFO] 处理邮编: 2601
+2025-12-04 03:23:19,960 [INFO] Postcode 2601: 找到 9 个零售商
+2025-12-04 03:23:27,315 [INFO] [1021] ✅ ACT/2601/ActewAGL/Single Rate
+2025-12-04 03:23:32,829 [INFO] [1022] ✅ ACT/2601/ActewAGL/Time of Use
+2025-12-04 03:23:38,535 [INFO] [1023] ✅ ACT/2601/Amber Electric/Single Rate
+2025-12-04 03:23:46,856 [WARNING] [1024] ❌ ACT/2601/Amber Electric/Time of Use: 无计划
+2025-12-04 03:23:50,209 [INFO] 批次完成，休息 33 秒...
+2025-12-04 03:24:25,371 [INFO] [1025] ✅ ACT/2601/CovaU/Single Rate
+2025-12-04 03:24:32,154 [INFO] [1026] ✅ ACT/2601/CovaU/Time of Use
+2025-12-04 03:24:38,913 [INFO] [1027] ✅ ACT/2601/Energy Locals/Single Rate
+2025-12-04 03:24:45,923 [INFO] [1028] ✅ ACT/2601/Energy Locals/Time of Use
+2025-12-04 03:24:54,515 [WARNING] [1029] ❌ ACT/2601/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 03:25:02,386 [INFO] 批次完成，休息 37 秒...
+2025-12-04 03:25:41,293 [WARNING] [1030] ❌ ACT/2601/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 03:25:48,805 [INFO] [1031] ✅ ACT/2601/EnergyAustralia/Single Rate
+2025-12-04 03:25:54,392 [INFO] [1032] ✅ ACT/2601/EnergyAustralia/Time of Use
+2025-12-04 03:26:03,518 [WARNING] [1033] ❌ ACT/2601/Nectr/Single Rate: 无计划
+2025-12-04 03:26:10,620 [WARNING] [1034] ❌ ACT/2601/Nectr/Time of Use: 无计划
+2025-12-04 03:26:14,854 [INFO] 批次完成，休息 35 秒...
+2025-12-04 03:26:51,166 [INFO] [1035] ✅ ACT/2601/Origin Energy/Single Rate
+2025-12-04 03:26:57,360 [INFO] [1036] ✅ ACT/2601/Origin Energy/Time of Use
+2025-12-04 03:27:05,048 [INFO] [1037] ✅ ACT/2601/Red Energy/Single Rate
+2025-12-04 03:27:13,908 [INFO] [1038] ✅ ACT/2601/Red Energy/Time of Use
+2025-12-04 03:27:19,026 [INFO] 处理邮编: 2602
+2025-12-04 03:27:20,725 [INFO] Postcode 2602: 找到 9 个零售商
+2025-12-04 03:27:26,209 [INFO] [1039] ✅ ACT/2602/ActewAGL/Single Rate
+2025-12-04 03:27:30,179 [INFO] 批次完成，休息 35 秒...
+2025-12-04 03:28:07,018 [INFO] [1040] ✅ ACT/2602/ActewAGL/Time of Use
+2025-12-04 03:28:11,780 [INFO] [1041] ✅ ACT/2602/Amber Electric/Single Rate
+2025-12-04 03:28:19,425 [WARNING] [1042] ❌ ACT/2602/Amber Electric/Time of Use: 无计划
+2025-12-04 03:28:25,538 [INFO] [1043] ✅ ACT/2602/CovaU/Single Rate
+2025-12-04 03:28:33,064 [INFO] [1044] ✅ ACT/2602/CovaU/Time of Use
+2025-12-04 03:28:37,587 [INFO] 批次完成，休息 37 秒...
+2025-12-04 03:29:15,979 [INFO] [1045] ✅ ACT/2602/Energy Locals/Single Rate
+2025-12-04 03:29:22,331 [INFO] [1046] ✅ ACT/2602/Energy Locals/Time of Use
+2025-12-04 03:29:31,619 [WARNING] [1047] ❌ ACT/2602/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 03:29:37,988 [WARNING] [1048] ❌ ACT/2602/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 03:29:46,348 [INFO] [1049] ✅ ACT/2602/EnergyAustralia/Single Rate
+2025-12-04 03:29:49,783 [INFO] 批次完成，休息 38 秒...
+2025-12-04 03:30:30,072 [INFO] [1050] ✅ ACT/2602/EnergyAustralia/Time of Use
+2025-12-04 03:30:38,572 [WARNING] [1051] ❌ ACT/2602/Nectr/Single Rate: 无计划
+2025-12-04 03:30:44,142 [WARNING] [1052] ❌ ACT/2602/Nectr/Time of Use: 无计划
+2025-12-04 03:30:52,982 [INFO] [1053] ✅ ACT/2602/Origin Energy/Single Rate
+2025-12-04 03:30:58,981 [INFO] [1054] ✅ ACT/2602/Origin Energy/Time of Use
+2025-12-04 03:31:05,501 [INFO] 批次完成，休息 32 秒...
+2025-12-04 03:31:38,720 [INFO] [1055] ✅ ACT/2602/Red Energy/Single Rate
+2025-12-04 03:31:46,665 [INFO] [1056] ✅ ACT/2602/Red Energy/Time of Use
+2025-12-04 03:31:54,483 [INFO] 处理邮编: 2606
+2025-12-04 03:31:56,152 [INFO] Postcode 2606: 找到 9 个零售商
+2025-12-04 03:32:02,538 [INFO] [1057] ✅ ACT/2606/ActewAGL/Single Rate
+2025-12-04 03:32:07,762 [INFO] [1058] ✅ ACT/2606/ActewAGL/Time of Use
+2025-12-04 03:32:12,894 [INFO] [1059] ✅ ACT/2606/Amber Electric/Single Rate
+2025-12-04 03:32:16,389 [INFO] 批次完成，休息 37 秒...
+2025-12-04 03:32:54,744 [WARNING] [1060] ❌ ACT/2606/Amber Electric/Time of Use: 无计划
+2025-12-04 03:33:01,485 [INFO] [1061] ✅ ACT/2606/CovaU/Single Rate
+2025-12-04 03:33:10,433 [INFO] [1062] ✅ ACT/2606/CovaU/Time of Use
+2025-12-04 03:33:18,110 [INFO] [1063] ✅ ACT/2606/Energy Locals/Single Rate
+2025-12-04 03:33:24,178 [INFO] [1064] ✅ ACT/2606/Energy Locals/Time of Use
+2025-12-04 03:33:31,937 [INFO] 批次完成，休息 32 秒...
+2025-12-04 03:34:05,418 [WARNING] [1065] ❌ ACT/2606/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 03:34:11,002 [WARNING] [1066] ❌ ACT/2606/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 03:34:20,067 [INFO] [1067] ✅ ACT/2606/EnergyAustralia/Single Rate
+2025-12-04 03:34:29,373 [INFO] [1068] ✅ ACT/2606/EnergyAustralia/Time of Use
+2025-12-04 03:34:34,165 [WARNING] [1069] ❌ ACT/2606/Nectr/Single Rate: 无计划
+2025-12-04 03:34:40,961 [INFO] 批次完成，休息 36 秒...
+2025-12-04 03:35:18,899 [WARNING] [1070] ❌ ACT/2606/Nectr/Time of Use: 无计划
+2025-12-04 03:35:26,874 [INFO] [1071] ✅ ACT/2606/Origin Energy/Single Rate
+2025-12-04 03:35:33,153 [INFO] [1072] ✅ ACT/2606/Origin Energy/Time of Use
+2025-12-04 03:35:44,619 [ERROR] ACT/2606/Red Energy/Single Rate: SSL错误 - HTTPSConnectionPool(host='www.solarquotes.com.au', port=443): Max retries exceeded with url: /battery-storage/calculator/ajaxSearchDefaultPlan/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2025-12-04 03:35:44,619 [WARNING] [1073] ❌ ACT/2606/Red Energy/Single Rate: 无计划
+2025-12-04 03:35:54,169 [INFO] [1074] ✅ ACT/2606/Red Energy/Time of Use
+2025-12-04 03:36:00,789 [INFO] 处理邮编: 2615
+2025-12-04 03:36:02,572 [INFO] Postcode 2615: 找到 9 个零售商
+2025-12-04 03:36:07,451 [INFO] 批次完成，休息 34 秒...
+2025-12-04 03:36:43,662 [INFO] [1075] ✅ ACT/2615/ActewAGL/Single Rate
+2025-12-04 03:36:53,218 [INFO] [1076] ✅ ACT/2615/ActewAGL/Time of Use
+2025-12-04 03:36:59,075 [INFO] [1077] ✅ ACT/2615/Amber Electric/Single Rate
+2025-12-04 03:37:05,822 [WARNING] [1078] ❌ ACT/2615/Amber Electric/Time of Use: 无计划
+2025-12-04 03:37:13,140 [INFO] [1079] ✅ ACT/2615/CovaU/Single Rate
+2025-12-04 03:37:16,949 [INFO] 批次完成，休息 32 秒...
+2025-12-04 03:37:50,261 [INFO] [1080] ✅ ACT/2615/CovaU/Time of Use
+2025-12-04 03:37:56,506 [INFO] [1081] ✅ ACT/2615/Energy Locals/Single Rate
+2025-12-04 03:38:02,996 [INFO] [1082] ✅ ACT/2615/Energy Locals/Time of Use
+2025-12-04 03:38:09,913 [WARNING] [1083] ❌ ACT/2615/Energy Locals Urban/Single Rate: 无计划
+2025-12-04 03:38:17,282 [WARNING] [1084] ❌ ACT/2615/Energy Locals Urban/Time of Use: 无计划
+2025-12-04 03:38:24,668 [INFO] 批次完成，休息 32 秒...
+2025-12-04 03:38:58,284 [INFO] [1085] ✅ ACT/2615/EnergyAustralia/Single Rate
+2025-12-04 03:39:06,498 [INFO] [1086] ✅ ACT/2615/EnergyAustralia/Time of Use
+2025-12-04 03:39:14,053 [WARNING] [1087] ❌ ACT/2615/Nectr/Single Rate: 无计划
+2025-12-04 03:39:21,460 [WARNING] [1088] ❌ ACT/2615/Nectr/Time of Use: 无计划
+2025-12-04 03:39:30,103 [INFO] [1089] ✅ ACT/2615/Origin Energy/Single Rate
+2025-12-04 03:39:36,934 [INFO] 批次完成，休息 39 秒...
+2025-12-04 03:40:17,449 [INFO] [1090] ✅ ACT/2615/Origin Energy/Time of Use
+2025-12-04 03:40:26,998 [INFO] [1091] ✅ ACT/2615/Red Energy/Single Rate
+2025-12-04 03:40:35,470 [INFO] [1092] ✅ ACT/2615/Red Energy/Time of Use
+2025-12-04 03:40:39,013 [INFO] JSON 已保存: ./output/energy_plans/energy_plans_20251204_034038.json
+2025-12-04 03:40:39,014 [INFO] CSV 已保存: ./output/energy_plans/energy_plans_summary_20251204_034038.csv
+2025-12-04 03:40:39,015 [INFO] 零售商列表已保存: ./output/energy_plans/all_retailers_20251204_034038.json
+2025-12-04 03:40:39,015 [INFO] ============================================================
+2025-12-04 03:40:39,015 [INFO] 采集完成统计
+2025-12-04 03:40:39,015 [INFO] ============================================================
+2025-12-04 03:40:39,015 [INFO] 总请求数: 1092
+2025-12-04 03:40:39,015 [INFO] 成功数: 876
+2025-12-04 03:40:39,015 [INFO] 失败数: 216
+2025-12-04 03:40:39,015 [INFO] 成功率: 80.2%
+2025-12-04 03:40:39,015 [INFO] 发现零售商: 45 家
+2025-12-04 03:40:39,015 [INFO] 总耗时: 4:36:39.211060
+2025-12-04 03:40:39,015 [INFO] 日志文件: ./output/logs/fetch_log_20251203_230359.log

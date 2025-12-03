@@ -1,6 +1,5 @@
 https://www.solarquotes.com.au/js/calc/shared_calc.js?1753358776
 
-```js```
 var sCalc;
 var postcodeTimeout, lastPostcodeInfo;
 let is_mobile = (typeof browser != 'undefined' && browser.mobile) || (typeof is_device != 'undefined' && is_device) || navigator.userAgent.indexOf('iPad') !== -1 || (window.devicePixelRatio && $(window).width() <= 1200); // Specific iPad condition to target those that aren't catched by the 2 previous checks
@@ -901,6 +900,3 @@ jQuery(function () {
 });
 
 
-
-
-```js```
