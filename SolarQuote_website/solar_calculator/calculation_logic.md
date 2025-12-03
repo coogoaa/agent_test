@@ -1,6 +1,6 @@
 # SolarQuotes 核心计算逻辑分析
 
-基于 `shared_calc.js` 提取的完整计算逻辑。
+基于 `shared_calc.js`、`custom.js`、`result_debug.js` 提取的完整计算逻辑。
 
 ## 1. 核心计算函数
 
@@ -305,18 +305,358 @@ price_year_n = price_year_0 × (1 + inflation)^n
 
 ---
 
-## 5. 需要补充的内容
+## 5. 前端成本计算逻辑 (custom.js)
 
-要完全复现计算逻辑，还需要：
+### 5.1 系统总成本计算 `Calcs.cost()`
 
-1. **`custom.js`** - 可能包含结果页面特定的计算逻辑
-2. **`result_debug.js`** - 调试和结果展示逻辑
-3. **能源计划处理逻辑** - TOU（分时电价）的详细计算
-4. **NEM12 数据处理** - 实际用电数据的导入和分析
+```javascript
+// 获取所有太阳能板阵列的容量
+var capacities = jQuery('select.sa-system-capacity').map(function() {
+    return $(this).closest('.panel-array').find('select.sa-system-status').val() == 1 
+        ? parseFloat(jQuery(this).val()) : 0; 
+}).get();
+var system_size_new = capacities.reduce((total, num) => total + num, 0);
+
+var battery_cost = parseFloat($('#battery-cost').val().replace(',',''));
+
+var total_cost;
+if (isNaN(battery_cost) || battery_cost === 0) {
+    // 无电池：每kW $900
+    total_cost = system_size_new * 900;
+} else if (battery_cost > 0) {
+    // 有电池：电池成本 + 每kW $700
+    total_cost = battery_cost + system_size_new * 700;
+}
+```
+
+**成本计算公式：**
+| 场景 | 公式 |
+|------|------|
+| 无电池 | `total_cost = system_capacity_kW × $900` |
+| 有电池 | `total_cost = battery_cost + system_capacity_kW × $700` |
+
+### 5.2 电池成本计算 `Calcs.battery()`
+
+```javascript
+var installation_cost = 3000;  // 固定安装费
+var total_cost = 0;
+
+$('select.battery-selection').each(function(idx, val){
+    var option = $(val).find('option:selected');
+    var price = parseFloat(option.attr('data-price'));
+    
+    // SA州特殊价格
+    if($('#postcode-state').val() == 'SA' && option.attr('data-SA-price') !== undefined) 
+        price = parseFloat(option.attr('data-SA-price'));  
+    
+    // 自定义电池：按容量估算 $750/kWh
+    if (isNaN(price) || price == 0) {
+        const capacity = $(val).closest('.battery-item').find('[name*=capacity]').val();
+        if (capacity != '' && parseFloat(capacity) > 0) 
+            price = parseFloat(capacity) * 750;
+    }
+    
+    var cost = installation_cost + price;
+    total_cost += cost;
+});
+```
+
+**电池成本公式：**
+```
+battery_total_cost = Σ(battery_price + $3000_installation)
+
+// 自定义电池估算
+custom_battery_price = capacity_kWh × $750
+```
+
+### 5.3 上网电价限制 `checkFiTRestrictions()`
+
+```javascript
+// WA州：系统容量 > 6.6kW 时，FiT = 0
+if(state == 'WA' && totalSystemSize > 6.6) {
+    $('#FiT').val("0c");
+}
+
+// VIC州：系统容量 >= 100kW 时，FiT = 0
+if(state == 'VIC' && totalSystemSize >= 100) {
+    $('#FiT').val("0c");
+}
+```
+
+### 5.4 州默认值加载 `stateDefaults()`
+
+```javascript
+Calcs.stateDefaults = function(state){
+    var defaults = state_defaults[state];
+    
+    // 设置 FiT 和 kWhCost
+    $('#FiT').val(defaults['FiT'] + 'c');
+    $('#kWhCost').val(defaults['kWhCost'] + 'c');
+    
+    // 设置年度电费
+    $('#annual-bill').val(defaults['annual_bill']);
+    
+    // 计算日供电费（从季节数据汇总）
+    var dailyCharge = 0;
+    Object.values(defaults['charge']).forEach(function(seasonCharge) {
+        dailyCharge += seasonCharge;
+    });
+    dailyCharge = dailyCharge / 365 * 100;  // 转换为分/天
+    $('#daily-charge').val(dailyCharge.toFixed(2));
+}
+```
 
 ---
 
-## 6. Python 实现示例
+## 6. 结果页面计算逻辑 (result_debug.js)
+
+### 6.1 初始化流程
+
+```javascript
+function init(){
+    // 1. 计算季节用电量
+    sCalc.solarCalc.calculateUsageValuesPerSeason(variables);
+    
+    // 2. 预计算所有自用率场景 (-1% 到 100%)
+    for(i=-1; i<=100; i++)
+        rCalcs.utils.calculateYearlyValues(0, {forceSelfC: i});
+    
+    // 3. 刷新计算结果
+    rCalcs.refreshCalc();
+    
+    // 4. 绑定滑块事件
+    rCalcs.init();
+    
+    // 5. 绘制图表
+    graphs.generationYearly();
+    graphs.generationDaily(new Date().getMonth() + 1);
+}
+```
+
+### 6.2 结果刷新 `refreshCalc()`
+
+```javascript
+rCalcs.refreshCalc = function(){
+    // 1. 刷新30年数据
+    rCalcs.refreshValues();  // 计算 values.years[0..29]
+    
+    var result = values.years[0];  // 第一年结果
+    
+    // 2. 显示第一年节省
+    $('.fy-savings').text(Math.round(result.savings.year));
+    
+    // 3. 计算系统回收期
+    var total_savings = 0;
+    for(var i = 1; i <= values.years.length; i++){
+        total_savings += years[i-1].savings.year;
+        if(total_savings > total_cost){
+            var detPayback = sCalc.detailedPayback(
+                i-1, 
+                total_savings - years[i-1].savings.year, 
+                values.years[i-1].savings.year
+            );
+            $('#detailed-payback').text(detPayback.string);
+            break;
+        }
+    }
+    
+    // 4. 有电池时，分别计算电池和太阳能回收期
+    if(has_battery) {
+        // 电池回收期
+        var batteryonly_cost = pData.battery_cost;
+        var batt_savings_year0 = values.years[0].savings.year 
+                               - values.years[0].savings.year_after_solar;
+        // ... 迭代计算
+        
+        // 太阳能回收期
+        var solaronly_cost = total_cost - batteryonly_cost;
+        // ... 迭代计算
+    }
+    
+    // 5. 计算10年/20年累计节省
+    var ten_year_savings = 0;
+    for(var i=1; i<=10; i++)
+        ten_year_savings += years[i-1].savings.year;
+    
+    var twenty_year_savings = ten_year_savings;
+    for(var i=11; i<=20; i++)
+        twenty_year_savings += years[i-1].savings.year;
+}
+```
+
+### 6.3 电池单独回收期计算
+
+```javascript
+// 电池节省 = 总节省 - 纯太阳能节省
+var batt_savings_year0 = values.years[0].savings.year 
+                       - values.years[0].savings.year_after_solar;
+
+// 考虑通胀的累计节省
+var savings_batteryonly = 0;
+for(var j = 0; j <= 10000; j++){
+    savings_batteryonly += batt_savings_year0 * Math.pow((1+infl), j);
+    if(savings_batteryonly >= batteryonly_cost){
+        // 找到回收年份
+        break;
+    }
+}
+```
+
+**电池回收期公式：**
+```
+battery_savings_year_n = battery_savings_year_0 × (1 + inflation)^n
+cumulative_battery_savings = Σ battery_savings_year_n
+payback_year = min(n) where cumulative_battery_savings >= battery_cost
+```
+
+### 6.4 自用率滑块逻辑
+
+```javascript
+// 计算最大可能自用率
+let maxAvgScr = sCalc.solarCalc.calculateMaxSelfC(v, highestSelfC, highestBatSelfC);
+jQuery('#self-consumption-slider .slider').slider({max: maxAvgScr});
+
+// 默认值：最大自用率的一半
+let currentValue = Math.round(maxAvgScr / 2);
+
+// 滑块变化时重新计算
+jQuery('#self-consumption-slider .slider').slider({
+    slide: function(event, ui){
+        $('#self-consumption-slider').data('value', ui.value);
+        rCalcs.refreshCalc();  // 重新计算所有结果
+    }
+});
+```
+
+### 6.5 逆变器更换成本显示
+
+```javascript
+var unitPrice = inverterReplacementCost - inverterReplacementInflation;
+$('#inverterReplacementCost').html(
+    `Includes an inverter replacement at the 12 year mark. ` 
+    + `Replacement cost is $${Math.round(inverterReplacementCost)} ` 
+    + `($${Math.round(unitPrice)} for the unit and ` 
+    + `$${Math.round(inverterReplacementInflation)} accounting for ${inflation}% inflation)`
+);
+```
+
+### 6.6 图表数据结构
+
+**累计节省图表 `cumulativeYearly()`：**
+```javascript
+// 数据列：年份、上网收入累计、自用节省累计、系统成本线
+for(var i=0; i<10; i++){
+    var year_info = values.years[i];
+    exported_agg += year_info.savings.year_exported;  // 上网收入累计
+    sc_agg += year_info.savings.year - year_info.savings.year_exported;  // 自用节省累计
+    
+    data.addRow([i+1, exported_agg, sc_agg, total_cost]);
+}
+```
+
+**日发电量图表 `generationDaily(month)`：**
+```javascript
+// 从 production_info 获取小时发电数据
+var hourly = production_info.monthly[month - 1].hourly_average;
+var daily = production_info.monthly[month - 1].daily;  // 日均发电量
+
+for(var i=0; i<=hourly.length; i++){
+    data.addRow([i, hourly[i], tooltip]);
+}
+```
+
+---
+
+## 7. 完整数据流
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                         输入页面 (custom.js)                         │
+├─────────────────────────────────────────────────────────────────────┤
+│  1. 用户输入邮编 → getPostcodeInfo() → 获取州、经纬度、配电商         │
+│  2. 根据州加载默认值 → stateDefaults() → FiT, kWhCost, annual_bill  │
+│  3. 选择系统容量 → Calcs.cost() → 计算系统总成本                     │
+│  4. 选择电池 → Calcs.battery() → 计算电池成本                        │
+│  5. 检查FiT限制 → checkFiTRestrictions() → WA/VIC特殊规则           │
+│  6. 提交表单 → 后端计算发电量 (PVWatts API)                          │
+└─────────────────────────────────────────────────────────────────────┘
+                                    ↓
+┌─────────────────────────────────────────────────────────────────────┐
+│                      后端处理 (服务器端)                              │
+├─────────────────────────────────────────────────────────────────────┤
+│  • 调用 PVWatts API 获取发电量数据                                   │
+│  • 处理 NEM12 智能电表数据（如有）                                    │
+│  • 生成 production_info 对象（月发电量、小时曲线）                    │
+│  • 返回结果页面                                                      │
+└─────────────────────────────────────────────────────────────────────┘
+                                    ↓
+┌─────────────────────────────────────────────────────────────────────┐
+│                    结果页面 (result_debug.js)                        │
+├─────────────────────────────────────────────────────────────────────┤
+│  1. init() → 初始化计算                                              │
+│  2. calculateUsageValuesPerSeason() → 计算季节用电量                 │
+│  3. 预计算所有自用率场景 (0-100%)                                     │
+│  4. refreshCalc() → 计算并显示结果                                   │
+│     - 第一年节省                                                     │
+│     - 系统回收期                                                     │
+│     - 电池单独回收期（如有）                                          │
+│     - 10年/20年累计节省                                              │
+│  5. 绑定滑块事件 → 自用率/通胀率变化时重新计算                        │
+│  6. 绘制图表 → 累计节省、日发电量、年发电量                           │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 8. 关键变量说明
+
+### 8.1 全局变量 (result_debug.js)
+
+| 变量 | 类型 | 说明 |
+|------|------|------|
+| `generationDailyMax` | number | 日发电量最大值（用于图表Y轴） |
+| `highestSelfC` | number | 最高自用率（无电池） |
+| `highestBatSelfC` | number | 最高自用率（有电池） |
+| `inverterReplacementCost` | number | 逆变器更换总成本（含通胀） |
+| `inverterReplacementInflation` | number | 逆变器更换的通胀部分 |
+| `energyPlan` | object | 当前选择的能源计划 |
+| `values` | object | 缓存的计算结果 |
+| `has_battery` | boolean | 是否有电池 |
+| `total_cost` | number | 系统总成本 |
+| `total_capacity` | number | 系统总容量 (kW) |
+| `production_info` | object | 发电量数据（来自后端） |
+| `pData` | object | 页面数据（含 battery_cost 等） |
+
+### 8.2 values 对象结构
+
+```javascript
+var values = {
+    years: [  // 30年数据
+        {
+            savings: {
+                year: 1200,           // 年度总节省
+                year_after_solar: 900, // 纯太阳能节省（不含电池）
+                year_exported: 300,    // 上网收入
+                summer: {...},         // 夏季详情
+                autumn: {...},
+                winter: {...},
+                spring: {...}
+            }
+        },
+        // ... 共30年
+    ],
+    maxSelfC: {  // 各季节最大自用率
+        summer: 0.45,
+        autumn: 0.38,
+        winter: 0.52,
+        spring: 0.40
+    }
+};
+```
+
+---
+
+## 9. Python 实现示例
 
 ```python
 def calculate_season_savings(
@@ -384,17 +724,72 @@ def calculate_season_savings(
 
 ---
 
-## 总结
+## 10. 总结
 
-**已找到的核心计算逻辑：**
-- ✅ 季节用电量计算
-- ✅ 自用率和出口计算
-- ✅ 电池效率和节省计算
-- ✅ 通胀调整
-- ✅ 逆变器更换成本
-- ✅ 回收期计算
-- ✅ 上网电价递减逻辑
+### 10.1 已找到的核心计算逻辑
 
-**计算逻辑位置：**
-- 主要在 `/js/calc/shared_calc.js` 的 `sCalc.solarCalc` 对象中
-- 发电量数据来自后端 PVWatts API 调用
+| 功能 | 文件 | 函数/对象 | 状态 |
+|------|------|----------|------|
+| 季节用电量计算 | shared_calc.js | `calculateUsageValuesPerSeason` | ✅ 完整 |
+| 年度节省计算 | shared_calc.js | `calculateYearlyValues` | ✅ 完整 |
+| 电池效率和节省 | shared_calc.js | `calculateYearlyValues` | ✅ 完整 |
+| 回收期计算 | shared_calc.js | `detailedPayback` | ✅ 完整 |
+| 最大自用率计算 | shared_calc.js | `calculateMaxSelfC` | ✅ 完整 |
+| 系统成本计算 | custom.js | `Calcs.cost()` | ✅ 完整 |
+| 电池成本计算 | custom.js | `Calcs.battery()` | ✅ 完整 |
+| 州默认值加载 | custom.js | `Calcs.stateDefaults()` | ✅ 完整 |
+| FiT限制检查 | custom.js | `checkFiTRestrictions()` | ✅ 完整 |
+| 结果页面刷新 | result_debug.js | `rCalcs.refreshCalc()` | ✅ 完整 |
+| 电池单独回收期 | result_debug.js | `refreshCalc()` | ✅ 完整 |
+| 图表绑定 | result_debug.js | `graphs.*` | ✅ 完整 |
+
+### 10.2 计算逻辑位置汇总
+
+```
+/js/calc/
+├── shared_calc.js      # 核心计算逻辑（季节节省、电池、回收期）
+├── custom.js           # 前端成本计算（系统成本、电池成本、州默认值）
+├── result_debug.js     # 结果页面逻辑（刷新计算、图表、滑块绑定）
+├── scripts.js          # 通用UI脚本
+└── electricity_plan_selection.js  # 能源计划选择逻辑
+```
+
+### 10.3 仍需补充的内容
+
+要完全复现计算逻辑，还需要：
+
+1. **`shared_calc.js` 完整源码** - 当前只有部分函数，需要完整文件
+2. **TOU（分时电价）计算逻辑** - 在 `electricity_plan_selection.js` 中
+3. **NEM12 数据处理** - 后端处理智能电表数据的逻辑
+4. **PVWatts API 调用** - 后端获取发电量数据的逻辑
+5. **`production_info` 数据结构** - 后端返回的发电量数据格式
+
+### 10.4 核心公式速查
+
+```
+# 系统成本
+total_cost = system_kW × $900                    (无电池)
+total_cost = battery_cost + system_kW × $700     (有电池)
+
+# 电池成本
+battery_cost = Σ(battery_price + $3000)
+custom_battery = capacity_kWh × $750
+
+# 季节用电量
+usage = (bill_factor × annual_bill - daily_charge) / kWh_cost
+
+# 自用节省
+self_consumption = min(generated × selfC, usage)
+savings_selfc = self_consumption × electricity_price
+
+# 上网收入
+exported = generated - self_consumption
+FiT_income = exported × FiT_rate
+
+# 电池节省
+battery_selfc = min(available × discharge_eff, grid_use)
+battery_savings = battery_selfc × electricity_price
+
+# 回收期
+payback = min(year) where cumulative_savings >= total_cost
+```
