@@ -63,7 +63,7 @@ const DEFAULT_CONFIG = {
         VIC: 6778
     },
     cost: {
-        // 成本计算方案选择: 'A' = 线性方案, 'B' = 基准+增量方案
+        // 成本计算方案选择: 'A' = 线性方案, 'B' = 基准+增量方案, 'C' = $/kW简化定价
         scheme: 'A',
         // 方案A: 线性定价 (原有方案)
         schemeA: {
@@ -71,7 +71,7 @@ const DEFAULT_CONFIG = {
             inverterPerKw: 280,
             batteryPerKwh: 865
         },
-        // 方案B: 基准+增量定价 (新方案)
+        // 方案B: 基准+增量定价
         schemeB: {
             // 光伏系统配置
             baseKw: 6.6,              // 基准系统容量 (kW)
@@ -80,6 +80,53 @@ const DEFAULT_CONFIG = {
             // 储能系统配置
             batteryInstallFee: 1500,  // 储能基础安装费
             batteryPerKwh: 700        // 电池容量单价 (每kWh)
+        },
+        // 方案C: $/kW 简化定价 (市场通用报价方式)
+        schemeC: {
+            // Solar Only (纯光伏): 包含 PV 面板 + 逆变器 + 安装费
+            solarOnly: {
+                exGstExStc: 750,      // 不含税不含补贴 (AUD/kW)
+                incGstIncStc: 600     // 含税含补贴 (AUD/kW)
+            },
+            // Hybrid (光伏+储能): 光伏部分 (含混合逆变器)
+            hybridPv: {
+                exGstExStc: 800,      // 不含税不含补贴 (AUD/kW)
+                incGstIncStc: 650     // 含税含补贴 (AUD/kW)
+            },
+            // 电池储能 (基于标称容量)
+            battery: {
+                exGstExStc: 700,      // 不含税不含补贴 (AUD/kWh)
+                incGstIncStc: 450     // 含税含补贴 (AUD/kWh)
+            }
+        },
+        // 方案D: 分离式定价 (PV + 电池安装费 + 电池容量)
+        // 调整后参数，使价格接近方案 A/B
+        schemeD: {
+            // Solar Only (无电池)
+            solarOnly: {
+                exGstExStc: 750,      // 不含税不含补贴 (AUD/kW)
+                incGstIncStc: 600     // 含税含补贴 (AUD/kW)
+            },
+            // Hybrid (有电池): PV 部分单价 (电池成本单独计算)
+            hybridPv: {
+                exGstExStc: 650,      // 不含税不含补贴 (AUD/kW)
+                incGstIncStc: 520     // 含税含补贴 (AUD/kW)
+            },
+            // 电池安装费 (固定)
+            batteryInstallFee: {
+                exGstExStc: 1800,     // 不含税不含补贴 (AUD)
+                incGstIncStc: 1500    // 含税含补贴 (AUD)
+            },
+            // 自定义电池容量单价 (无标准电池价格时使用)
+            batteryPerKwh: {
+                exGstExStc: 550,      // 不含税不含补贴 (AUD/kWh)
+                incGstIncStc: 450     // 含税含补贴 (AUD/kWh)
+            },
+            // 标准电池价格表 (预留，未来可配置)
+            standardBatteries: {
+                // 格式: "容量kWh": { name, exGstExStc, incGstIncStc }
+                // 示例: "10": { name: "Tesla Powerwall 2", exGstExStc: 12000, incGstIncStc: 10000 }
+            }
         },
         gstRate: 0.1
     },

@@ -448,16 +448,26 @@
                             <span class="text-xl mr-2">💰</span>
                             成本计算方案选择
                         </h3>
-                        <div class="flex items-center space-x-6">
+                        <div class="flex items-center space-x-6 flex-wrap gap-y-2">
                             <label class="flex items-center cursor-pointer">
                                 <input type="radio" name="cost-scheme" id="cost-scheme-a" value="A" checked class="w-4 h-4 text-blue-600">
                                 <span class="ml-2 font-medium">方案 A: 线性定价</span>
-                                <span class="ml-2 text-xs text-gray-500">(原有方案，按组件单价计算)</span>
+                                <span class="ml-2 text-xs text-gray-500">(按组件单价计算)</span>
                             </label>
                             <label class="flex items-center cursor-pointer">
                                 <input type="radio" name="cost-scheme" id="cost-scheme-b" value="B" class="w-4 h-4 text-blue-600">
-                                <span class="ml-2 font-medium">方案 B: 基准+增量定价</span>
-                                <span class="ml-2 text-xs text-gray-500">(新方案，边际成本递减)</span>
+                                <span class="ml-2 font-medium">方案 B: 基准+增量</span>
+                                <span class="ml-2 text-xs text-gray-500">(边际成本递减)</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="cost-scheme" id="cost-scheme-c" value="C" class="w-4 h-4 text-blue-600">
+                                <span class="ml-2 font-medium">方案 C: $/kW 简化定价</span>
+                                <span class="ml-2 text-xs text-gray-500">(市场通用报价)</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="cost-scheme" id="cost-scheme-d" value="D" class="w-4 h-4 text-blue-600">
+                                <span class="ml-2 font-medium">方案 D: 分离式定价</span>
+                                <span class="ml-2 text-xs text-gray-500">(PV+电池安装费)</span>
                             </label>
                         </div>
                     </div>
@@ -567,7 +577,207 @@
                         </div>
                     </div>
 
-                    <!-- GST税率 (两个方案共用) -->
+                    <!-- 方案C: $/kW 简化定价 -->
+                    <div id="cost-scheme-c-panel" class="mb-6 p-4 bg-white rounded-lg border-2 border-orange-300 hidden">
+                        <h3 class="text-lg font-semibold mb-3 text-orange-700 flex items-center">
+                            <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded mr-2">方案 C</span>
+                            $/kW 简化定价模式 (市场通用报价)
+                        </h3>
+                        <div class="bg-orange-50 border-l-4 border-orange-500 p-3 mb-4 text-sm">
+                            <p class="text-orange-800 mb-1"><strong>核心思路：</strong>用简单的 $/kW 单价报价，更接近市场通用报价方式</p>
+                            <p class="text-orange-700">Solar Only: PV容量 × $/kW | Hybrid: PV容量 × $/kW + 电池容量 × $/kWh</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-6">
+                            <!-- Solar Only 配置 -->
+                            <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                                <h4 class="font-semibold text-yellow-800 mb-3">☀️ Solar Only (纯光伏)</h4>
+                                <p class="text-xs text-gray-600 mb-3">包含 PV 面板 + 逆变器 + 安装费</p>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-c-solar-only-ex-gst-ex-stc" class="w-full border rounded p-2" value="750">
+                                        <p class="text-xs text-gray-500 mt-1">基础成本价，用于内部计算</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-c-solar-only-inc-gst-inc-stc" class="w-full border rounded p-2" value="600">
+                                        <p class="text-xs text-gray-500 mt-1">市场报价参考 (SolarChoice ~$780-870/kW)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Hybrid 配置 -->
+                            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                                <h4 class="font-semibold text-blue-800 mb-3">⚡ Hybrid (光伏+储能)</h4>
+                                <p class="text-xs text-gray-600 mb-3">光伏部分 (含混合逆变器)</p>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-c-hybrid-pv-ex-gst-ex-stc" class="w-full border rounded p-2" value="800">
+                                        <p class="text-xs text-gray-500 mt-1">混合逆变器比普通逆变器贵约$100/kW</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-c-hybrid-pv-inc-gst-inc-stc" class="w-full border rounded p-2" value="650">
+                                        <p class="text-xs text-gray-500 mt-1">市场报价参考</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 电池配置 -->
+                        <div class="mt-4 bg-purple-50 p-4 rounded-lg border border-purple-200">
+                            <h4 class="font-semibold text-purple-800 mb-3">🔋 电池储能 (基于标称容量)</h4>
+                            <p class="text-xs text-gray-600 mb-3">电池成本 = 标称容量 × 单价</p>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kWh)</label>
+                                    <input type="number" id="cost-c-battery-ex-gst-ex-stc" class="w-full border rounded p-2" value="700">
+                                    <p class="text-xs text-gray-500 mt-1">基础成本价</p>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kWh)</label>
+                                    <input type="number" id="cost-c-battery-inc-gst-inc-stc" class="w-full border rounded p-2" value="450">
+                                    <p class="text-xs text-gray-500 mt-1">参考 SolarChoice ~$696-826/kWh (可用容量)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-gray-50 p-3 rounded text-sm">
+                            <p class="font-medium mb-2">方案C计算示例 (NSW, 6.6kW PV + 10kWh电池):</p>
+                            <div class="grid grid-cols-2 gap-4 text-xs">
+                                <div>
+                                    <p class="font-semibold text-gray-700">不含税不含补贴:</p>
+                                    <p>• Hybrid PV: 6.6 × $1,150 = $7,590</p>
+                                    <p>• 电池: 10 × $750 = $7,500</p>
+                                    <p>• 合计: <strong>$15,090</strong></p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-700">含税含补贴:</p>
+                                    <p>• Hybrid PV: 6.6 × $920 = $6,072</p>
+                                    <p>• 电池: 10 × $500 = $5,000</p>
+                                    <p>• 合计: <strong>$11,072</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-amber-50 border-l-4 border-amber-500 p-3 text-sm">
+                            <p class="text-amber-800"><strong>💡 竞品价格参考 (含税含补贴):</strong></p>
+                            <ul class="text-amber-700 text-xs mt-1 space-y-1">
+                                <li>• SolarChoice 6kW: $5,000-5,200 (~$833-867/kW)</li>
+                                <li>• SolarChoice 10kW: $7,630-7,810 (~$763-781/kW)</li>
+                                <li>• SolarQuotes 6kW: ~$7,130 (~$1,188/kW) - 含高端品牌</li>
+                                <li>• 电池 10kWh: $8,260 (仅电池) / $9,560 (含逆变器)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 方案D: 分离式定价 -->
+                    <div id="cost-scheme-d-panel" class="mb-6 p-4 bg-white rounded-lg border-2 border-teal-300 hidden">
+                        <h3 class="text-lg font-semibold mb-3 text-teal-700 flex items-center">
+                            <span class="bg-teal-100 text-teal-800 text-xs px-2 py-1 rounded mr-2">方案 D</span>
+                            分离式定价模式 (PV + 电池安装费 + 电池容量)
+                        </h3>
+                        <div class="bg-teal-50 border-l-4 border-teal-500 p-3 mb-4 text-sm">
+                            <p class="text-teal-800 mb-1"><strong>核心思路：</strong>PV 和电池分开计价，电池有固定安装费</p>
+                            <p class="text-teal-700">无电池: PV × $900/kW | 有电池: PV × $700/kW + 安装费$3000 + 电池 × $750/kWh</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-6">
+                            <!-- Solar Only 配置 -->
+                            <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                                <h4 class="font-semibold text-yellow-800 mb-3">☀️ Solar Only (无电池)</h4>
+                                <p class="text-xs text-gray-600 mb-3">纯光伏系统，包含 PV + 逆变器 + 安装</p>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-d-solar-only-ex-gst-ex-stc" class="w-full border rounded p-2" value="750">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-d-solar-only-inc-gst-inc-stc" class="w-full border rounded p-2" value="600">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Hybrid 配置 -->
+                            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                                <h4 class="font-semibold text-blue-800 mb-3">⚡ Hybrid PV (有电池)</h4>
+                                <p class="text-xs text-gray-600 mb-3">光伏部分单价 (电池成本单独计算)</p>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-d-hybrid-pv-ex-gst-ex-stc" class="w-full border rounded p-2" value="650">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-d-hybrid-pv-inc-gst-inc-stc" class="w-full border rounded p-2" value="520">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 电池配置 -->
+                        <div class="mt-4 bg-purple-50 p-4 rounded-lg border border-purple-200">
+                            <h4 class="font-semibold text-purple-800 mb-3">🔋 电池储能配置</h4>
+                            <div class="grid grid-cols-2 gap-6">
+                                <div>
+                                    <h5 class="text-sm font-medium text-purple-700 mb-2">固定安装费</h5>
+                                    <div class="space-y-3">
+                                        <div>
+                                            <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD)</label>
+                                            <input type="number" id="cost-d-battery-install-ex-gst-ex-stc" class="w-full border rounded p-2" value="1800">
+                                        </div>
+                                        <div>
+                                            <label class="block text-sm font-medium mb-1">含税含补贴 (AUD)</label>
+                                            <input type="number" id="cost-d-battery-install-inc-gst-inc-stc" class="w-full border rounded p-2" value="1500">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-medium text-purple-700 mb-2">电池容量单价</h5>
+                                    <div class="space-y-3">
+                                        <div>
+                                            <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kWh)</label>
+                                            <input type="number" id="cost-d-battery-per-kwh-ex-gst-ex-stc" class="w-full border rounded p-2" value="550">
+                                        </div>
+                                        <div>
+                                            <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kWh)</label>
+                                            <input type="number" id="cost-d-battery-per-kwh-inc-gst-inc-stc" class="w-full border rounded p-2" value="450">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-gray-50 p-3 rounded text-sm">
+                            <p class="font-medium mb-2">方案D计算示例 (6.6kW PV + 10kWh电池):</p>
+                            <div class="grid grid-cols-2 gap-4 text-xs">
+                                <div>
+                                    <p class="font-semibold text-gray-700">不含税不含补贴:</p>
+                                    <p>• Hybrid PV: 6.6 × $650 = $4,290</p>
+                                    <p>• 安装费: $1,800</p>
+                                    <p>• 电池: 10 × $550 = $5,500</p>
+                                    <p>• 合计: <strong>$11,590</strong></p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-700">含税含补贴:</p>
+                                    <p>• Hybrid PV: 6.6 × $520 = $3,432</p>
+                                    <p>• 安装费: $1,500</p>
+                                    <p>• 电池: 10 × $450 = $4,500</p>
+                                    <p>• 合计: <strong>$9,432</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-amber-50 border-l-4 border-amber-500 p-3 text-sm">
+                            <p class="text-amber-800"><strong>💡 说明:</strong></p>
+                            <p class="text-amber-700 text-xs mt-1">标准电池价格表预留，未来可配置具体电池型号价格。目前使用容量单价估算。</p>
+                        </div>
+                    </div>
+
+                    <!-- GST税率 (所有方案共用) -->
                     <div class="p-4 bg-gray-100 rounded-lg">
                         <div class="w-1/3">
                             <label class="block text-sm font-medium mb-1">GST税率</label>
@@ -792,13 +1002,22 @@
                 const scheme = e.target.value;
                 const panelA = document.getElementById('cost-scheme-a-panel');
                 const panelB = document.getElementById('cost-scheme-b-panel');
+                const panelC = document.getElementById('cost-scheme-c-panel');
+                const panelD = document.getElementById('cost-scheme-d-panel');
+                
+                panelA.classList.add('hidden');
+                panelB.classList.add('hidden');
+                panelC.classList.add('hidden');
+                panelD.classList.add('hidden');
                 
                 if (scheme === 'A') {
                     panelA.classList.remove('hidden');
-                    panelB.classList.add('hidden');
-                } else {
-                    panelA.classList.add('hidden');
+                } else if (scheme === 'B') {
                     panelB.classList.remove('hidden');
+                } else if (scheme === 'C') {
+                    panelC.classList.remove('hidden');
+                } else if (scheme === 'D') {
+                    panelD.classList.remove('hidden');
                 }
             });
         });
@@ -892,6 +1111,39 @@
                         adderPricePerKw: parseFloat(document.getElementById('cost-b-adder-price').value),
                         batteryInstallFee: parseFloat(document.getElementById('cost-b-battery-install').value),
                         batteryPerKwh: parseFloat(document.getElementById('cost-b-battery-per-kwh').value)
+                    },
+                    schemeC: {
+                        solarOnly: {
+                            exGstExStc: parseFloat(document.getElementById('cost-c-solar-only-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-c-solar-only-inc-gst-inc-stc').value)
+                        },
+                        hybridPv: {
+                            exGstExStc: parseFloat(document.getElementById('cost-c-hybrid-pv-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-c-hybrid-pv-inc-gst-inc-stc').value)
+                        },
+                        battery: {
+                            exGstExStc: parseFloat(document.getElementById('cost-c-battery-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-c-battery-inc-gst-inc-stc').value)
+                        }
+                    },
+                    schemeD: {
+                        solarOnly: {
+                            exGstExStc: parseFloat(document.getElementById('cost-d-solar-only-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-d-solar-only-inc-gst-inc-stc').value)
+                        },
+                        hybridPv: {
+                            exGstExStc: parseFloat(document.getElementById('cost-d-hybrid-pv-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-d-hybrid-pv-inc-gst-inc-stc').value)
+                        },
+                        batteryInstallFee: {
+                            exGstExStc: parseFloat(document.getElementById('cost-d-battery-install-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-d-battery-install-inc-gst-inc-stc').value)
+                        },
+                        batteryPerKwh: {
+                            exGstExStc: parseFloat(document.getElementById('cost-d-battery-per-kwh-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-d-battery-per-kwh-inc-gst-inc-stc').value)
+                        },
+                        standardBatteries: {}
                     },
                     gstRate: parseFloat(document.getElementById('cost-gst-rate').value)
                 },
@@ -998,15 +1250,25 @@
             const scheme = config.cost.scheme || 'A';
             document.getElementById('cost-scheme-a').checked = (scheme === 'A');
             document.getElementById('cost-scheme-b').checked = (scheme === 'B');
+            document.getElementById('cost-scheme-c').checked = (scheme === 'C');
+            document.getElementById('cost-scheme-d').checked = (scheme === 'D');
             // 切换面板显示
             const panelA = document.getElementById('cost-scheme-a-panel');
             const panelB = document.getElementById('cost-scheme-b-panel');
+            const panelC = document.getElementById('cost-scheme-c-panel');
+            const panelD = document.getElementById('cost-scheme-d-panel');
+            panelA.classList.add('hidden');
+            panelB.classList.add('hidden');
+            panelC.classList.add('hidden');
+            panelD.classList.add('hidden');
             if (scheme === 'A') {
                 panelA.classList.remove('hidden');
-                panelB.classList.add('hidden');
-            } else {
-                panelA.classList.add('hidden');
+            } else if (scheme === 'B') {
                 panelB.classList.remove('hidden');
+            } else if (scheme === 'C') {
+                panelC.classList.remove('hidden');
+            } else if (scheme === 'D') {
+                panelD.classList.remove('hidden');
             }
             
             // 方案A配置 (兼容旧格式)
@@ -1028,6 +1290,42 @@
                 document.getElementById('cost-b-adder-price').value = config.cost.schemeB.adderPricePerKw || 500;
                 document.getElementById('cost-b-battery-install').value = config.cost.schemeB.batteryInstallFee || 1500;
                 document.getElementById('cost-b-battery-per-kwh').value = config.cost.schemeB.batteryPerKwh || 700;
+            }
+            
+            // 方案C配置
+            if (config.cost.schemeC) {
+                if (config.cost.schemeC.solarOnly) {
+                    document.getElementById('cost-c-solar-only-ex-gst-ex-stc').value = config.cost.schemeC.solarOnly.exGstExStc || 750;
+                    document.getElementById('cost-c-solar-only-inc-gst-inc-stc').value = config.cost.schemeC.solarOnly.incGstIncStc || 600;
+                }
+                if (config.cost.schemeC.hybridPv) {
+                    document.getElementById('cost-c-hybrid-pv-ex-gst-ex-stc').value = config.cost.schemeC.hybridPv.exGstExStc || 800;
+                    document.getElementById('cost-c-hybrid-pv-inc-gst-inc-stc').value = config.cost.schemeC.hybridPv.incGstIncStc || 650;
+                }
+                if (config.cost.schemeC.battery) {
+                    document.getElementById('cost-c-battery-ex-gst-ex-stc').value = config.cost.schemeC.battery.exGstExStc || 700;
+                    document.getElementById('cost-c-battery-inc-gst-inc-stc').value = config.cost.schemeC.battery.incGstIncStc || 450;
+                }
+            }
+            
+            // 方案D配置
+            if (config.cost.schemeD) {
+                if (config.cost.schemeD.solarOnly) {
+                    document.getElementById('cost-d-solar-only-ex-gst-ex-stc').value = config.cost.schemeD.solarOnly.exGstExStc || 750;
+                    document.getElementById('cost-d-solar-only-inc-gst-inc-stc').value = config.cost.schemeD.solarOnly.incGstIncStc || 600;
+                }
+                if (config.cost.schemeD.hybridPv) {
+                    document.getElementById('cost-d-hybrid-pv-ex-gst-ex-stc').value = config.cost.schemeD.hybridPv.exGstExStc || 650;
+                    document.getElementById('cost-d-hybrid-pv-inc-gst-inc-stc').value = config.cost.schemeD.hybridPv.incGstIncStc || 520;
+                }
+                if (config.cost.schemeD.batteryInstallFee) {
+                    document.getElementById('cost-d-battery-install-ex-gst-ex-stc').value = config.cost.schemeD.batteryInstallFee.exGstExStc || 1800;
+                    document.getElementById('cost-d-battery-install-inc-gst-inc-stc').value = config.cost.schemeD.batteryInstallFee.incGstIncStc || 1500;
+                }
+                if (config.cost.schemeD.batteryPerKwh) {
+                    document.getElementById('cost-d-battery-per-kwh-ex-gst-ex-stc').value = config.cost.schemeD.batteryPerKwh.exGstExStc || 550;
+                    document.getElementById('cost-d-battery-per-kwh-inc-gst-inc-stc').value = config.cost.schemeD.batteryPerKwh.incGstIncStc || 450;
+                }
             }
             
             document.getElementById('cost-gst-rate').value = config.cost.gstRate;

@@ -132,11 +132,100 @@
         const COST_CONFIG = CONFIG.cost;
         
         // 成本计算函数 - 计算指定方案的成本
-        function calculateCostByScheme(pvKw, inverterKw, batteryKwh, schemeType) {
+        // 方案 C/D 需要额外参数: state (用于计算补贴)
+        function calculateCostByScheme(pvKw, inverterKw, batteryKwh, schemeType, state = null) {
             let pvCost, inverterCost, batteryCost, systemCost;
             const gstRate = COST_CONFIG.gstRate;
             
-            if (schemeType === 'B') {
+            if (schemeType === 'C') {
+                // 方案C: $/kW 简化定价
+                const params = COST_CONFIG.schemeC || {
+                    solarOnly: { exGstExStc: 750, incGstIncStc: 600 },
+                    hybridPv: { exGstExStc: 800, incGstIncStc: 650 },
+                    battery: { exGstExStc: 700, incGstIncStc: 450 }
+                };
+                
+                const isHybrid = batteryKwh > 0;
+                const pvParams = isHybrid ? params.hybridPv : params.solarOnly;
+                
+                const pvCostExGstExStc = pvKw * pvParams.exGstExStc;
+                const batteryCostExGstExStc = batteryKwh * params.battery.exGstExStc;
+                const totalExGstExStc = pvCostExGstExStc + batteryCostExGstExStc;
+                
+                const pvCostIncGstIncStc = pvKw * pvParams.incGstIncStc;
+                const batteryCostIncGstIncStc = batteryKwh * params.battery.incGstIncStc;
+                const totalIncGstIncStc = pvCostIncGstIncStc + batteryCostIncGstIncStc;
+                
+                return {
+                    pvCost: pvCostExGstExStc,
+                    inverterCost: 0,
+                    batteryCost: batteryCostExGstExStc,
+                    systemCost: pvCostExGstExStc,
+                    preTaxTotal: totalExGstExStc,
+                    taxTotal: totalExGstExStc * (1 + gstRate),
+                    scheme: schemeType,
+                    schemeC: {
+                        isHybrid,
+                        exGstExStc: { pv: pvCostExGstExStc, battery: batteryCostExGstExStc, total: totalExGstExStc },
+                        incGstIncStc: { pv: pvCostIncGstIncStc, battery: batteryCostIncGstIncStc, total: totalIncGstIncStc }
+                    }
+                };
+                
+            } else if (schemeType === 'D') {
+                // 方案D: 分离式定价 (PV + 电池安装费 + 电池容量)
+                const params = COST_CONFIG.schemeD || {
+                    solarOnly: { exGstExStc: 750, incGstIncStc: 600 },
+                    hybridPv: { exGstExStc: 650, incGstIncStc: 520 },
+                    batteryInstallFee: { exGstExStc: 1800, incGstIncStc: 1500 },
+                    batteryPerKwh: { exGstExStc: 550, incGstIncStc: 450 },
+                    standardBatteries: {}
+                };
+                
+                const isHybrid = batteryKwh > 0;
+                const pvParams = isHybrid ? params.hybridPv : params.solarOnly;
+                
+                // 不含税不含补贴
+                const pvCostExGstExStc = pvKw * pvParams.exGstExStc;
+                let batteryCostExGstExStc = 0;
+                let batteryInstallFeeEx = 0;
+                let batteryCapacityCostEx = 0;
+                
+                if (isHybrid) {
+                    batteryInstallFeeEx = params.batteryInstallFee.exGstExStc;
+                    batteryCapacityCostEx = batteryKwh * params.batteryPerKwh.exGstExStc;
+                    batteryCostExGstExStc = batteryInstallFeeEx + batteryCapacityCostEx;
+                }
+                const totalExGstExStc = pvCostExGstExStc + batteryCostExGstExStc;
+                
+                // 含税含补贴
+                const pvCostIncGstIncStc = pvKw * pvParams.incGstIncStc;
+                let batteryCostIncGstIncStc = 0;
+                let batteryInstallFeeInc = 0;
+                let batteryCapacityCostInc = 0;
+                
+                if (isHybrid) {
+                    batteryInstallFeeInc = params.batteryInstallFee.incGstIncStc;
+                    batteryCapacityCostInc = batteryKwh * params.batteryPerKwh.incGstIncStc;
+                    batteryCostIncGstIncStc = batteryInstallFeeInc + batteryCapacityCostInc;
+                }
+                const totalIncGstIncStc = pvCostIncGstIncStc + batteryCostIncGstIncStc;
+                
+                return {
+                    pvCost: pvCostExGstExStc,
+                    inverterCost: 0,
+                    batteryCost: batteryCostExGstExStc,
+                    systemCost: pvCostExGstExStc,
+                    preTaxTotal: totalExGstExStc,
+                    taxTotal: totalExGstExStc * (1 + gstRate),
+                    scheme: schemeType,
+                    schemeD: {
+                        isHybrid,
+                        exGstExStc: { pv: pvCostExGstExStc, batteryInstall: batteryInstallFeeEx, batteryCapacity: batteryCapacityCostEx, battery: batteryCostExGstExStc, total: totalExGstExStc },
+                        incGstIncStc: { pv: pvCostIncGstIncStc, batteryInstall: batteryInstallFeeInc, batteryCapacity: batteryCapacityCostInc, battery: batteryCostIncGstIncStc, total: totalIncGstIncStc }
+                    }
+                };
+                
+            } else if (schemeType === 'B') {
                 // 方案B: 基准+增量定价
                 const params = COST_CONFIG.schemeB || {};
                 const baseKw = params.baseKw || 6.6;
@@ -191,11 +280,13 @@
             };
         }
         
-        // 同时计算两套方案的成本
-        function calculateCostBothSchemes(pvKw, inverterKw, batteryKwh) {
+        // 同时计算四套方案的成本
+        function calculateCostBothSchemes(pvKw, inverterKw, batteryKwh, state = null) {
             return {
                 schemeA: calculateCostByScheme(pvKw, inverterKw, batteryKwh, 'A'),
-                schemeB: calculateCostByScheme(pvKw, inverterKw, batteryKwh, 'B')
+                schemeB: calculateCostByScheme(pvKw, inverterKw, batteryKwh, 'B'),
+                schemeC: calculateCostByScheme(pvKw, inverterKw, batteryKwh, 'C', state),
+                schemeD: calculateCostByScheme(pvKw, inverterKw, batteryKwh, 'D', state)
             };
         }
 
