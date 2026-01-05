@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V6 批量方案生成器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="config-loader.js"></script>
+    <style>
+        .v6-badge { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: bold; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-blue-600">☀️ SolarFit Pro</span>
+                    <span class="v6-badge ml-2">V6</span>
+                    <span class="ml-2 text-sm text-gray-500">批量方案生成器</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">📊 新建系统</a>
+                    <a href="storage-expansion.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">🔋 储能扩容</a>
+                    <a href="batch-processor.html" class="px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md">📦 批量处理</a>
+                    <a href="config-editor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">⚙️ 配置编辑</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto p-8">
+        <h1 class="text-3xl font-bold mb-2">V6 光伏方案批量生成器</h1>
+        <p class="text-gray-600 mb-6">使用 V6 全年日均光伏剩余估算逻辑 (aSurplus=0.7, bSurplus=0.55)</p>
+        
+        <!-- CSV上传 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-bold mb-4">1. 上传CSV文件</h2>
+            <input type="file" id="csvFile" accept=".csv" class="mb-4">
+            <p class="text-sm text-gray-600">CSV格式: id_0, slope, aspect, nums</p>
+        </div>
+        
+        <!-- 参数设置 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-bold mb-4">2. 设置参数</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <div>
+                    <label class="block text-sm font-medium mb-1">计算模式</label>
+                    <select id="calcMode" class="w-full border rounded p-2">
+                        <option value="new">新建系统</option>
+                        <option value="expansion">储能扩容</option>
+                    </select>
+                    <p class="text-xs text-gray-500 mt-1" id="calcModeHint">新建系统：使用全部屋顶容量</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1">州/领地</label>
+                    <select id="state" class="w-full border rounded p-2">
+                        <option value="TAS" selected>TAS (塔斯马尼亚)</option>
+                        <option value="NT">NT (北领地)</option>
+                        <option value="ACT">ACT (首都领地)</option>
+                        <option value="SA">SA (南澳)</option>
+                        <option value="NSW">NSW (新南威尔士)</option>
+                        <option value="QLD">QLD (昆士兰)</option>
+                        <option value="VIC">VIC (维多利亚)</option>
+                        <option value="WA">WA (西澳)</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1">电网相位</label>
+                    <select id="phase" class="w-full border rounded p-2">
+                        <option value="single">单相</option>
+                        <option value="three">三相</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 处理按钮 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <button id="processBtn" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700">
+                开始 V6 批量处理
+            </button>
+            <div id="progress" class="mt-4 hidden">
+                <div class="bg-gray-200 rounded-full h-4">
+                    <div id="progressBar" class="bg-blue-600 h-4 rounded-full" style="width: 0%"></div>
+                </div>
+                <p id="progressText" class="text-sm text-gray-600 mt-2"></p>
+            </div>
+        </div>
+        
+        <!-- 结果展示 -->
+        <div id="results" class="bg-white rounded-lg shadow p-6 hidden">
+            <h2 class="text-xl font-bold mb-4">3. 处理结果</h2>
+            <button id="downloadBtn" class="bg-green-600 text-white px-4 py-2 rounded mb-4 hover:bg-green-700">下载 JSON</button>
+            <button id="downloadCsvBtn" class="bg-green-600 text-white px-4 py-2 rounded mb-4 ml-2 hover:bg-green-700">下载 CSV</button>
+            <div id="resultsSummary" class="overflow-x-auto"></div>
+        </div>
+    </div>
+
+    <script>
+        const CONFIG = loadConfig();
+        const PV_WATT = CONFIG.pv.pmax;
+        const INVERTER_CONFIG = CONFIG.inverter;
+        const TARGET_RATIO = INVERTER_CONFIG.targetRatio / 100;
+        const MAX_RATIO = INVERTER_CONFIG.maxRatio / 100;
+        const ROOF_FACTOR = CONFIG.expansion?.roofCapacityFactor || 0.7;
+
+        document.getElementById('calcMode').addEventListener('change', (e) => {
+            document.getElementById('calcModeHint').textContent = e.target.value === 'expansion' 
+                ? `储能扩容：使用${(ROOF_FACTOR * 100).toFixed(0)}%屋顶容量` 
+                : '新建系统：使用全部屋顶容量';
+        });
+
+        function parseCSV(text) {
+            const lines = text.trim().split('\n');
+            const houses = {};
+            for (let i = 1; i < lines.length; i++) {
+                const parts = lines[i].split(',');
+                if (parts.length < 4) continue;
+                const houseId = parts[0].trim();
+                if (!houses[houseId]) houses[houseId] = [];
+                houses[houseId].push({
+                    id: parts[1].trim(),
+                    aspect: parseFloat(parts[2]),
+                    max: parseInt(parts[3]),
+                    score: calculateRoofScore(parseFloat(parts[2]))
+                });
+            }
+            return houses;
+        }
+
+        function getInverterOptions(planKey, phaseType) {
+            const useOptions = phaseType === 'single' ? !!INVERTER_CONFIG.enableSingleOptions : !!INVERTER_CONFIG.enableThreeOptions;
+            const baseOptions = phaseType === 'single' ? (INVERTER_CONFIG.single[planKey] || []) : (INVERTER_CONFIG.three[planKey] || []);
+            const phaseMax = getPhaseMaxLimit(CONFIG, phaseType);
+            let options = useOptions ? baseOptions.filter(s => s <= phaseMax) : [phaseMax];
+            if (options.length === 0) options = [phaseMax];
+            return { options, phaseMax, enforceList: useOptions };
+        }
+
+        function selectInverter(planKey, phaseType, requiredKw) {
+            const info = getInverterOptions(planKey, phaseType);
+            return info.enforceList ? (info.options.find(s => s >= requiredKw) || info.options[info.options.length - 1]) : Math.min(Math.max(Math.ceil(requiredKw), 1), info.phaseMax);
+        }
+
+        function applyInverterRules(result, planKey, phaseType) {
+            let kw = selectInverter(planKey, phaseType, Math.ceil(result.totalKw / TARGET_RATIO));
+            let ratio = (result.totalKw / kw) * 100;
+            if (ratio > INVERTER_CONFIG.maxRatio) {
+                const upgraded = selectInverter(planKey, phaseType, Math.ceil(result.totalKw / MAX_RATIO));
+                if (upgraded > kw) kw = upgraded;
+                ratio = (result.totalKw / kw) * 100;
+            }
+            return { kw, ratio: ratio.toFixed(0) };
+        }
+
+        function fillRoof(planes, targetKw) {
+            const needed = Math.ceil((targetKw * 1000) / PV_WATT);
+            let count = 0, used = [];
+            for (let p of planes) {
+                if (p.max === 0 || count >= needed) continue;
+                let take = Math.min(p.max, needed - count);
+                count += take;
+                used.push({ id: p.id, count: take });
+            }
+            return { count, totalKw: count * PV_WATT / 1000, usedPlanes: used };
+        }
+
+        function generateProposals(houseId, roofData, state, phaseType, calcMode) {
+            let planes = roofData.map(p => ({...p})).sort((a, b) => b.score - a.score);
+            if (calcMode === 'expansion') planes.forEach(p => p.max = Math.floor(p.max * ROOF_FACTOR));
+            
+            const totalMaxKw = planes.reduce((sum, p) => sum + (p.max * PV_WATT / 1000), 0);
+            
+            const resultA = fillRoof(planes, 999);
+            const invA = applyInverterRules(resultA, 'a', phaseType);
+            const batA = calculateV6BatteryCapacity(CONFIG, resultA.totalKw, state, 'premium');
+            const subA = calculateSubsidy(CONFIG, resultA.totalKw, batA.nominal, state);
+            const costA = calculateCostByScheme(CONFIG, resultA.totalKw, invA.kw, batA.nominal, 'A', state);
+
+            const targetB = totalMaxKw > 15 ? 13.2 : 10.0;
+            const resultB = fillRoof(planes, targetB);
+            const invB = applyInverterRules(resultB, 'b', phaseType);
+            const batB = calculateV6BatteryCapacity(CONFIG, resultB.totalKw, state, 'balanced');
+            const subB = calculateSubsidy(CONFIG, resultB.totalKw, batB.nominal, state);
+            const costB = calculateCostByScheme(CONFIG, resultB.totalKw, invB.kw, batB.nominal, 'A', state);
+
+            const resultC = fillRoof(planes, 6.6);
+            const invC = applyInverterRules(resultC, 'c', phaseType);
+            const batC = calculateV6BatteryCapacity(CONFIG, resultC.totalKw, state, 'economy');
+            const subC = calculateSubsidy(CONFIG, resultC.totalKw, batC.nominal, state);
+            const costC = calculateCostByScheme(CONFIG, resultC.totalKw, invC.kw, batC.nominal, 'A', state);
+
+            return {
+                houseId, state, phaseType, calcMode,
+                roofMaxKw: totalMaxKw.toFixed(2),
+                planA: { pvKw: resultA.totalKw, panels: resultA.count, invKw: invA.kw, ratio: invA.ratio, battery: batA.nominal, batteryMethod: batA.methodDesc, subsidy: Math.round(subA.subsidyAmount), priceExGst: Math.round(costA.exGstExStc), priceIncGst: Math.round(costA.incGstIncStc) },
+                planB: { pvKw: resultB.totalKw, panels: resultB.count, invKw: invB.kw, ratio: invB.ratio, battery: batB.nominal, batteryMethod: batB.methodDesc, subsidy: Math.round(subB.subsidyAmount), priceExGst: Math.round(costB.exGstExStc), priceIncGst: Math.round(costB.incGstIncStc) },
+                planC: { pvKw: resultC.totalKw, panels: resultC.count, invKw: invC.kw, ratio: invC.ratio, battery: batC.nominal, batteryMethod: batC.methodDesc, subsidy: Math.round(subC.subsidyAmount), priceExGst: Math.round(costC.exGstExStc), priceIncGst: Math.round(costC.incGstIncStc) }
+            };
+        }
+
+        let allResults = [];
+
+        document.getElementById('processBtn').addEventListener('click', async () => {
+            const fileInput = document.getElementById('csvFile');
+            if (!fileInput.files[0]) { alert('请先上传CSV文件'); return; }
+            
+            const state = document.getElementById('state').value;
+            const phase = document.getElementById('phase').value;
+            const calcMode = document.getElementById('calcMode').value;
+            
+            const text = await fileInput.files[0].text();
+            const houses = parseCSV(text);
+            const houseIds = Object.keys(houses);
+            
+            document.getElementById('progress').classList.remove('hidden');
+            allResults = [];
+            
+            for (let i = 0; i < houseIds.length; i++) {
+                const id = houseIds[i];
+                const result = generateProposals(id, houses[id], state, phase, calcMode);
+                allResults.push(result);
+                
+                const pct = ((i + 1) / houseIds.length * 100).toFixed(0);
+                document.getElementById('progressBar').style.width = pct + '%';
+                document.getElementById('progressText').textContent = `处理中: ${i + 1}/${houseIds.length} (${pct}%)`;
+                await new Promise(r => setTimeout(r, 10));
+            }
+            
+            document.getElementById('progressText').textContent = `完成! 共处理 ${houseIds.length} 个房屋`;
+            showResults();
+        });
+
+        function showResults() {
+            document.getElementById('results').classList.remove('hidden');
+            const container = document.getElementById('resultsSummary');
+            
+            let html = `<table class="min-w-full divide-y divide-gray-200 text-sm">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th class="px-3 py-2 text-left">房屋ID</th>
+                        <th class="px-3 py-2 text-left">屋顶容量</th>
+                        <th class="px-3 py-2 text-left">A-PV</th>
+                        <th class="px-3 py-2 text-left">A-电池</th>
+                        <th class="px-3 py-2 text-left">A-价格</th>
+                        <th class="px-3 py-2 text-left">B-PV</th>
+                        <th class="px-3 py-2 text-left">B-电池</th>
+                        <th class="px-3 py-2 text-left">B-价格</th>
+                        <th class="px-3 py-2 text-left">C-PV</th>
+                        <th class="px-3 py-2 text-left">C-电池</th>
+                        <th class="px-3 py-2 text-left">C-价格</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">`;
+            
+            allResults.forEach(r => {
+                html += `<tr>
+                    <td class="px-3 py-2">${r.houseId}</td>
+                    <td class="px-3 py-2">${r.roofMaxKw} kW</td>
+                    <td class="px-3 py-2">${formatKwValue(r.planA.pvKw)} kW</td>
+                    <td class="px-3 py-2">${r.planA.battery} kWh</td>
+                    <td class="px-3 py-2">$${r.planA.priceIncGst.toLocaleString()}</td>
+                    <td class="px-3 py-2">${formatKwValue(r.planB.pvKw)} kW</td>
+                    <td class="px-3 py-2">${r.planB.battery} kWh</td>
+                    <td class="px-3 py-2">$${r.planB.priceIncGst.toLocaleString()}</td>
+                    <td class="px-3 py-2">${formatKwValue(r.planC.pvKw)} kW</td>
+                    <td class="px-3 py-2">${r.planC.battery} kWh</td>
+                    <td class="px-3 py-2">$${r.planC.priceIncGst.toLocaleString()}</td>
+                </tr>`;
+            });
+            
+            html += '</tbody></table>';
+            container.innerHTML = html;
+        }
+
+        document.getElementById('downloadBtn').addEventListener('click', () => {
+            const blob = new Blob([JSON.stringify(allResults, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `V6_批量结果_${new Date().toISOString().slice(0,10)}.json`;
+            a.click();
+        });
+
+        document.getElementById('downloadCsvBtn').addEventListener('click', () => {
+            const headers = ['houseId', 'state', 'calcMode', 'roofMaxKw', 'A_pvKw', 'A_panels', 'A_invKw', 'A_battery', 'A_subsidy', 'A_priceIncGst', 'B_pvKw', 'B_panels', 'B_invKw', 'B_battery', 'B_subsidy', 'B_priceIncGst', 'C_pvKw', 'C_panels', 'C_invKw', 'C_battery', 'C_subsidy', 'C_priceIncGst'];
+            let csv = headers.join(',') + '\n';
+            allResults.forEach(r => {
+                csv += [r.houseId, r.state, r.calcMode, r.roofMaxKw, r.planA.pvKw, r.planA.panels, r.planA.invKw, r.planA.battery, r.planA.subsidy, r.planA.priceIncGst, r.planB.pvKw, r.planB.panels, r.planB.invKw, r.planB.battery, r.planB.subsidy, r.planB.priceIncGst, r.planC.pvKw, r.planC.panels, r.planC.invKw, r.planC.battery, r.planC.subsidy, r.planC.priceIncGst].join(',') + '\n';
+            });
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `V6_批量结果_${new Date().toISOString().slice(0,10)}.csv`;
+            a.click();
+        });
+    </script>
+</body>
+</html>

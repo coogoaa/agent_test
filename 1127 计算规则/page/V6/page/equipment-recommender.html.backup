@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V6 新建系统 - 光伏设备智能推荐系统</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="config-loader.js"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        .card { transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .v6-badge { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: bold; }
+        .calculation-box { background: #f8fafc; border-left: 4px solid #3b82f6; padding: 12px; margin: 8px 0; font-family: monospace; font-size: 13px; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen text-gray-800">
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-blue-600">☀️ SolarFit Pro</span>
+                    <span class="v6-badge ml-2">V6</span>
+                    <span class="ml-2 text-sm text-gray-500">新建系统</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md">📊 新建系统</a>
+                    <a href="storage-expansion.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">🔋 储能扩容</a>
+                    <a href="batch-processor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">📦 批量处理</a>
+                    <a href="config-editor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">⚙️ 配置编辑</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- V6 版本说明 -->
+        <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-lg shadow-md p-4 mb-6 border-l-4 border-purple-500">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h2 class="text-lg font-bold text-purple-900 flex items-center"><span class="v6-badge mr-2">V6</span>全年日均光伏剩余估算</h2>
+                    <p class="text-sm text-purple-700 mt-1">核心变化：光伏剩余从 6 月份数据改为全年日均数据</p>
+                </div>
+                <div class="text-right text-sm text-purple-600">
+                    <div>A方案系数: <span class="font-bold">0.7</span></div>
+                    <div>B方案系数: <span class="font-bold">0.55</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 输入控制区 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-blue-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">📊 数据输入与环境配置</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">选择房屋样本</label>
+                    <select id="houseSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2">
+                        <option value="">正在加载...</option>
+                    </select>
+                    <p class="mt-1 text-xs text-gray-500" id="houseSummary">...</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">用户所在州</label>
+                    <select id="stateSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2">
+                        <option value="TAS" selected>TAS (塔斯马尼亚)</option>
+                        <option value="NSW">NSW (新南威尔士)</option>
+                        <option value="VIC">VIC (维多利亚)</option>
+                        <option value="QLD">QLD (昆士兰)</option>
+                        <option value="SA">SA (南澳)</option>
+                        <option value="WA">WA (西澳)</option>
+                        <option value="ACT">ACT (首都领地)</option>
+                        <option value="NT">NT (北领地)</option>
+                    </select>
+                    <p class="mt-1 text-xs text-gray-500 bg-green-50 p-1 rounded" id="stateInfo">年用电量: ...</p>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">PV 组件参数</label>
+                    <div class="bg-blue-50 rounded-md p-3 border border-blue-100">
+                        <div class="flex justify-between text-sm"><span>型号:</span><span class="font-semibold" id="pvModel">...</span></div>
+                        <div class="flex justify-between text-sm mt-1"><span>功率:</span><span class="font-semibold" id="pvPower">440 W</span></div>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">电网相位</label>
+                    <select id="phaseSelector" class="w-full rounded-md border-gray-300 shadow-sm border p-2">
+                        <option value="single">单相 (≤10kW)</option>
+                        <option value="three">三相 (≤30kW)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 方案结果展示区 -->
+        <div class="mb-8">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">📋 三套差异化方案 <span class="v6-badge">V6 计算</span></h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6" id="proposalsContainer">
+                <!-- 方案 A -->
+                <div class="card bg-white rounded-xl shadow-lg border-2 border-purple-400 overflow-hidden">
+                    <div class="bg-gradient-to-r from-purple-50 to-pink-50 p-4 border-b border-purple-200">
+                        <h3 class="text-lg font-bold text-purple-800">方案 A: 高端型</h3>
+                        <p class="text-xs text-purple-600">满铺屋顶，全屋备电</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-baseline mb-4"><span class="text-4xl font-bold" id="propA-kw">0</span><span class="text-lg text-gray-500 ml-1">kW</span></div>
+                        <div class="space-y-2 text-sm">
+                            <p>☀️ 光伏: <span id="propA-count" class="font-bold">0</span> 片</p>
+                            <p>⚡ 逆变器: <span id="propA-inv" class="font-bold">0</span> kW (<span id="propA-ratio">0</span>%)</p>
+                            <p>🔋 电池: <span id="propA-battery" class="font-bold text-purple-700">0</span> kWh</p>
+                            <p class="text-xs text-gray-500" id="propA-batteryDetail">V6: max(整夜, 0.7×剩余)</p>
+                        </div>
+                    </div>
+                    <div class="bg-purple-50 p-4 border-t">
+                        <div class="grid grid-cols-2 gap-2 text-center">
+                            <div><p class="text-xs text-gray-500">不含税</p><span class="font-bold text-purple-700" id="propA-price-exGst">$0</span></div>
+                            <div><p class="text-xs text-gray-500">含税含补贴</p><span class="font-bold" id="propA-price-incGst">$0</span></div>
+                        </div>
+                        <p class="text-xs text-center mt-2">补贴: <span id="propA-subsidy">$0</span></p>
+                    </div>
+                </div>
+                <!-- 方案 B -->
+                <div class="card bg-white rounded-xl shadow-lg border-2 border-blue-500 overflow-hidden relative">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-white text-xs px-3 py-1 rounded-bl-lg font-bold">⭐ 推荐</div>
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 border-b border-blue-200">
+                        <h3 class="text-lg font-bold text-blue-800">方案 B: 平衡型</h3>
+                        <p class="text-xs text-blue-600">光储一体，自给率高</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-baseline mb-4"><span class="text-4xl font-bold" id="propB-kw">0</span><span class="text-lg text-gray-500 ml-1">kW</span></div>
+                        <div class="space-y-2 text-sm">
+                            <p>☀️ 光伏: <span id="propB-count" class="font-bold">0</span> 片</p>
+                            <p>⚡ 逆变器: <span id="propB-inv" class="font-bold">0</span> kW (<span id="propB-ratio">0</span>%)</p>
+                            <p>🔋 电池: <span id="propB-battery" class="font-bold text-blue-700">0</span> kWh</p>
+                            <p class="text-xs text-gray-500" id="propB-batteryDetail">V6: max(晚高峰, 0.55×剩余)</p>
+                        </div>
+                    </div>
+                    <div class="bg-blue-50 p-4 border-t">
+                        <div class="grid grid-cols-2 gap-2 text-center">
+                            <div><p class="text-xs text-gray-500">不含税</p><span class="font-bold text-blue-700" id="propB-price-exGst">$0</span></div>
+                            <div><p class="text-xs text-gray-500">含税含补贴</p><span class="font-bold" id="propB-price-incGst">$0</span></div>
+                        </div>
+                        <p class="text-xs text-center mt-2">补贴: <span id="propB-subsidy">$0</span></p>
+                    </div>
+                </div>
+                <!-- 方案 C -->
+                <div class="card bg-white rounded-xl shadow-lg border-2 border-green-400 overflow-hidden">
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-4 border-b border-green-200">
+                        <h3 class="text-lg font-bold text-green-800">方案 C: 经济型</h3>
+                        <p class="text-xs text-green-600">入门配置，快速回本</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-baseline mb-4"><span class="text-4xl font-bold" id="propC-kw">0</span><span class="text-lg text-gray-500 ml-1">kW</span></div>
+                        <div class="space-y-2 text-sm">
+                            <p>☀️ 光伏: <span id="propC-count" class="font-bold">0</span> 片</p>
+                            <p>⚡ 逆变器: <span id="propC-inv" class="font-bold">0</span> kW (<span id="propC-ratio">0</span>%)</p>
+                            <p>🔋 电池: <span id="propC-battery" class="font-bold text-green-700">0</span> kWh</p>
+                            <p class="text-xs text-gray-500" id="propC-batteryDetail">V6: 晚高峰用电</p>
+                        </div>
+                    </div>
+                    <div class="bg-green-50 p-4 border-t">
+                        <div class="grid grid-cols-2 gap-2 text-center">
+                            <div><p class="text-xs text-gray-500">不含税</p><span class="font-bold text-green-700" id="propC-price-exGst">$0</span></div>
+                            <div><p class="text-xs text-gray-500">含税含补贴</p><span class="font-bold" id="propC-price-incGst">$0</span></div>
+                        </div>
+                        <p class="text-xs text-center mt-2">补贴: <span id="propC-subsidy">$0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- V6 推导过程 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-t-4 border-green-500">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">🧮 V6 推导过程 <span class="v6-badge">全年日均</span></h2>
+            <div class="space-y-4" id="derivationSteps"></div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-sm">
+            <p>© 2024 SolarFit Pro V6 | 基于澳洲 CEC 标准的智能光伏设计系统</p>
+        </div>
+    </footer>
+
+    <script src="equipment-recommender-logic.js"></script>
+</body>
+</html>

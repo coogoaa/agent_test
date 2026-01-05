@@ -102,19 +102,21 @@ function getAnnualYieldByState(config, state) {
 function calculateV4EnergyDimensions(config, pvKw, state) {
   const annualConsumption = (config.consumption && config.consumption[state]) || 7778;
 
-  // HOURLY_PROFILE 使用“加总=1”的小时分布
-  const HOURLY_PROFILE = {
-    TAS: [0.0238, 0.0221, 0.0205, 0.0193, 0.0189, 0.0205, 0.0267, 0.0357, 0.0402, 0.0398, 0.0390, 0.0398, 0.0414, 0.0422, 0.0426, 0.0430, 0.0471, 0.0586, 0.0614, 0.0586, 0.0520, 0.0455, 0.0373, 0.0295],
-    NT: [0.0234, 0.0217, 0.0201, 0.0189, 0.0185, 0.0201, 0.0262, 0.0350, 0.0394, 0.0390, 0.0382, 0.0390, 0.0406, 0.0414, 0.0418, 0.0422, 0.0462, 0.0574, 0.0602, 0.0574, 0.0510, 0.0446, 0.0366, 0.0289],
-    ACT: [0.0240, 0.0223, 0.0207, 0.0195, 0.0191, 0.0207, 0.0269, 0.0360, 0.0405, 0.0401, 0.0393, 0.0401, 0.0417, 0.0425, 0.0429, 0.0433, 0.0474, 0.0590, 0.0618, 0.0590, 0.0524, 0.0458, 0.0376, 0.0297],
-    SA: [0.0246, 0.0229, 0.0212, 0.0200, 0.0196, 0.0212, 0.0276, 0.0369, 0.0415, 0.0411, 0.0403, 0.0411, 0.0427, 0.0435, 0.0439, 0.0443, 0.0485, 0.0604, 0.0633, 0.0604, 0.0537, 0.0469, 0.0385, 0.0304],
-    NSW: [0.0248, 0.0230, 0.0214, 0.0201, 0.0197, 0.0214, 0.0278, 0.0372, 0.0418, 0.0414, 0.0406, 0.0414, 0.0430, 0.0438, 0.0442, 0.0446, 0.0489, 0.0609, 0.0638, 0.0609, 0.0541, 0.0473, 0.0388, 0.0307],
-    QLD: [0.0249, 0.0231, 0.0215, 0.0202, 0.0198, 0.0215, 0.0279, 0.0374, 0.0420, 0.0416, 0.0408, 0.0416, 0.0432, 0.0440, 0.0444, 0.0448, 0.0491, 0.0611, 0.0641, 0.0611, 0.0543, 0.0475, 0.0390, 0.0308],
-    VIC: [0.0252, 0.0234, 0.0217, 0.0205, 0.0201, 0.0217, 0.0283, 0.0379, 0.0426, 0.0422, 0.0414, 0.0422, 0.0438, 0.0446, 0.0450, 0.0454, 0.0498, 0.0619, 0.0649, 0.0619, 0.0550, 0.0481, 0.0395, 0.0312],
-    WA: [0.0254, 0.0236, 0.0219, 0.0206, 0.0202, 0.0219, 0.0285, 0.0381, 0.0429, 0.0425, 0.0417, 0.0425, 0.0441, 0.0449, 0.0453, 0.0457, 0.0501, 0.0623, 0.0654, 0.0623, 0.0554, 0.0484, 0.0398, 0.0314]
+  // HOURLY_PROFILE 使用权威文档 "各州各时段用电比例.md" 的百分比数据（需除以100）
+  // 来源: 1127 计算规则/参数：/各州各时段用电比例.md
+  const HOURLY_PROFILE_PCT = {
+    TAS: [3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 4.714, 4.714, 4.714, 4.714, 4.714, 4.714, 4.714, 3.941, 3.941],
+    NT: [2.990, 2.638, 2.405, 2.319, 2.396, 2.745, 3.486, 4.163, 4.270, 4.255, 4.252, 4.348, 4.421, 4.440, 4.486, 4.667, 5.074, 5.727, 6.229, 5.996, 5.621, 4.970, 4.421, 3.679],
+    ACT: [3.400, 3.031, 2.876, 2.867, 3.055, 3.643, 4.493, 4.904, 4.317, 3.792, 3.615, 3.118, 3.053, 2.937, 3.003, 3.369, 4.434, 5.901, 6.693, 6.550, 6.142, 5.416, 5.178, 4.208],
+    SA: [4.850, 5.185, 3.814, 2.956, 2.568, 2.654, 3.142, 3.655, 3.563, 3.624, 4.103, 4.366, 4.188, 3.980, 3.997, 4.111, 4.525, 5.442, 5.990, 5.715, 5.315, 4.739, 3.905, 3.607],
+    NSW: [4.427, 3.912, 3.176, 2.706, 2.583, 2.805, 3.427, 3.939, 4.089, 4.050, 3.986, 3.936, 3.948, 3.908, 3.920, 4.105, 4.569, 5.328, 5.846, 5.634, 5.329, 4.947, 4.804, 4.630],
+    QLD: [2.990, 2.638, 2.405, 2.319, 2.396, 2.745, 3.486, 4.163, 4.270, 4.255, 4.252, 4.348, 4.421, 4.440, 4.486, 4.667, 5.074, 5.727, 6.229, 5.996, 5.621, 4.970, 4.421, 3.679],
+    VIC: [3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 3.941, 4.714, 4.714, 4.714, 4.714, 4.714, 4.714, 4.714, 3.941, 3.941],
+    WA: [2.990, 2.638, 2.405, 2.319, 2.396, 2.745, 3.486, 4.163, 4.270, 4.255, 4.252, 4.348, 4.421, 4.440, 4.486, 4.667, 5.074, 5.727, 6.229, 5.996, 5.621, 4.970, 4.421, 3.679]
   };
 
-  const hourlyProfile = HOURLY_PROFILE[state] || HOURLY_PROFILE.NSW;
+  const hourlyProfilePct = HOURLY_PROFILE_PCT[state] || HOURLY_PROFILE_PCT.NSW;
+  const hourlyProfile = hourlyProfilePct.map(pct => pct / 100);
   const juneMonthIndex = 6;
   const juneDays = 30;
 
@@ -158,7 +160,7 @@ function calculateBatteryCapacity(config, pvKw, state, type) {
   const minCap = safeNumber(config.battery && config.battery.minCapacity, 5);
 
   const aSurplus = (config.battery && config.battery.v4 && typeof config.battery.v4.aSurplus === 'number') ? config.battery.v4.aSurplus : 0.8;
-  const bSurplus = (config.battery && config.battery.v4 && typeof config.battery.v4.bSurplus === 'number') ? config.battery.v4.bSurplus : 0.55;
+  const bSurplus = (config.battery && config.battery.v4 && typeof config.battery.v4.bSurplus === 'number') ? config.battery.v4.bSurplus : 0.5;
 
   let targetEnergy = 0;
   let methodDesc = '';
@@ -403,7 +405,7 @@ function toTsvLine(fields) {
 function main() {
   const args = parseArgs(process.argv);
 
-  const defaultCsv = path.resolve(__dirname, '../验证数据/agent_sample_data - 坡面信息.csv');
+  const defaultCsv = path.resolve(__dirname, '../../验证数据/agent_sample_data - 坡面信息.csv');
   const csvPath = args.csv ? path.resolve(process.cwd(), args.csv) : defaultCsv;
 
   const states = (args.states || args.state || 'NSW').split(',').map(s => s.trim()).filter(Boolean);
@@ -440,6 +442,9 @@ function main() {
     'inverter_kw',
     'ratio_percent',
     'battery_nominal_kwh',
+    'battery_calculated_nominal_kwh',
+    'battery_is_standardized',
+    'battery_v4_bSurplus_used',
     'battery_method',
     'tax_total_aud',
     'subsidy_aud',
@@ -464,6 +469,11 @@ function main() {
             const inverterKw = safeNumber(plan.inverter.kw, 0);
             const ratio = safeNumber(plan.inverter.ratio, 0);
             const batteryNominal = safeNumber(plan.battery.nominal, 0);
+            const batteryCalculatedNominal = safeNumber(plan.battery.calculatedNominal, 0);
+            const batteryIsStandardized = !!(config.battery && config.battery.useStandards);
+            const batteryV4BSurplusUsed = (config.battery && config.battery.v4 && typeof config.battery.v4.bSurplus === 'number')
+              ? config.battery.v4.bSurplus
+              : 0.5;
 
             const costA = calculateCostSchemeA(config, pvKw, inverterKw, batteryNominal);
             const subsidy = calculateSubsidy(config, pvKw, batteryNominal, state);
@@ -483,6 +493,9 @@ function main() {
               inverterKw,
               ratio,
               batteryNominal,
+              batteryCalculatedNominal ? batteryCalculatedNominal.toFixed(2) : '0.00',
+              batteryIsStandardized ? 1 : 0,
+              batteryV4BSurplusUsed,
               plan.battery.methodDesc,
               Math.round(costA.taxTotal),
               Math.round(subsidy.subsidyAmount),

@@ -179,6 +179,10 @@ const DEFAULT_CONFIG = {
  */
 function loadConfig() {
     try {
+        if (typeof localStorage === 'undefined') {
+            console.log('ℹ️ 使用默认配置');
+            return DEFAULT_CONFIG;
+        }
         const stored = localStorage.getItem('solarConfig');
         if (stored) {
             const config = JSON.parse(stored);
@@ -192,6 +196,10 @@ function loadConfig() {
                 battery: {
                     ...DEFAULT_CONFIG.battery,
                     ...(config.battery || {}),
+                    v4: {
+                        ...DEFAULT_CONFIG.battery.v4,
+                        ...(config.battery?.v4 || {})
+                    },
                     premium: {
                         ...DEFAULT_CONFIG.battery.premium,
                         ...(config.battery?.premium || {})

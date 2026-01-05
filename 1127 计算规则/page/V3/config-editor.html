@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统配置编辑器 (V2)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- 顶部导航 -->
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-blue-600">☀️ SolarFit Pro</span>
+                    <span class="ml-2 text-sm text-gray-500">系统配置编辑器</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="equipment-recommender.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        📊 新建系统
+                    </a>
+                    <a href="storage-expansion.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        🔋 储能扩容
+                    </a>
+                    <a href="batch-processor.html" class="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md">
+                        📦 批量处理
+                    </a>
+                    <a href="config-editor.html" class="px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md">
+                        ⚙️ 配置编辑
+                    </a>
+                    <span class="px-2 py-1 text-xs font-bold text-white bg-green-500 rounded">V2</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto p-6">
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+            <h1 class="text-3xl font-bold mb-2">光伏设备推荐系统 - 配置编辑器</h1>
+            <p class="text-gray-600">修改系统参数并导出配置文件</p>
+        </div>
+
+        <!-- Tab导航 -->
+        <div class="bg-white rounded-lg shadow-lg mb-6">
+            <div class="border-b border-gray-200">
+                <nav class="flex -mb-px">
+                    <button class="tab-btn active" data-tab="pv">PV组件参数</button>
+                    <button class="tab-btn" data-tab="battery">电池计算系数</button>
+                    <button class="tab-btn" data-tab="inverter">逆变器规格</button>
+                    <button class="tab-btn" data-tab="expansion">储能扩容</button>
+                    <button class="tab-btn" data-tab="proposals">方案目标容量</button>
+                    <button class="tab-btn" data-tab="consumption">州用电数据</button>
+                    <button class="tab-btn" data-tab="cost">成本参数</button>
+                    <button class="tab-btn" data-tab="subsidy">补贴参数</button>
+                    <button class="tab-btn" data-tab="custom-house">自定义房屋</button>
+                </nav>
+            </div>
+
+            <!-- Tab内容 -->
+            <div class="p-6">
+                <!-- PV组件参数 -->
+                <div id="tab-pv" class="tab-content">
+                    <h2 class="text-xl font-bold mb-4">PV组件参数</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-1">型号</label>
+                            <input type="text" id="pv-model" class="w-full border rounded p-2" value="JA Solar JAM54S31 440/MR">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">功率 (W)</label>
+                            <input type="number" id="pv-pmax" class="w-full border rounded p-2" value="440">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">长度 (m)</label>
+                            <input type="number" step="0.001" id="pv-length" class="w-full border rounded p-2" value="1.722">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">宽度 (m)</label>
+                            <input type="number" step="0.001" id="pv-width" class="w-full border rounded p-2" value="1.134">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">效率 (%)</label>
+                            <input type="number" step="0.01" id="pv-efficiency" class="w-full border rounded p-2" value="21.06">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">年发电系数 (kWh/kW/yr)</label>
+                            <input type="number" id="pv-annualKwhPerKw" class="w-full border rounded p-2" value="1526">
+                            <p class="text-xs text-gray-500 mt-1">每kW光伏系统年发电量</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 电池计算系数 -->
+                <div id="tab-battery" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">电池容量计算系数</h2>
+                    
+                    <!-- 计算逻辑说明 -->
+                    <div class="mb-6 bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+                        <h3 class="font-semibold text-blue-900 mb-2 flex items-center">
+                            <span class="text-xl mr-2">💡</span>
+                            储能容量计算逻辑说明
+                        </h3>
+                        <div class="text-sm text-blue-800 space-y-2">
+                            <p><strong>V3 计算公式：</strong>目标能量 = max(方法1, 方法2, 方法3)，电池容量 = 目标能量 ÷ (RTE × DOD)</p>
+                            <ul class="list-disc ml-5 space-y-1">
+                                <li><strong>方法1 - 日用电维度：</strong>日用电量 × 日用电系数<br>
+                                    <span class="text-xs text-blue-700">→ 确保储能系统能够支撑家庭的基本用电需求</span>
+                                </li>
+                                <li><strong>方法2 - 傍晚峰值维度：</strong>傍晚高峰用电(17:00-21:00) × 傍晚峰系数<br>
+                                    <span class="text-xs text-blue-700">→ 确保在太阳下山后，用白天储存的电力支撑晚间用电高峰</span>
+                                </li>
+                                <li><strong>方法3 - 光伏剩余维度：</strong>光伏剩余能量 × 光伏剩余系数<br>
+                                    <span class="text-xs text-blue-700">→ 光伏剩余 = 日发电量 - 白天自消纳，确保储能能有效吸收多余发电</span>
+                                </li>
+                            </ul>
+                            <p class="mt-2 pt-2 border-t border-blue-300"><strong>为什么取最大值？</strong>保守策略，确保储能容量能同时满足：日常用电需求、晚间高峰用电、光伏剩余吸收能力</p>
+                        </div>
+                    </div>
+
+                    <!-- 光伏剩余系数详解 -->
+                    <div class="mb-6 bg-amber-50 border-l-4 border-amber-500 p-4 rounded">
+                        <h3 class="font-semibold text-amber-900 mb-2 flex items-center">
+                            <span class="text-xl mr-2">🔋</span>
+                            V3 光伏剩余能量计算说明
+                        </h3>
+                        <div class="text-sm text-amber-800 space-y-2">
+                            <ul class="list-disc ml-5 space-y-1">
+                                <li><strong>日发电量：</strong>PV容量(kW) × 年发电系数(1526) ÷ 365 ≈ 4.18 kWh/kW/天</li>
+                                <li><strong>白天自消纳：</strong>白天用电量 × 自消纳系数(0.7)，与日发电量取较小值</li>
+                                <li><strong>光伏剩余：</strong>日发电量 - 白天自消纳，即可储存的多余电量</li>
+                                <li><strong>系数设计：</strong>
+                                    <span class="inline-block bg-green-100 px-2 py-0.5 rounded text-green-800 ml-1">经济型 0.4倍</span>
+                                    <span class="inline-block bg-blue-100 px-2 py-0.5 rounded text-blue-800 ml-1">平衡型 0.6倍</span>
+                                    <span class="inline-block bg-purple-100 px-2 py-0.5 rounded text-purple-800 ml-1">高端型 0.85倍</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3 text-purple-700">方案A - 高端型 (Premium)</h3>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">日用电系数</label>
+                                <input type="number" step="0.1" id="battery-premium-daily" class="w-full border rounded p-2" value="0.5">
+                                <p class="text-xs text-gray-500 mt-1">当前: 50%日用电</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">傍晚峰系数</label>
+                                <input type="number" step="0.1" id="battery-premium-evening" class="w-full border rounded p-2" value="1.5">
+                                <p class="text-xs text-gray-500 mt-1">当前: 1.5倍傍晚峰值</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">光伏剩余系数</label>
+                                <input type="number" step="0.05" id="battery-premium-surplus" class="w-full border rounded p-2" value="0.85">
+                                <p class="text-xs text-gray-500 mt-1">当前: 85%光伏剩余</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3 text-blue-700">方案B - 平衡型 (Balanced)</h3>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">日用电系数</label>
+                                <input type="number" step="0.1" id="battery-balanced-daily" class="w-full border rounded p-2" value="0.3">
+                                <p class="text-xs text-gray-500 mt-1">当前: 30%日用电</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">傍晚峰系数</label>
+                                <input type="number" step="0.1" id="battery-balanced-evening" class="w-full border rounded p-2" value="1.2">
+                                <p class="text-xs text-gray-500 mt-1">当前: 1.2倍傍晚峰值</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">光伏剩余系数</label>
+                                <input type="number" step="0.05" id="battery-balanced-surplus" class="w-full border rounded p-2" value="0.6">
+                                <p class="text-xs text-gray-500 mt-1">当前: 60%光伏剩余</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3 text-green-700">方案C - 经济型 (Economy)</h3>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">日用电系数</label>
+                                <input type="number" step="0.1" id="battery-economy-daily" class="w-full border rounded p-2" value="0.2">
+                                <p class="text-xs text-gray-500 mt-1">当前: 20%日用电</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">傍晚峰系数</label>
+                                <input type="number" step="0.1" id="battery-economy-evening" class="w-full border rounded p-2" value="0.8">
+                                <p class="text-xs text-gray-500 mt-1">当前: 0.8倍傍晚峰值</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">光伏剩余系数</label>
+                                <input type="number" step="0.05" id="battery-economy-surplus" class="w-full border rounded p-2" value="0.4">
+                                <p class="text-xs text-gray-500 mt-1">当前: 40%光伏剩余</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">标准电池规格 (kWh)</h3>
+                        <div class="flex items-center mb-3 bg-yellow-50 p-3 rounded border border-yellow-200">
+                            <input type="checkbox" id="battery-use-standards" class="mr-2 w-4 h-4">
+                            <label for="battery-use-standards" class="text-sm font-medium text-gray-700">启用标准电池规格标准化</label>
+                        </div>
+                        <input type="text" id="battery-standards" class="w-full border rounded p-2" value="5, 6.5, 9.6, 10, 13.5, 16, 20, 25, 30, 40, 50">
+                        <p class="text-xs text-gray-500 mt-1">用逗号分隔，仅在启用开关时生效。关闭后将使用计算出的精确值。</p>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">电池容量限制 (kWh)</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">最小容量</label>
+                                <input type="number" step="1" id="battery-min-capacity" class="w-full border rounded p-2" value="5">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">最大容量</label>
+                                <input type="number" step="1" id="battery-max-capacity" class="w-full border rounded p-2" value="50">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold mb-3">电池性能参数</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">DoD (Depth of Discharge) - 放电深度</label>
+                                <input type="number" step="0.01" id="battery-dod" class="w-full border rounded p-2" value="0.9">
+                                <p class="text-xs text-gray-500 mt-1">范围: 0-1，用于计算可用容量和补贴。当前: 90%</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">RTE (Round Trip Efficiency) - 往返效率</label>
+                                <input type="number" step="0.01" id="battery-rte" class="w-full border rounded p-2" value="0.95">
+                                <p class="text-xs text-gray-500 mt-1">范围: 0-1，充放电循环效率。当前: 95%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 逆变器规格 -->
+                <div id="tab-inverter" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">逆变器可用规格</h2>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="text-lg font-semibold">单相电网</h3>
+                            <label class="flex items-center text-sm text-gray-600">
+                                <input type="checkbox" id="inv-single-enable" class="mr-2 w-4 h-4">
+                                启用可用规格限制
+                            </label>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">方案A (高端型) - kW</label>
+                                <input type="text" id="inv-single-a" class="w-full border rounded p-2" value="5, 6, 8, 10">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">方案B (平衡型) - kW</label>
+                                <input type="text" id="inv-single-b" class="w-full border rounded p-2" value="5, 8">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">方案C (经济型) - kW</label>
+                                <input type="text" id="inv-single-c" class="w-full border rounded p-2" value="5, 8">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="text-lg font-semibold">三相电网</h3>
+                            <label class="flex items-center text-sm text-gray-600">
+                                <input type="checkbox" id="inv-three-enable" class="mr-2 w-4 h-4">
+                                启用可用规格限制
+                            </label>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">方案A (高端型) - kW</label>
+                                <input type="text" id="inv-three-a" class="w-full border rounded p-2" value="5, 8, 10, 15, 20, 30">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">方案B (平衡型) - kW</label>
+                                <input type="text" id="inv-three-b" class="w-full border rounded p-2" value="5, 8, 10, 15">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">方案C (经济型) - kW</label>
+                                <input type="text" id="inv-three-c" class="w-full border rounded p-2" value="5, 8, 10">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-lg font-semibold mb-3">容配比规则</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">目标容配比 (%)</label>
+                                <input type="number" id="inv-target-ratio" class="w-full border rounded p-2" value="180">
+                                <p class="text-xs text-gray-500 mt-1">Hybrid系统的目标容配比</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">最大容配比 (%)</label>
+                                <input type="number" id="inv-max-ratio" class="w-full border rounded p-2" value="200">
+                                <p class="text-xs text-gray-500 mt-1">澳洲Hybrid系统上限</p>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4 mt-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">单相逆变器最大功率 (kW)</label>
+                                <input type="number" id="inv-single-max" class="w-full border rounded p-2" value="10">
+                                <p class="text-xs text-gray-500 mt-1">通常受配电网规则限制，默认≤10kW</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">三相逆变器最大功率 (kW)</label>
+                                <input type="number" id="inv-three-max" class="w-full border rounded p-2" value="30">
+                                <p class="text-xs text-gray-500 mt-1">默认≤30kW，可根据电网要求调整</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 储能扩容 -->
+                <div id="tab-expansion" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">储能扩容参数</h2>
+                    <p class="text-gray-600 mb-4">配置储能扩容场景的特殊参数</p>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+                        <h3 class="font-semibold text-blue-900 mb-2">储能扩容说明</h3>
+                        <div class="text-sm text-blue-800 space-y-1">
+                            <p>储能扩容场景适用于已有光伏系统的用户，希望增加储能容量。</p>
+                            <p>• <strong>屋顶容量系数</strong>：考虑到已有组件占用，可用屋顶空间 = GIS分析潜力 × 容量系数</p>
+                            <p>• <strong>更换逆变器</strong>：是否在扩容时更换为新的混合逆变器（支持储能）</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium mb-1">屋顶容量系数</label>
+                            <input type="number" step="0.1" min="0" max="1" id="expansion-roof-factor" class="w-full border rounded p-2" value="0.7">
+                            <p class="text-xs text-gray-500 mt-1">默认0.7，表示可用70%的屋顶空间用于扩容</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-1">更换逆变器</label>
+                            <div class="flex items-center mt-2">
+                                <input type="checkbox" id="expansion-replace-inverter" class="mr-2 w-4 h-4" checked>
+                                <label for="expansion-replace-inverter" class="text-sm text-gray-700">默认更换为新的混合逆变器</label>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-1">关闭此选项将保留原有逆变器配置</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-gray-50 p-4 rounded">
+                        <h3 class="font-semibold mb-2">计算示例</h3>
+                        <div class="text-sm text-gray-700 space-y-1">
+                            <p>假设: GIS分析显示屋顶最大可装30片组件 (13.2kW)</p>
+                            <p>• 屋顶容量系数 = 0.7</p>
+                            <p>• 扩容可用 = 30 × 0.7 = 21片 (9.24kW)</p>
+                            <p>• 系统将基于9.24kW进行三套方案推导</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 方案目标容量 -->
+                <div id="tab-proposals" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">方案目标容量配置</h2>
+                    <p class="text-gray-600 mb-4">配置三个推荐方案的目标光伏容量</p>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+                        <h3 class="font-semibold text-blue-900 mb-2">方案目标容量说明</h3>
+                        <div class="text-sm text-blue-800 space-y-1">
+                            <p>系统会根据目标容量，使用贪心算法从最优坡面开始填充，直到达到目标或屋顶空间用尽。</p>
+                            <p>• <strong>方案A (高端型)</strong>：默认满铺所有可用屋顶，追求最大发电量</p>
+                            <p>• <strong>方案B (平衡型)</strong>：根据屋顶规模动态选择 10kW 或 13kW 目标</p>
+                            <p>• <strong>方案C (经济型)</strong>：固定 6.6kW，高性价比入门配置</p>
+                        </div>
+                    </div>
+
+                    <!-- 方案A -->
+                    <div class="mb-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
+                        <h3 class="text-lg font-semibold mb-3 text-purple-700">方案A - 高端型 (Premium)</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">目标功率 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-premium-target" class="w-full border rounded p-2" value="999">
+                                <p class="text-xs text-gray-500 mt-1">设为 999 表示满铺策略（无上限）</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 方案B -->
+                    <div class="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                        <h3 class="text-lg font-semibold mb-3 text-blue-700">方案B - 平衡型 (Balanced)</h3>
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mb-4">
+                            <p class="text-sm text-yellow-800">
+                                <strong>动态选择逻辑：</strong>如果屋顶最大容量 > 阈值，则使用"大屋顶目标"，否则使用"小屋顶目标"
+                            </p>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">小屋顶目标功率 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-balanced-small" class="w-full border rounded p-2" value="10.0">
+                                <p class="text-xs text-gray-500 mt-1">屋顶容量 ≤ 阈值时使用</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">大屋顶目标功率 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-balanced-large" class="w-full border rounded p-2" value="13.0">
+                                <p class="text-xs text-gray-500 mt-1">屋顶容量 > 阈值时使用</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">屋顶容量阈值 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-balanced-threshold" class="w-full border rounded p-2" value="15">
+                                <p class="text-xs text-gray-500 mt-1">用于判断大/小屋顶</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 方案C -->
+                    <div class="mb-6 p-4 bg-green-50 rounded-lg border border-green-200">
+                        <h3 class="text-lg font-semibold mb-3 text-green-700">方案C - 经济型 (Economy)</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">目标功率 (kW)</label>
+                                <input type="number" step="0.1" id="proposal-economy-target" class="w-full border rounded p-2" value="6.6">
+                                <p class="text-xs text-gray-500 mt-1">固定目标功率，适合入门用户</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-4 rounded">
+                        <h3 class="font-semibold mb-2">市场数据参考 (2025年)</h3>
+                        <div class="text-sm text-gray-700 space-y-1">
+                            <p>根据 SolarQuotes 评论数据统计，最热门的系统规格：</p>
+                            <p>• <strong>6.6kW</strong> → 23.2% (最热门)</p>
+                            <p>• <strong>10.0kW</strong> → 19.4%</p>
+                            <p>• <strong>13.0kW</strong> → 17.4%</p>
+                            <p class="mt-2 text-xs text-gray-500">数据来源: scraped_data/analysis_output/2025年区间统计.md</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 州用电数据 -->
+                <div id="tab-consumption" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">各州年度用电量 (kWh)</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div><label class="block text-sm font-medium mb-1">TAS (塔斯马尼亚)</label><input type="number" id="consumption-TAS" class="w-full border rounded p-2" value="10148"></div>
+                        <div><label class="block text-sm font-medium mb-1">NT (北领地)</label><input type="number" id="consumption-NT" class="w-full border rounded p-2" value="10008"></div>
+                        <div><label class="block text-sm font-medium mb-1">ACT (首都领地)</label><input type="number" id="consumption-ACT" class="w-full border rounded p-2" value="8632"></div>
+                        <div><label class="block text-sm font-medium mb-1">SA (南澳)</label><input type="number" id="consumption-SA" class="w-full border rounded p-2" value="7129"></div>
+                        <div><label class="block text-sm font-medium mb-1">NSW (新南威尔士)</label><input type="number" id="consumption-NSW" class="w-full border rounded p-2" value="6729"></div>
+                        <div><label class="block text-sm font-medium mb-1">QLD (昆士兰)</label><input type="number" id="consumption-QLD" class="w-full border rounded p-2" value="6633"></div>
+                        <div><label class="block text-sm font-medium mb-1">VIC (维多利亚)</label><input type="number" id="consumption-VIC" class="w-full border rounded p-2" value="5883"></div>
+                        <div><label class="block text-sm font-medium mb-1">WA (西澳)</label><input type="number" id="consumption-WA" class="w-full border rounded p-2" value="5617"></div>
+                    </div>
+                </div>
+
+                <!-- 成本参数 -->
+                <div id="tab-cost" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">成本计算参数</h2>
+                    <p class="text-gray-600 mb-4">配置系统各组件的单价和税率</p>
+                    
+                    <!-- 方案选择 -->
+                    <div class="mb-6 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-200">
+                        <h3 class="font-semibold text-blue-900 mb-3 flex items-center">
+                            <span class="text-xl mr-2">💰</span>
+                            成本计算方案选择
+                        </h3>
+                        <div class="flex items-center space-x-6 flex-wrap gap-y-2">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="cost-scheme" id="cost-scheme-a" value="A" checked class="w-4 h-4 text-blue-600">
+                                <span class="ml-2 font-medium">方案 A: 线性定价</span>
+                                <span class="ml-2 text-xs text-gray-500">(按组件单价计算)</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="cost-scheme" id="cost-scheme-b" value="B" class="w-4 h-4 text-blue-600">
+                                <span class="ml-2 font-medium">方案 B: 基准+增量</span>
+                                <span class="ml-2 text-xs text-gray-500">(边际成本递减)</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="cost-scheme" id="cost-scheme-c" value="C" class="w-4 h-4 text-blue-600">
+                                <span class="ml-2 font-medium">方案 C: $/kW 简化定价</span>
+                                <span class="ml-2 text-xs text-gray-500">(市场通用报价)</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="cost-scheme" id="cost-scheme-d" value="D" class="w-4 h-4 text-blue-600">
+                                <span class="ml-2 font-medium">方案 D: 分离式定价</span>
+                                <span class="ml-2 text-xs text-gray-500">(PV+电池安装费)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- 方案A: 线性定价 -->
+                    <div id="cost-scheme-a-panel" class="mb-6 p-4 bg-white rounded-lg border-2 border-blue-300">
+                        <h3 class="text-lg font-semibold mb-3 text-blue-700 flex items-center">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">方案 A</span>
+                            线性定价模式
+                        </h3>
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-3 mb-4 text-sm">
+                            <p class="text-blue-800"><strong>计算公式：</strong>税前报价 = PV容量×面板单价 + 逆变器功率×逆变器单价 + 电池容量×电池单价</p>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">每kW面板税前报价 (AUD/kW)</label>
+                                <input type="number" id="cost-pv-per-kw" class="w-full border rounded p-2" value="540">
+                                <p class="text-xs text-gray-500 mt-1">PV系统单价（包含组件、支架、安装）</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">每kW逆变器报价 (AUD/kW)</label>
+                                <input type="number" id="cost-inverter-per-kw" class="w-full border rounded p-2" value="280">
+                                <p class="text-xs text-gray-500 mt-1">逆变器单价（包含设备、安装）</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">每kWh电池报价 (AUD/kWh)</label>
+                                <input type="number" id="cost-battery-per-kwh" class="w-full border rounded p-2" value="865">
+                                <p class="text-xs text-gray-500 mt-1">电池储能单价（基于标称容量）</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 bg-gray-50 p-3 rounded text-sm">
+                            <p class="font-medium mb-1">示例: 6.6kW PV + 5kW逆变器 + 6.5kWh电池</p>
+                            <p class="text-gray-600">税前 = 6.6×540 + 5×280 + 6.5×865 = <strong>10,586.5 AUD</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- 方案B: 基准+增量定价 -->
+                    <div id="cost-scheme-b-panel" class="mb-6 p-4 bg-white rounded-lg border-2 border-green-300 hidden">
+                        <h3 class="text-lg font-semibold mb-3 text-green-700 flex items-center">
+                            <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">方案 B</span>
+                            基准+增量定价模式
+                        </h3>
+                        <div class="bg-green-50 border-l-4 border-green-500 p-3 mb-4 text-sm">
+                            <p class="text-green-800 mb-1"><strong>核心思路：</strong>从"零件组装"转变为"套餐扩展"，边际成本递减</p>
+                            <p class="text-green-700">光伏系统 = 基准价 + (超额kW × 增量单价) | 储能系统 = 安装费 + (容量 × 单价)</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-6">
+                            <!-- 光伏系统配置 -->
+                            <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                                <h4 class="font-semibold text-yellow-800 mb-3">☀️ 光伏系统配置</h4>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">基准系统容量 (kW)</label>
+                                        <input type="number" step="0.1" id="cost-b-base-kw" class="w-full border rounded p-2" value="6.6">
+                                        <p class="text-xs text-gray-500 mt-1">标准套餐容量，通常为6.6kW</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">基准系统售价 (AUD)</label>
+                                        <input type="number" id="cost-b-base-price" class="w-full border rounded p-2" value="4500">
+                                        <p class="text-xs text-gray-500 mt-1">6.6kW系统总价（含面板+逆变器+安装）不含GST</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">超额每kW单价 (AUD/kW)</label>
+                                        <input type="number" id="cost-b-adder-price" class="w-full border rounded p-2" value="500">
+                                        <p class="text-xs text-gray-500 mt-1">超过基准容量后，每增加1kW的费用</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 储能系统配置 -->
+                            <div class="bg-purple-50 p-4 rounded-lg border border-purple-200">
+                                <h4 class="font-semibold text-purple-800 mb-3">🔋 储能系统配置</h4>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">储能基础安装费 (AUD)</label>
+                                        <input type="number" id="cost-b-battery-install" class="w-full border rounded p-2" value="1500">
+                                        <p class="text-xs text-gray-500 mt-1">一次性安装费（人工、配电箱改造）</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">电池容量单价 (AUD/kWh)</label>
+                                        <input type="number" id="cost-b-battery-per-kwh" class="w-full border rounded p-2" value="700">
+                                        <p class="text-xs text-gray-500 mt-1">电池硬件本身的单价</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-gray-50 p-3 rounded text-sm">
+                            <p class="font-medium mb-2">方案B计算示例对比:</p>
+                            <table class="w-full text-xs">
+                                <thead class="bg-gray-200">
+                                    <tr>
+                                        <th class="p-1 text-left">系统容量</th>
+                                        <th class="p-1 text-right">方案A (线性)</th>
+                                        <th class="p-1 text-right">方案B (基准+增量)</th>
+                                        <th class="p-1 text-right">差异</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td class="p-1">6.6 kW</td><td class="p-1 text-right">$5,412</td><td class="p-1 text-right">$4,500</td><td class="p-1 text-right text-green-600">-$912</td></tr>
+                                    <tr><td class="p-1">10 kW</td><td class="p-1 text-right">$8,200</td><td class="p-1 text-right">$6,200</td><td class="p-1 text-right text-green-600">-$2,000</td></tr>
+                                    <tr><td class="p-1">13.2 kW</td><td class="p-1 text-right">$10,824</td><td class="p-1 text-right">$7,800</td><td class="p-1 text-right text-green-600">-$3,024</td></tr>
+                                </tbody>
+                            </table>
+                            <p class="text-gray-500 mt-2 italic">* 以上仅为光伏系统价格对比，不含电池和GST</p>
+                        </div>
+                    </div>
+
+                    <!-- 方案C: $/kW 简化定价 -->
+                    <div id="cost-scheme-c-panel" class="mb-6 p-4 bg-white rounded-lg border-2 border-orange-300 hidden">
+                        <h3 class="text-lg font-semibold mb-3 text-orange-700 flex items-center">
+                            <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded mr-2">方案 C</span>
+                            $/kW 简化定价模式 (市场通用报价)
+                        </h3>
+                        <div class="bg-orange-50 border-l-4 border-orange-500 p-3 mb-4 text-sm">
+                            <p class="text-orange-800 mb-1"><strong>核心思路：</strong>用简单的 $/kW 单价报价，更接近市场通用报价方式</p>
+                            <p class="text-orange-700">Solar Only: PV容量 × $/kW | Hybrid: PV容量 × $/kW + 电池容量 × $/kWh</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-6">
+                            <!-- Solar Only 配置 -->
+                            <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                                <h4 class="font-semibold text-yellow-800 mb-3">☀️ Solar Only (纯光伏)</h4>
+                                <p class="text-xs text-gray-600 mb-3">包含 PV 面板 + 逆变器 + 安装费</p>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-c-solar-only-ex-gst-ex-stc" class="w-full border rounded p-2" value="750">
+                                        <p class="text-xs text-gray-500 mt-1">基础成本价，用于内部计算</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-c-solar-only-inc-gst-inc-stc" class="w-full border rounded p-2" value="600">
+                                        <p class="text-xs text-gray-500 mt-1">市场报价参考 (SolarChoice ~$780-870/kW)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Hybrid 配置 -->
+                            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                                <h4 class="font-semibold text-blue-800 mb-3">⚡ Hybrid (光伏+储能)</h4>
+                                <p class="text-xs text-gray-600 mb-3">光伏部分 (含混合逆变器)</p>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-c-hybrid-pv-ex-gst-ex-stc" class="w-full border rounded p-2" value="800">
+                                        <p class="text-xs text-gray-500 mt-1">混合逆变器比普通逆变器贵约$100/kW</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-c-hybrid-pv-inc-gst-inc-stc" class="w-full border rounded p-2" value="650">
+                                        <p class="text-xs text-gray-500 mt-1">市场报价参考</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 电池配置 -->
+                        <div class="mt-4 bg-purple-50 p-4 rounded-lg border border-purple-200">
+                            <h4 class="font-semibold text-purple-800 mb-3">🔋 电池储能 (基于标称容量)</h4>
+                            <p class="text-xs text-gray-600 mb-3">电池成本 = 标称容量 × 单价</p>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kWh)</label>
+                                    <input type="number" id="cost-c-battery-ex-gst-ex-stc" class="w-full border rounded p-2" value="700">
+                                    <p class="text-xs text-gray-500 mt-1">基础成本价</p>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kWh)</label>
+                                    <input type="number" id="cost-c-battery-inc-gst-inc-stc" class="w-full border rounded p-2" value="450">
+                                    <p class="text-xs text-gray-500 mt-1">参考 SolarChoice ~$696-826/kWh (可用容量)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-gray-50 p-3 rounded text-sm">
+                            <p class="font-medium mb-2">方案C计算示例 (NSW, 6.6kW PV + 10kWh电池):</p>
+                            <div class="grid grid-cols-2 gap-4 text-xs">
+                                <div>
+                                    <p class="font-semibold text-gray-700">不含税不含补贴:</p>
+                                    <p>• Hybrid PV: 6.6 × $1,150 = $7,590</p>
+                                    <p>• 电池: 10 × $750 = $7,500</p>
+                                    <p>• 合计: <strong>$15,090</strong></p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-700">含税含补贴:</p>
+                                    <p>• Hybrid PV: 6.6 × $920 = $6,072</p>
+                                    <p>• 电池: 10 × $500 = $5,000</p>
+                                    <p>• 合计: <strong>$11,072</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-amber-50 border-l-4 border-amber-500 p-3 text-sm">
+                            <p class="text-amber-800"><strong>💡 竞品价格参考 (含税含补贴):</strong></p>
+                            <ul class="text-amber-700 text-xs mt-1 space-y-1">
+                                <li>• SolarChoice 6kW: $5,000-5,200 (~$833-867/kW)</li>
+                                <li>• SolarChoice 10kW: $7,630-7,810 (~$763-781/kW)</li>
+                                <li>• SolarQuotes 6kW: ~$7,130 (~$1,188/kW) - 含高端品牌</li>
+                                <li>• 电池 10kWh: $8,260 (仅电池) / $9,560 (含逆变器)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 方案D: 分离式定价 -->
+                    <div id="cost-scheme-d-panel" class="mb-6 p-4 bg-white rounded-lg border-2 border-teal-300 hidden">
+                        <h3 class="text-lg font-semibold mb-3 text-teal-700 flex items-center">
+                            <span class="bg-teal-100 text-teal-800 text-xs px-2 py-1 rounded mr-2">方案 D</span>
+                            分离式定价模式 (PV + 电池安装费 + 电池容量)
+                        </h3>
+                        <div class="bg-teal-50 border-l-4 border-teal-500 p-3 mb-4 text-sm">
+                            <p class="text-teal-800 mb-1"><strong>核心思路：</strong>PV 和电池分开计价，电池有固定安装费</p>
+                            <p class="text-teal-700">无电池: PV × $900/kW | 有电池: PV × $700/kW + 安装费$3000 + 电池 × $750/kWh</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-6">
+                            <!-- Solar Only 配置 -->
+                            <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                                <h4 class="font-semibold text-yellow-800 mb-3">☀️ Solar Only (无电池)</h4>
+                                <p class="text-xs text-gray-600 mb-3">纯光伏系统，包含 PV + 逆变器 + 安装</p>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-d-solar-only-ex-gst-ex-stc" class="w-full border rounded p-2" value="750">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-d-solar-only-inc-gst-inc-stc" class="w-full border rounded p-2" value="600">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Hybrid 配置 -->
+                            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                                <h4 class="font-semibold text-blue-800 mb-3">⚡ Hybrid PV (有电池)</h4>
+                                <p class="text-xs text-gray-600 mb-3">光伏部分单价 (电池成本单独计算)</p>
+                                <div class="space-y-3">
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-d-hybrid-pv-ex-gst-ex-stc" class="w-full border rounded p-2" value="650">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kW)</label>
+                                        <input type="number" id="cost-d-hybrid-pv-inc-gst-inc-stc" class="w-full border rounded p-2" value="520">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 电池配置 -->
+                        <div class="mt-4 bg-purple-50 p-4 rounded-lg border border-purple-200">
+                            <h4 class="font-semibold text-purple-800 mb-3">🔋 电池储能配置</h4>
+                            <div class="grid grid-cols-2 gap-6">
+                                <div>
+                                    <h5 class="text-sm font-medium text-purple-700 mb-2">固定安装费</h5>
+                                    <div class="space-y-3">
+                                        <div>
+                                            <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD)</label>
+                                            <input type="number" id="cost-d-battery-install-ex-gst-ex-stc" class="w-full border rounded p-2" value="1800">
+                                        </div>
+                                        <div>
+                                            <label class="block text-sm font-medium mb-1">含税含补贴 (AUD)</label>
+                                            <input type="number" id="cost-d-battery-install-inc-gst-inc-stc" class="w-full border rounded p-2" value="1500">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-medium text-purple-700 mb-2">电池容量单价</h5>
+                                    <div class="space-y-3">
+                                        <div>
+                                            <label class="block text-sm font-medium mb-1">不含税不含补贴 (AUD/kWh)</label>
+                                            <input type="number" id="cost-d-battery-per-kwh-ex-gst-ex-stc" class="w-full border rounded p-2" value="550">
+                                        </div>
+                                        <div>
+                                            <label class="block text-sm font-medium mb-1">含税含补贴 (AUD/kWh)</label>
+                                            <input type="number" id="cost-d-battery-per-kwh-inc-gst-inc-stc" class="w-full border rounded p-2" value="450">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-gray-50 p-3 rounded text-sm">
+                            <p class="font-medium mb-2">方案D计算示例 (6.6kW PV + 10kWh电池):</p>
+                            <div class="grid grid-cols-2 gap-4 text-xs">
+                                <div>
+                                    <p class="font-semibold text-gray-700">不含税不含补贴:</p>
+                                    <p>• Hybrid PV: 6.6 × $650 = $4,290</p>
+                                    <p>• 安装费: $1,800</p>
+                                    <p>• 电池: 10 × $550 = $5,500</p>
+                                    <p>• 合计: <strong>$11,590</strong></p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-gray-700">含税含补贴:</p>
+                                    <p>• Hybrid PV: 6.6 × $520 = $3,432</p>
+                                    <p>• 安装费: $1,500</p>
+                                    <p>• 电池: 10 × $450 = $4,500</p>
+                                    <p>• 合计: <strong>$9,432</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 bg-amber-50 border-l-4 border-amber-500 p-3 text-sm">
+                            <p class="text-amber-800"><strong>💡 说明:</strong></p>
+                            <p class="text-amber-700 text-xs mt-1">标准电池价格表预留，未来可配置具体电池型号价格。目前使用容量单价估算。</p>
+                        </div>
+                    </div>
+
+                    <!-- GST税率 (所有方案共用) -->
+                    <div class="p-4 bg-gray-100 rounded-lg">
+                        <div class="w-1/3">
+                            <label class="block text-sm font-medium mb-1">GST税率</label>
+                            <input type="number" step="0.01" id="cost-gst-rate" class="w-full border rounded p-2" value="0.1">
+                            <p class="text-xs text-gray-500 mt-1">澳洲商品及服务税（默认10%）</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 补贴参数 -->
+                <div id="tab-subsidy" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">补贴计算参数 (STC)</h2>
+                    <p class="text-gray-600 mb-4">配置澳洲小规模技术证书（Small-scale Technology Certificates）补贴参数</p>
+                    
+                    <div class="bg-green-50 border-l-4 border-green-500 p-4 mb-6">
+                        <h3 class="font-semibold text-green-900 mb-2">补贴计算公式</h3>
+                        <div class="text-sm text-green-800 space-y-1">
+                            <p><strong>PV STC数量</strong> = FLOOR(PV容量 × Zone Rating × Deeming Period)</p>
+                            <p><strong>Battery STC数量</strong> = FLOOR(可用电池容量 × STC因子/kWh)</p>
+                            <p><strong>总STC数量</strong> = PV STC + Battery STC</p>
+                            <p><strong>补贴金额</strong> = 总STC数量 × STC单价</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">基础参数</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">STC单价 (AUD)</label>
+                                <input type="number" id="subsidy-stc-price" class="w-full border rounded p-2" value="39">
+                                <p class="text-xs text-gray-500 mt-1">每个STC证书的市场价格</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">安装年份</label>
+                                <input type="number" id="subsidy-install-year" class="w-full border rounded p-2" value="2025">
+                                <p class="text-xs text-gray-500 mt-1">用于计算Deeming Period</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">Deeming Period终止年</label>
+                                <input type="number" id="subsidy-deeming-end-year" class="w-full border rounded p-2" value="2030">
+                                <p class="text-xs text-gray-500 mt-1">政策终止年份（固定2030）</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">Battery STC因子 (STC/kWh)</label>
+                                <input type="number" step="0.1" id="subsidy-battery-stc-factor" class="w-full border rounded p-2" value="9.3">
+                                <p class="text-xs text-gray-500 mt-1">2025年标准: 9.3 STC/kWh</p>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">电池可用容量上限 (kWh)</label>
+                                <input type="number" id="subsidy-battery-capacity-cap" class="w-full border rounded p-2" value="50">
+                                <p class="text-xs text-gray-500 mt-1">超出部分不予补贴</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-3">Zone Rating (按州/邮编)</h3>
+                        <p class="text-xs text-gray-600 mb-3">不同地区的太阳能资源系数，影响PV补贴计算</p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">TAS (塔斯马尼亚)</label>
+                                <input type="number" step="0.1" id="zone-rating-TAS" class="w-full border rounded p-2" value="1.382">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">NT (北领地)</label>
+                                <input type="number" step="0.1" id="zone-rating-NT" class="w-full border rounded p-2" value="1.622">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">ACT (首都领地)</label>
+                                <input type="number" step="0.1" id="zone-rating-ACT" class="w-full border rounded p-2" value="1.382">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">SA (南澳)</label>
+                                <input type="number" step="0.1" id="zone-rating-SA" class="w-full border rounded p-2" value="1.536">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">NSW (新南威尔士)</label>
+                                <input type="number" step="0.1" id="zone-rating-NSW" class="w-full border rounded p-2" value="1.382">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">QLD (昆士兰)</label>
+                                <input type="number" step="0.1" id="zone-rating-QLD" class="w-full border rounded p-2" value="1.536">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">VIC (维多利亚)</label>
+                                <input type="number" step="0.1" id="zone-rating-VIC" class="w-full border rounded p-2" value="1.382">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">WA (西澳)</label>
+                                <input type="number" step="0.1" id="zone-rating-WA" class="w-full border rounded p-2" value="1.536">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-4 rounded">
+                        <h3 class="font-semibold mb-2">示例计算（2025年安装）</h3>
+                        <div class="text-sm text-gray-700 space-y-2">
+                            <p><strong>Deeming Period</strong> = 2030 - 2025 + 1 = 6年</p>
+                            <p><strong>假设</strong>: NSW州, 6.6kW PV + 6.5kWh电池</p>
+                            <div class="ml-4 space-y-1">
+                                <p>• PV STC = FLOOR(6.6 × 1.382 × 6) = FLOOR(54.7) = <strong>54 STC</strong></p>
+                                <p>• Battery STC = FLOOR(6.5 × 9.3) = FLOOR(60.45) = <strong>60 STC</strong></p>
+                                <p>• 总STC = 54 + 60 = <strong>114 STC</strong></p>
+                                <p>• 补贴金额 = 114 × 39 = <strong>4,446 AUD</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 自定义房屋 -->
+                <div id="tab-custom-house" class="tab-content hidden">
+                    <h2 class="text-xl font-bold mb-4">自定义房屋坡面信息</h2>
+                    <p class="text-gray-600 mb-4">输入自定义的屋顶坡面数据，格式：方位角,最大面板数（每行一个坡面）</p>
+                    
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium mb-1">房屋ID</label>
+                        <input type="text" id="custom-house-id" class="w-full border rounded p-2" placeholder="例如: custom_1">
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium mb-1">坡面数据</label>
+                        <textarea id="custom-slopes" class="w-full border rounded p-2 font-mono text-sm" rows="10" placeholder="格式1（逗号分隔）：
+359.8, 30
+269.8, 0
+179.8, 16
+
+格式2（空格/Tab分隔）：
+296.565  3
+26.565   0
+116.565  5
+
+格式3（两行一组）：
+299.35
+1
+209.35
+12"></textarea>
+                        <p class="text-xs text-gray-500 mt-1">
+                            支持三种格式：<br>
+                            • <strong>格式1</strong>: 方位角, 最大面板数（逗号分隔，每行一个坡面）<br>
+                            • <strong>格式2</strong>: 方位角 最大面板数（空格或Tab分隔，每行一个坡面）<br>
+                            • <strong>格式3</strong>: 每两行一组（第一行方位角，第二行面板数）
+                        </p>
+                    </div>
+                    
+                    <button id="add-custom-house" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                        添加到系统
+                    </button>
+                    <button id="test-custom-house" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 ml-2">
+                        测试计算
+                    </button>
+                    
+                    <div id="custom-result" class="mt-4 hidden">
+                        <h3 class="font-semibold mb-2">测试结果:</h3>
+                        <pre id="custom-result-text" class="bg-gray-100 p-4 rounded text-sm overflow-auto"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 操作按钮 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+            <div class="flex gap-4 flex-wrap">
+                <button id="save-config" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 font-semibold flex items-center gap-2">
+                    💾 保存配置
+                </button>
+                <button id="export-config" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 font-semibold flex items-center gap-2">
+                    📥 导出配置 (JSON)
+                </button>
+                <button id="load-config" class="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 font-semibold flex items-center gap-2">
+                    📂 导入配置文件
+                </button>
+                <button id="reset-config" class="bg-gray-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 font-semibold flex items-center gap-2">
+                    🔄 重置为默认值
+                </button>
+                <input type="file" id="config-file-input" accept=".json" class="hidden">
+            </div>
+            <div class="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <p class="text-sm text-blue-800">
+                    <strong>💡 使用说明：</strong><br>
+                    • <strong>保存配置</strong>：将当前配置保存到浏览器，所有页面自动使用<br>
+                    • <strong>导出配置</strong>：下载JSON文件，可分享或备份<br>
+                    • <strong>导入配置</strong>：从JSON文件加载配置并自动保存<br>
+                    • <strong>重置</strong>：清除保存的配置，恢复默认值
+                </p>
+            </div>
+            <p class="text-sm text-gray-600 mt-4">💡 修改后的配置可以导出为JSON文件，在主页面中导入使用</p>
+        </div>
+    </div>
+
+    <style>
+        .tab-btn {
+            padding: 1rem 1.5rem;
+            border-bottom: 2px solid transparent;
+            font-weight: 500;
+            color: #6b7280;
+            transition: all 0.2s;
+        }
+        .tab-btn:hover {
+            color: #3b82f6;
+        }
+        .tab-btn.active {
+            color: #3b82f6;
+            border-bottom-color: #3b82f6;
+        }
+    </style>
+
+    <script>
+        // Tab切换
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
+                
+                btn.classList.add('active');
+                document.getElementById(`tab-${btn.dataset.tab}`).classList.remove('hidden');
+            });
+        });
+
+        // 成本方案切换
+        document.querySelectorAll('input[name="cost-scheme"]').forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                const scheme = e.target.value;
+                const panelA = document.getElementById('cost-scheme-a-panel');
+                const panelB = document.getElementById('cost-scheme-b-panel');
+                const panelC = document.getElementById('cost-scheme-c-panel');
+                const panelD = document.getElementById('cost-scheme-d-panel');
+                
+                panelA.classList.add('hidden');
+                panelB.classList.add('hidden');
+                panelC.classList.add('hidden');
+                panelD.classList.add('hidden');
+                
+                if (scheme === 'A') {
+                    panelA.classList.remove('hidden');
+                } else if (scheme === 'B') {
+                    panelB.classList.remove('hidden');
+                } else if (scheme === 'C') {
+                    panelC.classList.remove('hidden');
+                } else if (scheme === 'D') {
+                    panelD.classList.remove('hidden');
+                }
+            });
+        });
+
+        // 收集配置
+        function collectConfig() {
+            return {
+                pv: {
+                    model: document.getElementById('pv-model').value,
+                    pmax: parseFloat(document.getElementById('pv-pmax').value),
+                    length: parseFloat(document.getElementById('pv-length').value),
+                    width: parseFloat(document.getElementById('pv-width').value),
+                    efficiency: parseFloat(document.getElementById('pv-efficiency').value),
+                    annualKwhPerKw: parseFloat(document.getElementById('pv-annualKwhPerKw').value) || 1526
+                },
+                battery: {
+                    premium: {
+                        daily: parseFloat(document.getElementById('battery-premium-daily').value),
+                        evening: parseFloat(document.getElementById('battery-premium-evening').value),
+                        surplus: parseFloat(document.getElementById('battery-premium-surplus').value)
+                    },
+                    balanced: {
+                        daily: parseFloat(document.getElementById('battery-balanced-daily').value),
+                        evening: parseFloat(document.getElementById('battery-balanced-evening').value),
+                        surplus: parseFloat(document.getElementById('battery-balanced-surplus').value)
+                    },
+                    economy: {
+                        daily: parseFloat(document.getElementById('battery-economy-daily').value),
+                        evening: parseFloat(document.getElementById('battery-economy-evening').value),
+                        surplus: parseFloat(document.getElementById('battery-economy-surplus').value)
+                    },
+                    standards: document.getElementById('battery-standards').value.split(',').map(s => parseFloat(s.trim())),
+                    useStandards: document.getElementById('battery-use-standards').checked,
+                    minCapacity: parseFloat(document.getElementById('battery-min-capacity').value) || 5,
+                    maxCapacity: parseFloat(document.getElementById('battery-max-capacity').value) || 50,
+                    dod: parseFloat(document.getElementById('battery-dod').value),
+                    rte: parseFloat(document.getElementById('battery-rte').value),
+                    daytimeRatio: {
+                        NSW: 0.45, VIC: 0.47, QLD: 0.48, SA: 0.44,
+                        WA: 0.48, TAS: 0.47, ACT: 0.42, NT: 0.48
+                    },
+                    selfConsumptionFactor: 0.7
+                },
+                inverter: {
+                    single: {
+                        a: document.getElementById('inv-single-a').value.split(',').map(s => parseFloat(s.trim())),
+                        b: document.getElementById('inv-single-b').value.split(',').map(s => parseFloat(s.trim())),
+                        c: document.getElementById('inv-single-c').value.split(',').map(s => parseFloat(s.trim()))
+                    },
+                    three: {
+                        a: document.getElementById('inv-three-a').value.split(',').map(s => parseFloat(s.trim())),
+                        b: document.getElementById('inv-three-b').value.split(',').map(s => parseFloat(s.trim())),
+                        c: document.getElementById('inv-three-c').value.split(',').map(s => parseFloat(s.trim()))
+                    },
+                    enableSingleOptions: document.getElementById('inv-single-enable').checked,
+                    enableThreeOptions: document.getElementById('inv-three-enable').checked,
+                    singleMaxKw: parseFloat(document.getElementById('inv-single-max').value),
+                    threeMaxKw: parseFloat(document.getElementById('inv-three-max').value),
+                    targetRatio: parseFloat(document.getElementById('inv-target-ratio').value),
+                    maxRatio: parseFloat(document.getElementById('inv-max-ratio').value)
+                },
+                expansion: {
+                    roofCapacityFactor: parseFloat(document.getElementById('expansion-roof-factor').value),
+                    replaceInverter: document.getElementById('expansion-replace-inverter').checked
+                },
+                proposals: {
+                    premium: { 
+                        targetKw: parseFloat(document.getElementById('proposal-premium-target').value) 
+                    },
+                    balanced: { 
+                        targetKwSmall: parseFloat(document.getElementById('proposal-balanced-small').value),
+                        targetKwLarge: parseFloat(document.getElementById('proposal-balanced-large').value),
+                        roofThreshold: parseFloat(document.getElementById('proposal-balanced-threshold').value)
+                    },
+                    economy: { 
+                        targetKw: parseFloat(document.getElementById('proposal-economy-target').value) 
+                    }
+                },
+                consumption: {
+                    TAS: parseInt(document.getElementById('consumption-TAS').value),
+                    NT: parseInt(document.getElementById('consumption-NT').value),
+                    ACT: parseInt(document.getElementById('consumption-ACT').value),
+                    SA: parseInt(document.getElementById('consumption-SA').value),
+                    NSW: parseInt(document.getElementById('consumption-NSW').value),
+                    QLD: parseInt(document.getElementById('consumption-QLD').value),
+                    VIC: parseInt(document.getElementById('consumption-VIC').value),
+                    WA: parseInt(document.getElementById('consumption-WA').value)
+                },
+                cost: {
+                    scheme: document.querySelector('input[name="cost-scheme"]:checked').value,
+                    schemeA: {
+                        pvPerKw: parseFloat(document.getElementById('cost-pv-per-kw').value),
+                        inverterPerKw: parseFloat(document.getElementById('cost-inverter-per-kw').value),
+                        batteryPerKwh: parseFloat(document.getElementById('cost-battery-per-kwh').value)
+                    },
+                    schemeB: {
+                        baseKw: parseFloat(document.getElementById('cost-b-base-kw').value),
+                        basePrice: parseFloat(document.getElementById('cost-b-base-price').value),
+                        adderPricePerKw: parseFloat(document.getElementById('cost-b-adder-price').value),
+                        batteryInstallFee: parseFloat(document.getElementById('cost-b-battery-install').value),
+                        batteryPerKwh: parseFloat(document.getElementById('cost-b-battery-per-kwh').value)
+                    },
+                    schemeC: {
+                        solarOnly: {
+                            exGstExStc: parseFloat(document.getElementById('cost-c-solar-only-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-c-solar-only-inc-gst-inc-stc').value)
+                        },
+                        hybridPv: {
+                            exGstExStc: parseFloat(document.getElementById('cost-c-hybrid-pv-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-c-hybrid-pv-inc-gst-inc-stc').value)
+                        },
+                        battery: {
+                            exGstExStc: parseFloat(document.getElementById('cost-c-battery-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-c-battery-inc-gst-inc-stc').value)
+                        }
+                    },
+                    schemeD: {
+                        solarOnly: {
+                            exGstExStc: parseFloat(document.getElementById('cost-d-solar-only-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-d-solar-only-inc-gst-inc-stc').value)
+                        },
+                        hybridPv: {
+                            exGstExStc: parseFloat(document.getElementById('cost-d-hybrid-pv-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-d-hybrid-pv-inc-gst-inc-stc').value)
+                        },
+                        batteryInstallFee: {
+                            exGstExStc: parseFloat(document.getElementById('cost-d-battery-install-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-d-battery-install-inc-gst-inc-stc').value)
+                        },
+                        batteryPerKwh: {
+                            exGstExStc: parseFloat(document.getElementById('cost-d-battery-per-kwh-ex-gst-ex-stc').value),
+                            incGstIncStc: parseFloat(document.getElementById('cost-d-battery-per-kwh-inc-gst-inc-stc').value)
+                        },
+                        standardBatteries: {}
+                    },
+                    gstRate: parseFloat(document.getElementById('cost-gst-rate').value)
+                },
+                subsidy: {
+                    stcPrice: parseFloat(document.getElementById('subsidy-stc-price').value),
+                    installYear: parseInt(document.getElementById('subsidy-install-year').value),
+                    deemingEndYear: parseInt(document.getElementById('subsidy-deeming-end-year').value),
+                    batteryStcFactor: parseFloat(document.getElementById('subsidy-battery-stc-factor').value),
+                    batteryCapacityCap: parseFloat(document.getElementById('subsidy-battery-capacity-cap').value),
+                    zoneRating: {
+                        TAS: parseFloat(document.getElementById('zone-rating-TAS').value),
+                        NT: parseFloat(document.getElementById('zone-rating-NT').value),
+                        ACT: parseFloat(document.getElementById('zone-rating-ACT').value),
+                        SA: parseFloat(document.getElementById('zone-rating-SA').value),
+                        NSW: parseFloat(document.getElementById('zone-rating-NSW').value),
+                        QLD: parseFloat(document.getElementById('zone-rating-QLD').value),
+                        VIC: parseFloat(document.getElementById('zone-rating-VIC').value),
+                        WA: parseFloat(document.getElementById('zone-rating-WA').value)
+                    }
+                }
+            };
+        }
+
+        // 保存配置到localStorage
+        function saveConfig() {
+            const config = collectConfig();
+            localStorage.setItem('solarConfig', JSON.stringify(config));
+            return config;
+        }
+
+        // 从localStorage加载配置
+        function loadConfigFromStorage() {
+            const stored = localStorage.getItem('solarConfig');
+            return stored ? JSON.parse(stored) : null;
+        }
+
+        // 应用配置到表单
+        function applyConfigToForm(config) {
+            if (!config) return;
+            
+            // PV配置
+            document.getElementById('pv-model').value = config.pv.model;
+            document.getElementById('pv-pmax').value = config.pv.pmax;
+            if (config.pv.annualKwhPerKw !== undefined) {
+                document.getElementById('pv-annualKwhPerKw').value = config.pv.annualKwhPerKw;
+            }
+            
+            // 电池配置 (V3: 使用 surplus 替代 pv)
+            document.getElementById('battery-premium-daily').value = config.battery.premium.daily;
+            document.getElementById('battery-premium-evening').value = config.battery.premium.evening;
+            document.getElementById('battery-premium-surplus').value = config.battery.premium.surplus || config.battery.premium.pv || 0.85;
+            document.getElementById('battery-balanced-daily').value = config.battery.balanced.daily;
+            document.getElementById('battery-balanced-evening').value = config.battery.balanced.evening;
+            document.getElementById('battery-balanced-surplus').value = config.battery.balanced.surplus || config.battery.balanced.pv || 0.6;
+            document.getElementById('battery-economy-daily').value = config.battery.economy.daily;
+            document.getElementById('battery-economy-evening').value = config.battery.economy.evening;
+            document.getElementById('battery-economy-surplus').value = config.battery.economy.surplus || config.battery.economy.pv || 0.4;
+            document.getElementById('battery-standards').value = config.battery.standards.join(', ');
+            document.getElementById('battery-use-standards').checked = config.battery.useStandards !== undefined ? config.battery.useStandards : true;
+            if (config.battery.minCapacity !== undefined) {
+                document.getElementById('battery-min-capacity').value = config.battery.minCapacity;
+            }
+            if (config.battery.maxCapacity !== undefined) {
+                document.getElementById('battery-max-capacity').value = config.battery.maxCapacity;
+            }
+            if (config.battery.dod !== undefined) {
+                document.getElementById('battery-dod').value = config.battery.dod;
+            }
+            if (config.battery.rte !== undefined) {
+                document.getElementById('battery-rte').value = config.battery.rte;
+            }
+            
+            // 逆变器配置
+            document.getElementById('inv-single-a').value = config.inverter.single.a.join(', ');
+            document.getElementById('inv-single-b').value = config.inverter.single.b.join(', ');
+            document.getElementById('inv-single-c').value = config.inverter.single.c.join(', ');
+            document.getElementById('inv-three-a').value = config.inverter.three.a.join(', ');
+            document.getElementById('inv-three-b').value = config.inverter.three.b.join(', ');
+            document.getElementById('inv-three-c').value = config.inverter.three.c.join(', ');
+            document.getElementById('inv-single-enable').checked = !!config.inverter.enableSingleOptions;
+            document.getElementById('inv-three-enable').checked = !!config.inverter.enableThreeOptions;
+            document.getElementById('inv-target-ratio').value = config.inverter.targetRatio;
+            document.getElementById('inv-max-ratio').value = config.inverter.maxRatio;
+            
+            // 储能扩容配置
+            if (config.expansion) {
+                document.getElementById('expansion-roof-factor').value = config.expansion.roofCapacityFactor || 0.7;
+                document.getElementById('expansion-replace-inverter').checked = config.expansion.replaceInverter !== false;
+            }
+            
+            // 方案目标容量配置
+            if (config.proposals) {
+                if (config.proposals.premium) {
+                    document.getElementById('proposal-premium-target').value = config.proposals.premium.targetKw || 999;
+                }
+                if (config.proposals.balanced) {
+                    document.getElementById('proposal-balanced-small').value = config.proposals.balanced.targetKwSmall || 10.0;
+                    document.getElementById('proposal-balanced-large').value = config.proposals.balanced.targetKwLarge || 13.0;
+                    document.getElementById('proposal-balanced-threshold').value = config.proposals.balanced.roofThreshold || 15;
+                }
+                if (config.proposals.economy) {
+                    document.getElementById('proposal-economy-target').value = config.proposals.economy.targetKw || 6.6;
+                }
+            }
+            
+            // 用电量配置
+            Object.keys(config.consumption).forEach(state => {
+                document.getElementById(`consumption-${state}`).value = config.consumption[state];
+            });
+            
+            // 成本配置
+            // 方案选择
+            const scheme = config.cost.scheme || 'A';
+            document.getElementById('cost-scheme-a').checked = (scheme === 'A');
+            document.getElementById('cost-scheme-b').checked = (scheme === 'B');
+            document.getElementById('cost-scheme-c').checked = (scheme === 'C');
+            document.getElementById('cost-scheme-d').checked = (scheme === 'D');
+            // 切换面板显示
+            const panelA = document.getElementById('cost-scheme-a-panel');
+            const panelB = document.getElementById('cost-scheme-b-panel');
+            const panelC = document.getElementById('cost-scheme-c-panel');
+            const panelD = document.getElementById('cost-scheme-d-panel');
+            panelA.classList.add('hidden');
+            panelB.classList.add('hidden');
+            panelC.classList.add('hidden');
+            panelD.classList.add('hidden');
+            if (scheme === 'A') {
+                panelA.classList.remove('hidden');
+            } else if (scheme === 'B') {
+                panelB.classList.remove('hidden');
+            } else if (scheme === 'C') {
+                panelC.classList.remove('hidden');
+            } else if (scheme === 'D') {
+                panelD.classList.remove('hidden');
+            }
+            
+            // 方案A配置 (兼容旧格式)
+            if (config.cost.schemeA) {
+                document.getElementById('cost-pv-per-kw').value = config.cost.schemeA.pvPerKw;
+                document.getElementById('cost-inverter-per-kw').value = config.cost.schemeA.inverterPerKw;
+                document.getElementById('cost-battery-per-kwh').value = config.cost.schemeA.batteryPerKwh;
+            } else if (config.cost.pvPerKw !== undefined) {
+                // 兼容旧格式
+                document.getElementById('cost-pv-per-kw').value = config.cost.pvPerKw;
+                document.getElementById('cost-inverter-per-kw').value = config.cost.inverterPerKw;
+                document.getElementById('cost-battery-per-kwh').value = config.cost.batteryPerKwh;
+            }
+            
+            // 方案B配置
+            if (config.cost.schemeB) {
+                document.getElementById('cost-b-base-kw').value = config.cost.schemeB.baseKw || 6.6;
+                document.getElementById('cost-b-base-price').value = config.cost.schemeB.basePrice || 4500;
+                document.getElementById('cost-b-adder-price').value = config.cost.schemeB.adderPricePerKw || 500;
+                document.getElementById('cost-b-battery-install').value = config.cost.schemeB.batteryInstallFee || 1500;
+                document.getElementById('cost-b-battery-per-kwh').value = config.cost.schemeB.batteryPerKwh || 700;
+            }
+            
+            // 方案C配置
+            if (config.cost.schemeC) {
+                if (config.cost.schemeC.solarOnly) {
+                    document.getElementById('cost-c-solar-only-ex-gst-ex-stc').value = config.cost.schemeC.solarOnly.exGstExStc || 750;
+                    document.getElementById('cost-c-solar-only-inc-gst-inc-stc').value = config.cost.schemeC.solarOnly.incGstIncStc || 600;
+                }
+                if (config.cost.schemeC.hybridPv) {
+                    document.getElementById('cost-c-hybrid-pv-ex-gst-ex-stc').value = config.cost.schemeC.hybridPv.exGstExStc || 800;
+                    document.getElementById('cost-c-hybrid-pv-inc-gst-inc-stc').value = config.cost.schemeC.hybridPv.incGstIncStc || 650;
+                }
+                if (config.cost.schemeC.battery) {
+                    document.getElementById('cost-c-battery-ex-gst-ex-stc').value = config.cost.schemeC.battery.exGstExStc || 700;
+                    document.getElementById('cost-c-battery-inc-gst-inc-stc').value = config.cost.schemeC.battery.incGstIncStc || 450;
+                }
+            }
+            
+            // 方案D配置
+            if (config.cost.schemeD) {
+                if (config.cost.schemeD.solarOnly) {
+                    document.getElementById('cost-d-solar-only-ex-gst-ex-stc').value = config.cost.schemeD.solarOnly.exGstExStc || 750;
+                    document.getElementById('cost-d-solar-only-inc-gst-inc-stc').value = config.cost.schemeD.solarOnly.incGstIncStc || 600;
+                }
+                if (config.cost.schemeD.hybridPv) {
+                    document.getElementById('cost-d-hybrid-pv-ex-gst-ex-stc').value = config.cost.schemeD.hybridPv.exGstExStc || 650;
+                    document.getElementById('cost-d-hybrid-pv-inc-gst-inc-stc').value = config.cost.schemeD.hybridPv.incGstIncStc || 520;
+                }
+                if (config.cost.schemeD.batteryInstallFee) {
+                    document.getElementById('cost-d-battery-install-ex-gst-ex-stc').value = config.cost.schemeD.batteryInstallFee.exGstExStc || 1800;
+                    document.getElementById('cost-d-battery-install-inc-gst-inc-stc').value = config.cost.schemeD.batteryInstallFee.incGstIncStc || 1500;
+                }
+                if (config.cost.schemeD.batteryPerKwh) {
+                    document.getElementById('cost-d-battery-per-kwh-ex-gst-ex-stc').value = config.cost.schemeD.batteryPerKwh.exGstExStc || 550;
+                    document.getElementById('cost-d-battery-per-kwh-inc-gst-inc-stc').value = config.cost.schemeD.batteryPerKwh.incGstIncStc || 450;
+                }
+            }
+            
+            document.getElementById('cost-gst-rate').value = config.cost.gstRate;
+            
+            // 补贴配置
+            document.getElementById('subsidy-stc-price').value = config.subsidy.stcPrice;
+            document.getElementById('subsidy-install-year').value = config.subsidy.installYear;
+            document.getElementById('subsidy-deeming-end-year').value = config.subsidy.deemingEndYear;
+            document.getElementById('subsidy-battery-stc-factor').value = config.subsidy.batteryStcFactor;
+            document.getElementById('subsidy-battery-capacity-cap').value = config.subsidy.batteryCapacityCap;
+            Object.keys(config.subsidy.zoneRating).forEach(state => {
+                document.getElementById(`zone-rating-${state}`).value = config.subsidy.zoneRating[state];
+            });
+        }
+
+        // 保存配置按钮（新增）
+        document.getElementById('save-config').addEventListener('click', () => {
+            saveConfig();
+            alert('✅ 配置已保存！\n\n所有页面将使用新配置。');
+        });
+
+        // 导出配置
+        document.getElementById('export-config').addEventListener('click', () => {
+            const config = collectConfig();
+            const blob = new Blob([JSON.stringify(config, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `solar_config_${new Date().getTime()}.json`;
+            a.click();
+        });
+
+        // 重置配置
+        document.getElementById('reset-config').addEventListener('click', () => {
+            if (confirm('确定要重置所有配置为默认值吗？\n\n这将清除localStorage中的配置并刷新页面。')) {
+                localStorage.removeItem('solarConfig');
+                location.reload();
+            }
+        });
+
+        // 导入配置
+        document.getElementById('load-config').addEventListener('click', () => {
+            document.getElementById('config-file-input').click();
+        });
+
+        document.getElementById('config-file-input').addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            try {
+                const text = await file.text();
+                const config = JSON.parse(text);
+                
+                // 应用配置到表单
+                applyConfigToForm(config);
+                
+                // 保存到localStorage
+                localStorage.setItem('solarConfig', JSON.stringify(config));
+                
+                alert('✅ 配置已导入并保存！\n\n表单已更新，所有页面将使用新配置。');
+            } catch (error) {
+                alert('❌ 导入失败：' + error.message);
+            }
+        });
+
+        // 页面加载时自动加载保存的配置
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedConfig = loadConfigFromStorage();
+            if (savedConfig) {
+                applyConfigToForm(savedConfig);
+                console.log('✅ 已加载保存的配置');
+            } else {
+                console.log('ℹ️ 使用默认配置');
+            }
+        });
+
+        // 解析坡面数据 - 支持四种格式
+        // 格式1: 方位角, 最大面板数（逗号分隔）
+        //   299.35, 3
+        //   209.35, 0
+        // 格式2: 方位角 最大面板数（空格或Tab分隔）
+        //   296.565  3
+        //   26.565   0
+        // 格式3: 每两行一组（第一行方位角，第二行面板数）
+        //   299.35
+        //   3
+        // 格式4: 每三行一组（第一行 slope 名称，第二行方位角，第三行面板数）
+        //   slope 1
+        //   285.94
+        //   3
+        function parseSlopes(slopesText) {
+            const lines = slopesText.trim().split('\n').filter(line => line.trim());
+            const slopes = [];
+            
+            if (lines.length === 0) {
+                return slopes;
+            }
+            
+            const first = lines[0].trim();
+            const hasComma = first.includes(',');
+            const isSlopeName = /^slope\s+/i.test(first); // 形如 "slope 1"
+            // 检测是否为空格/Tab分隔格式：一行包含两个数字，用空格或Tab分隔
+            const hasSpaceSeparator = !hasComma && /^[\d.]+[\s\t]+[\d.]+$/.test(first);
+            
+            if (hasComma) {
+                // 格式1: 方位角, 最大面板数（逗号分隔）
+                lines.forEach((line, idx) => {
+                    const parts = line.split(',').map(s => s.trim());
+                    if (parts.length >= 2) {
+                        const aspect = parseFloat(parts[0]);
+                        const max = Math.round(parseFloat(parts[1])) || 0;
+                        slopes.push({
+                            id: `slope ${idx + 1}`,
+                            aspect: aspect,
+                            max: max,
+                            score: calculateScore(aspect)
+                        });
+                    }
+                });
+            } else if (hasSpaceSeparator) {
+                // 格式2: 方位角 最大面板数（空格或Tab分隔）
+                lines.forEach((line, idx) => {
+                    const parts = line.trim().split(/[\s\t]+/).filter(s => s);
+                    if (parts.length >= 2) {
+                        const aspect = parseFloat(parts[0]);
+                        const max = Math.round(parseFloat(parts[1])) || 0;
+                        slopes.push({
+                            id: `slope ${idx + 1}`,
+                            aspect: aspect,
+                            max: max,
+                            score: calculateScore(aspect)
+                        });
+                    }
+                });
+            } else if (isSlopeName) {
+                // 格式3: 每三行一组（slope 名 + 方位角 + 面板数）
+                for (let i = 0; i + 2 < lines.length; i += 3) {
+                    const name = lines[i].trim();
+                    const aspectStr = lines[i + 1].trim();
+                    const maxStr = lines[i + 2].trim();
+                    
+                    const aspect = parseFloat(aspectStr);
+                    const max = Math.round(parseFloat(maxStr)) || 0;
+                    
+                    slopes.push({
+                        id: name,
+                        aspect: aspect,
+                        max: max,
+                        score: calculateScore(aspect)
+                    });
+                }
+            } else {
+                // 格式4: 每两行一组（第一行方位角，第二行面板数）
+                for (let i = 0; i + 1 < lines.length; i += 2) {
+                    const aspectStr = lines[i].trim();
+                    const maxStr = lines[i + 1].trim();
+                    
+                    const aspect = parseFloat(aspectStr);
+                    const max = Math.round(parseFloat(maxStr)) || 0;
+                    
+                    slopes.push({
+                        id: `slope ${Math.floor(i / 2) + 1}`,
+                        aspect: aspect,
+                        max: max,
+                        score: calculateScore(aspect)
+                    });
+                }
+            }
+            
+            return slopes;
+        }
+
+        // 自定义房屋 - 测试计算
+        document.getElementById('test-custom-house').addEventListener('click', () => {
+            const houseId = document.getElementById('custom-house-id').value.trim() || 'test_custom';
+            const slopesText = document.getElementById('custom-slopes').value;
+            
+            if (!slopesText) {
+                alert('请输入坡面数据');
+                return;
+            }
+            
+            try {
+                // 解析坡面数据
+                const slopes = parseSlopes(slopesText);
+                
+                if (slopes.length === 0) {
+                    alert('❌ 无法解析坡面数据，请检查格式');
+                    return;
+                }
+                
+                const totalPanels = slopes.reduce((sum, s) => sum + s.max, 0);
+                const totalKw = (totalPanels * 0.44).toFixed(2);
+                
+                const result = {
+                    houseId,
+                    slopes,
+                    totalPanels,
+                    totalKw
+                };
+                
+                document.getElementById('custom-result').classList.remove('hidden');
+                document.getElementById('custom-result-text').textContent = JSON.stringify(result, null, 2);
+            } catch (error) {
+                alert('❌ 解析失败：' + error.message);
+            }
+        });
+
+        // 自定义房屋 - 添加到系统
+        document.getElementById('add-custom-house').addEventListener('click', () => {
+            const houseId = document.getElementById('custom-house-id').value.trim() || 'test_custom';
+            const slopesText = document.getElementById('custom-slopes').value;
+            
+            if (!slopesText) {
+                alert('请输入坡面数据');
+                return;
+            }
+            
+            try {
+                // 解析坡面数据
+                const slopes = parseSlopes(slopesText);
+                
+                if (slopes.length === 0) {
+                    alert('❌ 无法解析坡面数据，请检查格式');
+                    return;
+                }
+                
+                // 从localStorage获取现有的自定义房屋数据
+                let customHouses = {};
+                const stored = localStorage.getItem('customHouses');
+                if (stored) {
+                    customHouses = JSON.parse(stored);
+                }
+                
+                // 添加新房屋
+                customHouses[houseId] = slopes;
+                
+                // 保存到localStorage
+                localStorage.setItem('customHouses', JSON.stringify(customHouses));
+                
+                alert(`✅ 房屋 "${houseId}" 已添加到系统！\n\n共 ${slopes.length} 个坡面，${slopes.reduce((sum, s) => sum + s.max, 0)} 块面板\n\n请前往"单个分析"或"批量处理"页面使用。`);
+                
+                // 显示测试结果
+                document.getElementById('custom-result').classList.remove('hidden');
+                document.getElementById('custom-result-text').textContent = JSON.stringify({
+                    houseId,
+                    slopes,
+                    totalPanels: slopes.reduce((sum, s) => sum + s.max, 0),
+                    totalKw: (slopes.reduce((sum, s) => sum + s.max, 0) * 0.44).toFixed(2),
+                    status: '已保存到系统'
+                }, null, 2);
+            } catch (error) {
+                alert('❌ 添加失败：' + error.message);
+            }
+        });
+
+        function calculateScore(aspect) {
+            let diff = Math.abs(aspect - 0);
+            if (diff > 180) diff = 360 - diff;
+            return Math.max(0, 100 - (diff / 180) * 100);
+        }
+    </script>
+</body>
+</html>
